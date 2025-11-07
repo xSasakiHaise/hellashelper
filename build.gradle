@@ -1,0 +1,44 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'java'
+}
+
+group = "com.xsasakihaise.hellasaudio"
+version = "1.0.0"
+archivesBaseName = "hellasaudio"
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(8) // Forge 1.16.5 requires Java 8
+    }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.16.5'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly files('C:/Users/raehr/Documents/Hellas/HellasControl/build/libs/hellascontrol-1.0.0.jar')
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.42'
+}
+
+
+jar {
+    manifest {
+        attributes(
+                "Specification-Title": "HellasAudio",
+                "Specification-Vendor": "xSasaki_Haise",
+                "Specification-Version": "1",
+                "Implementation-Title": "HellasAudio",
+                "Implementation-Version":"1.0.0",
+                "Implementation-Vendor": "xSasaki_Haise"
+        )
+    }
+}
