@@ -6,9 +6,9 @@ plugins {
     id 'java'
 }
 
-group = "com.xsasakihaise.hellasaudio"
+group = "com.xsasakihaise.hellashelper"
 version = "1.0.0"
-archivesBaseName = "hellasaudio"
+archivesBaseName = "hellashelper"
 
 java {
     toolchain {
@@ -25,7 +25,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly files('C:/Users/raehr/Documents/Hellas/HellasControl/build/libs/hellascontrol-1.0.0.jar')
+    compileOnly fileTree(dir: 'libs', include: ['hellascontrol-1.0.0.jar'])
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.42'
 }
 
@@ -33,10 +33,10 @@ dependencies {
 jar {
     manifest {
         attributes(
-                "Specification-Title": "HellasAudio",
+                "Specification-Title": "HellasHelper",
                 "Specification-Vendor": "xSasaki_Haise",
                 "Specification-Version": "1",
-                "Implementation-Title": "HellasAudio",
+                "Implementation-Title": "HellasHelper",
                 "Implementation-Version":"1.0.0",
                 "Implementation-Vendor": "xSasaki_Haise"
         )
