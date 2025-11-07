@@ -25,7 +25,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly fileTree(dir: 'libs', include: ['hellascontrol-1.0.0.jar'])
+    compileOnly fileTree(dir: 'libs', include: ['hellascontrol-2.0.0.jar'])
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.42'
 }
 
