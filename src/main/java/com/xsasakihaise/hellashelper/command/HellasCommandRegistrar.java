@@ -31,7 +31,14 @@ import java.util.Objects;
 import java.util.Optional;
 
 /**
- * Registers `/hellas` commands that expose metadata for Hellas suite mods.
+ * Registers {@code /hellas} commands that expose metadata for Hellas suite mods.
+ * <p>
+ * The Helper mod acts as a centralized information hub for players and staff.
+ * This registrar inspects the installed Hellas mods and dynamically exposes
+ * subcommands for each of them. Each subcommand can report the installed
+ * version, declared dependencies, and a human-friendly list of features that
+ * is stored in {@code config/<modid>.json} files within the respective mod JARs.
+ * </p>
  */
 public final class HellasCommandRegistrar {
     private static final Logger LOGGER = LogManager.getLogger();
@@ -55,6 +62,11 @@ public final class HellasCommandRegistrar {
     private HellasCommandRegistrar() {
     }
 
+    /**
+     * Entrypoint for Forge's command registration event.
+     *
+     * @param event the command registration event fired during server startup
+     */
     public static void register(final RegisterCommandsEvent event) {
         final CommandDispatcher<CommandSource> dispatcher = event.getDispatcher();
         LiteralCommandNode<CommandSource> hellasRoot = getLiteralChild(dispatcher.getRoot(), "hellas");
@@ -78,6 +90,13 @@ public final class HellasCommandRegistrar {
         }
     }
 
+    /**
+     * Attempts to retrieve a literal child node with the given name.
+     *
+     * @param parent  root node to inspect
+     * @param literal child literal name to resolve
+     * @return the literal node if present, otherwise {@code null}
+     */
     private static LiteralCommandNode<CommandSource> getLiteralChild(final CommandNode<CommandSource> parent,
                                                                      final String literal) {
         final CommandNode<CommandSource> child = parent.getChild(literal);
@@ -87,6 +106,13 @@ public final class HellasCommandRegistrar {
         return null;
     }
 
+    /**
+     * Retrieves or creates the literal node under {@code /hellas} for a specific mod.
+     *
+     * @param hellasRoot the {@code /hellas} root literal node
+     * @param literal    the literal command identifier for the mod
+     * @return a literal node that can receive additional children
+     */
     private static LiteralCommandNode<CommandSource> findOrCreateModNode(final LiteralCommandNode<CommandSource> hellasRoot,
                                                                           final String literal) {
         final LiteralCommandNode<CommandSource> existing = getLiteralChild(hellasRoot, literal);
@@ -99,6 +125,12 @@ public final class HellasCommandRegistrar {
         return node;
     }
 
+    /**
+     * Creates the metadata subcommands for the supplied mod definition.
+     *
+     * @param modNode the literal node representing the mod's subcommand tree
+     * @param mod     metadata describing how to interact with the mod
+     */
     private static void registerMetadataCommands(final LiteralCommandNode<CommandSource> modNode,
                                                   final ModCommandDefinition mod) {
         if (modNode.getChild("version") == null) {
@@ -126,6 +158,13 @@ public final class HellasCommandRegistrar {
         }
     }
 
+    /**
+     * Sends the resolved version information for the requested mod.
+     *
+     * @param source destination for feedback messages
+     * @param mod    definition for the mod being queried
+     * @return brigadier command result
+     */
     private static int sendVersion(final CommandSource source, final ModCommandDefinition mod) {
         if (!isModPresent(mod)) {
             source.sendFailure(new StringTextComponent(mod.displayName + " is not present on this server."));
@@ -140,6 +179,13 @@ public final class HellasCommandRegistrar {
         return Command.SINGLE_SUCCESS;
     }
 
+    /**
+     * Outputs the dependency declarations parsed from the mod's metadata file.
+     *
+     * @param source destination for feedback messages
+     * @param mod    definition for the mod being queried
+     * @return brigadier command result
+     */
     private static int sendDependencies(final CommandSource source, final ModCommandDefinition mod) {
         if (!isModPresent(mod)) {
             source.sendFailure(new StringTextComponent(mod.displayName + " is not present on this server."));
@@ -159,6 +205,13 @@ public final class HellasCommandRegistrar {
         return Command.SINGLE_SUCCESS;
     }
 
+    /**
+     * Outputs the feature highlights declared in the mod's metadata file.
+     *
+     * @param source destination for feedback messages
+     * @param mod    definition for the mod being queried
+     * @return brigadier command result
+     */
     private static int sendFeatures(final CommandSource source, final ModCommandDefinition mod) {
         if (!isModPresent(mod)) {
             source.sendFailure(new StringTextComponent(mod.displayName + " is not present on this server."));
@@ -178,6 +231,13 @@ public final class HellasCommandRegistrar {
         return Command.SINGLE_SUCCESS;
     }
 
+    /**
+     * Executes the {@code /hellas helper rollcall} command which lists the
+     * installation status of every known Hellas module.
+     *
+     * @param source command sender that will receive rollcall output
+     * @return brigadier command result
+     */
     private static int runRollcall(final CommandSource source) {
         source.sendSuccess(new StringTextComponent("Hellas suite rollcall:"), false);
         for (ModCommandDefinition mod : MODS) {
@@ -194,15 +254,40 @@ public final class HellasCommandRegistrar {
         return Command.SINGLE_SUCCESS;
     }
 
+    /**
+     * Checks whether the provided Hellas mod is currently loaded in this runtime.
+     *
+     * @param mod definition of the mod to check
+     * @return {@code true} if the mod is available, {@code false} otherwise
+     */
     private static boolean isModPresent(final ModCommandDefinition mod) {
         return ModList.get().isLoaded(mod.modId);
     }
 
+    /**
+     * Attempts to read the installed version number directly from Forge's
+     * mod container if the metadata file does not provide it.
+     *
+     * @param mod definition for the mod being queried
+     * @return optional version string if the container is available
+     */
     private static Optional<String> resolveInstalledVersion(final ModCommandDefinition mod) {
         final Optional<? extends ModContainer> container = ModList.get().getModContainerById(mod.modId);
         return container.map(value -> value.getModInfo().getVersion().toString());
     }
 
+    /**
+     * Loads the JSON metadata document bundled inside the target mod.
+     * <p>
+     * The document is expected to live under {@code config/<modid>.json} and
+     * can include the version, dependencies, and a set of friendly feature
+     * descriptions. Invalid or missing files are tolerated and result in an
+     * empty {@link Optional}.
+     * </p>
+     *
+     * @param mod definition describing the metadata file to load
+     * @return optional metadata representation
+     */
     private static Optional<ModMetadata> loadMetadata(final ModCommandDefinition mod) {
         if (!isModPresent(mod)) {
             return Optional.empty();
@@ -245,6 +330,13 @@ public final class HellasCommandRegistrar {
         }
     }
 
+    /**
+     * Reads a string property from the supplied JSON object.
+     *
+     * @param object object to inspect
+     * @param key    property name
+     * @return optional string value when the key is present and primitive
+     */
     private static Optional<String> readString(final JsonObject object, final String key) {
         if (!object.has(key)) {
             return Optional.empty();
@@ -258,6 +350,12 @@ public final class HellasCommandRegistrar {
         return Optional.of(element.getAsString());
     }
 
+    /**
+     * Converts a JSON array into an immutable list of strings.
+     *
+     * @param element JSON element to convert
+     * @return list of string values, or an empty list when the element is null/invalid
+     */
     private static List<String> readStringArray(final JsonElement element) {
         if (element == null || !element.isJsonArray()) {
             return Collections.emptyList();
@@ -273,6 +371,11 @@ public final class HellasCommandRegistrar {
         return values;
     }
 
+    /**
+     * Describes how to expose a specific Hellas mod via the {@code /hellas}
+     * command tree. Each definition includes the mod id, a friendly display
+     * name, and the literal that users type to reach it.
+     */
     private static final class ModCommandDefinition {
         private final String displayName;
         private final String modId;
@@ -297,6 +400,9 @@ public final class HellasCommandRegistrar {
         }
     }
 
+    /**
+     * Immutable DTO that represents the metadata file payload for a specific mod.
+     */
     private static final class ModMetadata {
         private final String version;
         private final List<String> dependencies;
@@ -308,14 +414,23 @@ public final class HellasCommandRegistrar {
             this.features = Collections.unmodifiableList(new ArrayList<>(features));
         }
 
+        /**
+         * @return string version resolved from metadata or Forge
+         */
         public String getVersion() {
             return version;
         }
 
+        /**
+         * @return list of textual dependency entries defined in the metadata file
+         */
         public List<String> getDependencies() {
             return dependencies;
         }
 
+        /**
+         * @return list of human-friendly feature blurbs sourced from metadata
+         */
         public List<String> getFeatures() {
             return features;
         }
