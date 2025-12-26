@@ -23,10 +23,11 @@ minecraft {
 repositories {
     mavenCentral()
     maven { url 'https://jitpack.io' }
+    flatDir { dirs 'libs' }
 }
 
 dependencies {
-    compileOnly fg.deobf('com.github.xSasakiHaise:hellascontrol:2.0.0')
+    compileOnly fg.deobf(fileTree(dir: 'libs', include: ['*control*.jar']))
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.42'
 }
 
