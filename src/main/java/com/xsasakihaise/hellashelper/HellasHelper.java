@@ -11,6 +11,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Entry point for the Hellas Helper sidemod.
@@ -24,6 +26,10 @@ import net.minecraftforge.fml.loading.FMLEnvironment;
 @Mod(HellasHelper.MOD_ID)
 public final class HellasHelper {
     public static final String MOD_ID = "hellashelper";
+    private static final Logger LOGGER = LogManager.getLogger("HellasHelper");
+    private static final String ENTITLEMENT_KEY = MOD_ID;
+    private static volatile boolean ENABLED = false;
+    private static volatile String DISABLE_REASON = "UNINITIALIZED";
 
     /**
      * Registers the mod lifecycle listeners required by this helper mod.
@@ -47,14 +53,34 @@ public final class HellasHelper {
      * @param event the common setup lifecycle event fired by Forge
      */
     private void onCommonSetup(final FMLCommonSetupEvent event) {
-        if (!ModList.get().isLoaded("hellascontrol")) {
+        event.enqueueWork(this::initGate);
+    }
+
+    private void initGate() {
+        if (FMLEnvironment.dist != Dist.DEDICATED_SERVER) {
+            ENABLED = true;
+            DISABLE_REASON = "OK (non-dedicated)";
             return;
         }
 
-        CoreCheck.verifyCoreLoaded();
+        if (!ModList.get().isLoaded("hellascontrol")) {
+            ENABLED = false;
+            DISABLE_REASON = "HellasControl missing";
+            LOGGER.warn("[HellasHelper] disabled: {}", DISABLE_REASON);
+            return;
+        }
 
-        if (FMLEnvironment.dist == Dist.DEDICATED_SERVER) {
-            CoreCheck.verifyEntitled(MOD_ID);
+        try {
+            CoreCheck.verifyCoreLoaded();
+            CoreCheck.verifyEntitled(ENTITLEMENT_KEY);
+
+            ENABLED = true;
+            DISABLE_REASON = "OK";
+            LOGGER.info("[HellasHelper] enabled (license OK) entitlement='{}'", ENTITLEMENT_KEY);
+        } catch (Exception e) {
+            ENABLED = false;
+            DISABLE_REASON = "License invalid";
+            LOGGER.warn("[HellasHelper] disabled: {} entitlement='{}'", DISABLE_REASON, ENTITLEMENT_KEY, e);
         }
     }
 
@@ -65,6 +91,9 @@ public final class HellasHelper {
      * @param event event provided by Forge during the server command build phase
      */
     private void onRegisterCommands(final RegisterCommandsEvent event) {
+        if (!ENABLED) {
+            return;
+        }
         HellasCommandRegistrar.register(event);
     }
 }
