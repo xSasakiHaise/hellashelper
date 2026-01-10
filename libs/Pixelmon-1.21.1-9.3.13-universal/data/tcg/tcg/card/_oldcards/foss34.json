@@ -1,0 +1,34 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 42,
+  "previous_pokemon_id": 41,
+  "retreat_cost": 0,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS34.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.FOSS34.2.text",
+      "effects": [
+        {
+          "type": "tcg:leech_seed",
+          "heal_type": "FullDamage",
+          "heal_amount": 0
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

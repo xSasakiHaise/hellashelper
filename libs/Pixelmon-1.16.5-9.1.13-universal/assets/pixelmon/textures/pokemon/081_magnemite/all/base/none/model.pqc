@@ -1,0 +1,4 @@
+$body magnemite.bmd
+$anim idle idle.bmd
+$anim fly idle.bmd
+$scale 1.0

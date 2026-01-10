@@ -1,0 +1,48 @@
+{
+  "spawns": [
+    {
+      "spec": "Deerling form:spring",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/deerling-spring-2-3",
+      "weight": 1.0
+    },
+    {
+      "spec": "Deerling form:summer",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/deerling-summer-2-3",
+      "weight": 1.0
+    },
+    {
+      "spec": "Deerling form:winter",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/deerling-winter-2-3",
+      "weight": 1.0
+    },
+    {
+      "spec": "Deerling form:autumn",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/deerling-autumn-2-3",
+      "weight": 1.0
+    }
+  ]
+}

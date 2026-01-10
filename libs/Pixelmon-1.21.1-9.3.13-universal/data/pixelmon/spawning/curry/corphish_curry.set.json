@@ -1,0 +1,22 @@
+{
+  "id": "Corphish Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Corphish",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

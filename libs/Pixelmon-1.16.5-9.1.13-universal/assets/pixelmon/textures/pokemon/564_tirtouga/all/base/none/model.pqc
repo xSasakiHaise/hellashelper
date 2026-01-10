@@ -1,0 +1,5 @@
+$body tirtouga.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$anim swim swim.bmd
+$scale 2.8

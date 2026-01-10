@@ -1,0 +1,30 @@
+{
+  "id": "Druddigon Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Druddigon",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 50,
+      "maxLevel": 62,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_fang",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ],
+        "minY": 70
+      },
+      "rarity": 6.0
+    }
+  ]
+}

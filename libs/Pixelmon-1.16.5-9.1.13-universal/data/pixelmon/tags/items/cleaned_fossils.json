@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:helix_fossil",
+    "pixelmon:dome_fossil",
+    "pixelmon:old_amber",
+    "pixelmon:root_fossil",
+    "pixelmon:claw_fossil",
+    "pixelmon:skull_fossil",
+    "pixelmon:armor_fossil",
+    "pixelmon:cover_fossil",
+    "pixelmon:plume_fossil",
+    "pixelmon:jaw_fossil",
+    "pixelmon:sail_fossil",
+    "pixelmon:bird_fossil",
+    "pixelmon:dino_fossil",
+    "pixelmon:drake_fossil",
+    "pixelmon:fish_fossil"
+  ]
+}

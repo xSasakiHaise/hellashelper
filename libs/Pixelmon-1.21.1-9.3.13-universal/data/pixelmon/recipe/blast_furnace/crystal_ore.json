@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "pixelmon:crystal_ore"
+  },
+  "result": {
+    "id": "pixelmon:crystal"
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

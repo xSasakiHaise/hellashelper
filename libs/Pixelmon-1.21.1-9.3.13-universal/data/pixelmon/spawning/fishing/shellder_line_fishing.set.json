@@ -1,0 +1,82 @@
+{
+  "id": "Shellder Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Shellder",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Shellder",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Cloyster",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 43,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "rarity": 7.0
+    }
+  ]
+}

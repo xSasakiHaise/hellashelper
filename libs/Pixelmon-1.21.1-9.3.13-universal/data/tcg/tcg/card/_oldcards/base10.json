@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 150,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 3,
+  "rarity": "tcg:holo_rare",
+  "energies": "PSYCHIC",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE10.1.name",
+      "costs": [
+        "PSYCHIC",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.BASE10.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": false,
+          "damage_type": "PerEnergy",
+          "value": 10,
+          "ignore_base_damage": false
+        }
+      ]
+    },
+    {
+      "name": "attack.BASE10.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.BASE10.2.text",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "PSYCHIC",
+          "self": true,
+          "count": 1
+        },
+        {
+          "type": "tcg:immune",
+          "self": true,
+          "immune_type": "*",
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ]
+}

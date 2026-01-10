@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:thunder_stone"
+    }
+  },
+  "result": {
+    "id": "pixelmon:thunder_stone_leggings",
+    "count": 1
+  }
+}

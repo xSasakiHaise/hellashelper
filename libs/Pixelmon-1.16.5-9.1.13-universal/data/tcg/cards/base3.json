@@ -1,0 +1,62 @@
+{
+  "id": 3,
+  "setId": 1,
+  "cardType": "BASIC",
+  "isSpecial": false,
+  "hp": 120,
+  "energy1": "COLORLESS",
+  "energy2": null,
+  "pokemonId": 113,
+  "code": "BASE3",
+  "name": "card.BASE3.name",
+  "description": "",
+  "previousPokemonId": 0,
+  "cardAttacks": [
+    {
+      "card": "BASE3",
+      "index": 1,
+      "name": "attack.BASE3.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.BASE3.1.text",
+      "effects": [
+        "HEAD-SELF_IMMUNE:DAMAGE"
+      ]
+    },
+    {
+      "card": "BASE3",
+      "index": 2,
+      "name": "attack.BASE3.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 80,
+      "modifier": null,
+      "text": "attack.BASE3.2.text",
+      "effects": [
+        "SELF_DAMAGE:80"
+      ]
+    }
+  ],
+  "energyResistance": "PSYCHIC",
+  "resistanceValue": 30,
+  "resistanceCardModifier": "Minus",
+  "energyWeakness": "FIGHTING",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "HOLORARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

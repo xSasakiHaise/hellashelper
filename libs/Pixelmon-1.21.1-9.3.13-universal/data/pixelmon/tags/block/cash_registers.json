@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_cash_register",
+    "pixelmon:orange_cash_register",
+    "pixelmon:magenta_cash_register",
+    "pixelmon:light_blue_cash_register",
+    "pixelmon:yellow_cash_register",
+    "pixelmon:lime_cash_register",
+    "pixelmon:pink_cash_register",
+    "pixelmon:gray_cash_register",
+    "pixelmon:light_gray_cash_register",
+    "pixelmon:cyan_cash_register",
+    "pixelmon:purple_cash_register",
+    "pixelmon:blue_cash_register",
+    "pixelmon:brown_cash_register",
+    "pixelmon:green_cash_register",
+    "pixelmon:red_cash_register",
+    "pixelmon:black_cash_register"
+  ]
+}

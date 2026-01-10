@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "pokemon",
+      "prefix": "pokemon/"
+    },
+    {
+      "type": "directory",
+      "source": "sprites",
+      "prefix": "sprites/"
+    },
+    {
+      "type": "directory",
+      "source": "playeritems",
+      "prefix": "playeritems/"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "pixelmon",
+        "path": ".+[0-9]{3,4}_.+(texture|emissive|normal)"
+      }
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "pixelmon",
+        "path": ".+(cell|effects|eggs|icons|hat|den).+(zygarde_cell|zygarde_core|.+_cubemap|egggreen|eggtogepi|icon_.+|.+texture|raid_den)"
+      }
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "pixelmon",
+        "path": "^(playeritems\\/(?!hats\\/witch|hats\\/fedora|hats\\/fez|hats\\/top_hat|wings\\/articuno_wings|wings\\/heart_wings)).*"
+      }
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "pixelmon",
+        "path": "(^block/(fossil.*))|(block/trees/tree[0-9])|(^block/orbs/blue_orb)|(^block/orbs/red_orb)|(^block/cooking_pot)|(^pokemon/gold)|(^pokemon/silver)|(^pokemon/bronze)|(^pokemon/statue)|(^pokemon/statue_shiny)|(^pokemon/tail)"
+      }
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "pixelmon",
+        "path": "(^block/reassembly_unit/.*)|(^block/trash_can)|(^pokemon/149_dragonite/all/base/ashen/dragonite)"
+      }
+    }
+  ]
+}

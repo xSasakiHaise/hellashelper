@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "pixelmon:block/ore/deepslate_crystal_ore" }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 97,
+  "previous_pokemon_id": 96,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO26.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.TERO26.2.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 1,
+          "flip_type": "PerOppBench"
+        },
+        {
+          "type": "tcg:ignore_stats"
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

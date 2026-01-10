@@ -1,0 +1,31 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:machines/fossil/fossil_cleaner"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:machines/fossil/fossil_cleaner"
+      }
+    },
+    "has_uncleaned_fossil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:uncleaned_fossils"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_uncleaned_fossil"
+    ]
+  ]
+}

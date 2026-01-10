@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "pixelmon:block/fan",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "pixelmon:block/fan"
+    },
+    "facing=east": {
+      "model": "pixelmon:block/fan",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "pixelmon:block/fan",
+      "y": 270
+    }
+  }
+}

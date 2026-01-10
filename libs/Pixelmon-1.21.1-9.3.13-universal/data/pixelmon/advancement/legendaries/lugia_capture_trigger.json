@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "pixelmon:pixelmon_sprite",
+      "amount": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "ndex": 249,
+          "palette": "none",
+          "form": ""
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.lugia_capture.title"
+    },
+    "description": {
+      "translate": "advancements.lugia_capture.description"
+    },
+    "hidden": true
+  },
+  "parent": "pixelmon:legendaries/legendary_capture_trigger",
+  "criteria": {
+    "lugia_capture": {
+      "trigger": "pixelmon:legendary_capture_trigger",
+      "conditions": {
+        "pokemon": "lugia"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lugia_capture"
+    ]
+  ]
+}

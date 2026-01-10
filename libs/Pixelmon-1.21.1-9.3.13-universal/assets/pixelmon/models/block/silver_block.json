@@ -1,0 +1,9 @@
+{
+  "__comment__": "this file was automatically created by mcresources",
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "pixelmon:block/silver_block",
+    "all": "pixelmon:block/silver_block"
+  }
+}
+

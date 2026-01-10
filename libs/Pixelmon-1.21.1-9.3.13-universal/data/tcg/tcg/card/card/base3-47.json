@@ -1,0 +1,33 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base3-47.description",
+  "attacks": [
+    {
+      "name": "attack.base3-47.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base3-47.0.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 1,
+          "flip_type": "UntilFail"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIGHTING",
+  "pokemon_id": 74,
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

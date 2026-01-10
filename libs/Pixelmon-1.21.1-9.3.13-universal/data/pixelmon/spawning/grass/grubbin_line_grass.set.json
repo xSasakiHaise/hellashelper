@@ -1,0 +1,77 @@
+{
+  "id": "Grubbin Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Grubbin",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Charjabug",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Vikavolt",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

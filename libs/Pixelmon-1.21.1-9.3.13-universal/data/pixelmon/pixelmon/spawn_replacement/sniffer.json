@@ -1,0 +1,25 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:sniffer"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "shieldon",
+      "cranidos",
+      "cranidos",
+      "kabuto",
+      "omanyte",
+      "aerodactyl",
+      "lileep",
+      "anorith",
+      "tyrunt",
+      "amaura",
+      "archen",
+      "tirtouga"
+    ]
+  }
+}

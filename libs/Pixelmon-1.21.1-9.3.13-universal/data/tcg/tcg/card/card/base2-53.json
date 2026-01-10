@@ -1,0 +1,27 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base2-53.description",
+  "attacks": [
+    {
+      "name": "attack.base2-53.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base2-53.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "WATER",
+  "pokemon_id": 118,
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

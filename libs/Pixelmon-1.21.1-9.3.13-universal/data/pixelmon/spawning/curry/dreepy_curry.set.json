@@ -1,0 +1,22 @@
+{
+  "id": "Dreepy Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Dreepy",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 25,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/evil",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

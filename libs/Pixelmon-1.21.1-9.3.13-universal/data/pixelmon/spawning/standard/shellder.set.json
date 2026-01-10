@@ -1,0 +1,68 @@
+{
+  "id": "Shellder",
+  "spawnInfos": [
+    {
+      "spec": "species:Shellder",
+      "stringLocationTypes": [
+        "Land",
+        "Seafloor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "baseBlock": [
+          "beach"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Shellder palette:valencian",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

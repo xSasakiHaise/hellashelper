@@ -1,0 +1,128 @@
+{
+  "id": "Mew",
+  "spawnInfos": [
+    {
+      "spec": "species:Mew level:70",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lum_berry",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "structures": [
+          "minecraft:jungle_pyramid"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Mew palette:christmas level:70",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lum_berry",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "realWorldSpawnTimes": [
+          {
+            "monthOfYear": 12
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 1
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 2
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 3
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 4
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 5
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 6
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 7
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 8
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 9
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 10
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 11
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 12
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 13
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 14
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 15
+          }
+        ],
+        "structures": [
+          "minecraft:jungle_pyramid"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

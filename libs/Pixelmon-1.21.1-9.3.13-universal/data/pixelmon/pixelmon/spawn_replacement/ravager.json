@@ -1,0 +1,15 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:ravager"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "tauros",
+      "bouffalant"
+    ]
+  }
+}

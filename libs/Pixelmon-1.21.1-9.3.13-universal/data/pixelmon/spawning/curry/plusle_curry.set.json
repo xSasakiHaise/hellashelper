@@ -1,0 +1,27 @@
+{
+  "id": "Plusle Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Plusle",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

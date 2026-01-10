@@ -1,0 +1,20 @@
+{
+  "id": "Scorbunny Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Scorbunny",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:quartz"
+    },
+    "result": {
+        "id": "pixelmon:silicon"
+    },
+    "experience": 0.7,
+    "cookingtime": 200
+}

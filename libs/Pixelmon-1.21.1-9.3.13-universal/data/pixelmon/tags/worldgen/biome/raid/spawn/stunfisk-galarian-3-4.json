@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    {
+      "required": false,
+      "id": "biomesoplenty:bayou"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:bog"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:marsh"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wetland"
+    },
+    {
+      "required": false,
+      "id": "terralith:orchid_swamp"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_plant"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Sizzlipede Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Sizzlipede",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 9,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

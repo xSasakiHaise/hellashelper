@@ -1,0 +1,24 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:frog"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "froakie",
+      "frogadier",
+      "greninja",
+      "poliwhirl",
+      "poliwrath",
+      "politoed",
+      "palpitoad",
+      "seismitoad",
+      "bellibolt",
+      "croagunk",
+      "toxicroak"
+    ]
+  }
+}

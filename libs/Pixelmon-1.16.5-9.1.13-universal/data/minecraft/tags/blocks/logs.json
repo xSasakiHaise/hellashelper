@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:berry_log",
+    "pixelmon:apricorn_log",
+    "pixelmon:ultra_jungle_log",
+    "pixelmon:ultra_gingko_log",
+    "pixelmon:ultra_elm_log"
+  ]
+}

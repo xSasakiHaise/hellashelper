@@ -1,0 +1,27 @@
+{
+  "id": "Nincada Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Nincada",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

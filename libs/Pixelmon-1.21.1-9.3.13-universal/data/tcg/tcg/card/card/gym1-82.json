@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.gym1-82.description",
+  "attacks": [
+    {
+      "name": "attack.gym1-82.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.gym1-82.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.gym1-82.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.gym1-82.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "COLORLESS",
+  "pokemon_id": 19,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "PSYCHIC",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:common"
+}

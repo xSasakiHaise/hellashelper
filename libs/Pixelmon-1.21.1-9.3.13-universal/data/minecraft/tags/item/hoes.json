@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:aluminum_hoe",
+    "pixelmon:silver_hoe",
+    "pixelmon:platinum_hoe",
+    "pixelmon:ruby_hoe",
+    "pixelmon:sapphire_hoe",
+    "pixelmon:crystal_hoe",
+    "pixelmon:fire_stone_hoe",
+    "pixelmon:water_stone_hoe",
+    "pixelmon:leaf_stone_hoe",
+    "pixelmon:thunder_stone_hoe",
+    "pixelmon:sun_stone_hoe",
+    "pixelmon:moon_stone_hoe",
+    "pixelmon:dawn_stone_hoe",
+    "pixelmon:dusk_stone_hoe",
+    "pixelmon:ice_stone_hoe",
+    "pixelmon:shiny_stone_hoe"
+  ]
+}

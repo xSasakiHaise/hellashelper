@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "pixelmon:block/ultra_space/gingko_planks"
+  }
+}

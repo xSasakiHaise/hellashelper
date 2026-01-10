@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 21,
+  "previous_pokemon_id": null,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH83.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.GYMH83.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMH83.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "text": "attack.GYMH83.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

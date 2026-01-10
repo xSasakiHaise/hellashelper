@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_forest",
+    {
+      "required": false,
+      "id": "biomesoplenty:dense_woodland"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_plant"
+    }
+  ]
+}

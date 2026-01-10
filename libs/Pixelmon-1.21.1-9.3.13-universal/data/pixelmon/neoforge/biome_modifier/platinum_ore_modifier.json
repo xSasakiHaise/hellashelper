@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "step": "underground_ores",
+  "features": [
+    "pixelmon:ores/platinum/ore_platinum_buried",
+    "pixelmon:ores/platinum/ore_platinum_large",
+    "pixelmon:ores/platinum/ore_platinum"
+  ]
+}

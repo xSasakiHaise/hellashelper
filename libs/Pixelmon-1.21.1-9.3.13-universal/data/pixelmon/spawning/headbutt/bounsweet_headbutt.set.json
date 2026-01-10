@@ -1,0 +1,49 @@
+{
+  "id": "Bounsweet Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Bounsweet status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches"
+        ],
+        "variant": [
+          "birch"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Bounsweet",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches"
+        ],
+        "variant": [
+          "birch"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

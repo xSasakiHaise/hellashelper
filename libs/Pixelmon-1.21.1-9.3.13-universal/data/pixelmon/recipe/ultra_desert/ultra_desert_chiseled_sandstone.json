@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "sandstone",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "pixelmon:ultra_desert_sandstone_slab"
+    }
+  },
+  "result": {
+    "id": "pixelmon:ultra_desert_chiseled_sandstone"
+  }
+}

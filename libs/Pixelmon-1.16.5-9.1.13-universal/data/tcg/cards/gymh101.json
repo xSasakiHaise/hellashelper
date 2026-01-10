@@ -1,0 +1,31 @@
+{
+  "id": 325,
+  "setId": 6,
+  "cardType": "TRAINER",
+  "isSpecial": false,
+  "hp": 0,
+  "energy1": "",
+  "energy2": null,
+  "pokemonId": null,
+  "code": "GYMH101",
+  "name": "card.GYMH101.name",
+  "description": "card.gymh101.text",
+  "previousPokemonId": null,
+  "cardAttacks": [
+
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 0,
+  "cardRarity": "RARE",
+  "customTexture": "tcg:gui/cards/foreground/ltsurge-bg.png",
+  "customTextureX": 32,
+  "customTextureY": 32,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

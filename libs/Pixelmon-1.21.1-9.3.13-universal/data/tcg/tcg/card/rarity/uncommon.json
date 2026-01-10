@@ -1,0 +1,10 @@
+{
+  "color": {
+    "red": 40,
+    "green": 175,
+    "blue": 19,
+    "alpha": 255
+  },
+  "texture": "tcg:gui/rarities/uncommon.png",
+  "rare_or_higher": false
+}

@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:furnace/blue_apricorn"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:furnace/blue_apricorn"
+      }
+    },
+    "has_apricorn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:blue_apricorn"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_apricorn"
+    ]
+  ]
+}

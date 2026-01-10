@@ -1,0 +1,69 @@
+{
+  "id": "Trapinch Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Trapinch",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 170.0
+    },
+    {
+      "spec": "species:Vibrava",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:desert",
+          "biomesoplenty:lush_desert",
+          "byg:lush_red_desert",
+          "byg:mojave_desert"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Flygon",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 45,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "DAWN"
+        ],
+        "biomes": [
+          "minecraft:desert",
+          "biomesoplenty:lush_desert",
+          "byg:lush_red_desert",
+          "byg:mojave_desert"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

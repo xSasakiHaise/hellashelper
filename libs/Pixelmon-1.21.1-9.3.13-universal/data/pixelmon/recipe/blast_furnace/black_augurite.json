@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "pixelmon:black_augurite"
+  },
+  "experience": 4.2,
+  "cookingtime": 72000
+}

@@ -1,0 +1,32 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 101,
+  "previous_pokemon_id": 100,
+  "retreat_cost": 1,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG2.2.name",
+      "costs": [
+        "LIGHTNING",
+        "LIGHTNING",
+        "LIGHTNING"
+      ],
+      "damage": 20,
+      "text": "attack.JUNG2.2.text",
+      "effects": [
+        {
+          "type": "tcg:chain_lightning"
+        }
+      ]
+    }
+  ],
+  "energies": "LIGHTNING"
+}

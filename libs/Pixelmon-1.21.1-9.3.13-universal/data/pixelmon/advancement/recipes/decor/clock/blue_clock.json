@@ -1,0 +1,44 @@
+{
+	"rewards": {
+		"recipes": [
+			"pixelmon:decor/clock/blue_clock"
+		]
+	},
+	"criteria": {
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "pixelmon:decor/clock/blue_clock"
+			}
+		},
+		"has_clock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+            "items": [
+              "minecraft:clock"
+            ]
+					}
+				]
+			}
+		},
+    "has_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:dyes/blue"
+          }
+        ]
+      }
+    }
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_clock",
+      "has_dye"
+		]
+	]
+}

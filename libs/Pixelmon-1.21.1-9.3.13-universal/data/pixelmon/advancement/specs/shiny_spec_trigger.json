@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "pixelmon:shiny_stone",
+      "count": 1
+		},
+		"title": {
+			"translate": "advancements.shiny_spec.title"
+		},
+		"description": {
+			"translate": "advancements.shiny_spec.description"
+		},
+		"hidden": true
+	},
+    "parent" : "pixelmon:specs/spec_trigger",
+	"criteria": {
+		"shiny_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "s"
+			}
+		}
+	}
+}

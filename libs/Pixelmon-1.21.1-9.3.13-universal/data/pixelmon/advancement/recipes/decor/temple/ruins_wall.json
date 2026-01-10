@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:decor/temple/ruins_wall"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:decor/temple/ruins_wall"
+      }
+    },
+    "has_temple_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:temple_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_temple_block"
+    ]
+  ]
+}

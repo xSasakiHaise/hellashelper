@@ -1,0 +1,53 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 24,
+  "previous_pokemon_id": 23,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO2.1.name",
+      "costs": [
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.TERO2.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.TERO2.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 10,
+      "text": "attack.TERO2.2.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "POISONED",
+          "self": false
+        },
+        {
+          "type": "tcg:damage_effect",
+          "self": false,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

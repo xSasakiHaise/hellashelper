@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "card.gym1-33.description",
+  "attacks": [
+    {
+      "name": "attack.gym1-33.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.gym1-33.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 4,
+  "energies": "COLORLESS",
+  "pokemon_id": 143,
+  "ability": {
+    "name": "ability.gym1-33.name",
+    "description": "ability.gym1-33.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:unimplemented"
+    }
+  },
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "PSYCHIC",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:rare"
+}

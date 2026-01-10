@@ -1,0 +1,8 @@
+{
+  "__comment__": "this file was automatically created by mcresources",
+  "parent": "pixelmon:block/clock",
+  "textures": {
+    "particle": "pixelmon:block/clock/black",
+    "all": "pixelmon:block/clock/black"
+  }
+}

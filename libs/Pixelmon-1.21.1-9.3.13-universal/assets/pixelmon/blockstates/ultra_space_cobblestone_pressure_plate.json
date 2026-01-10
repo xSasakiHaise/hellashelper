@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "pixelmon:block/ultra_space/cobblestone_pressure_plate"
+    },
+    "powered=true": {
+      "model": "pixelmon:block/ultra_space/cobblestone_pressure_plate_down"
+    }
+  }
+}

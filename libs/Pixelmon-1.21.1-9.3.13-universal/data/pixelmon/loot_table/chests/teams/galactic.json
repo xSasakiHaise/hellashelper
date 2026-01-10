@@ -1,0 +1,291 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "artifacts",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:adamant_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:lustrous_globe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:griseous_core"
+        },
+        {
+          "type": "empty",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "name": "helditems",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:spell_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:metal_coat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:mystic_water"
+        },
+        {
+          "type": "empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "name": "treasure",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:relic_copper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:relic_silver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:relic_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:nugget"
+        },
+        {
+          "type": "empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "name": "armor",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:galactic_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:galactic_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:galactic_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:galactic_boots"
+        },
+        {
+          "type": "empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "name": "gems",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:ghost_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:steel_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:water_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "name": "vanilla",
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:beetroot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:tripwire_hook",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:charcoal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:ruby",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:silicon",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                        }
+                        }
+                    ],
+                    "name": "minecraft:porkchop"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                        }
+                        }
+                    ],
+                    "name": "minecraft:wheat"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:beef"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:mutton"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:coal"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:dish_curry_burger"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:dish_curry_sausage"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:dish_curry_bone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:dish_curry_smoke_poke"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:curry_burger"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:curry_sausage"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:curry_seasoned"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:curry_bone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:curry_smoke_poke"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:curry_herb"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:curry_leek"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:leek",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:thick_club",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:slowpoke_tail",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:leftovers"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:balm_mushroom"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:tiny_mushroom"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:big_mushroom"
+                }
+            ]
+        }
+    ]
+}

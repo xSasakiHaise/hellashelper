@@ -1,0 +1,22 @@
+{
+    "id": "Pawmi",
+    "spawnInfos": [
+      {
+        "spec": "species:Pawmi",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 5,
+        "maxLevel": 18,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/redwoods",
+            "#pixelmon:spawning/taigas"
+          ]
+        },
+        "rarity": 100.0
+      }
+    ]
+  }
+  

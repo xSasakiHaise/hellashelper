@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:furnace/crystal_ore"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:furnace/crystal_ore"
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:crystal_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ore"
+    ]
+  ]
+}

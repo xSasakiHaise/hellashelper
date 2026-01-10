@@ -1,0 +1,40 @@
+{
+  "parent": "pixelmon:ultra_space/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_block",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.ultra_space.ultra_crater_sickness.title"
+    },
+    "description": {
+      "translate": "advancements.ultra_space.ultra_crater_sickness.description"
+    },
+    "background": "pixelmon:textures/gui/advancements/backgrounds/ruinswall.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ultra_crater_sickness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:blindness": {},
+          "minecraft:poison": {},
+          "minecraft:mining_fatigue": {}
+        },
+        "location": {
+          "biome": "pixelmon:ultra_crater"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ultra_crater_sickness"
+    ]
+  ]
+}

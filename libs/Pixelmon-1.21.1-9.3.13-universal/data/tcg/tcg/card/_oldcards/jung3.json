@@ -1,0 +1,55 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 136,
+  "previous_pokemon_id": 133,
+  "retreat_cost": 1,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG3.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.JUNG3.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG3.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 60,
+      "text": "attack.JUNG3.2.text",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "FIRE",
+          "self": true,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

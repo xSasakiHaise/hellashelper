@@ -1,0 +1,25 @@
+{
+  "id": "WoChien",
+  "spawnInfos": [
+    {
+      "spec": "species:Wo-Chien level:60",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 3.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "",
+  "pokemon_id": 41,
+  "previous_pokemon_id": null,
+  "retreat_cost": 0,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH24.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.GYMH24.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMH24.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH24.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "Roggenrola Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Roggenrola",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:windswept_savanna",
+          "#pixelmon:spawning/mesas",
+          "terralith:savanna_badlands",
+          "terralith:savanna_slopes",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 140.0
+    }
+  ]
+}

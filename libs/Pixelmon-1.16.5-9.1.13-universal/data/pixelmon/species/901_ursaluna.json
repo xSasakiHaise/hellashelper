@@ -1,0 +1,523 @@
+{
+  "name": "Ursaluna",
+  "dex": 901,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.4,
+        "width": 2,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Covet",
+              "Fake Tears",
+              "Headlong Rush",
+              "Leer",
+              "Lick",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Rest",
+              "Snore"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "High Horsepower"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aerial Ace",
+          "Baby-Doll Eyes",
+          "Bulk Up",
+          "Bulldoze",
+          "Earth Power",
+          "Fire Punch",
+          "Focus Energy",
+          "Giga Impact",
+          "High Horsepower",
+          "Hyper Beam",
+          "Ice Punch",
+          "Play Rough",
+          "Rest",
+          "Rock Slide",
+          "Rock Smash",
+          "Shadow Claw",
+          "Stone Edge",
+          "Swift",
+          "Thunder Punch"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Baby-Doll Eyes",
+          "Bulldoze",
+          "Double-Edge",
+          "Tackle"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Fake Tears",
+          "Scary Face",
+          "Protect",
+          "Low Kick",
+          "Thief",
+          "Trailblaze",
+          "Facade",
+          "Aerial Ace",
+          "Bulldoze",
+          "Metal Claw",
+          "Swift",
+          "Rock Tomb",
+          "Fling",
+          "Avalanche",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Brick Break",
+          "Shadow Claw",
+          "Bulk Up",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Drain Punch",
+          "Metronome",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Swords Dance",
+          "Body Press",
+          "Gunk Shot",
+          "Substitute",
+          "Crunch",
+          "Hyper Voice",
+          "Heavy Slam",
+          "Play Rough",
+          "Helping Hand",
+          "Earth Power",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Hyper Beam",
+          "Close Combat",
+          "Tera Blast",
+          "Roar",
+          "Smack Down",
+          "Vacuum Wave",
+          "High Horsepower",
+          "Uproar",
+          "Focus Punch",
+          "Double-Edge",
+          "Throat Chop",
+          "Curse"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Guts",
+          "Bulletproof"
+        ],
+        "hiddenAbilities": [
+          "Unnerve"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "aggressive": 20,
+        "passive": 0,
+        "timid": 80
+      },
+      "battleStats": {
+        "hp": 130,
+        "attack": 140,
+        "defense": 105,
+        "specialAttack": 45,
+        "specialDefense": 80,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 189,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 40,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/901_ursaluna/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/901_ursaluna/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/901_ursaluna/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.ursaluna"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/901_ursaluna/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/901_ursaluna/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GROUND",
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Ursaring",
+        "Teddiursa"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "eggCycles": 21,
+      "weight": 290.0,
+      "catchRate": 20,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "bloodmoon",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1.0,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Headlong Rush",
+              "Leer",
+              "Lick",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Rest",
+              "Snore"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Moonlight"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Fake Tears",
+          "Scary Face",
+          "Protect",
+          "Low Kick",
+          "Thief",
+          "Trailblaze",
+          "Facade",
+          "Aerial Ace",
+          "Bulldoze",
+          "Snarl",
+          "Metal Claw",
+          "Swift",
+          "Mud Shot",
+          "Rock Tomb",
+          "Fling",
+          "Avalanche",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Brick Break",
+          "Shadow Claw",
+          "Bulk Up",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Drain Punch",
+          "Metronome",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Swords Dance",
+          "Body Press",
+          "Gunk Shot",
+          "Substitute",
+          "Crunch",
+          "Hyper Voice",
+          "Heavy Slam",
+          "Play Rough",
+          "Calm Mind",
+          "Helping Hand",
+          "Earth Power",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Focus Blast",
+          "Hyper Beam",
+          "Close Combat",
+          "Tera Blast",
+          "Roar",
+          "Smack Down",
+          "Vacuum Wave",
+          "High Horsepower",
+          "Uproar",
+          "Focus Punch",
+          "Double-Edge"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Moonlight"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MindsEye"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "battleStats": {
+        "hp": 113,
+        "attack": 70,
+        "defense": 120,
+        "specialAttack": 135,
+        "specialDefense": 65,
+        "speed": 52
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 275,
+        "baseFriendship": 50,
+        "spawnLevel": 60,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/901_ursaluna/all/bloodmoon/none/texture.png",
+              "sprite": "pixelmon:pokemon/901_ursaluna/all/bloodmoon/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/901_ursaluna/all/bloodmoon/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/901_ursaluna/all/bloodmoon/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "weight": 333.0,
+      "malePercentage": 100,
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 8
+}

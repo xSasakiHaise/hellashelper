@@ -1,0 +1,48 @@
+{
+  "id": 379,
+  "setId": 6,
+  "cardType": "STAGE2",
+  "isSpecial": false,
+  "hp": 90,
+  "energy1": "WATER",
+  "energy2": null,
+  "pokemonId": 62,
+  "code": "GYMH31",
+  "name": "card.GYMH31.name",
+  "description": "",
+  "previousPokemonId": 61,
+  "cardAttacks": [
+    {
+      "card": "GYMH31",
+      "index": 1,
+      "name": "attack.GYMH31.1.name",
+      "costs": [
+        "WATER",
+        "WATER",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "modifier": null,
+      "text": "attack.GYMH31.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "GRASS",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 3,
+  "cardRarity": "RARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

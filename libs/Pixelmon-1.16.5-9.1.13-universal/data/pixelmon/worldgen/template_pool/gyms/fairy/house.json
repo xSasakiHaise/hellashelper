@@ -1,0 +1,135 @@
+{
+  "name": "pixelmon:gyms/fairy/house",
+  "fallback": "pixelmon:gyms/fairy/clutter",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_house_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_house_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_house_c",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_house_d",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 0,
+        "keep_liquids": false
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_house_e",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_church",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_blacksmith",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_daycare",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_tcg_shop",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_farm_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_farm_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_berry_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_berry_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:gyms/fairy/gym_fairy_clutter_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

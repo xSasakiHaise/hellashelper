@@ -1,0 +1,33 @@
+{
+  "id": "Deoxys",
+  "spawnInfos": [
+    {
+      "spec": "species:Deoxys level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:meteorite",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:end_highlands",
+          "minecraft:snowy_taiga_mountains"
+        ]
+      },
+      "rarity": 0.3
+    }
+  ]
+}

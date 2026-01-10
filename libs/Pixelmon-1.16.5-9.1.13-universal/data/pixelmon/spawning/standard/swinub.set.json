@@ -1,0 +1,29 @@
+{
+  "id": "Swinub",
+  "spawnInfos": [
+    {
+      "spec": "species:Swinub",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "freezing",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog"
+        ],
+        "maxY": 80
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing forests"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "water_float_dyed",
+  "ingredients": [
+    {
+      "tag": "c:dyes/white"
+    },
+    {
+      "tag": "pixelmon:water_floats"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:white_water_float",
+    "count": 1
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+  "textures": {
+    "particle": "pixelmon:block/decorative/relic_vase",
+    "relic_vase": "pixelmon:block/decorative/relic_vase",
+    "relic_vase_top": "pixelmon:block/decorative/relic_vase_top"
+  },
+  "display": {
+    "gui": {
+      "rotation": [ 30, 45, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.625, 0.625, 0.625 ]
+    },
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 3, 0 ],
+      "scale": [ 0.25, 0.25, 0.25 ]
+    },
+    "fixed": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "head": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 315, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 75, 315, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    }
+  },
+  "elements": [
+    {
+      "name": "rim_1",
+      "from": [ 5, 8, 4 ],
+      "to": [ 11, 11, 5 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 5, 5, 11, 8 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 4, 5, 5, 8 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 5, 5, 11, 8 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 11, 5, 12, 8 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 2, 7, 8, 8 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 2, 4, 8, 5 ] }
+      }
+    },
+    {
+      "name": "rim_2",
+      "from": [ 11, 8, 5 ],
+      "to": [ 12, 11, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 11, 5, 12, 8 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 5, 5, 11, 8 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 4, 5, 5, 8 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 5, 5, 11, 8 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 8, 8, 9, 14 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 11, 8, 12, 14 ] }
+      }
+    },
+    {
+      "name": "rim_3",
+      "from": [ 5, 8, 11 ],
+      "to": [ 11, 11, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 5, 5, 11, 8 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 11, 5, 12, 8 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 5, 5, 11, 8 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 4, 5, 5, 8 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 2, 14, 8, 15 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 2, 3, 8, 4 ] }
+      }
+    },
+    {
+      "name": "rim_4",
+      "from": [ 4, 8, 5 ],
+      "to": [ 5, 11, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 4, 5, 5, 8 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 5, 5, 11, 8 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 11, 5, 12, 8 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 5, 5, 11, 8 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 1, 8, 2, 14 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 12, 8, 13, 14 ] }
+      }
+    },
+    {
+      "name": "neck_1",
+      "from": [ 6, 7, 5 ],
+      "to": [ 10, 8, 6 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 6, 8, 10, 9 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 6, 9, 10, 10 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 3, 8, 7, 9 ] }
+      }
+    },
+    {
+      "name": "neck_2",
+      "from": [ 10, 7, 5 ],
+      "to": [ 11, 8, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 5, 8, 6, 9 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 5, 8, 11, 9 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 10, 8, 11, 9 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 5, 9, 11, 10 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 7, 8, 8, 14 ] }
+      }
+    },
+    {
+      "name": "neck_3",
+      "from": [ 6, 7, 10 ],
+      "to": [ 10, 8, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 6, 9, 10, 10 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 6, 8, 10, 9 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 3, 13, 7, 14 ] }
+      }
+    },
+    {
+      "name": "neck_4",
+      "from": [ 5, 7, 5 ],
+      "to": [ 6, 8, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 10, 8, 11, 9 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 5, 9, 11, 10 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 5, 8, 6, 9 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 5, 8, 11, 9 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 2, 8, 3, 14 ] }
+      }
+    },
+    {
+      "name": "mid_1",
+      "from": [ 5, 6, 4 ],
+      "to": [ 11, 7, 5 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 5, 9, 11, 10 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 5, 9, 11, 10 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 1, 7, 7, 8 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 1, 7, 7, 8 ] }
+      }
+    },
+    {
+      "name": "mid_2",
+      "from": [ 11, 6, 4 ],
+      "to": [ 12, 7, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 4, 9, 5, 10 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 4, 9, 12, 10 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 11, 9, 12, 10 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 4, 9, 12, 10 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 8, 7, 9, 15 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 8, 7, 9, 15 ] }
+      }
+    },
+    {
+      "name": "mid_3",
+      "from": [ 5, 6, 11 ],
+      "to": [ 11, 7, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 5, 9, 11, 10 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 5, 9, 11, 10 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 2, 14, 8, 15 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 2, 14, 8, 15 ] }
+      }
+    },
+    {
+      "name": "mid_4",
+      "from": [ 4, 6, 4 ],
+      "to": [ 5, 7, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 11, 9, 12, 10 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 4, 9, 12, 10 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 4, 9, 5, 10 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 4, 9, 12, 10 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 1, 7, 2, 15 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 1, 7, 2, 15 ] }
+      }
+    },
+    {
+      "name": "side_1",
+      "from": [ 4, 3, 3 ],
+      "to": [ 12, 6, 4 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 4, 10, 12, 13 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 3, 10, 4, 13 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 4, 10, 12, 13 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 12, 10, 13, 13 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 1, 6, 9, 7 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 1, 4, 9, 5 ] }
+      }
+    },
+    {
+      "name": "side_2",
+      "from": [ 12, 3, 4 ],
+      "to": [ 13, 6, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 12, 10, 13, 13 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 4, 10, 12, 13 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 3, 10, 4, 13 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 4, 10, 12, 13 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 9, 7, 10, 15 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 11, 7, 12, 15 ] }
+      }
+    },
+    {
+      "name": "side_3",
+      "from": [ 4, 3, 12 ],
+      "to": [ 12, 6, 13 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 4, 10, 12, 13 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 12, 10, 13, 13 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 4, 10, 12, 13 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 3, 10, 4, 13 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 1, 15, 9, 16 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 1, 3, 9, 4 ] }
+      }
+    },
+    {
+      "name": "side_4",
+      "from": [ 3, 3, 4 ],
+      "to": [ 4, 6, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 3, 10, 4, 13 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 4, 10, 12, 13 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 12, 10, 13, 13 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 4, 10, 12, 13 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 0, 7, 1, 15 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 12, 7, 13, 15 ] }
+      }
+    },
+    {
+      "name": "bottom_1",
+      "from": [ 5, 1, 4 ],
+      "to": [ 11, 3, 5 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 5, 13, 11, 15 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 5, 13, 11, 15 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 2, 5, 8, 6 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 2, 5, 8, 6 ] }
+      }
+    },
+    {
+      "name": "bottom_2",
+      "from": [ 11, 1, 4 ],
+      "to": [ 12, 3, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 4, 13, 5, 15 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 4, 13, 12, 15 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 11, 13, 12, 15 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 4, 13, 12, 15 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 10, 7, 11, 15 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 10, 7, 11, 15 ] }
+      }
+    },
+    {
+      "name": "bottom_3",
+      "from": [ 5, 1, 11 ],
+      "to": [ 11, 3, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 5, 13, 11, 15 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 5, 13, 11, 15 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 2, 2, 8, 3 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 2, 2, 8, 3 ] }
+      }
+    },
+    {
+      "name": "bottom_4",
+      "from": [ 4, 1, 4 ],
+      "to": [ 5, 3, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 11, 13, 12, 15 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 4, 13, 12, 15 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 4, 13, 5, 15 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 4, 13, 12, 15 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 13, 7, 14, 15 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 13, 7, 14, 15 ] }
+      }
+    },
+    {
+      "name": "base",
+      "from": [ 5, 0, 5 ],
+      "to": [ 11, 1, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_vase", "uv": [ 5, 15, 11, 16 ] },
+        "east": { "texture": "#relic_vase", "uv": [ 5, 15, 11, 16 ] },
+        "south": { "texture": "#relic_vase", "uv": [ 5, 15, 11, 16 ] },
+        "west": { "texture": "#relic_vase", "uv": [ 5, 15, 11, 16 ] },
+        "up": { "texture": "#relic_vase_top", "uv": [ 9, 1, 15, 7 ] },
+        "down": { "texture": "#relic_vase_top", "uv": [ 9, 1, 15, 7 ] }
+      }
+    }
+  ]
+}

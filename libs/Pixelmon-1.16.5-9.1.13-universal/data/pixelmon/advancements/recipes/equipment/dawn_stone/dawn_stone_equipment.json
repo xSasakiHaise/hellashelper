@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/dawn_stone/dawn_stone_axe",
+      "pixelmon:equipment/dawn_stone/dawn_stone_boots",
+      "pixelmon:equipment/dawn_stone/dawn_stone_hammer",
+      "pixelmon:equipment/dawn_stone/dawn_stone_helm",
+      "pixelmon:equipment/dawn_stone/dawn_stone_hoe",
+      "pixelmon:equipment/dawn_stone/dawn_stone_legs",
+      "pixelmon:equipment/dawn_stone/dawn_stone_pickaxe",
+      "pixelmon:equipment/dawn_stone/dawn_stone_plate",
+      "pixelmon:equipment/dawn_stone/dawn_stone_shovel",
+      "pixelmon:equipment/dawn_stone/dawn_stone_sword"
+    ]
+  },
+  "criteria": {
+    "has_dawn_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:dawn_stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dawn_stone"
+    ]
+  ]
+}

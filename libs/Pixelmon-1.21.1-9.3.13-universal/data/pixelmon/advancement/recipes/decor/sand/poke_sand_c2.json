@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:decor/sand/poke_sand_c2"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:decor/sand/poke_sand_c2"
+      }
+    },
+    "has_poke_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:poke_sand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_poke_sand"
+    ]
+  ]
+}

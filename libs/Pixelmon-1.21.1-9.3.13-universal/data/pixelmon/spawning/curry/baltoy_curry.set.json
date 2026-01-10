@@ -1,0 +1,26 @@
+{
+  "id": "Baltoy Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Baltoy",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:light_clay",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

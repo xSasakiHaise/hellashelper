@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rug_dyed",
+  "ingredients": [
+    {
+      "tag": "c:dyes/brown"
+    },
+    {
+      "tag": "pixelmon:rugs"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:brown_rug",
+    "count": 1
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "Crobat",
+  "spawnInfos": [
+    {
+      "spec": "species:Crobat",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "all forests",
+          "swamps",
+          "mountainous",
+          "plains",
+          "flowery",
+          "evil",
+          "jungles"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Crobat palette:strike",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Crobat",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxLightLevel": 0
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ultra space"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

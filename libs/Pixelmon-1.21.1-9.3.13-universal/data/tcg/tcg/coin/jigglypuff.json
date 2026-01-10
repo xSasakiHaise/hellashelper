@@ -1,0 +1,6 @@
+{
+  "name": "Jigglypuff",
+  "owner_name": "PokeNerd",
+  "heads": "tcg:gui/coins/heads/jigglypuff.png",
+  "tails": "tcg:gui/coins/tails/default.png"
+}

@@ -1,0 +1,5 @@
+$body paldean_wooper.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$anim swim swim.bmd
+$scale 1.3

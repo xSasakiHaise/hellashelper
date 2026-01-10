@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ARA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/aluminum"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "result": {
+    "id": "pixelmon:fossil_machine_top",
+    "count": 1
+  }
+}

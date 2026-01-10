@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "pixelmon:ultra_desert_sandstone"
+  },
+  "result": {
+    "id": "pixelmon:ultra_desert_sandstone_wall"
+  }
+}

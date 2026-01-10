@@ -1,0 +1,31 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:decor/trade_machine/light_blue_trade_machine_dyed"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:decor/trade_machine/light_blue_trade_machine_dyed"
+      }
+    },
+    "has_trade_machine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:trade_machines"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_trade_machine"
+    ]
+  ]
+}

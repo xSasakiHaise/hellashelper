@@ -1,0 +1,22 @@
+{
+    "id": "Tinkatink",
+    "spawnInfos": [
+      {
+        "spec": "species:Tinkatink",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 10,
+        "maxLevel": 24,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/mountainous_forests",
+            "#pixelmon:spawning/redwoods"
+          ]
+        },
+        "rarity": 50.0
+      }
+    ]
+  }
+  

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "trade_machine",
+  "ingredients": [
+    {
+      "tag": "c:dyes/blue"
+    },
+    {
+      "tag": "pixelmon:trade_machines"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:blue_trade_machine",
+    "count": 1
+  }
+}

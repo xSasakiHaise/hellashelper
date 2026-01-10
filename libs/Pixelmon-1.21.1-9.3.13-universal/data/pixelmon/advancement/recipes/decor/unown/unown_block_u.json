@@ -1,0 +1,44 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:decor/unown/unown_block_u"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:decor/unown/unown_block_u"
+      }
+    },
+    "has_temple_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:temple_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_unown_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:unown_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_temple_block",
+      "has_unown_block"
+    ]
+  ]
+}

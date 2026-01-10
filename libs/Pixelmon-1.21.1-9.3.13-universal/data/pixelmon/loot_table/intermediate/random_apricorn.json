@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:red_apricorn"
+        },
+		{
+		  "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:blue_apricorn"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:green_apricorn"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:pink_apricorn"    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:white_apricorn"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:black_apricorn"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:yellow_apricorn"     
+        }
+      ]
+    }
+  ]
+}
+

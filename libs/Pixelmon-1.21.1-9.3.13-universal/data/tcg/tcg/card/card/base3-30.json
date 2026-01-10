@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "card.base3-30.description",
+  "attacks": [
+    {
+      "name": "attack.base3-30.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base3-30.0.description",
+      "effects": [
+        {
+          "type": "tcg:thunderstorm",
+          "self": true,
+          "required_coin_side": "HEAD",
+          "self_damage": 0,
+          "bench_damage": 0
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "LIGHTNING",
+  "pokemon_id": 145,
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:rare"
+}

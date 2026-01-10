@@ -1,0 +1,31 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/good_rod"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:equipment/good_rod"
+      }
+    },
+    "has_old_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:old_rod"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_old_rod"
+    ]
+  ]
+}

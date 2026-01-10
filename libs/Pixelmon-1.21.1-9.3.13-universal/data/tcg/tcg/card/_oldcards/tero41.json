@@ -1,0 +1,41 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 89,
+  "previous_pokemon_id": 88,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.tero41.name",
+    "description": "ability.tero41.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:sticky_goo"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO41.1.name",
+      "costs": [
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 20,
+      "text": "attack.TERO41.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "POISONED",
+          "self": false
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

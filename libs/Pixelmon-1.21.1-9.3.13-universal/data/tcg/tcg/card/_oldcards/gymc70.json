@@ -1,0 +1,28 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 43,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC70.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 10,
+      "text": "attack.GYMC70.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

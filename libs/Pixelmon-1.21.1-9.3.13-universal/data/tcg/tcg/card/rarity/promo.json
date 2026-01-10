@@ -1,0 +1,10 @@
+{
+  "color": {
+    "red": 249,
+    "green": 249,
+    "blue": 249,
+    "alpha": 255
+  },
+  "texture": "tcg:gui/rarities/promo.png",
+  "rare_or_higher": false
+}

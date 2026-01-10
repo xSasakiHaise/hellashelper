@@ -1,0 +1,13 @@
+{
+  "modifiers": [],
+  "requirements":  [
+    {
+      "requirement": {
+        "type": "pixelmon:speed"
+      },
+      "reason": {
+        "translate": "gui.battlerules.description.speedpass"
+      }
+    }
+  ]
+}

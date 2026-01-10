@@ -1,0 +1,41 @@
+{
+  "id": "Woobat Line Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Woobat",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swamps",
+          "minecraft:dark_forest",
+          "minecraft:dark_forest_hills",
+          "redwoods"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Swoobat",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 27,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swamps",
+          "minecraft:dark_forest",
+          "minecraft:dark_forest_hills",
+          "redwoods"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "Chat",
+                  "pages": [
+                    "This is such a quaint town. Look at those laborers, walking about their lives.",
+                    "I have more important things to do, now. I\u0027m off to buy a diamond."
+                  ],
+                  "type": "pixelmon:open_paged_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      },
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "Chat",
+                  "pages": [
+                    "I wonder where my chauffeur is. He left with the car MINUTES ago.",
+                    "I cannot possibly stand around in these shoes for much longer."
+                  ],
+                  "type": "pixelmon:open_paged_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      },
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "Chat",
+                  "pages": [
+                    "Great Balls? Oh, child, you are so easily satisfied. My Poké Balls are made of solid gold.",
+                    "But they get bumps very quickly, so I have to replace them often. Oh well!"
+                  ],
+                  "type": "pixelmon:open_paged_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      },
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "Chat",
+                  "pages": [
+                    "I sent my grandson off to see the world with so little. He only has one Rattata.",
+                    "And his blue suit. And a mere five million PokéDollars in cash. I hope he survives. Oh..."
+                  ],
+                  "type": "pixelmon:open_paged_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.0,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Liliane",
+      "Christy",
+      "Abigail",
+      "Jacqueline",
+      "Charlene"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/madame.png",
+            "fallback": "pixelmon:textures/steve/madame.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:standard_npc",
+      "profession": "minecraft:farmer"
+    }
+  }
+}

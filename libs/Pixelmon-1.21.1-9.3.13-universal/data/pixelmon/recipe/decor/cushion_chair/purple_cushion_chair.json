@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cushion_chair",
+  "pattern": [
+    "wdw",
+    " i ",
+    " i "
+  ],
+  "key": {
+    "w": {
+      "tag": "minecraft:wool"
+    },
+    "d": {
+      "tag": "c:dyes/purple"
+    },
+    "i": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "pixelmon:purple_cushion_chair",
+    "count": 1
+  }
+}

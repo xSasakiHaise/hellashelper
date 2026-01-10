@@ -1,0 +1,35 @@
+{
+  "id": "Teddiursa Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Teddiursa",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Ursaring",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 30,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

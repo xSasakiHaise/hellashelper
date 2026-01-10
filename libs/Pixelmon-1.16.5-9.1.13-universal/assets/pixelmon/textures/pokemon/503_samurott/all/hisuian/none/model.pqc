@@ -1,0 +1,5 @@
+$body samurott.bmd
+$anim idle idle.bmd
+$anim swim swim.bmd
+$anim walk walk.bmd
+$scale 2.5

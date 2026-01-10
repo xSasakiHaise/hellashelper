@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B",
+    "R",
+    "B"
+  ],
+  "key": {
+    "R": {
+      "item": "pixelmon:temple_brick"
+    },
+    "B": {
+      "item": "pixelmon:temple_block"
+    }
+  },
+  "result": {
+    "id": "pixelmon:temple_pillar",
+    "count": 1
+  }
+}

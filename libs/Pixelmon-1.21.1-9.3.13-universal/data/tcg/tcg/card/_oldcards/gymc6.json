@@ -1,0 +1,31 @@
+{
+  "special": false,
+  "hp": 100,
+  "description": "",
+  "pokemon_id": 68,
+  "previous_pokemon_id": 67,
+  "retreat_cost": 3,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC6.1.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.GYMC6.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

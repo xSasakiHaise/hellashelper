@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 100,
+  "description": "card.gym2-23.description",
+  "attacks": [
+    {
+      "name": "attack.gym2-23.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.gym2-23.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.gym2-23.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 50,
+      "text": "attack.gym2-23.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 3,
+  "energies": "GRASS",
+  "pokemon_id": 31,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:rare"
+}

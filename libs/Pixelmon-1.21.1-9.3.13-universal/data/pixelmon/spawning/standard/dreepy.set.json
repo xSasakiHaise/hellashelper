@@ -1,0 +1,60 @@
+{
+  "id": "Dreepy",
+  "spawnInfos": [
+    {
+      "spec": "species:Dreepy",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Dreepy",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Dreepy palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:misc/graveyard"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

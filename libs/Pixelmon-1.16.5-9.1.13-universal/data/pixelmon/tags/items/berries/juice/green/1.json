@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:rawst_berry",
+    "pixelmon:wepear_berry",
+    "pixelmon:rabuta_berry",
+    "pixelmon:durin_berry"
+  ]
+}

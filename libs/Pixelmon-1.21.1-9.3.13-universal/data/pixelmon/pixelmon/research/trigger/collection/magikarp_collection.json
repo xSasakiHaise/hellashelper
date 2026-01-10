@@ -1,0 +1,25 @@
+{
+  "events": [
+    "pixelmon:capture_pokemon"
+  ],
+  "condition": {
+    "type": "pixelmon:spec_matches",
+    "pokemon": {
+      "type": "pixelmon:context_pokemon",
+      "key": "pixelmon:pokemon"
+    },
+    "spec": "magikarp"
+  },
+  "research": {
+    "reward_rolls_max": 1,
+    "chance_of_additional_rewards": 0.0,
+    "rewards": [],
+    "guaranteed_reward": {
+      "research": "pixelmon:collection/magikarp_collection",
+      "condition": {
+        "type": "pixelmon:true"
+      }
+    },
+    "reward_rolls_min": 1
+  }
+}

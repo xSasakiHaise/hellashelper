@@ -1,0 +1,31 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:pokeball/base/wooden_base"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:pokeball/base/wooden_base"
+      }
+    },
+    "has_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_slab"
+    ]
+  ]
+}

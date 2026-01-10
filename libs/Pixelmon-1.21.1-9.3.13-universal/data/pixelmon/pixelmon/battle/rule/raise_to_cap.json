@@ -1,0 +1,10 @@
+{
+  "modifiers": [
+    {
+      "type": "pixelmon:context",
+      "key": "pixelmon:raise_to_cap",
+      "value": true
+    }
+  ],
+  "requirements":  []
+}

@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/anvil"
+    },
+    "facing=east": {
+      "model": "pixelmon:block/anvil",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pixelmon:block/anvil",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixelmon:block/anvil",
+      "y": 270
+    }
+  }
+}

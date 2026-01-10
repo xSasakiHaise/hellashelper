@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "healer_dyed",
+  "ingredients": [
+    {
+      "tag": "c:dyes/pink"
+    },
+    {
+      "tag": "pixelmon:healers"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:pink_healer",
+    "count": 1
+  }
+}

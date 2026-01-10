@@ -1,0 +1,94 @@
+{
+  "id": "Rockruff Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Rockruff",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "minecraft:snowy_taiga",
+          "byg:snowy_blue_taiga_hills",
+          "byg:snowy_confierous_forest_hills",
+          "byg:snowy_deciduous_forest_hills",
+          "byg:snowy_evergreen_hills"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Lycanroc form:midday",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "minecraft:snowy_taiga",
+          "byg:snowy_blue_taiga_hills",
+          "byg:snowy_confierous_forest_hills",
+          "byg:snowy_deciduous_forest_hills",
+          "byg:snowy_evergreen_hills"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Lycanroc form:midnight",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "minecraft:snowy_taiga",
+          "byg:snowy_blue_taiga_hills",
+          "byg:snowy_confierous_forest_hills",
+          "byg:snowy_deciduous_forest_hills",
+          "byg:snowy_evergreen_hills"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Lycanroc form:dusk",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "minecraft:snowy_taiga",
+          "byg:snowy_blue_taiga_hills",
+          "byg:snowy_confierous_forest_hills",
+          "byg:snowy_deciduous_forest_hills",
+          "byg:snowy_evergreen_hills"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

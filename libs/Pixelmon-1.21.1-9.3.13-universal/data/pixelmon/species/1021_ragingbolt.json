@@ -1,0 +1,330 @@
+{
+  "name": "RagingBolt",
+  "dex": 1021,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 4.0,
+        "width": 0.9,
+        "length": 1.0,
+        "eyeHeight": 4.0,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Shock Wave",
+              "Stomp",
+              "Sunny Day",
+              "Twister"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Electric Terrain"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dragon Tail"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Thunderclap"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Dragon Hammer"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Rising Voltage"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Body Press"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Thunder"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Thunder Fang",
+          "Charge Beam",
+          "Facade",
+          "Snarl",
+          "Dragon Tail",
+          "Endure",
+          "Volt Switch",
+          "Sunny Day",
+          "Body Slam",
+          "Sleep Talk",
+          "Electro Ball",
+          "Thunder Wave",
+          "Stomping Tantrum",
+          "Rest",
+          "Taunt",
+          "Body Press",
+          "Eerie Impulse",
+          "Substitute",
+          "Crunch",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Heavy Slam",
+          "Thunderbolt",
+          "Calm Mind",
+          "Electric Terrain",
+          "Wild Charge",
+          "Earthquake",
+          "Giga Impact",
+          "Outrage",
+          "Hyper Beam",
+          "Thunder",
+          "Solar Beam",
+          "Draco Meteor",
+          "Tera Blast",
+          "Roar",
+          "Charge",
+          "Weather Ball",
+          "Double-Edge",
+          "Supercell Slam",
+          "Electroweb",
+          "Breaking Swipe",
+          "Dragon Cheer"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Ancient Power"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Protosynthesis"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 125,
+        "attack": 73,
+        "defense": 91,
+        "specialAttack": 137,
+        "specialDefense": 89,
+        "speed": 75
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 295,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/1021_ragingbolt/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.ragingbolt",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/1021_ragingbolt/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/1021_ragingbolt/all/base/none/ragingbolt.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/1021_ragingbolt/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/1021_ragingbolt/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/1021_ragingbolt/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/1021_ragingbolt/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/1021_ragingbolt/all/base/none/ragingbolt.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/1021_ragingbolt/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/1021_ragingbolt/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ELECTRIC",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 480.0,
+      "catchRate": 10,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "specialAttack": 3
+      },
+      "growth_data": {
+        "mean": 90.0,
+        "standard_deviation": 4.5,
+        "min_render_scale": 0.6,
+        "max_render_scale": 1.3
+      }
+    }
+  ],
+  "generation": 9
+}

@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Qwilfish",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "biomes": "#pixelmon:raid/spawn/qwilfish-1-2",
+      "weight": 1.0
+    },
+    {
+      "spec": "Qwilfish form:hisuian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "biomes": "#pixelmon:raid/spawn/qwilfish-hisuian-1-2",
+      "weight": 1.0
+    }
+  ]
+}

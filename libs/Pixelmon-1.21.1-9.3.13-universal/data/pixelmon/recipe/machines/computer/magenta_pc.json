@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pc",
+  "ingredients": [
+    {
+      "tag": "c:dyes/magenta"
+    },
+    {
+      "tag": "pixelmon:pcs"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:magenta_pc",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "particle": "pixelmon:items/galarica_cuff",
+    "layer0": "pixelmon:items/galarica_cuff"
+  }
+}

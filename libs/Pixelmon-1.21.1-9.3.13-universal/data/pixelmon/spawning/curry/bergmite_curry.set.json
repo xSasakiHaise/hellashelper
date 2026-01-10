@@ -1,0 +1,25 @@
+{
+  "id": "Bergmite Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Bergmite",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 23,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "#pixelmon:spawning/freezing_mountains"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

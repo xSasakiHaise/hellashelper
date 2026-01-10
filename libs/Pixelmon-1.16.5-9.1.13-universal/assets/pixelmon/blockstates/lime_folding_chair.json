@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/folding_chair/lime",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "pixelmon:block/folding_chair/lime",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pixelmon:block/folding_chair/lime",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixelmon:block/folding_chair/lime",
+      "y": 270
+    }
+  }
+}

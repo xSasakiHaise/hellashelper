@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pixelmon:block/ultra_space/elm_slab"
+    },
+    "type=double": {
+      "model": "pixelmon:block/ultra_space/elm_planks"
+    },
+    "type=top": {
+      "model": "pixelmon:block/ultra_space/elm_slab_top"
+    }
+  }
+}

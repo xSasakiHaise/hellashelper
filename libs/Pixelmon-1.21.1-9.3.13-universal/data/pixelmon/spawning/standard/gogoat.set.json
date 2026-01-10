@@ -1,0 +1,91 @@
+{
+  "id": "Gogoat",
+  "spawnInfos": [
+    {
+      "spec": "species:Gogoat",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/mountainous_forests"
+        ],
+        "minY": 85
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Skiddo",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Gogoat",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "minecraft:snowy_plains",
+          "#pixelmon:spawning/freezing_forests",
+          "biomesoplenty:tundra",
+		  "biomeswevegone:crimson_tundra"
+        ],
+        "minY": 85
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Skiddo",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 6.0
+    }
+  ]
+}

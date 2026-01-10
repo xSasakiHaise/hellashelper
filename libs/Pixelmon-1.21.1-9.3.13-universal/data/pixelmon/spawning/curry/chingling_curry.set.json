@@ -1,0 +1,26 @@
+{
+  "id": "Chingling Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Chingling",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

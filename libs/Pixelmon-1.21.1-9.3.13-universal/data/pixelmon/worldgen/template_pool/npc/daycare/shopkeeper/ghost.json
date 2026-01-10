@@ -1,0 +1,15 @@
+{
+  "name": "pixelmon:npc/daycare/shopkeeper/ghost",
+  "fallback": "pixelmon:npc/daycare/shopkeeper/ghost",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/misc/ghost/daycare",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

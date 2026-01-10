@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 146,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "attacks": [
+    {
+      "name": "attack.FOSS27.1.name",
+      "costs": [
+        "FIRE"
+      ],
+      "damage": 0,
+      "text": "attack.FOSS27.1.text",
+      "effects": [
+        {
+          "type": "tcg:wildfire",
+          "energy": "FIRE"
+        }
+      ]
+    },
+    {
+      "name": "attack.FOSS27.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE",
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 80,
+      "text": "attack.FOSS27.2.text",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        }
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

@@ -1,0 +1,53 @@
+{
+  "attackIndex": 612,
+  "attackName": "Rototiller",
+  "attackType": "GROUND",
+  "attackCategory": "STATUS",
+  "basePower": 0,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": -1,
+  "makesContact": false,
+  "effects": [
+    {
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "Rototiller"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": false,
+    "hitsAdjacentFoe": false,
+    "hitsExtendedFoe": false,
+    "hitsSelf": true,
+    "hitsAdjacentAlly": false,
+    "hitsExtendedAlly": false
+  },
+  "flags": {
+    "bypass": true,
+    "field": true,
+    "individual": true
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:groundium_z",
+      "attackName": "Z-Rototiller",
+      "basePower": 0,
+	  "effects": [
+		{
+		  "type": "ATTACK",
+		  "amount": 1,
+		  "isUser": true,
+		  "modifiers": [],
+		  "persists": false,
+		  "effectTypeID": "StatsEffect"
+		}
+	  ],
+      "allowedPokemon": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+	"display": {
+		"icon": {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{ndex:422, palette:\"moons\", form:\"east\"}"
+		},
+		"title": {
+			"translate": "advancements.shellos_jump.title"
+		},
+		"description": {
+			"translate": "advancements.shellos_jump.description"
+		},
+		"hidden": true
+	},
+    "parent" : "pixelmon:specs/spec_trigger",
+    "criteria":{
+       "2":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:east palette:gray_bubbles"
+          }
+       },
+       "3":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:east palette:purple_bubbles"
+          }
+       },
+       "4":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:east palette:violet_saucy"
+          }
+       },
+       "5":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:east palette:apricot_saucy"
+          }
+       },
+       "6":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:east palette:moons"
+          }
+       },
+       "7":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:east palette:golde"
+          }
+       },
+       "8":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:west palette:gray_diamonds"
+          }
+       },
+       "9":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:west palette:purple_diamonds"
+          }
+       },
+       "10":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:west palette:brown_stripes"
+          }
+       },
+       "11":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:west palette:blue_stripes"
+          }
+       },
+       "12":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:west palette:sun"
+          }
+       },
+       "13":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Shellos form:west palette:goldw"
+          }
+       }
+    },
+    "requirements":[
+       [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+       ]
+    ]
+}

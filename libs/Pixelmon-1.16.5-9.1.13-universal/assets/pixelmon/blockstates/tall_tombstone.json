@@ -1,0 +1,73 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "variants": {
+    "waterlogged=false,down=false,facing=north": {
+      "model": "pixelmon:block/tombstone/tall_gravestone"
+    },
+    "waterlogged=true,down=false,facing=north": {
+      "model": "pixelmon:block/tombstone/tall_gravestone"
+    },
+    "waterlogged=false,down=false,facing=east": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 90
+    },
+    "waterlogged=true,down=false,facing=east": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 90
+    },
+    "waterlogged=false,down=false,facing=south": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 180
+    },
+    "waterlogged=true,down=false,facing=south": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 180
+    },
+    "waterlogged=false,down=false,facing=west": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 270
+    },
+    "waterlogged=true,down=false,facing=west": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 270
+    },
+    "waterlogged=false,down=true,facing=north": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "x": 180
+    },
+    "waterlogged=true,down=true,facing=north": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "x": 180
+    },
+    "waterlogged=false,down=true,facing=east": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 90,
+      "x": 180
+    },
+    "waterlogged=true,down=true,facing=east": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 90,
+      "x": 180
+    },
+    "waterlogged=false,down=true,facing=south": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 180,
+      "x": 180
+    },
+    "waterlogged=true,down=true,facing=south": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 180,
+      "x": 180
+    },
+    "waterlogged=false,down=true,facing=west": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 270,
+      "x": 180
+    },
+    "waterlogged=true,down=true,facing=west": {
+      "model": "pixelmon:block/tombstone/tall_gravestone",
+      "y": 270,
+      "x": 180
+    }
+  }
+}

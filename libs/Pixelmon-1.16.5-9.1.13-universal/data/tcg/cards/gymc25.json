@@ -1,0 +1,61 @@
+{
+  "id": 504,
+  "setId": 7,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 90,
+  "energy1": "GRASS",
+  "energy2": null,
+  "pokemonId": 24,
+  "code": "GYMC25",
+  "name": "card.GYMC25.name",
+  "description": "",
+  "previousPokemonId": 23,
+  "cardAttacks": [
+    {
+      "card": "GYMC25",
+      "index": 1,
+      "name": "attack.GYMC25.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.GYMC25.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC25",
+      "index": 2,
+      "name": "attack.GYMC25.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMC25.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "PSYCHIC",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 2,
+  "cardRarity": "RARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

@@ -1,0 +1,302 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_deep_stone",
+    "pixelmon:ultra_deep_crystal",
+    "pixelmon:ultra_deep_clay",
+    "pixelmon:ultra_deep_gravel",
+    "pixelmon:ultra_desert_sand",
+    "pixelmon:ultra_desert_gilded_sand",
+    "pixelmon:ultra_desert_sandstone",
+    "pixelmon:ultra_space_stone",
+    "pixelmon:ultra_space_cobblestone",
+    "pixelmon:ultra_space_cobblestone",
+    "pixelmon:poke_sand_corner1",
+    "pixelmon:poke_sand_corner2",
+    "pixelmon:poke_sand_corner3",
+    "pixelmon:poke_sand_corner4",
+    "pixelmon:poke_sand_side1",
+    "pixelmon:poke_sand_side2",
+    "pixelmon:poke_sand_side3",
+    "pixelmon:poke_sand_side4",
+    "pixelmon:poke_sand",
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone",
+    "minecraft:pumpkin",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:podzol",
+    "minecraft:stone",
+    "minecraft:granite",
+    "minecraft:andesite",
+    "minecraft:diorite",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:gravel",
+    "minecraft:mycelium",
+    "minecraft:terracotta",
+    "minecraft:black_terracotta",
+    "minecraft:blue_terracotta",
+    "minecraft:brown_terracotta",
+    "minecraft:cyan_terracotta",
+    "minecraft:gray_terracotta",
+    "minecraft:green_terracotta",
+    "minecraft:light_blue_terracotta",
+    "minecraft:light_gray_terracotta",
+    "minecraft:lime_terracotta",
+    "minecraft:magenta_terracotta",
+    "minecraft:orange_terracotta",
+    "minecraft:pink_terracotta",
+    "minecraft:purple_terracotta",
+    "minecraft:red_terracotta",
+    "minecraft:white_terracotta",
+    "minecraft:yellow_terracotta",
+    "minecraft:yellow_concrete_powder",
+    "minecraft:yellow_concrete",
+    "minecraft:orange_concrete",
+    "minecraft:lily_pad",
+    "minecraft:snow_block",
+    "minecraft:ice",
+    "minecraft:frosted_ice",
+    "minecraft:packed_ice",
+    "minecraft:basalt",
+    "minecraft:smooth_basalt",
+    "minecraft:blackstone",
+    "minecraft:netherrack",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "minecraft:end_stone",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:deepslate",
+    "minecraft:tuff",
+    "minecraft:calcite",
+    "minecraft:mud",
+    "minecraft:moss_block",
+    "minecraft:moss_carpet",
+    "minecraft:dripstone_block",
+    "minecraft:sculk",
+    "minecraft:dead_brain_coral_block",
+    "minecraft:dead_horn_coral_block",
+    "minecraft:dead_tube_coral_block",
+    "minecraft:dead_bubble_coral_block",
+    "minecraft:dead_fire_coral_block",
+    {
+      "id": "biomesoplenty:algal_end_stone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:unmapped_end_stone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:null_end_stone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:white_sand",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:white_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:black_sand",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:black_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mossy_black_sand",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:orange_sand",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:orange_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:origin_grass_block",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dried_salt",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:flesh",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:porous_flesh",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:glowing_moss_block",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:glowing_moss_carpet",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:huge_lily_pad",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:thermal_calcite",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:peat",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:sandy_dirt",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:lush_dirt",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:lush_grass_block",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pale_mud",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mossy_stone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:podzol_dacite",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:overgrown_dacite",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:overgrown_stone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:red_rock",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cracked_sand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cracked_red_sand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rocky_stone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:black_sand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_sand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_sand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_sand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:purple_sand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:windswept_sand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:black_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:purple_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:windswept_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:quicksand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:red_quicksand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:black_ice",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:packed_black_ice",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:borealis_ice",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:packed_borealis_ice",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:tiny_lilypads",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:flowering_tiny_lilypads",
+      "required": false
+    }
+  ]
+}

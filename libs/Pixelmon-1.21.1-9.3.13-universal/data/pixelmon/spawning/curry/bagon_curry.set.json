@@ -1,0 +1,26 @@
+{
+  "id": "Bagon Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Bagon",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_fang",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

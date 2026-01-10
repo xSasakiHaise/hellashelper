@@ -1,0 +1,42 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:decor/household_items/mug_ball"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:decor/household_items/mug_ball"
+      }
+    },
+    "has_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:clay"
+          }
+        ]
+      }
+    },
+    "has_poke_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:poke_ball"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_clay",
+      "has_poke_ball"
+    ]
+  ]
+}

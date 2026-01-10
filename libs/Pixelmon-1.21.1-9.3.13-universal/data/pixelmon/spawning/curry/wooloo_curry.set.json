@@ -1,0 +1,21 @@
+{
+  "id": "Wooloo Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Wooloo",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 7,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

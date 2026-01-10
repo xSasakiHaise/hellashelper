@@ -1,0 +1,15 @@
+{
+  "type": "pixelmon:infuser",
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "pixelmon:nanab_berry"
+    },
+    {
+      "item": "pixelmon:moomoo_milk"
+    }
+  ],
+  "results": {
+    "id": "pixelmon:skitty_smoothie"
+  }
+}

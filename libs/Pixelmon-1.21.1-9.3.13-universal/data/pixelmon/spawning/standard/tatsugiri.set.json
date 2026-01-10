@@ -1,0 +1,65 @@
+{
+    "id": "Tatsugiri",
+    "spawnInfos": [
+      {
+        "spec": "species:Tatsugiri form:curly",
+        "stringLocationTypes": [
+          "Land",
+          "Water"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/lakes",
+            "#pixelmon:spawning/rivers"
+          ]
+        },
+        "rarity": 25.0
+      },
+      {
+        "spec": "species:Tatsugiri form:droopy",
+        "stringLocationTypes": [
+          "Land",
+          "Water"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/lakes",
+            "#pixelmon:spawning/rivers"
+          ]
+        },
+        "rarity": 25.0
+      },
+      {
+        "spec": "species:Tatsugiri form:stretchy",
+        "stringLocationTypes": [
+          "Land",
+          "Water"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/lakes",
+            "#pixelmon:spawning/rivers"
+          ]
+        },
+        "rarity": 25.0
+      }
+    ]
+  }

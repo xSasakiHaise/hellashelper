@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:gems/crystal"
+    }
+  },
+  "result": {
+    "item": "pixelmon:plasma_legs",
+    "count": 1
+  }
+}

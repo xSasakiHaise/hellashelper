@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:moon_stone"
+    }
+  },
+  "result": {
+    "id": "pixelmon:moon_stone_chestplate",
+    "count": 1
+  }
+}

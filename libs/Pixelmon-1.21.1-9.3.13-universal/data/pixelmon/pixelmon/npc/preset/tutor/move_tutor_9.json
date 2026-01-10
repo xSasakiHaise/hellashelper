@@ -1,0 +1,275 @@
+{
+  "interactions": {
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "learnable_moves": [
+                  {
+                    "attack": "Ominous Wind",
+                    "costs": [
+                      {
+                        "id": "pixelmon:crystal",
+                        "count": 8
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Drain Punch",
+                    "costs": [
+                      {
+                        "id": "minecraft:diamond",
+                        "count": 5
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "High Horsepower",
+                    "costs": [
+                      {
+                        "id": "pixelmon:crystal",
+                        "count": 6
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Skitter Smack",
+                    "costs": [
+                      {
+                        "id": "minecraft:diamond",
+                        "count": 14
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Coaching",
+                    "costs": [
+                      {
+                        "id": "pixelmon:aluminum_ingot",
+                        "count": 8
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Magic Room",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Draco Meteor",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 8
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Bulk Up",
+                    "costs": [
+                      {
+                        "id": "pixelmon:aluminum_ingot",
+                        "count": 10
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Relic Song",
+                    "costs": [
+                      {
+                        "id": "minecraft:diamond",
+                        "count": 6
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Role Play",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 10
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Seed Bomb",
+                    "costs": [
+                      {
+                        "id": "minecraft:diamond",
+                        "count": 11
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Rest",
+                    "costs": [
+                      {
+                        "id": "minecraft:diamond",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Celebrate",
+                    "costs": [
+                      {
+                        "id": "minecraft:gold_ingot",
+                        "count": 2
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Blast Burn",
+                    "costs": [
+                      {
+                        "id": "minecraft:emerald",
+                        "count": 11
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Charge Beam",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 3
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Heal Bell",
+                    "costs": [
+                      {
+                        "id": "minecraft:iron_ingot",
+                        "count": 4
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Spite",
+                    "costs": [
+                      {
+                        "id": "pixelmon:aluminum_ingot",
+                        "count": 6
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Ice Beam",
+                    "costs": [
+                      {
+                        "id": "minecraft:amethyst_shard",
+                        "count": 11
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Misty Explosion",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 6
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Fire Punch",
+                    "costs": [
+                      {
+                        "id": "minecraft:amethyst_shard",
+                        "count": 8
+                      }
+                    ],
+                    "learnable": true
+                  }
+                ],
+                "type": "pixelmon:tutor_move"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        }
+      ]
+    },
+    "type": "pixelmon:constant"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Move Tutor"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "value": {
+      "slim": false,
+      "texture": {
+        "resource": {
+          "resource": "pixelmon:textures/steve/npcchat1.png",
+          "fallback": "pixelmon:textures/steve/npcchat1.png"
+        },
+        "type": "pixelmon:fallback"
+      },
+      "type": "pixelmon:player"
+    },
+    "type": "pixelmon:constant"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5.0,
+      "swim": false
+    }
+  }
+}

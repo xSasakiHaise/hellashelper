@@ -1,0 +1,20 @@
+{
+  "id": "Cutiefly Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Cutiefly",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

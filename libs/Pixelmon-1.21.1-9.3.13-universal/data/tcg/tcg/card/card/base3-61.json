@@ -1,0 +1,15 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.base3-61.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/recycle.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+  "effect": {
+    "type": "tcg:recycle"
+  },
+  "rarity": "tcg:common"
+}

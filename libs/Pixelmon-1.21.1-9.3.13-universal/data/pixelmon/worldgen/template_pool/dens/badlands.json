@@ -1,0 +1,54 @@
+{
+  "name": "pixelmon:badlands_den/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:dens/den_badlands_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 1,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:dens/den_badlands_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:dens/den_badlands_plateau_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:dens/den_mesa_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    }
+  ]
+}

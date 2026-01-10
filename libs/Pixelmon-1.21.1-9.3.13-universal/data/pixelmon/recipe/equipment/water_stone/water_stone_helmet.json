@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:water_stone"
+    }
+  },
+  "result": {
+    "id": "pixelmon:water_stone_helmet",
+    "count": 1
+  }
+}

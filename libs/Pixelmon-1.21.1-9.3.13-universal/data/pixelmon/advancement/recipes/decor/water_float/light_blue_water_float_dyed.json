@@ -1,0 +1,31 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:light_blue_water_float"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:decor/water_float/light_blue_water_float"
+      }
+    },
+    "has_water_float": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:water_floats"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_water_float"
+    ]
+  ]
+}

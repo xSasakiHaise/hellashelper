@@ -1,0 +1,22 @@
+{
+  "id": "Azurill Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Azurill",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

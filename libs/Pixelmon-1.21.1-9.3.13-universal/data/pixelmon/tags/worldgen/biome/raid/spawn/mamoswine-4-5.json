@@ -1,0 +1,46 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:frozen_peaks",
+    {
+      "required": false,
+      "id": "terralith:emerald_peaks"
+    },
+    {
+      "required": false,
+      "id": "terralith:glacial_chasm"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:mount_lanakila"
+    },
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes",
+    {
+      "required": false,
+      "id": "biomesoplenty:cold_desert"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:muskeg"
+    },
+    {
+      "required": false,
+      "id": "terralith:ice_marsh"
+    },
+    {
+      "required": false,
+      "id": "terralith:gravel_desert"
+    },
+    {
+      "required": false,
+      "id": "terralith:snowy_badlands"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:tundra"
+    }
+  ]
+}

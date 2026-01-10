@@ -1,0 +1,28 @@
+{
+  "id": "Oddish Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Oddish",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

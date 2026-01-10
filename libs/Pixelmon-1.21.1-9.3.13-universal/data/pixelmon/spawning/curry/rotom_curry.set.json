@@ -1,0 +1,20 @@
+{
+  "id": "Rotom Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Rotom",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 13,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

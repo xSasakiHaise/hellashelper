@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mower",
+  "pattern": [
+    "A  ",
+    "HAA",
+    "SRS"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/aluminum"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "R": {
+      "item": "minecraft:shears"
+    },
+    "S": {
+      "item": "pixelmon:tm_gen2",
+      "nbt": {
+        "tm": 4
+      }
+    }
+  },
+  "result": {
+    "id": "pixelmon:mower",
+    "count": 1
+  }
+}

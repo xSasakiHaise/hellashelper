@@ -1,0 +1,46 @@
+{
+  "id": 408,
+  "setId": 6,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 50,
+  "energy1": "PSYCHIC",
+  "energy2": null,
+  "pokemonId": 93,
+  "code": "GYMH58",
+  "name": "card.GYMH58.name",
+  "description": "",
+  "previousPokemonId": 92,
+  "cardAttacks": [
+    {
+      "card": "GYMH58",
+      "index": 1,
+      "name": "attack.GYMH58.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "modifier": null,
+      "text": "attack.GYMH58.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": "FIGHTING",
+  "resistanceValue": "30",
+  "resistanceCardModifier": "Minus",
+  "energyWeakness": "",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 0,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

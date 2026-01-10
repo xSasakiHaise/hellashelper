@@ -1,0 +1,43 @@
+{
+  "id": "Luvdisc Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 11,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

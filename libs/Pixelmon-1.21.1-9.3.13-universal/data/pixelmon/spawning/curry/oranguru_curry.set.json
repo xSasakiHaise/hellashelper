@@ -1,0 +1,21 @@
+{
+  "id": "Oranguru Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Oranguru",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:jungle",
+          "minecraft:bamboo_jungle"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

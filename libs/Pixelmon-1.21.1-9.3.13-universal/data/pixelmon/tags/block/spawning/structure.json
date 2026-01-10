@@ -1,0 +1,1271 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dirt_path",
+    "minecraft:polished_granite",
+    "minecraft:polished_andesite",
+    "minecraft:polished_diorite",
+    "minecraft:chiseled_sandstone",
+    "minecraft:cut_sandstone",
+    "minecraft:chiseled_red_sandstone",
+    "minecraft:cut_red_sandstone",
+    "minecraft:stone_bricks",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:nether_bricks",
+    "minecraft:cracked_nether_bricks",
+    "minecraft:chiseled_nether_bricks",
+    "minecraft:red_nether_bricks",
+    "minecraft:bricks",
+    "minecraft:end_stone_bricks",
+    "minecraft:polished_basalt",
+    "minecraft:gilded_blackstone",
+    "minecraft:polished_blackstone",
+    "minecraft:chiseled_polished_blackstone",
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:cracked_polished_blackstone_bricks",
+    "minecraft:netherite_block",
+    "minecraft:ancient_debris",
+    "minecraft:crying_obsidian",
+    "minecraft:smooth_stone",
+    "minecraft:smooth_sandstone",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:smooth_quartz",
+    "minecraft:stone_brick_slab",
+    "minecraft:stone_brick_slab",
+    "minecraft:stone_slab",
+    "minecraft:sandstone_slab",
+    "minecraft:red_sandstone_slab",
+    "minecraft:cut_sandstone_slab",
+    "minecraft:cut_red_sandstone_slab",
+    "minecraft:petrified_oak_slab",
+    "minecraft:cobblestone_slab",
+    "minecraft:brick_slab",
+    "minecraft:stone_brick_slab",
+    "minecraft:nether_brick_slab",
+    "minecraft:blackstone_slab",
+    "minecraft:polished_blackstone_slab",
+    "minecraft:polished_blackstone_brick_slab",
+    "minecraft:quartz_slab",
+    "minecraft:purpur_slab",
+    "minecraft:warped_slab",
+    "minecraft:crimson_slab",
+    "minecraft:prismarine_slab",
+    "minecraft:prismarine_brick_slab",
+    "minecraft:dark_prismarine_slab",
+    "minecraft:oak_slab",
+    "minecraft:spruce_slab",
+    "minecraft:birch_slab",
+    "minecraft:jungle_slab",
+    "minecraft:acacia_slab",
+    "minecraft:dark_oak_slab",
+    "minecraft:mangrove_slab",
+    "minecraft:cherry_slab",
+    "minecraft:oak_planks",
+    "minecraft:spruce_planks",
+    "minecraft:birch_planks",
+    "minecraft:jungle_planks",
+    "minecraft:acacia_planks",
+    "minecraft:dark_oak_planks",
+    "minecraft:mangrove_planks",
+    "minecraft:cherry_planks",
+    "minecraft:oak_trapdoor",
+    "minecraft:birch_trapdoor",
+    "minecraft:spruce_trapdoor",
+    "minecraft:jungle_trapdoor",
+    "minecraft:dark_oak_trapdoor",
+    "minecraft:acacia_trapdoor",
+    "minecraft:crimson_trapdoor",
+    "minecraft:warped_trapdoor",
+    "minecraft:cherry_trapdoor",
+    "minecraft:mangrove_trapdoor",
+    "minecraft:iron_trapdoor",
+    "minecraft:black_wool",
+    "minecraft:blue_wool",
+    "minecraft:brown_wool",
+    "minecraft:cyan_wool",
+    "minecraft:gray_wool",
+    "minecraft:green_wool",
+    "minecraft:light_blue_wool",
+    "minecraft:light_gray_wool",
+    "minecraft:lime_wool",
+    "minecraft:magenta_wool",
+    "minecraft:orange_wool",
+    "minecraft:pink_wool",
+    "minecraft:purple_wool",
+    "minecraft:red_wool",
+    "minecraft:white_wool",
+    "minecraft:yellow_wool",
+    "minecraft:black_carpet",
+    "minecraft:blue_carpet",
+    "minecraft:brown_carpet",
+    "minecraft:cyan_carpet",
+    "minecraft:gray_carpet",
+    "minecraft:green_carpet",
+    "minecraft:light_blue_carpet",
+    "minecraft:light_gray_carpet",
+    "minecraft:lime_carpet",
+    "minecraft:magenta_carpet",
+    "minecraft:orange_carpet",
+    "minecraft:pink_carpet",
+    "minecraft:purple_carpet",
+    "minecraft:red_carpet",
+    "minecraft:white_carpet",
+    "minecraft:yellow_carpet",
+    "minecraft:quartz_block",
+    "minecraft:chiseled_quartz_block",
+    "minecraft:quartz_bricks",
+    "minecraft:quartz_pillar",
+    "minecraft:purpur_block",
+    "minecraft:purpur_pillar",
+    "minecraft:purpur_stairs",
+    "minecraft:oak_stairs",
+    "minecraft:acacia_stairs",
+    "minecraft:birch_stairs",
+    "minecraft:dark_oak_stairs",
+    "minecraft:jungle_stairs",
+    "minecraft:mangrove_stairs",
+    "minecraft:cherry_stairs",
+    "minecraft:brick_stairs",
+    "minecraft:end_stone_brick_stairs",
+    "minecraft:nether_brick_stairs",
+    "minecraft:red_nether_brick_stairs",
+    "minecraft:quartz_stairs",
+    "minecraft:smooth_quartz_stairs",
+    "minecraft:red_sandstone_stairs",
+    "minecraft:sandstone_stairs",
+    "minecraft:smooth_red_sandstone_stairs",
+    "minecraft:smooth_sandstone_stairs",
+    "minecraft:spruce_stairs",
+    "minecraft:stone_brick_stairs",
+    "minecraft:mossy_stone_brick_stairs",
+    "minecraft:cobblestone_stairs",
+    "minecraft:mossy_cobblestone_stairs",
+    "minecraft:stone_stairs",
+    "minecraft:granite_stairs",
+    "minecraft:andesite_stairs",
+    "minecraft:diorite_stairs",
+    "minecraft:polished_granite_stairs",
+    "minecraft:polished_andesite_stairs",
+    "minecraft:polished_diorite_stairs",
+    "minecraft:crimson_stairs",
+    "minecraft:warped_stairs",
+    "minecraft:blackstone_stairs",
+    "minecraft:polished_blackstone_stairs",
+    "minecraft:polished_blackstone_brick_stairs",
+    "minecraft:prismarine_brick_stairs",
+    "minecraft:dark_prismarine_stairs",
+    "minecraft:prismarine_stairs",
+    "minecraft:prismarine",
+    "minecraft:prismarine_bricks",
+    "minecraft:dark_prismarine",
+    "minecraft:black_concrete",
+    "minecraft:blue_concrete",
+    "minecraft:brown_concrete",
+    "minecraft:cyan_concrete",
+    "minecraft:gray_concrete",
+    "minecraft:green_concrete",
+    "minecraft:light_blue_concrete",
+    "minecraft:light_gray_concrete",
+    "minecraft:lime_concrete",
+    "minecraft:magenta_concrete",
+    "minecraft:orange_concrete",
+    "minecraft:pink_concrete",
+    "minecraft:purple_concrete",
+    "minecraft:red_concrete",
+    "minecraft:white_concrete",
+    "minecraft:yellow_concrete",
+    "minecraft:black_glazed_terracotta",
+    "minecraft:blue_glazed_terracotta",
+    "minecraft:brown_glazed_terracotta",
+    "minecraft:cyan_glazed_terracotta",
+    "minecraft:gray_glazed_terracotta",
+    "minecraft:green_glazed_terracotta",
+    "minecraft:light_blue_glazed_terracotta",
+    "minecraft:light_gray_glazed_terracotta",
+    "minecraft:lime_glazed_terracotta",
+    "minecraft:magenta_glazed_terracotta",
+    "minecraft:orange_glazed_terracotta",
+    "minecraft:pink_glazed_terracotta",
+    "minecraft:purple_glazed_terracotta",
+    "minecraft:red_glazed_terracotta",
+    "minecraft:white_glazed_terracotta",
+    "minecraft:yellow_glazed_terracotta",
+    "minecraft:diamond_block",
+    "minecraft:emerald_block",
+    "minecraft:gold_block",
+    "minecraft:iron_block",
+    "minecraft:lapis_block",
+    "minecraft:honeycomb_block",
+    "minecraft:cobbled_deepslate",
+    "minecraft:cobbled_deepslate_stairs",
+    "minecraft:cobbled_deepslate_slab",
+    "minecraft:chiseled_deepslate",
+    "minecraft:polished_deepslate",
+    "minecraft:polished_deepslate_stairs",
+    "minecraft:polished_deepslate_slab",
+    "minecraft:deepslate_bricks",
+    "minecraft:cracked_deepslate_bricks",
+    "minecraft:deepslate_brick_slab",
+    "minecraft:deepslate_brick_stairs",
+    "minecraft:deepslate_tiles",
+    "minecraft:cracked_deepslate_tiles",
+    "minecraft:deepslate_tile_slab",
+    "minecraft:deepslate_tile_stairs",
+    "minecraft:reinforced_deepslate",
+    "minecraft:mud_bricks",
+    "minecraft:mud_brick_stairs",
+    "minecraft:mud_brick_slab",
+    "minecraft:copper_block",
+    "minecraft:cut_copper",
+    "minecraft:cut_copper_stairs",
+    "minecraft:cut_copper_slab",
+    "minecraft:exposed_copper",
+    "minecraft:exposed_cut_copper",
+    "minecraft:exposed_cut_copper_stairs",
+    "minecraft:exposed_cut_copper_slab",
+    "minecraft:weathered_copper",
+    "minecraft:weathered_cut_copper",
+    "minecraft:weathered_cut_copper_stairs",
+    "minecraft:weathered_cut_copper_slab",
+    "minecraft:oxidized_copper",
+    "minecraft:oxidized_cut_copper",
+    "minecraft:oxidized_cut_copper_stairs",
+    "minecraft:oxidized_cut_copper_slab",
+    "minecraft:waxed_copper_block",
+    "minecraft:waxed_cut_copper",
+    "minecraft:waxed_cut_copper_stairs",
+    "minecraft:waxed_cut_copper_slab",
+    "minecraft:waxed_exposed_copper",
+    "minecraft:waxed_exposed_cut_copper",
+    "minecraft:waxed_exposed_cut_copper_stairs",
+    "minecraft:waxed_exposed_cut_copper_slab",
+    "minecraft:waxed_weathered_copper",
+    "minecraft:waxed_weathered_cut_copper",
+    "minecraft:waxed_weathered_cut_copper_stairs",
+    "minecraft:waxed_weathered_cut_copper_slab",
+    "minecraft:waxed_oxidized_copper",
+    "minecraft:waxed_oxidized_cut_copper",
+    "minecraft:waxed_oxidized_cut_copper_stairs",
+    "minecraft:waxed_oxidized_cut_copper_slab",
+    "pixelmon:temple_brick",
+    "pixelmon:temple_brick_stairs",
+    "pixelmon:temple_brick_slab",
+    "pixelmon:temple_block",
+    "pixelmon:temple_slab",
+    "pixelmon:temple_stairs",
+    "pixelmon:ruins_wall",
+    "pixelmon:dusty_ruins_wall",
+    "pixelmon:braille_block_a",
+    "pixelmon:braille_block_b",
+    "pixelmon:braille_block_c",
+    "pixelmon:braille_block_d",
+    "pixelmon:braille_block_e",
+    "pixelmon:braille_block_f",
+    "pixelmon:braille_block_g",
+    "pixelmon:braille_block_h",
+    "pixelmon:braille_block_i",
+    "pixelmon:braille_block_j",
+    "pixelmon:braille_block_k",
+    "pixelmon:braille_block_l",
+    "pixelmon:braille_block_m",
+    "pixelmon:braille_block_n",
+    "pixelmon:braille_block_o",
+    "pixelmon:braille_block_p",
+    "pixelmon:braille_block_q",
+    "pixelmon:braille_block_r",
+    "pixelmon:braille_block_s",
+    "pixelmon:braille_block_t",
+    "pixelmon:braille_block_u",
+    "pixelmon:braille_block_v",
+    "pixelmon:braille_block_w",
+    "pixelmon:braille_block_x",
+    "pixelmon:braille_block_y",
+    "pixelmon:braille_block_z",
+    "pixelmon:braille_block_stop",
+    "pixelmon:braille_block_comma",
+    "pixelmon:braille_block_underscore",
+    "pixelmon:braille_block_blank",
+    "pixelmon:unown_block_a",
+    "pixelmon:unown_block_b",
+    "pixelmon:unown_block_c",
+    "pixelmon:unown_block_d",
+    "pixelmon:unown_block_e",
+    "pixelmon:unown_block_f",
+    "pixelmon:unown_block_g",
+    "pixelmon:unown_block_h",
+    "pixelmon:unown_block_i",
+    "pixelmon:unown_block_j",
+    "pixelmon:unown_block_k",
+    "pixelmon:unown_block_l",
+    "pixelmon:unown_block_m",
+    "pixelmon:unown_block_n",
+    "pixelmon:unown_block_o",
+    "pixelmon:unown_block_p",
+    "pixelmon:unown_block_q",
+    "pixelmon:unown_block_r",
+    "pixelmon:unown_block_s",
+    "pixelmon:unown_block_t",
+    "pixelmon:unown_block_u",
+    "pixelmon:unown_block_v",
+    "pixelmon:unown_block_w",
+    "pixelmon:unown_block_x",
+    "pixelmon:unown_block_y",
+    "pixelmon:unown_block_z",
+    "pixelmon:unown_block_exclaim",
+    "pixelmon:unown_block_question",
+    "pixelmon:unown_block_blank",
+    "pixelmon:shingles",
+    "pixelmon:shingles_corner1",
+    "pixelmon:shingles_corner2",
+    "pixelmon:blue_berry_wood_planks",
+    "pixelmon:blue_berry_wood_slab",
+    "pixelmon:blue_berry_wood_stairs",
+    "pixelmon:yellow_berry_wood_planks",
+    "pixelmon:yellow_berry_wood_slab",
+    "pixelmon:yellow_berry_wood_stairs",
+    "pixelmon:green_berry_wood_planks",
+    "pixelmon:green_berry_wood_slab",
+    "pixelmon:green_berry_wood_stairs",
+    "pixelmon:pink_berry_wood_planks",
+    "pixelmon:pink_berry_wood_slab",
+    "pixelmon:pink_berry_wood_stairs",
+    "pixelmon:purple_berry_wood_planks",
+    "pixelmon:purple_berry_wood_slab",
+    "pixelmon:purple_berry_wood_stairs",
+    "pixelmon:red_berry_wood_planks",
+    "pixelmon:red_berry_wood_slab",
+    "pixelmon:red_berry_wood_stairs",
+    "pixelmon:blue_berry_wood_trapdoor",
+    "pixelmon:green_berry_wood_trapdoor",
+    "pixelmon:pink_berry_wood_trapdoor",
+    "pixelmon:yellow_berry_wood_trapdoor",
+    "pixelmon:purple_berry_wood_trapdoor",
+    "pixelmon:red_berry_wood_trapdoor",
+    "pixelmon:ultra_ginkgo_trapdoor",
+    "pixelmon:ultra_elm_trapdoor",
+    "pixelmon:ultra_jungle_trapdoor",
+    "pixelmon:ultra_ginkgo_planks",
+    "pixelmon:ultra_ginkgo_slab",
+    "pixelmon:ultra_ginkgo_stairs",
+    "pixelmon:ultra_elm_planks",
+    "pixelmon:ultra_elm_slab",
+    "pixelmon:ultra_elm_stairs",
+    "pixelmon:ultra_jungle_planks",
+    "pixelmon:ultra_jungle_slab",
+    "pixelmon:ultra_jungle_stairs",
+    "pixelmon:ultra_desert_cut_sandstone",
+    "pixelmon:ultra_desert_cut_sandstone_slab",
+    "pixelmon:ultra_desert_chiseled_sandstone",
+    "pixelmon:ultra_desert_smooth_sandstone",
+    "pixelmon:ultra_desert_smooth_sandstone_stairs",
+    "pixelmon:ultra_desert_smooth_sandstone_slab",
+    "pixelmon:ultra_desert_sandstone_slab",
+    "pixelmon:ultra_desert_sandstone_stairs",
+    "pixelmon:chiseled_ultra_space_stone",
+    "pixelmon:polished_ultra_space_stone",
+    "pixelmon:ultra_space_stone_stairs",
+    "pixelmon:ultra_space_stone_slab",
+    "pixelmon:polished_ultra_space_stone_stairs",
+    "pixelmon:polished_ultra_space_stone_slab",
+    "pixelmon:ultra_space_cobblestone_stairs",
+    "pixelmon:ultra_space_cobblestone_slab",
+    {
+      "id": "biomesoplenty:cut_white_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_white_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_black_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_orange_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:white_sandstone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:black_sandstone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:orange_sandstone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:white_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:black_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:orange_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_white_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_white_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:rose_quartz_block",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hellbark_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:empyreal_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:empyreal_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:empyreal_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:maple_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:maple_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:maple_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pine_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pine_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pine_slab",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_bricks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chiseled_brimstone_bricks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_brick_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:sandy_dirt_path",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:lush_dirt_path",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pale_mud_bricks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_bricks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:red_rock_bricks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mossy_red_rock_bricks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:chiseled_red_rock_bricks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cracked_red_rock_bricks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_pillar",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_dacite_pillar",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:windswept_sandstone_pillar",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_tile",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_dacite_tile",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:black_cut_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:black_chiseled_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:black_smooth_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_cut_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_chiseled_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_smooth_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_cut_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_chiseled_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_smooth_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:purple_cut_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:purple_chiseled_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:purple_smooth_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_cut_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_chiseled_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_smooth_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:windswept_cut_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:windswept_chiseled_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:windswept_smooth_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cattail_thatch",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cattail_thatch_carpet",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:aspen_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:boabab_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_enchanted_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_enchanted_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cika_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cypress_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ebony_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fir_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:florus_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:holly_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ironwood_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:jacaranda_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mahogany_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_mangrove_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:maple_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palm_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palo_verde_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pine_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rainbow_eucalyptus_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:redwood_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:sakura_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:skyris_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:spirit_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:willow_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:witch_hazel_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:zelkova_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_cobblestone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_dacite_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_dacite_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_dacite_cobblestone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_dacite_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cracked_white_dacite_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:chiseled_white_dacite_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mossy_white_dacite_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cracked_white_dacite_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:chiseled_white_dacite_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mossy_white_dacite_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cracked_white_dacite_bricks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:chiseled_white_dacite_bricks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mossy_white_dacite_bricks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mossy_stone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:red_rock_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:red_rock_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mossy_red_rock_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:chiseled_red_rock_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cracked_red_rock_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:polished_red_rock_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:polished_red_rock",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rocky_stone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:windswept_sandstone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:smooth_windswept_sandstone_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pale_mmud_bricks_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cattail_thatch_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:aspen_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:boabab_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_enchanted_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_enchanted_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cika_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cypress_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ebony_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fir_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:florus_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:holly_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ironwood_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:jacaranda_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mahogany_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_mangrove_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:maple_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palm_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palo_verde_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pine_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rainbow_eucalyptus_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:redwood_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:sakura_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:skyris_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:spirit_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:willow_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:witch_hazel_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:zelkova_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_brick_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_cobblestone_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dacite_tile_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_dacite_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_dacite_brick_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_dacite_cobblestone_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_dacite_tile_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mossy_stone_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:red_rock_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:red_rock_brick_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mossy_red_rock_brick_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:chiseled_red_rock_brick_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cracked_red_rock_brick_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:polished_red_rock_brick_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rocky_stone_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pale_mud_bricks_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:aspen_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:boabab_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_enchanted_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_enchanted_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cika_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cypress_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ebony_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fir_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:florus_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:holly_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ironwood_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:jacaranda_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mahogany_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_mangrove_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:maple_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palm_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palo_verde_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pine_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rainbow_eucalyptus_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:redwood_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:sakura_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:skyris_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:spirit_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:willow_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:witch_hazel_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:zelkova_slab",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cattail_thatch_slab",
+      "required": false
+    }
+  ]
+}

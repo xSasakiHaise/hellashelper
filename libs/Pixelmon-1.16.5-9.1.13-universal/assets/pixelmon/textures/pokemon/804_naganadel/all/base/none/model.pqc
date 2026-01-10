@@ -1,0 +1,6 @@
+$body naganadel.bmd
+$anim walk walk.bmd
+$anim special roar.bmd
+$anim idle idlebasic.bmd idlebasic.bmd idlebasic.bmd roar.bmd idlebasic.bmd
+$anim fly fly.bmd
+$scale 0.25

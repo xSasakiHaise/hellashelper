@@ -1,0 +1,45 @@
+{
+    "id": "Dondozo Fishing",
+    "spawnInfos": [
+      {
+        "spec": "species:Dondozo",
+        "stringLocationTypes": [
+          "Good Rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "stringBiomes": [
+            "minecraft:river",
+            "lakes",
+            "swamps"
+          ]
+        },
+        "rarity": 50.0
+      },
+      {
+        "spec": "species:Dondozo",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "stringBiomes": [
+            "minecraft:river",
+            "lakes",
+            "swamps"
+          ]
+        },
+        "rarity": 25.0
+      }
+    ]
+  }

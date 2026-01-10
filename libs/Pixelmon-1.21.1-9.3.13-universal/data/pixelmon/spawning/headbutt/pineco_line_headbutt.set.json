@@ -1,0 +1,53 @@
+{
+  "id": "Pineco Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Pineco",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 12,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "variant": [
+          "oak",
+          "sacred_oak",
+          "pine",
+          "redwood",
+          "spruce"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Forretress",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 26,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "variant": [
+          "oak",
+          "sacred_oak",
+          "pine",
+          "redwood",
+          "spruce"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

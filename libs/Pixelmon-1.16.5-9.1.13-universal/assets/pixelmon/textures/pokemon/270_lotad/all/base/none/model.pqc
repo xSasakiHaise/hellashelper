@@ -1,0 +1,5 @@
+$body lotad.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$anim swim swim.bmd
+$scale 0.5

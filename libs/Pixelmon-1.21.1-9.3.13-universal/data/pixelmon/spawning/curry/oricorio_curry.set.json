@@ -1,0 +1,65 @@
+{
+  "id": "Oricorio Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Oricorio form:baile",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Oricorio form:pompom",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Oricorio form:pau",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Oricorio form:sensu",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

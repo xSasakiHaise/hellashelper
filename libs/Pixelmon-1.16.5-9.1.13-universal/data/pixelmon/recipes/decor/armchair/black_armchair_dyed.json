@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dyes/black"
+    },
+    {
+      "tag": "pixelmon:armchairs"
+    }
+  ],
+  "result": {
+    "item": "pixelmon:black_armchair",
+    "count": 1
+  }
+}

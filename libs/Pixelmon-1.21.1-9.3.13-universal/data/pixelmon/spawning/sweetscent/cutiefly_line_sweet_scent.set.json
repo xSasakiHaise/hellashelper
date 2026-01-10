@@ -1,0 +1,43 @@
+{
+  "id": "Cutiefly Line Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Cutiefly",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Ribombee",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 21,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

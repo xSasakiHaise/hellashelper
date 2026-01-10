@@ -1,0 +1,26 @@
+{
+  "id": "Stunky",
+  "spawnInfos": [
+    {
+      "spec": "species:Stunky",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

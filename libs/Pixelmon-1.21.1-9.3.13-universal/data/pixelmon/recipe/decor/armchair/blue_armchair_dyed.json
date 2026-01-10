@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "armchair_dyed",
+  "ingredients": [
+    {
+      "tag": "c:dyes/blue"
+    },
+    {
+      "tag": "pixelmon:armchairs"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:blue_armchair",
+    "count": 1
+  }
+}

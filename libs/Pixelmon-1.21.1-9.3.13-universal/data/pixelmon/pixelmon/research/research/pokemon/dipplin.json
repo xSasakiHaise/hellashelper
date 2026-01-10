@@ -1,0 +1,247 @@
+{
+  "name": {
+    "translate": "pixelmon.research.pokemon.dipplin"
+  },
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "require_healer_block": {
+            "type": "pixelmon:constant_boolean",
+            "value": true
+          },
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.dipplin.stage.0"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.dipplin.stage.1.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:block_place",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:block_is_one_of",
+                "blocks": "#minecraft:saplings",
+                "block": {
+                  "type": "pixelmon:context_block_state"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 8
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.dipplin.stage.1.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:consume_item",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:item_is_one_of",
+                "items": "minecraft:apple",
+                "item": {
+                  "type": "pixelmon:context_item"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 16
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.dipplin.stage.1.objective.3"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:craft_item",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:item_is_one_of",
+                "items": "minecraft:honey_block",
+                "item": {
+                  "type": "pixelmon:context_item"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 4
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.dipplin.stage.1"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.dipplin.stage.2.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:infuse_item",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:item_is_one_of",
+                "items": "pixelmon:syrupy_apple",
+                "item": {
+                  "type": "pixelmon:context_item"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.dipplin.stage.2.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:evolve_pokemon",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:spec_matches",
+                "spec": {
+                  "type": "pixelmon:constant_string",
+                  "value": "dipplin"
+                },
+                "pokemon": {
+                  "type": "pixelmon:context_pokemon",
+                  "key": "pixelmon:pokemon"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.dipplin.stage.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    }
+  ],
+  "abandonable": true,
+  "repeatable": false,
+  "unique": true
+}

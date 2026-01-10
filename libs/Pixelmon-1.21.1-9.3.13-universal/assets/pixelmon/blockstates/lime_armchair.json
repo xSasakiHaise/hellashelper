@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/armchair/lime_armchair",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "pixelmon:block/armchair/lime_armchair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pixelmon:block/armchair/lime_armchair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixelmon:block/armchair/lime_armchair",
+      "y": 270
+    }
+  }
+}

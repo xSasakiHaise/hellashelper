@@ -1,0 +1,4 @@
+$body togetic.bmd
+$anim fly fly.bmd
+$anim idle idle.bmd
+$scale 1.0

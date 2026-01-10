@@ -1,0 +1,25 @@
+{
+  "id": "Cubchoo Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Cubchoo",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 22,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:frozen_river",
+          "minecraft:frozen_ocean",
+          "minecraft:snowy_beach",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

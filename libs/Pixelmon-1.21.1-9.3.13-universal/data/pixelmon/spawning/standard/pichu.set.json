@@ -1,0 +1,99 @@
+{
+  "id": "Pichu",
+  "spawnInfos": [
+    {
+      "spec": "species:Pichu palette:christmas",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ],
+        "realWorldSpawnTimes": [
+          {
+            "monthOfYear": 12
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 1
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 2
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 3
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 4
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 5
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 6
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 7
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 8
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 9
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 10
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 11
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 12
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 13
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 14
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 15
+          }
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 5.0
+    }
+  ]
+}
+  

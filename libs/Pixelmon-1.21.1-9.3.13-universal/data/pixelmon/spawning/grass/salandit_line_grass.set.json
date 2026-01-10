@@ -1,0 +1,69 @@
+{
+  "id": "Salandit Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Salandit",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "minecraft:swamp",
+          "pixelmon:ultra_deep_sea",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Salazzle",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 33,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "minecraft:swamp",
+          "pixelmon:ultra_deep_sea",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

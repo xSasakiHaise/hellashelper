@@ -1,0 +1,316 @@
+{
+  "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+  "textures": {
+    "particle": "pixelmon:block/decorative/relic_statue",
+    "relic_statue_back": "pixelmon:block/decorative/relic_statue_back",
+    "relic_statue": "pixelmon:block/decorative/relic_statue"
+  },
+  "display": {
+    "gui": {
+      "rotation": [ 30, 45, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.625, 0.625, 0.625 ]
+    },
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 3, 0 ],
+      "scale": [ 0.25, 0.25, 0.25 ]
+    },
+    "fixed": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "head": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 315, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 75, 315, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    }
+  },
+  "elements": [
+    {
+      "name": "spike_1",
+      "from": [ 7, 12, 7 ],
+      "to": [ 9, 14, 9 ],
+      "faces": {
+        "north": { "texture": "#relic_statue", "uv": [ 3, 2, 5, 4 ] },
+        "east": { "texture": "#relic_statue", "uv": [ 11, 2, 13, 4 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 3, 2, 5, 4 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 11, 2, 13, 4 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 1, 1, 3, 3 ] }
+      }
+    },
+    {
+      "name": "spike_2",
+      "from": [ 7.5, 14, 7.5 ],
+      "to": [ 8.5, 16, 8.5 ],
+      "faces": {
+        "north": { "texture": "#relic_statue", "uv": [ 3, 0, 4, 2 ] },
+        "east": { "texture": "#relic_statue", "uv": [ 11, 0, 12, 2 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 3, 0, 4, 2 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 11, 0, 12, 2 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 1, 1, 2, 2 ] }
+      }
+    },
+    {
+      "name": "body",
+      "from": [ 5, 0, 5 ],
+      "to": [ 11, 10, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_statue_back", "uv": [ 0, 6, 6, 16 ] },
+        "east": { "texture": "#relic_statue", "uv": [ 9, 6, 15, 16 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 1, 6, 7, 16 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 15, 6, 9, 16 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 9, 9, 15, 15 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 9, 9, 15, 15 ] }
+      }
+    },
+    {
+      "name": "body_top",
+      "from": [ 6, 10, 6 ],
+      "to": [ 10, 12, 10 ],
+      "faces": {
+        "north": { "texture": "#relic_statue", "uv": [ 2, 4, 6, 6 ] },
+        "east": { "texture": "#relic_statue", "uv": [ 10, 4, 14, 6 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 2, 4, 6, 6 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 10, 4, 14, 6 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 0, 0, 4, 4 ] }
+      }
+    },
+    {
+      "name": "body_top_1",
+      "from": [ 6, 10, 5 ],
+      "to": [ 10, 11, 6 ],
+      "faces": {
+        "north": { "texture": "#relic_statue", "uv": [ 2, 5, 6, 6 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 10, 9, 14, 10 ] }
+      }
+    },
+    {
+      "name": "body_top_2",
+      "from": [ 10, 10, 6 ],
+      "to": [ 11, 11, 10 ],
+      "faces": {
+        "east": { "texture": "#relic_statue", "uv": [ 10, 5, 14, 6 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 6, 5, 7, 6 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 14, 10, 15, 14 ] }
+      }
+    },
+    {
+      "name": "body_top_3",
+      "from": [ 6, 10, 10 ],
+      "to": [ 10, 11, 11 ],
+      "faces": {
+        "east": { "texture": "#relic_statue", "uv": [ 9, 5, 10, 6 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 2, 5, 6, 6 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 9, 5, 10, 6 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 10, 14, 14, 15 ] }
+      }
+    },
+    {
+      "name": "body_top_4",
+      "from": [ 5, 10, 6 ],
+      "to": [ 6, 11, 10 ],
+      "faces": {
+        "south": { "texture": "#relic_statue", "uv": [ 1, 5, 2, 6 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 10, 5, 14, 6 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 9, 10, 10, 14 ] }
+      }
+    },
+    {
+      "name": "arms_1",
+      "from": [ 6, 4, 11 ],
+      "to": [ 10, 5, 12 ],
+      "faces": {
+        "east": { "texture": "#relic_statue", "uv": [ 8, 11, 9, 12 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 2, 11, 6, 12 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 8, 11, 9, 12 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 10, 15, 14, 16 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 10, 15, 14, 16 ] }
+      }
+    },
+    {
+      "name": "arms_2",
+      "from": [ 5, 2, 11 ],
+      "to": [ 7, 4, 12 ],
+      "faces": {
+        "east": { "texture": "#relic_statue", "uv": [ 8, 12, 9, 14 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 1, 12, 3, 14 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 8, 12, 9, 14 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 9, 15, 11, 16 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 9, 15, 11, 16 ] }
+      }
+    },
+    {
+      "name": "arms_3",
+      "from": [ 9, 2, 11 ],
+      "to": [ 11, 4, 12 ],
+      "faces": {
+        "east": { "texture": "#relic_statue", "uv": [ 8, 12, 9, 14 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 5, 12, 7, 14 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 8, 12, 9, 14 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 13, 15, 15, 16 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 13, 15, 15, 16 ] }
+      }
+    },
+    {
+      "name": "arms_l",
+      "from": [ 11, 1, 6 ],
+      "to": [ 12, 4, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_statue", "uv": [ 0, 12, 1, 15 ] },
+        "east": { "texture": "#relic_statue", "uv": [ 9, 12, 14, 15 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 7, 12, 8, 15 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 15, 10, 16, 15 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 15, 10, 16, 15 ] }
+      }
+    },
+    {
+      "name": "arms_r",
+      "from": [ 4, 1, 6 ],
+      "to": [ 5, 4, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_statue", "uv": [ 7, 12, 8, 15 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 0, 12, 1, 15 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 9, 12, 14, 15 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 8, 10, 9, 15 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 8, 10, 9, 15 ] }
+      }
+    },
+    {
+      "name": "head_1",
+      "from": [ 5, 7, 11 ],
+      "to": [ 11, 10, 12 ],
+      "faces": {
+        "east": { "texture": "#relic_statue", "uv": [ 8, 6, 9, 9 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 1, 6, 7, 9 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 8, 6, 9, 9 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 9, 15, 15, 16 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 9, 14, 15, 15 ] }
+      }
+    },
+    {
+      "name": "head_2",
+      "from": [ 6, 6, 11 ],
+      "to": [ 10, 7, 12 ],
+      "faces": {
+        "east": { "texture": "#relic_statue", "uv": [ 8, 9, 9, 10 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 2, 9, 6, 10 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 8, 9, 9, 10 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 10, 14, 14, 15 ] }
+      }
+    },
+    {
+      "name": "head_l",
+      "from": [ 11, 8, 7 ],
+      "to": [ 12, 10, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_statue", "uv": [ 0, 6, 1, 8 ] },
+        "east": { "texture": "#relic_statue", "uv": [ 9, 6, 13, 8 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 7, 6, 8, 8 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 15, 11, 16, 15 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 15, 11, 16, 15 ] }
+      }
+    },
+    {
+      "name": "head_r",
+      "from": [ 4, 8, 7 ],
+      "to": [ 5, 10, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_statue", "uv": [ 7, 6, 8, 8 ] },
+        "south": { "texture": "#relic_statue", "uv": [ 0, 6, 1, 8 ] },
+        "west": { "texture": "#relic_statue", "uv": [ 9, 6, 13, 8 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 8, 11, 9, 15 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 8, 11, 9, 15 ] }
+      }
+    },
+    {
+      "name": "wing_l_1",
+      "from": [ 10, 6, 4 ],
+      "to": [ 12, 14, 6 ],
+      "faces": {
+        "north": { "texture": "#relic_statue_back", "uv": [ 10, 0, 12, 8 ] },
+        "east": { "texture": "#relic_statue_back", "uv": [ 10, 0, 8, 8 ] },
+        "south": { "texture": "#relic_statue_back", "uv": [ 12, 0, 14, 8 ] },
+        "west": { "texture": "#relic_statue_back", "uv": [ 8, 0, 10, 8 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 14, 0, 16, 2 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 14, 5, 16, 7 ] }
+      }
+    },
+    {
+      "name": "wing_l_2",
+      "from": [ 10, 5, 3 ],
+      "to": [ 12, 13, 4 ],
+      "faces": {
+        "north": { "texture": "#relic_statue_back", "uv": [ 10, 1, 12, 9 ] },
+        "east": { "texture": "#relic_statue_back", "uv": [ 7, 1, 8, 9 ] },
+        "south": { "texture": "#relic_statue_back", "uv": [ 10, 0, 12, 8 ] },
+        "west": { "texture": "#relic_statue_back", "uv": [ 7, 1, 8, 9 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 14, 2, 16, 3 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 14, 7, 16, 8 ] }
+      }
+    },
+    {
+      "name": "wing_l_3",
+      "from": [ 10, 3, 2 ],
+      "to": [ 12, 11, 3 ],
+      "faces": {
+        "north": { "texture": "#relic_statue_back", "uv": [ 12, 1, 14, 9 ] },
+        "east": { "texture": "#relic_statue_back", "uv": [ 6, 3, 7, 11 ] },
+        "south": { "texture": "#relic_statue_back", "uv": [ 10, 1, 12, 9 ] },
+        "west": { "texture": "#relic_statue_back", "uv": [ 6, 3, 7, 11 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 14, 3, 16, 4 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 14, 8, 16, 9 ] }
+      }
+    },
+    {
+      "name": "wing_r_1",
+      "from": [ 4, 6, 4 ],
+      "to": [ 6, 14, 6 ],
+      "faces": {
+        "north": { "texture": "#relic_statue_back", "uv": [ 10, 0, 12, 8 ] },
+        "east": { "texture": "#relic_statue_back", "uv": [ 10, 0, 8, 8 ] },
+        "south": { "texture": "#relic_statue_back", "uv": [ 12, 0, 14, 8 ] },
+        "west": { "texture": "#relic_statue_back", "uv": [ 8, 0, 10, 8 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 14, 0, 16, 2 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 14, 5, 16, 7 ] }
+      }
+    },
+    {
+      "name": "wing_r_2",
+      "from": [ 4, 5, 3 ],
+      "to": [ 6, 13, 4 ],
+      "faces": {
+        "north": { "texture": "#relic_statue_back", "uv": [ 10, 1, 12, 9 ] },
+        "east": { "texture": "#relic_statue_back", "uv": [ 7, 1, 8, 9 ] },
+        "south": { "texture": "#relic_statue_back", "uv": [ 10, 0, 12, 8 ] },
+        "west": { "texture": "#relic_statue_back", "uv": [ 7, 1, 8, 9 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 14, 2, 16, 3 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 14, 7, 16, 8 ] }
+      }
+    },
+    {
+      "name": "wing_r_3",
+      "from": [ 4, 3, 2 ],
+      "to": [ 6, 11, 3 ],
+      "faces": {
+        "north": { "texture": "#relic_statue_back", "uv": [ 12, 1, 14, 9 ] },
+        "east": { "texture": "#relic_statue_back", "uv": [ 6, 3, 7, 11 ] },
+        "south": { "texture": "#relic_statue_back", "uv": [ 10, 1, 12, 9 ] },
+        "west": { "texture": "#relic_statue_back", "uv": [ 6, 3, 7, 11 ] },
+        "up": { "texture": "#relic_statue_back", "uv": [ 14, 3, 16, 4 ] },
+        "down": { "texture": "#relic_statue_back", "uv": [ 14, 8, 16, 9 ] }
+      }
+    }
+  ]
+}

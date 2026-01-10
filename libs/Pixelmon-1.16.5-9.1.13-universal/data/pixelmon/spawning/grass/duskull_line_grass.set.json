@@ -1,0 +1,59 @@
+{
+  "id": "Duskull Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:wooded_badlands_plateau",
+          "minecraft:badlands_plateau",
+          "evil",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Dusclops",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 38,
+      "maxLevel": 51,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kasib_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:wooded_badlands_plateau",
+          "minecraft:badlands_plateau",
+          "evil",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

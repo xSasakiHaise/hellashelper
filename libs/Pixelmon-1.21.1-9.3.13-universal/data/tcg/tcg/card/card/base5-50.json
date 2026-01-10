@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base5-50.description",
+  "attacks": [
+    {
+      "name": "attack.base5-50.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base5-50.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIRE",
+  "pokemon_id": 4,
+  "ability": {
+    "name": "ability.base5-50.name",
+    "description": "ability.base5-50.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:gather_fire"
+    }
+  },
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

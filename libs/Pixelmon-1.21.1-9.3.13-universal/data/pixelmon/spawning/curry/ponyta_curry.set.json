@@ -1,0 +1,37 @@
+{
+  "id": "Ponyta Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Ponyta",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Ponyta form:galarian",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

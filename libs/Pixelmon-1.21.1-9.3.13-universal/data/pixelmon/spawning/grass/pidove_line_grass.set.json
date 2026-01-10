@@ -1,0 +1,83 @@
+{
+  "id": "Pidove Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Pidove",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Tranquill",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 22,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Unfezant",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 33,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

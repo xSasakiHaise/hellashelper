@@ -1,0 +1,26 @@
+{
+  "id": "Arboliva",
+  "spawnInfos": [
+    {
+      "spec": "species:Arboliva",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/plains",
+          "biomesoplenty:mediterranean_forest"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

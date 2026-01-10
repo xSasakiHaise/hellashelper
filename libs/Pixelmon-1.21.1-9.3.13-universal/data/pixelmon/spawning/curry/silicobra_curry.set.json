@@ -1,0 +1,21 @@
+{
+  "id": "Silicobra Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Silicobra",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 120.0
+    }
+  ]
+}

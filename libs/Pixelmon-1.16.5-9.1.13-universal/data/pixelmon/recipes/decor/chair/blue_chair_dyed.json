@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dyes/blue"
+    },
+    {
+      "tag": "pixelmon:chairs"
+    }
+  ],
+  "result": {
+    "item": "pixelmon:blue_chair",
+    "count": 1
+  }
+}

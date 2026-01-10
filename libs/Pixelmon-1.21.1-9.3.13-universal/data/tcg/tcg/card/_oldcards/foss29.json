@@ -1,0 +1,37 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 26,
+  "previous_pokemon_id": 25,
+  "retreat_cost": 1,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS29.1.name",
+      "costs": [
+        "LIGHTNING",
+        "LIGHTNING",
+        "LIGHTNING",
+        "LIGHTNING"
+      ],
+      "damage": 30,
+      "text": "attack.FOSS29.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": false,
+          "location": "BENCH",
+          "count": 3,
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "energies": "LIGHTNING"
+}

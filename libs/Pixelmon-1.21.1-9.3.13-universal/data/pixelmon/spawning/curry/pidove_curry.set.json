@@ -1,0 +1,23 @@
+{
+  "id": "Pidove Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pidove",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

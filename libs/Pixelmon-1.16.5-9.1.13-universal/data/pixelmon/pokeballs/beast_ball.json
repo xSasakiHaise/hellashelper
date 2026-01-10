@@ -1,0 +1,17 @@
+{
+  "name": "beast_ball",
+  "model": "pixelmon:models/pokeballs/beastball.pqc",
+  "texture": "pixelmon:textures/pokeballs/beast_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/beast_ball_flashing.png",
+  "ballSprite": "pixelmon:items/pokeballs/beast_ball",
+  "guiSprite": "pixelmon:textures/gui/overlay/beast_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.BeastBall",
+  "bases": [],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false,
+  "hasLid": false
+}

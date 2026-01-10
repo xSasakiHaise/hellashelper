@@ -1,0 +1,23 @@
+{
+  "id": "Komala Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Komala",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

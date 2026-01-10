@@ -1,0 +1,21 @@
+{
+  "id": "Bouffalant Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Bouffalant",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 46,
+      "maxLevel": 58,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

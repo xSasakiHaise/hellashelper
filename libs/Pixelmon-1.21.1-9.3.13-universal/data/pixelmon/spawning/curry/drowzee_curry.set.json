@@ -1,0 +1,22 @@
+{
+  "id": "Drowzee Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Drowzee",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Skarmory Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Skarmory",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

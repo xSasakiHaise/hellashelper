@@ -1,0 +1,14 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:stray"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "cubone"
+    ]
+  }
+}

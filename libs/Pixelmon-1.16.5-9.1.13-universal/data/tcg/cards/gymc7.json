@@ -1,0 +1,63 @@
+{
+  "id": 553,
+  "setId": 7,
+  "cardType": "STAGE2",
+  "isSpecial": false,
+  "hp": 120,
+  "energy1": "GRASS",
+  "energy2": null,
+  "pokemonId": 34,
+  "code": "GYMC7",
+  "name": "card.GYMC7.name",
+  "description": "",
+  "previousPokemonId": 33,
+  "cardAttacks": [
+    {
+      "card": "GYMC7",
+      "index": 1,
+      "name": "attack.GYMC7.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.GYMC7.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC7",
+      "index": 2,
+      "name": "attack.GYMC7.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "GRASS",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "modifier": null,
+      "text": "attack.GYMC7.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "PSYCHIC",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 3,
+  "cardRarity": "HOLORARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

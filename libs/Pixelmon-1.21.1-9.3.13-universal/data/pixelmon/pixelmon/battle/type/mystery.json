@@ -1,0 +1,13 @@
+{
+  "name": {
+    "translate": "type.mystery"
+  },
+  "color": {
+    "red": 48,
+    "green": 150,
+    "blue": 128,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/mystery.png",
+  "relations": []
+}

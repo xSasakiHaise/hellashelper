@@ -1,0 +1,26 @@
+{
+    "id": "ChienPao",
+    "spawnInfos": [
+      {
+        "spec": "species:Chien-Pao level:60",
+        "stringLocationTypes": [
+          "Land"
+        ],
+        "tags": [
+          "legendary"
+        ],
+        "interval": "legendary",
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "NIGHT"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/freezing_mountains"
+          ],
+          "minY": 100
+        },
+        "rarity": 3.0
+      }
+    ]
+  }

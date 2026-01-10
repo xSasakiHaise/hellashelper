@@ -1,0 +1,48 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.base3-12.description",
+  "attacks": [
+    {
+      "name": "attack.base3-12.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base3-12.0.description",
+      "effects": [
+        {
+          "type": "tcg:wildfire",
+          "self": false
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-12.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 80,
+      "text": "attack.base3-12.1.description",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "FIRE",
+  "pokemon_id": 146,
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:holo_rare"
+}

@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Ursaring",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/ursaring-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Ursaring",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/ursaring-4-4",
+      "weight": 1.0
+    }
+  ]
+}

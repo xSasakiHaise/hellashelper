@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/moon_stone/moon_stone_axe",
+      "pixelmon:equipment/moon_stone/moon_stone_boots",
+      "pixelmon:equipment/moon_stone/moon_stone_hammer",
+      "pixelmon:equipment/moon_stone/moon_stone_helm",
+      "pixelmon:equipment/moon_stone/moon_stone_hoe",
+      "pixelmon:equipment/moon_stone/moon_stone_legs",
+      "pixelmon:equipment/moon_stone/moon_stone_pickaxe",
+      "pixelmon:equipment/moon_stone/moon_stone_plate",
+      "pixelmon:equipment/moon_stone/moon_stone_shovel",
+      "pixelmon:equipment/moon_stone/moon_stone_sword"
+    ]
+  },
+  "criteria": {
+    "has_moon_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:moon_stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_moon_stone"
+    ]
+  ]
+}

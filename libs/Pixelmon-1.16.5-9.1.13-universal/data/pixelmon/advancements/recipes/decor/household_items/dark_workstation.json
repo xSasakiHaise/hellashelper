@@ -1,0 +1,42 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:decor/household_items/dark_workstation"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:decor/household_items/dark_workstation"
+      }
+    },
+    "has_tv2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:tv2"
+          }
+        ]
+      }
+    },
+    "has_black_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_terracotta"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tv2",
+      "has_black_terracotta"
+    ]
+  ]
+}

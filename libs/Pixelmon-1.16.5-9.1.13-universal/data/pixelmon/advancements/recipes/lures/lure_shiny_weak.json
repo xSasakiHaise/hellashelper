@@ -1,0 +1,49 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:lures/lure_shiny_weak"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:lures/lure_shiny_weak"
+      }
+    },
+    "has_case_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:lures/lure_casing_weak"
+      }
+    },
+    "has_salac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:salac_berry"
+          }
+        ]
+      }
+    },
+    "has_lansat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:lansat_berry"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_case_recipe",
+      "has_salac",
+      "has_lansat"
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "Overqwil",
+  "spawnInfos": [
+    {
+      "spec": "species:Overqwil",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 45,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:cold_ocean",
+          "minecraft:deep_cold_ocean",
+          "biomeswevegone:lush_stacks"
+        ],
+        "maxY": 50
+      },
+      "rarity": 0.05
+    },
+    {
+      "spec": "species:Overqwil",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 45,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

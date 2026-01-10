@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "step": "underground_ores",
+  "features": [
+    "pixelmon:ores/crystal/crystal_geode"
+  ]
+}

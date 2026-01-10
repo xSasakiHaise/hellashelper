@@ -1,0 +1,39 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base1-57.description",
+  "attacks": [
+    {
+      "name": "attack.base1-57.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base1-57.0.description",
+      "effects": [
+        {
+          "type": "tcg:switch_pokemon",
+          "self_action": false,
+          "self_target": false,
+          "optional": false
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "COLORLESS",
+  "pokemon_id": 16,
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:common"
+}

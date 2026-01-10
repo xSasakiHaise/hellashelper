@@ -1,0 +1,15 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:cave_spider"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "galvantula",
+      "joltik"
+    ]
+  }
+}

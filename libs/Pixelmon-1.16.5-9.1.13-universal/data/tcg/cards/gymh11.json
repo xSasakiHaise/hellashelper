@@ -1,0 +1,62 @@
+{
+  "id": 334,
+  "setId": 6,
+  "cardType": "BASIC",
+  "isSpecial": false,
+  "hp": 60,
+  "energy1": "FIGHTING",
+  "energy2": null,
+  "pokemonId": 107,
+  "code": "GYMH11",
+  "name": "card.GYMH11.name",
+  "description": "",
+  "previousPokemonId": null,
+  "cardAttacks": [
+    {
+      "card": "GYMH11",
+      "index": 1,
+      "name": "attack.GYMH11.1.name",
+      "costs": [
+        "FIGHTING"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.GYMH11.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMH11",
+      "index": 2,
+      "name": "attack.GYMH11.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 50,
+      "modifier": null,
+      "text": "attack.GYMH11.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "PSYCHIC",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "HOLORARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

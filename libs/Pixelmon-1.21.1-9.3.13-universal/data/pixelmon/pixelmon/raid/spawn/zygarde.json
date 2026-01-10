@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Zygarde form:ten_percent",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/zygarde-10-5-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Zygarde form:fifty_percent",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/zygarde-50-5-5",
+      "weight": 1.0
+    }
+  ]
+}

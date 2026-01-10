@@ -1,0 +1,117 @@
+{
+  "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+  "textures": {
+    "particle": "pixelmon:block/decorative/relic_band",
+    "relic_band": "pixelmon:block/decorative/relic_band"
+  },
+  "display": {
+    "gui": {
+      "rotation": [ 30, 45, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.625, 0.625, 0.625 ]
+    },
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 3, 0 ],
+      "scale": [ 0.25, 0.25, 0.25 ]
+    },
+    "fixed": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "head": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 315, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 75, 315, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    }
+  },
+  "elements": [
+    {
+      "name": "1",
+      "from": [ 9, 0, 4 ],
+      "to": [ 11, 5, 5 ],
+      "faces": {
+        "north": { "texture": "#relic_band", "uv": [ 13, 0, 15, 5 ] },
+        "east": { "texture": "#relic_band", "uv": [ 12, 0, 13, 5 ] },
+        "south": { "texture": "#relic_band", "uv": [ 9, 6, 11, 11 ], "rotation": 180 },
+        "west": { "texture": "#relic_band", "uv": [ 11, 6, 12, 11 ] },
+        "up": { "texture": "#relic_band", "uv": [ 9, 5, 11, 6 ] },
+        "down": { "texture": "#relic_band", "uv": [ 9, 5, 11, 6 ] }
+      }
+    },
+    {
+      "name": "2",
+      "from": [ 11, 0, 5 ],
+      "to": [ 12, 5, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_band", "uv": [ 11, 0, 12, 5 ] },
+        "east": { "texture": "#relic_band", "uv": [ 5, 0, 11, 5 ] },
+        "south": { "texture": "#relic_band", "uv": [ 4, 0, 5, 5 ] },
+        "west": { "texture": "#relic_band", "uv": [ 3, 6, 9, 11 ], "rotation": 180 },
+        "up": { "texture": "#relic_band", "uv": [ 3, 5, 9, 6 ], "rotation": 90 },
+        "down": { "texture": "#relic_band", "uv": [ 3, 5, 9, 6 ], "rotation": 90 }
+      }
+    },
+    {
+      "name": "3",
+      "from": [ 8, 0, 11 ],
+      "to": [ 11, 5, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_band", "uv": [ 0, 6, 3, 11 ], "rotation": 180 },
+        "east": { "texture": "#relic_band", "uv": [ 3, 0, 4, 5 ] },
+        "south": { "texture": "#relic_band", "uv": [ 0, 0, 3, 5 ] },
+        "up": { "texture": "#relic_band", "uv": [ 0, 5, 3, 6 ] },
+        "down": { "texture": "#relic_band", "uv": [ 0, 5, 3, 6 ] }
+      }
+    },
+    {
+      "name": "4",
+      "from": [ 5, 0, 11 ],
+      "to": [ 8, 5, 12 ],
+      "faces": {
+        "north": { "texture": "#relic_band", "uv": [ 9, 6, 12, 11 ], "rotation": 180 },
+        "south": { "texture": "#relic_band", "uv": [ 12, 0, 15, 5 ] },
+        "west": { "texture": "#relic_band", "uv": [ 11, 0, 12, 5 ] },
+        "up": { "texture": "#relic_band", "uv": [ 8, 5, 11, 6 ] },
+        "down": { "texture": "#relic_band", "uv": [ 8, 5, 11, 6 ] }
+      }
+    },
+    {
+      "name": "5",
+      "from": [ 4, 0, 5 ],
+      "to": [ 5, 5, 11 ],
+      "faces": {
+        "north": { "texture": "#relic_band", "uv": [ 3, 0, 4, 5 ] },
+        "east": { "texture": "#relic_band", "uv": [ 3, 6, 9, 11 ] },
+        "south": { "texture": "#relic_band", "uv": [ 10, 0, 11, 5 ] },
+        "west": { "texture": "#relic_band", "uv": [ 4, 0, 10, 5 ] },
+        "up": { "texture": "#relic_band", "uv": [ 2, 5, 8, 6 ], "rotation": 90 },
+        "down": { "texture": "#relic_band", "uv": [ 2, 5, 8, 6 ], "rotation": 90 }
+      }
+    },
+    {
+      "name": "6",
+      "from": [ 5, 0, 4 ],
+      "to": [ 7, 5, 5 ],
+      "faces": {
+        "north": { "texture": "#relic_band", "uv": [ 0, 0, 2, 5 ] },
+        "east": { "texture": "#relic_band", "uv": [ 0, 6, 1, 11 ] },
+        "south": { "texture": "#relic_band", "uv": [ 1, 6, 3, 11 ], "rotation": 180 },
+        "west": { "texture": "#relic_band", "uv": [ 2, 0, 3, 5 ] },
+        "up": { "texture": "#relic_band", "uv": [ 0, 5, 2, 6 ] },
+        "down": { "texture": "#relic_band", "uv": [ 0, 5, 2, 6 ] }
+      }
+    }
+  ]
+}

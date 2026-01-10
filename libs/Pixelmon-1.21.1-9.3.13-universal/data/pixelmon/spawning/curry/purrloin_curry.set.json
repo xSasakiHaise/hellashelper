@@ -1,0 +1,20 @@
+{
+  "id": "Purrloin Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Purrloin",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 9,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

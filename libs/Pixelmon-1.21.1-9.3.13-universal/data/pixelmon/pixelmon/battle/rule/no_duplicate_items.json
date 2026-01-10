@@ -1,0 +1,13 @@
+{
+  "modifiers": [],
+  "requirements":  [
+    {
+      "requirement": {
+        "type": "pixelmon:no_duplicate_item"
+      },
+      "reason": {
+        "translate": "gui.battlerules.description.item"
+      }
+    }
+  ]
+}

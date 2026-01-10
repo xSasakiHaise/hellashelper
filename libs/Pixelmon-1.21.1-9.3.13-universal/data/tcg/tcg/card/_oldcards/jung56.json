@@ -1,0 +1,34 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 52,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG56.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.JUNG56.1.text",
+      "effects": [
+        {
+          "type": "tcg:draw_card",
+          "self": true,
+          "count": 1,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

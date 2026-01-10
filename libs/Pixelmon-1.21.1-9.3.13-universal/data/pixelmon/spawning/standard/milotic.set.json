@@ -1,0 +1,51 @@
+{
+  "id": "Milotic",
+  "spawnInfos": [
+    {
+      "spec": "species:Milotic",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:cold_ocean",
+          "minecraft:deep_cold_ocean",
+		  "biomeswevegone:lush_stacks"
+        ],
+        "minY": 45
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Milotic palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "structures": [
+          "pixelmon:misc/graveyard"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 83,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE27.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.BASE27.1.text",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        },
+        {
+          "type": "tcg:disable_attack",
+          "turn_count": 999,
+          "self": true
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "pixelmon:block/ultra_space/gingko_leaves"
+  }
+}

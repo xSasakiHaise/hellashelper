@@ -1,0 +1,14 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:armadillo"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "sandshrew lvl:5"
+    ]
+  }
+}

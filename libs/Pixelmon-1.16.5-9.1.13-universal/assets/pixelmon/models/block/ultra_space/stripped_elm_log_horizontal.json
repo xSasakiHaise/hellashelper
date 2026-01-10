@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "pixelmon:block/ultra_space/elm_log_top",
+    "side": "pixelmon:block/ultra_space/stripped_elm_log"
+  }
+}

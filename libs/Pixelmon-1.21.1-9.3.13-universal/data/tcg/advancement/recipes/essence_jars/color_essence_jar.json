@@ -1,0 +1,54 @@
+{
+  "rewards": {
+    "recipes": [
+      "tcg:essence_jars/black_essence_jar",
+      "tcg:essence_jars/blue_essence_jar",
+      "tcg:essence_jars/brown_essence_jar",
+      "tcg:essence_jars/cyan_essence_jar",
+      "tcg:essence_jars/gray_essence_jar",
+      "tcg:essence_jars/green_essence_jar",
+      "tcg:essence_jars/light_blue_essence_jar",
+      "tcg:essence_jars/light_gray_essence_jar",
+      "tcg:essence_jars/lime_essence_jar",
+      "tcg:essence_jars/magenta_essence_jar",
+      "tcg:essence_jars/orange_essence_jar",
+      "tcg:essence_jars/pink_essence_jar",
+      "tcg:essence_jars/purple_essence_jar",
+      "tcg:essence_jars/red_essence_jar",
+      "tcg:essence_jars/white_essence_jar",
+      "tcg:essence_jars/yellow_essence_jar"
+    ]
+  },
+  "criteria": {
+    "has_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass"
+            ]
+          }
+        ]
+      }
+    },
+    "has_crystal_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:crystal_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glass",
+      "has_crystal_block"
+    ]
+  ]
+}

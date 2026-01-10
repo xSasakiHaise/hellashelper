@@ -1,0 +1,438 @@
+{
+  "name": "Flamigo",
+  "dex": 973,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.0,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Copycat",
+              "Peck"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Low Kick"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Mega Kick"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Brave Bird"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Double Team",
+          "Quick Guard",
+          "Sky Attack"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Water Pulse",
+          "Low Kick",
+          "Acrobatics",
+          "Thief",
+          "Pounce",
+          "Chilling Water",
+          "Facade",
+          "Aerial Ace",
+          "Low Sweep",
+          "Air Cutter",
+          "Fling",
+          "Endure",
+          "U-turn",
+          "Bulk Up",
+          "Air Slash",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Fly",
+          "Substitute",
+          "Liquidation",
+          "Tailwind",
+          "Reversal",
+          "Giga Impact",
+          "Hurricane",
+          "Hyper Beam",
+          "Brave Bird",
+          "Close Combat",
+          "Tera Blast",
+          "Lunge",
+          "Dual Wingbeat",
+          "Psych Up",
+          "Endeavor",
+          "Feather Dance",
+          "Throat Chop",
+          "Upper Hand"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Scrappy",
+          "TangledFeet"
+        ],
+        "hiddenAbilities": [
+          "Costar"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 20,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 3,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 82,
+        "attack": 115,
+        "defense": 74,
+        "specialAttack": 75,
+        "specialDefense": 64,
+        "speed": 90
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 175,
+        "baseFriendship": 50,
+        "spawnLevel": 24,
+        "spawnLevelRange": 21,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/973_flamigo/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.flamigo",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/973_flamigo/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/973_flamigo/all/base/none/flying/flamigo.bmd",
+                      "animations": [
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/flying/fly.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/flying/fly.bmd"
+                        }
+                      ],
+                      "scale": 5.0
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/973_flamigo/all/base/none/texture.png",
+                      "movement_threshold": 0.02,
+                      "model": "pixelmon:pokemon/973_flamigo/all/base/none/flamigo.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 5.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/973_flamigo/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/973_flamigo/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/973_flamigo/all/base/none/flying/flamigo.bmd",
+                      "animations": [
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/flying/fly.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/flying/fly.bmd"
+                        }
+                      ],
+                      "scale": 5.0
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/973_flamigo/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/973_flamigo/all/base/none/flamigo.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 5.0
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "rainbow",
+              "sprite": "pixelmon:pokemon/973_flamigo/all/base/rainbow/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/973_flamigo/all/base/rainbow/texture.png",
+                      "model": "pixelmon:pokemon/973_flamigo/all/base/none/flying/flamigo.bmd",
+                      "animations": [
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/flying/fly.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/flying/fly.bmd"
+                        }
+                      ],
+                      "scale": 5.0
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/973_flamigo/all/base/rainbow/texture.png",
+                      "model": "pixelmon:pokemon/973_flamigo/all/base/none/flamigo.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/973_flamigo/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 5.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "FLYING",
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 37.0,
+      "catchRate": 100,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      },
+      "growth_data": {
+        "mean": 140.0,
+        "standard_deviation": 7.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 9
+}

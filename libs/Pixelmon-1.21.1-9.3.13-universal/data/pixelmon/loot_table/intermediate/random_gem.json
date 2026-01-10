@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:bug_gem"
+        },
+		{
+		  "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:dark_gem"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:dragon_gem"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:electric_gem"    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:fairy_gem"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:fighting_gem"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:fire_gem"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:flying_gem"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:ghost_gem"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:grass_gem"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:ground_gem"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:ice_gem"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:normal_gem"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poison_gem"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:psychic_gem"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:psychic_gem"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:rock_gem"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:steel_gem"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:water_gem"
+        }
+      ]
+    }
+  ]
+}
+

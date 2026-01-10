@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  S",
+    " ST",
+    "S P"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "T": {
+      "item": "minecraft:string"
+    },
+    "P": {
+      "type": "neoforge:components",
+      "items": "pixelmon:poke_ball",
+      "components": {
+        "pixelmon:poke_ball": "poke_ball"
+      }
+    }
+  },
+  "result": {
+    "id": "pixelmon:old_rod",
+    "count": 1
+  }
+}

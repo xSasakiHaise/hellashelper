@@ -1,0 +1,37 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 55,
+  "previous_pokemon_id": 54,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO37.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.TERO37.1.text",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "self": true,
+          "count": 1
+        },
+        {
+          "type": "tcg:draw_card",
+          "self": true,
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

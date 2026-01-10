@@ -1,0 +1,42 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:pokeball/lid/ancient_great_ball_lid"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:pokeball/lid/ancient_great_ball_lid"
+      }
+    },
+    "has_tumblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:tumblestone"
+          }
+        ]
+      }
+    },
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/silver"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tumblestone",
+      "has_ingot"
+    ]
+  ]
+}

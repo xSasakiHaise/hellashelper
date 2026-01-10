@@ -1,0 +1,47 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 43,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO63.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.TERO63.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "ASLEEP",
+          "self": false
+        }
+      ]
+    },
+    {
+      "name": "attack.TERO63.2.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.TERO63.2.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "POISONED",
+          "self": false
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

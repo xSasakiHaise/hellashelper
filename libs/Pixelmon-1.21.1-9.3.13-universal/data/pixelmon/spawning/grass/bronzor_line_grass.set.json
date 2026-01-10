@@ -1,0 +1,55 @@
+{
+  "id": "Bronzor Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Bronzor",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 20,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:badlands"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Bronzong",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:badlands"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

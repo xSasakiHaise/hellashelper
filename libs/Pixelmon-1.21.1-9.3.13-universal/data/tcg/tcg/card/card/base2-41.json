@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base2-41.description",
+  "attacks": [
+    {
+      "name": "attack.base2-41.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base2-41.0.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "ASLEEP",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-41.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base2-41.1.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "ASLEEP",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "GRASS",
+  "pokemon_id": 47,
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

@@ -1,0 +1,36 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:den/ultra_crater",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/ultra_deep_sea",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/ultra_desert",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/ultra_forest",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/ultra_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/ultra_plant",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1954337061,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "spacing": 5,
+    "separation": 2
+  }
+}

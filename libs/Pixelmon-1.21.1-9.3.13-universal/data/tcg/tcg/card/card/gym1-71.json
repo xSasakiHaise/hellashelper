@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.gym1-71.description",
+  "attacks": [
+    {
+      "name": "attack.gym1-71.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.gym1-71.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.gym1-71.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.gym1-71.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIGHTING",
+  "pokemon_id": 27,
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "LIGHTNING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:common"
+}

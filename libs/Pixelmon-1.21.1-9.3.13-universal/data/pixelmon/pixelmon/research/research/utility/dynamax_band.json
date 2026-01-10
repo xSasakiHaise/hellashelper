@@ -1,0 +1,384 @@
+{
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Hello again Trainer! I see you've found a mysterious meteorite that has crash-landed in the region. I've been studying it and I believe it has a connection to the Dynamax phenomenon."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "Dynamaxing is a phenomenon that allows Pokémon to grow to immense sizes and power. It's a rare occurrence, but I believe that the meteorite you found is the key to unlocking this power."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I need your help to unlock the secrets of Dynamaxing. I've prepared a series of tasks for you to complete. If you can complete them, I believe we can unlock the power of Dynamaxing together."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/npceditor.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:break_block",
+          "condition": {
+            "type": "pixelmon:block_is_one_of",
+            "blocks": [
+              "pixelmon:silver_ore",
+              "pixelmon:deepslate_silver_ore"
+            ],
+            "block": {
+              "type": "pixelmon:context_block_state"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 32,
+          "name": {
+            "translate": "research.unlock.dynamax.silver_ore",
+            "fallback": "Mine 32 Silver Ore"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:break_block",
+          "condition": {
+            "type": "pixelmon:block_is_one_of",
+            "blocks": [
+              "pixelmon:ruby_ore",
+              "pixelmon:deepslate_ruby_ore"
+            ],
+            "block": {
+              "type": "pixelmon:context_block_state"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 8,
+          "name": {
+            "translate": "research.unlock.dynamax.ruby_ore",
+            "fallback": "Mine 8 Ruby Ore"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:break_block",
+          "condition": {
+            "type": "pixelmon:block_is_one_of",
+            "blocks": [
+              "pixelmon:sapphire_ore",
+              "pixelmon:deepslate_sapphire_ore"
+            ],
+            "block": {
+              "type": "pixelmon:context_block_state"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 8,
+          "name": {
+            "translate": "research.unlock.dynamax.sapphire_ore",
+            "fallback": "Mine 8 Sapphire Ore"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 250.0
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Thank you for your help, Trainer! You've collected the necessary materials to unlock the power of Dynamaxing. I believe we're ready to proceed."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "Next, I need you to complete several tasks to unlock the power of Dynamaxing. If you can complete them, I believe we can unlock the power of Dynamaxing together."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "250 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:evolve_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 15,
+          "name": {
+            "translate": "research.unlock.dynamax.evolve.15",
+            "fallback": "Evolve 15 Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 20,
+          "name": {
+            "translate": "research.unlock.dynamax.capture.20",
+            "fallback": "Capture 20 Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:defeat_trainer",
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 20,
+          "name": {
+            "translate": "research.unlock.dynamax.defeat.20",
+            "fallback": "Defeat 20 Trainers"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 250.0
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Well done, Trainer! You've completed the tasks I set out for you. I believe we're ready to unlock the power of Dynamaxing."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "There is just one final set of tasks I need you to complete. If you can complete them, I believe we can unlock the power of Dynamaxing together."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": {
+            "text": "₽500"
+          }
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": {
+            "text": "250 XP"
+          }
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:knockout_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 30,
+          "name": {
+            "translate": "research.unlock.dynamax.knockout.30",
+            "fallback": "Knockout 30 Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:defeat_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "research.unlock.dynamax.raid",
+            "fallback": "Defeat a Raid"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_item",
+          "items": [
+            {
+              "id": "pixelmon:wishing_piece",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "pixelmon:unlock_dynamax"
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Congratulations, Trainer! You've completed all the tasks I set out for you."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I have given you a special item that will allow you to Dynamax your Pokémon. Use it wisely, and remember that with great power comes great responsibility."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "You can equip, or unequip, the Dynamax Band by expanding the collapsed section of your inventory next to your Pokémon."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I also found this near the raid den... it looks like it could be useful...? Good luck, Trainer!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": {
+            "text": "₽500"
+          }
+        },
+        {
+          "resource": "pixelmon:textures/gui/inventory/dynamax_band.png",
+          "description": {
+            "text": ""
+          }
+        },
+        {
+          "resource": "pixelmon:textures/item/wishing_piece.png",
+          "description": {
+            "text": ""
+          }
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": false,
+  "unique": true,
+  "name": {
+    "translate": "research.unlock.dynamax",
+    "fallback": "The Dynamax Phenomenon"
+  }
+}

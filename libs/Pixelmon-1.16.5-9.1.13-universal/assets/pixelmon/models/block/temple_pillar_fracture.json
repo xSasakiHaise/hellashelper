@@ -1,0 +1,55 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"face": "pixelmon:block/pillar_face",
+		"pillar": "pixelmon:block/pillar_fractured",
+		"particle": "pixelmon:block/pillar"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [2, 0, 2],
+			"to": [14, 6, 14],
+			"faces": {
+				"north": {"uv": [0, 10, 12, 16], "texture": "#pillar"},
+				"east": {"uv": [0, 10, 12, 16], "texture": "#pillar"},
+				"south": {"uv": [0, 10, 12, 16], "texture": "#pillar"},
+				"west": {"uv": [0, 10, 12, 16], "texture": "#pillar"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#face"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#face"}
+			}
+		},
+		{
+			"name": "1",
+			"from": [5, 6, 3],
+			"to": [14, 8, 10],
+			"faces": {
+				"north": {"uv": [0, 7, 9, 9], "texture": "#pillar"},
+				"east": {"uv": [4, 7, 11, 9], "texture": "#pillar"},
+				"south": {"uv": [2, 7, 11, 9], "texture": "#pillar"},
+				"west": {"uv": [1, 7, 8, 9], "texture": "#pillar"},
+				"up": {"uv": [3, 3, 12, 10], "texture": "#pillar"}
+			}
+		},
+		{
+			"name": "2",
+			"from": [3, 6, 6],
+			"to": [9, 9, 14],
+			"faces": {
+				"north": {"uv": [5, 7, 11, 10], "texture": "#pillar"},
+				"east": {"uv": [0, 7, 8, 10], "texture": "#pillar"},
+				"south": {"uv": [1, 7, 7, 10], "texture": "#pillar"},
+				"west": {"uv": [4, 7, 12, 10], "texture": "#pillar"},
+				"up": {"uv": [1, 6, 7, 14], "texture": "#pillar"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "broken",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

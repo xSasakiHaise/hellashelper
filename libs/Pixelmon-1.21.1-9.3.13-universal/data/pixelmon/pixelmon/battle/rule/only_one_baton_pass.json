@@ -1,0 +1,16 @@
+{
+  "modifiers": [],
+  "requirements":  [
+    {
+      "requirement": {
+        "type": "pixelmon:no_duplicate_specs",
+        "specs": [
+          "move:baton_pass"
+        ]
+      },
+      "reason": {
+        "translate": "gui.battlerules.description.batonpass1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+$body zacian.bmd	
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 13.0

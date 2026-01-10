@@ -1,0 +1,21 @@
+{
+  "id": "Blipbug Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Blipbug",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 9,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

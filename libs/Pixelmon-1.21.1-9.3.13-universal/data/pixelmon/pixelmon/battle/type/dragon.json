@@ -1,0 +1,32 @@
+{
+  "name": {
+    "translate": "type.dragon"
+  },
+  "color": {
+    "red": 43,
+    "green": 48,
+    "blue": 204,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/dragon.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:dragon"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:steel"
+      ],
+      "effectiveness": "NOT"
+    },
+    {
+      "types": [
+        "pixelmon:fairy"
+      ],
+      "effectiveness": "NONE"
+    }
+  ]
+}

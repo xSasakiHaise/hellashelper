@@ -1,0 +1,59 @@
+{
+  "id": "Hatterene",
+  "spawnInfos": [
+    {
+      "spec": "species:Hatterene",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Hatterene",
+      "stringLocationTypes": [
+        "Land",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 42,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "structures": [
+          "pixelmon:misc/pumpkin_house"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Hatterene",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:end_barrens"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

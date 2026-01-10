@@ -1,0 +1,46 @@
+{
+  "id": 512,
+  "setId": 7,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 70,
+  "energy1": "COLORLESS",
+  "energy2": null,
+  "pokemonId": 85,
+  "code": "GYMC32",
+  "name": "card.GYMC32.name",
+  "description": "",
+  "previousPokemonId": 84,
+  "cardAttacks": [
+    {
+      "card": "GYMC32",
+      "index": 1,
+      "name": "attack.GYMC32.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 50,
+      "modifier": null,
+      "text": "attack.GYMC32.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": "FIGHTING",
+  "resistanceValue": "30",
+  "resistanceCardModifier": "Minus",
+  "energyWeakness": "LIGHTNING",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

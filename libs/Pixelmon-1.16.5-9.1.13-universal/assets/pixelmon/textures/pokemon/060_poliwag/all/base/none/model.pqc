@@ -1,0 +1,5 @@
+$body poliwag.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$anim swim swim.bmd
+$scale 0.9

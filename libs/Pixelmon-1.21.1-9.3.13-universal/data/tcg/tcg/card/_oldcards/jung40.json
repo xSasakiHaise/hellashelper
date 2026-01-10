@@ -1,0 +1,50 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 30,
+  "previous_pokemon_id": 29,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG40.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG40.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "CONFUSED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG40.2.name",
+      "costs": [
+        "GRASS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.JUNG40.2.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 2,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

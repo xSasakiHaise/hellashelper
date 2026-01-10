@@ -1,0 +1,28 @@
+{
+  "id": "Sawk",
+  "spawnInfos": [
+    {
+      "spec": "species:Sawk",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 34,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_belt",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:windswept_savanna",
+          "terralith:savanna_badlands",
+          "terralith:savanna_slopes"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

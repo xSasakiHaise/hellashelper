@@ -1,0 +1,23 @@
+{
+  "id": "Sentret Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Sentret",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/freezing_forests",
+          "minecraft:snowy_plains",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

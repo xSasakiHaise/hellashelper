@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "pixelmon:poke_ball",
+      "count": 1,
+      "components": {
+        "pixelmon:poke_ball": "timer_ball"
+      }
+    },
+    "title": {
+      "translate": "advancements.timer_ball_capture.title"
+    },
+    "description": {
+      "translate": "advancements.timer_ball_capture.description"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "timer_ball_capture"
+    ]
+  ],
+  "parent": "pixelmon:balls/ball_capture_trigger",
+  "criteria": {
+    "timer_ball_capture": {
+      "trigger": "pixelmon:ball_capture_trigger",
+      "conditions": {
+        "pokeball": "timer_ball"
+      }
+    }
+  }
+}

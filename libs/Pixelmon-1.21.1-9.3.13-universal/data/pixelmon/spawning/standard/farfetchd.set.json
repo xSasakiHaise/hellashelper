@@ -1,0 +1,57 @@
+{
+  "id": "Farfetchd",
+  "spawnInfos": [
+    {
+      "spec": "species:Farfetchd",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Farfetchd form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

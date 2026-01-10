@@ -1,0 +1,48 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 103,
+  "previous_pokemon_id": 102,
+  "retreat_cost": 3,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG35.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG35.1.text",
+      "effects": [
+        {
+          "type": "tcg:switch_pokemon",
+          "self_action": true,
+          "self_target": true,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG35.2.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.JUNG35.2.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 1,
+          "flip_type": "PerEnergy"
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

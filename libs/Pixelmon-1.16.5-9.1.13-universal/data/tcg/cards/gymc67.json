@@ -1,0 +1,61 @@
+{
+  "id": 550,
+  "setId": 7,
+  "cardType": "BASIC",
+  "isSpecial": false,
+  "hp": 40,
+  "energy1": "FIGHTING",
+  "energy2": null,
+  "pokemonId": 50,
+  "code": "GYMC67",
+  "name": "card.GYMC67.name",
+  "description": "",
+  "previousPokemonId": null,
+  "cardAttacks": [
+    {
+      "card": "GYMC67",
+      "index": 1,
+      "name": "attack.GYMC67.1.name",
+      "costs": [
+        "FIGHTING"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMC67.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC67",
+      "index": 2,
+      "name": "attack.GYMC67.2.name",
+      "costs": [
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "modifier": null,
+      "text": "attack.GYMC67.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": "LIGHTNING",
+  "resistanceValue": "30",
+  "resistanceCardModifier": "Minus",
+  "energyWeakness": "GRASS",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "COMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

@@ -1,0 +1,14 @@
+{
+  "events": [
+    "pixelmon:gigantamax"
+  ],
+  "condition": {
+    "type": "pixelmon:true"
+  },
+  "resulting_states": [
+    "SEEN",
+    "CAUGHT"
+  ],
+  "player_context_key": "pixelmon:player",
+  "pokemon_context_key": "pixelmon:pokemon"
+}

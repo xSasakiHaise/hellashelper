@@ -1,0 +1,373 @@
+{
+  "name": "Ogerpon",
+  "dex": 1017,
+  "defaultForms": [
+    "teal"
+  ],
+  "forms": [
+    {
+      "name": "teal",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Counter",
+              "Double Kick",
+              "Horn Leech",
+              "Follow Me",
+              "Leech Seed",
+              "Quick Attack",
+              "Retaliate",
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Low Sweep"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Spiky Shield"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Power Whip"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Superpower"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Wood Hammer"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Scary Face",
+          "Protect",
+          "Low Kick",
+          "Trailblaze",
+          "Facade",
+          "Magical Leaf",
+          "Rock Tomb",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Bullet Seed",
+          "False Swipe",
+          "Brick Break",
+          "Zen Headbutt",
+          "U-turn",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Grass Knot",
+          "Stomping Tantrum",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Spikes",
+          "Substitute",
+          "Giga Drain",
+          "Energy Ball",
+          "Encore",
+          "Play Rough",
+          "Helping Hand",
+          "Reversal",
+          "Grassy Terrain",
+          "Giga Impact",
+          "Leaf Storm",
+          "Solar Beam",
+          "Tera Blast",
+          "Knock Off",
+          "Solar Blade",
+          "Grassy Glide",
+          "Lash Out"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Defiant"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 84,
+        "specialAttack": 60,
+        "specialDefense": 96,
+        "speed": 110
+      },
+      "tags": [
+        "undexable",
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 275,
+        "baseFriendship": 50,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1017_ogerpon/all/teal/none/texture.png",
+              "sprite": "pixelmon:pokemon/1017_ogerpon/all/teal/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.ogerpon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1017_ogerpon/all/teal/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1017_ogerpon/all/teal/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 10,
+      "weight": 39.8,
+      "catchRate": 5,
+      "evolutions": [],
+      "malePercentage": 0,
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "wellspring",
+      "abilities": {
+        "abilities": [
+          "WaterAbsorb"
+        ],
+        "hiddenAbilities": []
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1017_ogerpon/all/wellspring/none/texture.png",
+              "sprite": "pixelmon:pokemon/1017_ogerpon/all/wellspring/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1017_ogerpon/all/wellspring/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1017_ogerpon/all/wellspring/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "GRASS",
+        "WATER"
+      ],
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "hearthflame",
+      "abilities": {
+        "abilities": [
+          "MoldBreaker"
+        ],
+        "hiddenAbilities": []
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1017_ogerpon/all/hearthflame/none/texture.png",
+              "sprite": "pixelmon:pokemon/1017_ogerpon/all/hearthflame/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1017_ogerpon/all/hearthflame/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1017_ogerpon/all/hearthflame/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "GRASS",
+        "FIRE"
+      ],
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "cornerstone",
+      "abilities": {
+        "abilities": [
+          "Sturdy"
+        ],
+        "hiddenAbilities": []
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1017_ogerpon/all/cornerstone/none/texture.png",
+              "sprite": "pixelmon:pokemon/1017_ogerpon/all/cornerstone/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1017_ogerpon/all/cornerstone/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1017_ogerpon/all/cornerstone/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "GRASS",
+        "ROCK"
+      ],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

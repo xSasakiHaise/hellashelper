@@ -1,0 +1,15 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:shulker"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "shuckle",
+      "forretress"
+    ]
+  }
+}

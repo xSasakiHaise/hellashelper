@@ -1,0 +1,23 @@
+{
+  "id": "Ekans Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Ekans",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

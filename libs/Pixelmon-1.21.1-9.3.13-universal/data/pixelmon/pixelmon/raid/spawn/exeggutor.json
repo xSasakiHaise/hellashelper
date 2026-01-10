@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Exeggutor",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/exeggutor-3-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Exeggutor form:alolan",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/exeggutor-alolan-3-4",
+      "weight": 1.0
+    }
+  ]
+}

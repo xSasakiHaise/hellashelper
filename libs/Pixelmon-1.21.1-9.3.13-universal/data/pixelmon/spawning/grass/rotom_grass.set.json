@@ -1,0 +1,23 @@
+{
+  "id": "Rotom Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Rotom",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 13,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 39,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC69.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.GYMC69.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC69.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "text": "attack.GYMC69.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

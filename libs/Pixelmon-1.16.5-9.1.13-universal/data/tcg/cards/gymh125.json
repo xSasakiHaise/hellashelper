@@ -1,0 +1,31 @@
+{
+  "id": 351,
+  "setId": 6,
+  "cardType": "TRAINER",
+  "isSpecial": false,
+  "hp": 0,
+  "energy1": "",
+  "energy2": null,
+  "pokemonId": null,
+  "code": "GYMH125",
+  "name": "card.GYMH125.name",
+  "description": "card.gymh125.text",
+  "previousPokemonId": null,
+  "cardAttacks": [
+
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 0,
+  "cardRarity": "COMMON",
+  "customTexture": "tcg:gui/cards/foreground/sabrinasgaze.png",
+  "customTextureX": 32,
+  "customTextureY": 32,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

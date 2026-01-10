@@ -1,0 +1,50 @@
+{
+  "id": "Walrein",
+  "spawnInfos": [
+    {
+      "spec": "species:Walrein",
+      "stringLocationTypes": [
+        "Water",
+        "Land"
+      ],
+      "minLevel": 44,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:cold_ocean",
+          "minecraft:deep_cold_ocean",
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_beach"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Sealeo",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 1.0
+    }
+  ]
+}

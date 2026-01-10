@@ -1,0 +1,4 @@
+$body miraidon.bmd
+$anim idle walk.bmd
+$anim walk walk.bmd
+$scale 10

@@ -1,0 +1,335 @@
+{
+  "name": "Lokix",
+  "dex": 920,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1.0,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Detect",
+              "Leer",
+              "Low Kick",
+              "Lunge",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "First Impression"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Axe Kick"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Counter",
+          "Skitter Smack"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Scary Face",
+          "Protect",
+          "Low Kick",
+          "Struggle Bug",
+          "Thief",
+          "Trailblaze",
+          "Pounce",
+          "Facade",
+          "Aerial Ace",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Brick Break",
+          "U-turn",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Dark Pulse",
+          "Leech Life",
+          "Substitute",
+          "X-Scissor",
+          "Reversal",
+          "Giga Impact",
+          "Bug Buzz",
+          "Tera Blast",
+          "Spite",
+          "Knock Off",
+          "Bug Bite",
+          "Lunge",
+          "Lash Out",
+          "Double-Edge",
+          "Skitter Smack",
+          "Throat Chop"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm"
+        ],
+        "hiddenAbilities": [
+          "TintedLens"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 71,
+        "attack": 102,
+        "defense": 78,
+        "specialAttack": 52,
+        "specialDefense": 55,
+        "speed": 92
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 158,
+        "baseFriendship": 0,
+        "spawnLevel": 24,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/920_lokix/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.lokix",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/920_lokix/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/920_lokix/all/base/none/lokix.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/920_lokix/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/920_lokix/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.85
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/920_lokix/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/920_lokix/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/920_lokix/all/base/none/lokix.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/920_lokix/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/920_lokix/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.85
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "DARK"
+      ],
+      "preEvolutions": [
+        "Nymble"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 17.5,
+      "catchRate": 30,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      },
+      "growth_data": {
+        "mean": 100.0,
+        "standard_deviation": 5.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 9
+}

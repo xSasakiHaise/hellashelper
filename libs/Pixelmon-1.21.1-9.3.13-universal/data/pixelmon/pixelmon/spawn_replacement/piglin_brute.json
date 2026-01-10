@@ -1,0 +1,16 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:piglin_brute"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "tepig",
+      "pignite",
+      "emboar"
+    ]
+  }
+}

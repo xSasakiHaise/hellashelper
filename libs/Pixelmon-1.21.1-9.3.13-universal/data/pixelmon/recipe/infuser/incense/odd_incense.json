@@ -1,0 +1,16 @@
+{
+  "type": "pixelmon:infuser",
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "pixelmon:belue_berry",
+      "count": 3
+    },
+    {
+      "item": "pixelmon:incense_burner"
+    }
+  ],
+  "results": {
+    "id": "pixelmon:odd_incense"
+  }
+}

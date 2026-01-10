@@ -1,0 +1,21 @@
+{
+  "id": "Mareep Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Mareep",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

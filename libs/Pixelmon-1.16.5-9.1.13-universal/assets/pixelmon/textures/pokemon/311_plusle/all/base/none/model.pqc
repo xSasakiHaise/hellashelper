@@ -1,0 +1,4 @@
+$body plusle.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$scale 8.0

@@ -1,0 +1,24 @@
+{
+  "id": "Watchog",
+  "spawnInfos": [
+    {
+      "spec": "species:Watchog",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

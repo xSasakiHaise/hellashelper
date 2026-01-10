@@ -1,0 +1,297 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "artifacts",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:tidal_bell"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:clear_bell"        
+        },
+        {
+          "type": "empty",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "name": "treasure",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:pearl"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:big_pearl"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "pixelmon:pearl_string"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "pixelmon:stardust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:star_piece"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:comet_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "pixelmon:nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:big_nugget"
+        },
+        {
+          "type": "empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "name": "helditems",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:sharp_beak"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:hard_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:fairy_wand"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:sky_plate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:stone_plate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:pixie_plate"
+        },
+        {
+          "type": "empty",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "name": "gems",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "pixelmon:flying_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "pixelmon:rock_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "pixelmon:fairy_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "name": "vanilla",
+      "rolls": {
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:wheat",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

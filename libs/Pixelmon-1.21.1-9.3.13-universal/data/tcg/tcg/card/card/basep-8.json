@@ -1,0 +1,48 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.basep-8.description",
+  "attacks": [
+    {
+      "name": "attack.basep-8.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.basep-8.0.description",
+      "effects": [
+        {
+          "type": "tcg:devolve",
+          "mode": 0
+        }
+      ]
+    },
+    {
+      "name": "attack.basep-8.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.basep-8.1.description",
+      "effects": [
+        {
+          "type": "tcg:devolve",
+          "mode": 0
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "PSYCHIC",
+  "pokemon_id": 151,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:promo"
+}

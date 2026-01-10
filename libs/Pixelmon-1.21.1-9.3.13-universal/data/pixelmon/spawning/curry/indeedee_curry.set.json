@@ -1,0 +1,31 @@
+{
+  "id": "Indeedee Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Indeedee",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 28,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sitrus_berry",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:oran_berry",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

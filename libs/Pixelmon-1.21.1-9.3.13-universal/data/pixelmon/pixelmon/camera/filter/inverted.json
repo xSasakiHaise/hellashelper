@@ -1,0 +1,6 @@
+{
+  "name": {
+    "translate": "pixelmon.camera.filter.inverted"
+  },
+  "post_process_shader": "minecraft:shaders/post/invert.json"
+}

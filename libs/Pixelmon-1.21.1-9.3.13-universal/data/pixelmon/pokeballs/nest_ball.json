@@ -1,0 +1,20 @@
+{
+  "name": "nest_ball",
+  "model": "pixelmon:models/pokeballs/base.pqc",
+  "texture": "pixelmon:textures/pokeballs/nest_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/nest_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/nest_ball",
+  "lidSprite": "pixelmon:item/pokeballs/nest_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/nest_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.NestBall",
+  "bases": [
+    "aluminum",
+    "iron"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0.20,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

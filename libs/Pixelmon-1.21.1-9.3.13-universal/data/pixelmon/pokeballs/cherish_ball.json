@@ -1,0 +1,17 @@
+{
+  "name": "cherish_ball",
+  "model": "pixelmon:models/pokeballs/cherishball.pqc",
+  "texture": "pixelmon:textures/pokeballs/cherish_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/cherish_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/cherish_ball",
+  "guiSprite": "pixelmon:textures/gui/overlay/cherish_ball.png",
+  "logic": "",
+  "bases": [],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false,
+  "hasLid": false
+}

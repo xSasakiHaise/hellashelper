@@ -1,0 +1,20 @@
+{
+  "id": "Dunsparce Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Dunsparce",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

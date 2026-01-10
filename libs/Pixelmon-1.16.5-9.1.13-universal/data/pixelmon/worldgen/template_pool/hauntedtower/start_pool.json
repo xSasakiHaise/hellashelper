@@ -1,0 +1,54 @@
+{
+  "name": "pixelmon:hauntedtower/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:hauntedtower/haunted_tower_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 50,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:hauntedtower/haunted_tower_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 50,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:hauntedtower/haunted_tower_c",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 50,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:hauntedtower/haunted_tower_d",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 50,
+        "keep_liquids": true
+      }
+    }
+  ]
+}

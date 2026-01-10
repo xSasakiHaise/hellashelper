@@ -1,0 +1,41 @@
+{
+  "special": false,
+  "hp": 100,
+  "description": "card.base3-4.description",
+  "attacks": [
+    {
+      "name": "attack.base3-4.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base3-4.0.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 2,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "COLORLESS",
+  "pokemon_id": 149,
+  "ability": {
+    "name": "ability.base3-4.name",
+    "description": "ability.base3-4.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:step_in"
+    }
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:holo_rare"
+}

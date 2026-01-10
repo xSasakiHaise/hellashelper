@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "#c:stones",
+    "#c:cobblestones",
+    "#c:ores",
+    "#c:sandstone/blocks",
+    "#c:end_stones",
+
+    "pixelmon:rock",
+    "pixelmon:cave_rock",
+
+    "pixelmon:ruins_wall",
+    "pixelmon:dusty_ruins_wall",
+
+    "#pixelmon:temple_blocks",
+
+    "#pixelmon:unown_block",
+
+    "#pixelmon:braille_block",
+
+    "pixelmon:ultra_deep_crystal",
+    "pixelmon:ultra_deep_crying_crystal",
+    "pixelmon:ultra_deep_stone",
+
+    "#pixelmon:ultra_space_stone_blocks",
+
+    "#pixelmon:ultra_space_cobblestone_blocks",
+
+    "#pixelmon:ultra_desert_sandstone_blocks"
+  ]
+}

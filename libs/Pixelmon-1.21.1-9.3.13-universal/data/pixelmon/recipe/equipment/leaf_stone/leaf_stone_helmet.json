@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:leaf_stone"
+    }
+  },
+  "result": {
+    "id": "pixelmon:leaf_stone_helmet",
+    "count": 1
+  }
+}

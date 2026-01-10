@@ -1,0 +1,26 @@
+{
+  "id": "Cleffa",
+  "spawnInfos": [
+    {
+      "spec": "species:Cleffa",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/end"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

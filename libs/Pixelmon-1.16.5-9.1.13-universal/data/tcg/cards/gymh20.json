@@ -1,0 +1,65 @@
+{
+  "id": 367,
+  "setId": 6,
+  "cardType": "STAGE2",
+  "isSpecial": false,
+  "hp": 90,
+  "energy1": "FIGHTING",
+  "energy2": null,
+  "pokemonId": 76,
+  "code": "GYMH20",
+  "name": "card.GYMH20.name",
+  "description": "",
+  "previousPokemonId": 75,
+  "cardAttacks": [
+    {
+      "card": "GYMH20",
+      "index": 1,
+      "name": "attack.GYMH20.1.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMH20.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMH20",
+      "index": 2,
+      "name": "attack.GYMH20.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 50,
+      "modifier": null,
+      "text": "attack.GYMH20.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "GRASS",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 4,
+  "cardRarity": "RARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

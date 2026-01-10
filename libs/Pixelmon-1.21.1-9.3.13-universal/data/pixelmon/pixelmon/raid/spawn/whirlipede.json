@@ -1,0 +1,15 @@
+{
+  "spawns": [
+    {
+      "spec": "Whirlipede",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/whirlipede-3-3",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "pixelmon:village/taiga/buildings",
+  "fallback": "minecraft:village/taiga/streets",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/taiga/taiga_pokecenter",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/taiga/taiga_mart",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pixelmon:village/taiga/taiga_daycare",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

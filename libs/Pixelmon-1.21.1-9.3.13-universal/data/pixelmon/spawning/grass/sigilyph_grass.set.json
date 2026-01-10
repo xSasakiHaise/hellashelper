@@ -1,0 +1,25 @@
+{
+  "id": "Sigilyph Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Sigilyph",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:desert",
+          "minecraft:badlands"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

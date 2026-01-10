@@ -1,0 +1,90 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:pokeball/lid/repeat_ball_lid"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:pokeball/lid/repeat_ball_lid"
+      }
+    },
+    "has_poke_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:poke_ball"
+            ],
+            "nbt": "{PokeBallID:\"poke_ball\"}"
+          }
+        ]
+      }
+    },
+    "has_great_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:poke_ball"
+            ],
+            "nbt": "{PokeBallID:\"great_ball\"}"
+          }
+        ]
+      }
+    },
+    "has_ultra_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:poke_ball"
+            ],
+            "nbt": "{PokeBallID:\"ultra_ball\"}"
+          }
+        ]
+      }
+    },
+    "has_heal_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:poke_ball"
+            ],
+            "nbt": "{PokeBallID:\"heal_ball\"}"
+          }
+        ]
+      }
+    },
+    "has_nest_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:poke_ball"
+            ],
+            "nbt": "{PokeBallID:\"nest_ball\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_poke_ball",
+      "has_great_ball",
+      "has_ultra_ball",
+      "has_nest_ball",
+      "has_heal_ball"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "Stonjourner Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Stonjourner",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

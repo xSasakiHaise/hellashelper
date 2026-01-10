@@ -1,0 +1,19 @@
+{
+  "textures": {
+    "wall": "pixelmon:block/ultra_space/polished",
+    "particle": "pixelmon:block/ultra_space/polished"
+  },
+  "elements": [
+    {
+      "from": [ 5, 0, 0 ],
+      "to": [ 11, 16, 8 ],
+      "faces": {
+        "down":  { "texture": "#wall", "tintindex": 0, "cullface": "down" },
+        "up":    { "texture": "#wall", "tintindex": 0, "cullface": "up"},
+        "north": { "texture": "#wall", "tintindex": 0, "cullface": "north" },
+        "west":  { "texture": "#wall", "tintindex": 0},
+        "east":  { "texture": "#wall", "tintindex": 0}
+      }
+    }
+  ]
+}

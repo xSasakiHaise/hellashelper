@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:blue_berry_wood_pressure_plate",
+    "pixelmon:green_berry_wood_pressure_plate",
+    "pixelmon:pink_berry_wood_pressure_plate",
+    "pixelmon:purple_berry_wood_pressure_plate",
+    "pixelmon:red_berry_wood_pressure_plate",
+    "pixelmon:yellow_berry_wood_pressure_plate",
+    "pixelmon:ultra_gingko_pressure_plate",
+    "pixelmon:ultra_elm_pressure_plate",
+    "pixelmon:ultra_jungle_pressure_plate"
+  ]
+}

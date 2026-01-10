@@ -1,0 +1,5 @@
+$body morpeko.bmd
+$anim walk walk.bmd
+$anim idle idle_hangry.bmd
+$anim idle idle_normal.bmd
+$scale 1.0

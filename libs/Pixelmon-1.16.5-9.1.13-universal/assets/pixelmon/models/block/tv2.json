@@ -1,0 +1,126 @@
+{
+  "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+  "textures": {
+    "particle": "pixelmon:block/tv_back",
+    "tv_back": "pixelmon:block/tv_back",
+    "tv_front": "pixelmon:block/tv_front"
+  },
+  "display": {
+    "gui": {
+      "rotation": [ 30, 45, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.625, 0.625, 0.625 ]
+    },
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 3, 0 ],
+      "scale": [ 0.25, 0.25, 0.25 ]
+    },
+    "fixed": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "head": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 315, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 75, 315, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    }
+  },
+  "elements": [
+    {
+      "name": "foot_1",
+      "from": [ 2, 0, 5 ],
+      "to": [ 3, 1, 11 ],
+      "faces": {
+        "north": { "texture": "#tv_front", "uv": [ 0, 14, 1, 15 ] },
+        "east": { "texture": "#tv_front", "uv": [ 0, 14, 6, 15 ] },
+        "south": { "texture": "#tv_front", "uv": [ 5, 14, 6, 15 ] },
+        "west": { "texture": "#tv_front", "uv": [ 0, 14, 6, 15 ] },
+        "up": { "texture": "#tv_front", "uv": [ 0, 13, 6, 14 ], "rotation": 90 },
+        "down": { "texture": "#tv_front", "uv": [ 0, 15, 6, 16 ], "rotation": 90 }
+      }
+    },
+    {
+      "name": "foot_2",
+      "from": [ 13, 0, 5 ],
+      "to": [ 14, 1, 11 ],
+      "faces": {
+        "north": { "texture": "#tv_front", "uv": [ 10, 14, 11, 15 ] },
+        "east": { "texture": "#tv_front", "uv": [ 10, 14, 16, 15 ] },
+        "south": { "texture": "#tv_front", "uv": [ 15, 14, 16, 15 ] },
+        "west": { "texture": "#tv_front", "uv": [ 10, 14, 16, 15 ] },
+        "up": { "texture": "#tv_front", "uv": [ 10, 13, 16, 14 ] },
+        "down": { "texture": "#tv_front", "uv": [ 10, 15, 16, 16 ] }
+      }
+    },
+    {
+      "name": "screen_1",
+      "from": [ 0, 1, 8 ],
+      "to": [ 16, 12, 9 ],
+      "faces": {
+        "north": { "texture": "#tv_back", "uv": [ 0, 0, 16, 11 ] },
+        "south": { "texture": "#tv_front", "uv": [ 0, 1, 16, 12 ] },
+        "up": { "texture": "#tv_front", "uv": [ 0, 0, 16, 1 ] },
+        "down": { "texture": "#tv_front", "uv": [ 0, 12, 16, 13 ] }
+      }
+    },
+    {
+      "name": "screen_2",
+      "from": [ -1, 1, 8 ],
+      "to": [ 0, 12, 9 ],
+      "faces": {
+        "north": { "texture": "#tv_front", "uv": [ 2, 1, 13, 2 ], "rotation": 90 },
+        "south": { "texture": "#tv_front", "uv": [ 2, 11, 13, 12 ], "rotation": 90 },
+        "west": { "texture": "#tv_front", "uv": [ 2, 12, 13, 13 ] },
+        "up": { "texture": "#tv_front", "uv": [ 7, 0, 8, 1 ] },
+        "down": { "texture": "#tv_front", "uv": [ 7, 12, 8, 13 ] }
+      }
+    },
+    {
+      "name": "back_1",
+      "from": [ 3, 3, 7 ],
+      "to": [ 13, 9, 8 ],
+      "faces": {
+        "north": { "texture": "#tv_back", "uv": [ 3, 3, 13, 9 ] },
+        "east": { "texture": "#tv_back", "uv": [ 0, 14, 6, 15 ], "rotation": 90 },
+        "west": { "texture": "#tv_back", "uv": [ 0, 13, 6, 14 ], "rotation": 90 },
+        "up": { "texture": "#tv_back", "uv": [ 3, 2, 13, 3 ], "rotation": 180 }
+      }
+    },
+    {
+      "name": "back_2",
+      "from": [ 0, 1, 7 ],
+      "to": [ 16, 3, 8 ],
+      "faces": {
+        "north": { "texture": "#tv_back", "uv": [ 0, 9, 16, 11 ] },
+        "east": { "texture": "#tv_back", "uv": [ 15, 11, 16, 13 ] },
+        "west": { "texture": "#tv_back", "uv": [ 0, 11, 1, 13 ] },
+        "up": { "texture": "#tv_back", "uv": [ 0, 11, 16, 12 ] },
+        "down": { "texture": "#tv_back", "uv": [ 0, 12, 16, 13 ] }
+      }
+    },
+    {
+      "name": "screen_3",
+      "from": [ 16, 1, 8 ],
+      "to": [ 17, 12, 9 ],
+      "faces": {
+        "north": { "texture": "#tv_front", "uv": [ 2, 1, 13, 2 ], "rotation": 90 },
+        "east": { "texture": "#tv_front", "uv": [ 2, 0, 13, 1 ], "rotation": 90 },
+        "south": { "texture": "#tv_front", "uv": [ 2, 11, 13, 12 ], "rotation": 90 },
+        "up": { "texture": "#tv_front", "uv": [ 7, 0, 8, 1 ] },
+        "down": { "texture": "#tv_front", "uv": [ 7, 12, 8, 13 ] }
+      }
+    }
+  ]
+}

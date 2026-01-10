@@ -1,0 +1,4 @@
+$body ting_lu.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 7

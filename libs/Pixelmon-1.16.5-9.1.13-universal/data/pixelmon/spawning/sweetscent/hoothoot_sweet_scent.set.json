@@ -1,0 +1,28 @@
+{
+  "id": "Hoothoot Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Hoothoot",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "all forests",
+          "freezing forests",
+          "magical",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

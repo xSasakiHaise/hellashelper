@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "pixelmon:green_berry_wood_boat"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:green_berry_wood_chest_boat"
+  }
+}

@@ -1,0 +1,6 @@
+$body gliscor.bmd
+$anim idle idle.bmd idle.bmd special.bmd
+$anim walk walk.bmd
+$anim fly walk.bmd
+$anim special special.bmd
+$scale 7.5

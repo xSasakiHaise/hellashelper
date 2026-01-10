@@ -1,0 +1,25 @@
+{
+  "id": "Inkay Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Inkay",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 18,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

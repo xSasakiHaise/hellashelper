@@ -1,0 +1,164 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "axis": "x",
+        "east": "solid|pillar",
+        "west": "solid|pillar"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cracked",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "y",
+        "up": "solid|pillar",
+        "down": "solid|pillar"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cracked"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "north": "solid|pillar",
+        "south": "solid|pillar"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cracked",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "east": "solid"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_top",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "west": "solid"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_bottom",
+        "x": 90,
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "axis": "y",
+        "up": "solid"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_top"
+      }
+    },
+    {
+      "when": {
+        "axis": "y",
+        "down": "solid"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_bottom"
+      }
+    },
+
+    {
+      "when": {
+        "axis": "z",
+        "north": "solid"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_top",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "south": "solid"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_bottom",
+        "x": 90
+      }
+    },
+
+    {
+      "when": {
+        "axis": "x",
+        "east": "air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_fracture",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "west": "air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_fracture",
+        "x": 270,
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "axis": "y",
+        "up": "air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_fracture"
+      }
+    },
+    {
+      "when": {
+        "axis": "y",
+        "down": "air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_fracture",
+        "x": 180,
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "axis": "z",
+        "north": "air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_fracture",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "south": "air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_fracture",
+        "x": 270
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_bottom",
+  "textures": {
+    "texture": "pixelmon:block/ultra_space/elm_trapdoor"
+  }
+}

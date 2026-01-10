@@ -1,0 +1,22 @@
+{
+  "id": "Numel Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Numel",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "minecraft:badlands",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

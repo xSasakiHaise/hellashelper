@@ -1,0 +1,31 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 62,
+  "previous_pokemon_id": 61,
+  "retreat_cost": 3,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH31.1.name",
+      "costs": [
+        "WATER",
+        "WATER",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.GYMH31.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

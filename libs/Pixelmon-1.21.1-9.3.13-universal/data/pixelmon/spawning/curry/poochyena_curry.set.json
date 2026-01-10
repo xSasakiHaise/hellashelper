@@ -1,0 +1,22 @@
+{
+  "id": "Poochyena Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Poochyena",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

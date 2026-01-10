@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:ruins/ultra_desert",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:ruins/ultra_jungle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 835760935,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "spacing": 3,
+    "separation": 1
+  }
+}

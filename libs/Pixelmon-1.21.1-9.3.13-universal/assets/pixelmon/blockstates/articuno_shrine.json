@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "pixelmon:block/articuno_shrine",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "pixelmon:block/articuno_shrine"
+    },
+    "facing=east": {
+      "model": "pixelmon:block/articuno_shrine",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "pixelmon:block/articuno_shrine",
+      "y": 270
+    }
+  }
+}

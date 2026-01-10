@@ -1,0 +1,33 @@
+{
+  "name": "pixelmon:village/plains/buildings",
+  "fallback": "minecraft:village/plains/streets",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/plains/plains_pokecenter",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/plains/plains_mart",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pixelmon:village/plains/plains_daycare",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

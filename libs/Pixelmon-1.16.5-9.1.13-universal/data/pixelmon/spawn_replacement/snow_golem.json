@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "detection_logic": "simple",
+  "replaced_mobs": [
+    "minecraft:snow_golem"
+  ],
+  "replacement_logic": "simple",
+  "specs": [
+    "darmanitan form:galarian",
+    "mrrime",
+    "froslass"
+  ]
+}

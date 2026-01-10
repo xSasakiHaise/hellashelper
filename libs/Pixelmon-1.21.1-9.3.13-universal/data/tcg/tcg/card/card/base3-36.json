@@ -1,0 +1,82 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "card.base3-36.description",
+  "attacks": [
+    {
+      "name": "attack.base3-36.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 60,
+      "text": "attack.base3-36.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 100
+        },
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 20
+        },
+        {
+          "type": "tcg:damage_effect",
+          "self": false,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-36.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 100,
+      "text": "attack.base3-36.1.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 100
+        },
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 20
+        },
+        {
+          "type": "tcg:damage_effect",
+          "self": false,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 20
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 4,
+  "energies": "FIGHTING",
+  "pokemon_id": 76,
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

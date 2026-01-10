@@ -1,0 +1,315 @@
+{
+  "interactions": {
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:hit_with_poke_ball",
+          "conditions": {
+            "player": {
+              "key": "pixelmon:player",
+              "type": "pixelmon:context_player"
+            },
+            "type": "pixelmon:can_battle"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Aren\u0027t water Pokémon beautiful?",
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "player": {
+              "key": "pixelmon:player",
+              "type": "pixelmon:context_player"
+            },
+            "type": "pixelmon:can_battle"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Aren\u0027t water Pokémon beautiful?",
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "type": "pixelmon:logical_not",
+             "condition": {
+                "condition": {
+                  "player": {
+                    "key": "pixelmon:player",
+                    "type": "pixelmon:context_player"
+                  },
+                  "type": "pixelmon:can_battle"
+                },
+                "type": "pixelmon:interaction_condition"
+               }
+          },
+          "results": {
+            "value": [
+              {
+                "messages": [
+                  {
+                    "text": "You don\u0027t have any Pokémon that can battle!"
+                  }
+                ],
+                "type": "pixelmon:message_player"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:close_dialogue",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "type": "pixelmon:player_start_npc_battle"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:lose_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Get water Pokémon if you want to be strong!",
+                "fire_close_event": false,
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:win_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Your Pokémon are too strong!",
+                "fire_close_event": false,
+                "type": "pixelmon:open_dialogue"
+              },
+              {
+                "money": 16.0,
+                "type": "pixelmon:give_money"
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:defeat_trainer"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        }
+      ]
+    },
+    "type": "pixelmon:constant"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "options": [
+        "Squirtle",
+        "Wartortle",
+        "Horsea",
+        "Magikarp",
+        "Gyarados",
+        "Blastoise",
+        "Tentacool",
+        "Tentacool",
+        "Krabby",
+        "Goldeen",
+        "Goldeen",
+        "Seaking",
+        "Staryu",
+        "Staryu",
+        "Starmie",
+        "Lapras",
+        "Shellder",
+        "Remoraid",
+        "Octillery",
+        "Luvdisc",
+        "Clamperl",
+        "Gorebyss",
+        "Huntail",
+        "Carvanha",
+        "Sharpedo",
+        "Barboach",
+        "Whiscash",
+        "Feebas",
+        "Milotic",
+        "Kingdra",
+        "Wailmer",
+        "Wailmer",
+        "Wailord",
+        "Qwilfish",
+        "Chinchou",
+        "Chinchou",
+        "Lanturn",
+        "Relicanth",
+        "Finneon",
+        "Finneon",
+        "Lumineon",
+        "Basculin",
+        "Alomomola",
+        "Alomomola",
+        "Skrelp",
+        "Dragalge",
+        "Tentacruel",
+        "Frillish",
+        "Jellicent",
+        "Wishiwashi",
+        "Bruxish",
+        "Arrokuda",
+        "Arrokuda",
+        "Barraskewda",
+        "Wingull",
+        "Pelipper",
+        "Manaphy"
+      ],
+      "min_selections": 1,
+      "max_selections": 3,
+      "type": "pixelmon:random_combination"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Aaron",
+      "Adam",
+      "Alen",
+      "Albert",
+      "Alex",
+      "Arthur",
+      "Arnold",
+      "Ashton",
+      "Brad",
+      "Blake",
+      "Brendon",
+      "Byron",
+      "Cameron",
+      "Carlos",
+      "Carter",
+      "Declan",
+      "Dennis",
+      "Derek",
+      "Domonic",
+      "Elliot",
+      "Eric",
+      "Gary",
+      "George",
+      "Gilbert",
+      "Glen",
+      "Hayden",
+      "Harry",
+      "Henry",
+      "Ian",
+      "Jack",
+      "Jacob",
+      "Jaden",
+      "Jeff",
+      "Jerry",
+      "Jim",
+      "Joel",
+      "Kai"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/swimmer_m1.png",
+            "fallback": "pixelmon:textures/steve/swimmer_m1.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/swimmer_m2.png",
+            "fallback": "pixelmon:textures/steve/swimmer_m2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/swimmer_f1.png",
+            "fallback": "pixelmon:textures/steve/swimmer_f1.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/swimmer_f2.png",
+            "fallback": "pixelmon:textures/steve/swimmer_f2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:standard_npc",
+      "profession": "minecraft:farmer"
+    }
+  }
+}

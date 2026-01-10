@@ -1,0 +1,21 @@
+{
+  "id": "Skwovet Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Skwovet",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 140.0
+    }
+  ]
+}

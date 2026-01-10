@@ -1,0 +1,5 @@
+$body cramorant.bmd
+$anim fly fly.bmd
+$anim walk fly.bmd
+$anim idle idle.bmd
+$scale 1.8

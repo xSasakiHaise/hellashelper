@@ -1,0 +1,30 @@
+{
+  "id": "Dewpider",
+  "spawnInfos": [
+    {
+      "spec": "species:Dewpider",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 9,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "biomeswevegone:crag_gardens",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

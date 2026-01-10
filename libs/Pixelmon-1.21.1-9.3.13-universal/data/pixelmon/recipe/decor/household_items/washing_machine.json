@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AGA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/aluminum"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "id": "pixelmon:washing_machine",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "variants": {
+    "facing=north,down=false": {
+      "model": "pixelmon:block/decorative/letterbox/colour/yellow"
+    },
+    "facing=east,down=false": {
+      "model": "pixelmon:block/decorative/letterbox/colour/yellow",
+      "y": 90
+    },
+    "facing=south,down=false": {
+      "model": "pixelmon:block/decorative/letterbox/colour/yellow",
+      "y": 180
+    },
+    "facing=west,down=false": {
+      "model": "pixelmon:block/decorative/letterbox/colour/yellow",
+      "y": 270
+    },
+    "facing=north,down=true": {
+      "model": "pixelmon:block/decorative/letterbox/colour/yellow",
+      "x": 180
+    },
+    "facing=east,down=true": {
+      "model": "pixelmon:block/decorative/letterbox/colour/yellow",
+      "x": 180,
+      "y": 90
+    },
+    "facing=south,down=true": {
+      "model": "pixelmon:block/decorative/letterbox/colour/yellow",
+      "x": 180,
+      "y": 180
+    },
+    "facing=west,down=true": {
+      "model": "pixelmon:block/decorative/letterbox/colour/yellow",
+      "x": 180,
+      "y": 270
+    }
+  }
+}

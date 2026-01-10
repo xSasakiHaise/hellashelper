@@ -1,0 +1,311 @@
+{
+  "name": "Gumshoos",
+  "dex": 735,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Payback",
+              "Sand Attack",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Mud-Slap"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Rest"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Block",
+          "Dual Chop",
+          "Endeavor",
+          "Fire Punch",
+          "Ice Punch",
+          "Iron Head",
+          "Iron Tail",
+          "Last Resort",
+          "Shock Wave",
+          "Snore",
+          "Stomping Tantrum",
+          "Super Fang",
+          "Thunder Punch",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Endeavor",
+          "Fire Fang",
+          "Ice Fang",
+          "Last Resort",
+          "Thunder Fang"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Endeavor",
+          "Fire Fang",
+          "Hyper Fang",
+          "Ice Fang",
+          "Last Resort",
+          "Odor Sleuth",
+          "Pursuit",
+          "Revenge",
+          "Thunder Fang"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Payback",
+          "Bulldoze",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Ice Fang",
+          "Thief",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Bulldoze",
+          "Mud Shot",
+          "Rock Tomb",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Dig",
+          "Zen Headbutt",
+          "U-turn",
+          "Psychic Fangs",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Stomping Tantrum",
+          "Rest",
+          "Taunt",
+          "Iron Head",
+          "Substitute",
+          "Crunch",
+          "Helping Hand",
+          "Reversal",
+          "Wild Charge",
+          "Earthquake",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast",
+          "Roar",
+          "Knock Off",
+          "Super Fang",
+          "Focus Punch",
+          "Double-Edge",
+          "Endeavor",
+          "Curse"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Stakeout",
+          "StrongJaw"
+        ],
+        "hiddenAbilities": [
+          "Adaptability"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 88,
+        "attack": 110,
+        "defense": 60,
+        "specialAttack": 55,
+        "specialDefense": 60,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 146,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/735_gumshoos/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/735_gumshoos/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/735_gumshoos/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/735_gumshoos/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/735_gumshoos/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Yungoos"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 14.2,
+      "catchRate": 127,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

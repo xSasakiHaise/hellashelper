@@ -1,0 +1,4 @@
+$body beldum.bmd
+$anim fly walk.bmd
+$anim idle idle.bmd
+$scale 1.0

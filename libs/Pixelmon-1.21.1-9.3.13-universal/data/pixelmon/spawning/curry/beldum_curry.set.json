@@ -1,0 +1,27 @@
+{
+  "id": "Beldum Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Beldum",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "minecraft:ice_spikes"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

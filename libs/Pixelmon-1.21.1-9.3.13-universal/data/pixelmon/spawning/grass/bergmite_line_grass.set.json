@@ -1,0 +1,77 @@
+{
+  "id": "Bergmite Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Bergmite",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 23,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "#pixelmon:spawning/freezing_mountains",
+          "byg:frozen_lake",
+          "byg:shattered_glacier"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Avalugg",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "#pixelmon:spawning/freezing_mountains",
+          "byg:frozen_lake",
+          "byg:shattered_glacier"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Avalugg form:hisuian",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "#pixelmon:spawning/freezing_mountains",
+          "byg:frozen_lake",
+          "byg:shattered_glacier"
+        ]
+      },
+      "rarity": 0.01
+    }
+  ]
+}

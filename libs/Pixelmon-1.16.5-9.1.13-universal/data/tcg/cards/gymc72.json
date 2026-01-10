@@ -1,0 +1,61 @@
+{
+  "id": 556,
+  "setId": 7,
+  "cardType": "BASIC",
+  "isSpecial": false,
+  "hp": 50,
+  "energy1": "FIGHTING",
+  "energy2": null,
+  "pokemonId": 66,
+  "code": "GYMC72",
+  "name": "card.GYMC72.name",
+  "description": "",
+  "previousPokemonId": null,
+  "cardAttacks": [
+    {
+      "card": "GYMC72",
+      "index": 1,
+      "name": "attack.GYMC72.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "modifier": null,
+      "text": "attack.GYMC72.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC72",
+      "index": 2,
+      "name": "attack.GYMC72.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMC72.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "PSYCHIC",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "COMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

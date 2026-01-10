@@ -1,0 +1,109 @@
+{
+  "id": "Ledyba Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Ledyba status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 7,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "birch",
+          "oak"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Ledyba",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 7,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "birch",
+          "oak"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Ledian status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 21,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "birch",
+          "oak"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Ledian",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 21,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "birch",
+          "oak"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.base2-43.description",
+  "attacks": [
+    {
+      "name": "attack.base2-43.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base2-43.0.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "CONFUSED",
+          "self": true,
+          "required_coin_side": "TAIL"
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-43.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 50,
+      "text": "attack.base2-43.1.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "CONFUSED",
+          "self": true,
+          "required_coin_side": "TAIL"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIGHTING",
+  "pokemon_id": 57,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

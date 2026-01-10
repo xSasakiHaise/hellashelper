@@ -1,0 +1,39 @@
+{
+  "id": "Absol",
+  "spawnInfos": [
+    {
+      "spec": "species:Absol",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Absol",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:end_barrens",
+          "nullscape:crystal_peaks"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

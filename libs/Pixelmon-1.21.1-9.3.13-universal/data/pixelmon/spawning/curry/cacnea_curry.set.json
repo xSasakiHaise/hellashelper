@@ -1,0 +1,27 @@
+{
+  "id": "Cacnea Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Cacnea",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sticky_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

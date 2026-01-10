@@ -1,0 +1,53 @@
+{
+  "id": "Natu Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Natu status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "jungle",
+          "oak"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 160.0
+    },
+    {
+      "spec": "species:Natu",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "jungle",
+          "oak"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 160.0
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "Snorlax",
+  "spawnInfos": [
+    {
+      "spec": "species:Snorlax",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leftovers",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Snorlax palette:snow",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leftovers",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Snorlax palette:summer",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leftovers",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "minecraft:stony_shore",
+          "biomesoplenty:gravel_beach",
+          "biomeswevegone:basalt_barrera",
+          "biomeswevegone:dacite_shore",
+          "terralith:gravel_beach"
+        ]
+      },
+      "rarity": 0.05
+    },
+    {
+      "spec": "species:Snorlax palette:christmas",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leftovers",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
+        ],
+        "realWorldSpawnTimes": [
+          {
+            "monthOfYear": 12
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 1
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 2
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 3
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 4
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 5
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 6
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 7
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 8
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 9
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 10
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 11
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 12
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 13
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 14
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 15
+          }
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

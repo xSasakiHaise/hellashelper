@@ -1,0 +1,30 @@
+{
+  "name": {
+    "translate": "type.fairy"
+  },
+  "color": {
+    "red": 255,
+    "green": 84,
+    "blue": 235,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/fairy.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:fighting",
+        "pixelmon:dragon",
+        "pixelmon:dark"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:fire",
+        "pixelmon:poison",
+        "pixelmon:steel"
+      ],
+      "effectiveness": "NOT"
+    }
+  ]
+}

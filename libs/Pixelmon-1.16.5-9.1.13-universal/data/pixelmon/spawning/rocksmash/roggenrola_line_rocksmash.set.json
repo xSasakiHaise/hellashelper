@@ -1,0 +1,101 @@
+{
+  "id": "Roggenrola Line Rocksmash",
+  "spawnInfos": [
+    {
+      "spec": "species:Roggenrola",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 4,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 50
+        }
+      ],
+      "anticondition": {
+        "stringBiomes": [
+          "ultra space"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Boldore",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 25,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 50
+        }
+      ],
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Boldore",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 25,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ultra space"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Gigalith",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 25,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_deep_sea",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

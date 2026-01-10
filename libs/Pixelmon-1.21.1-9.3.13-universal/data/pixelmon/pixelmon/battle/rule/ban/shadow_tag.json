@@ -1,0 +1,16 @@
+{
+  "modifiers": [],
+  "requirements":  [
+    {
+      "requirement": {
+        "type": "pixelmon:spec_based_ban_list",
+        "banned_pokemon": [
+          "ability:ShadowTag"
+        ]
+      },
+      "reason": {
+        "translate": "gui.battlerules.description.shadowtag"
+      }
+    }
+  ]
+}

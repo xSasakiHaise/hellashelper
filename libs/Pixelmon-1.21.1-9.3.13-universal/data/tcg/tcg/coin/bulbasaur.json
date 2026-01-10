@@ -1,0 +1,6 @@
+{
+  "name": "Bulbasaur",
+  "owner_name": "PokeNerd",
+  "heads": "tcg:gui/coins/heads/bulbasaur.png",
+  "tails": "tcg:gui/coins/tails/default.png"
+}

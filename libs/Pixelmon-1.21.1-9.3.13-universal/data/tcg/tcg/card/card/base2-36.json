@@ -1,0 +1,57 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.base2-36.description",
+  "attacks": [
+    {
+      "name": "attack.base2-36.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base2-36.0.description",
+      "effects": [
+        {
+          "type": "tcg:immune",
+          "self": true,
+          "immune_type": "*",
+          "required_coin_side": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-36.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base2-36.1.description",
+      "effects": [
+        {
+          "type": "tcg:immune",
+          "self": true,
+          "immune_type": "*",
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "COLORLESS",
+  "pokemon_id": 22,
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:uncommon"
+}

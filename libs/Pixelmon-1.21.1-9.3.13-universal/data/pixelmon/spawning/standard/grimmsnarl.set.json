@@ -1,0 +1,42 @@
+{
+  "id": "Grimmsnarl",
+  "spawnInfos": [
+    {
+      "spec": "species:Grimmsnarl",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed",
+          "biomesoplenty:mystic_grove",
+          "biomeswevegone:weeping_witch_forest"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Grimmsnarl",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:crimson_forest",
+          "minecraft:warped_forest",
+          "biomesoplenty:undergrowth"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

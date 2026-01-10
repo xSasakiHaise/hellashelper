@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "armchair",
+  "pattern": [
+    "w ",
+    "ww",
+    "ss"
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:gray_wool"
+    },
+    "s": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "pixelmon:gray_armchair",
+    "count": 1
+  }
+}

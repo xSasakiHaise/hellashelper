@@ -1,0 +1,26 @@
+{
+  "id": "Happiny Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Happiny",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:oval_stone",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

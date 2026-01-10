@@ -1,0 +1,23 @@
+{
+  "id": "Revavroom",
+  "spawnInfos": [
+    {
+      "spec": "species:Revavroom",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

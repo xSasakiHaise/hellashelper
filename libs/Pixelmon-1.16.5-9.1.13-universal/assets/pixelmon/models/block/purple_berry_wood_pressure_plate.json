@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "pixelmon:block/berry_structures/berry_purple_planks"
+  }
+}

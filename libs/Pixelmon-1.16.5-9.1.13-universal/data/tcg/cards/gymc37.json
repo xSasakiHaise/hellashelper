@@ -1,0 +1,61 @@
+{
+  "id": 517,
+  "setId": 7,
+  "cardType": "BASIC",
+  "isSpecial": false,
+  "hp": 50,
+  "energy1": "FIRE",
+  "energy2": null,
+  "pokemonId": 37,
+  "code": "GYMC37",
+  "name": "card.GYMC37.name",
+  "description": "",
+  "previousPokemonId": null,
+  "cardAttacks": [
+    {
+      "card": "GYMC37",
+      "index": 1,
+      "name": "attack.GYMC37.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.GYMC37.1.text",
+      "effectsString": "",
+      "effects": [
+        "OPP_CONDITION:ASLEEP"
+      ]
+    },
+    {
+      "card": "GYMC37",
+      "index": 2,
+      "name": "attack.GYMC37.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMC37.2.text",
+      "effectsString": "",
+      "effects": [
+        "OPP_DAMAGE:BENCH:1:10"
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "WATER",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

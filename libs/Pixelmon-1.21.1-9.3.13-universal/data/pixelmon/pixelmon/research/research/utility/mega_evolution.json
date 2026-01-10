@@ -1,0 +1,379 @@
+{
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Hello again Trainer! I see you've just fought a tough battle with a wild Mega Pokémon."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I've been studying Mega Evolution for quite some time now, and I believe you have what it takes to unlock the power of Mega Evolution."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "To unlock the power of Mega Evolution, I need you to complete several tasks. If you can complete them, I believe we can unlock the power of Mega Evolution together."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "First, I need you to collect some materials for me. Once you've collected them I will give you further instructions."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/npceditor.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:break_block",
+          "condition": {
+            "type": "pixelmon:block_is_one_of",
+            "blocks": [
+              "minecraft:iron_ore",
+              "minecraft:deepslate_iron_ore"
+            ],
+            "block": {
+              "type": "pixelmon:context_block_state"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 64,
+          "name": {
+            "translate": "research.unlock.mega.iron_ore",
+            "fallback": "Mine 64 Iron Ore"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:break_block",
+          "condition": {
+            "type": "pixelmon:block_is_one_of",
+            "blocks": [
+              "pixelmon:crystal_ore",
+              "pixelmon:deepslate_crystal_ore"
+            ],
+            "block": {
+              "type": "pixelmon:context_block_state"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 16,
+          "name": {
+            "translate": "research.unlock.mega.ruby_ore",
+            "fallback": "Mine 16 Crystal Ore"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:break_block",
+          "condition": {
+            "type": "pixelmon:block_is_one_of",
+            "blocks": [
+              "pixelmon:sapphire_ore",
+              "pixelmon:deepslate_sapphire_ore"
+            ],
+            "block": {
+              "type": "pixelmon:context_block_state"
+            }
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 8,
+          "name": {
+            "translate": "research.unlock.mega.sapphire_ore",
+            "fallback": "Mine 8 Sapphire Ore"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 250.0
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Thank you for your help, Trainer! You've collected the necessary materials to create the Mega Ring. I believe we're ready to proceed."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "Next, I need you to complete several tasks to unlock the power of Mega Evolution."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "If you can complete them, I believe we can unlock the power of Mega Evolution together."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": {
+            "text": "₽500"
+          }
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": {
+            "text": "250 XP"
+          }
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:evolve_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 15,
+          "name": {
+            "translate": "research.unlock.mega.evolve.15",
+            "fallback": "Evolve 15 Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:knockout_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 30,
+          "name": {
+            "translate": "research.unlock.mega.defeat.30",
+            "fallback": "Defeat 30 Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        },
+        {
+          "event": "pixelmon:knockout_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches_entity",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon_entity",
+              "key": "pixelmon:pokemon_entity"
+            },
+            "spec": "isboss"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 20,
+          "name": {
+            "translate": "research.unlock.mega.defeat.boss.20",
+            "fallback": "Defeat 20 Boss Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 250.0
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Well done, Trainer! You've completed the tasks I set out for you. I believe we're ready to unlock the power of Mega Evolution."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "All that remains is defeating a few more of the toughest Pokémon in the world. If you can do that, I believe we can unlock the power of Mega Evolution together."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": {
+            "text": "₽500"
+          }
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": {
+            "text": "250 XP"
+          }
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "event": "pixelmon:knockout_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches_entity",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon_entity",
+              "key": "pixelmon:pokemon_entity"
+            },
+            "spec": "boss:epic OR boss:legendary OR boss:ultimate AND ismega"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_money",
+              "money": 500.0
+            }
+          ],
+          "required_amount": 10,
+          "name": {
+            "translate": "research.unlock.mega.defeat.boss.10",
+            "fallback": "Defeat 10 Mega Boss Pokémon"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 250.0
+        },
+        {
+          "type": "pixelmon:unlock_mega_evolution"
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Congratulations, Trainer! You've completed all the tasks I set out for you."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I have given you a special item that will allow you to Mega Evolve your Pokémon. Use it wisely, and remember that with great power comes great responsibility."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "You can equip, or unequip, the Mega Ring by expanding the collapsed section of your inventory next to your Pokémon. Good luck, Trainer!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": {
+            "text": "₽500"
+          }
+        },
+        {
+          "resource": "pixelmon:textures/gui/inventory/keystone.png",
+          "description": {
+            "text": "Mega Ring"
+          }
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": {
+            "text": "250 XP"
+          }
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": false,
+  "unique": true,
+  "name": {
+    "translate": "research.unlock.mega",
+    "fallback": "A Mega Discovery"
+  }
+}

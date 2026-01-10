@@ -1,0 +1,13 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 147,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "attacks": [
+
+  ],
+  "energies": "COLORLESS"
+}

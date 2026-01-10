@@ -1,0 +1,81 @@
+{
+  "id": "Skrelp",
+  "spawnInfos": [
+    {
+      "spec": "species:Skrelp",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 33,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
+        ],
+        "maxY": 40
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Skrelp",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Skrelp",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 33,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Skrelp",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 33,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:temples/water_chalice"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

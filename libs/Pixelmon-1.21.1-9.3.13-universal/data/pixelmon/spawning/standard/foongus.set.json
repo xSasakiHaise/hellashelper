@@ -1,0 +1,61 @@
+{
+  "id": "Foongus",
+  "spawnInfos": [
+    {
+      "spec": "species:Foongus",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/mushroom"
+        ]
+      },
+      "rarity": 170.0
+    },
+    {
+      "spec": "species:Foongus",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 20,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "biomesoplenty:glowing_grotto",
+          "terralith:cave/fungal_caves"
+        ]
+      },
+      "rarity": 170.0
+    }
+  ]
+}

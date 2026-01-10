@@ -1,0 +1,491 @@
+{
+  "name": "Serperior",
+  "dex": 497,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Tackle",
+              "Vine Whip",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Bind",
+          "Defog",
+          "Dragon Pulse",
+          "Frenzy Plant",
+          "Gastro Acid",
+          "Giga Drain",
+          "Grass Pledge",
+          "Iron Tail",
+          "Knock Off",
+          "Outrage",
+          "Seed Bomb",
+          "Snatch",
+          "Snore",
+          "Synthesis",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Glare",
+          "Iron Tail",
+          "Mean Look",
+          "Mirror Coat",
+          "Sweet Scent",
+          "Synthesis",
+          "Twister"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Trailblaze",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Magical Leaf",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Bullet Seed",
+          "Body Slam",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Reflect",
+          "Light Screen",
+          "Grass Knot",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Substitute",
+          "Giga Drain",
+          "Dragon Pulse",
+          "Energy Ball",
+          "Calm Mind",
+          "Helping Hand",
+          "Grassy Terrain",
+          "Grass Pledge",
+          "Giga Impact",
+          "Frenzy Plant",
+          "Outrage",
+          "Leaf Storm",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast",
+          "Knock Off",
+          "Grassy Glide",
+          "Scale Shot",
+          "Double-Edge",
+          "Petal Blizzard",
+          "Breaking Swipe"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aromatherapy",
+          "Captivate",
+          "Cut",
+          "Flash",
+          "Glare",
+          "Grassy Terrain",
+          "Hold Back",
+          "Iron Tail",
+          "Leaf Tornado",
+          "Magical Leaf",
+          "Mean Look",
+          "Mirror Coat",
+          "Natural Gift",
+          "Pursuit",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Sweet Scent",
+          "Synthesis",
+          "Twister",
+          "Wring Out"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Brutal Swing",
+          "Giga Impact",
+          "Swords Dance",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Overgrow"
+        ],
+        "hiddenAbilities": [
+          "Contrary"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.7,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.7,
+            "z": 0.5
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 75,
+        "defense": 95,
+        "specialAttack": 75,
+        "specialDefense": 95,
+        "speed": 113
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 238,
+        "baseFriendship": 70,
+        "spawnLevel": 36,
+        "spawnLevelRange": 9,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/497_serperior/all/base/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/497_serperior/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/497_serperior/all/base/none/serperior.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/497_serperior/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/497_serperior/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.9
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/497_serperior/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/497_serperior/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/497_serperior/all/base/none/serperior.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/497_serperior/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/497_serperior/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.9
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "zombie",
+              "sprite": "pixelmon:pokemon/497_serperior/all/base/zombie/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/497_serperior/all/base/zombie/texture.png",
+                      "model": "pixelmon:pokemon/497_serperior/all/base/none/serperior.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/497_serperior/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/497_serperior/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.9
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Servine",
+        "Snivy"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 63.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "speed": 3
+      },
+      "growth_data": {
+        "mean": 120.0,
+        "standard_deviation": 6.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 5
+}

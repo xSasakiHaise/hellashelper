@@ -1,0 +1,84 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base1-9.description",
+  "attacks": [
+    {
+      "name": "attack.base1-9.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base1-9.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": true,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 80
+        },
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 20
+        },
+        {
+          "type": "tcg:damage_effect",
+          "self": false,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "attack.base1-9.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 80,
+      "text": "attack.base1-9.1.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": true,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 80
+        },
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 20
+        },
+        {
+          "type": "tcg:damage_effect",
+          "self": false,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 20
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "LIGHTNING",
+  "pokemon_id": 82,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

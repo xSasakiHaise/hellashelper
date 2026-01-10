@@ -1,0 +1,62 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:nether_wastes",
+    "minecraft:basalt_deltas",
+    "minecraft:crimson_forest",
+    "minecraft:soul_sand_valley",
+    "minecraft:warped_forest",
+    {
+      "id": "biomesoplenty:crystalline_chasm",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:erupting_inferno",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:undergrowth",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:visceral_heap",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:withered_abyss",
+      "required": false
+    },
+    {
+      "id": "incendium:ash_barrens",
+      "required": false
+    },
+    {
+      "id": "incendium:infernal_dunes",
+      "required": false
+    },
+    {
+      "id": "incendium:inverted_forest",
+      "required": false
+    },
+    {
+      "id": "incendium:quartz_flats",
+      "required": false
+    },
+    {
+      "id": "incendium:toxic_heap",
+      "required": false
+    },
+    {
+      "id": "incendium:volcanic_deltas",
+      "required": false
+    },
+    {
+      "id": "incendium:weeping_valley",
+      "required": false
+    },
+    {
+      "id": "incendium:withered_forest",
+      "required": false
+    }
+  ]
+}

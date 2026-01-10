@@ -1,0 +1,460 @@
+{
+  "name": "Enamorus",
+  "dex": 905,
+  "defaultForms": [
+    "incarnate"
+  ],
+  "forms": [
+    {
+      "name": "incarnate",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Fairy Wind"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Flatter"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Twister"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Imprison"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Mystical Fire"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Superpower"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Healing Wish"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Springtide Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Calm Mind",
+          "Dazzling Gleam",
+          "Earth Power",
+          "Giga Impact",
+          "Hyper Beam",
+          "Mystical Fire",
+          "Play Rough",
+          "Power Shift",
+          "Psychic",
+          "Rest",
+          "Rock Smash",
+          "Sludge Bomb",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Scary Face",
+          "Protect",
+          "Disarming Voice",
+          "Facade",
+          "Draining Kiss",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Dazzling Gleam",
+          "Grass Knot",
+          "Rest",
+          "Taunt",
+          "Imprison",
+          "Fly",
+          "Iron Head",
+          "Substitute",
+          "Iron Defense",
+          "Tailwind",
+          "Psychic",
+          "Play Rough",
+          "Calm Mind",
+          "Earth Power",
+          "Grassy Terrain",
+          "Misty Terrain",
+          "Sludge Bomb",
+          "Giga Impact",
+          "Outrage",
+          "Focus Blast",
+          "Hyper Beam",
+          "Tera Blast",
+          "Uproar",
+          "Weather Ball",
+          "Misty Explosion",
+          "Psych Up",
+          "Alluring Voice"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CuteCharm"
+        ],
+        "hiddenAbilities": [
+          "Contrary"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 15,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "aggressive": 0,
+        "passive": 100,
+        "timid": 0
+      },
+      "battleStats": {
+        "hp": 74,
+        "attack": 115,
+        "defense": 70,
+        "specialAttack": 135,
+        "specialDefense": 80,
+        "speed": 106
+      },
+      "tags": [
+        "eligible_for_sky_battles",
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 90,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/905_enamorus/all/incarnate/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.enamorus",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/905_enamorus/all/incarnate/none/texture.png",
+                      "model": "pixelmon:pokemon/905_enamorus/all/incarnate/none/enamorus.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/905_enamorus/all/incarnate/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/905_enamorus/all/incarnate/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 2.8
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/905_enamorus/all/incarnate/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/905_enamorus/all/incarnate/shiny/texture.png",
+                      "model": "pixelmon:pokemon/905_enamorus/all/incarnate/none/enamorus.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/905_enamorus/all/incarnate/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/905_enamorus/all/incarnate/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 2.8
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FAIRY",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 48.0,
+      "catchRate": 3,
+      "malePercentage": 0,
+      "evYields": {
+        "specialAttack": 3
+      },
+      "growth_data": {
+        "mean": 160.0,
+        "standard_deviation": 8.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "therian",
+      "abilities": {
+        "abilities": [
+          "Overcoat"
+        ],
+        "hiddenAbilities": []
+      },
+      "battleStats": {
+        "hp": 74,
+        "attack": 115,
+        "defense": 110,
+        "specialAttack": 135,
+        "specialDefense": 100,
+        "speed": 46
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/905_enamorus/all/therian/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/905_enamorus/all/therian/none/texture.png",
+                      "model": "pixelmon:pokemon/905_enamorus/all/therian/none/enamorus.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/905_enamorus/all/therian/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/905_enamorus/all/therian/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.2
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/905_enamorus/all/therian/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/905_enamorus/all/therian/shiny/texture.png",
+                      "model": "pixelmon:pokemon/905_enamorus/all/therian/none/enamorus.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/905_enamorus/all/therian/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/905_enamorus/all/therian/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.2
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

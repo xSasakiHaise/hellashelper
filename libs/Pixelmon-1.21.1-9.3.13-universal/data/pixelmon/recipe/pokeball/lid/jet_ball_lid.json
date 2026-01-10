@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "# #"
+  ],
+  "key": {
+    "X": {
+      "item": "pixelmon:sky_tumblestone"
+    },
+    "#": {
+      "tag": "c:ingots/platinum"
+    }
+  },
+  "result": {
+    "id": "pixelmon:poke_ball_lid",
+    "count": 1,
+    "components": {
+      "pixelmon:poke_ball": "jet_ball"
+    }
+  }
+}

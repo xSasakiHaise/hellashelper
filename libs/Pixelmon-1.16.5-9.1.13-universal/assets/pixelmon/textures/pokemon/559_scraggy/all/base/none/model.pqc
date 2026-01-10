@@ -1,0 +1,5 @@
+$body scraggy.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd idle.bmd idle.bmd idle.bmd idle.bmd idle.bmd special.bmd
+$anim special special.bmd
+$scale 0.2

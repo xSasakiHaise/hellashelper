@@ -1,0 +1,4 @@
+$body basculegion.bmd
+$anim swim swim.bmd
+$anim idle idle.bmd
+$scale 10

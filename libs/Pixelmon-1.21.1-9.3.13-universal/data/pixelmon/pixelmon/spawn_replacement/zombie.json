@@ -1,0 +1,18 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:zombie"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "cubone",
+      "garbodor",
+      "cacturne",
+      "trevenant",
+      "cofagrigus"
+    ]
+  }
+}

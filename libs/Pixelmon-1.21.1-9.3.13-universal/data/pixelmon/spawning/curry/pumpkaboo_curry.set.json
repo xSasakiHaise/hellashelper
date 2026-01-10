@@ -1,0 +1,28 @@
+{
+  "id": "Pumpkaboo Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:pumpkin_patch"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

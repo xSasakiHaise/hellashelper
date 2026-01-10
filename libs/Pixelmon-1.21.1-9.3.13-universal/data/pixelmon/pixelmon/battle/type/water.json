@@ -1,0 +1,30 @@
+{
+  "name": {
+    "translate": "type.water"
+  },
+  "color": {
+    "red": 0,
+    "green": 0,
+    "blue": 255,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/water.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:fire",
+        "pixelmon:rock",
+        "pixelmon:ground"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:water",
+        "pixelmon:grass",
+        "pixelmon:dragon"
+      ],
+      "effectiveness": "NOT"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "special": false,
+  "hp": 10,
+  "description": "card.FOSS62.text",
+  "pokemon_id": 10000,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "energy": null
+}

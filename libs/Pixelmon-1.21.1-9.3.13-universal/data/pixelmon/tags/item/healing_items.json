@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:potion",
+    "pixelmon:super_potion",
+    "pixelmon:hyper_potion",
+    "pixelmon:max_potion",
+    "pixelmon:full_restore",
+    "pixelmon:full_heal",
+    "pixelmon:revive",
+    "pixelmon:max_revive",
+    "pixelmon:ether",
+    "pixelmon:max_ether",
+    "pixelmon:elixir",
+    "pixelmon:max_elixir"
+  ]
+}

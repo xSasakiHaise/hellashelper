@@ -1,0 +1,68 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base5-57.description",
+  "attacks": [
+    {
+      "name": "attack.base5-57.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base5-57.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        },
+        {
+          "type": "tcg:condition",
+          "condition": "PARALYZED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "attack.base5-57.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base5-57.1.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        },
+        {
+          "type": "tcg:condition",
+          "condition": "PARALYZED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "GRASS",
+  "pokemon_id": 88,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

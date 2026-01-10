@@ -1,0 +1,54 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 150,
+  "previous_pokemon_id": null,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC14.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.GYMC14.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC14.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC14.2.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC14.3.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC",
+        "COLORLESS"
+      ],
+      "damage": 60,
+      "text": "attack.GYMC14.3.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

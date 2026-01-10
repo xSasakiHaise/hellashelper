@@ -1,0 +1,91 @@
+{
+  "id": "Starly Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Starly status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mountainous forests",
+          "savannas"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Starly",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mountainous forests",
+          "savannas"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Staravia status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mountainous forests",
+          "savannas",
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Staravia",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mountainous forests",
+          "savannas",
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#tcg:types/pokemon/base1",
+    "#tcg:types/pokemon/base2",
+    "#tcg:types/pokemon/base3",
+    "#tcg:types/pokemon/base4",
+    "#tcg:types/pokemon/base5",
+    "#tcg:types/pokemon/basep",
+    "#tcg:types/pokemon/gym1",
+    "#tcg:types/pokemon/gym2"
+  ],
+  "tag": "tcg:pokemon"
+}

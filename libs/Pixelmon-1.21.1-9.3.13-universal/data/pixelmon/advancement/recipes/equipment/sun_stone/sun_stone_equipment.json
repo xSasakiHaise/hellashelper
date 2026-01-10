@@ -1,0 +1,35 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/sun_stone/sun_stone_axe",
+      "pixelmon:equipment/sun_stone/sun_stone_boots",
+      "pixelmon:equipment/sun_stone/sun_stone_hammer",
+      "pixelmon:equipment/sun_stone/sun_stone_helmet",
+      "pixelmon:equipment/sun_stone/sun_stone_hoe",
+      "pixelmon:equipment/sun_stone/sun_stone_leggings",
+      "pixelmon:equipment/sun_stone/sun_stone_pickaxe",
+      "pixelmon:equipment/sun_stone/sun_stone_chestplate",
+      "pixelmon:equipment/sun_stone/sun_stone_shovel",
+      "pixelmon:equipment/sun_stone/sun_stone_sword"
+    ]
+  },
+  "criteria": {
+    "has_sun_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:sun_stone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sun_stone"
+    ]
+  ]
+}

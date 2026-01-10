@@ -1,0 +1,5 @@
+$body lycanroc-midnight.bmd
+$anim walk walk.bmd
+$anim special cackle.bmd
+$anim idle idlebasic.bmd idlebasic.bmd idlebasic.bmd idlebasic.bmd idlebasic.bmd cackle.bmd
+$scale 0.25

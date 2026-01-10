@@ -1,0 +1,59 @@
+{
+  "id": "Hattrem",
+  "spawnInfos": [
+    {
+      "spec": "species:Hattrem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 32,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Hattrem",
+      "stringLocationTypes": [
+        "Land",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 32,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "structures": [
+          "pixelmon:misc/pumpkin_house"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Hattrem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 32,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:end_barrens"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

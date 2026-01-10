@@ -1,0 +1,141 @@
+{
+  "id": "Geodude Line Rocksmash",
+  "spawnInfos": [
+    {
+      "spec": "species:Geodude",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Geodude form:alolan",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/freezing_mountains"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Graveler",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 18,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:black_augurite",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/volcanic",
+          "pixelmon:ultra_desert",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Graveler form:alolan",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 18,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/freezing_mountains",
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Golem",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:black_augurite",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_desert",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Golem form:alolan",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magnet",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

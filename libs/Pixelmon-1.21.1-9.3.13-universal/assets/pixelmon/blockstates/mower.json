@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "pixelmon:block/mower",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "pixelmon:block/mower"
+    },
+    "facing=east": {
+      "model": "pixelmon:block/mower",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "pixelmon:block/mower",
+      "y": 270
+    }
+  }
+}

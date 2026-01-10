@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:dusk_stone_ore",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12000,
+                    "max": 13000
+                  },
+                  "period": 24000
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:dusk_stone_shard",
+              "functions": [
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "parameters": {
+                    "bonusMultiplier": 1
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12000,
+                    "max": 13000
+                  },
+                  "period": 24000
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:cobblestone",
+              "conditions": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 0,
+                    "max": 12999
+                  },
+                  "period": 24000
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:cobblestone",
+              "conditions": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 13000,
+                    "max": 24000
+                  },
+                  "period": 24000
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

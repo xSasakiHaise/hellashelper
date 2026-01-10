@@ -1,0 +1,65 @@
+{
+  "id": "Gothita Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Gothita",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 20,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "byg:weeping_witch_forest",
+          "byg:weeping_witch_clearing"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Gothorita",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 33,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "byg:weeping_witch_forest",
+          "byg:weeping_witch_clearing"
+        ]
+      },
+      "rarity": 7.0
+    },
+    {
+      "spec": "species:Gothitelle",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 42,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "byg:weeping_witch_forest",
+          "byg:weeping_witch_clearing"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "attackIndex": 487,
+  "attackName": "Guard Split",
+  "attackType": "PSYCHIC",
+  "attackCategory": "STATUS",
+  "basePower": 0,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": -1,
+  "makesContact": false,
+  "effects": [
+    {
+      "stat1": "defense",
+      "stat2": "SPECIAL_DEFENSE",
+      "statValue1": 0,
+      "statValue2": 0,
+      "langString": "pixelmon.status.guardsplit",
+      "type": "GuardSplit",
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "GuardSplit"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": false
+  },
+  "z": [
+    {
+      "crystal": "psychium_z",
+      "attackName": "Z-Guard Split",
+      "basePower": 0,
+	  "effects": [
+		{
+		  "type": "SPEED",
+		  "amount": 1,
+		  "isUser": true,
+		  "modifiers": [],
+		  "persists": false,
+		  "effectTypeID": "StatsEffect"
+		}
+	  ],
+      "allowedPokemon": []
+    }
+  ]
+}

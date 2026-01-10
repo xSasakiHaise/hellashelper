@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beach",
+    {
+      "required": false,
+      "id": "biomesoplenty:dune_beach"
+    },
+    "minecraft:stony_shore",
+    {
+      "required": false,
+      "id": "terralith:basalt_cliffs"
+    },
+    {
+      "required": false,
+      "id": "terralith:gravel_beach"
+    },
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    {
+      "required": false,
+      "id": "biomesoplenty:bayou"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:bog"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:marsh"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wetland"
+    },
+    {
+      "required": false,
+      "id": "terralith:orchid_swamp"
+    }
+  ]
+}

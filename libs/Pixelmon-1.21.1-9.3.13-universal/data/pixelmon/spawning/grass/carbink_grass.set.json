@@ -1,0 +1,24 @@
+{
+  "id": "Carbink Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Carbink",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 12,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

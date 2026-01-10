@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pixelmon:platinum_block"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:platinum_ingot",
+    "count": 9
+  }
+}

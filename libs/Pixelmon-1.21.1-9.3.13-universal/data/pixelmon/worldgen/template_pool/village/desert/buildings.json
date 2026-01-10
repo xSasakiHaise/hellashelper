@@ -1,0 +1,33 @@
+{
+  "name": "pixelmon:village/desert/buildings",
+  "fallback": "minecraft:village/desert/streets",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/desert/desert_pokecenter",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/desert/desert_mart",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/desert/desert_daycare",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

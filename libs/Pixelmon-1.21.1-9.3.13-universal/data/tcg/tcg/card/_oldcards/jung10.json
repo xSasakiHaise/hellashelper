@@ -1,0 +1,30 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 123,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 0,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG10.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG10.1.text",
+      "effects": [
+        {
+          "type": "tcg:swords_dance"
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

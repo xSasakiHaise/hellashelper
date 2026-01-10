@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_desert_sand",
+    "pixelmon:ultra_deep_gravel",
+    "pixelmon:ultra_deep_clay"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 106,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS7.1.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 0,
+      "text": "attack.FOSS7.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": false,
+          "location": "BENCH",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

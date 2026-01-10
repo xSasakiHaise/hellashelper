@@ -1,0 +1,193 @@
+{
+  "biomes": [],
+  "star_range": {
+    "min": 0,
+    "max": 5
+  },
+  "allies": [
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Qwilfish ability:intimidate move1:Brine move2:Waterfall move3:Poison_Jab move4:Pin_Missile",
+      "child": false,
+      "weight": 1.0,
+      "name": "Noah",
+      "skin": "pixelmon:textures/steve/football1.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Throh ability:innerfocus move1:Mega_Punch move2:Revenge move3:Bind move4:Brick_Break",
+      "child": false,
+      "weight": 1.0,
+      "name": "Dean",
+      "skin": "pixelmon:textures/steve/football2.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Solrock ability:levitate move1:Cosmic_Power move2:Rock_Throw move3:Psychic move4:Rock_Polish",
+      "child": false,
+      "weight": 1.0,
+      "name": "Martin",
+      "skin": "pixelmon:textures/steve/hiker.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Dhelmise ability:steelworker move1:Gyro_Ball move2:Slam move3:Shadow_Ball move4:Giga_Drain",
+      "child": true,
+      "weight": 1.0,
+      "name": "Kit",
+      "skin": "pixelmon:textures/steve/littleboy.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Heatmor ability:gluttony move1:Fire_Lash move2:Bind move3:Thunder_Punch move4:Slash",
+      "child": false,
+      "weight": 1.0,
+      "name": "Portia",
+      "skin": "pixelmon:textures/steve/lass.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Maractus ability:waterabsorb move1:Sucker_Punch move2:Giga_Drain move3:Solar_Beam move4:Pin_Missile",
+      "child": false,
+      "weight": 1.0,
+      "name": "Sophie",
+      "skin": "pixelmon:textures/steve/lass2.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Togepi ability:serenegrace move1:Life_Dew move2:Ancient_Power move3:Draining_Kiss move4:Swift",
+      "child": true,
+      "weight": 1.0,
+      "name": "Catherine",
+      "skin": "pixelmon:textures/steve/littlegirl.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Snorlax ability:immunity move1:Giga_Impact move2:Body_Slam move3:Crunch move4:Stomping_Tantrum",
+      "child": false,
+      "weight": 1.0,
+      "name": "Janet",
+      "skin": "pixelmon:textures/steve/lass.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Torkoal ability:drought move1:Rapid_Spin move2:Flame_Wheel move3:Flamethrower move4:Clear_Smog",
+      "child": false,
+      "weight": 1.0,
+      "name": "Sean",
+      "skin": "pixelmon:textures/steve/knight.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Wishiwashi ability:schooling move1:Liquidation move2:Aqua_Tail move3:Whirlpool move4:Brine",
+      "child": false,
+      "weight": 1.0,
+      "name": "Patricia",
+      "skin": "pixelmon:textures/steve/lass2.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Mudbray ability:owntempo move1:Strength move2:Rock_Tomb move3:High_Horsepower move4:Superpower",
+      "child": false,
+      "weight": 1.0,
+      "name": "William",
+      "skin": "pixelmon:textures/steve/artist.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Magikarp ability:swiftswim move1:Flail move2:Tackle move3:Hydro_Pump",
+      "child": false,
+      "weight": 1.0,
+      "name": "Isabella",
+      "skin": "pixelmon:textures/steve/battlegirl.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Jolteon ability:voltabsorb move1:Double_Kick move2:Quick_Attack move3:Electro_Ball move4:Swift",
+      "child": false,
+      "weight": 1.0,
+      "name": "Nicki",
+      "skin": "pixelmon:textures/steve/battlegirl.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Wobbuffet ability:shadowtag move1:Counter move2:Mirror_Coat move3:Safeguard move4:Amnesia",
+      "child": false,
+      "weight": 1.0,
+      "name": "Alfie",
+      "skin": "pixelmon:textures/steve/baker.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Hawlucha ability:limber move1:Wing_Attack move2:Feather_Dance move3:Flying_Press move4:Thunder_Punch",
+      "child": false,
+      "weight": 1.0,
+      "name": "Oscar",
+      "skin": "pixelmon:textures/steve/artist.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Clefairy ability:magicguard move1:Life_Dew move2:Follow_Me move3:Dazzling_Gleam move4:Disarming_Voice",
+      "child": false,
+      "weight": 1.0,
+      "name": "Amelia",
+      "skin": "pixelmon:textures/steve/bugcatchergirl.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Pikachu ability:static move1:Thunderbolt move2:Quick_Attack move3:Iron_Tail move4:Electroweb",
+      "child": false,
+      "weight": 1.0,
+      "name": "Poppy",
+      "skin": "pixelmon:textures/steve/artist.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Weavile ability:pressure move1:Metal_Claw move2:Slash move3:Assurance move4:Ice_Shard",
+      "child": false,
+      "weight": 1.0,
+      "name": "Ivy",
+      "skin": "pixelmon:textures/steve/baker.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Eevee ability:adaptability move1:Helping_Hand move2:Round move3:Quick_Attack move4:Bite",
+      "child": false,
+      "weight": 1.0,
+      "name": "Freya",
+      "skin": "pixelmon:textures/steve/battlegirl.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Salazzle ability:corrosion move1:Flamethrower move2:Fire_Lash move3:Sludge_Bomb",
+      "child": false,
+      "weight": 1.0,
+      "name": "Arthur",
+      "skin": "pixelmon:textures/steve/blackbelt.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Slowbro form:galarian ability:QuickDraw move1:Scald move2:Shell_Side_Arm move3:Focus_Blast move4:Psychic",
+      "child": false,
+      "weight": 1.0,
+      "name": "Klara",
+      "skin": "pixelmon:textures/steve/battlegirl.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Aggron ability:sturdy move1:Crunch move2:Iron_Head move3:Stone_Edge move4:Body_Press",
+      "child": false,
+      "weight": 1.0,
+      "name": "Peony",
+      "skin": "pixelmon:textures/steve/bugcatchergirl.png"
+    },
+    {
+      "ai_mode": "pixelmon:advanced",
+      "spec": "Tyrantrum ability:strongjaw move1:Stone_Edge move2:Crunch move3:Dragon_Claw move4:High_Horsepower",
+      "child": false,
+      "weight": 1.0,
+      "name": "Peonia",
+      "skin": "pixelmon:textures/steve/bugcatchergirl.png"
+    }
+  ]
+}

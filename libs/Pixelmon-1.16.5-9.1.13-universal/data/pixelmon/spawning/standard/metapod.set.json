@@ -1,0 +1,77 @@
+{
+  "id": "Metapod",
+  "spawnInfos": [
+    {
+      "spec": "species:Metapod",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Tree Top"
+      ],
+      "minLevel": 7,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "forests",
+          "roofed",
+          "birches",
+          "flowery",
+          "jungles",
+          "byg:crag_gardens",
+          "magical"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Metapod palette:pink",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 7,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "forests",
+          "roofed",
+          "birches",
+          "flowery",
+          "byg:crag_gardens",
+          "magical"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Metapod palette:valencian",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 7,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

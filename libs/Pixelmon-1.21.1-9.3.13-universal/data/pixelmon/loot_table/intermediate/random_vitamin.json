@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:iron"
+        },
+		{
+		  "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:protein"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:carbos"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:zinc"    
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:calcium"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:hp_up"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:pp_up"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:pp_max"     
+        }
+      ]
+    }
+  ]
+}
+

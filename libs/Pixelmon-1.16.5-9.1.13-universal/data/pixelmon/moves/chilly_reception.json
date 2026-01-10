@@ -1,0 +1,54 @@
+{
+  "attackName": "Chilly Reception",
+  "attackType": "ICE",
+  "attackCategory": "STATUS",
+  "basePower": 0,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": -1,
+  "makesContact": false,
+  "effects": [
+    {
+      "weatherRock": "icyRock",
+      "type": "Snow",
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "Snow"
+    },
+    {
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "SwitchOut"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": false,
+    "hitsAdjacentFoe": false,
+    "hitsExtendedFoe": false,
+    "hitsSelf": true,
+    "hitsAdjacentAlly": false,
+    "hitsExtendedAlly": false
+  },
+  "z": [
+    {
+      "crystal": "icium_z",
+      "attackName": "Z-Chilly Reception",
+      "basePower": 0,
+      "effects": [
+        {
+          "type": "SPECIAL_DEFENSE",
+          "amount": 1,
+          "isUser": true,
+          "modifiers": [],
+          "persists": false,
+          "effectTypeID": "StatsEffect"
+        }
+      ],
+      "allowedPokemon": []
+    }
+  ]
+}

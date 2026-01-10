@@ -1,0 +1,35 @@
+{
+  "id": "Voltorb Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Voltorb",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Voltorb form:hisuian",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

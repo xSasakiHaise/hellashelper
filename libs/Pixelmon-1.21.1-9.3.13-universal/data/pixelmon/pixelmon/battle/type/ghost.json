@@ -1,0 +1,33 @@
+{
+  "name": {
+    "translate": "type.ghost"
+  },
+  "color": {
+    "red": 108,
+    "green": 43,
+    "blue": 138,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/ghost.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:psychic",
+        "pixelmon:ghost"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:dark"
+      ],
+      "effectiveness": "NOT"
+    },
+    {
+      "types": [
+        "pixelmon:normal"
+      ],
+      "effectiveness": "NONE"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base1-58.description",
+  "attacks": [
+    {
+      "name": "attack.base1-58.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base1-58.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "TAIL",
+          "self": true,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "attack.base1-58.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base1-58.1.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "TAIL",
+          "self": true,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "LIGHTNING",
+  "pokemon_id": 25,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

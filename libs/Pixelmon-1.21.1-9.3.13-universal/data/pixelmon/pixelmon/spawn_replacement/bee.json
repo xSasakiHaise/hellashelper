@@ -1,0 +1,15 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:bee"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:bees",
+    "replacements": [
+      "beedrill",
+      "combee"
+    ]
+  }
+}

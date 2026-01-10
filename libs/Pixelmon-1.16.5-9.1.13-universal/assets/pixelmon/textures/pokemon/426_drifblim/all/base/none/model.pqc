@@ -1,0 +1,4 @@
+$body drifblim.bmd
+$anim walk idle.bmd
+$anim idle idle.bmd
+$scale 6.0

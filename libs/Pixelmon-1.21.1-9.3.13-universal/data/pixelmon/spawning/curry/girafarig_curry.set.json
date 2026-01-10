@@ -1,0 +1,20 @@
+{
+  "id": "Girafarig Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Girafarig",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

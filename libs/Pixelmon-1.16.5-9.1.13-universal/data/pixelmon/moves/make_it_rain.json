@@ -1,0 +1,45 @@
+{
+  "attackName": "Make It Rain",
+  "attackType": "STEEL",
+  "attackCategory": "SPECIAL",
+  "basePower": 120,
+  "ppBase": 5,
+  "ppMax": 8,
+  "accuracy": 100,
+  "makesContact": false,
+  "effects": [
+    {
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "PayDay"
+    },
+    {
+      "type": "SPECIAL_ATTACK",
+      "amount": -1,
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "StatsEffectPost"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": true,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": false,
+    "hitsExtendedAlly": false
+  },
+  "z": [
+    {
+      "crystal": "steelium_z",
+      "attackName": "Corkscrew Crash",
+      "basePower": 190,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

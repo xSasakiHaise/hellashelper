@@ -1,0 +1,27 @@
+{
+  "id": "Mawile Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Mawile",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:iron_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/freezing_mountains"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

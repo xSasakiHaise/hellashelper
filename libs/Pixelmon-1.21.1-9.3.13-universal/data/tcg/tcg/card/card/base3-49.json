@@ -1,0 +1,31 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base3-49.description",
+  "attacks": [
+    {
+      "name": "attack.base3-49.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base3-49.0.description",
+      "effects": [
+        {
+          "type": "tcg:sand_attack"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "WATER",
+  "pokemon_id": 116,
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

@@ -1,0 +1,61 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base2-51.description",
+  "attacks": [
+    {
+      "name": "attack.base2-51.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base2-51.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-51.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base2-51.1.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "COLORLESS",
+  "pokemon_id": 133,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "PSYCHIC",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:common"
+}

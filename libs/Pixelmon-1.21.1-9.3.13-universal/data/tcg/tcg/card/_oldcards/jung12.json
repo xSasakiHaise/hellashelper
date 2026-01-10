@@ -1,0 +1,57 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 134,
+  "previous_pokemon_id": 133,
+  "retreat_cost": 1,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG12.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.JUNG12.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG12.2.name",
+      "costs": [
+        "WATER",
+        "WATER",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.JUNG12.2.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "energy": "WATER",
+          "damage_type": "PerEnergy",
+          "value": 10,
+          "max_damage": 20,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

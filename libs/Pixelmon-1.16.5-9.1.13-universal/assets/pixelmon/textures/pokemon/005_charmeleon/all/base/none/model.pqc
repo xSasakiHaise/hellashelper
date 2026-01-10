@@ -1,0 +1,4 @@
+$body charmeleon.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 5.0

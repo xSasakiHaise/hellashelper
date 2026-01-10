@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/leaf_stone/leaf_stone_axe",
+      "pixelmon:equipment/leaf_stone/leaf_stone_boots",
+      "pixelmon:equipment/leaf_stone/leaf_stone_hammer",
+      "pixelmon:equipment/leaf_stone/leaf_stone_helm",
+      "pixelmon:equipment/leaf_stone/leaf_stone_hoe",
+      "pixelmon:equipment/leaf_stone/leaf_stone_legs",
+      "pixelmon:equipment/leaf_stone/leaf_stone_pickaxe",
+      "pixelmon:equipment/leaf_stone/leaf_stone_plate",
+      "pixelmon:equipment/leaf_stone/leaf_stone_shovel",
+      "pixelmon:equipment/leaf_stone/leaf_stone_sword"
+    ]
+  },
+  "criteria": {
+    "has_leaf_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:leaf_stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_leaf_stone"
+    ]
+  ]
+}

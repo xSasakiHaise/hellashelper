@@ -1,0 +1,23 @@
+{
+    "id": "Charcadet",
+    "spawnInfos": [
+      {
+        "spec": "species:Charcadet",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 7,
+        "maxLevel": 16,
+        "typeID": "pokemon",
+        "heldItems": [
+        ],
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/mesas",
+            "#pixelmon:spawning/volcanic"
+           ]
+        },
+        "rarity": 30.0
+      }
+    ]
+  }

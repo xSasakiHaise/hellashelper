@@ -1,0 +1,5 @@
+$body necrozma-ultra.bmd
+$anim idle idle.bmd
+$anim fly fly.bmd
+$anim walk walk.bmd
+$scale 15

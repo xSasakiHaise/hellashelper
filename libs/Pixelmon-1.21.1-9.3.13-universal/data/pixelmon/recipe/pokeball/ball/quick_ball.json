@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "poke_ball",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pixelmon:platinum_base"
+    },
+    {
+      "tag": "minecraft:stone_buttons"
+    },
+    {
+      "type": "neoforge:components",
+      "items": "pixelmon:poke_ball_lid",
+      "components": {
+        "pixelmon:poke_ball": "quick_ball"
+      },
+      "strict": true
+    }
+  ],
+  "result": {
+    "id": "pixelmon:poke_ball",
+    "components": {
+      "pixelmon:poke_ball": "quick_ball"
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "Jellicent",
+  "spawnInfos": [
+    {
+      "spec": "species:Jellicent",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 41,
+      "maxLevel": 57,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "oceanic",
+          "terraforged:warm_beach"
+        ],
+        "maxY": 50
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Jellicent",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 41,
+      "maxLevel": 57,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:dead_sea"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

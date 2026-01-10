@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "couch",
+  "pattern": [
+    "w w",
+    "www",
+    "sss"
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:brown_wool"
+    },
+    "s": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "pixelmon:brown_couch",
+    "count": 1
+  }
+}

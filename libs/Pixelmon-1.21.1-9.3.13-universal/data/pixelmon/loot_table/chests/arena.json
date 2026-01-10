@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "balls",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "value": "pixelmon:intermediate/ball_lids_tier_1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "medicine",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "value": "pixelmon:intermediate/medicine_tier_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "pixelmon:intermediate/medicine_food"
+        }
+      ]
+    },
+    {
+      "name": "xitems",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelmon:intermediate/battle_items_x",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "camera",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:camera"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:film",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]       
+        },
+        {
+          "type": "empty",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}
+

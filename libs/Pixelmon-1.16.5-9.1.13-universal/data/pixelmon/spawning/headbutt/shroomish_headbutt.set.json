@@ -1,0 +1,45 @@
+{
+  "id": "Shroomish Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Shroomish",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "mushroom",
+          "roofed"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Shroomish status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mushroom",
+          "roofed"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

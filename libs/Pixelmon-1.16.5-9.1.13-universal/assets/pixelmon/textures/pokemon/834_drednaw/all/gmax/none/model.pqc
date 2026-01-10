@@ -1,0 +1,4 @@
+$body drednaw.bmd
+$anim idle idle.bmd
+$anim walk idle.bmd
+$scale 0.7

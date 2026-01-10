@@ -1,0 +1,50 @@
+{
+  "id": "Sandshrew Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Sandshrew",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 12,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Sandshrew form:alolan",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 12,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

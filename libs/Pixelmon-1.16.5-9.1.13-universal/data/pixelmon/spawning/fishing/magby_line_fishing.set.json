@@ -1,0 +1,73 @@
+{
+  "id": "Magby Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Good Rod Lava"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "hellish",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Magmar",
+      "stringLocationTypes": [
+        "Good Rod Lava"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magmarizer",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "arid",
+          "mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains",
+          "hellish",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Magmar",
+      "stringLocationTypes": [
+        "Super Rod Lava"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magmarizer",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "arid",
+          "mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains",
+          "hellish",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

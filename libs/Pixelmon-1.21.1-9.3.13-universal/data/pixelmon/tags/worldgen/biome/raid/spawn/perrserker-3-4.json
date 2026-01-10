@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:frozen_peaks",
+    {
+      "required": false,
+      "id": "terralith:emerald_peaks"
+    },
+    {
+      "required": false,
+      "id": "terralith:glacial_chasm"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:mount_lanakila"
+    },
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes",
+    {
+      "required": false,
+      "id": "biomesoplenty:tundra"
+    }
+  ]
+}

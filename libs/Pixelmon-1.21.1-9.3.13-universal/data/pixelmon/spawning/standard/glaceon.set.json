@@ -1,0 +1,80 @@
+{
+  "id": "Glaceon",
+  "spawnInfos": [
+    {
+      "spec": "species:Glaceon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lustrous_globe",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "neededNearbyBlocks": [
+          "pixelmon:ice_rock"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Glaceon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lustrous_globe",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 25.0
+    },
+    {
+      "spec": "species:Glaceon palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lustrous_globe",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:misc/graveyard"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

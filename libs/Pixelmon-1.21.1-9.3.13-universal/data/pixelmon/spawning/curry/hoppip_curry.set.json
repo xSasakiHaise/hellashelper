@@ -1,0 +1,21 @@
+{
+  "id": "Hoppip Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Hoppip",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

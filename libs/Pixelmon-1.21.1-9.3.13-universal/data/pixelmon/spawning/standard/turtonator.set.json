@@ -1,0 +1,78 @@
+{
+  "id": "Turtonator",
+  "spawnInfos": [
+    {
+      "spec": "species:Turtonator",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Turtonator",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/hellish"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "incendium:quartz_flats"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Turtonator",
+      "stringLocationTypes": [
+        "Lava Floor"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/hellish",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "pixelmon:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "# #"
+  ],
+  "key": {
+    "X": {
+      "item": "pixelmon:black_tumblestone"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "pixelmon:poke_ball_lid",
+    "count": 5,
+    "components": {
+      "pixelmon:poke_ball": "ancient_heavy_ball"
+    }
+  }
+}
+

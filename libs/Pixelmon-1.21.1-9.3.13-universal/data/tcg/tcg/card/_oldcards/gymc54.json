@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 87,
+  "previous_pokemon_id": 86,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC54.1.name",
+      "costs": [
+        "WATER",
+        "WATER"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC54.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC54.2.name",
+      "costs": [
+        "WATER",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 60,
+      "text": "attack.GYMC54.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

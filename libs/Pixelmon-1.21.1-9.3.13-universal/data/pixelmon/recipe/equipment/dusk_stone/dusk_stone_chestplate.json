@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:dusk_stone"
+    }
+  },
+  "result": {
+    "id": "pixelmon:dusk_stone_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 143,
+  "previous_pokemon_id": null,
+  "retreat_cost": 4,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH33.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH33.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

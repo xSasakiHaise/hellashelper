@@ -1,0 +1,23 @@
+{
+  "id": "Skeledirge",
+  "spawnInfos": [
+    {
+      "spec": "species:Skeledirge",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 36,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mesas"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

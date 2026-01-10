@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "folding_chair",
+  "pattern": [
+    "WWW",
+    " S ",
+    "S S"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "S": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "pixelmon:light_gray_folding_chair",
+    "count": 1
+  }
+}

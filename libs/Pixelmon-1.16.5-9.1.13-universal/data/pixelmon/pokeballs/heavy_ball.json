@@ -1,0 +1,19 @@
+{
+  "name": "heavy_ball",
+  "model": "pixelmon:models/pokeballs/heavyball.pqc",
+  "texture": "pixelmon:textures/pokeballs/heavy_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/heavy_ball_flashing.png",
+  "ballSprite": "pixelmon:items/pokeballs/heavy_ball",
+  "lidSprite": "pixelmon:items/pokeballs/heavy_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/heavy_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.HeavyBall",
+  "bases": [
+    "silver"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0.20,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "normal": { "model": "pixelmon:block/ore/dawn_stone_ore" },
+    "contents=none": { "model": "stone" },
+    "contents=dawn": { "model": "pixelmon:block/ore/dawn_stone_ore" },
+    "contents=dusk": { "model": "pixelmon:block/ore/dusk_stone_ore" }
+  }
+}

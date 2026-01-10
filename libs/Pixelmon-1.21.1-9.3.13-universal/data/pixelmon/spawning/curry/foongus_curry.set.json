@@ -1,0 +1,31 @@
+{
+  "id": "Foongus Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Foongus",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/mushroom"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

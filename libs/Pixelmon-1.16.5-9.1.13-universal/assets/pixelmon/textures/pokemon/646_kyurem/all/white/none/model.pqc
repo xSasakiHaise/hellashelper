@@ -1,0 +1,4 @@
+$body kyurem.bmd
+$anim walk walk.bmd
+$anim idle idlebasic.bmd
+$scale 1.1

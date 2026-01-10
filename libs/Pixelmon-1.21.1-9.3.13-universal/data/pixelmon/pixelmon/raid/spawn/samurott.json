@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Samurott",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/samurott-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Samurott form:hisuian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/samurott-hisuian-4-5",
+      "weight": 1.0
+    }
+  ]
+}

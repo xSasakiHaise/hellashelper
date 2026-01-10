@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=up": { "model": "pixelmon:block/street_light" },
+    "facing=down": { "model": "pixelmon:block/street_light_hanging" },
+    "facing=south": { "model": "pixelmon:block/street_light_side" },
+    "facing=north": {
+      "model": "pixelmon:block/street_light_side",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "pixelmon:block/street_light_side",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "pixelmon:block/street_light_side",
+      "y": 90
+    }
+  }
+}

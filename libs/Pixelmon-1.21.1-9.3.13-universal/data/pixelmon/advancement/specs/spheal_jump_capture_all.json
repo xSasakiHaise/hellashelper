@@ -1,0 +1,126 @@
+{
+   "display":{
+      "icon": {
+            "item" : "pixelmon:pixelmon_sprite",
+            "count": 1,
+            "components": {
+              "minecraft:custom_data": {
+                "ndex": 363,
+                "palette": "shiny",
+                "form": ""
+              }
+            }
+      },
+      "title":{
+         "translate":"advancements.spheal_jump_all.title"
+      },
+      "description":{
+         "translate":"advancements.spheal_jump_all.description"
+      },
+      "hidden":false
+   },
+   "parent":"pixelmon:specs/spheal_jump_capture",
+   "criteria":{
+      "0":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:none"
+         }
+      },
+      "1":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:pokeball"
+         }
+      },
+      "2":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:duskball"
+         }
+      },
+      "3":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:loveball"
+         }
+      },
+      "4":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:friendball"
+         }
+      },
+      "5":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:heavyball"
+         }
+      },
+      "6":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:moonball"
+         }
+      },
+      "7":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:premierball"
+         }
+      },
+      "8":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:masterball"
+         }
+      },
+      "9":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:gsball"
+         }
+      },
+      "s":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Spheal palette:shiny"
+         }
+      }
+   },
+   "requirements":[
+      [
+         "0"
+      ],
+      [
+         "1"
+      ],
+      [
+         "2"
+      ],
+      [
+         "3"
+      ],
+      [
+         "4"
+      ],
+      [
+         "5"
+      ],
+      [
+         "6"
+      ],
+      [
+         "7"
+      ],
+      [
+         "8"
+      ],
+      [
+         "9"
+      ],
+      [
+         "s"
+      ]
+   ]
+}

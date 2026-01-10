@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_letter_box",
+    "pixelmon:orange_letter_box",
+    "pixelmon:magenta_letter_box",
+    "pixelmon:light_blue_letter_box",
+    "pixelmon:yellow_letter_box",
+    "pixelmon:lime_letter_box",
+    "pixelmon:pink_letter_box",
+    "pixelmon:gray_letter_box",
+    "pixelmon:light_gray_letter_box",
+    "pixelmon:cyan_letter_box",
+    "pixelmon:purple_letter_box",
+    "pixelmon:blue_letter_box",
+    "pixelmon:brown_letter_box",
+    "pixelmon:green_letter_box",
+    "pixelmon:red_letter_box",
+    "pixelmon:black_letter_box"
+  ]
+}

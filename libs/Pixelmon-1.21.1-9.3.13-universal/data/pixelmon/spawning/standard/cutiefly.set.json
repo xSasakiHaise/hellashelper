@@ -1,0 +1,25 @@
+{
+  "id": "Cutiefly",
+  "spawnInfos": [
+    {
+      "spec": "species:Cutiefly",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

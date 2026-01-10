@@ -1,0 +1,54 @@
+{
+  "attackIndex": 427,
+  "attackName": "Toxic Spikes",
+  "attackType": "POISON",
+  "attackCategory": "STATUS",
+  "basePower": 0,
+  "ppBase": 20,
+  "ppMax": 32,
+  "accuracy": -2,
+  "makesContact": false,
+  "effects": [
+    {
+      "maxLayers": 2,
+      "type": "ToxicSpikes",
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "ToxicSpikes"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": true,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": true,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": false,
+    "hitsExtendedAlly": false
+  },
+  "flags": {
+    "field": true,
+	"reflectable": true
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:poisonium_z",
+      "attackName": "Z-Toxic Spikes",
+      "basePower": 0,
+	  "effects": [
+		{
+		  "type": "DEFENSE",
+		  "amount": 1,
+		  "isUser": true,
+		  "modifiers": [],
+		  "persists": false,
+		  "effectTypeID": "StatsEffect"
+		}
+	  ],
+      "allowedPokemon": []
+    }
+  ]
+}

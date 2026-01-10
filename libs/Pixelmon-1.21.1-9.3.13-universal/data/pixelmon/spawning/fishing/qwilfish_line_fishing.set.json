@@ -1,0 +1,95 @@
+{
+  "id": "Qwilfish Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Qwilfish",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 18,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 15.0
+    },
+    {
+      "spec": "species:Qwilfish form:hisuian",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 18,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Overqwil",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 45,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

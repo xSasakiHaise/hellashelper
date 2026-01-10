@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:misc/haunted_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 881421047,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "spacing": 53,
+    "separation": 31
+  }
+}

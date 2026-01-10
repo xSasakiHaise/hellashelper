@@ -1,0 +1,37 @@
+{
+  "id": "Silicobra Line Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Silicobra",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Sandaconda",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:hyper_potion"
+        },
+		{
+		  "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:full_heal"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:revive"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:ether"    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:elixir"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:energy_root"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:revival_herb"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:heal_powder"     
+        }
+      ]
+    }
+  ]
+}
+

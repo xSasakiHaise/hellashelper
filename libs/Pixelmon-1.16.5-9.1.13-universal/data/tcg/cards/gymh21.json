@@ -1,0 +1,63 @@
+{
+  "id": 368,
+  "setId": 6,
+  "cardType": "BASIC",
+  "isSpecial": false,
+  "hp": 70,
+  "energy1": "FIGHTING",
+  "energy2": null,
+  "pokemonId": 95,
+  "code": "GYMH21",
+  "name": "card.GYMH21.name",
+  "description": "",
+  "previousPokemonId": null,
+  "cardAttacks": [
+    {
+      "card": "GYMH21",
+      "index": 1,
+      "name": "attack.GYMH21.1.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMH21.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMH21",
+      "index": 2,
+      "name": "attack.GYMH21.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.GYMH21.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "GRASS",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 2,
+  "cardRarity": "RARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

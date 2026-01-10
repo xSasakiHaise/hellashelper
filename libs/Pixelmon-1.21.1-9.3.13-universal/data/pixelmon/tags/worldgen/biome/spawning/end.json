@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:the_end",
+    "minecraft:small_end_islands",
+    "minecraft:end_midlands",
+    "minecraft:end_highlands",
+    "minecraft:end_barrens",
+    {
+      "id": "biomesoplenty:end_corruption",
+      "required": false
+    },
+	{
+      "id": "biomesoplenty:end_reef",
+      "required": false
+    },
+	{
+      "id": "biomesoplenty:end_wilds",
+      "required": false
+    },
+    {
+      "id": "nullscape:crystal_peaks",
+      "required": false
+    },
+    {
+      "id": "nullscape:shadowlands",
+      "required": false
+    },
+    {
+      "id": "nullscape:void_barrens",
+      "required": false
+    }
+  ]
+}

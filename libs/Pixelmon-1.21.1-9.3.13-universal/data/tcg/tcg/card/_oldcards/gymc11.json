@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 26,
+  "previous_pokemon_id": 25,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC11.1.name",
+      "costs": [
+        "LIGHTNING",
+        "LIGHTNING"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC11.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC11.2.name",
+      "costs": [
+        "LIGHTNING",
+        "LIGHTNING",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "text": "attack.GYMC11.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "LIGHTNING"
+}

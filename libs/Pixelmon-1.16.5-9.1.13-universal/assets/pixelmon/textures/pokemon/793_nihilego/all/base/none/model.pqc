@@ -1,0 +1,6 @@
+$body nihilego.bmd
+$anim idle idle.bmd
+$anim special pirouette.bmd
+$anim walk walk.bmd
+$anim swim swim.bmd
+$scale 2.2

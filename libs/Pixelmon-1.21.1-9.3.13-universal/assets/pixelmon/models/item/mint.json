@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "particle": "pixelmon:item/mints/mint_seeds",
+    "layer0": "pixelmon:item/mints/mint_seeds"
+  }
+}

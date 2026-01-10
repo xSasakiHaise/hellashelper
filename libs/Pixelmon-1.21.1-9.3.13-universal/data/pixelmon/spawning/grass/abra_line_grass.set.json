@@ -1,0 +1,47 @@
+{
+  "id": "Abra Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Abra",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:twisted_spoon",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Kadabra",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 16,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:twisted_spoon",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

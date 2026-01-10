@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "pixelmon:slowpoke_tail"
+  },
+  "result": {
+    "id": "pixelmon:curry_smoke_poke"
+  }
+}

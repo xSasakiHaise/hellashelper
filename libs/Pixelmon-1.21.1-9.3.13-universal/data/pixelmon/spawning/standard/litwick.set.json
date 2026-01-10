@@ -1,0 +1,56 @@
+{
+  "id": "Litwick",
+  "spawnInfos": [
+    {
+      "spec": "species:Litwick",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:torch"
+            ]
+          }
+        }
+      ],
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Litwick",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:misc/haunted_tower",
+          "minecraft:mansion"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

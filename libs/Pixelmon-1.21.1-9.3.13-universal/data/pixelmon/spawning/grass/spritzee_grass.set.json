@@ -1,0 +1,32 @@
+{
+  "id": "Spritzee Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Spritzee",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sachet",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "id": "Raichu",
+  "spawnInfos": [
+    {
+      "spec": "species:Raichu",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Raichu",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Raichu form:alolan",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "minecraft:stony_shore",
+          "biomesoplenty:gravel_beach",
+          "biomeswevegone:basalt_barrera",
+          "biomeswevegone:dacite_shore",
+          "terralith:gravel_beach"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Raichu form:alolan palette:summer",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "minecraft:stony_shore",
+          "biomesoplenty:gravel_beach",
+          "biomeswevegone:basalt_barrera",
+          "biomeswevegone:dacite_shore",
+          "terralith:gravel_beach"
+        ]
+      },
+      "rarity": 0.05
+    },
+    {
+      "spec": "species:Raichu palette:christmas",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ],
+        "realWorldSpawnTimes": [
+          {
+            "monthOfYear": 12
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 1
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 2
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 3
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 4
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 5
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 6
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 7
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 8
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 9
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 10
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 11
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 12
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 13
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 14
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 15
+          }
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    }
+  ]
+}

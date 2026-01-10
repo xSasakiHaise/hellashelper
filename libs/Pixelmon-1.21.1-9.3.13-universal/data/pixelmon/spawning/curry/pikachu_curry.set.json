@@ -1,0 +1,111 @@
+{
+    "id": "Pikachu",
+    "spawnInfos": [
+      {
+        "spec": "species:Pikachu form:rockstar",
+        "stringLocationTypes": [
+          "Curry Spicy"
+        ],
+        "minLevel": 5,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "heldItems": [
+          {
+            "itemID": "pixelmon:light_ball",
+            "percentChance": 5
+          }
+        ],
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/all_forests"
+          ]
+        },
+        "rarity": 0.5
+      },
+      {
+        "spec": "species:Pikachu form:belle",
+        "stringLocationTypes": [
+          "Curry Dry"
+        ],
+        "minLevel": 5,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "heldItems": [
+          {
+            "itemID": "pixelmon:light_ball",
+            "percentChance": 5
+          }
+        ],
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/all_forests"
+          ]
+        },
+        "rarity": 0.5
+      },
+      {
+        "spec": "species:Pikachu form:popstar",
+        "stringLocationTypes": [
+          "Curry Sweet"
+        ],
+        "minLevel": 5,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "heldItems": [
+          {
+            "itemID": "pixelmon:light_ball",
+            "percentChance": 5
+          }
+        ],
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/all_forests"
+          ]
+        },
+        "rarity": 0.5
+      },
+      {
+        "spec": "species:Pikachu form:phd",
+        "stringLocationTypes": [
+          "Curry Bitter"
+        ],
+        "minLevel": 5,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "heldItems": [
+          {
+            "itemID": "pixelmon:light_ball",
+            "percentChance": 5
+          }
+        ],
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/all_forests"
+          ]
+        },
+        "rarity": 0.5
+      },
+      {
+        "spec": "species:Pikachu form:libre",
+        "stringLocationTypes": [
+          "Curry Sour"
+        ],
+        "minLevel": 5,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "heldItems": [
+          {
+            "itemID": "pixelmon:light_ball",
+            "percentChance": 5
+          }
+        ],
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/all_forests"
+          ]
+        },
+        "rarity": 0.5
+      }
+    ]
+  }
+  

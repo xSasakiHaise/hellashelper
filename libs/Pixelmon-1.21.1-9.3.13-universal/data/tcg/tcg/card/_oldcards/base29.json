@@ -1,0 +1,41 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 93,
+  "previous_pokemon_id": 92,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "attacks": [
+    {
+      "name": "attack.BASE29.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.BASE29.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "ASLEEP",
+          "self": false
+        }
+      ]
+    },
+    {
+      "name": "attack.BASE29.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 50,
+      "text": "attack.BASE29.2.text",
+      "effects": [
+        {
+          "type": "tcg:dream_eater"
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

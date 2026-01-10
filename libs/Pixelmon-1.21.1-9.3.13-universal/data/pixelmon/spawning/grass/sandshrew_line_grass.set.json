@@ -1,0 +1,109 @@
+{
+  "id": "Sandshrew Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Sandshrew",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 12,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Sandshrew form:alolan",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 12,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "byg:shattered_glacier"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Sandslash",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Sandslash form:alolan",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "byg:shattered_glacier"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

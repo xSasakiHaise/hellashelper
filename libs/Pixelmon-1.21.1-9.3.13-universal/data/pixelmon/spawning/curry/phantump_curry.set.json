@@ -1,0 +1,21 @@
+{
+  "id": "Phantump Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Phantump",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

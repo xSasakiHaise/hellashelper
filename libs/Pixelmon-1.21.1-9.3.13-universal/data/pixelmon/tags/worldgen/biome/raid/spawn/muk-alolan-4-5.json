@@ -1,0 +1,63 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "biomesoplenty:bog"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:dead_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:ominous_woods"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:old_growth_dead_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wasteland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wasteland_steppe"
+    },
+    {
+      "required": false,
+      "id": "terralith:rocky_shrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:warped_mesa"
+    },
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    {
+      "required": false,
+      "id": "biomesoplenty:bayou"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:bog"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:marsh"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wetland"
+    },
+    {
+      "required": false,
+      "id": "terralith:orchid_swamp"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_deep_sea"
+    }
+  ]
+}

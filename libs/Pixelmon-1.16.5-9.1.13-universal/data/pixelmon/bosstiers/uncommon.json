@@ -1,0 +1,295 @@
+{
+  "id": "uncommon",
+  "name": "enum.trainerBoss.uncommon",
+  "canRandomlySpawn": true,
+  "weight": 40,
+  "color": {
+    "r": 0, "g": 212, "b": 63, "a": 255
+  },
+  "modelScaleFactor": 1.4,
+  "isMega": false,
+  "megaStoneObtainChance": 0,
+  "megaStoneRepeatChance": 0,
+  "alwaysPalette": "",
+  "levelMultiplier": 1,
+  "extraLevels": 10,
+  "dropSets": [
+    {
+      "chance": 1,
+      "quantity": 1,
+      "drops": [
+        {
+          "weight": 10,
+          "name": "",
+          "item": "pixelmon:s_exp_candy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 7,
+          "name": "",
+          "item": "pixelmon:m_exp_candy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 7,
+          "name": "",
+          "item": "pixelmon:dynamax_candy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 2,
+          "name": "",
+          "item": "pixelmon:rare_candy",
+          "commands": [],
+          "ephemeral": false
+        }
+      ]
+    },
+    {
+      "chance": 1,
+      "quantity": 1,
+      "drops": [
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:safety_goggles",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:toxic_orb",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:flame_orb",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:life_orb",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:eviolite",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:heavy_duty_boots",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:protective_pads",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:throat_spray",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:room_service",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:red_card",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:rocky_helmet",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:assault_vest",
+          "commands": [],
+          "ephemeral": false
+        },
+		{
+			"weight": 1,
+			"name": "",
+			"item": "pixelmon:punching_glove",
+			"commands": [],
+			"ephemeral": false
+		},
+		{
+			"weight": 1,
+			"name": "",
+			"item": "pixelmon:loaded_dice",
+			"commands": [],
+			"ephemeral": false
+		},
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:wide_lens",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:scope_lens",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:zoom_lens",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:super_repel",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:tm8_blank",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:tr8_blank",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:adrenaline_orb",
+          "commands": [],
+          "ephemeral": false
+        }
+      ]
+    },
+    {
+      "chance": 0.25,
+      "quantity": 1,
+      "drops": [
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:old_rod",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:up_grade",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:fire_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:water_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:leaf_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:thunder_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:moon_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:sun_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:dawn_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:dusk_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:shiny_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:ice_stone",
+          "commands": [],
+          "ephemeral": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "particle": "pixelmon:item/reassembly_unit",
+    "layer0": "pixelmon:item/reassembly_unit"
+  }
+}

@@ -1,0 +1,4 @@
+$body tornadus.bmd
+$anim fly walk.bmd
+$anim idle idle.bmd
+$scale 0.2

@@ -1,0 +1,35 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/thunder_stone/thunder_stone_axe",
+      "pixelmon:equipment/thunder_stone/thunder_stone_boots",
+      "pixelmon:equipment/thunder_stone/thunder_stone_hammer",
+      "pixelmon:equipment/thunder_stone/thunder_stone_helmet",
+      "pixelmon:equipment/thunder_stone/thunder_stone_hoe",
+      "pixelmon:equipment/thunder_stone/thunder_stone_leggings",
+      "pixelmon:equipment/thunder_stone/thunder_stone_pickaxe",
+      "pixelmon:equipment/thunder_stone/thunder_stone_chestplate",
+      "pixelmon:equipment/thunder_stone/thunder_stone_shovel",
+      "pixelmon:equipment/thunder_stone/thunder_stone_sword"
+    ]
+  },
+  "criteria": {
+    "has_thunder_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:thunder_stone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_thunder_stone"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "Emolga Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Emolga",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

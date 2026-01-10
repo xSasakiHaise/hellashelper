@@ -1,0 +1,26 @@
+{
+  "id": "Kricketot Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Kricketot",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metronome",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

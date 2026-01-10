@@ -1,0 +1,155 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:0s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:1s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:13s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:14s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:19s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:20s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:26s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:27s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:29s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:30s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:35s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:42s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:85s}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+

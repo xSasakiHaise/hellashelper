@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/computer/pc",
+  "textures": {
+    "particle": "pixelmon:block/computer/pc_green",
+    "all": "pixelmon:block/computer/pc_green"
+  }
+}

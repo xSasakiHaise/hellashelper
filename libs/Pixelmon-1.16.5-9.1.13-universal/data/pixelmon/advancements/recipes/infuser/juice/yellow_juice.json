@@ -1,0 +1,54 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:infuser/juice/yellow_juice_1_1",
+      "pixelmon:infuser/juice/yellow_juice_1_2",
+      "pixelmon:infuser/juice/yellow_juice_1_3",
+      "pixelmon:infuser/juice/yellow_juice_2_1",
+      "pixelmon:infuser/juice/yellow_juice_2_2",
+      "pixelmon:infuser/juice/yellow_juice_2_3",
+      "pixelmon:infuser/juice/yellow_juice_3_1",
+      "pixelmon:infuser/juice/yellow_juice_3_2",
+      "pixelmon:infuser/juice/yellow_juice_3_3"
+    ]
+  },
+  "criteria": {
+    "has_yellow_juice_berry_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:berries/juice/yellow/1"
+          }
+        ]
+      }
+    },
+    "has_yellow_juice_berry_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:berries/juice/yellow/2"
+          }
+        ]
+      }
+    },
+    "has_yellow_juice_berry_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:berries/juice/yellow/3"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_juice_berry_1",
+      "has_yellow_juice_berry_2",
+      "has_yellow_juice_berry_3"
+    ]
+  ]
+}

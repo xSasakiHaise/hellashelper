@@ -1,0 +1,49 @@
+{
+  "id": "Rolycoly Line Rocksmash",
+  "spawnInfos": [
+    {
+      "spec": "species:Rolycoly",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "mountainous",
+          "mesas",
+          "savannas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 200.0
+    },
+    {
+      "spec": "species:Carkol",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "mountainous",
+          "mesas",
+          "savannas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

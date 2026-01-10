@@ -1,0 +1,8 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "variants": {
+    "": {
+      "model": "pixelmon:block/ore/fire_stone_ore"
+    }
+  }
+}

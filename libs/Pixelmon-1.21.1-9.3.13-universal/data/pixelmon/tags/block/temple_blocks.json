@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:temple_block",
+    "pixelmon:temple_brick",
+    "pixelmon:temple_pillar",
+    "pixelmon:temple_pillar_fractured",
+    "pixelmon:temple_stairs",
+    "pixelmon:temple_brick_stairs",
+    "pixelmon:temple_slab",
+    "pixelmon:temple_brick_slab"
+  ]
+}

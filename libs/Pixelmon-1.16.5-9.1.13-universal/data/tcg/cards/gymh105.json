@@ -1,0 +1,31 @@
+{
+  "id": 329,
+  "setId": 6,
+  "cardType": "TRAINER",
+  "isSpecial": false,
+  "hp": 0,
+  "energy1": "",
+  "energy2": null,
+  "pokemonId": null,
+  "code": "GYMH105",
+  "name": "card.GYMH105.name",
+  "description": "card.gymh105.text",
+  "previousPokemonId": null,
+  "cardAttacks": [
+
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 0,
+  "cardRarity": "UNCOMMON",
+  "customTexture": "tcg:gui/cards/foreground/blaineslastresort-bg.png",
+  "customTextureX": 32,
+  "customTextureY": 32,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

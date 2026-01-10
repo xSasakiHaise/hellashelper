@@ -1,0 +1,32 @@
+{
+	"display": {
+    "icon": {
+      "id": "pixelmon:poke_ball",
+      "count": 1,
+      "components": {
+        "pixelmon:poke_ball": "poke_ball"
+      }
+    },
+		"title": {
+			"translate": "advancements.wild_battle_victory.title"
+		},
+		"description": {
+			"translate": "advancements.wild_battle_victory.description"
+		},
+		"background": "pixelmon:textures/gui/advancements/backgrounds/ruinswall.png",
+		"hidden": false
+	},
+	"criteria": {
+		"wild_battle_victory_trigger": {
+			"trigger": "pixelmon:wild_battle_victory_trigger",
+			"conditions" : {
+				"victories" : 1
+			}
+		}
+	},
+  "requirements": [
+    [
+      "wild_battle_victory_trigger"
+    ]
+  ]
+}

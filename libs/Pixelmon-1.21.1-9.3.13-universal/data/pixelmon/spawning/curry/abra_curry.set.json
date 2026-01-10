@@ -1,0 +1,26 @@
+{
+  "id": "Abra Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Abra",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:twisted_spoon",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

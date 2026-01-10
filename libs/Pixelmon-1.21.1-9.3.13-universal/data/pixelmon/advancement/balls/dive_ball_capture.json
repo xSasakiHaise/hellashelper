@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "pixelmon:poke_ball",
+      "count": 1,
+      "components": {
+        "pixelmon:poke_ball": "dive_ball"
+      }
+    },
+    "title": {
+      "translate": "advancements.dive_ball_capture.title"
+    },
+    "description": {
+      "translate": "advancements.dive_ball_capture.description"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "dive_ball_capture"
+    ]
+  ],
+  "parent": "pixelmon:balls/ball_capture_trigger",
+  "criteria": {
+    "dive_ball_capture": {
+      "trigger": "pixelmon:ball_capture_trigger",
+      "conditions": {
+        "pokeball": "dive_ball"
+      }
+    }
+  }
+}

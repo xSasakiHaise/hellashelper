@@ -1,0 +1,41 @@
+{
+  "id": "Cubchoo Line Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Cubchoo",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "freezing",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Beartic",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 42,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "freezing",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog"
+        ]
+      },
+      "rarity": 7.0
+    }
+  ]
+}

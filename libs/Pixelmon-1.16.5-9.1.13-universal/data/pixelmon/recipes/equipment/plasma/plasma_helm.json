@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:gems/crystal"
+    }
+  },
+  "result": {
+    "item": "pixelmon:plasma_helm",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Shuppet Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Shuppet",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

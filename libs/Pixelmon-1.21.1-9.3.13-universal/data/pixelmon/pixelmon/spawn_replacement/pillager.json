@@ -1,0 +1,15 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:pillager",
+      "minecraft:vindicator"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:villager",
+    "presets": [
+      "pixelmon:trainers/bugcatcher_village"
+    ]
+  }
+}

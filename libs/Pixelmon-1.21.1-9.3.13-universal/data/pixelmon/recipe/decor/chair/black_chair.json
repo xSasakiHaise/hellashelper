@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair",
+  "pattern": [
+    "w  ",
+    "www",
+    "s s"
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:black_wool"
+    },
+    "s": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "pixelmon:black_chair",
+    "count": 1
+  }
+}

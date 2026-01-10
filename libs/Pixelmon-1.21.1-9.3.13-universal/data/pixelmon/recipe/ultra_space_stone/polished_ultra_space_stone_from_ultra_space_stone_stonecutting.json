@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "pixelmon:ultra_space_stone"
+  },
+  "result": {
+    "id": "pixelmon:polished_ultra_space_stone"
+  }
+}

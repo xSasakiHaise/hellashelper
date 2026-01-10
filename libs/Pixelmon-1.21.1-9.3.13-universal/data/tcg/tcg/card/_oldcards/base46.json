@@ -1,0 +1,34 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 4,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE46.2.name",
+      "costs": [
+        "FIRE",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.BASE46.2.text",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "FIRE",
+          "self": true,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

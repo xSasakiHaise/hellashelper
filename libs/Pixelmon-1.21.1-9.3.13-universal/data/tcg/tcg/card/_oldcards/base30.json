@@ -1,0 +1,34 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 2,
+  "previous_pokemon_id": 1,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE30.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 20,
+      "text": "attack.BASE30.2.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "POISONED",
+          "self": false
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

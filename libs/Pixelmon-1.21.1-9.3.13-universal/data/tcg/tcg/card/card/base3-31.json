@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base3-31.description",
+  "attacks": [
+    {
+      "name": "attack.base3-31.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base3-31.0.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "POISONED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-31.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base3-31.1.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "POISONED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "GRASS",
+  "pokemon_id": 24,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

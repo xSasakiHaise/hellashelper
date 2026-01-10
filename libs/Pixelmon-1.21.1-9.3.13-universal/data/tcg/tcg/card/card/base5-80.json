@@ -1,0 +1,9 @@
+{
+  "special": true,
+  "hp": 0,
+  "description": "card.base5-80.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "energies": "RAINBOW",
+  "rarity": "tcg:rare"
+}

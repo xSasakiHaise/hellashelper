@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#pixelmon:spawning/mesas",
+  "step": "raw_generation",
+  "features": [
+    "pixelmon:ores/fire_stone"
+  ]
+}

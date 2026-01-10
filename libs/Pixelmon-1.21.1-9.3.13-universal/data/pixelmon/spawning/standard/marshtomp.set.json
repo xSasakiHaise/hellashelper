@@ -1,0 +1,41 @@
+{
+  "id": "Marshtomp",
+  "spawnInfos": [
+    {
+      "spec": "species:Marshtomp",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Marshtomp",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 16,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:lush_caves"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

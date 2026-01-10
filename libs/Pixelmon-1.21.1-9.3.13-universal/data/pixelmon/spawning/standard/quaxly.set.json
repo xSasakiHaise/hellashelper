@@ -1,0 +1,24 @@
+{
+  "id": "Quaxly",
+  "spawnInfos": [
+    {
+      "spec": "species:Quaxly",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

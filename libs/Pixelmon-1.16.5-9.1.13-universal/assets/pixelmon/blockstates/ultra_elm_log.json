@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pixelmon:block/ultra_space/elm_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "pixelmon:block/ultra_space/elm_log"
+    },
+    "axis=z": {
+      "model": "pixelmon:block/ultra_space/elm_log_horizontal",
+      "x": 90
+    }
+  }
+}

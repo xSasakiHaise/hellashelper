@@ -1,0 +1,63 @@
+{
+  "id": 527,
+  "setId": 7,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 60,
+  "energy1": "GRASS",
+  "energy2": null,
+  "pokemonId": 42,
+  "code": "GYMC46",
+  "name": "card.GYMC46.name",
+  "description": "",
+  "previousPokemonId": 41,
+  "cardAttacks": [
+    {
+      "card": "GYMC46",
+      "index": 1,
+      "name": "attack.GYMC46.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMC46.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC46",
+      "index": 2,
+      "name": "attack.GYMC46.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 30,
+      "modifier": null,
+      "text": "attack.GYMC46.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": "FIGHTING",
+  "resistanceValue": "30",
+  "resistanceCardModifier": "Minus",
+  "energyWeakness": "PSYCHIC",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 0,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

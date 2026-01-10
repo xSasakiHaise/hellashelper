@@ -1,0 +1,34 @@
+{
+  "display": {
+    "announce_to_chat": false,
+    "background": "pixelmon:textures/gui/advancements/backgrounds/ruinswall.png",
+    "icon": {
+      "count": 1,
+      "id": "pixelmon:poke_ball",
+      "components": {
+        "pixelmon:poke_ball": "master_ball"
+      }
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.legendary_capture.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_capture.description"
+    }
+  },
+  "requirements": [
+    [
+      "legendary_capture"
+    ]
+  ],
+  "sends_telemetry_event": true,
+    "criteria": {
+        "legendary_capture": {
+            "trigger": "pixelmon:legendary_capture_trigger",
+            "conditions" : {
+                "name": "legendary"
+            }
+        }
+    }
+}

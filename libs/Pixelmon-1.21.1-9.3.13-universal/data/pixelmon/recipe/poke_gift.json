@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "type": "neoforge:components",
+      "items": "pixelmon:poke_ball",
+      "strict": true,
+      "components": {
+        "pixelmon:poke_ball": "cherish_ball"
+      }
+    }
+  },
+  "result": {
+    "id": "pixelmon:poke_gift",
+    "count": 4
+  }
+}

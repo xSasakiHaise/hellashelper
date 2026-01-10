@@ -1,0 +1,44 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/badgecase/yellowbadgecase"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:equipment/badgecase/yellowbadgecase"
+      }
+    },
+    "has_badgecase": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:badgecases"
+          }
+        ]
+      }
+    },
+    "has_apricorn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:yellow_apricorn"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_badgecase",
+      "has_apricorn"
+    ]
+  ]
+}

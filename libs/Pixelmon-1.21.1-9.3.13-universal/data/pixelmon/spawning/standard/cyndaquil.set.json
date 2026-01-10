@@ -1,0 +1,41 @@
+{
+  "id": "Cyndaquil",
+  "spawnInfos": [
+    {
+      "spec": "species:Cyndaquil",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 9,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Cyndaquil",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 9,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

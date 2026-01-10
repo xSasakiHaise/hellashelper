@@ -1,0 +1,49 @@
+{
+  "id": "Aron Line Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Aron",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 15,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Lairon",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 12,
+  "previous_pokemon_id": 11,
+  "retreat_cost": 0,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG33.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.JUNG33.1.text",
+      "effects": [
+        {
+          "type": "tcg:switch_pokemon",
+          "self_action": false,
+          "self_target": false,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG33.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 40,
+      "text": "attack.JUNG33.2.text",
+      "effects": [
+        {
+          "type": "tcg:leech_seed",
+          "heal_type": "HalfDamage",
+          "heal_amount": 0
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 516,
+  "setId": 7,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 70,
+  "energy1": "FIGHTING",
+  "energy2": null,
+  "pokemonId": 28,
+  "code": "GYMC36",
+  "name": "card.GYMC36.name",
+  "description": "",
+  "previousPokemonId": 27,
+  "cardAttacks": [
+    {
+      "card": "GYMC36",
+      "index": 1,
+      "name": "attack.GYMC36.1.name",
+      "costs": [
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMC36.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC36",
+      "index": 2,
+      "name": "attack.GYMC36.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 30,
+      "modifier": null,
+      "text": "attack.GYMC36.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": "LIGHTNING",
+  "resistanceValue": "30",
+  "resistanceCardModifier": "Minus",
+  "energyWeakness": "GRASS",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

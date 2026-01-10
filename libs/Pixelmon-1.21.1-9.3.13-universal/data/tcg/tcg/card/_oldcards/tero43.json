@@ -1,0 +1,41 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 57,
+  "previous_pokemon_id": 56,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.tero43.name",
+    "description": "ability.tero43.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:frenzy"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO43.1.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 40,
+      "text": "attack.TERO43.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "CONFUSED",
+          "self": true
+        }
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

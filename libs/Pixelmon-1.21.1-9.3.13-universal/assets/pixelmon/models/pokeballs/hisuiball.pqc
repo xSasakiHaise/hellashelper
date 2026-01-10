@@ -1,0 +1,6 @@
+$body hisuiball.bmd
+$anim bounceOpen bounceopen.bmd
+$anim bounceClose bounceclose.bmd
+$anim shakeLeft shakeleft.bmd
+$anim shakeRight shakeright.bmd
+$anim idle idle.bmd

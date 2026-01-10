@@ -1,0 +1,31 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:ultra_desert/ultra_desert_sandstone_wall_from_ultra_desert_sandstone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:ultra_desert/ultra_desert_sandstone_wall_from_ultra_desert_sandstone_stonecutting"
+      }
+    },
+    "has_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:ultra_desert_sandstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sandstone"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_armchair",
+    "pixelmon:orange_armchair",
+    "pixelmon:magenta_armchair",
+    "pixelmon:light_blue_armchair",
+    "pixelmon:yellow_armchair",
+    "pixelmon:lime_armchair",
+    "pixelmon:pink_armchair",
+    "pixelmon:gray_armchair",
+    "pixelmon:light_gray_armchair",
+    "pixelmon:cyan_armchair",
+    "pixelmon:purple_armchair",
+    "pixelmon:blue_armchair",
+    "pixelmon:brown_armchair",
+    "pixelmon:green_armchair",
+    "pixelmon:red_armchair",
+    "pixelmon:black_armchair"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Farfetchd",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/farfetchd-2-3",
+      "weight": 1.0
+    },
+    {
+      "spec": "Farfetchd form:galarian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/farfetchd-galarian-2-3",
+      "weight": 1.0
+    }
+  ]
+}

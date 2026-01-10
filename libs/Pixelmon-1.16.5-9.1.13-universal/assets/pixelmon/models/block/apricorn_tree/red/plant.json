@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pixelmon:block/apricorn_tree/apricorn_plant_red"
+  }
+}
+

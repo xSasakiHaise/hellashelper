@@ -1,0 +1,41 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 52,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:ultra_rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.WBSP10.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.WBSP10.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        },
+        {
+          "type": "tcg:bench_damage_opponent_selection",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

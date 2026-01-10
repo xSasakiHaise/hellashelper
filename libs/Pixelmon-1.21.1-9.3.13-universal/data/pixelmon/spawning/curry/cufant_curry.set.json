@@ -1,0 +1,20 @@
+{
+  "id": "Cufant Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Cufant",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Aipom",
+  "spawnInfos": [
+    {
+      "spec": "species:Aipom",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 2,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

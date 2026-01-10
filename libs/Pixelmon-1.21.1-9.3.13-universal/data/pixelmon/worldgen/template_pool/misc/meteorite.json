@@ -1,0 +1,18 @@
+{
+  "name": "pixelmon:misc/meteorite",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:meteorite",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 3,
+        "y_hack": 20,
+        "keep_liquids": false
+      }
+    }
+  ]
+}

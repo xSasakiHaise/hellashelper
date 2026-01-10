@@ -1,0 +1,33 @@
+{
+  "id": "Glimmora",
+  "spawnInfos": [
+    {
+      "spec": "species:Glimmora",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Glimmora",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64
+      },
+      "rarity": 25.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Ducklett Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Ducklett",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 51,
+  "previous_pokemon_id": 50,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.tero6.name",
+    "description": "ability.tero6.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:sinkhole"
+    }
+  },
+  "attacks": [
+
+  ],
+  "energies": "FIGHTING"
+}

@@ -1,0 +1,5 @@
+$body seadra.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$anim swim swim.bmd
+$scale 0.8

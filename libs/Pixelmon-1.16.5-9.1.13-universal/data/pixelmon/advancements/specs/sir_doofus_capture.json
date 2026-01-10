@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{ndex:399, palette:\"none\", form:\"sirdoofusiii\"}"
+		},
+		"title": {
+			"translate": "advancements.sir_doofus.title"
+		},
+		"description": {
+			"translate": "advancements.sir_doofus.description"
+		},
+		"hidden": true
+	},
+    "parent" : "pixelmon:specs/spec_trigger",
+	"criteria": {
+		"sir_doofus_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Bidoof form:sirdoofusiii"
+			}
+		}
+	}
+}

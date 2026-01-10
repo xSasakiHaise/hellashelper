@@ -1,0 +1,23 @@
+{
+  "id": "Teddiursa",
+  "spawnInfos": [
+    {
+      "spec": "species:Teddiursa",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

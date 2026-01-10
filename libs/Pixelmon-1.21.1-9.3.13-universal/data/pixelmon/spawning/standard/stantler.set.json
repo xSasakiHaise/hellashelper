@@ -1,0 +1,28 @@
+{
+  "id": "Stantler",
+  "spawnInfos": [
+    {
+      "spec": "species:Stantler",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/freezing_forests"
+        ],
+        "minY": 85
+      },
+      "rarity": 70.0
+    }
+  ]
+}

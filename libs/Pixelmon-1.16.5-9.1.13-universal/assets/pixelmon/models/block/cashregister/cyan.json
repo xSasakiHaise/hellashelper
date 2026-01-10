@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/cashregister/cashregister",
+  "textures": {
+    "colour": "pixelmon:block/cashregister/cyan",
+    "particle": "pixelmon:block/cashregister/cyan"
+  }
+}

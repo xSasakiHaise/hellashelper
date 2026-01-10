@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dyes/gray"
+    },
+    {
+      "tag": "pixelmon:umbrellas"
+    }
+  ],
+  "result": {
+    "item": "pixelmon:gray_umbrella",
+    "count": 1
+  }
+}

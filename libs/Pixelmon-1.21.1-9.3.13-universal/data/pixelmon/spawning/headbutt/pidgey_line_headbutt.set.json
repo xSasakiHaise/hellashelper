@@ -1,0 +1,109 @@
+{
+  "id": "Pidgey Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Pidgey status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/taigas"
+        ],
+        "variant": [
+          "oak",
+          "dark oak",
+          "spruce"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Pidgey",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/taigas"
+        ],
+        "variant": [
+          "oak",
+          "dark oak",
+          "spruce"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Pidgeotto status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/taigas"
+        ],
+        "variant": [
+          "oak",
+          "dark oak",
+          "spruce"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Pidgeotto",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/taigas"
+        ],
+        "variant": [
+          "oak",
+          "dark oak",
+          "spruce"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

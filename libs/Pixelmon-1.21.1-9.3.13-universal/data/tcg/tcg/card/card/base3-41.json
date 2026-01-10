@@ -1,0 +1,55 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.base3-41.description",
+  "attacks": [
+    {
+      "name": "attack.base3-41.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base3-41.0.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 3,
+          "flip_type": "Exact"
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-41.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base3-41.1.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 3,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIGHTING",
+  "pokemon_id": 28,
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "LIGHTNING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:uncommon"
+}

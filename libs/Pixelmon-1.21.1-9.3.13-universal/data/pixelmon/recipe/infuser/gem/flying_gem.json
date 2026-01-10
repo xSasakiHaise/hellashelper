@@ -1,0 +1,15 @@
+{
+  "type": "pixelmon:infuser",
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "pixelmon:coba_berry"
+    },
+    {
+      "item": "pixelmon:crystal_block"
+    }
+  ],
+  "results": {
+    "id": "pixelmon:flying_gem"
+  }
+}

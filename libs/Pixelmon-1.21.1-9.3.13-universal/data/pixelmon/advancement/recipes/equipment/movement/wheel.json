@@ -1,0 +1,57 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/movement/wheel"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:equipment/movement/wheel"
+      }
+    },
+    "has_silicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:gems/silicon"
+          }
+        ]
+      }
+    },
+    "has_mach_bike_frame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:mach_bike_frame"
+            ]
+          }
+        ]
+      }
+    },
+    "has_acro_bike_frame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:acro_bike_frame"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silicon",
+      "has_acro_bike_frame",
+      "has_mach_bike_frame"
+    ]
+  ]
+}

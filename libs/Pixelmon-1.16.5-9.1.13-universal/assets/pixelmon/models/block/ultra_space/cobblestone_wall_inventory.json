@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "pixelmon:block/ultra_space/cobble",
+    "particle": "pixelmon:block/ultra_space/cobble"
+  }
+}

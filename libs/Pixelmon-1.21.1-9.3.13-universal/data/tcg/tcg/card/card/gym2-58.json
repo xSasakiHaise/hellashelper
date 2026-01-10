@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.gym2-58.description",
+  "attacks": [
+    {
+      "name": "attack.gym2-58.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.gym2-58.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.gym2-58.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.gym2-58.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "PSYCHIC",
+  "pokemon_id": 64,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

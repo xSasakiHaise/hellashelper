@@ -1,0 +1,97 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    {
+      "required": false,
+      "id": "biomesoplenty:grove"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:grove_clearing"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:maple_woods"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:mediterranean_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:mystic_grove"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:orchard"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:seasonal_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:seasonal_orchard"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:woodland"
+    },
+    {
+      "required": false,
+      "id": "terralith:sakura_grove"
+    },
+    {
+      "required": false,
+      "id": "terralith:temperate_highlands"
+    },
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle",
+    {
+      "required": false,
+      "id": "biomesoplenty:rainforest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:rocky_rainforest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:floodplain"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:fungal_jungle"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:tropics"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_rainforest"
+    },
+    {
+      "required": false,
+      "id": "terralith:jungle_mountains"
+    },
+    {
+      "required": false,
+      "id": "terralith:rocky_jungle"
+    },
+    {
+      "required": false,
+      "id": "terralith:skylands_summer"
+    },
+    {
+      "required": false,
+      "id": "terralith:tropical_jungle"
+    }
+  ]
+}

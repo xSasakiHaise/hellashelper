@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:towers/darkness",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:towers/waters",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 486324732,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "frequency": 0.2,
+    "spacing": 20,
+    "separation": 15
+  }
+}

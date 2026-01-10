@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base4-46.description",
+  "attacks": [
+    {
+      "name": "attack.base4-46.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base4-46.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.base4-46.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 50,
+      "text": "attack.base4-46.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 3,
+  "energies": "PSYCHIC",
+  "pokemon_id": 64,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

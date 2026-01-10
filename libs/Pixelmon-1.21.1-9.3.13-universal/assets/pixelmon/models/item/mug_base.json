@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "particle": "pixelmon:item/block/mug_base",
+    "layer0": "pixelmon:item/block/mug_base"
+  }
+}

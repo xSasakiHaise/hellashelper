@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Stunfisk",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/stunfisk-3-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Stunfisk form:galarian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/stunfisk-galarian-3-4",
+      "weight": 1.0
+    }
+  ]
+}

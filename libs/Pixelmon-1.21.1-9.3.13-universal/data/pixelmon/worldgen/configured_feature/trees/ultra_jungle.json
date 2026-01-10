@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": false,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:three_layers_feature_size",
+      "min_clipped_height": 30,
+      "limit": 50,
+      "upper_limit": 60,
+      "lower_size": 4,
+      "middle_size": 8
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "pixelmon:ultra_jungle_log"
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "pixelmon:ultra_jungle_leaves"
+      }
+    },
+    "root_placer": {
+      "type": "minecraft:mangrove_root_placer",
+      "root_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "pixelmon:ultra_jungle_log"
+        }
+      },
+      "trunk_offset_y": 3,
+      "mangrove_root_placement": {
+        "max_root_width": 4,
+        "max_root_length": 32,
+        "random_skew_chance": 0.8,
+        "can_grow_through": [
+          "minecraft:water",
+          "minecraft:dirt"
+        ],
+        "muddy_roots_in": "minecraft:water",
+        "muddy_roots_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "pixelmon:ultra_jungle_log"
+          }
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "pixelmon:ultra_jungle",
+      "base_height": 30,
+      "height_rand_a": 20,
+      "height_rand_b": 24
+    },
+    "foliage_placer": {
+      "type": "minecraft:bush_foliage_placer",
+      "radius": 10,
+      "offset": 6,
+      "height": 5
+    },
+    "decorators": [
+      {
+        "type": "minecraft:cocoa",
+        "probability": 0.2
+      },
+      {
+        "type": "pixelmon:ultra_jungle_trunk_vines"
+      },
+      {
+        "type": "pixelmon:ultra_jungle_leave_vines",
+        "probability": 0.25
+      }
+    ]
+  }
+}

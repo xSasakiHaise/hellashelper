@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#tcg:types/basic/base1",
+    "#tcg:types/basic/base2",
+    "#tcg:types/basic/base3",
+    "#tcg:types/basic/base4",
+    "#tcg:types/basic/base5",
+    "#tcg:types/basic/basep",
+    "#tcg:types/basic/gym1",
+    "#tcg:types/basic/gym2"
+  ],
+  "tag": "tcg:basic"
+}

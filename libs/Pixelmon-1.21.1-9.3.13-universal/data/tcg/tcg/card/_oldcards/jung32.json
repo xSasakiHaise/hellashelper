@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 40,
+  "previous_pokemon_id": 39,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG32.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG32.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "ASLEEP",
+          "self": false
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG32.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.JUNG32.2.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "damage_type": "PerBench",
+          "value": 10,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

@@ -1,0 +1,31 @@
+{
+  "name": {
+    "translate": "type.rock"
+  },
+  "color": {
+    "red": 163,
+    "green": 119,
+    "blue": 85,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/rock.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:fire",
+        "pixelmon:ice",
+        "pixelmon:flying",
+        "pixelmon:bug"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:fighting",
+        "pixelmon:ground",
+        "pixelmon:steel"
+      ],
+      "effectiveness": "NOT"
+    }
+  ]
+}

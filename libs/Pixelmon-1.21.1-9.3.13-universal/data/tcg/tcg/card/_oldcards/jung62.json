@@ -1,0 +1,32 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 21,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG62.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG62.2.text",
+      "effects": [
+        {
+          "type": "tcg:mirror_move"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

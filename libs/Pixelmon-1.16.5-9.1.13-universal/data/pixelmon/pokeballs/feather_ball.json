@@ -1,0 +1,19 @@
+{
+  "name": "feather_ball",
+  "model": "pixelmon:models/pokeballs/hisuiball.pqc",
+  "texture": "pixelmon:textures/pokeballs/feather_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/feather_ball_flashing.png",
+  "ballSprite": "pixelmon:items/pokeballs/feather_ball",
+  "lidSprite": "pixelmon:items/pokeballs/feather_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/feather_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.HisuiBall",
+  "bases": [
+    "wooden"
+  ],
+  "captureMethod": "gen4",
+  "catchBonus": 1,
+  "breakChance": 0.60,
+  "velocityModifier": 1.5,
+  "gravityModifier": 1,
+  "particles": false
+}

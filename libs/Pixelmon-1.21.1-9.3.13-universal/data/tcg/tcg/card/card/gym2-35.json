@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.gym2-35.description",
+  "attacks": [
+    {
+      "name": "attack.gym2-35.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 60,
+      "text": "attack.gym2-35.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIGHTING",
+  "pokemon_id": 57,
+  "ability": {
+    "name": "ability.gym2-35.name",
+    "description": "ability.gym2-35.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:unimplemented"
+    }
+  },
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

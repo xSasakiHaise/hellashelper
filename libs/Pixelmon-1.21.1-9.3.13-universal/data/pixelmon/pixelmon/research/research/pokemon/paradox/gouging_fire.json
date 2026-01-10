@@ -1,0 +1,430 @@
+{
+  "name": {
+    "translate": "pixelmon.research.pokemon.gouging_fire"
+  },
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "require_healer_block": {
+            "type": "pixelmon:constant_boolean",
+            "value": true
+          },
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.0.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.0.page.2"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.0.page.3"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.1.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "Growlithe"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 1
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.1.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:break_block",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:block_is_one_of",
+                "blocks": "pixelmon:fire_stone_ore",
+                "block": {
+                  "type": "pixelmon:context_block_state"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 16
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.1.objective.3"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:evolve_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "Arcanine"
+          },
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 1
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.1.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.1.page.2"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.1.page.3"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.2.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "type:dragon"
+          },
+          "required_amount": 16,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.2.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "type:fire"
+          },
+          "required_amount": 16,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.2.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.2.page.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.3.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "Donphan"
+          },
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.3.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "Misdreavus"
+          },
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.3.objective.3"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon" : {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "Volcarona"
+          },
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.3.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.3.page.2"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.3.page.3"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.gouging_fire.stage.4.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:change_dimension",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare_case_insensitive",
+                "first": {
+                  "type": "pixelmon:constant_string",
+                  "value": "minecraft:the_end"
+                },
+                "second": {
+                  "type": "pixelmon:string_context",
+                  "key": "pixelmon:dimension_to"
+                }
+              }
+            }
+          ],
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:spawn_and_enter_battle",
+          "spec": "gougingfire"
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/pokemon/1020_gougingfire/all/base/none/sprite.png"
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": true,
+  "unique": true
+}

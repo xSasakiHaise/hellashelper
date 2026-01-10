@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "pixelmon:pink_berry_wood_planks"
+    }
+  },
+  "result": {
+    "id": "pixelmon:pink_berry_wood_door",
+    "count": 3
+  }
+}

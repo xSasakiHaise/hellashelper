@@ -1,0 +1,34 @@
+{
+  "id": "Carbink Rocksmash",
+  "spawnInfos": [
+    {
+      "spec": "species:Carbink",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 25,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Carbink",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 25,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_deep_sea",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

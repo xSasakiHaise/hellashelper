@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "normal": { "model": "pixelmon:block/ore/deepslate_dawn_stone_ore" },
+    "contents=none": { "model": "minecraft:deepslate" },
+    "contents=dawn": { "model": "pixelmon:block/ore/deepslate_dawn_stone_ore" },
+    "contents=dusk": { "model": "pixelmon:block/ore/deepslate_dusk_stone_ore" }
+  }
+}

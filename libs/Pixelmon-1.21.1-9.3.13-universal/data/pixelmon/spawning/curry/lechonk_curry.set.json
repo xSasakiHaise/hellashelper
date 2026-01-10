@@ -1,0 +1,21 @@
+{
+    "id": "Lechonk",
+    "spawnInfos": [
+      {
+        "spec": "species:Lechonk",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 5,
+        "maxLevel": 17,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/plains"
+          ]
+        },
+        "rarity": 100.0
+      }
+    ]
+  }
+  

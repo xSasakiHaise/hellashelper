@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north,on=false": {
+      "model": "tcg:block/large_battle_box_off"
+    },
+    "facing=east,on=false": {
+      "model": "tcg:block/large_battle_box_off"
+    },
+    "facing=south,on=false": {
+      "model": "tcg:block/large_battle_box_off"
+    },
+    "facing=west,on=false": {
+      "model": "tcg:block/large_battle_box_off"
+    },
+    "facing=north,on=true": {
+      "model": "tcg:block/large_battle_box_on"
+    },
+    "facing=east,on=true": {
+      "model": "tcg:block/large_battle_box_on"
+    },
+    "facing=south,on=true": {
+      "model": "tcg:block/large_battle_box_on"
+    },
+    "facing=west,on=true": {
+      "model": "tcg:block/large_battle_box_on"
+    }
+  }
+}

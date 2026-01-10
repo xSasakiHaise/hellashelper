@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "step": "underground_ores",
+  "features": [
+    "pixelmon:ores/silver/ore_silver_extra",
+    "pixelmon:ores/silver/ore_silver_lower",
+    "pixelmon:ores/silver/ore_silver"
+  ]
+}

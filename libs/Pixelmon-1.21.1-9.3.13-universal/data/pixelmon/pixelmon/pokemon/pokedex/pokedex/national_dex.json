@@ -1,0 +1,30 @@
+{
+  "name": {
+    "translate": "pixelmon.pokedex.national_dex"
+  },
+  "priority": 1,
+  "primary_color": {
+    "red": 225,
+    "green": 250,
+    "blue": 255,
+    "alpha": 255
+  },
+  "secondary_color": {
+    "red": 26,
+    "green": 154,
+    "blue": 236,
+    "alpha": 255
+  },
+  "text_color": {
+    "red": 13,
+    "green": 117,
+    "blue": 161,
+    "alpha": 255
+  },
+  "pokemon": {
+    "type": "pixelmon:all"
+  },
+  "acceptance_test": {
+    "type": "pixelmon:any"
+  }
+}

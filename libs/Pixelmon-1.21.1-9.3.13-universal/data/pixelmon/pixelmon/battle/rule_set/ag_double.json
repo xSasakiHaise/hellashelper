@@ -1,0 +1,14 @@
+{
+  "name": {
+    "translate": "pixelmon.battle.tier.ag.double"
+  },
+  "description": {
+    "translate": "pixelmon.battle.tier.ag.double.description"
+  },
+  "min_pokemon_inclusive": 2,
+  "max_pokemon_inclusive": 6,
+  "rules": [
+    "pixelmon:exitable",
+    "pixelmon:double_battle"
+  ]
+}

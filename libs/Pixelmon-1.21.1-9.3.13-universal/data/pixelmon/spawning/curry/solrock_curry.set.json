@@ -1,0 +1,30 @@
+{
+  "id": "Solrock Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Solrock",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sun_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:wooded_badlands"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": {
+    "translate": "type.dark"
+  },
+  "color": {
+    "red": 64,
+    "green": 64,
+    "blue": 64,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/dark.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:psychic",
+        "pixelmon:ghost"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:dark",
+        "pixelmon:fairy",
+        "pixelmon:fighting"
+      ],
+      "effectiveness": "NOT"
+    }
+  ]
+}

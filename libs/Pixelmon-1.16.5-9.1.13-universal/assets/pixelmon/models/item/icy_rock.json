@@ -1,0 +1,7 @@
+{
+  "__comment__": "this file was automatically created by mcresources",
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "layer0": "pixelmon:items/helditems/icyrock"
+  }
+}

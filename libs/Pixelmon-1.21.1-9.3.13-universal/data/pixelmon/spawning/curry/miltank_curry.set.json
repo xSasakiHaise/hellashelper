@@ -1,0 +1,26 @@
+{
+  "id": "Miltank Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Miltank",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moomoo_milk",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

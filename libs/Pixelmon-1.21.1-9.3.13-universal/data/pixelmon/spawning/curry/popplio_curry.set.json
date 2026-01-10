@@ -1,0 +1,21 @@
+{
+  "id": "Popplio Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Popplio",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:beach",
+          "byg:rainbow_beach"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

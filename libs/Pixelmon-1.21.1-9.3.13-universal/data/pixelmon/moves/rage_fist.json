@@ -1,0 +1,41 @@
+{
+  "attackName": "Rage Fist",
+  "attackType": "GHOST",
+  "attackCategory": "PHYSICAL",
+  "basePower": 50,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": 100,
+  "makesContact": true,
+  "effects": [
+    {
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "RageFist"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": false
+  },
+  "flags": {
+	  "punch": true
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:ghostium_z",
+      "attackName": "Never-Ending Nightmare",
+      "basePower": 100,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

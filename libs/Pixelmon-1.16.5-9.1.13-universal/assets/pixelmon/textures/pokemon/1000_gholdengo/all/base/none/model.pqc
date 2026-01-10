@@ -1,0 +1,4 @@
+$body gholdengo.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 15.4

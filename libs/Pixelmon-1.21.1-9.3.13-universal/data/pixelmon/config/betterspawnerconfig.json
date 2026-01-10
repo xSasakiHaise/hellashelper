@@ -1,0 +1,44 @@
+{
+  "globalCompositeCondition": {
+    "conditions": [
+      {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_end",
+          "minecraft:the_nether",
+          "pixelmon:ultra_space",
+          "pixelmon:drowned_world"
+        ]
+      },
+      {
+        "tag": "ultrabeast",
+        "requiredSpace": 2
+      },
+      {
+        "tag": "legendary",
+        "requiredSpace": 2
+      }
+    ],
+    "anticonditions": [
+      {
+        "structures": [
+          "pixelmon:gyms/dragon",
+          "pixelmon:gyms/electric",
+          "pixelmon:gyms/fairy",
+          "pixelmon:gyms/fire",
+          "pixelmon:gyms/ghost",
+          "pixelmon:gyms/grass",
+          "pixelmon:gyms/ground",
+          "pixelmon:gyms/ice",
+          "pixelmon:gyms/steel",
+          "pixelmon:gyms/water",
+          "minecraft:village_plains",
+          "minecraft:village_desert",
+          "minecraft:village_taiga",
+          "minecraft:village_savanna",
+          "minecraft:village_snowy"
+        ]
+      }
+    ]
+  }
+}

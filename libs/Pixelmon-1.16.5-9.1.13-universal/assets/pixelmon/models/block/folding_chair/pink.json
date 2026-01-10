@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/folding_chair",
+  "textures": {
+    "particle": "pixelmon:block/folding_chair/pink",
+    "main": "pixelmon:block/folding_chair/pink"
+  }
+}

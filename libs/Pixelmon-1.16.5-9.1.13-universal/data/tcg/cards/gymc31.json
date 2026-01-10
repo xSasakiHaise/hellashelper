@@ -1,0 +1,63 @@
+{
+  "id": 511,
+  "setId": 7,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 70,
+  "energy1": "FIRE",
+  "energy2": null,
+  "pokemonId": 5,
+  "code": "GYMC31",
+  "name": "card.GYMC31.name",
+  "description": "",
+  "previousPokemonId": 4,
+  "cardAttacks": [
+    {
+      "card": "GYMC31",
+      "index": 1,
+      "name": "attack.GYMC31.1.name",
+      "costs": [
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 30,
+      "modifier": null,
+      "text": "attack.GYMC31.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC31",
+      "index": 2,
+      "name": "attack.GYMC31.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.GYMC31.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "WATER",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 2,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

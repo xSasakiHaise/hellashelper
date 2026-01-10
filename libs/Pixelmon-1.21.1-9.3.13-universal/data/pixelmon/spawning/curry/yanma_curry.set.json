@@ -1,0 +1,29 @@
+{
+  "id": "Yanma Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Yanma",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

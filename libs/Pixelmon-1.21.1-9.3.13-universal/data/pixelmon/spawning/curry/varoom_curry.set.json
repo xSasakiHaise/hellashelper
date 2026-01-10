@@ -1,0 +1,21 @@
+{
+    "id": "Varoom",
+    "spawnInfos": [
+      {
+        "spec": "species:Varoom",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 15,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/mesas"
+          ]
+        },
+        "rarity": 30.0
+      }
+    ]
+  }
+  

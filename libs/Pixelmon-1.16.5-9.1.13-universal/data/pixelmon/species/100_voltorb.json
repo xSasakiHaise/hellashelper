@@ -1,0 +1,727 @@
+{
+  "name": "Voltorb",
+  "dex": 100,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Charge",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Eerie Impulse"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Charge Beam"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Electro Ball"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Magnet Rise"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Explosion"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Foul Play",
+          "Magic Coat",
+          "Magnet Rise",
+          "Shock Wave",
+          "Signal Beam",
+          "Snore"
+        ],
+        "eggMoves": [
+          "Metal Sound",
+          "Recycle"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Curse",
+          "Endure",
+          "Flash",
+          "Metal Sound",
+          "Mimic",
+          "Natural Gift",
+          "Rage",
+          "Recycle",
+          "Refresh",
+          "Secret Power",
+          "Sonic Boom",
+          "Sucker Punch",
+          "Take Down",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Volt Switch",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Swagger",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Thief",
+          "Charge Beam",
+          "Endure",
+          "Explosion",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Zap Cannon",
+          "Hidden Power",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Rest"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Take Down",
+          "Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Teleport",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Self-Destruct",
+          "Swift",
+          "Rest",
+          "Thunder Wave",
+          "Explosion",
+          "Substitute"
+        ],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Thief",
+          "Charge Beam",
+          "Facade",
+          "Swift",
+          "Endure",
+          "Volt Switch",
+          "Rain Dance",
+          "Foul Play",
+          "Sleep Talk",
+          "Electro Ball",
+          "Light Screen",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Eerie Impulse",
+          "Substitute",
+          "Thunderbolt",
+          "Helping Hand",
+          "Electric Terrain",
+          "Wild Charge",
+          "Thunder",
+          "Tera Blast",
+          "Charge",
+          "Gyro Ball",
+          "Double-Edge",
+          "Electroweb",
+          "Metal Sound"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Soundproof",
+          "Static"
+        ],
+        "hiddenAbilities": [
+          "Aftermath"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 100
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 103,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/100_voltorb/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/100_voltorb/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/100_voltorb/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.voltorb"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/100_voltorb/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/100_voltorb/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 10.4,
+      "catchRate": 190,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Electrode",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    },
+    {
+      "name": "hisuian",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Charge",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Charge Beam"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Electro Ball"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Discharge",
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Explosion"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Grassy Terrain"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Leech Seed",
+          "Recycle",
+          "Worry Seed"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Leech Seed",
+          "Recycle",
+          "Spark",
+          "Thunder",
+          "Thunder Wave",
+          "Thunderbolt",
+          "Worry Seed"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Thief",
+          "Charge Beam",
+          "Facade",
+          "Swift",
+          "Endure",
+          "Volt Switch",
+          "Rain Dance",
+          "Bullet Seed",
+          "Foul Play",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Electro Ball",
+          "Reflect",
+          "Grass Knot",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Substitute",
+          "Giga Drain",
+          "Energy Ball",
+          "Thunderbolt",
+          "Electric Terrain",
+          "Grassy Terrain",
+          "Wild Charge",
+          "Leaf Storm",
+          "Thunder",
+          "Solar Beam",
+          "Tera Blast",
+          "Charge",
+          "Gyro Ball",
+          "Grassy Glide",
+          "Double-Edge",
+          "Electroweb"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Soundproof",
+          "Static"
+        ],
+        "hiddenAbilities": [
+          "Aftermath"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 100
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 103,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/100_voltorb/all/hisuian/none/texture.png",
+              "sprite": "pixelmon:pokemon/100_voltorb/all/hisuian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/100_voltorb/all/hisuian/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/100_voltorb/all/hisuian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/100_voltorb/all/hisuian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ELECTRIC",
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 13.0,
+      "catchRate": 190,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:leaf_stone"
+          },
+          "to": "Electrode form:hisuian",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": []
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

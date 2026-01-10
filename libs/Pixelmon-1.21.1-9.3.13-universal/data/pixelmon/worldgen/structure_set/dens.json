@@ -1,0 +1,72 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:den/beach",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/badlands",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/desert",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/end",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/forest",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/ice",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/jungle",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/snow",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/swamp",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/mountain",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/nether",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/water",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/taiga",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:den/plains",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1843589878,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "spacing": 53,
+    "separation": 31
+  }
+}

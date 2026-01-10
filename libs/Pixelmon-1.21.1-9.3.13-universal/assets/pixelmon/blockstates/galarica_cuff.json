@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/galarica_cuff",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "pixelmon:block/galarica_cuff",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pixelmon:block/galarica_cuff",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixelmon:block/galarica_cuff",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "name": "Eiscue",
+  "dex": 875,
+  "defaultForms": [
+    "ice_face"
+  ],
+  "forms": [
+    {
+      "name": "ice_face",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Powder Snow",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Weather Ball"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Freeze-Dry"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Snowscape"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Aurora Veil"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Surf"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Blizzard"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Aqua Ring",
+          "Belly Drum",
+          "Double-Edge",
+          "Head Smash",
+          "Icicle Crash",
+          "Soak"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Water Pulse",
+          "Chilling Water",
+          "Facade",
+          "Icy Wind",
+          "Avalanche",
+          "Endure",
+          "Rain Dance",
+          "Snowscape",
+          "Zen Headbutt",
+          "Body Slam",
+          "Ice Punch",
+          "Sleep Talk",
+          "Reflect",
+          "Waterfall",
+          "Rest",
+          "Iron Head",
+          "Substitute",
+          "Iron Defense",
+          "Liquidation",
+          "Surf",
+          "Ice Spinner",
+          "Amnesia",
+          "Reversal",
+          "Ice Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast",
+          "Icicle Spear",
+          "Weather Ball",
+          "Flip Turn",
+          "Double-Edge",
+          "Whirlpool",
+          "Feather Dance"
+        ],
+        "tmMoves8": [
+          "Ice Punch",
+          "Reflect",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Weather Ball",
+          "Icicle Spear",
+          "Brine",
+          "Avalanche",
+          "Round"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Agility",
+          "Waterfall",
+          "Amnesia",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Zen Headbutt",
+          "Iron Head",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Hail"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "IceFace"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.1
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.1
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 110,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 50,
+        "spawnLevel": 22,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/875_eiscue/all/ice_face/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.eiscue",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/875_eiscue/all/ice_face/none/texture.png",
+                      "model": "pixelmon:pokemon/875_eiscue/all/ice_face/none/eiscue1.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/ice_face/none/idle1.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/ice_face/none/walk1.bmd"
+                        }
+                      ],
+                      "scale": 2.8
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/875_eiscue/all/ice_face/none/texture.png",
+                      "model": "pixelmon:pokemon/875_eiscue/all/ice_face/none/eiscue2.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/ice_face/none/idle2.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/ice_face/none/walk2.bmd"
+                        }
+                      ],
+                      "scale": 2.8
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/875_eiscue/all/ice_face/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/875_eiscue/all/ice_face/shiny/texture.png",
+                      "model": "pixelmon:pokemon/875_eiscue/all/ice_face/none/eiscue1.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/ice_face/none/idle1.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/ice_face/none/walk1.bmd"
+                        }
+                      ],
+                      "scale": 2.8
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/875_eiscue/all/ice_face/shiny/texture.png",
+                      "model": "pixelmon:pokemon/875_eiscue/all/ice_face/none/eiscue2.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/ice_face/none/idle2.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/ice_face/none/walk2.bmd"
+                        }
+                      ],
+                      "scale": 2.8
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 89.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      },
+      "growth_data": {
+        "mean": 110.00000000000001,
+        "standard_deviation": 5.500000000000001,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "noice_face",
+      "tags": [
+        "temp"
+      ],
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "specialAttack": 65,
+        "specialDefense": 50,
+        "speed": 130
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/875_eiscue/all/noice_face/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/875_eiscue/all/noice_face/none/texture.png",
+                      "model": "pixelmon:pokemon/875_eiscue/all/noice_face/none/eiscue.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/noice_face/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/noice_face/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 2.8
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/875_eiscue/all/noice_face/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/875_eiscue/all/noice_face/shiny/texture.png",
+                      "model": "pixelmon:pokemon/875_eiscue/all/noice_face/none/eiscue.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/noice_face/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/875_eiscue/all/noice_face/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 2.8
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

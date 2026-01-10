@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.gym1-89.description",
+  "attacks": [
+    {
+      "name": "attack.gym1-89.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.gym1-89.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.gym1-89.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.gym1-89.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "WATER",
+  "pokemon_id": 90,
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

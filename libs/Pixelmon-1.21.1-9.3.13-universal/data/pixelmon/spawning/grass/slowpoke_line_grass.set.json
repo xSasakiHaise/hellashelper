@@ -1,0 +1,113 @@
+{
+  "id": "Slowpoke Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Slowpoke",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lagging_tail",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Slowpoke form:galarian",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lagging_tail",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Slowbro",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 37,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kings_rock",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Slowbro form:galarian",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 37,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kings_rock",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

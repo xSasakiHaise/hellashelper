@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/trade_machine",
+  "textures": {
+    "particle": "pixelmon:block/trade_machine/yellow",
+    "main": "pixelmon:block/trade_machine/yellow"
+  }
+}

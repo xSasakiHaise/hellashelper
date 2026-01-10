@@ -1,0 +1,335 @@
+{
+  "name": "Hattrem",
+  "dex": 857,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Brutal Swing",
+              "Confusion",
+              "Disarming Voice",
+              "Life Dew",
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Aromatic Mist"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Healing Wish"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force"
+        ],
+        "eggMoves": [
+          "After You",
+          "Mystical Fire",
+          "Nuzzle",
+          "Quash"
+        ],
+        "tmMoves9": [
+          "Charm",
+          "Protect",
+          "Psybeam",
+          "Disarming Voice",
+          "Facade",
+          "Swift",
+          "Magical Leaf",
+          "Draining Kiss",
+          "Stored Power",
+          "Endure",
+          "Psyshock",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Metronome",
+          "Thunder Wave",
+          "Rest",
+          "Imprison",
+          "Dark Pulse",
+          "Skill Swap",
+          "Substitute",
+          "Trick",
+          "Giga Drain",
+          "Psychic",
+          "Play Rough",
+          "Calm Mind",
+          "Helping Hand",
+          "Baton Pass",
+          "Psychic Terrain",
+          "Misty Terrain",
+          "Trick Room",
+          "Tera Blast",
+          "Psych Up",
+          "Future Sight",
+          "Expanding Force"
+        ],
+        "tmMoves8": [
+          "Magical Leaf",
+          "Thunder Wave",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Facade",
+          "Helping Hand",
+          "Imprison",
+          "Round",
+          "Draining Kiss",
+          "Mystical Fire",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Skill Swap",
+          "Calm Mind",
+          "Dark Pulse",
+          "Stored Power",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Aromatherapy",
+          "Aromatic Mist",
+          "Mystical Fire",
+          "Nuzzle",
+          "Quash"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Healer",
+          "Anticipation"
+        ],
+        "hiddenAbilities": [
+          "MagicBounce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 57,
+        "attack": 40,
+        "defense": 65,
+        "specialAttack": 86,
+        "specialDefense": 73,
+        "speed": 49
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 130,
+        "baseFriendship": 50,
+        "spawnLevel": 34,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/857_hattrem/all/base/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/857_hattrem/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/857_hattrem/all/base/none/hattrem.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/857_hattrem/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/857_hattrem/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 2.6
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/857_hattrem/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/857_hattrem/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/857_hattrem/all/base/none/hattrem.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/857_hattrem/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/857_hattrem/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 2.6
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Hatenna"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 4.8,
+      "catchRate": 120,
+      "malePercentage": 0,
+      "evolutions": [
+        {
+          "level": 42,
+          "to": "Hatterene",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      },
+      "growth_data": {
+        "mean": 100.0,
+        "standard_deviation": 5.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 8
+}

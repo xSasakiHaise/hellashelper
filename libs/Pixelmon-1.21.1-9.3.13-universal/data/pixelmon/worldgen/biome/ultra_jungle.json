@@ -1,0 +1,82 @@
+{
+  "temperature": 0.75,
+  "downfall": 0.2,
+  "has_precipitation": true,
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 11136116,
+    "fog_color": 11136116,
+    "water_color": 11136116,
+    "water_fog_color": 8561768,
+    "grass_color": 9291870,
+    "foliage_color": 11136116,
+    "grass_color_modifier": "none",
+    "music": {
+      "sound": "pixelmon:pixelmon.music.ultraspace",
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": true
+    },
+    "music_vgitolume": 1
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:bamboo_light",
+      "pixelmon:trees_ultra_jungle",
+      "minecraft:flower_warm",
+      "minecraft:patch_grass_jungle",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_melon",
+      "minecraft:bamboo"
+    ],
+    []
+  ]
+}

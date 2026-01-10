@@ -1,0 +1,15 @@
+{
+  "type": "pixelmon:infuser",
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "pixelmon:moomoo_milk"
+    }
+  ],
+  "results": {
+    "id": "pixelmon:tapu_cocoa"
+  }
+}

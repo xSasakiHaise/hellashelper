@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BS",
+    "SB"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sandstone"
+    },
+    "B": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "id": "pixelmon:temple_block",
+    "count": 4
+  }
+}

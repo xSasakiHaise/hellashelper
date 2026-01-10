@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/couch/cyan",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "pixelmon:block/couch/cyan",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "pixelmon:block/couch/cyan",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "pixelmon:block/couch/cyan",
+      "y": 90
+    }
+  }
+}

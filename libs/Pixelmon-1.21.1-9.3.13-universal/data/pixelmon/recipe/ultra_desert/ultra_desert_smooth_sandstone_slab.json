@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixelmon:ultra_desert_smooth_sandstone"
+    }
+  },
+  "result": {
+    "id": "pixelmon:ultra_desert_smooth_sandstone_slab",
+    "count": 6
+  }
+}

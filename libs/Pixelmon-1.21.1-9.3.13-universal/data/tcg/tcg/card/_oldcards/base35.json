@@ -1,0 +1,34 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "",
+  "pokemon_id": 129,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE35.2.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 10,
+      "text": "attack.BASE35.2.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "damage_type": "PerDamage",
+          "value": 10,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

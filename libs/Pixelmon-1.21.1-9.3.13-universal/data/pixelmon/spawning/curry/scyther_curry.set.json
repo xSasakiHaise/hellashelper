@@ -1,0 +1,21 @@
+{
+  "id": "Scyther Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Scyther",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

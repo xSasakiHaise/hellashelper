@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "values": [
+      {
+        "id": "biomesoplenty:volcanic_plains",
+        "required": false
+      },
+      {
+        "id": "biomesoplenty:volcano",
+        "required": false
+      },
+      {
+        "id": "terralith:ashen_savanna",
+        "required": false
+      },
+      {
+        "id": "terralith:basalt_cliffs",
+        "required": false
+      },
+      {
+        "id": "terralith:volcanic_crater",
+        "required": false
+      },
+      {
+        "id": "terralith:volcanic_peaks",
+        "required": false
+      }
+    ]
+  }

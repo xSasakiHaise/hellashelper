@@ -1,0 +1,36 @@
+{
+  "name": {
+    "translate": "type.poison"
+  },
+  "color": {
+    "red": 201,
+    "green": 5,
+    "blue": 240,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/poison.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:grass",
+        "pixelmon:fairy"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:poison",
+        "pixelmon:ground",
+        "pixelmon:rock",
+        "pixelmon:ghost"
+      ],
+      "effectiveness": "NOT"
+    },
+    {
+      "types": [
+        "pixelmon:steel"
+      ],
+      "effectiveness": "NONE"
+    }
+  ]
+}

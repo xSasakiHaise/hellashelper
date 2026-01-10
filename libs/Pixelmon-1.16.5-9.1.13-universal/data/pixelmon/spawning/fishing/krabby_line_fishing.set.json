@@ -1,0 +1,59 @@
+{
+  "id": "Krabby Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Krabby",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Krabby",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "beaches",
+          "oceanic"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Kingler",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 42,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

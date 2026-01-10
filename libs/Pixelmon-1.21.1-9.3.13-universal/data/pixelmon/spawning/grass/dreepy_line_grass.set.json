@@ -1,0 +1,62 @@
+{
+  "id": "Dreepy Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Dreepy",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Drakloak",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 50,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Dragapult",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 60,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

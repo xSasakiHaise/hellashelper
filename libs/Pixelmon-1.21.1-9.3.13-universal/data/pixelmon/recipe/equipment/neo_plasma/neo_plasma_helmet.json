@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "S S"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:gems/crystal"
+    },
+    "S": {
+      "tag": "c:gems/silicon"
+    }
+  },
+  "result": {
+    "id": "pixelmon:neo_plasma_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "special": false,
+  "hp": 100,
+  "description": "",
+  "pokemon_id": 130,
+  "previous_pokemon_id": 129,
+  "retreat_cost": 3,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC13.1.name",
+      "costs": [
+        "WATER",
+        "WATER",
+        "WATER",
+        "WATER"
+      ],
+      "damage": 70,
+      "text": "attack.GYMC13.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

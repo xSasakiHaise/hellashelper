@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 100,
+  "description": "",
+  "pokemon_id": 149,
+  "previous_pokemon_id": 148,
+  "retreat_cost": 1,
+  "rarity": "tcg:rare",
+  "ability": {
+    "name": "ability.foss19.name",
+    "description": "ability.foss19.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:step_in"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS19.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "text": "attack.FOSS19.1.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 2,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "pixelmon:infuser",
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "pixelmon:kebia_berry"
+    },
+    {
+      "item": "pixelmon:crystal_block"
+    }
+  ],
+  "results": {
+    "id": "pixelmon:poison_gem"
+  }
+}

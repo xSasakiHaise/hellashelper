@@ -1,0 +1,19 @@
+{
+  "name": "timer_ball",
+  "model": "pixelmon:models/pokeballs/timerball.pqc",
+  "texture": "pixelmon:textures/pokeballs/timer_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/timer_ball_flashing.png",
+  "ballSprite": "pixelmon:items/pokeballs/timer_ball",
+  "lidSprite": "pixelmon:items/pokeballs/timer_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/timer_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.TimerBall",
+  "bases": [
+    "platinum"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0.15,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

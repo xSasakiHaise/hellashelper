@@ -1,0 +1,50 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.basep-4.description",
+  "attacks": [
+    {
+      "name": "attack.basep-4.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.basep-4.0.description",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "self": true,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "attack.basep-4.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 50,
+      "text": "attack.basep-4.1.description",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "self": true,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "LIGHTNING",
+  "pokemon_id": 25,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:promo"
+}

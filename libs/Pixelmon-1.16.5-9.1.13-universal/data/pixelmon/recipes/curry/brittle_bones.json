@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:bone"
+  },
+  "result": {
+    "item": "pixelmon:curry_bone",
+    "count": 1
+  },
+  "experience": 2,
+  "cookingtime": 200
+}

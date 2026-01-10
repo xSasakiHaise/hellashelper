@@ -1,0 +1,47 @@
+{
+  "id": "Stunfisk Forage",
+  "spawnInfos": [
+    {
+      "spec": "species:Stunfisk",
+      "stringLocationTypes": [
+        "Forage"
+      ],
+      "minLevel": 34,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Stunfisk form:galarian",
+      "stringLocationTypes": [
+        "Forage"
+      ],
+      "minLevel": 34,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Larvitar",
+  "spawnInfos": [
+    {
+      "spec": "species:Larvitar",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 70.0
+    },
+    {
+      "spec": "species:Larvitar",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 70.0
+    },
+    {
+      "spec": "species:Larvitar",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 55
+      },
+      "rarity": 7.0
+    }
+  ]
+}

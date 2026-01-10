@@ -1,0 +1,84 @@
+{
+  "id": "Boldore",
+  "spawnInfos": [
+    {
+      "spec": "species:Boldore",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:windswept_savanna",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/volcanic",
+          "terralith:savanna_badlands",
+          "terralith:savanna_slopes"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Boldore",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_deep_sea",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Boldore",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 70
+      },
+      "rarity": 8.0
+    }
+  ]
+}

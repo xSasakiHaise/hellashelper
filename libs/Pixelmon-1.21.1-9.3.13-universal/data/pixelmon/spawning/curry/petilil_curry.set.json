@@ -1,0 +1,26 @@
+{
+  "id": "Petilil Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Petilil",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 13,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Pachirisu Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pachirisu",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

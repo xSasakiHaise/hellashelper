@@ -1,0 +1,25 @@
+{
+  "id": "TingLu",
+  "spawnInfos": [
+    {
+      "spec": "species:Ting-Lu level:60",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 3.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "Comfey Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Comfey",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

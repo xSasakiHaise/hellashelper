@@ -1,0 +1,46 @@
+{
+  "id": "Charizard",
+  "spawnInfos": [
+    {
+      "spec": "species:Charizard",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "minecraft:eroded_badlands",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Charizard",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

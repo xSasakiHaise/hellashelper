@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 130,
+  "previous_pokemon_id": 129,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.tero8.name",
+    "description": "ability.tero8.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:final_beam"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO8.1.name",
+      "costs": [
+        "WATER",
+        "WATER",
+        "WATER"
+      ],
+      "damage": 30,
+      "text": "attack.TERO8.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "PARALYZED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beach",
+    {
+      "required": false,
+      "id": "biomesoplenty:dune_beach"
+    },
+    "minecraft:river",
+    {
+      "required": false,
+      "id": "terralith:desert_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:red_oasis"
+    }
+  ]
+}

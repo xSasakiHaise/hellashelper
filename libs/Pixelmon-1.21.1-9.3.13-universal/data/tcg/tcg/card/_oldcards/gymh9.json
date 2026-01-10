@@ -1,0 +1,41 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 117,
+  "previous_pokemon_id": 116,
+  "retreat_cost": 1,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH9.1.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH9.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMH9.2.name",
+      "costs": [
+        "WATER",
+        "WATER",
+        "WATER"
+      ],
+      "damage": 30,
+      "text": "attack.GYMH9.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

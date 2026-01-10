@@ -1,0 +1,6 @@
+$body magearna.bmd
+$anim idle idlebasic.bmd idlebasic.bmd idlebasic.bmd idlebasic.bmd idlebasic.bmd dance.bmd
+$anim special cheeky.bmd
+$anim special2 dance.bmd
+$anim walk walk.bmd
+$scale 0.25

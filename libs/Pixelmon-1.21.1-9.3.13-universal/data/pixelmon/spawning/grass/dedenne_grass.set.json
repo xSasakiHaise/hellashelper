@@ -1,0 +1,33 @@
+{
+  "id": "Dedenne Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Dedenne",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 12,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 130.0
+    }
+  ]
+}

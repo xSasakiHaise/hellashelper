@@ -1,0 +1,48 @@
+{
+  "attackName": "Ceaseless Edge",
+  "attackType": "DARK",
+  "attackCategory": "PHYSICAL",
+  "basePower": 65,
+  "ppBase": 15,
+  "ppMax": 24,
+  "accuracy": 90,
+  "makesContact": true,
+  "effects": [
+    {
+      "maxLayers": 3,
+      "type": "Spikes",
+	  "modifiers": [
+		  {
+			  "type": "Chance",
+			  "value": 100.0
+		  }
+	  ],
+	  "persists": false,
+      "effectTypeID": "Spikes"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": false
+  },
+  "flags": {
+	  "slicing": true
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:darkinium_z",
+      "attackName": "Black Hole Eclipse",
+      "basePower": 120,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

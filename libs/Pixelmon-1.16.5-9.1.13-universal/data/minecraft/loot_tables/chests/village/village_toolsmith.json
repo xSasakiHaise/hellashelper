@@ -1,0 +1,365 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "hammers",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:platinum_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:diamond_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:gold_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:silver_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:ruby_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:sapphire_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:crystal_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:amethyst_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "pixelmon:iron_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "pixelmon:aluminium_hammer"
+        }
+      ]
+    },
+    {
+      "name": "tools",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:platinum_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:platinum_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:platinum_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:silver_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:silver_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:silver_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:golden_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:golden_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:golden_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:ruby_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:ruby_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:ruby_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:sapphire_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:sapphire_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:sapphire_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:amethyst_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:amethyst_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:amethyst_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:crystal_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:crystal_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:crystal_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:iron_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:iron_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "pixelmon:aluminium_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "pixelmon:aluminium_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "pixelmon:aluminium_hoe"
+        }
+      ]
+    },
+    {
+      "name": "gems",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:steel_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "pixelmon:fire_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:ground_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "name": "vanilla",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:aluminium_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:blaze_powder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

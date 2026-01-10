@@ -1,0 +1,26 @@
+{
+  "id": "Elekid Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Elekid",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:electirizer",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SSS",
+    "RPP",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "pixelmon:yellow_shard"
+    },
+    "P": {
+      "item": "minecraft:glass_pane"
+    },
+    "R": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "result": {
+    "id": "pixelmon:yellow_flute",
+    "count": 1
+  }
+}

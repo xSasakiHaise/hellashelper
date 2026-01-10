@@ -1,0 +1,49 @@
+{
+  "attackName": "Barb Barrage",
+  "attackType": "POISON",
+  "attackCategory": "PHYSICAL",
+  "basePower": 60,
+  "ppBase": 15,
+  "ppMax": 24,
+  "accuracy": 100,
+  "makesContact": false,
+  "effects": [
+    {
+      "type": "Poison",
+      "modifiers": [
+        {
+          "type": "Chance",
+          "value": 30.0
+        }
+      ],
+      "persists": false,
+      "effectTypeID": "Poison"
+    },
+    {
+      "effectTypeID": "BarbBarrage",
+      "modifiers": [],
+      "persists": false
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": false
+  },
+  "z": [
+    {
+      "crystal": "poisonium_z",
+      "attackName": "Acid Downpour",
+      "basePower": 130,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

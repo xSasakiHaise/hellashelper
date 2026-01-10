@@ -1,0 +1,698 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:snow",
+    "minecraft:tall_grass",
+    "minecraft:short_grass",
+    "minecraft:fern",
+    "minecraft:dead_bush",
+    "minecraft:tall_grass",
+    "minecraft:sunflower",
+    "minecraft:lilac",
+    "minecraft:rose_bush",
+    "minecraft:peony",
+    "minecraft:large_fern",
+    "minecraft:poppy",
+    "minecraft:dandelion",
+    "minecraft:blue_orchid",
+    "minecraft:allium",
+    "minecraft:azure_bluet",
+    "minecraft:oxeye_daisy",
+    "minecraft:white_tulip",
+    "minecraft:pink_tulip",
+    "minecraft:red_tulip",
+    "minecraft:orange_tulip",
+    "minecraft:cornflower",
+    "minecraft:lily_of_the_valley",
+    "minecraft:wither_rose",
+    "minecraft:torchflower",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus",
+    "minecraft:crimson_roots",
+    "minecraft:warped_roots",
+    "minecraft:nether_sprouts",
+    "minecraft:weeping_vines",
+    "minecraft:twisting_vines",
+    "minecraft:crimson_fungus",
+    "minecraft:pink_petals",
+    "minecraft:spore_blossom",
+    "minecraft:pitcher_plant",
+    "minecraft:glow_lichen",
+    "minecraft:hanging_roots",
+    "minecraft:big_dripleaf",
+    "minecraft:small_dripleaf",
+    "minecraft:cave_vines",
+    "minecraft:frogspawn",
+    "minecraft:vine",
+    "minecraft:cobweb",
+    "minecraft:sugar_cane",
+    "minecraft:bamboo",
+    "minecraft:sweet_berry_bush",
+    "pixelmon:pixelmon_grass",
+    "pixelmon:poke_grass",
+    "pixelmon:ultra_jungle_vine",
+    "pixelmon:ultra_forest_flower",
+    "pixelmon:ultra_forest_fallen_leaves",
+    "minecraft:dead_brain_coral_fan",
+    "minecraft:dead_horn_coral_fan",
+    "minecraft:dead_tube_coral_fan",
+    "minecraft:dead_bubble_coral_fan",
+    "minecraft:dead_fire_coral_fan",
+    {
+      "id": "biomesoplenty:rose",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:violet",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:white_lavender",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:tall_white_lavender",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:lavender",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:tall_lavender",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:wildflower",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:orange_cosmos",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pink_daffodil",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pink_hibiscus",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:waterlily",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:white_petals",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:icy_iris",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:glowflower",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:wilted_lily",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:burning_blossom",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:blue_hydrangea",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:goldenrod",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_vine",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:sprout",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:bush",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:high_grass",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dune_grass",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:desert_grass",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_grass",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cattail",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:barley",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:sea_oats",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:tundra_shrub",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:bramble",
+      "required": false
+    },
+	{
+      "id": "biomesoplenty:tiny_cactus",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:toadstool",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:glowshroom",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:clover",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:huge_clover_petal",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:spanish_moss",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:glowworm_silk",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:red_maple_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:orange_maple_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:yellow_maple_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stringy_cobweb",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:webbing",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hanging_cobweb",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:flesh_tendons",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:eyebulb",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:hair",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pus_bubble",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_cluster",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:brimstone_bud",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:blackstone_spines",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:blackstone_bulb",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:endbloom",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:enderphyte",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:lumaloop",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:barnacles",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:null_plant",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:magenta_pitcher_plant",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cyan_pitcher_plant",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:skyris_vine",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:jacaranda_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:flowering_jacaranda_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:indigo_jacaranda_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:flowering_indigo_jacaranda_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:jacaranda_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_glowcane",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:yellow_glowcane",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_glowcane",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:red_glowcane",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_mushroom",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:weeping_milkcap",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:wood_blewit",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cattail",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:flourescent_cattail",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cattail_sprout",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:flourescent_cattail_sprout",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:golden_spined_cactus",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:horseweed",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mini_cactus",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:barrel_cactus",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:flowering_barrel_cactus",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:poison_ivy",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:prickly_pear_cactus",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:prairie_grass",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:tall_prairie_grass",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:short_grass",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:winter_succulent",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:beach_grass",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:tall_beach_grass",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:leaf_pile",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:clover_patch",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:flower_patch",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:allium_flower_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_allium_flower_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:tall_allium",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_allium",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_tall_allium",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:alpine_bellflower",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:amaranth",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:angelica",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:azalea",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:begonia",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:bistort",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:black_rose",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_rose_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_sage",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:california_poppy",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:crocus",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cyan_amaranth",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cyan_rose",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cyan_tulip",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:daffodil",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:delphinium",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fairy_slipper",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:firecracker_flower_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:foxglove",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_tulip",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:guzmania",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:incan_lily",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:iris",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:japanese_orchid",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:kovan_flower",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:lazarus_bellflower",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:lollipop_flower",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:magenta_amaranth",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:magenta_tulip",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:orange_amaranth",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:orange_daisy",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:osiria_rose",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:peach_leather_flower",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_allium",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_allium_flower_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:tall_pink_allium",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_anemone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_daffodil",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_orchid",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:protea_flower",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:purple_amaranth",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:purple_orchid",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:purple_sage",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:purple_tulip",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:richea",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rose",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:silver_vase_flower",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:snowdrops",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:violet_leather_flower",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_anemone",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_sage",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:winter_cyclamen",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:winter_rose",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:winter_scilla",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:yellow_daffodil",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:yellow_tulip",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:shelf_fungi",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:witch_hazel_branch",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:witch_hazel_blossom",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_sakura_petals",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:yellow_sakura_petals",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:aloe_vera",
+      "required": false
+    }
+  ]
+}

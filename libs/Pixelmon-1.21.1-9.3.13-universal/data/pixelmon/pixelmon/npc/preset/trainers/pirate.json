@@ -1,0 +1,241 @@
+{
+  "interactions": {
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:hit_with_poke_ball",
+          "conditions": {
+            "player": {
+              "key": "pixelmon:player",
+              "type": "pixelmon:context_player"
+            },
+            "type": "pixelmon:can_battle"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Time to fight for the treasure.",
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "player": {
+              "key": "pixelmon:player",
+              "type": "pixelmon:context_player"
+            },
+            "type": "pixelmon:can_battle"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Time to fight for the treasure.",
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "type": "pixelmon:logical_not",
+             "condition": {
+                "condition": {
+                  "player": {
+                    "key": "pixelmon:player",
+                    "type": "pixelmon:context_player"
+                  },
+                  "type": "pixelmon:can_battle"
+                },
+                "type": "pixelmon:interaction_condition"
+               }
+          },
+          "results": {
+            "value": [
+              {
+                "messages": [
+                  {
+                    "text": "You don\u0027t have any Pokémon that can battle!"
+                  }
+                ],
+                "type": "pixelmon:message_player"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:close_dialogue",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "type": "pixelmon:player_start_npc_battle"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:lose_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Looks like the trasure is mine!",
+                "fire_close_event": false,
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:win_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Argh, you beaat me and got my treasure",
+                "fire_close_event": false,
+                "type": "pixelmon:open_dialogue"
+              },
+              {
+                "money": 48.0,
+                "type": "pixelmon:give_money"
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:defeat_trainer"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        }
+      ]
+    },
+    "type": "pixelmon:constant"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "options": [
+        "Carvanha",
+        "Sharpedo",
+        "Wingull",
+        "Pelipper",
+        "Tentacool",
+        "Tentacruel",
+        "Wailmer",
+        "Wailord",
+        "Chatot",
+        "Cramorant",
+        "Krabby",
+        "Kingler",
+        "Huntail",
+        "Aipom",
+        "Ambipom",
+        "Basculin",
+        "Popplio",
+        "Brionne",
+        "Primarina",
+        "Arrokuda",
+        "Barraskewda"
+      ],
+      "min_selections": 2,
+      "max_selections": 4,
+      "type": "pixelmon:random_combination"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Captain BlockBeard",
+      "Captain Crook",
+      "Captain Crawdaunt",
+      "Captain Morgan",
+      "Long John Silver",
+      "Pirate grunt",
+      "Pegleg Pete",
+      "Cannonball",
+      "Calico Jack",
+      "Scuz"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/piratecaptain.png",
+            "fallback": "pixelmon:textures/steve/piratecaptain.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/pirategrunt1.png",
+            "fallback": "pixelmon:textures/steve/pirategrunt1.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/pirategrunt2.png",
+            "fallback": "pixelmon:textures/steve/pirategrunt2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:standard_npc",
+      "profession": "minecraft:farmer"
+    }
+  }
+}

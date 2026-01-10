@@ -1,0 +1,41 @@
+{
+  "id": "Chewtle Line Rocksmash",
+  "spawnInfos": [
+    {
+      "spec": "species:Chewtle",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/rivers",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Drednaw",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 22,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/rivers",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

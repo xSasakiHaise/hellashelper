@@ -1,0 +1,20 @@
+{
+  "id": "Bonsly Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Bonsly",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

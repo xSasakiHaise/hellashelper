@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Magby",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "biomes": "#pixelmon:raid/spawn/magby-1-2",
+      "weight": 1.0
+    },
+    {
+      "spec": "Magby",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      },
+      "biomes": "#pixelmon:raid/spawn/magby-1-1",
+      "weight": 1.0
+    }
+  ]
+}

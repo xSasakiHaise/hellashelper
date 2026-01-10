@@ -1,0 +1,15 @@
+{
+  "type": "pixelmon:infuser",
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "pixelmon:pinap_berry"
+    },
+    {
+      "item": "pixelmon:fresh_water"
+    }
+  ],
+  "results": {
+    "id": "pixelmon:pinap_juice"
+  }
+}

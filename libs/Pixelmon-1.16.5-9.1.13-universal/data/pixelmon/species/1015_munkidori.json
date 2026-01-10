@@ -1,0 +1,246 @@
+{
+  "name": "Munkidori",
+  "dex": 1015,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1.0,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Fake Out",
+              "Flatter",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Sludge Wave"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Future Sight"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Parting Shot"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Mud-Slap",
+          "Protect",
+          "Acid Spray",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Trailblaze",
+          "Facade",
+          "Hex",
+          "Swift",
+          "Stored Power",
+          "Night Shade",
+          "Fling",
+          "Venoshock",
+          "Endure",
+          "Psyshock",
+          "U-turn",
+          "Shadow Claw",
+          "Sleep Talk",
+          "Light Screen",
+          "Metronome",
+          "Grass Knot",
+          "Poison Jab",
+          "Rest",
+          "Taunt",
+          "Imprison",
+          "Gunk Shot",
+          "Substitute",
+          "Trick",
+          "Shadow Ball",
+          "Psychic",
+          "Calm Mind",
+          "Helping Hand",
+          "Baton Pass",
+          "Psychic Terrain",
+          "Nasty Plot",
+          "Sludge Bomb",
+          "Giga Impact",
+          "Focus Blast",
+          "Hyper Beam",
+          "Tera Blast",
+          "Toxic",
+          "Spite",
+          "Uproar",
+          "Poltergeist",
+          "Lash Out",
+          "Psych Up",
+          "Sludge Wave",
+          "Future Sight"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ToxicChain"
+        ],
+        "hiddenAbilities": [
+          "Frisk"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 88,
+        "attack": 75,
+        "defense": 66,
+        "specialAttack": 130,
+        "specialDefense": 90,
+        "speed": 106
+      },
+      "tags": [
+        "undexable",
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 278,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1015_munkidori/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/1015_munkidori/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1015_munkidori/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1015_munkidori/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "POISON",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 12.2,
+      "catchRate": 3,
+      "evolutions": [],
+      "malePercentage": 100,
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

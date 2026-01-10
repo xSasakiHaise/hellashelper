@@ -1,0 +1,23 @@
+{
+  "id": "Eiscue Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Eiscue",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_beach"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

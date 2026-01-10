@@ -1,0 +1,20 @@
+{
+  "id": "Blitzle Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Blitzle",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 16,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

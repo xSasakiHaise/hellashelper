@@ -1,0 +1,63 @@
+{
+  "id": "Bounsweet Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Bounsweet",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Steenee",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 18,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Tsareena",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

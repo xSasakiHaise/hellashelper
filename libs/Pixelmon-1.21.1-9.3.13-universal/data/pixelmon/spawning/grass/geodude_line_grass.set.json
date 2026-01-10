@@ -1,0 +1,103 @@
+{
+  "id": "Geodude Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Geodude",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ],
+        "maxY": 80
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Geodude form:alolan",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:windswept_gravelly_hills",
+          "minecraft:windswept_savanna",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Graveler",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ],
+        "maxY": 80
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Graveler form:alolan",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:windswept_gravelly_hills",
+          "minecraft:windswept_savanna",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

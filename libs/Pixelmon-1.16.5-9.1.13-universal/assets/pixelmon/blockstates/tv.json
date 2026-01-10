@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=south,on=false": {
+      "model": "pixelmon:block/old_tv"
+    },
+    "facing=north,on=false": {
+      "model": "pixelmon:block/old_tv",
+      "y": 180
+    },
+    "facing=east,on=false": {
+      "model": "pixelmon:block/old_tv",
+      "y": 270
+    },
+    "facing=west,on=false": {
+      "model": "pixelmon:block/old_tv",
+      "y": 90
+    },
+    "facing=south,on=true": {
+      "model": "pixelmon:block/old_tv_on"
+    },
+    "facing=north,on=true": {
+      "model": "pixelmon:block/old_tv_on",
+      "y": 180
+    },
+    "facing=east,on=true": {
+      "model": "pixelmon:block/old_tv_on",
+      "y": 270
+    },
+    "facing=west,on=true": {
+      "model": "pixelmon:block/old_tv_on",
+      "y": 90
+    }
+  }
+}

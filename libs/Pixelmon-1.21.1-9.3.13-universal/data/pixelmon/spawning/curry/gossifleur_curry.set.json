@@ -1,0 +1,20 @@
+{
+  "id": "Gossifleur Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Gossifleur",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

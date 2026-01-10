@@ -1,0 +1,14 @@
+{
+  "events": [
+    "pixelmon:set_online_form"
+  ],
+  "condition": {
+    "type": "pixelmon:true"
+  },
+  "resulting_states": [
+    "SEEN",
+    "CAUGHT"
+  ],
+  "player_context_key": "pixelmon:player",
+  "pokemon_context_key": "pixelmon:pokemon"
+}

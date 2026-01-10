@@ -1,0 +1,43 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:summon/red_chain"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:summon/red_chain"
+      }
+    },
+    "has_all_rubies": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:ruby_azelf"
+            ]
+          },
+          {
+            "items": [
+              "pixelmon:ruby_mesprit"
+            ]
+          },
+          {
+            "items": [
+              "pixelmon:ruby_uxie"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_all_rubies"
+    ]
+  ]
+}

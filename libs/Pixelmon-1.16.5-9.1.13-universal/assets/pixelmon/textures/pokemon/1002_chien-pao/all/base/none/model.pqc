@@ -1,0 +1,4 @@
+$body chien_pao.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 5.5

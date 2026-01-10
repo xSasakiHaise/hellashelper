@@ -1,0 +1,52 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:eroded_badlands",
+    {
+      "required": false,
+      "id": "terralith:ancient_sands"
+    },
+    {
+      "required": false,
+      "id": "terralith:bryce_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:painted_mountains"
+    },
+    {
+      "required": false,
+      "id": "terralith:red_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:white_mesa"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:volcanic_plains"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:volcano"
+    },
+    {
+      "required": false,
+      "id": "terralith:ashen_savanna"
+    },
+    {
+      "required": false,
+      "id": "terralith:basalt_cliffs"
+    },
+    {
+      "required": false,
+      "id": "terralith:volcanic_crater"
+    },
+    {
+      "required": false,
+      "id": "terralith:volcanic_peaks"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+	"rewards": {
+		"recipes": [
+			"pixelmon:decor/folding_chair/purple_folding_chair"
+		]
+	},
+	"criteria": {
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "pixelmon:decor/folding_chair/purple_folding_chair"
+			}
+		},
+		"has_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+            "items": [
+              "minecraft:purple_wool"
+            ]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_wool"
+		]
+	]
+}

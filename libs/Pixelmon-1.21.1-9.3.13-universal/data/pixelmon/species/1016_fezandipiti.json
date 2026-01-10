@@ -1,0 +1,305 @@
+{
+  "name": "Fezandipiti",
+  "dex": 1016,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Disarming Voice",
+              "Double Kick",
+              "Peck",
+              "Poison Gas"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Attract"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Cross Poison"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Tail Slap"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Beat Up"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Flatter",
+              "Swagger"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Moonblast"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Agility",
+          "Protect",
+          "Acid Spray",
+          "Acrobatics",
+          "Thief",
+          "Disarming Voice",
+          "Facade",
+          "Poison Tail",
+          "Aerial Ace",
+          "Hex",
+          "Swift",
+          "Icy Wind",
+          "Air Cutter",
+          "Venoshock",
+          "Endure",
+          "U-turn",
+          "Shadow Claw",
+          "Air Slash",
+          "Sleep Talk",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Poison Jab",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Dark Pulse",
+          "Fly",
+          "Gunk Shot",
+          "Substitute",
+          "Tailwind",
+          "Shadow Ball",
+          "Heat Wave",
+          "Play Rough",
+          "Calm Mind",
+          "Nasty Plot",
+          "Sludge Bomb",
+          "Giga Impact",
+          "Hurricane",
+          "Hyper Beam",
+          "Brave Bird",
+          "Tera Blast",
+          "Toxic",
+          "Spite",
+          "Uproar",
+          "Dual Wingbeat",
+          "Lash Out",
+          "Psych Up",
+          "Alluring Voice"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ToxicChain"
+        ],
+        "hiddenAbilities": [
+          "Technician"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 5,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.4,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 88,
+        "attack": 91,
+        "defense": 82,
+        "specialAttack": 70,
+        "specialDefense": 125,
+        "speed": 99
+      },
+      "tags": [
+        "undexable",
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 278,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/1016_fezandipiti/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.fezandipiti",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/1016_fezandipiti/all/base/none/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/1016_fezandipiti/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/1016_fezandipiti/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "POISON",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 30.1,
+      "catchRate": 3,
+      "evolutions": [],
+      "malePercentage": 100,
+      "evYields": {
+        "specialDefense": 3
+      },
+      "growth_data": {
+        "mean": 50.0,
+        "standard_deviation": 2.5,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 9
+}

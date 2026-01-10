@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/box",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "pixelmon:block/box",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pixelmon:block/box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixelmon:block/box",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.shopkeeper.utility.maniac.1.title",
+                  "message": "pixelmon.npc.dialogue.shopkeeper.utility.water.maniac.1.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:relic_band",
+                        "count": 1
+                      },
+                      "buyPrice": 0.0,
+                      "sellPrice": 100000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:relic_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 0.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:relic_crown",
+                        "count": 1
+                      },
+                      "buyPrice": 0.0,
+                      "sellPrice": 300000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:relic_silver",
+                        "count": 1
+                      },
+                      "buyPrice": 0.0,
+                      "sellPrice": 5000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:relic_gold",
+                        "count": 1
+                      },
+                      "buyPrice": 0.0,
+                      "sellPrice": 30000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:relic_statue",
+                        "count": 1
+                      },
+                      "buyPrice": 0.0,
+                      "sellPrice": 200000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:relic_vase",
+                        "count": 1
+                      },
+                      "buyPrice": 0.0,
+                      "sellPrice": 50000.0
+                    }
+                  ],
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.shopkeeper.utility.maniac.1.title",
+                  "message": "pixelmon.npc.dialogue.shopkeeper.utility.water.maniac.1.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.0,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "title": {
+        "translate": "pixelmon.npc.dialogue.shopkeeper.utility.maniac.1.plate",
+        "color": "#2176FF",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Mr. Riches"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "value": {
+      "slim": true,
+      "texture": "pixelmon:textures/steve/blackbelt.png",
+      "type": "pixelmon:player"
+    },
+    "type": "pixelmon:constant"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5.0,
+      "swim": false
+    }
+  }
+}

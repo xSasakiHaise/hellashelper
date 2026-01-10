@@ -1,0 +1,219 @@
+{
+  "interactions": {
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:hit_with_poke_ball",
+          "conditions": {
+            "player": {
+              "key": "pixelmon:player",
+              "type": "pixelmon:context_player"
+            },
+            "type": "pixelmon:can_battle"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "I\u0027ve never lost at Pokémon battling!",
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "player": {
+              "key": "pixelmon:player",
+              "type": "pixelmon:context_player"
+            },
+            "type": "pixelmon:can_battle"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "I\u0027ve never lost at Pokémon battling!",
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "type": "pixelmon:logical_not",
+             "condition": {
+                "condition": {
+                  "player": {
+                    "key": "pixelmon:player",
+                    "type": "pixelmon:context_player"
+                  },
+                  "type": "pixelmon:can_battle"
+                },
+                "type": "pixelmon:interaction_condition"
+               }
+          },
+          "results": {
+            "value": [
+              {
+                "messages": [
+                  {
+                    "text": "You don\u0027t have any Pokémon that can battle!"
+                  }
+                ],
+                "type": "pixelmon:message_player"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:close_dialogue",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "type": "pixelmon:player_start_npc_battle"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:lose_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Yay! I\u0027m one for one!",
+                "fire_close_event": false,
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:win_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "This was my first battle...",
+                "fire_close_event": false,
+                "type": "pixelmon:open_dialogue"
+              },
+              {
+                "money": 16.0,
+                "type": "pixelmon:give_money"
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:defeat_trainer"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        }
+      ]
+    },
+    "type": "pixelmon:constant"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "options": [
+        "Riolu",
+        "Dratini",
+        "Beldum",
+        "Bagon",
+        "Litwick",
+        "Spheal",
+        "Ralts",
+        "Golett",
+        "Drifloon",
+        "Dedenne",
+        "Stufful",
+        "Cutiefly",
+        "Yungoos",
+        "Azurill",
+        "Pichu",
+        "Cleffa",
+        "Darumaka",
+        "Paras",
+        "Pineco",
+        "Poliwag",
+        "Tympole",
+        "Tynamo",
+        "Ledyba",
+        "Budew",
+        "Jigglypuff",
+        "Mimikyu"
+      ],
+      "min_selections": 1,
+      "max_selections": 4,
+      "type": "pixelmon:random_combination"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Zelda",
+      "Renee",
+      "Gabby",
+      "\"Twinkle Toes\"",
+      "Jenni Jr."
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/preschooler_f1.png",
+            "fallback": "pixelmon:textures/steve/preschooler_f1.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:standard_npc",
+      "profession": "minecraft:farmer"
+    }
+  }
+}

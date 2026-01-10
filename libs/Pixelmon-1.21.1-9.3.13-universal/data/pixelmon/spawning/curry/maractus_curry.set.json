@@ -1,0 +1,27 @@
+{
+  "id": "Maractus Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Maractus",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 14,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

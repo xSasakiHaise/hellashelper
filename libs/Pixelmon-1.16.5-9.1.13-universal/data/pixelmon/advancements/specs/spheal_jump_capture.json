@@ -1,0 +1,85 @@
+{
+	"display": {
+		"icon": {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{ndex:363, palette:\"pokeball\", form:\"\"}"
+		},
+		"title": {
+			"translate": "advancements.spheal_jump.title"
+		},
+		"description": {
+			"translate": "advancements.spheal_jump.description"
+		},
+		"hidden": true
+	},
+    "parent" : "pixelmon:specs/spec_trigger",
+    "criteria":{
+       "1":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Spheal palette:pokeball"
+          }
+       },
+       "2":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Spheal palette:duskball"
+          }
+       },
+       "3":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Spheal palette:loveball"
+          }
+       },
+       "4":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Spheal palette:friendball"
+          }
+       },
+       "5":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Spheal palette:heavyball"
+          }
+       },
+       "6":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Spheal palette:moonball"
+          }
+       },
+       "7":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Spheal palette:premierball"
+          }
+       },
+       "8":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Spheal palette:masterball"
+          }
+       },
+       "9":{
+          "trigger":"pixelmon:spec_trigger",
+          "conditions":{
+             "spec":"Spheal palette:gsball"
+          }
+       }
+    },
+    "requirements":[
+       [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+       ]
+    ]
+}

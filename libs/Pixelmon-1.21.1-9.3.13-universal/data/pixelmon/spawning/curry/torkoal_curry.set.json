@@ -1,0 +1,29 @@
+{
+  "id": "Torkoal Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Torkoal",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 35,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

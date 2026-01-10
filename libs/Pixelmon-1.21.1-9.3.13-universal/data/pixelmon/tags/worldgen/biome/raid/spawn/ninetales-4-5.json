@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+      "required": false,
+      "id": "biomesoplenty:redwood_forest"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_forest"
+    }
+  ]
+}

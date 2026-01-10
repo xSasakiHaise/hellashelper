@@ -1,0 +1,15 @@
+{
+  "spawns": [
+    {
+      "spec": "MimeJr",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      },
+      "biomes": "#pixelmon:raid/spawn/mimejr-1-1",
+      "weight": 1.0
+    }
+  ]
+}

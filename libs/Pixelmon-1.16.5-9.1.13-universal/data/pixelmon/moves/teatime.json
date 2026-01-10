@@ -1,0 +1,33 @@
+{
+  "attackIndex": 710,
+  "attackName": "Teatime",
+  "attackType": "NORMAL",
+  "attackCategory": "STATUS",
+  "basePower": 0,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": -1,
+  "makesContact": false,
+  "effects": [
+    {
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "TeaTime"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "flags": {
+	  "authentic": true
+  },
+  "targetingInfo": {
+    "hitsAll": true,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": true,
+    "hitsSelf": true,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": true
+  }
+}

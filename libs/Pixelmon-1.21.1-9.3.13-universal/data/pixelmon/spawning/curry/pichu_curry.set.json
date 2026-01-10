@@ -1,0 +1,26 @@
+{
+  "id": "Pichu Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pichu",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:light_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

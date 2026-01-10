@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.base4-24.description",
+  "attacks": [
+    {
+      "name": "attack.base4-24.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base4-24.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.base4-24.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base4-24.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "LIGHTNING",
+  "pokemon_id": 125,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:rare"
+}

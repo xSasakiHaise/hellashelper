@@ -1,0 +1,20 @@
+{
+  "id": "Gothita Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Gothita",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

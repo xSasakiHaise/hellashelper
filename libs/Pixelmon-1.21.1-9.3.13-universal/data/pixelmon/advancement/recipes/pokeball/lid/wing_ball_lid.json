@@ -1,0 +1,44 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:pokeball/lid/wing_ball_lid"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:pokeball/lid/wing_ball_lid"
+      }
+    },
+    "has_tumblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:sky_tumblestone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:ingots/silver"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tumblestone",
+      "has_ingot"
+    ]
+  ]
+}

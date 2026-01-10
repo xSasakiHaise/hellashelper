@@ -1,0 +1,39 @@
+{
+  "id": "Wugtrio",
+  "spawnInfos": [
+    {
+      "spec": "species:Wugtrio",
+      "stringLocationTypes": [
+        "Land",
+        "Seafloor"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "minecraft:ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:warm_ocean"
+        ]
+      },
+      "rarity": 20.0
+    },
+	{
+      "spec": "species:Wugtrio",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+		  "biomeswevegone:lush_stacks"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

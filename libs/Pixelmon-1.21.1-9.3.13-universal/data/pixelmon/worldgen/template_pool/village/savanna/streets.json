@@ -1,0 +1,69 @@
+{
+  "name": "pixelmon:village/savanna/streets",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:village/savanna/savanna_road_daycare_1",
+        "processors": "minecraft:street_savanna",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:village/savanna/savanna_road_daycare_2",
+        "processors": "minecraft:street_savanna",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:village/savanna/savanna_road_daycare_3",
+        "processors": "minecraft:street_savanna",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "pixelmon:village/savanna/savanna_road_daycare_4",
+        "processors": "minecraft:street_savanna",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:village/savanna/savanna_road_arena_1",
+        "processors": "minecraft:street_savanna",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "pixelmon:village/savanna/savanna_road_arena_2",
+        "processors": "minecraft:street_savanna",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:village/savanna/savanna_road_arena_3",
+        "processors": "minecraft:street_savanna",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

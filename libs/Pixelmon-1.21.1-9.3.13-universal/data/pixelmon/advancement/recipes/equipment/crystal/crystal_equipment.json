@@ -1,0 +1,31 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/crystal/crystal_axe",
+      "pixelmon:equipment/crystal/crystal_block",
+      "pixelmon:equipment/crystal/crystal_from_block",
+      "pixelmon:equipment/crystal/crystal_hammer",
+      "pixelmon:equipment/crystal/crystal_hoe",
+      "pixelmon:equipment/crystal/crystal_pickaxe",
+      "pixelmon:equipment/crystal/crystal_shovel",
+      "pixelmon:equipment/crystal/crystal_sword"
+    ]
+  },
+  "criteria": {
+    "has_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:gems/crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crystal"
+    ]
+  ]
+}

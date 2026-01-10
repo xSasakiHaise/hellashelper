@@ -1,0 +1,253 @@
+{
+  "starters": [
+    {
+      "spec": "Bulbasaur",
+      "chance_specs": [],
+      "page": 0,
+      "x": -1,
+      "y": 0,
+      "scale": 1
+    },
+    {
+      "spec": "Charmander",
+      "chance_specs": [],
+      "page": 0,
+      "x": -1,
+      "y": 2,
+      "scale": 1
+    },
+    {
+      "spec": "Squirtle",
+      "chance_specs": [],
+      "page": 0,
+      "x": -1,
+      "y": 4,
+      "scale": 1
+    },
+    {
+      "spec": "Chikorita",
+      "chance_specs": [],
+      "page": 0,
+      "x": 1,
+      "y": 0,
+      "scale": 1
+    },
+    {
+      "spec": "Cyndaquil",
+      "chance_specs": [],
+      "page": 0,
+      "x": 1,
+      "y": 2,
+      "scale": 1
+    },
+    {
+      "spec": "Totodile",
+      "chance_specs": [],
+      "page": 0,
+      "x": 1,
+      "y": 4,
+      "scale": 1
+    },
+    {
+      "spec": "Treecko",
+      "chance_specs": [],
+      "page": 0,
+      "x": 3,
+      "y": 0,
+      "scale": 1
+    },
+    {
+      "spec": "Torchic",
+      "chance_specs": [],
+      "page": 0,
+      "x": 3,
+      "y": 2,
+      "scale": 1
+    },
+    {
+      "spec": "Mudkip",
+      "chance_specs": [],
+      "page": 0,
+      "x": 3,
+      "y": 4,
+      "scale": 1
+    },
+    {
+      "spec": "Turtwig",
+      "chance_specs": [],
+      "page": 0,
+      "x": 5,
+      "y": 0,
+      "scale": 1
+    },
+    {
+      "spec": "Chimchar",
+      "chance_specs": [],
+      "page": 0,
+      "x": 5,
+      "y": 2,
+      "scale": 1
+    },
+    {
+      "spec": "Piplup",
+      "chance_specs": [],
+      "page": 0,
+      "x": 5,
+      "y": 4,
+      "scale": 1
+    },
+    {
+      "spec": "Snivy",
+      "chance_specs": [],
+      "page": 0,
+      "x": 7,
+      "y": 0,
+      "scale": 1
+    },
+    {
+      "spec": "Tepig",
+      "chance_specs": [],
+      "page": 0,
+      "x": 7,
+      "y": 2,
+      "scale": 1
+    },
+    {
+      "spec": "Oshawott",
+      "chance_specs": [],
+      "page": 0,
+      "x": 7,
+      "y": 4,
+      "scale": 1
+    },
+    {
+      "spec": "Chespin",
+      "chance_specs": [],
+      "page": 0,
+      "x": 9,
+      "y": 0,
+      "scale": 1
+    },
+    {
+      "spec": "Fennekin",
+      "chance_specs": [],
+      "page": 0,
+      "x": 9,
+      "y": 2,
+      "scale": 1
+    },
+    {
+      "spec": "Froakie",
+      "chance_specs": [],
+      "page": 0,
+      "x": 9,
+      "y": 4,
+      "scale": 1
+    },
+    {
+      "spec": "Rowlet",
+      "chance_specs": [],
+      "page": 0,
+      "x": 11,
+      "y": 0,
+      "scale": 1
+    },
+    {
+      "spec": "Litten",
+      "chance_specs": [],
+      "page": 0,
+      "x": 11,
+      "y": 2,
+      "scale": 1
+    },
+    {
+      "spec": "Popplio",
+      "chance_specs": [],
+      "page": 0,
+      "x": 11,
+      "y": 4,
+      "scale": 1
+    },
+    {
+      "spec": "Grookey",
+      "chance_specs": [],
+      "page": 0,
+      "x": 13,
+      "y": 0,
+      "scale": 1
+    },
+    {
+      "spec": "Scorbunny",
+      "chance_specs": [],
+      "page": 0,
+      "x": 13,
+      "y": 2,
+      "scale": 1
+    },
+    {
+      "spec": "Sobble",
+      "chance_specs": [],
+      "page": 0,
+      "x": 13,
+      "y": 4,
+      "scale": 1
+    },
+    {
+      "spec": "Sprigatito",
+      "chance_specs": [],
+      "page": 0,
+      "x": 15,
+      "y": 0,
+      "scale": 1
+    },
+    {
+      "spec": "Fuecoco",
+      "chance_specs": [],
+      "page": 0,
+      "x": 15,
+      "y": 2,
+      "scale": 1
+    },
+    {
+      "spec": "Quaxly",
+      "chance_specs": [],
+      "page": 0,
+      "x": 15,
+      "y": 4,
+      "scale": 1
+    }
+  ],
+  "chance_specs": [
+    {
+      "spec": "level:5",
+      "chance": 1
+    },
+    {
+      "spec": "ribbon:destiny",
+      "chance": 1
+    },
+    {
+      "spec": "shiny",
+      "chance": 0.00024414062
+    }
+  ],
+  "options": [
+
+  ],
+  "page_colors": [
+    {
+      "page": 0,
+      "color": {
+        "r": 226,
+        "g": 86,
+        "b": 146,
+        "a": 255
+      }
+    }
+  ],
+  "loop": true,
+  "text": [
+    "gui.starter.trademark4",
+    "gui.starter.trademark5"
+  ]
+}

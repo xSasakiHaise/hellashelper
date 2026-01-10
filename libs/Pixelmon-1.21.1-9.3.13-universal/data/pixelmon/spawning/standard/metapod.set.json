@@ -1,0 +1,77 @@
+{
+  "id": "Metapod",
+  "spawnInfos": [
+    {
+      "spec": "species:Metapod",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Tree Top"
+      ],
+      "minLevel": 7,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "biomeswevegone:crag_gardens",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Metapod palette:pink",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 7,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "biomeswevegone:crag_gardens",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Metapod palette:valencian",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 7,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

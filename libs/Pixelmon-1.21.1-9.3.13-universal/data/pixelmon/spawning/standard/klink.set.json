@@ -1,0 +1,39 @@
+{
+  "id": "Klink",
+  "spawnInfos": [
+    {
+      "spec": "species:Klink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains",
+          "#pixelmon:spawning/mountainous"
+        ],
+        "maxY": 90
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Klink",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50
+      },
+      "rarity": 10.0
+    }
+  ]
+}

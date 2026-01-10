@@ -1,0 +1,5 @@
+$body kartana.bmd
+$anim walk walk.bmd
+$anim idle pirouette.bmd
+$anim fly fly.bmd
+$scale 0.34

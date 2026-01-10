@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixelmon:cooked_blue_apricorn"
+    }
+  },
+  "result": {
+    "id": "pixelmon:poke_ball_lid",
+    "count": 3,
+    "components": {
+      "pixelmon:poke_ball": "heavy_ball"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Surskit Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Surskit",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

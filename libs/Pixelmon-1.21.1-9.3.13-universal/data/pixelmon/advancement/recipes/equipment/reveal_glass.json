@@ -1,0 +1,64 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/reveal_glass"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:equipment/reveal_glass"
+      }
+    },
+    "has_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:gems/crystal"
+          }
+        ]
+      }
+    },
+    "has_sapphire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:gems/sapphire"
+          }
+        ]
+      }
+    },
+    "has_ruby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:gems/ruby"
+          }
+        ]
+      }
+    },
+    "has_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:gems/emerald"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crystal",
+      "has_sapphire",
+      "has_ruby",
+      "has_emerald"
+    ]
+  ]
+}

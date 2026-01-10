@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Electrode",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/electrode-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Electrode form:hisuian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/electrode-hisuian-4-5",
+      "weight": 1.0
+    }
+  ]
+}

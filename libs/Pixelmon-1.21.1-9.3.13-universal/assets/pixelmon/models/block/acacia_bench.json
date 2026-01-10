@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/bench",
+  "textures": {
+    "particle": "minecraft:block/acacia_planks",
+    "planks_oak": "minecraft:block/acacia_planks"
+  }
+}

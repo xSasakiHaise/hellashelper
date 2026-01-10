@@ -1,0 +1,14 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:polar_bear"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "cubchoo lvl:5"
+    ]
+  }
+}

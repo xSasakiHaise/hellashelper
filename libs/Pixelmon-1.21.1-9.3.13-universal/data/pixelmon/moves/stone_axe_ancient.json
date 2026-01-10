@@ -1,0 +1,53 @@
+{
+  "attackName": "Ancient Stone Axe",
+  "attackType": "ROCK",
+  "attackCategory": "PHYSICAL",
+  "basePower": 65,
+  "ppBase": 15,
+  "ppMax": 24,
+  "accuracy": 90,
+  "makesContact": true,
+  "effects": [
+    {
+      "stages": 1,
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "CriticalHit"
+    },
+    {
+      "type": "Splinters",
+      "modifiers": [
+        {
+          "type": "Chance",
+          "value": 100.0
+        }
+      ],
+      "persists": false,
+      "effectTypeID": "Splinters"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": false
+  },
+  "flags": {
+	  "slicing": true
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:rockium_z",
+      "attackName": "Continental Crush",
+      "basePower": 120,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

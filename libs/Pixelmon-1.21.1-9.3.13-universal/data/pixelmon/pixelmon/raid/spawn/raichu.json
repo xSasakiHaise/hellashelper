@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Raichu",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/raichu-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Raichu form:alolan",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/raichu-alolan-4-5",
+      "weight": 1.0
+    }
+  ]
+}

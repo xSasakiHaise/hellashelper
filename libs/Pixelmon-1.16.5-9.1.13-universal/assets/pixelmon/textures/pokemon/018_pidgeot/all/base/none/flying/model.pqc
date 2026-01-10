@@ -1,0 +1,4 @@
+$body pidgeot.bmd
+$anim fly fly.bmd
+$anim idle fly.bmd
+$scale 1.2

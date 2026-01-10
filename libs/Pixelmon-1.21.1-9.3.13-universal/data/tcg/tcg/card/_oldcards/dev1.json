@@ -1,0 +1,28 @@
+{
+  "special": false,
+  "hp": 300,
+  "description": "",
+  "pokemon_id": 0,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 3,
+  "rarity": "tcg:secret_rare",
+  "attacks": [
+    {
+      "name": "attack.dev1.1.name",
+      "costs": [
+        "LIGHTNING",
+        "LIGHTNING",
+        "FIRE"
+      ],
+      "damage": 300,
+      "text": "attack.dev1.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": [
+    "LIGHTNING",
+    "FIRE"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": {
+    "translate": "pixelmon.pokedex.shiny_dex"
+  },
+  "priority": 2,
+  "primary_color": {
+    "red": 255,
+    "green": 245,
+    "blue": 230,
+    "alpha": 255
+  },
+  "secondary_color": {
+    "red": 255,
+    "green": 183,
+    "blue": 30,
+    "alpha": 255
+  },
+  "text_color": {
+    "red": 182,
+    "green": 122,
+    "blue": 2,
+    "alpha": 255
+  },
+  "pokemon": {
+    "type": "pixelmon:all_with_palette_tag",
+    "tag": "shiny"
+  },
+  "acceptance_test": {
+    "type": "pixelmon:spec",
+    "spec": "shiny"
+  }
+}

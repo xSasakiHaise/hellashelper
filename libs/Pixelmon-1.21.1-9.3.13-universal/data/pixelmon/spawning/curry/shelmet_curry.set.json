@@ -1,0 +1,20 @@
+{
+  "id": "Shelmet Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Shelmet",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "Corvisquire",
+  "spawnInfos": [
+    {
+      "spec": "species:Corvisquire",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Corvisquire",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 18,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

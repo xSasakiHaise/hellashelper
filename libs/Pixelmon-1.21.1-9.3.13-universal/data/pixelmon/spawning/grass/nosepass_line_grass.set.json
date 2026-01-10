@@ -1,0 +1,49 @@
+{
+  "id": "Nosepass Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Nosepass",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magnet",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Probopass",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magnet",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

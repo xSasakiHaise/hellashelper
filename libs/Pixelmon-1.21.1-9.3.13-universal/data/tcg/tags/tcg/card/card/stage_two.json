@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#tcg:types/stage_two/base1",
+    "#tcg:types/stage_two/base2",
+    "#tcg:types/stage_two/base3",
+    "#tcg:types/stage_two/base4",
+    "#tcg:types/stage_two/base5",
+    "#tcg:types/stage_two/basep",
+    "#tcg:types/stage_two/gym1",
+    "#tcg:types/stage_two/gym2"
+  ],
+  "tag": "tcg:stage_two"
+}

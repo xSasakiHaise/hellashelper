@@ -1,0 +1,28 @@
+{
+  "id": "Minior Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Minior",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/freezing_mountains",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

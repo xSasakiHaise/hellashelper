@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "pixelmon:ultra_gingko_logs"
+    }
+  ],
+  "result": {
+    "item": "pixelmon:ultra_gingko_planks",
+    "count": 4
+  }
+}

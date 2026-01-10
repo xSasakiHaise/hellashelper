@@ -1,0 +1,17 @@
+{
+  "name": "christmas_ball",
+  "model": "pixelmon:models/pokeballs/base.pqc",
+  "texture": "pixelmon:textures/pokeballs/christmas/christmasball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/christmas/christmasballflashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/christmas_ball",
+  "guiSprite": "pixelmon:textures/pokeballs/christmas/xmas.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.ChristmasBallLogic",
+  "bases": [],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "hasLid": false,
+  "particles": false
+}

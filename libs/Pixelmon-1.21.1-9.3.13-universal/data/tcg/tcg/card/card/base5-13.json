@@ -1,0 +1,41 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base5-13.description",
+  "attacks": [
+    {
+      "name": "attack.base5-13.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base5-13.0.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 3,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "GRASS",
+  "pokemon_id": 45,
+  "ability": {
+    "name": "ability.base5-13.name",
+    "description": "ability.base5-13.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:hay_fever"
+    }
+  },
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

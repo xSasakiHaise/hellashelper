@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,egg=true": {
+      "model": "pixelmon:block/daycare/egg/light_blue"
+    },
+    "facing=east,egg=true": {
+      "model": "pixelmon:block/daycare/egg/light_blue",
+      "y": 90
+    },
+    "facing=south,egg=true": {
+      "model": "pixelmon:block/daycare/egg/light_blue",
+      "y": 180
+    },
+    "facing=west,egg=true": {
+      "model": "pixelmon:block/daycare/egg/light_blue",
+      "y": 270
+    },
+    "facing=north,egg=false": {
+      "model": "pixelmon:block/daycare/light_blue"
+    },
+    "facing=east,egg=false": {
+      "model": "pixelmon:block/daycare/light_blue",
+      "y": 90
+    },
+    "facing=south,egg=false": {
+      "model": "pixelmon:block/daycare/light_blue",
+      "y": 180
+    },
+    "facing=west,egg=false": {
+      "model": "pixelmon:block/daycare/light_blue",
+      "y": 270
+    }
+  }
+}

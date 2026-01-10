@@ -1,0 +1,8 @@
+{
+  "__comment__": "this file was automatically created by mcresources",
+  "parent": "pixelmon:block/couch",
+  "textures": {
+    "particle": "pixelmon:block/couch/light_gray",
+    "all": "pixelmon:block/couch/light_gray"
+  }
+}

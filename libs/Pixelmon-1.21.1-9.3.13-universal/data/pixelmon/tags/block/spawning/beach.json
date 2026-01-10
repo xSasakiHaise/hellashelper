@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sand",
+    "minecraft:clay",
+    "minecraft:gravel",
+    "pixelmon:ultra_deep_clay",
+    "pixelmon:ultra_deep_gravel",
+    "pixelmon:poke_sand_corner1",
+    "pixelmon:poke_sand_corner2",
+    "pixelmon:poke_sand_corner3",
+    "pixelmon:poke_sand_corner4",
+    "pixelmon:poke_sand_side1",
+    "pixelmon:poke_sand_side2",
+    "pixelmon:poke_sand_side3",
+    "pixelmon:poke_sand_side4",
+    "pixelmon:poke_sand",
+    {
+      "id": "biomesoplenty:white_sand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_sand",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:black_sand",
+      "required": false
+    }
+  ]
+}

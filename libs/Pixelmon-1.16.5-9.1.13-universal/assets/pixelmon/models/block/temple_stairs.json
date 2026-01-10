@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "pixelmon:block/temple_block",
+    "top": "pixelmon:block/temple_block",
+    "side": "pixelmon:block/temple_block"
+  }
+}

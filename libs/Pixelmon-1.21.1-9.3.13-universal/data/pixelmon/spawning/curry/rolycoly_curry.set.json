@@ -1,0 +1,29 @@
+{
+  "id": "Rolycoly Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Rolycoly",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:windswept_savanna",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

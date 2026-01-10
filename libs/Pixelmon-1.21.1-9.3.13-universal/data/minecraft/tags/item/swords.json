@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:aluminum_sword",
+    "pixelmon:silver_sword",
+    "pixelmon:platinum_sword",
+    "pixelmon:ruby_sword",
+    "pixelmon:sapphire_sword",
+    "pixelmon:crystal_sword",
+    "pixelmon:fire_stone_sword",
+    "pixelmon:water_stone_sword",
+    "pixelmon:leaf_stone_sword",
+    "pixelmon:thunder_stone_sword",
+    "pixelmon:sun_stone_sword",
+    "pixelmon:moon_stone_sword",
+    "pixelmon:dawn_stone_sword",
+    "pixelmon:dusk_stone_sword",
+    "pixelmon:ice_stone_sword",
+    "pixelmon:shiny_stone_sword"
+  ]
+}

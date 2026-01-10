@@ -1,0 +1,275 @@
+{
+  "interactions": {
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "learnable_moves": [
+                  {
+                    "attack": "Rock Smash",
+                    "costs": [
+                      {
+                        "id": "minecraft:diamond",
+                        "count": 14
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "False Swipe",
+                    "costs": [
+                      {
+                        "id": "minecraft:iron_ingot",
+                        "count": 11
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Protect",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Sonic Boom",
+                    "costs": [
+                      {
+                        "id": "pixelmon:aluminum_ingot",
+                        "count": 8
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Taunt",
+                    "costs": [
+                      {
+                        "id": "minecraft:iron_ingot",
+                        "count": 9
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Power Whip",
+                    "costs": [
+                      {
+                        "id": "pixelmon:aluminum_ingot",
+                        "count": 1
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Horn Drill",
+                    "costs": [
+                      {
+                        "id": "minecraft:diamond",
+                        "count": 14
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Morning Sun",
+                    "costs": [
+                      {
+                        "id": "pixelmon:crystal",
+                        "count": 8
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Psycho Shift",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 10
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Power-Up Punch",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 2
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Trump Card",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 6
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Heal Order",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Encore",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 4
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Poison Sting",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 8
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "String Shot",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 15
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Entrainment",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Frost Breath",
+                    "costs": [
+                      {
+                        "id": "minecraft:iron_ingot",
+                        "count": 8
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Substitute",
+                    "costs": [
+                      {
+                        "id": "minecraft:gold_ingot",
+                        "count": 12
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Thunderbolt",
+                    "costs": [
+                      {
+                        "id": "pixelmon:crystal",
+                        "count": 5
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Heart Stamp",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 9
+                      }
+                    ],
+                    "learnable": true
+                  }
+                ],
+                "type": "pixelmon:tutor_move"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        }
+      ]
+    },
+    "type": "pixelmon:constant"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Transfer Tutor"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "value": {
+      "slim": false,
+      "texture": {
+        "resource": {
+          "resource": "pixelmon:textures/steve/npcchat1.png",
+          "fallback": "pixelmon:textures/steve/npcchat1.png"
+        },
+        "type": "pixelmon:fallback"
+      },
+      "type": "pixelmon:player"
+    },
+    "type": "pixelmon:constant"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5.0,
+      "swim": false
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:infuser/medicine/skitty_smoothie"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:infuser/medicine/skitty_smoothie"
+      }
+    },
+    "has_berry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:razz_berry"
+            ]
+          }
+        ]
+      }
+    },
+    "has_moomoo_milk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:moomoo_milk"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_berry",
+      "has_moomoo_milk"
+    ]
+  ]
+}

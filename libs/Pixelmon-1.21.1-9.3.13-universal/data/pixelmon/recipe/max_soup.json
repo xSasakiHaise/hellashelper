@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pixelmon:max_mushroom"
+    },
+    {
+      "item": "pixelmon:max_mushroom"
+    },
+    {
+      "item": "pixelmon:max_mushroom"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:max_soup",
+    "count": 1
+  }
+}

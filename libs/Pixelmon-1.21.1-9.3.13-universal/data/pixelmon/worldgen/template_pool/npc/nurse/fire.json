@@ -1,0 +1,24 @@
+{
+  "name": "pixelmon:npc/nurse/fire",
+  "fallback": "pixelmon:npc/nurse/fire",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:npc/pokecenter/fire/nurse",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/pokecenter/fire/doctor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

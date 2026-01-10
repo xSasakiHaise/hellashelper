@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.basep-53.description",
+  "attacks": [
+    {
+      "name": "attack.basep-53.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.basep-53.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "WATER",
+  "pokemon_id": 245,
+  "ability": {
+    "name": "ability.basep-53.name",
+    "description": "ability.basep-53.description",
+    "type": "BODY",
+    "effect": {
+      "type": "tcg:unimplemented"
+    }
+  },
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:promo"
+}

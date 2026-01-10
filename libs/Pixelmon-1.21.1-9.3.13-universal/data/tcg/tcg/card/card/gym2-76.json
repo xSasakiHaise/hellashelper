@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.gym2-76.description",
+  "attacks": [
+    {
+      "name": "attack.gym2-76.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.gym2-76.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.gym2-76.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.gym2-76.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "GRASS",
+  "pokemon_id": 32,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

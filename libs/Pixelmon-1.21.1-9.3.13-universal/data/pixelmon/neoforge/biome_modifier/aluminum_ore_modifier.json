@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "step": "underground_ores",
+  "features": [
+    "pixelmon:ores/aluminum/ore_aluminum_middle",
+    "pixelmon:ores/aluminum/ore_aluminum_small",
+    "pixelmon:ores/aluminum/ore_aluminum_upper"
+  ]
+}

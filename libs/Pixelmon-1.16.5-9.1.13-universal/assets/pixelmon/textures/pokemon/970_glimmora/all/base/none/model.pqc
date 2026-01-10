@@ -1,0 +1,5 @@
+$body glimmora.bmd
+$anim idle idle.bmd idle.bmd idle.bmd special.bmd
+$anim special special.bmd
+$anim walk walk.bmd
+$scale 5.0

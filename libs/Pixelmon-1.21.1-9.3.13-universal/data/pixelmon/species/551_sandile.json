@@ -1,0 +1,526 @@
+{
+  "name": "Sandile",
+  "dex": 551,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Power Trip"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Sand Tomb"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out",
+          "Scorching Sands",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Aqua Tail",
+          "Counter",
+          "Double-Edge",
+          "Spite"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Thief",
+          "Facade",
+          "Bulldoze",
+          "Snarl",
+          "Mud Shot",
+          "Rock Tomb",
+          "Fling",
+          "Endure",
+          "Sandstorm",
+          "Dig",
+          "Brick Break",
+          "Shadow Claw",
+          "Foul Play",
+          "Body Slam",
+          "Sleep Talk",
+          "Grass Knot",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Dark Pulse",
+          "Substitute",
+          "Crunch",
+          "Stealth Rock",
+          "Helping Hand",
+          "Earth Power",
+          "Sludge Bomb",
+          "Earthquake",
+          "Stone Edge",
+          "Tera Blast",
+          "Roar",
+          "Sand Tomb",
+          "Spite",
+          "Lash Out",
+          "Double-Edge",
+          "Scorching Sands",
+          "Skitter Smack",
+          "Curse"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Beat Up",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Payback",
+          "Assurance",
+          "Thunder Fang",
+          "Fire Fang",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Earthquake",
+          "Focus Energy",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Dark Pulse",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Foul Play"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Embargo",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Me First",
+          "Mean Look",
+          "Mud-Slap",
+          "Pursuit",
+          "Rage",
+          "Return",
+          "Roar",
+          "Rock Climb",
+          "Secret Power",
+          "Snatch",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Embargo",
+          "Payback",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Incinerate",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Incinerate",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Snarl"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "Moxie"
+        ],
+        "hiddenAbilities": [
+          "AngerPoint"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 72,
+        "defense": 35,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 58,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 24,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/551_sandile/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.sandile",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/551_sandile/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/551_sandile/all/base/none/sandile.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/551_sandile/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/551_sandile/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 3.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/551_sandile/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/551_sandile/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/551_sandile/all/base/none/sandile.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/551_sandile/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/551_sandile/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 3.0
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "blocky",
+              "sprite": "pixelmon:pokemon/551_sandile/all/base/blocky/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/551_sandile/all/base/blocky/texture.png",
+                      "model": "pixelmon:pokemon/551_sandile/all/base/blocky/blocky.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/551_sandile/all/base/blocky/blockyidle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/551_sandile/all/base/blocky/blockywalk.bmd"
+                        }
+                      ],
+                      "scale": 12.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GROUND",
+        "DARK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 15.2,
+      "catchRate": 180,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 29,
+          "to": "Krokorok",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      },
+      "growth_data": {
+        "mean": 50.0,
+        "standard_deviation": 2.5,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 5
+}

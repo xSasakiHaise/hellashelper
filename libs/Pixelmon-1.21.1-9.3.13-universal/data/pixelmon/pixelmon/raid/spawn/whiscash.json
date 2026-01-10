@@ -1,0 +1,15 @@
+{
+  "spawns": [
+    {
+      "spec": "Whiscash",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/whiscash-3-4",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "attackName": "Revival Blessing",
+  "attackType": "NORMAL",
+  "attackCategory": "STATUS",
+  "basePower": 0,
+  "ppBase": 1,
+  "ppMax": 1,
+  "accuracy": -1,
+  "makesContact": false,
+  "effects": [
+    {
+      "increment": 50,
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "RevivalBlessing"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": false,
+    "hitsAdjacentFoe": false,
+    "hitsExtendedFoe": false,
+    "hitsSelf": true,
+    "hitsAdjacentAlly": false,
+    "hitsExtendedAlly": false
+  },
+  "z": [
+    {
+      "crystal": "normalium_z",
+      "attackName": "Z-Revival Blessing",
+      "basePower": 0,
+      "effects": [
+        {
+          "modifiers": [],
+          "persists": false,
+          "effectTypeID": "Haze",
+          "onlyLowered": true
+        }
+      ],
+      "allowedPokemon": []
+    }
+  ]
+}

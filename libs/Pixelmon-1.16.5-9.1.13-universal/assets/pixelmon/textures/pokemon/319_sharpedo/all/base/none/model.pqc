@@ -1,0 +1,5 @@
+$body sharpedo.bmd
+$anim idle idle.bmd
+$anim walk swim.bmd
+$anim swim swim.bmd
+$scale 3

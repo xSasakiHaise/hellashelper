@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "pixelmon:pixelmon_sprite",
+      "amount": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "ndex": 384,
+          "palette": "none",
+          "form": ""
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.rayquaza_capture.title"
+    },
+    "description": {
+      "translate": "advancements.rayquaza_capture.description"
+    },
+    "hidden": true
+  },
+  "parent": "pixelmon:legendaries/legendary_capture_trigger",
+  "criteria": {
+    "rayquaza_capture": {
+      "trigger": "pixelmon:legendary_capture_trigger",
+      "conditions": {
+        "pokemon": "rayquaza"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rayquaza_capture"
+    ]
+  ]
+}

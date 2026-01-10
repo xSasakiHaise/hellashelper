@@ -1,0 +1,33 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 10,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE45.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 10,
+      "text": "attack.BASE45.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "PARALYZED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

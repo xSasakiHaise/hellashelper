@@ -1,0 +1,30 @@
+{
+  "id": "Krabby",
+  "spawnInfos": [
+    {
+      "spec": "species:Krabby",
+      "stringLocationTypes": [
+        "Seafloor",
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 15,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING",
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+		  "biomeswevegone:lush_stacks",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

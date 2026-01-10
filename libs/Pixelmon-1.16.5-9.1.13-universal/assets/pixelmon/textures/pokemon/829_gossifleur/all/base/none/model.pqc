@@ -1,0 +1,4 @@
+$body gossifleur.bmd
+$anim idle walk.bmd
+$anim walk walk.bmd
+$scale 0.6

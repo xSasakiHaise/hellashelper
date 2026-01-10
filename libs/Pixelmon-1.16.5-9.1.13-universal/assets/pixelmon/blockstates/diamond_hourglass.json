@@ -1,0 +1,38 @@
+{
+  "variants": {
+    "facing=north,up=true": {
+      "model": "pixelmon:block/daycare/hourglass/diamond"
+    },
+    "facing=east,up=true": {
+      "model": "pixelmon:block/daycare/hourglass/diamond",
+      "y": 90
+    },
+    "facing=south,up=true": {
+      "model": "pixelmon:block/daycare/hourglass/diamond",
+      "y": 180
+    },
+    "facing=west,up=true": {
+      "model": "pixelmon:block/daycare/hourglass/diamond",
+      "y": 270
+    },
+    "facing=north,up=false": {
+      "model": "pixelmon:block/daycare/hourglass/diamond",
+      "z": 180
+    },
+    "facing=east,up=false": {
+      "model": "pixelmon:block/daycare/hourglass/diamond",
+      "z": 180,
+      "y": 90
+    },
+    "facing=south,up=false": {
+      "model": "pixelmon:block/daycare/hourglass/diamond",
+      "z": 180,
+      "y": 180
+    },
+    "facing=west,up=false": {
+      "model": "pixelmon:block/daycare/hourglass/diamond",
+      "z": 180,
+      "y": 270
+    }
+  }
+}

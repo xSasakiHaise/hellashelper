@@ -1,0 +1,74 @@
+{
+  "events": [
+    "pixelmon:defeat_leader"
+  ],
+  "condition": {
+    "type": "pixelmon:logical_or",
+    "conditions": [
+      {
+        "type": "pixelmon:interaction_condition",
+        "condition": {
+          "type": "pixelmon:string_list_contains",
+          "value": {
+            "type": "pixelmon:string_context",
+            "key": "pixelmon:leader"
+          },
+          "list": [
+            {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_dragon_1"
+            },
+            {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_electric_1"
+            },
+            {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_fairy_1"
+            },
+            {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_fire_1"
+            },
+            {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_ghost_1"
+            },
+            {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_grass_1"
+            },
+            {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_ground_1"
+            },
+            {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_ice_1"
+            },
+            {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_steel_1"
+            },
+            {
+              "type": "pixelmon:constant_string",
+              "value": "leader_gym_water_1"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "research": {
+    "reward_rolls_max": 1,
+    "chance_of_additional_rewards": 0.0,
+    "rewards": [],
+    "guaranteed_reward": {
+      "research": "pixelmon:collection/challengers_folly",
+      "condition": {
+        "type": "pixelmon:true"
+      }
+    },
+    "reward_rolls_min": 1
+  }
+}

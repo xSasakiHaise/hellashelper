@@ -1,0 +1,66 @@
+{
+  "name": "pixelmon:water_den/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:dens/den_water_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 1,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:dens/den_water_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:dens/den_water_c",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:dens/den_water_d",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 2,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:dens/den_water_e",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 12,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Salandit Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Salandit",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_desert",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Heracross Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Heracross",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 10,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

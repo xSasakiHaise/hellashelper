@@ -1,0 +1,129 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    {
+      "required": false,
+      "id": "terralith:birch_taiga"
+    },
+    {
+      "required": false,
+      "id": "terralith:white_cliffs"
+    },
+    "minecraft:snowy_taiga",
+    {
+      "required": false,
+      "id": "biomesoplenty:auroral_garden"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:snow_blossom_grove"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:snowy_coniferous_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:snowy_fir_clearing"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:snowy_maple_forest"
+    },
+    {
+      "required": false,
+      "id": "terralith:alpha_islands_winter"
+    },
+    {
+      "required": false,
+      "id": "terralith:alpine_grove"
+    },
+    {
+      "required": false,
+      "id": "terralith:siberian_grove"
+    },
+    {
+      "required": false,
+      "id": "terralith:skylands_winter"
+    },
+    {
+      "required": false,
+      "id": "terralith:snowy_cherry_grove"
+    },
+    {
+      "required": false,
+      "id": "terralith:snowy_maple_forest"
+    },
+    {
+      "required": false,
+      "id": "terralith:snowy_shield"
+    },
+    {
+      "required": false,
+      "id": "terralith:wintery_forest"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:mount_lanakila"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:auroral_garden"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:lavender_field"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:lavender_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:mystic_grove"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:origin_valley"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:shroomy_wetland"
+    },
+    {
+      "required": false,
+      "id": "terralith:alpha_islands"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_rainforest"
+    },
+    {
+      "required": false,
+      "id": "terralith:lavender_valley"
+    },
+    {
+      "required": false,
+      "id": "terralith:mirage_isles"
+    },
+    {
+      "required": false,
+      "id": "terralith:moonlight_grove"
+    },
+    {
+      "required": false,
+      "id": "terralith:moonlight_valley"
+    },
+    "minecraft:dark_forest",
+    {
+      "required": false,
+      "id": "biomesoplenty:dense_woodland"
+    }
+  ]
+}

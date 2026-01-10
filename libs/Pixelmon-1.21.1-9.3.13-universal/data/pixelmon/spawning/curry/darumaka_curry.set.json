@@ -1,0 +1,35 @@
+{
+  "id": "Darumaka Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Darumaka",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 23,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Darumaka form:galarian",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 23,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

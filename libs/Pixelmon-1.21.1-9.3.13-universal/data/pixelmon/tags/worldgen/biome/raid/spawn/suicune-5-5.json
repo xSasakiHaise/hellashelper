@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beach",
+    {
+      "required": false,
+      "id": "biomesoplenty:dune_beach"
+    },
+    "minecraft:snowy_beach",
+    "minecraft:stony_shore",
+    {
+      "required": false,
+      "id": "terralith:basalt_cliffs"
+    },
+    {
+      "required": false,
+      "id": "terralith:gravel_beach"
+    }
+  ]
+}

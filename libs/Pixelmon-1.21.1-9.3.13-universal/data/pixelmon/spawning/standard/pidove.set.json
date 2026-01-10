@@ -1,0 +1,100 @@
+{
+  "id": "Pidove",
+  "spawnInfos": [
+    {
+      "spec": "species:Pidove",
+      "stringLocationTypes": [
+        "Headbutt",
+        "Tree Top"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra",
+		  "biomeswevegone:crimson_tundra"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Pidove",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Pidove",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra",
+		  "biomeswevegone:crimson_tundra"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Pidove",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 200.0
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+$body corvisquire.bmd
+$anim idle fly.bmd
+$anim fly fly.bmd
+$scale 2.0

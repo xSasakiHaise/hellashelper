@@ -1,0 +1,700 @@
+{
+  "name": "pixelmon:chests/fridge",
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "drinks",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
+        {
+          "name": "healing",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:berry_juice",
+              "weight": 20
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:fresh_water",
+              "weight": 50
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:soda_pop",
+              "weight": 50
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:lemonade",
+              "weight": 50
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:moomoo_milk",
+              "weight": 30
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:pinap_juice",
+              "weight": 20
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:skitty_smoothie",
+              "weight": 10
+            }
+          ]
+        },
+        {
+          "name": "leveling",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:rare_soda",
+              "weight": 2
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:ultra_rare_soda",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "name": "juices",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:purple_juice",
+              "weight": 10
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:pink_juice",
+              "weight": 10
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:red_juice",
+              "weight": 10
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:yellow_juice",
+              "weight": 10
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:green_juice",
+              "weight": 10
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:blue_juice",
+              "weight": 10
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:colorful_shake",
+              "weight": 5
+            }
+          ]
+        },
+        {
+          "name": "vanilla potions",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:potion",
+              "weight": 20,
+              "functions": [
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:water",
+                  "conditions": []
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:potion",
+              "weight": 20,
+              "functions": [
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:awkward"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:potion",
+              "weight": 20,
+              "functions": [
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:thick"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:potion",
+              "weight": 20,
+              "functions": [
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:mundane"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:milk_bucket",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:curry_coconut",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "name": "dessert",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:big_malasada",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:casteliacone",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:old_gateau",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:whipped_dream",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "name": "rot",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fermented_spider_eye",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:black_sludge",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "name": "mushroom",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "name": "vanilla",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:red_mushroom",
+              "weight": 100,
+              "functions": []
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:brown_mushroom",
+              "weight": 100,
+              "functions": []
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:crimson_fungus",
+              "weight": 10,
+              "functions": []
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:warped_fungus",
+              "weight": 10,
+              "functions": []
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "name": "valuables",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:tiny_mushroom",
+              "weight": 5
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:balm_mushroom",
+              "weight": 2
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:big_mushroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "frost",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
+        {
+          "name": "held_items",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:snowball",
+              "weight": 3
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:never_melt_ice"
+            }
+          ]
+        },
+        {
+          "name": "vanilla",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:snowball",
+              "weight": 50,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:ice",
+              "weight": 20
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:powder_snow_bucket",
+              "weight": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "name": "greens",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:energy_root",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:leek",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:curry_leek",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:curry_herb",
+          "weight": 5
+        },
+        {
+          "name": "multiple",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "pixelmon:intermediate/random_berry",
+              "weight": 30,
+              "functions": []
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:carrot",
+              "weight": 10
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:melon_slice",
+              "weight": 5
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sweet_berries",
+              "weight": 5
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "animal_products",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
+        {
+          "name": "raw_meat",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cod",
+              "weight": 20
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:salmon",
+              "weight": 15
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:beef",
+              "weight": 10
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:porkchop",
+              "weight": 15
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:mutton",
+              "weight": 10
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:chicken",
+              "weight": 20
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:rabbit",
+              "weight": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:slowpoke_tail",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "name": "packaged_food",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:curry_sausage"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:curry_cream"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:curry_cheese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:curry_boiled_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:curry_burger"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:curry_fried_food"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:curry_salad"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "name": "leftovers",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "name": "cooked",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_cod",
+              "weight": 8
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_salmon",
+              "weight": 6
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_beef",
+              "weight": 4
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_porkchop",
+              "weight": 6
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_mutton",
+              "weight": 4
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_chicken",
+              "weight": 8
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cooked_rabbit",
+              "weight": 4
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:baked_potato",
+              "weight": 10
+            }
+          ]
+        },
+        {
+          "name": "soup",
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:beetroot_soup",
+              "weight": 12
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:mushroom_stew",
+              "weight": 12
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:rabbit_stew",
+              "weight": 12
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:suspicious_stew",
+              "weight": 12,
+              "functions": [
+                {
+                  "function": "minecraft:set_stew_effect",
+                  "effects": [
+                    {
+                      "type": "minecraft:fire_resistance",
+                      "duration": 3
+                    },
+                    {
+                      "type": "minecraft:blindness",
+                      "duration": 11
+                    },
+                    {
+                      "type": "minecraft:saturation",
+                      "duration": 0.35
+                    },
+                    {
+                      "type": "minecraft:nausea",
+                      "duration": 7
+                    },
+                    {
+                      "type": "minecraft:jump_boost",
+                      "duration": 5
+                    },
+                    {
+                      "type": "minecraft:poison",
+                      "duration": 11
+                    },
+                    {
+                      "type": "minecraft:regeneration",
+                      "duration": 7
+                    },
+                    {
+                      "type": "minecraft:night_vision",
+                      "duration": 5
+                    },
+                    {
+                      "type": "minecraft:weakness",
+                      "duration": 7
+                    },
+                    {
+                      "type": "minecraft:wither",
+                      "duration": 7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "pixelmon:perilous_soup",
+              "weight": 12
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:leftovers"
+        }
+      ]
+    }
+  ]
+}

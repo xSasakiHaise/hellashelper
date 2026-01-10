@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base3-42.description",
+  "attacks": [
+    {
+      "name": "attack.base3-42.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base3-42.0.description",
+      "effects": [
+        {
+          "type": "tcg:immune",
+          "self": true,
+          "immune_type": "*",
+          "required_coin_side": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-42.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base3-42.1.description",
+      "effects": [
+        {
+          "type": "tcg:immune",
+          "self": true,
+          "immune_type": "*",
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "WATER",
+  "pokemon_id": 117,
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "Spearow Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Spearow status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "hills",
+          "mountainous",
+          "mesas",
+          "biomesoplenty:burnt_forest",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 150.0
+    },
+    {
+      "spec": "species:Spearow",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "hills",
+          "mountainous",
+          "mesas",
+          "biomesoplenty:burnt_forest",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 150.0
+    },
+    {
+      "spec": "species:Fearow status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "hills",
+          "mountainous",
+          "mesas",
+          "biomesoplenty:burnt_forest",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Fearow",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "hills",
+          "mountainous",
+          "mesas",
+          "biomesoplenty:burnt_forest",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

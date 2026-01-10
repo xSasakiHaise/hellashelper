@@ -1,0 +1,21 @@
+{
+  "id": "Togepi Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Togepi",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

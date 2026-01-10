@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_rug",
+    "pixelmon:orange_rug",
+    "pixelmon:magenta_rug",
+    "pixelmon:light_blue_rug",
+    "pixelmon:yellow_rug",
+    "pixelmon:lime_rug",
+    "pixelmon:pink_rug",
+    "pixelmon:gray_rug",
+    "pixelmon:light_gray_rug",
+    "pixelmon:cyan_rug",
+    "pixelmon:purple_rug",
+    "pixelmon:blue_rug",
+    "pixelmon:brown_rug",
+    "pixelmon:green_rug",
+    "pixelmon:red_rug",
+    "pixelmon:black_rug"
+  ]
+}

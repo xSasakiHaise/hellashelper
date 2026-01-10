@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:eroded_badlands",
+    {
+      "required": false,
+      "id": "terralith:ancient_sands"
+    },
+    {
+      "required": false,
+      "id": "terralith:bryce_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:painted_mountains"
+    },
+    {
+      "required": false,
+      "id": "terralith:red_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:white_mesa"
+    },
+    "minecraft:the_end",
+    "minecraft:small_end_islands",
+    "minecraft:end_midlands",
+    "minecraft:end_highlands",
+    "minecraft:end_barrens",
+    {
+      "required": false,
+      "id": "nullscape:crystal_peaks"
+    },
+    {
+      "required": false,
+      "id": "nullscape:shadowlands"
+    },
+    {
+      "required": false,
+      "id": "nullscape:void_barrens"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_desert"
+    }
+  ]
+}

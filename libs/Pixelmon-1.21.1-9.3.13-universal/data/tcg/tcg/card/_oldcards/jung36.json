@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 22,
+  "previous_pokemon_id": 21,
+  "retreat_cost": 0,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG36.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.JUNG36.1.text",
+      "effects": [
+        {
+          "type": "tcg:immune",
+          "self": true,
+          "immune_type": "*",
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

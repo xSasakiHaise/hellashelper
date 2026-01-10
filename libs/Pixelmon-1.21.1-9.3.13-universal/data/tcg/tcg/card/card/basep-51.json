@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.basep-51.description",
+  "attacks": [
+    {
+      "name": "attack.basep-51.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.basep-51.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.basep-51.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.basep-51.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "FIRE",
+  "pokemon_id": 78,
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:promo"
+}

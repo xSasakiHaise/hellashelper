@@ -1,0 +1,7686 @@
+{
+  "pixelmon.mob.takeoff": {
+    "sounds": [
+      "mob/bat/takeoff"
+    ],
+    "subtitle": "subtitle.pixelmon.mob.takeoff"
+  },
+  "pixelmon.mob.meltan.eat": {
+    "sounds": [
+      "mob/fox/eat1",
+      "mob/fox/eat2",
+      "mob/fox/eat3"
+    ],
+    "subtitle": "subtitle.pixelmon.mob.meltan.eat"
+  },
+  "pixelmon.item.pokeball.throw": {
+    "sounds": [
+      "random/bow"
+    ],
+    "subtitle": "subtitle.pixelmon.item.pokeball.throw"
+  },
+  "pixelmon.block.mysterybox.open": {
+    "sounds": [
+      "mob/wither/spawn"
+    ],
+    "subtitle": "subtitle.pixelmon.block.mysterybox.open"
+  },
+  "pixelmon.block.mysterybox.close": {
+    "sounds": [
+      "mob/wither/death"
+    ],
+    "subtitle": "subtitle.pixelmon.block.mysterybox.close"
+  },
+  "pixelmon.block.mysterybox.spawn": {
+    "sounds": [
+      "mob/evocation_illager/cast1",
+      "mob/evocation_illager/cast2"
+    ],
+    "subtitle": "subtitle.pixelmon.block.mysterybox.spawn"
+  },
+  "pixelmon.block.mysterybox.add": {
+    "sounds": [
+      "item/armor/equip_iron1",
+      "item/armor/equip_iron2",
+      "item/armor/equip_iron3",
+      "item/armor/equip_iron4",
+      "item/armor/equip_iron5",
+      "item/armor/equip_iron6"
+    ],
+    "subtitle": "subtitle.pixelmon.block.mysterybox.add"
+  },
+  "pixelmon.block.mysterybox.add_done": {
+    "sounds": [
+      "item/armor/equip_diamond1",
+      "item/armor/equip_diamond2",
+      "item/armor/equip_diamond3",
+      "item/armor/equip_diamond4",
+      "item/armor/equip_diamond5",
+      "item/armor/equip_diamond6"
+    ],
+    "subtitle": "subtitle.pixelmon.block.mysterybox.add_done"
+  },
+  "pixelmon.mob.aegislash": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/aegislash",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.aegislash"
+  },
+  "pixelmon.mob.ariados": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ariados",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ariados"
+  },
+  "pixelmon.mob.bellibolt": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bellibolt",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bellibolt"
+  },
+  "pixelmon.mob.brambleghast": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/brambleghast",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.brambleghast"
+  },
+  "pixelmon.mob.bramblin": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bramblin",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bramblin"
+  },
+  "pixelmon.mob.brute_bonnet": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/brute_bonnet",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.brute_bonnet"
+  },
+  "pixelmon.mob.cetitan": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cetitan",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cetitan"
+  },
+  "pixelmon.mob.chi-yu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chi-yu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chi-yu"
+  },
+  "pixelmon.mob.cosmog": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cosmog",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cosmog"
+  },
+  "pixelmon.mob.doublade": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/doublade",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.doublade"
+  },
+  "pixelmon.mob.drilbur": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/drilbur",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.drilbur"
+  },
+  "pixelmon.mob.eiscue": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/eiscue",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.eiscue"
+  },
+  "pixelmon.mob.excadrill": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/excadrill",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.excadrill"
+  },
+  "pixelmon.mob.frillish": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/frillish",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.frillish"
+  },
+  "pixelmon.mob.froslass": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/froslass",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.froslass"
+  },
+  "pixelmon.mob.grafaiai": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/grafaiai",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.grafaiai"
+  },
+  "pixelmon.mob.honedge": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/honedge",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.honedge"
+  },
+  "pixelmon.mob.marshtomp": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/marshtomp",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.marshtomp"
+  },
+  "pixelmon.mob.pidove": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pidove",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pidove"
+  },
+  "pixelmon.mob.pignite": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pignite",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pignite"
+  },
+  "pixelmon.mob.ponyta": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ponyta",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ponyta"
+  },
+  "pixelmon.mob.purugly": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/purugly",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.purugly"
+  },
+  "pixelmon.mob.reshiram": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/reshiram",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.reshiram"
+  },
+  "pixelmon.mob.shroodle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shroodle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shroodle"
+  },
+  "pixelmon.mob.spoink": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/spoink",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.spoink"
+  },
+  "pixelmon.mob.tadbulb": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tadbulb",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tadbulb"
+  },
+  "pixelmon.mob.toedscool": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/toedscool",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.toedscool"
+  },
+  "pixelmon.mob.toedscruel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/toedscruel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.toedscruel"
+  },
+  "pixelmon.mob.tyrunt": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tyrunt",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tyrunt"
+  },
+  "pixelmon.mob.varoom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/varoom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.varoom"
+  },
+  "pixelmon.mob.zeraora": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zeraora",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zeraora"
+  },
+  "pixelmon.mob.arceus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/arceus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.arceus"
+  },
+  "pixelmon.mob.brionne": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/brionne",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.brionne"
+  },
+  "pixelmon.mob.celesteela": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/celesteela",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.celesteela"
+  },
+  "pixelmon.mob.cobalion": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cobalion",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cobalion"
+  },
+  "pixelmon.mob.fraxure": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/fraxure",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.fraxure"
+  },
+  "pixelmon.mob.gastrodon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gastrodon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gastrodon"
+  },
+  "pixelmon.mob.glameow": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/glameow",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.glameow"
+  },
+  "pixelmon.mob.kartana": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kartana",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kartana"
+  },
+  "pixelmon.mob.keldeo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/keldeo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.keldeo"
+  },
+  "pixelmon.mob.litten": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/litten",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.litten"
+  },
+  "pixelmon.mob.naganadel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/naganadel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.naganadel"
+  },
+  "pixelmon.mob.panpour": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/panpour",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.panpour"
+  },
+  "pixelmon.mob.patrat": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/patrat",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.patrat"
+  },
+  "pixelmon.mob.pheromosa": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pheromosa",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pheromosa"
+  },
+  "pixelmon.mob.pikipek": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pikipek",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pikipek"
+  },
+  "pixelmon.mob.poipole": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/poipole",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.poipole"
+  },
+  "pixelmon.mob.rowlet": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rowlet",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rowlet"
+  },
+  "pixelmon.mob.scolipede": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/scolipede",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.scolipede"
+  },
+  "pixelmon.mob.shellos": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shellos",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shellos"
+  },
+  "pixelmon.mob.simipour": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/simipour",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.simipour"
+  },
+  "pixelmon.mob.spinda": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/spinda",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.spinda"
+  },
+  "pixelmon.mob.spiritomb": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/spiritomb",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.spiritomb"
+  },
+  "pixelmon.mob.toucannon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/toucannon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.toucannon"
+  },
+  "pixelmon.mob.trumbeak": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/trumbeak",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.trumbeak"
+  },
+  "pixelmon.mob.unown": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/unown",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.unown"
+  },
+  "pixelmon.mob.venipede": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/venipede",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.venipede"
+  },
+  "pixelmon.mob.watchog": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/watchog",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.watchog"
+  },
+  "pixelmon.mob.whirlipede": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/whirlipede",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.whirlipede"
+  },
+  "pixelmon.mob.abomasnow": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/abomasnow",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.abomasnow"
+  },
+  "pixelmon.mob.abra": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/abra",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.abra"
+  },
+  "pixelmon.mob.aerodactyl": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/aerodactyl",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.aerodactyl"
+  },
+  "pixelmon.mob.aggron": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/aggron",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.aggron"
+  },
+  "pixelmon.mob.aipom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/aipom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.aipom"
+  },
+  "pixelmon.mob.alakazam": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/alakazam",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.alakazam"
+  },
+  "pixelmon.mob.alcremie": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/alcremie",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.alcremie"
+  },
+  "pixelmon.mob.altaria": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/altaria",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.altaria"
+  },
+  "pixelmon.mob.amaura": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/amaura",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.amaura"
+  },
+  "pixelmon.mob.ambipom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ambipom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ambipom"
+  },
+  "pixelmon.mob.amoonguss": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/amoonguss",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.amoonguss"
+  },
+  "pixelmon.mob.ampharos": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ampharos",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ampharos"
+  },
+  "pixelmon.mob.anorith": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/anorith",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.anorith"
+  },
+  "pixelmon.mob.appletun": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/appletun",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.appletun"
+  },
+  "pixelmon.mob.applin": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/applin",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.applin"
+  },
+  "pixelmon.mob.arbok": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/arbok",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.arbok"
+  },
+  "pixelmon.mob.arcanine": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/arcanine",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.arcanine"
+  },
+  "pixelmon.mob.archen": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/archen",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.archen"
+  },
+  "pixelmon.mob.archeops": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/archeops",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.archeops"
+  },
+  "pixelmon.mob.arctovish": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/arctovish",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.arctovish"
+  },
+  "pixelmon.mob.arctozolt": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/arctozolt",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.arctozolt"
+  },
+  "pixelmon.mob.armaldo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/armaldo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.armaldo"
+  },
+  "pixelmon.mob.aron": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/aron",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.aron"
+  },
+  "pixelmon.mob.arrokuda": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/arrokuda",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.arrokuda"
+  },
+  "pixelmon.mob.articuno": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/articuno",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.articuno"
+  },
+  "pixelmon.mob.articuno.galar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/articuno-galar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.articuno.galar"
+  },
+  "pixelmon.mob.audino": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/audino",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.audino"
+  },
+  "pixelmon.mob.avalugg": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/avalugg",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.avalugg"
+  },
+  "pixelmon.mob.avalugg.hisui": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/avalugg-hisui",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.avalugg.hisui"
+  },
+  "pixelmon.mob.axew": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/axew",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.axew"
+  },
+  "pixelmon.mob.azumarill": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/azumarill",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.azumarill"
+  },
+  "pixelmon.mob.azurill": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/azurill",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.azurill"
+  },
+  "pixelmon.mob.bagon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bagon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bagon"
+  },
+  "pixelmon.mob.baltoy": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/baltoy",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.baltoy"
+  },
+  "pixelmon.mob.banette": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/banette",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.banette"
+  },
+  "pixelmon.mob.barbaracle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/barbaracle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.barbaracle"
+  },
+  "pixelmon.mob.basculegion.male": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/basculegion-male",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.basculegion.male"
+  },
+  "pixelmon.mob.bastiodon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bastiodon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bastiodon"
+  },
+  "pixelmon.mob.bayleef": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bayleef",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bayleef"
+  },
+  "pixelmon.mob.beartic": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/beartic",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.beartic"
+  },
+  "pixelmon.mob.beautifly": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/beautifly",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.beautifly"
+  },
+  "pixelmon.mob.beedrill": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/beedrill",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.beedrill"
+  },
+  "pixelmon.mob.bellossom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bellossom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bellossom"
+  },
+  "pixelmon.mob.bellsprout": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bellsprout",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bellsprout"
+  },
+  "pixelmon.mob.bergmite": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bergmite",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bergmite"
+  },
+  "pixelmon.mob.bibarel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bibarel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bibarel"
+  },
+  "pixelmon.mob.bidoof": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bidoof",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bidoof"
+  },
+  "pixelmon.mob.binacle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/binacle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.binacle"
+  },
+  "pixelmon.mob.bisharp": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bisharp",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bisharp"
+  },
+  "pixelmon.mob.blacephalon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/blacephalon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.blacephalon"
+  },
+  "pixelmon.mob.blastoise": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/blastoise",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.blastoise"
+  },
+  "pixelmon.mob.blaziken": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/blaziken",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.blaziken"
+  },
+  "pixelmon.mob.blipbug": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/blipbug",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.blipbug"
+  },
+  "pixelmon.mob.blissey": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/blissey",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.blissey"
+  },
+  "pixelmon.mob.boldore": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/boldore",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.boldore"
+  },
+  "pixelmon.mob.bonsly": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bonsly",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bonsly"
+  },
+  "pixelmon.mob.bouffalant": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bouffalant",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bouffalant"
+  },
+  "pixelmon.mob.bounsweet": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bounsweet",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bounsweet"
+  },
+  "pixelmon.mob.braixen": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/braixen",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.braixen"
+  },
+  "pixelmon.mob.braviary.hisuian": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/braviary-hisuian",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.braviary.hisuian"
+  },
+  "pixelmon.mob.breloom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/breloom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.breloom"
+  },
+  "pixelmon.mob.bronzong": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bronzong",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bronzong"
+  },
+  "pixelmon.mob.bruxish": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bruxish",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bruxish"
+  },
+  "pixelmon.mob.buizel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/buizel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.buizel"
+  },
+  "pixelmon.mob.bulbasaurf": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bulbasaurf",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bulbasaurf"
+  },
+  "pixelmon.mob.bulbasaurm": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bulbasaurm",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bulbasaurm"
+  },
+  "pixelmon.mob.buneary": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/buneary",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.buneary"
+  },
+  "pixelmon.mob.burmy": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/burmy",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.burmy"
+  },
+  "pixelmon.mob.butterfree": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/butterfree",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.butterfree"
+  },
+  "pixelmon.mob.buzzwole": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/buzzwole",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.buzzwole"
+  },
+  "pixelmon.mob.calyrex": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/calyrex",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.calyrex"
+  },
+  "pixelmon.mob.calyrex.ice_rider": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/calyrex-ice_rider",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.calyrex.ice_rider"
+  },
+  "pixelmon.mob.calyrex.shadow_rider": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/calyrex-shadow_rider",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.calyrex.shadow_rider"
+  },
+  "pixelmon.mob.carracosta": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/caracosta",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.carracosta"
+  },
+  "pixelmon.mob.carvanha": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/carvahna",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.carvanha"
+  },
+  "pixelmon.mob.cascoon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cascoon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cascoon"
+  },
+  "pixelmon.mob.caterpie": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/caterpie",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.caterpie"
+  },
+  "pixelmon.mob.celebi": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/celebi",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.celebi"
+  },
+  "pixelmon.mob.centiskorch": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/centiskorch",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.centiskorch"
+  },
+  "pixelmon.mob.chandelure": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chandelure",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chandelure"
+  },
+  "pixelmon.mob.chansey": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chansey",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chansey"
+  },
+  "pixelmon.mob.charizard": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/charizard",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.charizard"
+  },
+  "pixelmon.mob.charmander": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/charmander",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.charmander"
+  },
+  "pixelmon.mob.charmeleon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/charmeleon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.charmeleon"
+  },
+  "pixelmon.mob.chatot": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chatot",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chatot"
+  },
+  "pixelmon.mob.chespin": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chespin",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chespin"
+  },
+  "pixelmon.mob.chewtle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chewtle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chewtle"
+  },
+  "pixelmon.mob.chikoritam": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chikoritam",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chikoritam"
+  },
+  "pixelmon.mob.chikoritaf": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chikoritaf",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chikoritaf"
+  },
+  "pixelmon.mob.chimchar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chimchar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chimchar"
+  },
+  "pixelmon.mob.chimecho": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chimecho",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chimecho"
+  },
+  "pixelmon.mob.chinchou": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chinchou",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chinchou"
+  },
+  "pixelmon.mob.chingling": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chingling",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chingling"
+  },
+  "pixelmon.mob.cinderace": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cinderace",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cinderace"
+  },
+  "pixelmon.mob.clamperl": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/clamperl",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.clamperl"
+  },
+  "pixelmon.mob.claydol": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/claydol",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.claydol"
+  },
+  "pixelmon.mob.clefable": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/clefable",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.clefable"
+  },
+  "pixelmon.mob.clefairy": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/clefairy",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.clefairy"
+  },
+  "pixelmon.mob.cleffa": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cleffa",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cleffa"
+  },
+  "pixelmon.mob.clobbopus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/clobbopus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.clobbopus"
+  },
+  "pixelmon.mob.cloyster": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cloyster",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cloyster"
+  },
+  "pixelmon.mob.coalossal": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/coalossal",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.coalossal"
+  },
+  "pixelmon.mob.cofagrigus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cofagrigus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cofagrigus"
+  },
+  "pixelmon.mob.combee": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/combee",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.combee"
+  },
+  "pixelmon.mob.combusken": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/combusken",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.combusken"
+  },
+  "pixelmon.mob.copperajah": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/copperajah",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.copperajah"
+  },
+  "pixelmon.mob.corphish": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/corphish",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.corphish"
+  },
+  "pixelmon.mob.corsola": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/corsola",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.corsola"
+  },
+  "pixelmon.mob.corsola.galar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/corsola-galar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.corsola.galar"
+  },
+  "pixelmon.mob.corvisquire": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/corvisquire",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.corvisquire"
+  },
+  "pixelmon.mob.cottonee": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cottonee",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cottonee"
+  },
+  "pixelmon.mob.crabominable": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/crabominable",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.crabominable"
+  },
+  "pixelmon.mob.crabrawler": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/crabrawler",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.crabrawler"
+  },
+  "pixelmon.mob.cramorant": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cramorant",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cramorant"
+  },
+  "pixelmon.mob.cranidos": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cranidos",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cranidos"
+  },
+  "pixelmon.mob.crawdaunt": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/crawdaunt",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.crawdaunt"
+  },
+  "pixelmon.mob.cresselia": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cresselia",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cresselia"
+  },
+  "pixelmon.mob.croagunk": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/croagunk",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.croagunk"
+  },
+  "pixelmon.mob.crobat": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/crobat",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.crobat"
+  },
+  "pixelmon.mob.croconaw": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/croconaw",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.croconaw"
+  },
+  "pixelmon.mob.crustle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/crustle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.crustle"
+  },
+  "pixelmon.mob.cryogonal": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cryoganal",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cryogonal"
+  },
+  "pixelmon.mob.cubchoo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cubchoo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cubchoo"
+  },
+  "pixelmon.mob.cubone": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cubone",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cubone"
+  },
+  "pixelmon.mob.cursola": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cursola",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cursola"
+  },
+  "pixelmon.mob.cutiefly": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cutiefly",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cutiefly"
+  },
+  "pixelmon.mob.cyndaquil": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cyndaquil",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cyndaquil"
+  },
+  "pixelmon.mob.darkrai": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/darkrai",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.darkrai"
+  },
+  "pixelmon.mob.darmanitan": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/darmanitan",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.darmanitan"
+  },
+  "pixelmon.mob.dartrix": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dartrix",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dartrix"
+  },
+  "pixelmon.mob.darumaka": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/darumaka",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.darumaka"
+  },
+  "pixelmon.mob.deerling": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/deerling",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.deerling"
+  },
+  "pixelmon.mob.deino": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/deino",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.deino"
+  },
+  "pixelmon.mob.delphox": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/delphox",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.delphox"
+  },
+  "pixelmon.mob.deoxys": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/deoxys",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.deoxys"
+  },
+  "pixelmon.mob.dewgong": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dewgong",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dewgong"
+  },
+  "pixelmon.mob.dewott": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dewott",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dewott"
+  },
+  "pixelmon.mob.dialga": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dialga",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dialga"
+  },
+  "pixelmon.mob.diggersby": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/diggersby",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.diggersby"
+  },
+  "pixelmon.mob.diglett": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/diglett",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.diglett"
+  },
+  "pixelmon.mob.ditto": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ditto",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ditto"
+  },
+  "pixelmon.mob.dodrio": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dodrio",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dodrio"
+  },
+  "pixelmon.mob.doduo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/doduo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.doduo"
+  },
+  "pixelmon.mob.donphan": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/donphan",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.donphan"
+  },
+  "pixelmon.mob.dottler": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dottler",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dottler"
+  },
+  "pixelmon.mob.dracovish": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dracovish",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dracovish"
+  },
+  "pixelmon.mob.dracozolt": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dracozolt",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dracozolt"
+  },
+  "pixelmon.mob.dragapult": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dragapult",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dragapult"
+  },
+  "pixelmon.mob.dragonair": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dragonair",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dragonair"
+  },
+  "pixelmon.mob.dragonite": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dragonite",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dragonite"
+  },
+  "pixelmon.mob.drapion": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/drapion",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.drapion"
+  },
+  "pixelmon.mob.dratini": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dratini",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dratini"
+  },
+  "pixelmon.mob.drednaw": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/drednaw",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.drednaw"
+  },
+  "pixelmon.mob.dreepy": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dreepy",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dreepy"
+  },
+  "pixelmon.mob.drifblim": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/drifblim",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.drifblim"
+  },
+  "pixelmon.mob.drifloon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/drifloon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.drifloon"
+  },
+  "pixelmon.mob.drizzile": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/drizzile",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.drizzile"
+  },
+  "pixelmon.mob.drowzee": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/drowzee",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.drowzee"
+  },
+  "pixelmon.mob.druddigon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/druddigon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.druddigon"
+  },
+  "pixelmon.mob.dubwool": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dubwool",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dubwool"
+  },
+  "pixelmon.mob.dugtrio": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dugtrio",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dugtrio"
+  },
+  "pixelmon.mob.dunsparce": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dunsparce",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dunsparce"
+  },
+  "pixelmon.mob.duosion": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/duosion",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.duosion"
+  },
+  "pixelmon.mob.duraludon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/duraludon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.duraludon"
+  },
+  "pixelmon.mob.dusclops": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dusclops",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dusclops"
+  },
+  "pixelmon.mob.dusknoir": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dusknoir",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dusknoir"
+  },
+  "pixelmon.mob.duskull": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/duskull",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.duskull"
+  },
+  "pixelmon.mob.dustox": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dustox",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dustox"
+  },
+  "pixelmon.mob.dwebble": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dwebble",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dwebble"
+  },
+  "pixelmon.mob.eelektrik": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/eelektrik",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.eelektrik"
+  },
+  "pixelmon.mob.eelektross": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/eelektross",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.eelektross"
+  },
+  "pixelmon.mob.eevee": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/eevee",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.eevee"
+  },
+  "pixelmon.mob.eeveem": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/eevee",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.eeveem"
+  },
+  "pixelmon.mob.ekans": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ekans",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ekans"
+  },
+  "pixelmon.mob.electabuzz": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/electabuzz",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.electabuzz"
+  },
+  "pixelmon.mob.electivire": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/electivire",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.electivire"
+  },
+  "pixelmon.mob.electrode": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/electrode",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.electrode"
+  },
+  "pixelmon.mob.elekid": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/elekid",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.elekid"
+  },
+  "pixelmon.mob.emboar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/emboar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.emboar"
+  },
+  "pixelmon.mob.emolga": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/emolga",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.emolga"
+  },
+  "pixelmon.mob.empoleon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/empoleon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.empoleon"
+  },
+  "pixelmon.mob.entei": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/entei",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.entei"
+  },
+  "pixelmon.mob.espeon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/espeon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.espeon"
+  },
+  "pixelmon.mob.espurr": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/espurr",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.espurr"
+  },
+  "pixelmon.mob.eternatus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/eternatus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.eternatus"
+  },
+  "pixelmon.mob.exeggcute": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/exeggcute",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.exeggcute"
+  },
+  "pixelmon.mob.exeggutor": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/exeggutor",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.exeggutor"
+  },
+  "pixelmon.mob.exeggutor.alola": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/exeggutor-alola",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.exeggutor.alola"
+  },
+  "pixelmon.mob.exploud": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/exploud",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.exploud"
+  },
+  "pixelmon.mob.falinks": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/falinks",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.falinks"
+  },
+  "pixelmon.mob.farfetchd": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/farfetchd",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.farfetchd"
+  },
+  "pixelmon.mob.farfetchd.galar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/farfetchd-galar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.farfetchd.galar"
+  },
+  "pixelmon.mob.fearow": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/fearow",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.fearow"
+  },
+  "pixelmon.mob.fennekin": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/fennekin",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.fennekin"
+  },
+  "pixelmon.mob.feraligatr": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/feraligatr",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.feraligatr"
+  },
+  "pixelmon.mob.flaaffy": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/flaaffy",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.flaaffy"
+  },
+  "pixelmon.mob.flapple": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/flapple",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.flapple"
+  },
+  "pixelmon.mob.flareon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/flareon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.flareon"
+  },
+  "pixelmon.mob.floatzel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/floatzel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.floatzel"
+  },
+  "pixelmon.mob.flygonf": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/flygonf",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.flygonf"
+  },
+  "pixelmon.mob.flygonm": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/flygonm",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.flygonm"
+  },
+  "pixelmon.mob.foongus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/foongus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.foongus"
+  },
+  "pixelmon.mob.forretress": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/forretress",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.forretress"
+  },
+  "pixelmon.mob.froakie": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/froakie",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.froakie"
+  },
+  "pixelmon.mob.frogadier": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/frogadier",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.frogadier"
+  },
+  "pixelmon.mob.frosmoth": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/frosmoth",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.frosmoth"
+  },
+  "pixelmon.mob.furret": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/furret",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.furret"
+  },
+  "pixelmon.mob.gabite": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gabite",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gabite"
+  },
+  "pixelmon.mob.gallade": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gallade",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gallade"
+  },
+  "pixelmon.mob.galvantula": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/galvantula",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.galvantula"
+  },
+  "pixelmon.mob.garchomp": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/garchomp",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.garchomp"
+  },
+  "pixelmon.mob.gardevoir": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gardevoir",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gardevoir"
+  },
+  "pixelmon.mob.gastly": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gastly",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gastly"
+  },
+  "pixelmon.mob.genesect": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/genesect",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.genesect"
+  },
+  "pixelmon.mob.gengar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gengar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gengar"
+  },
+  "pixelmon.mob.geodude": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/geodude",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.geodude"
+  },
+  "pixelmon.mob.gible": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gible",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gible"
+  },
+  "pixelmon.mob.girafarig": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/girafarig",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.girafarig"
+  },
+  "pixelmon.mob.giratina": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/giratina",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.giratina"
+  },
+  "pixelmon.mob.glaceon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/glaceon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.glaceon"
+  },
+  "pixelmon.mob.glastrier": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/glastrier",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.glastrier"
+  },
+  "pixelmon.mob.gligar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gligar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gligar"
+  },
+  "pixelmon.mob.gliscor": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gliscor",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gliscor"
+  },
+  "pixelmon.mob.gloom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gloom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gloom"
+  },
+  "pixelmon.mob.gogoat": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gogoat",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gogoat"
+  },
+  "pixelmon.mob.golbat": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/golbat",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.golbat"
+  },
+  "pixelmon.mob.goldeen": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/goldeen",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.goldeen"
+  },
+  "pixelmon.mob.golduck": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/golduck",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.golduck"
+  },
+  "pixelmon.mob.golem": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/golem",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.golem"
+  },
+  "pixelmon.mob.golisopod": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/golisopod",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.golisopod"
+  },
+  "pixelmon.mob.golurk": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/golurk",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.golurk"
+  },
+  "pixelmon.mob.goodra": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/goodra",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.goodra"
+  },
+  "pixelmon.mob.goomy": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/goomy",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.goomy"
+  },
+  "pixelmon.mob.gorebyss": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gorebyss",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gorebyss"
+  },
+  "pixelmon.mob.gossifleur": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gossifleur",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gossifleur"
+  },
+  "pixelmon.mob.grapploct": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/grapploct",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.grapploct"
+  },
+  "pixelmon.mob.graveler": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/graveler",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.graveler"
+  },
+  "pixelmon.mob.greninja": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/greninja",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.greninja"
+  },
+  "pixelmon.mob.grimer": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/grimer",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.grimer"
+  },
+  "pixelmon.mob.grimmsnarl": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/grimmsnarl",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.grimmsnarl"
+  },
+  "pixelmon.mob.grookey": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/grookey",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.grookey"
+  },
+  "pixelmon.mob.grotle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/grotle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.grotle"
+  },
+  "pixelmon.mob.groudon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/groudon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.groudon"
+  },
+  "pixelmon.mob.groudon.primal": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/groudon-primal",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.groudon.primal"
+  },
+  "pixelmon.mob.grovyle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/grovyle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.grovyle"
+  },
+  "pixelmon.mob.growlithe": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/growlithe",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.growlithe"
+  },
+  "pixelmon.mob.growlithe.hisuian": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/growlithe-hisuian",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.growlithe.hisuian"
+  },
+  "pixelmon.mob.grumpig": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/grumpig",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.grumpig"
+  },
+  "pixelmon.mob.gulpin": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gulpin",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gulpin"
+  },
+  "pixelmon.mob.guzzlord": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/guzzlord",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.guzzlord"
+  },
+  "pixelmon.mob.gyarados": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gyarados",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gyarados"
+  },
+  "pixelmon.mob.hakamo-o": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hakamo-o",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hakamo-o"
+  },
+  "pixelmon.mob.happiny": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/happiny",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.happiny"
+  },
+  "pixelmon.mob.hariyama": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hariyama",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hariyama"
+  },
+  "pixelmon.mob.hatenna": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hatenna",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hatenna"
+  },
+  "pixelmon.mob.haunter": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/haunter",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.haunter"
+  },
+  "pixelmon.mob.haxorus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/haxorus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.haxorus"
+  },
+  "pixelmon.mob.heatmor": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/heatmor",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.heatmor"
+  },
+  "pixelmon.mob.heatran": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/heatran",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.heatran"
+  },
+  "pixelmon.mob.heracross": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/heracross",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.heracross"
+  },
+  "pixelmon.mob.hippowdon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hippowdon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hippowdon"
+  },
+  "pixelmon.mob.hitmonchan": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hitmonchan",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hitmonchan"
+  },
+  "pixelmon.mob.hitmonlee": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hitmonlee",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hitmonlee"
+  },
+  "pixelmon.mob.ho-oh": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ho-oh",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ho-oh"
+  },
+  "pixelmon.mob.hoopa": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hoopa",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hoopa"
+  },
+  "pixelmon.mob.hoothoot": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hoothoot",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hoothoot"
+  },
+  "pixelmon.mob.hoppip": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hoppip",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hoppip"
+  },
+  "pixelmon.mob.horsea": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/horsea",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.horsea"
+  },
+  "pixelmon.mob.houndoom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/houndoom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.houndoom"
+  },
+  "pixelmon.mob.huntail": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/huntail",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.huntail"
+  },
+  "pixelmon.mob.hydreigon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hydreigon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hydreigon"
+  },
+  "pixelmon.mob.hypno": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/hypno",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.hypno"
+  },
+  "pixelmon.mob.igglybuff": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/igglybuff",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.igglybuff"
+  },
+  "pixelmon.mob.impidimp": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/impidimp",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.impidimp"
+  },
+  "pixelmon.mob.incineroar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/incineroar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.incineroar"
+  },
+  "pixelmon.mob.indeedee": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/indeedee",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.indeedee"
+  },
+  "pixelmon.mob.infernape": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/infernape",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.infernape"
+  },
+  "pixelmon.mob.inteleon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/inteleon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.inteleon"
+  },
+  "pixelmon.mob.ivysaur": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ivysaur",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ivysaur"
+  },
+  "pixelmon.mob.jangmo-o": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/jangmo-o",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.jangmo-o"
+  },
+  "pixelmon.mob.jigglypuff": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/jigglypuff",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.jigglypuff"
+  },
+  "pixelmon.mob.jirachi": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/jirachi",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.jirachi"
+  },
+  "pixelmon.mob.jolteon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/jolteon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.jolteon"
+  },
+  "pixelmon.mob.joltik": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/joltik",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.joltik"
+  },
+  "pixelmon.mob.jumpluff": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/jumpluff",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.jumpluff"
+  },
+  "pixelmon.mob.jynx": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/jynx",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.jynx"
+  },
+  "pixelmon.mob.kabuto": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kabuto",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kabuto"
+  },
+  "pixelmon.mob.kabutops": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kabutops",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kabutops"
+  },
+  "pixelmon.mob.kadabra": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kadabra",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kadabra"
+  },
+  "pixelmon.mob.kakuna": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kakuna",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kakuna"
+  },
+  "pixelmon.mob.kangaskhan": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kangaskhan",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kangaskhan"
+  },
+  "pixelmon.mob.kingdra": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kingdra",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kingdra"
+  },
+  "pixelmon.mob.kingler": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kingler",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kingler"
+  },
+  "pixelmon.mob.kirlia": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kirlia",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kirlia"
+  },
+  "pixelmon.mob.klefki": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/klefki",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.klefki"
+  },
+  "pixelmon.mob.koffing": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/koffing",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.koffing"
+  },
+  "pixelmon.mob.kommo-o": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kommo-o",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kommo-o"
+  },
+  "pixelmon.mob.krabby": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/krabby",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.krabby"
+  },
+  "pixelmon.mob.kricketot": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kricketot",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kricketot"
+  },
+  "pixelmon.mob.kricketune": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kricketune",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kricketune"
+  },
+  "pixelmon.mob.krokorok": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/krokorok",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.krokorok"
+  },
+  "pixelmon.mob.krookodile": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/krookodile",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.krookodile"
+  },
+  "pixelmon.mob.kubfu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kubfu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kubfu"
+  },
+  "pixelmon.mob.kyogre": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kyogre",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kyogre"
+  },
+  "pixelmon.mob.kyogre.primal": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kyogre-primal",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kyogre.primal"
+  },
+  "pixelmon.mob.kyurem": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kyurem",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kyurem"
+  },
+  "pixelmon.mob.kyurem.black": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kyurem-blackwhite",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kyurem.black"
+  },
+  "pixelmon.mob.kyurem.white": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kyurem-blackwhite",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kyurem.white"
+  },
+  "pixelmon.mob.lampent": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lampent",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lampent"
+  },
+  "pixelmon.mob.landorus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/landorus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.landorus"
+  },
+  "pixelmon.mob.lapras": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lapras",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lapras"
+  },
+  "pixelmon.mob.latias": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/latias",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.latias"
+  },
+  "pixelmon.mob.latios": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/latios",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.latios"
+  },
+  "pixelmon.mob.leafeon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/leafeon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.leafeon"
+  },
+  "pixelmon.mob.leavanny": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/leavanny",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.leavanny"
+  },
+  "pixelmon.mob.ledyba": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ledyba",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ledyba"
+  },
+  "pixelmon.mob.lickitung": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lickitung",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lickitung"
+  },
+  "pixelmon.mob.lilligant.hisui": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lilligant-hisui",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lilligant.hisui"
+  },
+  "pixelmon.mob.lillipup": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lillipup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lillipup"
+  },
+  "pixelmon.mob.linoone": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/linoone",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.linoone"
+  },
+  "pixelmon.mob.linoone.galar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/linoone-galar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.linoone.galar"
+  },
+  "pixelmon.mob.litleo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/litleo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.litleo"
+  },
+  "pixelmon.mob.litwick": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/litwick",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.litwick"
+  },
+  "pixelmon.mob.lombre": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lombre",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lombre"
+  },
+  "pixelmon.mob.lopunny": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lopunny",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lopunny"
+  },
+  "pixelmon.mob.lotad": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lotad",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lotad"
+  },
+  "pixelmon.mob.loudred": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/loudred",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.loudred"
+  },
+  "pixelmon.mob.lucario": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lucario",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lucario"
+  },
+  "pixelmon.mob.ludicolo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ludicolo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ludicolo"
+  },
+  "pixelmon.mob.lugia": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lugia",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lugia"
+  },
+  "pixelmon.mob.lunala": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lunala",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lunala"
+  },
+  "pixelmon.mob.lunatone": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lunatone",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lunatone"
+  },
+  "pixelmon.mob.lurantis": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lurantis",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lurantis"
+  },
+  "pixelmon.mob.luxio": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/luxio",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.luxio"
+  },
+  "pixelmon.mob.lycanroc.midnight": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lycanroc-midnight",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lycanroc.midnight"
+  },
+  "pixelmon.mob.machamp": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/machamp",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.machamp"
+  },
+  "pixelmon.mob.machoke": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/machoke",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.machoke"
+  },
+  "pixelmon.mob.machop": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/machop",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.machop"
+  },
+  "pixelmon.mob.magearna": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/magearna",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.magearna"
+  },
+  "pixelmon.mob.magikarp": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/magikarp",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.magikarp"
+  },
+  "pixelmon.mob.magmar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/magmar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.magmar"
+  },
+  "pixelmon.mob.magmortar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/magmortar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.magmortar"
+  },
+  "pixelmon.mob.magnemite": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/magnemite",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.magnemite"
+  },
+  "pixelmon.mob.magneton": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/magneton",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.magneton"
+  },
+  "pixelmon.mob.magnezone": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/magnezone",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.magnezone"
+  },
+  "pixelmon.mob.mamoswine": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mamoswine",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mamoswine"
+  },
+  "pixelmon.mob.manaphy": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/manaphy",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.manaphy"
+  },
+  "pixelmon.mob.mankey": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mankey",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mankey"
+  },
+  "pixelmon.mob.mareanie": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mareanie",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mareanie"
+  },
+  "pixelmon.mob.mareep": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mareep",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mareep"
+  },
+  "pixelmon.mob.marill": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/marill",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.marill"
+  },
+  "pixelmon.mob.marowak": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/marowak",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.marowak"
+  },
+  "pixelmon.mob.marowak.alola": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/marowak-alola",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.marowak.alola"
+  },
+  "pixelmon.mob.marshadow": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/marshadow",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.marshadow"
+  },
+  "pixelmon.mob.meganium": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/meganium",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.meganium"
+  },
+  "pixelmon.mob.melmetal": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/melmetal",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.melmetal"
+  },
+  "pixelmon.mob.meloetta": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/meloetta",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.meloetta"
+  },
+  "pixelmon.mob.meltan": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/meltan",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.meltan"
+  },
+  "pixelmon.mob.meowstic": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/meowstic",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.meowstic"
+  },
+  "pixelmon.mob.meowth": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/meowth",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.meowth"
+  },
+  "pixelmon.mob.meowth.galar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/meowth-galar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.meowth.galar"
+  },
+  "pixelmon.mob.metagross": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/metagross",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.metagross"
+  },
+  "pixelmon.mob.metapod": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/metapod",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.metapod"
+  },
+  "pixelmon.mob.mew": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mew",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mew"
+  },
+  "pixelmon.mob.mewtwo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mewtwo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mewtwo"
+  },
+  "pixelmon.mob.milcery": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/milcery",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.milcery"
+  },
+  "pixelmon.mob.milotic": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/milotic1",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.milotic"
+  },
+  "pixelmon.mob.miltank": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/miltank",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.miltank"
+  },
+  "pixelmon.mob.mimejr": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mime_jr",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mimejr"
+  },
+  "pixelmon.mob.mimikyu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mimikyu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mimikyu"
+  },
+  "pixelmon.mob.minccino": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/minccino",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.minccino"
+  },
+  "pixelmon.mob.minior": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/minior",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.minior"
+  },
+  "pixelmon.mob.minun": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/minun",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.minun"
+  },
+  "pixelmon.mob.misdreavus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/misdreavus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.misdreavus"
+  },
+  "pixelmon.mob.moltres": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/moltres",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.moltres"
+  },
+  "pixelmon.mob.monferno": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/monferno",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.monferno"
+  },
+  "pixelmon.mob.morelull": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/morelull",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.morelull"
+  },
+  "pixelmon.mob.morgrem": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/morgrem",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.morgrem"
+  },
+  "pixelmon.mob.mrmime": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mrmime",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mrmime"
+  },
+  "pixelmon.mob.mrmime.galar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mrmime-galar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mrmime.galar"
+  },
+  "pixelmon.mob.mudkip": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mudkip",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mudkip"
+  },
+  "pixelmon.mob.muk": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/muk",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.muk"
+  },
+  "pixelmon.mob.munchlax": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/munchlax",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.munchlax"
+  },
+  "pixelmon.mob.munna": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/munna",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.munna"
+  },
+  "pixelmon.mob.murkrow": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/murkrow",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.murkrow"
+  },
+  "pixelmon.mob.musharna": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/musharna",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.musharna"
+  },
+  "pixelmon.mob.necrozma": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/necrozma",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.necrozma"
+  },
+  "pixelmon.mob.necrozma.dawn": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/necrozma-dawn",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.necrozma.dawn"
+  },
+  "pixelmon.mob.necrozma.dusk": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/necrozma-dusk",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.necrozma.dusk"
+  },
+  "pixelmon.mob.nickit": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/nickit",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.nickit"
+  },
+  "pixelmon.mob.nidoking": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/nidoking",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.nidoking"
+  },
+  "pixelmon.mob.nidoqueen": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/nidoqueen",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.nidoqueen"
+  },
+  "pixelmon.mob.nidoranfemale": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/nidoranfemale",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.nidoranfemale"
+  },
+  "pixelmon.mob.nidoranmale": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/nidoranmale",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.nidoranmale"
+  },
+  "pixelmon.mob.nidorina": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/nidorina",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.nidorina"
+  },
+  "pixelmon.mob.nidorino": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/nidorino",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.nidorino"
+  },
+  "pixelmon.mob.ninetales": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ninetales",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ninetales"
+  },
+  "pixelmon.mob.ninetales.alola": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ninetales-alola",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ninetales.alola"
+  },
+  "pixelmon.mob.noctowl": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/noctowl",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.noctowl"
+  },
+  "pixelmon.mob.noibat": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/noibat",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.noibat"
+  },
+  "pixelmon.mob.noivern": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/noivern",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.noivern"
+  },
+  "pixelmon.mob.nosepass": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/nosepass",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.nosepass"
+  },
+  "pixelmon.mob.numel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/numel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.numel"
+  },
+  "pixelmon.mob.obstagoon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/obstagoon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.obstagoon"
+  },
+  "pixelmon.mob.oddish": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/oddish",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.oddish"
+  },
+  "pixelmon.mob.omanyte": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/omanyte",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.omanyte"
+  },
+  "pixelmon.mob.omastar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/omastar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.omastar"
+  },
+  "pixelmon.mob.onix": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/onix",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.onix"
+  },
+  "pixelmon.mob.oranguru": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/oranguru",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.oranguru"
+  },
+  "pixelmon.mob.oshawott": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/oshawott",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.oshawott"
+  },
+  "pixelmon.mob.overqwil": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/overqwil",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.overqwil"
+  },
+  "pixelmon.mob.pachirisu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pachirisu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pachirisu"
+  },
+  "pixelmon.mob.palkia": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/palkia",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.palkia"
+  },
+  "pixelmon.mob.palossand": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/palossand",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.palossand"
+  },
+  "pixelmon.mob.paras": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/paras",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.paras"
+  },
+  "pixelmon.mob.parasect": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/parasect",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.parasect"
+  },
+  "pixelmon.mob.passimian": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/passimian",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.passimian"
+  },
+  "pixelmon.mob.pawniard": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pawniard",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pawniard"
+  },
+  "pixelmon.mob.pelipper": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pelipper",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pelipper"
+  },
+  "pixelmon.mob.perrserker": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/perrserker",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.perrserker"
+  },
+  "pixelmon.mob.persian": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/persain",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.persian"
+  },
+  "pixelmon.mob.phanpy": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/phanpy",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.phanpy"
+  },
+  "pixelmon.mob.phantump": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/phantump",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.phantump"
+  },
+  "pixelmon.mob.phione": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/phione",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.phione"
+  },
+  "pixelmon.mob.pichu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pichu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pichu"
+  },
+  "pixelmon.mob.pidgeot": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pidgeot",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pidgeot"
+  },
+  "pixelmon.mob.pidgeotto": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pidgeotto",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pidgeotto"
+  },
+  "pixelmon.mob.pidgey": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pidgey",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pidgey"
+  },
+  "pixelmon.mob.pikachu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pikachu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pikachu"
+  },
+  "pixelmon.mob.piloswine": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/piloswine",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.piloswine"
+  },
+  "pixelmon.mob.pineco": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pineco",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pineco"
+  },
+  "pixelmon.mob.pinsir": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pinsir",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pinsir"
+  },
+  "pixelmon.mob.piplup": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/piplup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.piplup"
+  },
+  "pixelmon.mob.plusle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/plusle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.plusle"
+  },
+  "pixelmon.mob.poliwag": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/poliwag",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.poliwag"
+  },
+  "pixelmon.mob.poliwhirl": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/poliwhirl",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.poliwhirl"
+  },
+  "pixelmon.mob.poliwrath": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/poliwrath",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.poliwrath"
+  },
+  "pixelmon.mob.polteageist": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/polteageist",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.polteageist"
+  },
+  "pixelmon.mob.porygon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/porygon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.porygon"
+  },
+  "pixelmon.mob.porygon-z": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/porygonz",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.porygon-z"
+  },
+  "pixelmon.mob.primeape": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/primeape",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.primeape"
+  },
+  "pixelmon.mob.primarina": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/primarina",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.primarina"
+  },
+  "pixelmon.mob.prinplup": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/prinplup",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.prinplup"
+  },
+  "pixelmon.mob.probopass": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/probopass",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.probopass"
+  },
+  "pixelmon.mob.psyduck": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/psyduck",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.psyduck"
+  },
+  "pixelmon.mob.pumpkaboo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pumpkaboo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pumpkaboo"
+  },
+  "pixelmon.mob.quagsire": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/quagsire",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.quagsire"
+  },
+  "pixelmon.mob.quilava": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/quilava",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.quilava"
+  },
+  "pixelmon.mob.qwilfish.hisui": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/qwilfish-hisui",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.qwilfish.hisui"
+  },
+  "pixelmon.mob.raboot": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/raboot",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.raboot"
+  },
+  "pixelmon.mob.raichu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/raichu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.raichu"
+  },
+  "pixelmon.mob.raichu.alola": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/raichu-alola",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.raichu.alola"
+  },
+  "pixelmon.mob.raikou": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/raikou",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.raikou"
+  },
+  "pixelmon.mob.ralts": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ralts",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ralts"
+  },
+  "pixelmon.mob.rampardos": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rampardos",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rampardos"
+  },
+  "pixelmon.mob.raticate": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/raticate",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.raticate"
+  },
+  "pixelmon.mob.rattata": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rattata",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rattata"
+  },
+  "pixelmon.mob.rayquaza": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rayquaza",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rayquaza"
+  },
+  "pixelmon.mob.regice": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/regice",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.regice"
+  },
+  "pixelmon.mob.regidrago": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/regidrago",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.regidrago"
+  },
+  "pixelmon.mob.regieleki": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/regieleki",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.regieleki"
+  },
+  "pixelmon.mob.regigigas": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/regigigas",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.regigigas"
+  },
+  "pixelmon.mob.regirock": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/regirock",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.regirock"
+  },
+  "pixelmon.mob.registeel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/registeel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.registeel"
+  },
+  "pixelmon.mob.relicanth": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/relicanth",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.relicanth"
+  },
+  "pixelmon.mob.rhydon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rhydon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rhydon"
+  },
+  "pixelmon.mob.rhyhorn": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rhyhorn",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rhyhorn"
+  },
+  "pixelmon.mob.rhyperior": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rhyperior",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rhyperior"
+  },
+  "pixelmon.mob.rillaboom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rillaboom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rillaboom"
+  },
+  "pixelmon.mob.riolu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/riolu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.riolu"
+  },
+  "pixelmon.mob.rockruff": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rockruff",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rockruff"
+  },
+  "pixelmon.mob.roggenrola": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/roggenrola",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.roggenrola"
+  },
+  "pixelmon.mob.rolycoly": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rolycoly",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rolycoly"
+  },
+  "pixelmon.mob.rookidee": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rookidee",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rookidee"
+  },
+  "pixelmon.mob.rotom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rotom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rotom"
+  },
+  "pixelmon.mob.runerigus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/runerigus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.runerigus"
+  },
+  "pixelmon.mob.sableye": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sableye",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sableye"
+  },
+  "pixelmon.mob.salamence": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/salamence",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.salamence"
+  },
+  "pixelmon.mob.samurott": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/samurott",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.samurott"
+  },
+  "pixelmon.mob.sandaconda": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sandaconda",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sandaconda"
+  },
+  "pixelmon.mob.sandile": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sandile",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sandile"
+  },
+  "pixelmon.mob.sandshrew": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sandshrew",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sandshrew"
+  },
+  "pixelmon.mob.sandslash": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sandslash",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sandslash"
+  },
+  "pixelmon.mob.sandygast": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sandygast",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sandygast"
+  },
+  "pixelmon.mob.sawk": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sawk",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sawk"
+  },
+  "pixelmon.mob.sceptile": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sceptile",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sceptile"
+  },
+  "pixelmon.mob.scizor": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/scizor",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.scizor"
+  },
+  "pixelmon.mob.scorbunny": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/scorbunny",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.scorbunny"
+  },
+  "pixelmon.mob.scytherf": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/scytherf",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.scytherf"
+  },
+  "pixelmon.mob.scytherm": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/scytherm",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.scytherm"
+  },
+  "pixelmon.mob.seadra": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/seadra",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.seadra"
+  },
+  "pixelmon.mob.seaking": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/seaking",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.seaking"
+  },
+  "pixelmon.mob.seedot": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/seedot",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.seedot"
+  },
+  "pixelmon.mob.seel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/seel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.seel"
+  },
+  "pixelmon.mob.sentret": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sentret",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sentret"
+  },
+  "pixelmon.mob.servinef": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/servinef",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.servinef"
+  },
+  "pixelmon.mob.servinem": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/servinem",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.servinem"
+  },
+  "pixelmon.mob.seviper": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/seviper",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.seviper"
+  },
+  "pixelmon.mob.sharpedo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sharpedo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sharpedo"
+  },
+  "pixelmon.mob.shaymin": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shaymin",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shaymin"
+  },
+  "pixelmon.mob.shelgon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shelgon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shelgon"
+  },
+  "pixelmon.mob.shellder": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shellder",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shellder"
+  },
+  "pixelmon.mob.shiftry": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shiftry",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shiftry"
+  },
+  "pixelmon.mob.shiinotic": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shiinotic",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shiinotic"
+  },
+  "pixelmon.mob.shinx": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shinx",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shinx"
+  },
+  "pixelmon.mob.shroomish": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shroomish",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shroomish"
+  },
+  "pixelmon.mob.shuppet": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shuppet",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shuppet"
+  },
+  "pixelmon.mob.silcoon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/silcoon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.silcoon"
+  },
+  "pixelmon.mob.silicobra": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/silicobra",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.silicobra"
+  },
+  "pixelmon.mob.sirfetchd": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sirfetchd",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sirfetchd"
+  },
+  "pixelmon.mob.sizzlipede": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sizzlipede",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sizzlipede"
+  },
+  "pixelmon.mob.skarmory": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/skarmory",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.skarmory"
+  },
+  "pixelmon.mob.skitty": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/skitty",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.skitty"
+  },
+  "pixelmon.mob.skuntank": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/skuntank",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.skuntank"
+  },
+  "pixelmon.mob.slaking": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/slaking",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.slaking"
+  },
+  "pixelmon.mob.sliggoo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sliggoo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sliggoo"
+  },
+  "pixelmon.mob.sliggoo.hishui": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sliggoo-hisui",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sliggoo.hishui"
+  },
+  "pixelmon.mob.slowbro": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/slowbro",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.slowbro"
+  },
+  "pixelmon.mob.slowking": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/slowking",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.slowking"
+  },
+  "pixelmon.mob.slowpoke": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/slowpoke",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.slowpoke"
+  },
+  "pixelmon.mob.smoochum": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/smoochum",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.smoochum"
+  },
+  "pixelmon.mob.sneasler": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sneasler",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sneasler"
+  },
+  "pixelmon.mob.snivyf": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/snivyf",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.snivyf"
+  },
+  "pixelmon.mob.snivym": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/snivym",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.snivym"
+  },
+  "pixelmon.mob.snom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/snom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.snom"
+  },
+  "pixelmon.mob.snorlax": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/snorlax",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.snorlax"
+  },
+  "pixelmon.mob.snubbull": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/snubbull",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.snubbull"
+  },
+  "pixelmon.mob.sobble": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sobble",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sobble"
+  },
+  "pixelmon.mob.solgaleo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/solgaleo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.solgaleo"
+  },
+  "pixelmon.mob.spearow": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/spearow",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.spearow"
+  },
+  "pixelmon.mob.spinarak": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/spinarak",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.spinarak"
+  },
+  "pixelmon.mob.squirtle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/squirtle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.squirtle"
+  },
+  "pixelmon.mob.staraptor": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/staraptor",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.staraptor"
+  },
+  "pixelmon.mob.staravia": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/staravia",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.staravia"
+  },
+  "pixelmon.mob.starly": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/starly",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.starly"
+  },
+  "pixelmon.mob.starmie": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/starmie",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.starmie"
+  },
+  "pixelmon.mob.staryu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/staryu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.staryu"
+  },
+  "pixelmon.mob.steenee": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/steenee",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.steenee"
+  },
+  "pixelmon.mob.stunky": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/stunky",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.stunky"
+  },
+  "pixelmon.mob.sudowoodo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sudowoodo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sudowoodo"
+  },
+  "pixelmon.mob.suicune": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/suicune",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.suicune"
+  },
+  "pixelmon.mob.sunflora": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sunflora",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sunflora"
+  },
+  "pixelmon.mob.sunkern": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sunkern",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sunkern"
+  },
+  "pixelmon.mob.surskit": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/surskit",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.surskit"
+  },
+  "pixelmon.mob.swablu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/swablu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.swablu"
+  },
+  "pixelmon.mob.swalot": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/swalot",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.swalot"
+  },
+  "pixelmon.mob.swampert": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/swampert",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.swampert"
+  },
+  "pixelmon.mob.swellow": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/swellow",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.swellow"
+  },
+  "pixelmon.mob.swinub": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/swinub",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.swinub"
+  },
+  "pixelmon.mob.sylveon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sylveon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sylveon"
+  },
+  "pixelmon.mob.tangela": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tangela",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tangela"
+  },
+  "pixelmon.mob.tangrowth": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tangrowth",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tangrowth"
+  },
+  "pixelmon.mob.tapubulu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tapubulu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tapubulu"
+  },
+  "pixelmon.mob.tapufini": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tapufini",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tapufini"
+  },
+  "pixelmon.mob.tapukoko": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tapukoko",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tapukoko"
+  },
+  "pixelmon.mob.tapulele": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tapulele",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tapulele"
+  },
+  "pixelmon.mob.tauros": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tauros",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tauros"
+  },
+  "pixelmon.mob.teddiursa": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/teddiursa",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.teddiursa"
+  },
+  "pixelmon.mob.tentacool": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tentacool",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tentacool"
+  },
+  "pixelmon.mob.tentacruel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tentacruel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tentacruel"
+  },
+  "pixelmon.mob.tepig": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tepig",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tepig"
+  },
+  "pixelmon.mob.throh": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/throh",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.throh"
+  },
+  "pixelmon.mob.thundurus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/thundurus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.thundurus"
+  },
+  "pixelmon.mob.thwackey": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/thwackey",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.thwackey"
+  },
+  "pixelmon.mob.togepi": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/togepi",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.togepi"
+  },
+  "pixelmon.mob.torchic": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/torchic",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.torchic"
+  },
+  "pixelmon.mob.torkoal": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/torkoal",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.torkoal"
+  },
+  "pixelmon.mob.tornadus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tornadus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tornadus"
+  },
+  "pixelmon.mob.torterra": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/torterra",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.torterra"
+  },
+  "pixelmon.mob.totodile": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/totodile",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.totodile"
+  },
+  "pixelmon.mob.toxapex": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/toxapex",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.toxapex"
+  },
+  "pixelmon.mob.toxel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/toxel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.toxel"
+  },
+  "pixelmon.mob.toxicroak": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/toxicroak",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.toxicroak"
+  },
+  "pixelmon.mob.toxtricity": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/toxtricity",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.toxtricity"
+  },
+  "pixelmon.mob.trapinchf": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/trapinchf",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.trapinchf"
+  },
+  "pixelmon.mob.trapinchm": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/trapinchm",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.trapinchm"
+  },
+  "pixelmon.mob.treecko": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/treecko",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.treecko"
+  },
+  "pixelmon.mob.trevenant": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/trevenant",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.trevenant"
+  },
+  "pixelmon.mob.turtonator": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/turtonator",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.turtonator"
+  },
+  "pixelmon.mob.turtwig": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/turtwig",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.turtwig"
+  },
+  "pixelmon.mob.tynamo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tynamo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tynamo"
+  },
+  "pixelmon.mob.typhlosion": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/typhlosion",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.typhlosion"
+  },
+  "pixelmon.mob.tyranitar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tyranitar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tyranitar"
+  },
+  "pixelmon.mob.tyrantrum": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tyrantrum",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tyrantrum"
+  },
+  "pixelmon.mob.tyrogue": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tyrogue",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tyrogue"
+  },
+  "pixelmon.mob.umbreonf": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/umbreonf",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.umbreonf"
+  },
+  "pixelmon.mob.umbreonm": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/umbreonm",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.umbreonm"
+  },
+  "pixelmon.mob.ursaluna": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ursaluna",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ursaluna"
+  },
+  "pixelmon.mob.ursaring": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ursaring",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ursaring"
+  },
+  "pixelmon.mob.vaporeon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/vaporeon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.vaporeon"
+  },
+  "pixelmon.mob.venomoth": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/venomoth",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.venomoth"
+  },
+  "pixelmon.mob.venonat": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/venonat",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.venonat"
+  },
+  "pixelmon.mob.venusaur": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/venusaur",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.venusaur"
+  },
+  "pixelmon.mob.vibrava": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/vibrava",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.vibrava"
+  },
+  "pixelmon.mob.victini": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/victini",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.victini"
+  },
+  "pixelmon.mob.victreebel": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/victreebel",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.victreebel"
+  },
+  "pixelmon.mob.vileplume": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/vileplume",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.vileplume"
+  },
+  "pixelmon.mob.vivillon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/vivillon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.vivillon"
+  },
+  "pixelmon.mob.volcanion": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/volcanion",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.volcanion"
+  },
+  "pixelmon.mob.voltorb": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/voltorb",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.voltorb"
+  },
+  "pixelmon.mob.vulpix": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/vulpix",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.vulpix"
+  },
+  "pixelmon.mob.vulpix.alola": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/vulpix-alola",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.vulpix.alola"
+  },
+  "pixelmon.mob.wailord": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/wailord",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.wailord"
+  },
+  "pixelmon.mob.walrein": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/walrein",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.walrein"
+  },
+  "pixelmon.mob.wartortle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/wartotle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.wartortle"
+  },
+  "pixelmon.mob.weavile": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/weavile",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.weavile"
+  },
+  "pixelmon.mob.weedle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/weedle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.weedle"
+  },
+  "pixelmon.mob.weepinbell": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/weepinbell",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.weepinbell"
+  },
+  "pixelmon.mob.weezing": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/weezing",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.weezing"
+  },
+  "pixelmon.mob.weezing.galar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/weezing-galar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.weezing.galar"
+  },
+  "pixelmon.mob.whimsicott": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/whimsicott",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.whimsicott"
+  },
+  "pixelmon.mob.whiscash": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/whiscash",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.whiscash"
+  },
+  "pixelmon.mob.whismur": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/whismur1",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.whismur"
+  },
+  "pixelmon.mob.wigglytuff": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/wigglytuff",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.wigglytuff"
+  },
+  "pixelmon.mob.wingull": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/wingull",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.wingull"
+  },
+  "pixelmon.mob.wobbuffet": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/wobbuffet",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.wobbuffet"
+  },
+  "pixelmon.mob.wooloo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/wooloo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.wooloo"
+  },
+  "pixelmon.mob.wooper": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/wooper",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.wooper"
+  },
+  "pixelmon.mob.wynaut": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/wynaut",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.wynaut"
+  },
+  "pixelmon.mob.xurkitree": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/xurkitree",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.xurkitree"
+  },
+  "pixelmon.mob.yamper": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/yamper",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.yamper"
+  },
+  "pixelmon.mob.yanma": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/yanma",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.yanma"
+  },
+  "pixelmon.mob.yanmega": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/yanmega",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.yanmega"
+  },
+  "pixelmon.mob.yveltal": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/yveltal",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.yveltal"
+  },
+  "pixelmon.mob.zacian": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zacian",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zacian"
+  },
+  "pixelmon.mob.zangoose": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zangoose",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zangoose"
+  },
+  "pixelmon.mob.zapdos": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zapdos",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zapdos"
+  },
+  "pixelmon.mob.zapdos.galar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zapdos-galar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zapdos.galar"
+  },
+  "pixelmon.mob.zarude": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zarude",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zarude"
+  },
+  "pixelmon.mob.zigzagoon.galar": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zigzagoon-galar",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zigzagoon.galar"
+  },
+  "pixelmon.mob.zorua": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zorua",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zorua"
+  },
+  "pixelmon.mob.zoroark": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zoroark",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zoroark"
+  },
+  "pixelmon.mob.zubat": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zubat",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zubat"
+  },
+  "pixelmon.mob.zygarde.50": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zygarde-50",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zygarde.50"
+  },
+  "pixelmon.mob.zygarde.100": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zygarde-100",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zygarde.100"
+  },
+  "pixelmon.mob.lokix": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lokix",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lokix"
+  },
+  "pixelmon.mob.nincada": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/nincada",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.nincada"
+  },
+  "pixelmon.mob.ninjask": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ninjask",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ninjask"
+  },
+  "pixelmon.mob.oinkologne": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/oinkologne",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.oinkologne"
+  },
+  "pixelmon.mob.revavroom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/revavroom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.revavroom"
+  },
+  "pixelmon.mob.shedinja": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shedinja",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shedinja"
+  },
+  "pixelmon.mob.stakataka": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/stakataka",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.stakataka"
+  },
+  "pixelmon.mob.stonjourner": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/stonjourner",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.stonjourner"
+  },
+  "pixelmon.mob.walkingwake": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/walkingwake",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.walkingwake"
+  },
+  "pixelmon.mob.wo-chien": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/wo-chien",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.wo-chien"
+  },
+  "pixelmon.mob.ursaluna.bloodmoon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ursalunabloodmoon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ursaluna.bloodmoon"
+  },
+  "pixelmon.mob.ragingbolt": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ragingbolt",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ragingbolt"
+  },
+  "pixelmon.block.healeridle": {
+    "sounds": [
+      {
+        "name": "pixelmon:blocks/healing_table_idle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.block.healeridle"
+  },
+  "pixelmon.block.healeractivate": {
+    "sounds": [
+      {
+        "name": "pixelmon:blocks/healing_table_activate",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.block.healeractivate"
+  },
+  "pixelmon.block.pc": {
+    "sounds": [
+      {
+        "name": "pixelmon:blocks/pc",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.block.pc"
+  },
+  "pixelmon.block.pokelootobtained": {
+    "sounds": [
+      {
+        "name": "pixelmon:blocks/poke_loot_obtained",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.block.pokelootobtained"
+  },
+  "pixelmon.block.pokeballcapture": {
+    "sounds": [
+      {
+        "name": "pixelmon:items/pokeball_capture",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.block.pokeballcapture"
+  },
+  "pixelmon.block.pokeballcapturesuccess": {
+    "sounds": [
+      {
+        "name": "pixelmon:items/pokeball_capture_success",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.block.pokeballcapturesuccess"
+  },
+  "pixelmon.block.pokeballclose": {
+    "sounds": [
+      {
+        "name": "pixelmon:items/pokeball_close",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.block.pokeballclose"
+  },
+  "pixelmon.block.pokeballrelease": {
+    "sounds": [
+      {
+        "name": "pixelmon:items/pokeball_release",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.block.pokeballrelease"
+  },
+  "pixelmon.block.bellring": {
+    "sounds": [
+      {
+        "name": "pixelmon:blocks/bell",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.block.bellring"
+  },
+  "pixelmon.item.camerashutter": {
+    "sounds": [
+      {
+        "name": "pixelmon:items/camera_shutter",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.item.camerashutter"
+  },
+  "pixelmon.gui.egg_reveal": {
+    "sounds": [
+      {
+        "name": "pixelmon:gui/egg_reveal",
+        "stream": false
+      }
+    ]
+  },
+  "pixelmon.gui.egg_hype": {
+    "sounds": [
+      {
+        "name": "pixelmon:gui/egg_hype",
+        "stream": false
+      }
+    ]
+  },
+  "pixelmon.item.ultrawormhole": {
+    "sounds": [
+      {
+        "name": "pixelmon:items/ultra_wormhole",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.item.ultrawormhole"
+  },
+  "pixelmon.music.ultraspace": {
+    "sounds": [
+      {
+        "name": "pixelmon:music/ultra_space",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.wild": {
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_1",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.player": {
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_3",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.trainer": {
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_3",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.gym": {
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_1",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.boss": {
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_1",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.legendary": {
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_2",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.raid": {
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_1",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.custom": {
+    "sounds": []
+  },
+  "pixelmon.music.pokecenter": {
+    "sounds": [
+      {
+        "name": "pixelmon:music/pokecenter_waltz",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.mob.beldum": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/beldum",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.beldum"
+  },
+  "pixelmon.mob.corviknight": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/corviknight",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.corviknight"
+  },
+  "pixelmon.mob.delibird": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/delibird",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.delibird"
+  },
+  "pixelmon.mob.golett": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/golett",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.golett"
+  },
+  "pixelmon.mob.larvesta": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/larvesta",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.larvesta"
+  },
+  "pixelmon.mob.metang": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/metang",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.metang"
+  },
+  "pixelmon.mob.orbeetle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/orbeetle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.orbeetle"
+  },
+  "pixelmon.mob.zekrom": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zekrom",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zekrom"
+  },
+  "pixelmon.mob.arboliva": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/arboliva",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.arboliva"
+  },
+  "pixelmon.mob.ceruledge": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ceruledge",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ceruledge"
+  },
+  "pixelmon.mob.clodsire": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/clodsire",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.clodsire"
+  },
+  "pixelmon.mob.crocalor": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/crocalor",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.crocalor"
+  },
+  "pixelmon.mob.dolliv": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dolliv",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dolliv"
+  },
+  "pixelmon.mob.flittle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/flittle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.flittle"
+  },
+  "pixelmon.mob.floragato": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/floragato",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.floragato"
+  },
+  "pixelmon.mob.garganacl": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/garganacl",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.garganacl"
+  },
+  "pixelmon.mob.greattusk": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/greattusk",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.greattusk"
+  },
+  "pixelmon.mob.ironbundle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ironbundle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ironbundle"
+  },
+  "pixelmon.mob.ironhands": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ironhands",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ironhands"
+  },
+  "pixelmon.mob.ironmoth": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ironmoth",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ironmoth"
+  },
+  "pixelmon.mob.kingambit": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/kingambit",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.kingambit"
+  },
+  "pixelmon.mob.lechonk": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/lechonk",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.lechonk"
+  },
+  "pixelmon.mob.meowscarada": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/meowscarada",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.meowscarada"
+  },
+  "pixelmon.mob.nacli": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/nacli",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.nacli"
+  },
+  "pixelmon.mob.naclstack": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/naclstack",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.naclstack"
+  },
+  "pixelmon.mob.pawmi": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pawmi",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pawmi"
+  },
+  "pixelmon.mob.pawmo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pawmo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pawmo"
+  },
+  "pixelmon.mob.pawmot": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pawmot",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pawmot"
+  },
+  "pixelmon.mob.quaquaval": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/quaquaval",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.quaquaval"
+  },
+  "pixelmon.mob.quaxly": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/quaxly",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.quaxly"
+  },
+  "pixelmon.mob.quaxwell": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/quaxwell",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.quaxwell"
+  },
+  "pixelmon.mob.skeledirge": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/skeledirge",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.skeledirge"
+  },
+  "pixelmon.mob.slitherwing": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/slitherwing",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.slitherwing"
+  },
+  "pixelmon.mob.smoliv": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/smoliv",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.smoliv"
+  },
+  "pixelmon.mob.sprigatito": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sprigatito",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sprigatito"
+  },
+  "pixelmon.mob.volcarona": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/volcarona",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.volcarona"
+  },
+  "pixelmon.mob.fuecoco": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/fuecoco",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.fuecoco"
+  },
+  "pixelmon.mob.popplio": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/popplio",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.popplio"
+  },
+  "pixelmon.mob.terrakion": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/terrakion",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.terrakion"
+  },
+  "pixelmon.mob.frigibax": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/frigibax",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.frigibax"
+  },
+  "pixelmon.mob.arctibax": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/arctibax",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.arctibax"
+  },
+  "pixelmon.mob.baxcalibur": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/baxcalibur",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.baxcalibur"
+  },
+  "pixelmon.mob.orthworm": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/orthworm",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.orthworm"
+  },
+  "pixelmon.mob.drakloak": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/drakloak",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.drakloak"
+  },
+  "pixelmon.mob.fidough": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/fidough",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.fidough"
+  },
+  "pixelmon.mob.dachsbun": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dachsbun",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dachsbun"
+  },
+  "pixelmon.mob.charcadet": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/charcadet",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.charcadet"
+  },
+  "pixelmon.mob.tinkatink": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tinkatink",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tinkatink"
+  },
+  "pixelmon.mob.tinkatuff": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tinkatuff",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tinkatuff"
+  },
+  "pixelmon.mob.tinkaton": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tinkaton",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tinkaton"
+  },
+  "pixelmon.mob.houndstone": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/houndstone",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.houndstone"
+  },
+  "pixelmon.mob.flamigo": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/flamigo",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.flamigo"
+  },
+  "pixelmon.mob.cetoddle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cetoddle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cetoddle"
+  },
+  "pixelmon.mob.veluza": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/veluza",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.veluza"
+  },
+  "pixelmon.mob.screamtail": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/screamtail",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.screamtail"
+  },
+  "pixelmon.mob.fluttermane": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/fluttermane",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.fluttermane"
+  },
+  "pixelmon.mob.chien-pao": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/chienpao",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.chien-pao"
+  },
+  "pixelmon.mob.ting-lu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tinglu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ting-lu"
+  },
+  "pixelmon.mob.roaringmoon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/roaringmoon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.roaringmoon"
+  },
+  "pixelmon.mob.alomomola": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/alomomola",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.alomomola"
+  },
+  "pixelmon.mob.bunnelby": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/bunnelby",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.bunnelby"
+  },
+  "pixelmon.mob.cacnea": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cacnea",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cacnea"
+  },
+  "pixelmon.mob.cacturne": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cacturne",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cacturne"
+  },
+  "pixelmon.mob.castform": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/castform",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.castform"
+  },
+  "pixelmon.mob.cherrim": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cherrim",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cherrim"
+  },
+  "pixelmon.mob.cherubi": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/cherubi",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.cherubi"
+  },
+  "pixelmon.mob.comfey": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/comfey",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.comfey"
+  },
+  "pixelmon.mob.dedenne": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/dedenne",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.dedenne"
+  },
+  "pixelmon.mob.diancie": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/diancie",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.diancie"
+  },
+  "pixelmon.mob.flabebe": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/flabebe",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.flabebe"
+  },
+  "pixelmon.mob.floette": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/floette",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.floette"
+  },
+  "pixelmon.mob.florges": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/florges",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.florges"
+  },
+  "pixelmon.mob.furfrou": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/furfrou",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.furfrou"
+  },
+  "pixelmon.mob.gothita": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gothita",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gothita"
+  },
+  "pixelmon.mob.gothorita": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gothorita",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gothorita"
+  },
+  "pixelmon.mob.gothitelle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/gothitelle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.gothitelle"
+  },
+  "pixelmon.mob.inkay": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/inkay",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.inkay"
+  },
+  "pixelmon.mob.luvdisc": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/luvdisc",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.luvdisc"
+  },
+  "pixelmon.mob.mandibuzz": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mandibuzz",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mandibuzz"
+  },
+  "pixelmon.mob.maushold": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/maushold",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.maushold"
+  },
+  "pixelmon.mob.mawile": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mawile",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mawile"
+  },
+  "pixelmon.mob.morpeko": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/morpeko",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.morpeko"
+  },
+  "pixelmon.mob.ogerpon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/ogerpon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.ogerpon"
+  },
+  "pixelmon.mob.pyukumuku": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pyukumuku",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pyukumuku"
+  },
+  "pixelmon.mob.roselia": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/roselia",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.roselia"
+  },
+  "pixelmon.mob.salandit": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/salandit",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.salandit"
+  },
+  "pixelmon.mob.salazzle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/salazzle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.salazzle"
+  },
+  "pixelmon.mob.sandyshocks": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sandyshocks",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sandyshocks"
+  },
+  "pixelmon.mob.shieldon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shieldon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shieldon"
+  },
+  "pixelmon.mob.shuckle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/shuckle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.shuckle"
+  },
+  "pixelmon.mob.sinistea": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sinistea",
+        "stream": false
+      }
+    ]
+  },
+  "pixelmon.mob.sinistcha": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/sinistcha",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.sinistcha"
+  },
+  "pixelmon.mob.slurpuff": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/slurpuff",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.slurpuff"
+  },
+  "pixelmon.mob.smeargle": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/smeargle",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.smeargle"
+  },
+  "pixelmon.mob.snorunt": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/snorunt",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.snorunt"
+  },
+  "pixelmon.mob.swirlix": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/swirlix",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.swirlix"
+  },
+  "pixelmon.mob.swoobat": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/swoobat",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.swoobat"
+  },
+  "pixelmon.mob.tandemaus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tandemaus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tandemaus"
+  },
+  "pixelmon.mob.togedemaru": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/togedemaru",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.togedemaru"
+  },
+  "pixelmon.mob.vanillish": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/vanillish",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.vanillish"
+  },
+  "pixelmon.mob.vanillite": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/vanillite",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.vanillite"
+  },
+  "pixelmon.mob.vanilluxe": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/vanilluxe",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.vanilluxe"
+  },
+  "pixelmon.mob.vullaby": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/vullaby",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.vullaby"
+  },
+  "pixelmon.mob.wishiwashi": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/wishiwashi",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.wishiwashi"
+  },
+  "pixelmon.mob.woobat": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/woobat",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.woobat"
+  },
+  "pixelmon.mob.zigzagoon": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/zigzagoon",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.zigzagoon"
+  },
+  "pixelmon.mob.fezandipiti": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/fezandipiti",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.fezandipiti"
+  },
+  "pixelmon.mob.boltund": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/boltund",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.boltund"
+  },
+  "pixelmon.mob.eldegoss": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/eldegoss",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.eldegoss"
+  },
+  "pixelmon.mob.enamorus": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/enamorus",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.enamorus"
+  },
+  "pixelmon.mob.greavard": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/greavard",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.greavard"
+  },
+  "pixelmon.mob.mrrime": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/mrrime",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.mrrime"
+  },
+  "pixelmon.mob.natu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/natu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.natu"
+  },
+  "pixelmon.mob.okidogi": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/okidogi",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.okidogi"
+  },
+  "pixelmon.mob.pincurchin": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/pincurchin",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.pincurchin"
+  },
+  "pixelmon.mob.rabsca": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rabsca",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rabsca"
+  },
+  "pixelmon.mob.rellor": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/rellor",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.rellor"
+  },
+  "pixelmon.mob.spidops": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/spidops",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.spidops"
+  },
+  "pixelmon.mob.tarountula": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/tarountula",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.tarountula"
+  },
+  "pixelmon.mob.xatu": {
+    "sounds": [
+      {
+        "name": "pixelmon:pixelmon/xatu",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitle.pixelmon.mob.xatu"
+  }
+}

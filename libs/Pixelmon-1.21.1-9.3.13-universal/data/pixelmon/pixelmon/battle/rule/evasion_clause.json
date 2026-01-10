@@ -1,0 +1,17 @@
+{
+  "modifiers": [],
+  "requirements":  [
+    {
+      "requirement": {
+        "type": "pixelmon:spec_based_ban_list",
+        "banned_pokemon": [
+          "move:double_team",
+          "move:minimize"
+        ]
+      },
+      "reason": {
+        "translate": "gui.battlerules.description.evasion"
+      }
+    }
+  ]
+}

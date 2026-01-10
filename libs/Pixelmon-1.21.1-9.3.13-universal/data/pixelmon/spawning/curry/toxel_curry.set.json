@@ -1,0 +1,20 @@
+{
+  "id": "Toxel Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Toxel",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

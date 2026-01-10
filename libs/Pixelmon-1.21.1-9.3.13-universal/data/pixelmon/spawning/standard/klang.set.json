@@ -1,0 +1,54 @@
+{
+  "id": "Klang",
+  "spawnInfos": [
+    {
+      "spec": "species:Klang",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains",
+          "#pixelmon:spawning/mountainous"
+        ],
+        "maxY": 90
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Klang",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Klang",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 38,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50
+      },
+      "rarity": 5.0
+    }
+  ]
+}

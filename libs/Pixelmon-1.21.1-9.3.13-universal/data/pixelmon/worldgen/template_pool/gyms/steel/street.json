@@ -1,0 +1,51 @@
+{
+  "name": "pixelmon:gyms/steel/street",
+  "fallback": "pixelmon:gyms/steel/terminators",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "pixelmon:gyms/steel/gym_steel_road_a",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "pixelmon:gyms/steel/gym_steel_road_b",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:gyms/steel/gym_steel_road_c",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:gyms/steel/gym_steel_road_d",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:gyms/steel/gym_steel_road_patch_a",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

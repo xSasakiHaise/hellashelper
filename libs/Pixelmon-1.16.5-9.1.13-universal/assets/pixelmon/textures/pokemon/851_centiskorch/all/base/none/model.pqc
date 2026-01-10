@@ -1,0 +1,4 @@
+$body centiskorch.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 4.0

@@ -1,0 +1,18 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:allay"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "cutiefly",
+      "spritzee",
+      "swirlix",
+      "flabebe",
+      "floette"
+    ]
+  }
+}

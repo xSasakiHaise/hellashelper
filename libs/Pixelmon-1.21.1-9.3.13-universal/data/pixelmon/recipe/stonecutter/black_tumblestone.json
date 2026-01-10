@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "pixelmon:raw_black_tumblestone"
+    },
+    "result": {
+      "id": "pixelmon:black_tumblestone",
+      "count": 1
+    }
+}

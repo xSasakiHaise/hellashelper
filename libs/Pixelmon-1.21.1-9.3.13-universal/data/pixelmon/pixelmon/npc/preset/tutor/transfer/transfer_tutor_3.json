@@ -1,0 +1,275 @@
+{
+  "interactions": {
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "learnable_moves": [
+                  {
+                    "attack": "Ominous Wind",
+                    "costs": [
+                      {
+                        "id": "pixelmon:aluminum_ingot",
+                        "count": 4
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Eruption",
+                    "costs": [
+                      {
+                        "id": "minecraft:emerald",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Miracle Eye",
+                    "costs": [
+                      {
+                        "id": "minecraft:iron_ingot",
+                        "count": 12
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Hidden Power",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 3
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Mimic",
+                    "costs": [
+                      {
+                        "id": "minecraft:diamond",
+                        "count": 2
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Brine",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 6
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Grass Knot",
+                    "costs": [
+                      {
+                        "id": "pixelmon:crystal",
+                        "count": 9
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Play Nice",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 1
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Chip Away",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 8
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Arm Thrust",
+                    "costs": [
+                      {
+                        "id": "minecraft:iron_ingot",
+                        "count": 9
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Mirror Shot",
+                    "costs": [
+                      {
+                        "id": "minecraft:iron_ingot",
+                        "count": 14
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Endure",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 1
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Nasty Plot",
+                    "costs": [
+                      {
+                        "id": "minecraft:amethyst_shard",
+                        "count": 16
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Bide",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 5
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Reversal",
+                    "costs": [
+                      {
+                        "id": "minecraft:amethyst_shard",
+                        "count": 12
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Hone Claws",
+                    "costs": [
+                      {
+                        "id": "minecraft:emerald",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Psycho Boost",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 4
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Infestation",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Rolling Kick",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 2
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Laser Focus",
+                    "costs": [
+                      {
+                        "id": "minecraft:gold_ingot",
+                        "count": 7
+                      }
+                    ],
+                    "learnable": true
+                  }
+                ],
+                "type": "pixelmon:tutor_move"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        }
+      ]
+    },
+    "type": "pixelmon:constant"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Transfer Tutor"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "value": {
+      "slim": false,
+      "texture": {
+        "resource": {
+          "resource": "pixelmon:textures/steve/npcchat1.png",
+          "fallback": "pixelmon:textures/steve/npcchat1.png"
+        },
+        "type": "pixelmon:fallback"
+      },
+      "type": "pixelmon:player"
+    },
+    "type": "pixelmon:constant"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5.0,
+      "swim": false
+    }
+  }
+}

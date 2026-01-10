@@ -1,0 +1,45 @@
+{
+    "id": "Veluza Fishing",
+    "spawnInfos": [
+      {
+        "spec": "species:Veluza",
+        "stringLocationTypes": [
+          "Good Rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "minecraft:ocean",
+            "minecraft:deep_ocean",
+            "minecraft:lukewarm_ocean",
+            "minecraft:deep_lukewarm_ocean",
+            "minecraft:warm_ocean",
+            "minecraft:deep_warm_ocean"
+          ]
+        },
+        "rarity": 50.0
+      },
+      {
+        "spec": "species:Veluza",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "minecraft:ocean",
+            "minecraft:deep_ocean",
+            "minecraft:lukewarm_ocean",
+            "minecraft:deep_lukewarm_ocean",
+            "minecraft:warm_ocean",
+            "minecraft:deep_warm_ocean"
+          ]
+        },
+        "rarity": 25.0
+      }
+    ]
+  }

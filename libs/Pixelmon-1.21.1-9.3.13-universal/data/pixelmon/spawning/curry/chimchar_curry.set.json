@@ -1,0 +1,21 @@
+{
+  "id": "Chimchar Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Chimchar",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests",
+          "minecraft:snowy_taiga"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

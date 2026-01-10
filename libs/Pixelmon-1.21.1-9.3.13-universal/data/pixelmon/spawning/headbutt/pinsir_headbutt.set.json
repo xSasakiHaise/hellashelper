@@ -1,0 +1,57 @@
+{
+  "id": "Pinsir Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Pinsir status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 21,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "variant": [
+          "jungle",
+          "oak",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 15.0
+    },
+    {
+      "spec": "species:Pinsir",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 21,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT",
+          "DAWN"
+        ],
+        "variant": [
+          "jungle",
+          "oak",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

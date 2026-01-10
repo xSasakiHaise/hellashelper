@@ -1,0 +1,51 @@
+{
+  "id": "Minccino Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Minccino",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:old_growth_birch_forest",
+          "byg:aspen_forest_hills",
+          "byg:seasonal_birch_forest_hills"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Cinccino",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:birch_forest",
+          "minecraft:old_growth_birch_forest",
+          "byg:aspen_forest_hills",
+          "byg:seasonal_birch_forest_hills"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

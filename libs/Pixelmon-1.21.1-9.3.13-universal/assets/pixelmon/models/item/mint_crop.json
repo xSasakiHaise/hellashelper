@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "pixelmon:block/mint/mint_crop_stage_3"
+    }
+}

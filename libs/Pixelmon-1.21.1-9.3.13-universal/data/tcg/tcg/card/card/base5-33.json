@@ -1,0 +1,44 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base5-33.description",
+  "attacks": [
+    {
+      "name": "attack.base5-33.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base5-33.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "COLORLESS",
+  "pokemon_id": 148,
+  "ability": {
+    "name": "ability.base5-33.name",
+    "description": "ability.base5-33.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:evolutionary_light"
+    }
+  },
+  "resistance": {
+    "energy": "PSYCHIC",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:uncommon"
+}

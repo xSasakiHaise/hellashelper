@@ -1,0 +1,72 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base5-60.description",
+  "attacks": [
+    {
+      "name": "attack.base5-60.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base5-60.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": false,
+          "damage_type": "PerPokemon",
+          "value": 10,
+          "pokedex_id": 81,
+          "ignore_base_damage": false
+        },
+        {
+          "type": "tcg:damage_bonus",
+          "self": false,
+          "damage_type": "PerPokemon",
+          "value": 10,
+          "pokedex_id": 82,
+          "ignore_base_damage": false
+        }
+      ]
+    },
+    {
+      "name": "attack.base5-60.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base5-60.1.description",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": false,
+          "damage_type": "PerPokemon",
+          "value": 10,
+          "pokedex_id": 81,
+          "ignore_base_damage": false
+        },
+        {
+          "type": "tcg:damage_bonus",
+          "self": false,
+          "damage_type": "PerPokemon",
+          "value": 10,
+          "pokedex_id": 82,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "LIGHTNING",
+  "pokemon_id": 81,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

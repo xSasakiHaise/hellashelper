@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "particle": "pixelmon:items/incense_burner",
+    "layer0": "pixelmon:items/incense_burner"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:gigantamax",
+    "pixelmon:mega",
+    "pixelmon:jump",
+    "pixelmon:shiny_dex"
+  ]
+}

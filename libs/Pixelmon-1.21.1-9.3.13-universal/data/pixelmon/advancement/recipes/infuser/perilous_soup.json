@@ -1,0 +1,46 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:infuser/perilous_soup"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:infuser/perilous_soup"
+      }
+    },
+    "has_kee_berry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:kee_berry"
+            ]
+          }
+        ]
+      }
+    },
+    "has_maranga_berry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:maranga_berry"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_kee_berry",
+      "has_maranga_berry"
+    ]
+  ]
+}

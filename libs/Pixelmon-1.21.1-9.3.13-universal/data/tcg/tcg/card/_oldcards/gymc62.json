@@ -1,0 +1,41 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 58,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC62.1.name",
+      "costs": [
+        "FIRE"
+      ],
+      "damage": 0,
+      "text": "attack.GYMC62.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC62.2.name",
+      "costs": [
+        "FIRE",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC62.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

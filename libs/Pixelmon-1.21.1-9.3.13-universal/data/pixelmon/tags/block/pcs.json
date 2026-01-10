@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_pc",
+    "pixelmon:orange_pc",
+    "pixelmon:magenta_pc",
+    "pixelmon:light_blue_pc",
+    "pixelmon:yellow_pc",
+    "pixelmon:lime_pc",
+    "pixelmon:pink_pc",
+    "pixelmon:gray_pc",
+    "pixelmon:light_gray_pc",
+    "pixelmon:cyan_pc",
+    "pixelmon:purple_pc",
+    "pixelmon:blue_pc",
+    "pixelmon:brown_pc",
+    "pixelmon:green_pc",
+    "pixelmon:red_pc",
+    "pixelmon:black_pc"
+  ]
+}

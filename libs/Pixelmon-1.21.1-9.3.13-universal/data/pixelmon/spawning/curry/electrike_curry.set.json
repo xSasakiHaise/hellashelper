@@ -1,0 +1,21 @@
+{
+  "id": "Electrike Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Electrike",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

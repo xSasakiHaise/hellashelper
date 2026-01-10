@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 3,
+  "previous_pokemon_id": 2,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC4.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.GYMC4.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC4.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC4.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

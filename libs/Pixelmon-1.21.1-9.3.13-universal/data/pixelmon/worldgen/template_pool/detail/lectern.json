@@ -1,0 +1,24 @@
+{
+  "name": "pixelmon:detail/lectern",
+  "fallback": "pixelmon:detail/lectern",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:detail/lectern/empty",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:detail/lectern/blank_book",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

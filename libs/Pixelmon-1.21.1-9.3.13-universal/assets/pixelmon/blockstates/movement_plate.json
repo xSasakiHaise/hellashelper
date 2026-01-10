@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/movement_plate"
+    },
+    "facing=south": {
+      "model": "pixelmon:block/movement_plate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixelmon:block/movement_plate",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "pixelmon:block/movement_plate",
+      "y": 90
+    }
+  }
+}

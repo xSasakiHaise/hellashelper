@@ -1,0 +1,34 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:pokeball/ball/dream_ball_new"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:pokeball/ball/dream_ball_new"
+      }
+    },
+    "has_dusk_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:poke_ball"
+            ],
+            "nbt": "{PokeBallID:\"dusk_ball\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dusk_ball"
+    ]
+  ]
+}

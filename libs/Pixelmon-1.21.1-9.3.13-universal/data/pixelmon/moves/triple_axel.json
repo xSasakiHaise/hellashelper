@@ -1,0 +1,41 @@
+{
+  "attackIndex": 727,
+  "attackName": "Triple Axel",
+  "attackType": "ICE",
+  "attackCategory": "PHYSICAL",
+  "basePower": 20,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": 90,
+  "makesContact": true,
+  "effects": [
+    {
+      "maxHits": 3,
+      "powerChange": 20,
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "CheckedStrikes"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": false
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:icium_z",
+      "attackName": "Subzero Slammer",
+      "basePower": 100,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

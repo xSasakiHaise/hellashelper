@@ -1,0 +1,97 @@
+{
+  "id": "Skiddo Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Skiddo",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 19,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/mountainous_forests",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Skiddo",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 19,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "minecraft:snowy_plains",
+          "minecraft:snowy_taiga",
+          "byg:snowy_blue_taiga_hills",
+          "byg:snowy_confierous_forest_hills",
+          "byg:snowy_deciduous_forest_hills",
+          "byg:snowy_evergreen_hills"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Gogoat",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/mountainous_forests",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Gogoat",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "minecraft:snowy_plains",
+          "minecraft:snowy_taiga",
+          "byg:snowy_blue_taiga_hills",
+          "byg:snowy_confierous_forest_hills",
+          "byg:snowy_deciduous_forest_hills",
+          "byg:snowy_evergreen_hills"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

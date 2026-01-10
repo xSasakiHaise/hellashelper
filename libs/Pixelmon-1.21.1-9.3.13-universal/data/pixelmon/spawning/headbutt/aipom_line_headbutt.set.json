@@ -1,0 +1,101 @@
+{
+  "id": "Aipom Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Aipom status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Aipom",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Ambipom status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "jungle",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Ambipom",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "jungle",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

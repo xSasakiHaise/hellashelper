@@ -1,0 +1,22 @@
+{
+  "id": "Grubbin Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Grubbin",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

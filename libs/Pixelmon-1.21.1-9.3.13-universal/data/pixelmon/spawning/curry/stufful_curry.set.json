@@ -1,0 +1,22 @@
+{
+  "id": "Stufful Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Stufful",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

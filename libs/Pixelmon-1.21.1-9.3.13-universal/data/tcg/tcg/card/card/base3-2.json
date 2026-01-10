@@ -1,0 +1,72 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.base3-2.description",
+  "attacks": [
+    {
+      "name": "attack.base3-2.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base3-2.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 10
+        },
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "TAIL",
+          "self": true,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-2.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 50,
+      "text": "attack.base3-2.1.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 10
+        },
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "TAIL",
+          "self": true,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "WATER",
+  "pokemon_id": 144,
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:holo_rare"
+}

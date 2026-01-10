@@ -1,0 +1,43 @@
+{
+  "id": "Heatmor",
+  "spawnInfos": [
+    {
+      "spec": "species:Heatmor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ],
+        "maxY": 85
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Heatmor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

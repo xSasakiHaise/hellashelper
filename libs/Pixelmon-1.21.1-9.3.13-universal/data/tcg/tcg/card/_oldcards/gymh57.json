@@ -1,0 +1,29 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 72,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH57.1.name",
+      "costs": [
+        "WATER",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH57.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

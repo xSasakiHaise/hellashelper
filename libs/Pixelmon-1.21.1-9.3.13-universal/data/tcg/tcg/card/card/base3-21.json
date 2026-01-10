@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base3-21.description",
+  "attacks": [
+    {
+      "name": "attack.base3-21.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base3-21.0.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "ASLEEP",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "PSYCHIC",
+  "pokemon_id": 93,
+  "ability": {
+    "name": "ability.base3-21.name",
+    "description": "ability.base3-21.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:transparency"
+    }
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:rare"
+}

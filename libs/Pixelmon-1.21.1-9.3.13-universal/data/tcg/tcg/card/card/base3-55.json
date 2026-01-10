@@ -1,0 +1,54 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base3-55.description",
+  "attacks": [
+    {
+      "name": "attack.base3-55.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base3-55.0.description",
+      "effects": [
+        {
+          "type": "tcg:search_discard_with_energy_cost_effect",
+          "search_type": "tcg:trainer",
+          "search_count": 1,
+          "discard_energy": "PSYCHIC",
+          "discard_count": 1
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-55.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base3-55.1.description",
+      "effects": [
+        {
+          "type": "tcg:search_discard_with_energy_cost_effect",
+          "search_type": "tcg:trainer",
+          "search_count": 1,
+          "discard_energy": "PSYCHIC",
+          "discard_count": 1
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "PSYCHIC",
+  "pokemon_id": 79,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

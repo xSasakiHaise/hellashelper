@@ -1,0 +1,4 @@
+$body dondozo.bmd
+$anim swim swim.bmd
+$anim idle idle.bmd
+$scale 6.8

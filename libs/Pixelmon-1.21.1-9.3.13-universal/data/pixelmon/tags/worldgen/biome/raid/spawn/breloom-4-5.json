@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mushroom_fields",
+    {
+      "required": false,
+      "id": "biomesoplenty:fungal_jungle"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:shroomy_wetland"
+    },
+    "minecraft:dark_forest",
+    {
+      "required": false,
+      "id": "biomesoplenty:dense_woodland"
+    }
+  ]
+}

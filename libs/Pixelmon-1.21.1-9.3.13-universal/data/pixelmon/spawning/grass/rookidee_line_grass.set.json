@@ -1,0 +1,70 @@
+{
+  "id": "Rookidee Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Rookidee",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 7,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Corvisquire",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 18,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Corviknight",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 38,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

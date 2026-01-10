@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:the_end",
+    "minecraft:small_end_islands",
+    "minecraft:end_midlands",
+    "minecraft:end_highlands",
+    "minecraft:end_barrens",
+    {
+      "required": false,
+      "id": "nullscape:crystal_peaks"
+    },
+    {
+      "required": false,
+      "id": "nullscape:shadowlands"
+    },
+    {
+      "required": false,
+      "id": "nullscape:void_barrens"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_deep_sea"
+    }
+  ]
+}

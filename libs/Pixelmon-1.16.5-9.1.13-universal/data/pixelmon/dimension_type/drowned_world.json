@@ -1,0 +1,17 @@
+{
+  "name": "pixelmon:drowned_world",
+  "ultrawarm": false,
+  "natural": false,
+  "piglin_safe": false,
+  "respawn_anchor_works": false,
+  "bed_works": false,
+  "has_raids": false,
+  "has_skylight": false,
+  "has_ceiling": false,
+  "coordinate_scale": 1,
+  "ambient_light": 0.025,
+  "fixed_time": 13200,
+  "logical_height": 256,
+  "infiniburn": "minecraft:infiniburn_overworld",
+  "effects": "pixelmon:drowned_world"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Mankey",
+  "spawnInfos": [
+    {
+      "spec": "species:Mankey",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 10,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Mankey palette:pink",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 10,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

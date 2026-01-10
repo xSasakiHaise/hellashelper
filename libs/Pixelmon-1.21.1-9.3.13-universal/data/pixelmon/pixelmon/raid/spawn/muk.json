@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Muk form:alolan",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/muk-alolan-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Muk",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/muk-4-5",
+      "weight": 1.0
+    }
+  ]
+}

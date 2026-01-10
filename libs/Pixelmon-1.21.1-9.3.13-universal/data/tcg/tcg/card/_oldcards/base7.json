@@ -1,0 +1,18 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 107,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+
+  ],
+  "energies": "FIGHTING"
+}

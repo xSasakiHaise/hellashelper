@@ -1,0 +1,6 @@
+$body NetBall.bmd
+$anim bounceOpen bounceOpen.bmd
+$anim bounceClose bounceClose.bmd
+$anim shakeLeft shakeLeft.bmd
+$anim shakeRight shakeRight.bmd
+$anim idle idle.bmd

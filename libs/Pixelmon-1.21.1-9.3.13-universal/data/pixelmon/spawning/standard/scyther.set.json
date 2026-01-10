@@ -1,0 +1,46 @@
+{
+  "id": "Scyther",
+  "spawnInfos": [
+    {
+      "spec": "species:Scyther",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Scyther",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

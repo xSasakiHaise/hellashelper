@@ -1,0 +1,13 @@
+{
+  "events": [
+    "pixelmon:poke_gift_open"
+  ],
+  "condition": {
+    "type": "pixelmon:true"
+  },
+  "resulting_states": [
+    "SEEN"
+  ],
+  "player_context_key": "pixelmon:player",
+  "pokemon_context_key": "pixelmon:pokemon"
+}

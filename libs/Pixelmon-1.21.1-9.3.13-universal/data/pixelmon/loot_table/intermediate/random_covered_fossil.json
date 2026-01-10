@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:covered_fossil_0"
+        },
+		{
+		  "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:covered_fossil_1"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:covered_fossil_2"     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:covered_fossil_3"    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:covered_fossil_4"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:covered_fossil_5"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:covered_fossil_6"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:covered_fossil_7"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:covered_fossil_8"     
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:covered_fossil_9"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:covered_fossil_10"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:covered_fossil_11"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:covered_fossil_12"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:covered_fossil_13"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:covered_fossil_14"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,20 @@
+{
+  "id": "Smeargle Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Smeargle",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

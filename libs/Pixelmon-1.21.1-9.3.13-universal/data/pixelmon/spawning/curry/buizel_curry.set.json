@@ -1,0 +1,22 @@
+{
+  "id": "Buizel Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Buizel",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/lakes",
+          "minecraft:stony_shore"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

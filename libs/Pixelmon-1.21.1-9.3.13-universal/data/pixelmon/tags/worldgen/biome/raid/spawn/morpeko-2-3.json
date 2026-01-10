@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "biomesoplenty:highland"
+    },
+    {
+      "required": false,
+      "id": "terralith:highlands"
+    },
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+      "required": false,
+      "id": "biomesoplenty:redwood_forest"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "Fletchling Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Fletchling status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas"
+        ],
+        "variant": [
+          "birch",
+          "spruce"
+        ]
+      },
+      "rarity": 160.0
+    },
+    {
+      "spec": "species:Fletchling",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas"
+        ],
+        "variant": [
+          "birch",
+          "spruce"
+        ]
+      },
+      "rarity": 160.0
+    },
+    {
+      "spec": "species:Fletchinder status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 17,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas"
+        ],
+        "variant": [
+          "birch",
+          "spruce"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Fletchinder",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 17,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas"
+        ],
+        "variant": [
+          "birch",
+          "spruce"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

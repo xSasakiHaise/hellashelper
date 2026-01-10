@@ -1,0 +1,20 @@
+{
+  "id": "Dunsparce Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Dunsparce",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

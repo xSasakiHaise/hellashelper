@@ -1,0 +1,53 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 139,
+  "previous_pokemon_id": 138,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS40.1.name",
+      "costs": [
+        "WATER",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.FOSS40.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "energy": "WATER",
+          "damage_type": "PerEnergy",
+          "value": 10,
+          "max_damage": 20,
+          "ignore_base_damage": false
+        }
+      ]
+    },
+    {
+      "name": "attack.FOSS40.2.name",
+      "costs": [
+        "WATER",
+        "WATER"
+      ],
+      "damage": 30,
+      "text": "attack.FOSS40.2.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 2,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

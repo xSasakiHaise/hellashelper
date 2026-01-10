@@ -1,0 +1,289 @@
+{
+  "name": "Snom",
+  "dex": 872,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Powder Snow",
+              "Struggle Bug"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Bug Bite",
+          "Fairy Wind",
+          "Mirror Coat"
+        ],
+        "tmMoves9": [
+          "Protect",
+          "Struggle Bug",
+          "Pounce",
+          "Facade",
+          "Icy Wind",
+          "Sleep Talk",
+          "Rest",
+          "Substitute",
+          "Bug Buzz",
+          "Tera Blast",
+          "Bug Bite",
+          "Lunge",
+          "Icicle Spear",
+          "Skitter Smack"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Facade",
+          "Icicle Spear",
+          "Round"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Bug Buzz"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShieldDust"
+        ],
+        "hiddenAbilities": [
+          "IceScales"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 30,
+        "attack": 25,
+        "defense": 35,
+        "specialAttack": 45,
+        "specialDefense": 30,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 37,
+        "baseFriendship": 50,
+        "spawnLevel": 38,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/872_snom/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.snom",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/872_snom/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/872_snom/all/base/none/snom.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/872_snom/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/872_snom/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.7
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/872_snom/all/base/none/texture.png",
+                      "texture_transparency": 0.3,
+                      "model": "pixelmon:pokemon/872_snom/all/base/none/ice.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/872_snom/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/872_snom/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.7
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/872_snom/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/872_snom/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/872_snom/all/base/none/snom.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/872_snom/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/872_snom/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.7
+                    },
+                    {
+                      "texture_transparency": 0.3,
+                      "texture": "pixelmon:pokemon/872_snom/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/872_snom/all/base/none/ice.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/872_snom/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/872_snom/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.7
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "ICE",
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 3.8,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Frosmoth",
+          "conditions": [
+            {
+              "friendship": 160,
+              "evoConditionType": "friendship"
+            },
+            {
+              "time": "NIGHT",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Icy Wind"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      },
+      "growth_data": {
+        "mean": 40.0,
+        "standard_deviation": 2.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 8
+}

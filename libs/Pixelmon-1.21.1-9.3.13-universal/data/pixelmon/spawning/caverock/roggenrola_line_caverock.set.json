@@ -1,0 +1,51 @@
+{
+  "id": "Roggenrola Line Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Roggenrola",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 70
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Boldore",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 70
+      },
+      "rarity": 8.0
+    }
+  ]
+}

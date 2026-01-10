@@ -1,0 +1,133 @@
+{
+  "id": "Deerling Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Deerling form:spring",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 21,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "flowery",
+          "birches"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Deerling form:summer",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 21,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "forests",
+          "roofed",
+          "magical"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Deerling form:autumn",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 21,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "redwoods",
+          "taigas"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Deerling form:winter",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 21,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "freezing forests"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Sawsbuck form:spring",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "flowery",
+          "birches"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Sawsbuck form:summer",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "forests",
+          "roofed",
+          "magical"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Sawsbuck form:autumn",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "redwoods",
+          "taigas"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Sawsbuck form:winter",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "freezing forests"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+		      "item" : "pixelmon:pixelmon_sprite",
+		      "count": 1,
+		      "components": {
+		        "minecraft:custom_data": {
+		          "ndex": 250,
+		          "palette": "rainbow",
+		          "form": ""
+		        }
+		      }
+		},
+		"title": {
+			"translate": "advancements.rainbow.title"
+		},
+		"description": {
+			"translate": "advancements.rainbow.description"
+		},
+		"hidden": true
+	},
+    "parent" : "pixelmon:specs/spec_trigger",
+	"criteria": {
+		"rainbow_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:rainbow"
+			}
+		}
+	}
+}

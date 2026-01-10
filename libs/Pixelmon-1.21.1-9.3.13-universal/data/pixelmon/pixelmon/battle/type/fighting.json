@@ -1,0 +1,40 @@
+{
+  "name": {
+    "translate": "type.fighting"
+  },
+  "color": {
+    "red": 186,
+    "green": 0,
+    "blue": 56,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/fighting.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:normal",
+        "pixelmon:ice",
+        "pixelmon:rock",
+        "pixelmon:dark",
+        "pixelmon:steel"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:poison",
+        "pixelmon:flying",
+        "pixelmon:psychic",
+        "pixelmon:bug",
+        "pixelmon:fairy"
+      ],
+      "effectiveness": "NOT"
+    },
+    {
+      "types": [
+        "pixelmon:ghost"
+      ],
+      "effectiveness": "NONE"
+    }
+  ]
+}

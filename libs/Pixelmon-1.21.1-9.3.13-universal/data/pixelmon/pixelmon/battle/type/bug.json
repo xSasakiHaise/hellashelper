@@ -1,0 +1,34 @@
+{
+  "name": {
+    "translate": "type.bug"
+  },
+  "color": {
+    "red": 168,
+    "green": 224,
+    "blue": 83,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/bug.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:grass",
+        "pixelmon:psychic",
+        "pixelmon:dark"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:fire",
+        "pixelmon:fighting",
+        "pixelmon:poison",
+        "pixelmon:flying",
+        "pixelmon:ghost",
+        "pixelmon:steel",
+        "pixelmon:fairy"
+      ],
+      "effectiveness": "NOT"
+    }
+  ]
+}

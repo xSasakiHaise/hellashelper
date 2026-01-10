@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "pixelmon:block/ultra_space/jungle_planks"
+  }
+}

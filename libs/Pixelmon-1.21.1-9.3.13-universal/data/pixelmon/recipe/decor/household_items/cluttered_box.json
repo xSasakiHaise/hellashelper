@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pixelmon:box"
+    },
+    {
+      "item": "book"
+    },
+    {
+      "tag": "pixelmon:mugs"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:cluttered_box",
+    "count": 1
+  }
+}

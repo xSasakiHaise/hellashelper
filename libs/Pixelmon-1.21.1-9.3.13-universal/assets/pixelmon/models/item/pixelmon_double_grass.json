@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "pixelmon:block/pixelmon_double_grass_top"
+    }
+}

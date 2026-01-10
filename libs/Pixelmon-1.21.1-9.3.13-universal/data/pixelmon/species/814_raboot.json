@@ -1,0 +1,345 @@
+{
+  "name": "Raboot",
+  "dex": 814,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Growl",
+              "Quick Attack",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Fire Pledge"
+        ],
+        "eggMoves": [
+          "High Jump Kick",
+          "Sand Attack",
+          "Sucker Punch",
+          "Super Fang"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Fire Fang",
+          "Low Kick",
+          "Acrobatics",
+          "Trailblaze",
+          "Fire Spin",
+          "Facade",
+          "Swift",
+          "Mud Shot",
+          "Flame Charge",
+          "Low Sweep",
+          "Endure",
+          "Sunny Day",
+          "U-turn",
+          "Bulk Up",
+          "Sleep Talk",
+          "Electro Ball",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Gunk Shot",
+          "Substitute",
+          "Heat Wave",
+          "Flamethrower",
+          "Helping Hand",
+          "Baton Pass",
+          "Reversal",
+          "Fire Blast",
+          "Fire Pledge",
+          "Overheat",
+          "Flare Blitz",
+          "Tera Blast",
+          "Super Fang",
+          "Weather Ball",
+          "Burning Jealousy",
+          "Double-Edge",
+          "Temper Flare"
+        ],
+        "tmMoves8": [
+          "Mega Kick",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Bounce",
+          "Mud Shot",
+          "U-turn",
+          "Assurance",
+          "Fire Fang",
+          "Low Sweep",
+          "Round",
+          "Acrobatics"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Low Kick",
+          "Agility",
+          "Focus Energy",
+          "Fire Blast",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Heat Wave",
+          "Taunt",
+          "Blaze Kick",
+          "Overheat",
+          "Bulk Up",
+          "Flare Blitz",
+          "Gunk Shot",
+          "Electro Ball",
+          "Ally Switch",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "Libero"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 86,
+        "defense": 60,
+        "specialAttack": 55,
+        "specialDefense": 60,
+        "speed": 94
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 147,
+        "baseFriendship": 50,
+        "spawnLevel": 16,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/814_raboot/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.raboot",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/814_raboot/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/814_raboot/all/base/none/raboot.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/814_raboot/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/814_raboot/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.7
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/814_raboot/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/814_raboot/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/814_raboot/all/base/none/raboot.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/814_raboot/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/814_raboot/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.7
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [
+        "Scorbunny"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 9.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 35,
+          "to": "Cinderace",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Pyro Ball"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      },
+      "growth_data": {
+        "mean": 70.0,
+        "standard_deviation": 3.5,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 8
+}

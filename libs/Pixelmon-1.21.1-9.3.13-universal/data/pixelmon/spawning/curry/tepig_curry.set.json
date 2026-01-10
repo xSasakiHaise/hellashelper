@@ -1,0 +1,20 @@
+{
+  "id": "Tepig Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Tepig",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

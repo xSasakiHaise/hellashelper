@@ -1,0 +1,55 @@
+{
+  "id": "Trumbeak",
+  "spawnInfos": [
+    {
+      "spec": "species:Trumbeak",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt"
+      ],
+      "minLevel": 14,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sitrus_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Trumbeak",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 14,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sitrus_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

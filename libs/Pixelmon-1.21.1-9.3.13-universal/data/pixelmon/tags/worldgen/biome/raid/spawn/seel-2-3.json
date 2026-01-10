@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snowy_beach",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:frozen_river",
+    {
+      "required": false,
+      "id": "biomesoplenty:cold_desert"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:muskeg"
+    },
+    {
+      "required": false,
+      "id": "terralith:ice_marsh"
+    },
+    {
+      "required": false,
+      "id": "terralith:gravel_desert"
+    },
+    {
+      "required": false,
+      "id": "terralith:snowy_badlands"
+    }
+  ]
+}

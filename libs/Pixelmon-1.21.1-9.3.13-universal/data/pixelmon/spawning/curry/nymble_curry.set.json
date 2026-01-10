@@ -1,0 +1,21 @@
+{
+    "id": "Nymble",
+    "spawnInfos": [
+      {
+        "spec": "species:Nymble",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 5,
+        "maxLevel": 24,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/savannas"
+          ]
+        },
+        "rarity": 110.0
+      }
+    ]
+  }
+  

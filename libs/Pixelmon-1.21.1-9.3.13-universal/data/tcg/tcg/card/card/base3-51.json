@@ -1,0 +1,56 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base3-51.description",
+  "attacks": [
+    {
+      "name": "attack.base3-51.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base3-51.0.description",
+      "effects": [
+        {
+          "type": "tcg:find_pokemon",
+          "count": 1,
+          "find_type": "ByPokemon",
+          "pokedex_numbers": [
+            98
+          ]
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-51.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base3-51.1.description",
+      "effects": [
+        {
+          "type": "tcg:find_pokemon",
+          "count": 1,
+          "find_type": "ByPokemon",
+          "pokedex_numbers": [
+            98
+          ]
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "WATER",
+  "pokemon_id": 98,
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

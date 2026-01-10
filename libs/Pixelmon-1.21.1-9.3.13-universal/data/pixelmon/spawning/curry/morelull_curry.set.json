@@ -1,0 +1,34 @@
+{
+  "id": "Morelull Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Morelull",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 7,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

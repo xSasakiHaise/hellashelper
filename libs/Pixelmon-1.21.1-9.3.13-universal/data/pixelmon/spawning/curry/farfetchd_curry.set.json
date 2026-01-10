@@ -1,0 +1,51 @@
+{
+  "id": "Farfetchd Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Farfetchd",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Farfetchd form:galarian",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

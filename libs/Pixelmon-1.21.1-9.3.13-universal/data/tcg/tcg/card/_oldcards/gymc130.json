@@ -1,0 +1,10 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "",
+  "pokemon_id": null,
+  "previous_pokemon_id": null,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "energies": "LIGHTNING"
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:red_berry_wood_pressure_plate",
+    "pixelmon:purple_berry_wood_pressure_plate",
+    "pixelmon:pink_berry_wood_pressure_plate",
+    "pixelmon:green_berry_wood_pressure_plate",
+    "pixelmon:yellow_berry_wood_pressure_plate",
+    "pixelmon:blue_berry_wood_pressure_plate"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "pixelmon:infuser",
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "pixelmon:nomel_berry",
+      "count": 3
+    },
+    {
+      "item": "pixelmon:incense_burner"
+    }
+  ],
+  "results": {
+    "id": "pixelmon:pure_incense"
+  }
+}

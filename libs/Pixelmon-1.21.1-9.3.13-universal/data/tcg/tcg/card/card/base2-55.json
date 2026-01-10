@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "card.base2-55.description",
+  "attacks": [
+    {
+      "name": "attack.base2-55.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base2-55.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "FIGHTING",
+  "pokemon_id": 56,
+  "ability": {
+    "name": "ability.base2-55.name",
+    "description": "ability.base2-55.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:peek"
+    }
+  },
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Charmander Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Charmander",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "minecraft:eroded_badlands",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

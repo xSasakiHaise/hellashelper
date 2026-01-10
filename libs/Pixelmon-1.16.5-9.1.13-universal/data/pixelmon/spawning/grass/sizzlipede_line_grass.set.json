@@ -1,0 +1,49 @@
+{
+  "id": "Sizzlipede Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Sizzlipede",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 9,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "arid",
+          "mesas",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Centiskorch",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 28,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "arid",
+          "mesas",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

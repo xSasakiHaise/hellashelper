@@ -1,0 +1,21 @@
+{
+  "id": "Klefki Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Klefki",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 42,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

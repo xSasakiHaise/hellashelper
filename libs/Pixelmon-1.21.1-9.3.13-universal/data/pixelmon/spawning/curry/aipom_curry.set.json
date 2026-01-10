@@ -1,0 +1,20 @@
+{
+  "id": "Aipom Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Aipom",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

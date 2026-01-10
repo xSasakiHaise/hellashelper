@@ -1,0 +1,45 @@
+{
+  "id": "Wooloo Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Wooloo",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 7,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains"
+        ]
+      },
+      "rarity": 200.0
+    },
+    {
+      "spec": "species:Dubwool",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

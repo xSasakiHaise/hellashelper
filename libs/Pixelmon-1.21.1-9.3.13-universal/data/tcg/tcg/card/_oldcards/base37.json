@@ -1,0 +1,34 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 33,
+  "previous_pokemon_id": 32,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE37.1.name",
+      "costs": [
+        "GRASS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.BASE37.1.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 2,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 105,
+  "setId": 2,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 70,
+  "energy1": "FIRE",
+  "energy2": null,
+  "pokemonId": 136,
+  "code": "JUNG3",
+  "name": "card.JUNG3.name",
+  "description": "",
+  "previousPokemonId": 133,
+  "cardAttacks": [
+    {
+      "card": "JUNG3",
+      "index": 1,
+      "name": "attack.JUNG3.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "modifier": "Plus",
+      "text": "attack.JUNG3.1.text",
+      "effects": [
+        "HEAD-OPP_DAMAGE:20"
+      ]
+    },
+    {
+      "card": "JUNG3",
+      "index": 2,
+      "name": "attack.JUNG3.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 60,
+      "modifier": null,
+      "text": "attack.JUNG3.2.text",
+      "effects": [
+        "SELF_DISCARD:FIRE:1"
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "WATER",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "HOLORARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

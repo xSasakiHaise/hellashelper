@@ -1,0 +1,45 @@
+{
+  "id": "Phanpy Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Phanpy",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "minecraft:windswept_savanna"
+        ],
+        "maxY": 100
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Donphan",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "minecraft:windswept_savanna"
+        ],
+        "maxY": 100
+      },
+      "rarity": 6.0
+    }
+  ]
+}

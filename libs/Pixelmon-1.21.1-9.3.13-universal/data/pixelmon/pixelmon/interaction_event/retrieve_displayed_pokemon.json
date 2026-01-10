@@ -1,0 +1,5 @@
+{
+  "type": {
+    "type": "pixelmon:retrieve_displayed_pokemon"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.gym2-59.description",
+  "attacks": [
+    {
+      "name": "attack.gym2-59.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.gym2-59.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "PSYCHIC",
+  "pokemon_id": 122,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

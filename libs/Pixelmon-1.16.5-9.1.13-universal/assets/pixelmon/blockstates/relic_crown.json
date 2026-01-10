@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "pixelmon:block/relic_crown",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "pixelmon:block/relic_crown"
+    },
+    "facing=east": {
+      "model": "pixelmon:block/relic_crown",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "pixelmon:block/relic_crown",
+      "y": 270
+    }
+  }
+}

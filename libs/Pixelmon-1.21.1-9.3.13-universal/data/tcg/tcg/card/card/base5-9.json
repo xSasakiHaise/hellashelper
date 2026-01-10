@@ -1,0 +1,56 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base5-9.description",
+  "attacks": [
+    {
+      "name": "attack.base5-9.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base5-9.0.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 1,
+          "flip_type": "PerOppBench"
+        },
+        {
+          "type": "tcg:ignore_stats"
+        }
+      ]
+    },
+    {
+      "name": "attack.base5-9.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base5-9.1.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 1,
+          "flip_type": "PerOppBench"
+        },
+        {
+          "type": "tcg:ignore_stats"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "PSYCHIC",
+  "pokemon_id": 97,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

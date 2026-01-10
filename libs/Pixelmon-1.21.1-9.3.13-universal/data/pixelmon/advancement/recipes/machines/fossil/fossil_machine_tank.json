@@ -1,0 +1,44 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:machines/fossil/fossil_machine_tank"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:machines/fossil/fossil_machine_tank"
+      }
+    },
+    "has_fossil_machine_base": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:fossil_machine_base"
+            ]
+          }
+        ]
+      }
+    },
+    "has_cleaned_fossil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:cleaned_fossils"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fossil_machine_base",
+      "has_cleaned_fossil"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chair_dyed",
+  "ingredients": [
+    {
+      "tag": "c:dyes/green"
+    },
+    {
+      "tag": "pixelmon:chairs"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:green_chair",
+    "count": 1
+  }
+}

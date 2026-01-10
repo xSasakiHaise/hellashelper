@@ -1,0 +1,33 @@
+{
+  "name": "pixelmon:npc/shopkeeper/electric/mart_second",
+  "fallback": "pixelmon:npc/shopkeeper/electric/mart_second",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/electric/tm_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/electric/mail_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/electric/curry_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

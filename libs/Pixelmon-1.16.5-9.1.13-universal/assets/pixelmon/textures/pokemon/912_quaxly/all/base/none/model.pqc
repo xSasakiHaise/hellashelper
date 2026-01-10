@@ -1,0 +1,5 @@
+$body quaxly.bmd
+$anim idle idle.bmd
+$anim special special.bmd
+$anim walk walk.bmd
+$scale 1.5

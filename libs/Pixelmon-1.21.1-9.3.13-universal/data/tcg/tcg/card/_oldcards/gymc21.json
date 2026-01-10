@@ -1,0 +1,29 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 38,
+  "previous_pokemon_id": 37,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC21.1.name",
+      "costs": [
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 50,
+      "text": "attack.GYMC21.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

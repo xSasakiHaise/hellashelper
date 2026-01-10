@@ -1,0 +1,27 @@
+{
+  "id": "Igglybuff Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Igglybuff",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

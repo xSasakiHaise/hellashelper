@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Weezing",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/weezing-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Weezing form:galarian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/weezing-galarian-4-5",
+      "weight": 1.0
+    }
+  ]
+}

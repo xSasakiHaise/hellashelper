@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beach",
+    {
+      "required": false,
+      "id": "biomesoplenty:dune_beach"
+    },
+    "minecraft:snowy_beach"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 17,
+  "previous_pokemon_id": 16,
+  "retreat_cost": 1,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE22.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.BASE22.1.text",
+      "effects": [
+        {
+          "type": "tcg:switch_pokemon",
+          "self_action": false,
+          "self_target": false,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "attack.BASE22.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.BASE22.2.text",
+      "effects": [
+        {
+          "type": "tcg:mirror_move"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

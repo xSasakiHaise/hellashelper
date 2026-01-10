@@ -1,0 +1,59 @@
+{
+  "id": "Zigzagoon Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Zigzagoon",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:revive",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:potion",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 150.0
+    },
+    {
+      "spec": "species:Zigzagoon form:galarian",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:revive",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:potion",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

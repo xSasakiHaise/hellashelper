@@ -1,0 +1,56 @@
+{
+  "id": "Crabrawler Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Crabrawler",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:beach",
+          "byg:rainbow_beach"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Crabominable",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cheri_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:snowy_beach",
+          "byg:snowy_black_beach",
+          "byg:snowy_rocky_black_beach"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

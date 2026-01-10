@@ -1,0 +1,8 @@
+{
+    "type": "neoforge:add_features",
+    "biomes": "#pixelmon:spawning/flowery",
+    "step": "raw_generation",
+    "features": [
+      "pixelmon:ores/shiny_stone"
+    ]
+  }

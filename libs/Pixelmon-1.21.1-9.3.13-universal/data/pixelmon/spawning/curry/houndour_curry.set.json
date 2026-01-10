@@ -1,0 +1,23 @@
+{
+  "id": "Houndour Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Houndour",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

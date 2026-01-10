@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/timespace_altar",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "pixelmon:block/timespace_altar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pixelmon:block/timespace_altar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixelmon:block/timespace_altar",
+      "y": 270
+    }
+  }
+}

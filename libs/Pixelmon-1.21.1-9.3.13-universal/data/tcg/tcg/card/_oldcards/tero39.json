@@ -1,0 +1,39 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 64,
+  "previous_pokemon_id": 63,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.tero39.name",
+    "description": "ability.tero39.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:matter_exchange"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO39.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.TERO39.1.text",
+      "effects": [
+        {
+          "type": "tcg:ignore_stats"
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

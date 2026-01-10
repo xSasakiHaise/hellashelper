@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 141,
+  "previous_pokemon_id": 140,
+  "retreat_cost": 1,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS24.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 40,
+      "text": "attack.FOSS24.2.text",
+      "effects": [
+        {
+          "type": "tcg:leech_seed",
+          "heal_type": "HalfDamage",
+          "heal_amount": 0
+        }
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:bench",
+    "pixelmon:birch_bench",
+    "pixelmon:acacia_bench",
+    "pixelmon:jungle_bench",
+    "pixelmon:spruce_bench",
+    "pixelmon:dark_oak_bench"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/ultra_space/crying_obsidian",
+  "textures": {
+    "particle": "pixelmon:block/ultra_space/ultra_deep_sea_crying_crystal",
+    "layer0": "pixelmon:block/ultra_space/ultra_deep_sea_crying_crystal"
+  }
+}

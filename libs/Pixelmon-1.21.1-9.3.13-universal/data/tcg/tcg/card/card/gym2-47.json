@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.gym2-47.description",
+  "attacks": [
+    {
+      "name": "attack.gym2-47.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.gym2-47.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "GRASS",
+  "pokemon_id": 14,
+  "ability": {
+    "name": "ability.gym2-47.name",
+    "description": "ability.gym2-47.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:unimplemented"
+    }
+  },
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

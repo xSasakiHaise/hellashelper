@@ -1,0 +1,4 @@
+$body seviper.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$scale 11.0

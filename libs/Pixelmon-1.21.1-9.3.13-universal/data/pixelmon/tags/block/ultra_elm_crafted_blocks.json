@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_elm_button",
+    "pixelmon:ultra_elm_door",
+    "pixelmon:ultra_elm_fence",
+    "pixelmon:ultra_elm_fence_gate",
+    "pixelmon:ultra_elm_planks",
+    "pixelmon:ultra_elm_pressure_plate",
+    "pixelmon:ultra_elm_sign",
+    "pixelmon:ultra_elm_slab",
+    "pixelmon:ultra_elm_stairs",
+    "pixelmon:ultra_elm_trapdoor",
+    "pixelmon:ultra_elm_wall_sign"
+  ]
+}

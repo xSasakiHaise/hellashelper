@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Goodra",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/goodra-5-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Goodra form:hisuian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/goodra-hisuian-5-5",
+      "weight": 1.0
+    }
+  ]
+}

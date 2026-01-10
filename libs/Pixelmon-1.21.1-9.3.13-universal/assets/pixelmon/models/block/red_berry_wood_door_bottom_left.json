@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "top": "pixelmon:block/berry_structures/berry_red_door_top",
+    "bottom": "pixelmon:block/berry_structures/berry_red_door_bottom"
+  }
+}

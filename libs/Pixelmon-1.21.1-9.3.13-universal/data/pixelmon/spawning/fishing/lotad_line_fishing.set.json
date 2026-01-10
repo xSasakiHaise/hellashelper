@@ -1,0 +1,71 @@
+{
+    "id": "Lotad Line Fishing",
+    "spawnInfos": [
+      {
+        "spec": "species:Lotad",
+        "stringLocationTypes": [
+          "Good Rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 30,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/swamps",
+            "#pixelmon:spawning/lakes",
+            "pixelmon:ultra_forest"
+          ]
+        },
+        "rarity": 130.0
+      },
+      {
+        "spec": "species:Lombre",
+        "stringLocationTypes": [
+          "Good Rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 30,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/swamps",
+            "#pixelmon:spawning/lakes",
+            "pixelmon:ultra_forest"
+          ]
+        },
+        "rarity": 130.0
+      },
+      {
+        "spec": "species:Lombre",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 40,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/swamps",
+            "#pixelmon:spawning/lakes",
+            "pixelmon:ultra_forest"
+          ]
+        },
+        "rarity": 100.0
+      },
+      {
+        "spec": "species:Ludicolo",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 35,
+        "maxLevel": 55,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "pixelmon:ultra_forest"
+          ]
+        },
+        "rarity": 20.0
+      }
+    ]
+  }

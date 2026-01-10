@@ -1,0 +1,19 @@
+{
+  "name": "ultra_ball",
+  "model": "pixelmon:models/pokeballs/base.pqc",
+  "texture": "pixelmon:textures/pokeballs/ultra_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/ultra_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/ultra_ball",
+  "lidSprite": "pixelmon:item/pokeballs/ultra_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/ultra_ball.png",
+  "logic": "",
+  "bases": [
+    "platinum"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 2,
+  "breakChance": 0.05,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

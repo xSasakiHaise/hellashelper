@@ -1,0 +1,22 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "card.basep-36.description",
+  "attacks": [
+    {
+      "name": "attack.basep-36.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.basep-36.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "COLORLESS",
+  "pokemon_id": 174,
+  "rarity": "tcg:promo"
+}

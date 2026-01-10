@@ -1,0 +1,24 @@
+{
+    "id": "Nacli",
+    "spawnInfos": [
+      {
+        "spec": "species:Nacli",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 7,
+        "maxLevel": 23,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/mountainous",
+            "#pixelmon:spawning/mesas",
+            "minecraft:stony_shore",
+            "terralith:gravel_beach"
+          ]
+        },
+        "rarity": 100.0
+      }
+    ]
+  }
+  

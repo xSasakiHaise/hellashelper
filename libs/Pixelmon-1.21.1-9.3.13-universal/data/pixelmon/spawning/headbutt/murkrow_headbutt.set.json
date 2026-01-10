@@ -1,0 +1,57 @@
+{
+  "id": "Murkrow Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Murkrow status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "oak",
+          "birch",
+          "spruce"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 80.0
+    },
+    {
+      "spec": "species:Murkrow",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "oak",
+          "birch",
+          "spruce"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

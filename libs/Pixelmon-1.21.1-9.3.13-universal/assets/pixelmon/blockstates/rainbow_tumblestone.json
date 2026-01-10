@@ -1,0 +1,64 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "age": "0"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_base"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "1"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_rainbow_stage1"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "2"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_rainbow_stage2"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "3"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_rainbow_stage3"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "4"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_rainbow_stage4"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "5"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_rainbow_stage5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "modifiers": [
+    {
+      "type": "pixelmon:context",
+      "key": "pixelmon:bag_clause",
+      "value": true
+    },
+    {
+      "type": "pixelmon:sync_context",
+      "key": "pixelmon:bag_clause"
+    }
+  ],
+  "requirements":  []
+}

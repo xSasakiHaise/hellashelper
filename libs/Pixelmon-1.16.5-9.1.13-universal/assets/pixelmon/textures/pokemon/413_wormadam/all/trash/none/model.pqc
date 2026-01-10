@@ -1,0 +1,4 @@
+$body wormadamTrash.bmd
+$anim idle trashIdle.bmd
+$anim fly trashWalk.bmd
+$scale 2.2

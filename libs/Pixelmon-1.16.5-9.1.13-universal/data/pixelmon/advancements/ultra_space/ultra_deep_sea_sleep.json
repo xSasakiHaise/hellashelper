@@ -1,0 +1,32 @@
+{
+  "parent": "pixelmon:ultra_space/root",
+  "display": {
+    "icon": {
+      "item": "pixelmon:ultra_deep_kelp"
+    },
+    "title": {
+      "translate": "advancements.ultra_space.ultra_deep_sea_sleep.title"
+    },
+    "description": {
+      "translate": "advancements.ultra_space.ultra_deep_sea_sleep.description"
+    },
+    "background": "pixelmon:textures/gui/advancements/backgrounds/ruinswall.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ultra_deep_kelp": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "pixelmon:ultra_deep_kelp"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ultra_deep_kelp"
+    ]
+  ]
+}

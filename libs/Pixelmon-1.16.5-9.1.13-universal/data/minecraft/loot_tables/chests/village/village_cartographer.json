@@ -1,0 +1,306 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 5.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:paper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:stick"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:film",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:poke_ball",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"PokeBallID\": \"safari_ball\"}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:repel",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:super_repel",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:max_repel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:fresh_water",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:camera",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:mach_bike",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:acro_bike",
+          "weight": 1
+        },
+        {
+          "type": "empty",
+          "weight": 90
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:wise_glasses",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:wide_lens",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:zoom_lens",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:heavy_duty_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:lens_silver",
+          "weight": 1
+        },
+        {
+          "type": "empty",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:white_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:orange_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:magenta_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:light_blue_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:yellow_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:lime_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:pink_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:gray_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:light_gray_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:cyan_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:purple_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:blue_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:brown_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:green_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:red_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:black_poke_bag"
+        },
+        {
+          "type": "empty",
+          "weight": 384
+        }
+      ]
+    }
+  ]
+}

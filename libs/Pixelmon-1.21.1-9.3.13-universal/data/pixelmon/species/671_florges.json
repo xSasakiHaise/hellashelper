@@ -1,0 +1,644 @@
+{
+  "name": "Florges",
+  "dex": 671,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Disarming Voice",
+              "Grass Knot",
+              "Grassy Terrain",
+              "Magical Leaf",
+              "Misty Terrain",
+              "Petal Blizzard",
+              "Petal Dance",
+              "Safeguard",
+              "Solar Beam",
+              "Synthesis",
+              "Wish"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Moonblast"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Ally Switch",
+          "Covet",
+          "Defog",
+          "Endeavor",
+          "Giga Drain",
+          "Heal Bell",
+          "Helping Hand",
+          "Magic Coat",
+          "Seed Bomb",
+          "Snore",
+          "Synthesis",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Camouflage",
+          "Captivate",
+          "Copycat",
+          "Tearful Look"
+        ],
+        "tmMoves9": [
+          "Charm",
+          "Protect",
+          "Disarming Voice",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Swift",
+          "Magical Leaf",
+          "Draining Kiss",
+          "Stored Power",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Metronome",
+          "Grass Knot",
+          "Rest",
+          "Skill Swap",
+          "Substitute",
+          "Trick",
+          "Giga Drain",
+          "Energy Ball",
+          "Psychic",
+          "Calm Mind",
+          "Helping Hand",
+          "Pollen Puff",
+          "Baton Pass",
+          "Grassy Terrain",
+          "Misty Terrain",
+          "Giga Impact",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast",
+          "Misty Explosion",
+          "Endeavor",
+          "Petal Blizzard",
+          "Alluring Voice",
+          "Psychic Noise"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aromatherapy",
+          "Flash",
+          "Flower Shield",
+          "Lucky Chant",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Giga Impact",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlowerVeil"
+        ],
+        "hiddenAbilities": [
+          "Symbiosis"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 78,
+        "attack": 65,
+        "defense": 68,
+        "specialAttack": 112,
+        "specialDefense": 154,
+        "speed": 75
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 248,
+        "baseFriendship": 0,
+        "spawnLevel": 34,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "red",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/red/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.florges",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/671_florges/all/base/red/texture.png",
+                      "model": "pixelmon:pokemon/671_florges/all/base/red/florges.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.35
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "redshiny",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/redshiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/671_florges/all/base/redshiny/texture.png",
+                      "model": "pixelmon:pokemon/671_florges/all/base/red/florges.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.35
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "blue",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/blue/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/671_florges/all/base/blue/texture.png",
+                      "model": "pixelmon:pokemon/671_florges/all/base/red/florges.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.35
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "blueshiny",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/blueshiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/671_florges/all/base/blueshiny/texture.png",
+                      "model": "pixelmon:pokemon/671_florges/all/base/red/florges.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.35
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "yellow",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/yellow/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/671_florges/all/base/yellow/texture.png",
+                      "model": "pixelmon:pokemon/671_florges/all/base/red/florges.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.35
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "yellowshiny",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/yellowshiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/671_florges/all/base/yellowshiny/texture.png",
+                      "model": "pixelmon:pokemon/671_florges/all/base/red/florges.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.35
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "orange",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/orange/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/671_florges/all/base/orange/texture.png",
+                      "model": "pixelmon:pokemon/671_florges/all/base/red/florges.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.35
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "orangeshiny",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/orangeshiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/671_florges/all/base/orangeshiny/texture.png",
+                      "model": "pixelmon:pokemon/671_florges/all/base/red/florges.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.35
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "white",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/white/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/671_florges/all/base/white/texture.png",
+                      "model": "pixelmon:pokemon/671_florges/all/base/red/florges.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.35
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "whiteshiny",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/whiteshiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/671_florges/all/base/whiteshiny/texture.png",
+                      "model": "pixelmon:pokemon/671_florges/all/base/red/florges.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/671_florges/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.35
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "FAIRY"
+      ],
+      "preEvolutions": [
+        "Floette",
+        "Flabebe"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 10.0,
+      "catchRate": 45,
+      "malePercentage": 0,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 3
+      },
+      "growth_data": {
+        "mean": 100.0,
+        "standard_deviation": 5.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 6
+}

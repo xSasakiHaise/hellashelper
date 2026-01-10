@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:national_dex",
+    "pixelmon:gigantamax",
+    "pixelmon:mega"
+  ]
+}

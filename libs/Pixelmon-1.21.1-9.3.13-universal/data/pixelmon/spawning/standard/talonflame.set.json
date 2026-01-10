@@ -1,0 +1,43 @@
+{
+  "id": "Talonflame",
+  "spawnInfos": [
+    {
+      "spec": "species:Talonflame",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Talonflame palette:ashen",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

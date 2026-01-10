@@ -1,0 +1,69 @@
+{
+  "id": "Deerling Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Deerling form:spring",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 21,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Deerling form:summer",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 21,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Deerling form:autumn",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 21,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Deerling form:winter",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 21,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

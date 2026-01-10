@@ -1,0 +1,4 @@
+$body kingdra.bmd
+$anim swim swim.bmd
+$anim idle idle.bmd
+$scale 0.9

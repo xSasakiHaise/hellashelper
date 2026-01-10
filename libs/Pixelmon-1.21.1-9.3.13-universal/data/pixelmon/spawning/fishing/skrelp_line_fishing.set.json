@@ -1,0 +1,78 @@
+{
+  "id": "Skrelp Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Skrelp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 24,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Skrelp",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 24,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Dragalge",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 48,
+      "maxLevel": 61,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 7.0
+    }
+  ]
+}

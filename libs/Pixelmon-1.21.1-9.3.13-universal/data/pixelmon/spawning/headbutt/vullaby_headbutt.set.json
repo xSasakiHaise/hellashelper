@@ -1,0 +1,49 @@
+{
+  "id": "Vullaby Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Vullaby status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 70.0
+    },
+    {
+      "spec": "species:Vullaby",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

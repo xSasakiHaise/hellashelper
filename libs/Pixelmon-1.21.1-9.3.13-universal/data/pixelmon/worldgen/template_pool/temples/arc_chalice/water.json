@@ -1,0 +1,30 @@
+{
+  "name": "pixelmon:temples/arc_chalice/water",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:shrines/chalice_shrine_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 1,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:shrines/chalice_shrine_ruins_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 1,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    }
+  ]
+}

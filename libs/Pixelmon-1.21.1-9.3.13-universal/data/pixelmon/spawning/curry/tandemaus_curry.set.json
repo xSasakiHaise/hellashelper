@@ -1,0 +1,22 @@
+{
+    "id": "Tandemaus",
+    "spawnInfos": [
+      {
+        "spec": "species:Tandemaus",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 10,
+        "maxLevel": 25,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/plains",
+            "#pixelmon:spawning/all_forests"
+          ]
+        },
+        "rarity": 50.0
+      }
+    ]
+  }
+  

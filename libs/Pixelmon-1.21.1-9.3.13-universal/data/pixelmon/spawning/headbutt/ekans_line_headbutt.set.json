@@ -1,0 +1,119 @@
+{
+  "id": "Ekans Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Ekans",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 11,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "variant": [
+          "jungle",
+          "oak",
+          "acacia"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 80.0
+    },
+    {
+      "spec": "species:Arbok",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "variant": [
+          "jungle",
+          "oak",
+          "acacia",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Arbok palette:main_circular",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "variant": [
+          "jungle",
+          "oak",
+          "acacia",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Arbok palette:secondary_circular",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "variant": [
+          "jungle",
+          "oak",
+          "acacia",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Arbok palette:dark",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "variant": [
+          "jungle",
+          "oak",
+          "acacia",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/evil",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

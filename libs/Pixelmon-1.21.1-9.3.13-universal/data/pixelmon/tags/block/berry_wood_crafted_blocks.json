@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#pixelmon:berry_wood_buttons",
+    "#pixelmon:berry_wood_doors",
+    "#pixelmon:berry_wood_fence_gates",
+    "#pixelmon:berry_wood_fences",
+    "#pixelmon:berry_wood_planks",
+    "#pixelmon:berry_wood_pressure_plates",
+    "#pixelmon:berry_wood_signs",
+    "#pixelmon:berry_wood_slabs",
+    "#pixelmon:berry_wood_stairs",
+    "#pixelmon:berry_wood_trapdoors",
+    "#pixelmon:berry_wood_wall_signs"
+  ]
+}
+

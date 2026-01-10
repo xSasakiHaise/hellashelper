@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "workstation",
+  "pattern": [
+    " t ",
+    "ccb"
+  ],
+  "key": {
+    "t": {
+      "item": "pixelmon:tv2"
+    },
+    "c": {
+      "item": "minecraft:white_terracotta"
+    },
+    "b": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "id": "pixelmon:lightworkplace",
+    "count": 1
+  }
+}

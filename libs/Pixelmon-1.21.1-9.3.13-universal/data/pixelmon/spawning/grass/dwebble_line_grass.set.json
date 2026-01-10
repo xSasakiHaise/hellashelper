@@ -1,0 +1,61 @@
+{
+  "id": "Dwebble Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Dwebble",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:stony_shore",
+          "byg:basalt_barrera",
+          "byg:rocky_beach"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Crustle",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:stony_shore",
+          "byg:basalt_barrera",
+          "byg:rocky_beach"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

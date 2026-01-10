@@ -1,0 +1,34 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:pokeball/lid/premier_ball_lid"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:pokeball/lid/premier_ball_lid"
+      }
+    },
+    "has_poke_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:poke_ball"
+            ],
+            "nbt": "{PokeBallID:\"poke_ball\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_poke_ball"
+    ]
+  ]
+}

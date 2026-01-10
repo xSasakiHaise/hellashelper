@@ -1,0 +1,316 @@
+{
+  "name": "Dipplin",
+  "dex": 1011,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.3,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Double Hit",
+              "Recycle",
+              "Sweet Scent",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Dragon Tail"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Syrup Bomb"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Substitute"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Infestation"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Recycle",
+          "Rollout",
+          "Sucker Punch"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Pounce",
+          "Facade",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Bullet Seed",
+          "Body Slam",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Reflect",
+          "Grass Knot",
+          "Rest",
+          "Substitute",
+          "Giga Drain",
+          "Dragon Pulse",
+          "Energy Ball",
+          "Pollen Puff",
+          "Grassy Terrain",
+          "Giga Impact",
+          "Outrage",
+          "Leaf Storm",
+          "Hyper Beam",
+          "Solar Beam",
+          "Draco Meteor",
+          "Tera Blast",
+          "Gyro Ball",
+          "Bug Bite",
+          "Grassy Glide",
+          "Dragon Cheer"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SupersweetSyrup",
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "StickyHold"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 110,
+        "specialAttack": 95,
+        "specialDefense": 80,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 170,
+        "baseFriendship": 50,
+        "spawnLevel": 16,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/1011_dipplin/all/base/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/1011_dipplin/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/1011_dipplin/all/base/none/dipplin.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/1011_dipplin/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/1011_dipplin/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/1011_dipplin/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/1011_dipplin/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/1011_dipplin/all/base/none/dipplin.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/1011_dipplin/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/1011_dipplin/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Applin"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 4.4,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Hydrapple",
+          "conditions": [
+            {
+              "attackName": "Dragon Cheer",
+              "evoConditionType": "move"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 2
+      },
+      "growth_data": {
+        "mean": 30.0,
+        "standard_deviation": 1.5,
+        "min_render_scale": 0.8,
+        "max_render_scale": 1.4
+      }
+    }
+  ],
+  "generation": 9
+}

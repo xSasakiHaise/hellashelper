@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "",
+  "pokemon_id": 129,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC73.1.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 40,
+      "text": "attack.GYMC73.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC73.2.name",
+      "costs": [
+        "WATER",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.GYMC73.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

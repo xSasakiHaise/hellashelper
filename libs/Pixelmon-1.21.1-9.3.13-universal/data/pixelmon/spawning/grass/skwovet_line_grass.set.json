@@ -1,0 +1,43 @@
+{
+  "id": "Skwovet Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Skwovet",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Greedent",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

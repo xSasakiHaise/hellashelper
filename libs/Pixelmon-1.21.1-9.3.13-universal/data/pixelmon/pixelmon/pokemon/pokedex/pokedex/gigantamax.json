@@ -1,0 +1,165 @@
+{
+  "name": {
+    "translate": "pixelmon.pokedex.gigantamax"
+  },
+  "priority": 4,
+  "primary_color": {
+    "red": 253,
+    "green": 231,
+    "blue": 239,
+    "alpha": 255
+  },
+  "secondary_color": {
+    "red": 220,
+    "green": 65,
+    "blue": 130,
+    "alpha": 255
+  },
+  "text_color": {
+    "red": 170,
+    "green": 65,
+    "blue": 109,
+    "alpha": 255
+  },
+  "pokemon": {
+    "type": "pixelmon:dex",
+    "dex_numbers": [
+      {
+        "dex": 3,
+        "form": "gmax"
+      },
+      {
+        "dex": 6,
+        "form": "gmax"
+      },
+      {
+        "dex": 9,
+        "form": "gmax"
+      },
+      {
+        "dex": 12,
+        "form": "gmax"
+      },
+      {
+        "dex": 25,
+        "form": "gmax"
+      },
+      {
+        "dex": 52,
+        "form": "gmax"
+      },
+      {
+        "dex": 68,
+        "form": "gmax"
+      },
+      {
+        "dex": 94,
+        "form": "gmax"
+      },
+      {
+        "dex": 99,
+        "form": "gmax"
+      },
+      {
+        "dex": 131,
+        "form": "gmax"
+      },
+      {
+        "dex": 133,
+        "form": "gmax"
+      },
+      {
+        "dex": 143,
+        "form": "gmax"
+      },
+      {
+        "dex": 569,
+        "form": "gmax"
+      },
+      {
+        "dex": 809,
+        "form": "gmax"
+      },
+      {
+        "dex": 812,
+        "form": "gmax"
+      },
+      {
+        "dex": 815,
+        "form": "gmax"
+      },
+      {
+        "dex": 818,
+        "form": "gmax"
+      },
+      {
+        "dex": 823,
+        "form": "gmax"
+      },
+      {
+        "dex": 826,
+        "form": "gmax"
+      },
+      {
+        "dex": 834,
+        "form": "gmax"
+      },
+      {
+        "dex": 839,
+        "form": "gmax"
+      },
+      {
+        "dex": 841,
+        "form": "gmax"
+      },
+      {
+        "dex": 842,
+        "form": "gmax"
+      },
+      {
+        "dex": 844,
+        "form": "gmax"
+      },
+      {
+        "dex": 849,
+        "form": "gmax"
+      },
+      {
+        "dex": 851,
+        "form": "gmax"
+      },
+      {
+        "dex": 858,
+        "form": "gmax"
+      },
+      {
+        "dex": 861,
+        "form": "gmax"
+      },
+      {
+        "dex": 869,
+        "form": "gmax"
+      },
+      {
+        "dex": 879,
+        "form": "gmax"
+      },
+      {
+        "dex": 884,
+        "form": "gmax"
+      },
+      {
+        "dex": 892,
+        "form": "gmaxss"
+      },
+      {
+        "dex": 892,
+        "form": "gmaxrs"
+      }
+    ]
+  },
+  "acceptance_test": {
+    "type": "pixelmon:spec",
+    "spec": "isgmax"
+  }
+}

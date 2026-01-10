@@ -1,0 +1,26 @@
+{
+  "id": "Cottonee Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Cottonee",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

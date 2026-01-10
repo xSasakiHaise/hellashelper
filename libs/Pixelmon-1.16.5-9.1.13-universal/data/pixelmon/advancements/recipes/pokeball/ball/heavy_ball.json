@@ -1,0 +1,32 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:pokeball/ball/heavy_ball"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:pokeball/ball/heavy_ball"
+      }
+    },
+    "has_poke_ball_lid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:poke_ball_lid",
+            "nbt": "{PokeBallID:\"heavy_ball\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_poke_ball_lid"
+    ]
+  ]
+}

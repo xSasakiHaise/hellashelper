@@ -1,0 +1,32 @@
+{
+  "id": "Skarmory Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Skarmory",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

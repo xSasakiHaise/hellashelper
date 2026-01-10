@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "step": "underground_ores",
+  "features": [
+    "pixelmon:ores/sapphire/ore_sapphire_buried",
+    "pixelmon:ores/sapphire/ore_sapphire_large",
+    "pixelmon:ores/sapphire/ore_sapphire"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#tcg:types/trainer/base1",
+    "#tcg:types/trainer/base2",
+    "#tcg:types/trainer/base3",
+    "#tcg:types/trainer/base4",
+    "#tcg:types/trainer/base5",
+    "#tcg:types/trainer/basep",
+    "#tcg:types/trainer/gym1",
+    "#tcg:types/trainer/gym2"
+  ],
+  "tag": "tcg:trainer"
+}

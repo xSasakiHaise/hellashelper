@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FSF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:blue_ice"
+    },
+    "S": {
+      "item": "pixelmon:ice_gem"
+    }
+  },
+  "result": {
+    "id": "pixelmon:slippery_ice",
+    "count": 3
+  }
+}

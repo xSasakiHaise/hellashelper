@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Darmanitan",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/darmanitan-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Darmanitan form:galarian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/darmanitan-galarian-4-5",
+      "weight": 1.0
+    }
+  ]
+}

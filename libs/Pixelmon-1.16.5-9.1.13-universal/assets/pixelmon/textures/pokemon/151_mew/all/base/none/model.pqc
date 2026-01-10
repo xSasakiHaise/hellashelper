@@ -1,0 +1,4 @@
+$body mew.bmd
+$anim fly fly.bmd
+$anim idle idle.bmd
+$scale 2.0

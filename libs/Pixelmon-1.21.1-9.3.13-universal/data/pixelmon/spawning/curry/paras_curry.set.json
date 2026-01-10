@@ -1,0 +1,32 @@
+{
+  "id": "Paras Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Paras",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

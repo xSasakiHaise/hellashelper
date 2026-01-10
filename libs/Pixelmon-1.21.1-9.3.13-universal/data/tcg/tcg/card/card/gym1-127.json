@@ -1,0 +1,8 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.gym1-127.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "energies": "FIGHTING"
+}

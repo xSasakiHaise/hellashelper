@@ -1,0 +1,16 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.basep-42.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/pokemon_tower.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+
+  "effect": {
+    "type": "tcg:unimplemented"
+  },
+  "rarity": "tcg:promo"
+}

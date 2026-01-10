@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "folding_chair_dyed",
+  "ingredients": [
+    {
+      "tag": "c:dyes/yellow"
+    },
+    {
+      "tag": "pixelmon:folding_chairs"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:yellow_folding_chair",
+    "count": 1
+  }
+}

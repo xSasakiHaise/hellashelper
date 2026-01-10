@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/daycare/hourglass/hourglass",
+  "textures": {
+    "texture": "pixelmon:block/daycare/hourglass/silver",
+    "particle": "pixelmon:block/daycare/hourglass/silver"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 375,
+  "setId": 6,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 70,
+  "energy1": "LIGHTNING",
+  "energy2": null,
+  "pokemonId": 26,
+  "code": "GYMH28",
+  "name": "card.GYMH28.name",
+  "description": "",
+  "previousPokemonId": 25,
+  "cardAttacks": [
+    {
+      "card": "GYMH28",
+      "index": 1,
+      "name": "attack.GYMH28.1.name",
+      "costs": [
+        "LIGHTNING",
+        "LIGHTNING"
+      ],
+      "damage": 30,
+      "modifier": null,
+      "text": "attack.GYMH28.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMH28",
+      "index": 2,
+      "name": "attack.GYMH28.2.name",
+      "costs": [
+        "LIGHTNING",
+        "LIGHTNING",
+        "LIGHTNING",
+        "LIGHTNING"
+      ],
+      "damage": 100,
+      "modifier": null,
+      "text": "attack.GYMH28.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "FIGHTING",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 2,
+  "cardRarity": "RARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

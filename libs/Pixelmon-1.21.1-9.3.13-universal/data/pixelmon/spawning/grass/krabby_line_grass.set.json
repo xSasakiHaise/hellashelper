@@ -1,0 +1,49 @@
+{
+  "id": "Krabby Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Krabby",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING",
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Kingler",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 28,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING",
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

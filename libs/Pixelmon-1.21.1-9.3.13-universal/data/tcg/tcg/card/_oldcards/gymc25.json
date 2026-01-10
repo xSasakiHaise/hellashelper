@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 24,
+  "previous_pokemon_id": 23,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC25.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.GYMC25.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC25.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC25.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

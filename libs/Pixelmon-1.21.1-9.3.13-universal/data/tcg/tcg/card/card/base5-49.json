@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base5-49.description",
+  "attacks": [
+    {
+      "name": "attack.base5-49.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base5-49.0.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "PARALYZED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "attack.base5-49.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base5-49.1.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "PARALYZED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "PSYCHIC",
+  "pokemon_id": 63,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

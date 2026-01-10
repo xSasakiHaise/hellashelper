@@ -1,0 +1,51 @@
+{
+  "id": "Rattata Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Rattata",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:chilan_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 150.0
+    },
+    {
+      "spec": "species:Rattata form:alolan",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:pecha_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

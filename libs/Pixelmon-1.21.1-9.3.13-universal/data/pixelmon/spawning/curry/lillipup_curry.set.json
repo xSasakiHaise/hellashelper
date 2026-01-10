@@ -1,0 +1,21 @@
+{
+  "id": "Lillipup Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Lillipup",
+      "stringLocationTypes": [
+        "Curry",
+        "Sweet Scent"
+      ],
+      "minLevel": 4,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

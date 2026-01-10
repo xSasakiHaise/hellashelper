@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/healer",
+  "textures": {
+    "particle": "pixelmon:block/healer/lime",
+    "main": "pixelmon:block/healer/lime"
+  }
+}

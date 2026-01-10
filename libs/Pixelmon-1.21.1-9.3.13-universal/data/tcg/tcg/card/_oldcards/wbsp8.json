@@ -1,0 +1,49 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 151,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:ultra_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.WBSP8.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.WBSP8.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": false,
+          "damage_type": "PerEnergy",
+          "value": 10,
+          "ignore_base_damage": false
+        }
+      ]
+    },
+    {
+      "name": "attack.WBSP8.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.WBSP8.2.text",
+      "effects": [
+        {
+          "type": "tcg:devolve",
+          "mode": 0
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

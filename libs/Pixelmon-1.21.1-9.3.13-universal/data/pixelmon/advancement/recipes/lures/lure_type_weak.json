@@ -1,0 +1,63 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:lures/lure_fire_weak",
+      "pixelmon:lures/lure_water_weak",
+      "pixelmon:lures/lure_electric_weak",
+      "pixelmon:lures/lure_grass_weak",
+      "pixelmon:lures/lure_ice_weak",
+      "pixelmon:lures/lure_fighting_weak",
+      "pixelmon:lures/lure_poison_weak",
+      "pixelmon:lures/lure_ground_weak",
+      "pixelmon:lures/lure_flying_weak",
+      "pixelmon:lures/lure_psychic_weak",
+      "pixelmon:lures/lure_bug_weak",
+      "pixelmon:lures/lure_rock_weak",
+      "pixelmon:lures/lure_ghost_weak",
+      "pixelmon:lures/lure_dragon_weak",
+      "pixelmon:lures/lure_dark_weak",
+      "pixelmon:lures/lure_steel_weak",
+      "pixelmon:lures/lure_fairy_weak",
+      "pixelmon:lures/lure_normal_weak"
+    ]
+  },
+  "criteria": {
+    "has_leppa": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:leppa_berry"
+            ]
+          }
+        ]
+      }
+    },
+    "has_oran": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:oran_berry"
+            ]
+          }
+        ]
+      }
+    },
+    "has_case_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:lures/lure_casing_weak"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_case_recipe",
+      "has_leppa",
+      "has_oran"
+    ]
+  ]
+}

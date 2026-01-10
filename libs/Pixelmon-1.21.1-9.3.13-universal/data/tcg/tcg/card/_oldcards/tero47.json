@@ -1,0 +1,30 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "",
+  "pokemon_id": 129,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO47.2.name",
+      "costs": [
+        "WATER",
+        "WATER",
+        "WATER"
+      ],
+      "damage": 0,
+      "text": "attack.TERO47.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

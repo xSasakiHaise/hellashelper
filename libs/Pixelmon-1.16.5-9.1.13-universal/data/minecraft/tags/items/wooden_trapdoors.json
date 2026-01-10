@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:blue_berry_wood_trapdoor",
+    "pixelmon:green_berry_wood_trapdoor",
+    "pixelmon:pink_berry_wood_trapdoor",
+    "pixelmon:purple_berry_wood_trapdoor",
+    "pixelmon:red_berry_wood_trapdoor",
+    "pixelmon:yellow_berry_wood_trapdoor",
+    "pixelmon:ultra_gingko_trapdoor",
+    "pixelmon:ultra_elm_trapdoor",
+    "pixelmon:ultra_jungle_trapdoor"
+  ]
+}

@@ -1,0 +1,4 @@
+$body dustox.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$scale 3.0

@@ -1,0 +1,23 @@
+{
+  "id": "Emolga Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Emolga",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

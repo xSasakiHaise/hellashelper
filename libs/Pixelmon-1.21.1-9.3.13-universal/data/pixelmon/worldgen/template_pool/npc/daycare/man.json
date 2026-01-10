@@ -1,0 +1,15 @@
+{
+  "name": "pixelmon:npc/daycare/man",
+  "fallback": "pixelmon:npc/daycare/man",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/daycare/daycare_man",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

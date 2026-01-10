@@ -1,0 +1,26 @@
+{
+  "id": "Fomantis Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Fomantis",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

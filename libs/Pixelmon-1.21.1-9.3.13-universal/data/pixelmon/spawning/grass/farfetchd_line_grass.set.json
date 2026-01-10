@@ -1,0 +1,83 @@
+{
+  "id": "Farfetchd Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Farfetchd",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Farfetchd form:galarian",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Sirfetchd",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

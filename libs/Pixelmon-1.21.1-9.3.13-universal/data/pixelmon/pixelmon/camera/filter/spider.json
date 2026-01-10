@@ -1,0 +1,6 @@
+{
+  "name": {
+    "translate": "pixelmon.camera.filter.spider"
+  },
+  "post_process_shader": "minecraft:shaders/post/spider.json"
+}

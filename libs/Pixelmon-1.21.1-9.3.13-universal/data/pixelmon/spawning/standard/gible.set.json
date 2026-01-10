@@ -1,0 +1,76 @@
+{
+  "id": "Gible",
+  "spawnInfos": [
+    {
+      "spec": "species:Gible",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 14,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ],
+        "maxY": 80
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Gible",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 14,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Gible",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 14,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Gible",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 14,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ],
+        "maxY": 70
+      },
+      "rarity": 6.0
+    }
+  ]
+}

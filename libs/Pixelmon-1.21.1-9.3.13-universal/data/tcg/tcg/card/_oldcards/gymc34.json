@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 75,
+  "previous_pokemon_id": 74,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC34.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC34.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC34.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 50,
+      "text": "attack.GYMC34.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

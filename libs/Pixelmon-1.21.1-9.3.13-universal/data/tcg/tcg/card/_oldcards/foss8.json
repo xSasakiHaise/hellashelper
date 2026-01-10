@@ -1,0 +1,50 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 97,
+  "previous_pokemon_id": 96,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS8.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.FOSS8.1.text",
+      "effects": [
+        {
+          "type": "tcg:prophecy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "attack.FOSS8.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.FOSS8.2.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": false,
+          "location": "BENCH",
+          "count": 1,
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

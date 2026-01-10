@@ -1,0 +1,44 @@
+{
+  "id": "Ivysaur",
+  "spawnInfos": [
+    {
+      "spec": "species:Ivysaur",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "biomeswevegone:crag_gardens",
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Ivysaur palette:halloween",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:misc/graveyard"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

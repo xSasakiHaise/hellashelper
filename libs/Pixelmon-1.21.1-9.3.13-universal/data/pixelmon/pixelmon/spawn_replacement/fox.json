@@ -1,0 +1,20 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:fox"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "fennekin",
+      "vulpix",
+      "zorua",
+      "nickit",
+      "thievul",
+      "ninetales",
+      "zoroark"
+    ]
+  }
+}

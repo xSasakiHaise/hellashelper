@@ -1,0 +1,15 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.base4-107.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/scoop_up.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+    "effect": {
+    "type": "tcg:scoop_up"
+  },
+  "rarity": "tcg:rare"
+}

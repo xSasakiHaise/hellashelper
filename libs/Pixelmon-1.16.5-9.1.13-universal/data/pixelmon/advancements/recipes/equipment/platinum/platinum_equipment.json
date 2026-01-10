@@ -1,0 +1,35 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/platinum/platinum_axe",
+      "pixelmon:equipment/platinum/platinum_block",
+      "pixelmon:equipment/platinum/platinum_boots",
+      "pixelmon:equipment/platinum/platinum_chestplate",
+      "pixelmon:equipment/platinum/platinum_from_block",
+      "pixelmon:equipment/platinum/platinum_hammer",
+      "pixelmon:equipment/platinum/platinum_helmet",
+      "pixelmon:equipment/platinum/platinum_hoe",
+      "pixelmon:equipment/platinum/platinum_leggings",
+      "pixelmon:equipment/platinum/platinum_pickaxe",
+      "pixelmon:equipment/platinum/platinum_shovel",
+      "pixelmon:equipment/platinum/platinum_sword"
+    ]
+  },
+  "criteria": {
+    "has_platinum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/platinum"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_platinum"
+    ]
+  ]
+}

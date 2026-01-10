@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "RRR",
+    "ARA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/aluminium"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "pixelmon:trade_panel",
+    "count": 1
+  }
+}

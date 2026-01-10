@@ -1,0 +1,323 @@
+{
+  "name": "Wyrdeer",
+  "dex": 899,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Psyshield Bash",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Role Play"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Imprison"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Megahorn"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bulldoze",
+          "Calm Mind",
+          "Charge Beam",
+          "Energy Ball",
+          "Giga Impact",
+          "High Horsepower",
+          "Hyper Beam",
+          "Iron Tail",
+          "Megahorn",
+          "Psychic",
+          "Rest",
+          "Shadow Ball",
+          "Swift",
+          "Thunderbolt",
+          "Wild Charge",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Bite",
+          "Disable",
+          "Double Kick",
+          "Extrasensory",
+          "Megahorn",
+          "Psyshield Bash",
+          "Spite",
+          "Thrash"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bite",
+          "Confusion",
+          "Disable",
+          "Double Kick",
+          "Extrasensory",
+          "Megahorn",
+          "Psyshield Bash",
+          "Spite",
+          "Thrash"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Scary Face",
+          "Protect",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Trailblaze",
+          "Charge Beam",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Stored Power",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Psyshock",
+          "Dig",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Thunder Wave",
+          "Rest",
+          "Imprison",
+          "Skill Swap",
+          "Substitute",
+          "Trick",
+          "Shadow Ball",
+          "Energy Ball",
+          "Psychic",
+          "Thunderbolt",
+          "Calm Mind",
+          "Helping Hand",
+          "Earth Power",
+          "Wild Charge",
+          "Earthquake",
+          "Giga Impact",
+          "Trick Room",
+          "Hyper Beam",
+          "Thunder",
+          "Solar Beam",
+          "Tera Blast",
+          "Roar",
+          "Spite",
+          "Gravity",
+          "Lunge",
+          "High Horsepower",
+          "Uproar",
+          "Psych Up",
+          "Double-Edge",
+          "Future Sight",
+          "Expanding Force",
+          "Throat Chop",
+          "Curse"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "SapSipper"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      "aggression": {
+        "aggressive": 20,
+        "passive": 0,
+        "timid": 80
+      },
+      "battleStats": {
+        "hp": 103,
+        "attack": 105,
+        "defense": 72,
+        "specialAttack": 105,
+        "specialDefense": 75,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/899_wyrdeer/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/899_wyrdeer/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/899_wyrdeer/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/899_wyrdeer/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/899_wyrdeer/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Stantler"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 95.1,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 8
+}

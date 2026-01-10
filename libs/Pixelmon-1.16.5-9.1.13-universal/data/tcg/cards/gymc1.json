@@ -1,0 +1,65 @@
+{
+  "id": 454,
+  "setId": 7,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 90,
+  "energy1": "FIRE",
+  "energy2": null,
+  "pokemonId": 59,
+  "code": "GYMC1",
+  "name": "card.GYMC1.name",
+  "description": "",
+  "previousPokemonId": 58,
+  "cardAttacks": [
+    {
+      "card": "GYMC1",
+      "index": 1,
+      "name": "attack.GYMC1.1.name",
+      "costs": [
+        "FIRE",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "modifier": null,
+      "text": "attack.GYMC1.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC1",
+      "index": 2,
+      "name": "attack.GYMC1.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE",
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 120,
+      "modifier": null,
+      "text": "attack.GYMC1.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "WATER",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 3,
+  "cardRarity": "HOLORARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

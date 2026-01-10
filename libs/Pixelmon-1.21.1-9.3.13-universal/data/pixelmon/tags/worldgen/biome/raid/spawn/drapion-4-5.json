@@ -1,0 +1,91 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:eroded_badlands",
+    {
+      "required": false,
+      "id": "terralith:ancient_sands"
+    },
+    {
+      "required": false,
+      "id": "terralith:bryce_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:painted_mountains"
+    },
+    {
+      "required": false,
+      "id": "terralith:red_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:white_mesa"
+    },
+    "minecraft:desert",
+    {
+      "required": false,
+      "id": "biomesoplenty:dryland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:lush_desert"
+    },
+    {
+      "required": false,
+      "id": "terralith:ancient_sands"
+    },
+    {
+      "required": false,
+      "id": "terralith:desert_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:desert_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:desert_spires"
+    },
+    {
+      "required": false,
+      "id": "terralith:lush_desert"
+    },
+    {
+      "required": false,
+      "id": "terralith:red_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:sandstone_valley"
+    },
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    {
+      "required": false,
+      "id": "biomesoplenty:bayou"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:bog"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:marsh"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wetland"
+    },
+    {
+      "required": false,
+      "id": "terralith:orchid_swamp"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_desert"
+    }
+  ]
+}

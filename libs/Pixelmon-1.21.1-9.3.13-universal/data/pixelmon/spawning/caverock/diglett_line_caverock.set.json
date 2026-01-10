@@ -1,0 +1,81 @@
+{
+  "id": "Diglett Line Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Diglett",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 10,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxLightLevel": 3
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Diglett form:alolan",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 10,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxLightLevel": 3
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Dugtrio",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxLightLevel": 3
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Dugtrio form:alolan",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxLightLevel": 3
+      },
+      "rarity": 5.0
+    }
+  ]
+}

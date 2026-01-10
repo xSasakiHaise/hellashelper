@@ -1,0 +1,5 @@
+$body feebas.bmd
+$anim idle idle.bmd
+$anim walk swim.bmd
+$anim swim swim.bmd
+$scale 2.7

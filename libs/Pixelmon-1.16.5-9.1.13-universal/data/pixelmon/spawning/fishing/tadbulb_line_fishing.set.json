@@ -1,0 +1,76 @@
+{
+    "id": "Tadbulb Line Fishing",
+    "spawnInfos": [
+      {
+        "spec": "species:Tadbulb",
+        "stringLocationTypes": [
+          "Old Rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 17,
+        "typeID": "pokemon",
+        "condition": {
+          "stringBiomes": [
+            "minecraft:river",
+            "lakes",
+            "swamps"
+          ]
+        },
+        "rarity": 30.0
+      },
+      {
+        "spec": "species:Tadbulb",
+        "stringLocationTypes": [
+          "Good Rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 17,
+        "typeID": "pokemon",
+        "condition": {
+          "stringBiomes": [
+            "minecraft:river",
+            "lakes",
+            "swamps"
+          ]
+        },
+        "rarity": 30.0
+      },
+      {
+        "spec": "species:Bellibolt",
+        "stringLocationTypes": [
+          "Good Rod"
+        ],
+        "minLevel": 35,
+        "maxLevel": 45,
+        "typeID": "pokemon",
+        "condition": {
+          "stringBiomes": [
+            "minecraft:river",
+            "lakes",
+            "swamps",
+            "pixelmon:ultra_plant"
+          ]
+        },
+        "rarity": 70.0
+      },
+      {
+        "spec": "species:Bellibolt",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 35,
+        "maxLevel": 45,
+        "typeID": "pokemon",
+        "condition": {
+          "stringBiomes": [
+            "minecraft:river",
+            "lakes",
+            "swamps",
+            "pixelmon:ultra_plant"
+          ]
+        },
+        "rarity": 40.0
+      }
+    ]
+  }
+  

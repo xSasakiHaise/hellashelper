@@ -1,0 +1,37 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 51,
+  "previous_pokemon_id": 50,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE19.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 70,
+      "text": "attack.BASE19.2.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

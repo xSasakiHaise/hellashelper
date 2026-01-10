@@ -1,0 +1,25 @@
+{
+  "id": "Caterpie Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Caterpie",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

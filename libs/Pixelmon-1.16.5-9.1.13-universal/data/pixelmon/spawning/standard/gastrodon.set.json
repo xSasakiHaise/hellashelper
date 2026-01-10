@@ -1,0 +1,42 @@
+{
+  "id": "Gastrodon",
+  "spawnInfos": [
+    {
+      "spec": "species:Gastrodon",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Gastrodon",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

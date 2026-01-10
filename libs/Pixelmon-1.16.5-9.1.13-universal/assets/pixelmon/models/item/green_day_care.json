@@ -1,0 +1,33 @@
+{
+  "parent": "pixelmon:block/daycare/egg/green",
+  "display": {
+    "firstperson_righthand": {
+      "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "firstperson_lefthand": {
+      "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "thirdperson_lefthand": {
+      "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "thirdperson_righthand": {
+      "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "fixed": {
+      "scale": [ 0.5, 0.5, 0.5 ],
+      "translation": [0, -4, 0]
+    },
+    "ground": {
+      "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "head": {
+      "scale": [ 0.5, 0.5, 0.5 ],
+      "translation": [0, -4, 0]
+    },
+    "gui": {
+      "scale": [ 0.5, 0.5, 0.5 ],
+      "translation": [0, 3, 0],
+      "rotation": [135, 0, 0]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "particle": "pixelmon:block/pixelgrass",
+    "cross": "pixelmon:block/pixelgrass"
+  }
+}

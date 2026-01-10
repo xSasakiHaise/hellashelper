@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Vulpix form:alolan",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "biomes": "#pixelmon:raid/spawn/vulpix-alolan-1-2",
+      "weight": 1.0
+    },
+    {
+      "spec": "Vulpix",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "biomes": "#pixelmon:raid/spawn/vulpix-1-2",
+      "weight": 1.0
+    }
+  ]
+}

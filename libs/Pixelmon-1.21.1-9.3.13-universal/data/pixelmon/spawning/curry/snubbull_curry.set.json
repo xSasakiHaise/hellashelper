@@ -1,0 +1,20 @@
+{
+  "id": "Snubbull Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Snubbull",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

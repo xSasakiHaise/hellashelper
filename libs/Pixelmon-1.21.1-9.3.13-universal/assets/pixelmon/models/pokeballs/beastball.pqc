@@ -1,0 +1,7 @@
+$body beastball.bmd
+$anim bounceopen bounceopen.bmd
+$anim bounceclose bounceclose.bmd
+$anim shakeleft shakeleft.bmd
+$anim shakeright shakeright.bmd
+$anim idle idle.bmd
+$anim break break.bmd

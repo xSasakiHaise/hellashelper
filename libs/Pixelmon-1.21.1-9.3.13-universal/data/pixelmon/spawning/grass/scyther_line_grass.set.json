@@ -1,0 +1,26 @@
+{
+  "id": "Scyther Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Scyther",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": {
+    "translate": "pixelmon.camera.filter.none"
+  },
+  "post_process_shader": "none"
+}

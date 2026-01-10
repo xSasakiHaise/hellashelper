@@ -1,0 +1,4 @@
+$body scyther.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 1.6

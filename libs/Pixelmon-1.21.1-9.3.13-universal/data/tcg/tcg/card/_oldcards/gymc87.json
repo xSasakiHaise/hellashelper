@@ -1,0 +1,29 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 116,
+  "previous_pokemon_id": null,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC87.1.name",
+      "costs": [
+        "WATER",
+        "WATER"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC87.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

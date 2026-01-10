@@ -1,0 +1,64 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base1-10.description",
+  "attacks": [
+    {
+      "name": "attack.base1-10.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base1-10.0.description",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "PSYCHIC",
+          "self": true,
+          "count": 1
+        },
+        {
+          "type": "tcg:immune",
+          "self": true,
+          "immune_type": "*",
+          "required_coin_side": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "attack.base1-10.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base1-10.1.description",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "PSYCHIC",
+          "self": true,
+          "count": 1
+        },
+        {
+          "type": "tcg:immune",
+          "self": true,
+          "immune_type": "*",
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 3,
+  "energies": "PSYCHIC",
+  "pokemon_id": 150,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

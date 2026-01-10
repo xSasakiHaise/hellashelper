@@ -1,0 +1,39 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "",
+  "pokemon_id": 129,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC88.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.GYMC88.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC88.2.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.GYMC88.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

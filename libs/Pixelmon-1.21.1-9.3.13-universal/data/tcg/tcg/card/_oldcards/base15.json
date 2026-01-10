@@ -1,0 +1,26 @@
+{
+  "special": false,
+  "hp": 100,
+  "description": "",
+  "pokemon_id": 3,
+  "previous_pokemon_id": 2,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.base15.name",
+    "description": "ability.base15.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:energy_transfer"
+    }
+  },
+  "attacks": [
+
+  ],
+  "energies": "GRASS"
+}

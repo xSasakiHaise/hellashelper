@@ -1,0 +1,22 @@
+{
+  "id": "Starly Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Starly",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

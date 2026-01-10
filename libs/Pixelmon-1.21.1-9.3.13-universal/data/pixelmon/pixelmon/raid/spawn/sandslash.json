@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Sandslash",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/sandslash-3-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Sandslash form:alolan",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/sandslash-alolan-4-5",
+      "weight": 1.0
+    }
+  ]
+}

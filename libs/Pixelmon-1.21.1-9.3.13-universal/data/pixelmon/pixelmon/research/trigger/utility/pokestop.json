@@ -1,0 +1,3446 @@
+{
+  "events": [
+    "pixelmon:spin_pokestop"
+  ],
+  "condition": {
+    "type": "pixelmon:true"
+  },
+  "research": {
+    "reward_rolls_max": 1,
+    "chance_of_additional_rewards": 1.0,
+    "rewards": [
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_dragon_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_fairy_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/capture_fifty_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_flying_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_poison_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_water_stone_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_dark_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_fire_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_water_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/defeat_two_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_bug_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_fire_stone_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/hatch_two_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_poison_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_twenty_wheat",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_psychic_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_rock_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_electric_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_ghost_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_ghost_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_flying_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_ground_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_coal_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_electric_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/capture_one_hundred_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_twenty_berry",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_fairy_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_flying_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_platinum_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_fairy_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_grass_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_ground_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_dark_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_bug_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_dragon_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/defeat_one_hundred_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_fire_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_psychic_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_psychic_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_flying_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_rock_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_steel_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_normal_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_water_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_ground_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_electric_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_fighting_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/dimension/enter_the_ultra_space",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_ice_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_steel_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/trade_two_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_normal_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_ten_potato",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_ground_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_steel_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_dark_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/craft/craft_ten_poke_ball",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/boss/tier/defeat_epic_boss",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_water_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_rock_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_psychic_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/level_one_hundred_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_fighting_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/item/lure/activate_five_weak_lures",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_electric_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_psychic_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_dark_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_steel_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_grass_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_bug_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_ghost_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_rock_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/defeat_one_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_diamond_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_water_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_poison_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_grass_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_fighting_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_fighting_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/boss/defeat_one_boss",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/trade_one_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_ice_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_electric_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_electric_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_rock_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_ruby_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_ice_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_dark_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/capture_twenty_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/boss/tier/defeat_rare_boss",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_ten_berry",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/craft/craft_ten_great_ball",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_ghost_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/level_twenty_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_water_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_flying_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/defeat_fifty_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/evolve_one_hundred_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_bug_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_twenty_potato",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_flying_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_steel_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_sun_stone_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/star/defeat_one_one_star_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_water_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_fighting_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_fairy_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_normal_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_ice_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_grass_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/star/defeat_one_four_star_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/star/defeat_one_five_star_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_rock_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/pokestop/spin_five_pokestops",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/star/defeat_one_two_star_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_fighting_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_grass_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_twenty_beetroot",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_normal_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_bug_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/item/lure/activate_five_strong_lures",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_dragon_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_copper_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_lapis_lazuli_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_grass_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_electric_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_normal_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_fairy_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_ten_carrot",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_fire_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_twenty_carrot",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_fire_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/evolve_fifty_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/hatch_one_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_ground_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_bug_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_fire_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_ghost_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_normal_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_dragon_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/item/heal_pokemon_with_medicine",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_ice_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/level_fifty_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_ice_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/boss/tier/defeat_common_boss",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_ice_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/boss/defeat_three_boss",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_poison_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_normal_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_flying_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_fairy_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/dimension/enter_the_end",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_psychic_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_iron_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_psychic_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_steel_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_grass_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_fire_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/craft/craft_one_great_ball",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_dragon_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/evolve_twenty_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_ghost_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_rock_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_dark_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/star/defeat_one_three_star_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/craft/craft_five_poke_ball",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_gold_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/defeat_twenty_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/type/hatch_five_fighting_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_dragon_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/craft/craft_five_great_ball",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/craft/craft_one_poke_ball",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/defeat_three_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/trade_three_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_poison_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_redstone_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_ten_beetroot",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_emerald_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_ten_apricorn",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_ghost_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/trade/type/trade_one_ground_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_ten_wheat",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_fire_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_dark_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_ground_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/level/type/level_thirty_water_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_steel_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_poison_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/evolve/type/evolve_five_poison_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/type/defeat_twenty_bug_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/boss/defeat_two_boss",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/harvest/harvest_twenty_apricorn",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/capture/type/capture_twenty_fairy_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/boss/tier/defeat_legendary_boss",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/item/lure/activate_five_lures",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/dimension/enter_nether",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/mine/mine_ten_thunder_stone_ore",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/defeat/boss/tier/defeat_uncommon_boss",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/hatch/hatch_three_pokemon",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/raid/defeat/type/defeat_two_dragon_raid",
+          "condition": {
+            "type": "pixelmon:true"
+          }
+        },
+        "weight": 1.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/capture/capture_five_sinistea",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "december",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 25,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/capture/capture_five_alolan_ninetales",
+          "condition": {
+            "type": "pixelmon:logical_and",
+              "conditions": [
+                {
+                  "condition": {
+                    "month": {
+                      "value": "december",
+                      "type": "pixelmon:constant_string"
+                    },
+                    "type": "pixelmon:month_is"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                },
+                {
+                  "condition": {
+                    "min": {
+                      "value": 15,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "max": {
+                      "value": 25,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "value": {
+                      "type": "pixelmon:day_of_month"
+                    },
+                    "type": "pixelmon:in_range_inclusive"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                }
+              ]
+            }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/capture/capture_five_delibird",
+          "condition": {
+            "type": "pixelmon:logical_and",
+              "conditions": [
+                {
+                  "condition": {
+                    "month": {
+                      "value": "december",
+                      "type": "pixelmon:constant_string"
+                    },
+                    "type": "pixelmon:month_is"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                },
+                {
+                  "condition": {
+                    "min": {
+                      "value": 15,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "max": {
+                      "value": 25,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "value": {
+                      "type": "pixelmon:day_of_month"
+                    },
+                    "type": "pixelmon:in_range_inclusive"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                }
+              ]
+            }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/defeat/defeat_five_delibird",
+          "condition": {
+            "type": "pixelmon:logical_and",
+              "conditions": [
+                {
+                  "condition": {
+                    "month": {
+                      "value": "december",
+                      "type": "pixelmon:constant_string"
+                    },
+                    "type": "pixelmon:month_is"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                },
+                {
+                  "condition": {
+                    "min": {
+                      "value": 15,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "max": {
+                      "value": 25,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "value": {
+                      "type": "pixelmon:day_of_month"
+                    },
+                    "type": "pixelmon:in_range_inclusive"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                }
+              ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/biome/visit_snowy_tiaga_biome",
+          "condition": {
+            "type": "pixelmon:logical_and",
+              "conditions": [
+                {
+                  "condition": {
+                    "month": {
+                      "value": "december",
+                      "type": "pixelmon:constant_string"
+                    },
+                    "type": "pixelmon:month_is"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                },
+                {
+                  "condition": {
+                    "min": {
+                      "value": 15,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "max": {
+                      "value": 25,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "value": {
+                      "type": "pixelmon:day_of_month"
+                    },
+                    "type": "pixelmon:in_range_inclusive"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                }
+              ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/defeat/defeat_five_sinistea",
+          "condition": {
+            "type": "pixelmon:logical_and",
+              "conditions": [
+                {
+                  "condition": {
+                    "month": {
+                      "value": "december",
+                      "type": "pixelmon:constant_string"
+                    },
+                    "type": "pixelmon:month_is"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                },
+                {
+                  "condition": {
+                    "min": {
+                      "value": 15,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "max": {
+                      "value": 25,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "value": {
+                      "type": "pixelmon:day_of_month"
+                    },
+                    "type": "pixelmon:in_range_inclusive"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                }
+              ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/defeat/defeat_five_alolan_sandslash",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "december",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 25,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/defeat/defeat_five_alolan_vulpix",
+          "condition": {
+            "type": "pixelmon:logical_and",
+              "conditions": [
+                {
+                  "condition": {
+                    "month": {
+                      "value": "december",
+                      "type": "pixelmon:constant_string"
+                    },
+                    "type": "pixelmon:month_is"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                },
+                {
+                  "condition": {
+                    "min": {
+                      "value": 15,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "max": {
+                      "value": 25,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "value": {
+                      "type": "pixelmon:day_of_month"
+                    },
+                    "type": "pixelmon:in_range_inclusive"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                }
+              ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/gift/open_one_gift",
+          "condition": {
+            "type": "pixelmon:logical_and",
+              "conditions": [
+                {
+                  "condition": {
+                    "month": {
+                      "value": "december",
+                      "type": "pixelmon:constant_string"
+                    },
+                    "type": "pixelmon:month_is"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                },
+                {
+                  "condition": {
+                    "min": {
+                      "value": 15,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "max": {
+                      "value": 25,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "value": {
+                      "type": "pixelmon:day_of_month"
+                    },
+                    "type": "pixelmon:in_range_inclusive"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                }
+              ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/biome/visit_snowy_plains_biome",
+          "condition": {
+            "type": "pixelmon:logical_and",
+              "conditions": [
+                {
+                  "condition": {
+                    "month": {
+                      "value": "december",
+                      "type": "pixelmon:constant_string"
+                    },
+                    "type": "pixelmon:month_is"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                },
+                {
+                  "condition": {
+                    "min": {
+                      "value": 15,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "max": {
+                      "value": 25,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "value": {
+                      "type": "pixelmon:day_of_month"
+                    },
+                    "type": "pixelmon:in_range_inclusive"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                }
+              ]
+            }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/capture/capture_five_alolan_sandshrew",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "december",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 25,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/capture/capture_five_alolan_sandslash",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:month_is",
+                "month": {
+                  "type": "pixelmon:constant_string",
+                  "value": "december"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:in_range_inclusive",
+                "min": {
+                  "type": "pixelmon:constant_number",
+                  "value": 15
+                },
+                "max": {
+                  "type": "pixelmon:constant_number",
+                  "value": 25
+                },
+                "value": {
+                  "type": "pixelmon:day_of_month"
+                }
+              }
+            }
+          ]
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/gift/open_five_gift",
+          "condition": {
+            "type": "pixelmon:logical_and",
+              "conditions": [
+                {
+                  "condition": {
+                    "month": {
+                      "value": "december",
+                      "type": "pixelmon:constant_string"
+                    },
+                    "type": "pixelmon:month_is"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                },
+                {
+                  "condition": {
+                    "min": {
+                      "value": 15,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "max": {
+                      "value": 25,
+                      "type": "pixelmon:constant_number"
+                    },
+                    "value": {
+                      "type": "pixelmon:day_of_month"
+                    },
+                    "type": "pixelmon:in_range_inclusive"
+                  },
+                  "type": "pixelmon:interaction_condition"
+                }
+              ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/defeat/defeat_five_alolan_sandshrew",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "december",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 25,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/defeat/defeat_five_alolan_ninetales",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "december",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 25,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/christmas/capture/capture_five_alolan_vulpix",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "december",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 25,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/capture/capture_twenty_sylveon_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/defeat/defeat_twenty_clefable_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/capture/capture_twenty_roserade_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/capture/capture_twenty_jynx_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/defeat/defeat_twenty_sylveon_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/defeat/defeat_twenty_roserade_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/craft/craft_five_love_ball",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/defeat/defeat_twenty_audino_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/capture/capture_twenty_pink_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/capture/capture_twenty_pink_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/capture/capture_twenty_luvdisc_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/capture/capture_twenty_clefable_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/defeat/defeat_twenty_luvdisc_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/defeat/defeat_twenty_pink_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/capture/capture_twenty_galarian_ponyta_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/defeat/defeat_twenty_jynx_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/defeat/defeat_twenty_galarian_ponyta_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/craft/craft_five_friend_ball",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/valentines/capture/capture_twenty_audino_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "february",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 5,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/new_year/craft/craft_five_fireworks",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "december",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 31,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/new_year/evolve/evolve_gimmighoul",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "december",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 31,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/new_year/craft/craft_five_timer_ball",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "december",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 31,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/new_year/capture/capture_twenty_pokemon_premier",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "december",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 15,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 31,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/birthday/item/craft_thirteen_cake",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "april",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 20,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 27,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/birthday/level/level_thirteen_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "april",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 20,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 27,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/birthday/evolve/evolve_thirteen_pokemon",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "april",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 20,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 27,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      },
+      {
+        "entry": {
+          "research": "pixelmon:pokestop/seasonal/birthday/item/eat_thirteen_cake",
+          "condition": {
+            "type": "pixelmon:logical_and",
+            "conditions": [
+              {
+                "condition": {
+                  "month": {
+                    "value": "april",
+                    "type": "pixelmon:constant_string"
+                  },
+                  "type": "pixelmon:month_is"
+                },
+                "type": "pixelmon:interaction_condition"
+              },
+              {
+                "condition": {
+                  "min": {
+                    "value": 20,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "max": {
+                    "value": 27,
+                    "type": "pixelmon:constant_number"
+                  },
+                  "value": {
+                    "type": "pixelmon:day_of_month"
+                  },
+                  "type": "pixelmon:in_range_inclusive"
+                },
+                "type": "pixelmon:interaction_condition"
+              }
+            ]
+          }
+        },
+        "weight": 1000.0
+      }
+    ],
+    "reward_rolls_min": 1
+  }
+}

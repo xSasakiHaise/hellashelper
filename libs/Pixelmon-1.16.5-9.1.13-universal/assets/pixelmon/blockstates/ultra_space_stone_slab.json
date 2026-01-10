@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pixelmon:block/ultra_space/stone_slab"
+    },
+    "type=double": {
+      "model": "pixelmon:block/ultra_space/stone"
+    },
+    "type=top": {
+      "model": "pixelmon:block/ultra_space/stone_slab_top"
+    }
+  }
+}

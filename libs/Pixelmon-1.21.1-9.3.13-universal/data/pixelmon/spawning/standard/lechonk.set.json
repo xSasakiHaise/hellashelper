@@ -1,0 +1,23 @@
+{
+  "id": "Lechonk",
+  "spawnInfos": [
+    {
+      "spec": "species:Lechonk",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 200.0
+    }
+  ]
+}

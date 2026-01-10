@@ -1,0 +1,55 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "card.base2-21.description",
+  "attacks": [
+    {
+      "name": "attack.base2-21.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base2-21.0.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 4,
+          "flip_type": "Exact"
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-21.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base2-21.1.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 4,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 3,
+  "energies": "COLORLESS",
+  "pokemon_id": 115,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "PSYCHIC",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:rare"
+}

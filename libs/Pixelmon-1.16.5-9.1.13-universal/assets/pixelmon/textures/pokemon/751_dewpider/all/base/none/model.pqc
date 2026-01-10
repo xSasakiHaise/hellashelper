@@ -1,0 +1,4 @@
+$body dewpider.bmd
+$anim idle idlebasic.bmd idlebasic.bmd idlebasic.bmd idlebasic.bmd
+$anim walk walk.bmd
+$scale 0.25

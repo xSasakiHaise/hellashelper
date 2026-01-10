@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "eggs=1,waterlogged=false": {
+      "model": "pixelmon:block/egg/pokemon_egg"
+    },
+    "eggs=1,waterlogged=true": {
+      "model": "pixelmon:block/egg/pokemon_egg"
+    },
+    "eggs=2,waterlogged=false": {
+      "model": "pixelmon:block/egg/pokemon_egg_two"
+    },
+    "eggs=2,waterlogged=true": {
+      "model": "pixelmon:block/egg/pokemon_egg_two"
+    },
+    "eggs=3,waterlogged=false": {
+      "model": "pixelmon:block/egg/pokemon_egg_three"
+    },
+    "eggs=3,waterlogged=true": {
+      "model": "pixelmon:block/egg/pokemon_egg_three"
+    }
+  }
+}

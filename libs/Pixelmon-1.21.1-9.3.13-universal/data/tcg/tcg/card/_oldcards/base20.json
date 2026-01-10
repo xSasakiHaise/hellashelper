@@ -1,0 +1,60 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 125,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE20.1.name",
+      "costs": [
+        "LIGHTNING"
+      ],
+      "damage": 10,
+      "text": "attack.BASE20.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "PARALYZED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "attack.BASE20.2.name",
+      "costs": [
+        "LIGHTNING",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.BASE20.2.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 10
+        },
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "TAIL",
+          "self": true,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "energies": "LIGHTNING"
+}

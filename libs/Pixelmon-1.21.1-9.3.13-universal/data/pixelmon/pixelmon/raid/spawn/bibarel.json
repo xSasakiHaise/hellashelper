@@ -1,0 +1,15 @@
+{
+  "spawns": [
+    {
+      "spec": "Bibarel",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/bibarel-2-3",
+      "weight": 1.0
+    }
+  ]
+}

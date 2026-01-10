@@ -1,0 +1,44 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base4-43.description",
+  "attacks": [
+    {
+      "name": "attack.base4-43.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base4-43.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.base4-43.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 50,
+      "text": "attack.base4-43.1.description",
+      "effects": [
+        {
+          "type": "tcg:dream_eater",
+          "self": false,
+          "condition": "ASLEEP"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "PSYCHIC",
+  "pokemon_id": 93,
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:uncommon"
+}

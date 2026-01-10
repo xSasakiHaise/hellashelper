@@ -1,0 +1,20 @@
+{
+  "id": "Cyndaquil Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Cyndaquil",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 9,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

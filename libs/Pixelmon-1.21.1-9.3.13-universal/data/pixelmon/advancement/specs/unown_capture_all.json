@@ -1,0 +1,279 @@
+{
+  "display":{
+    "icon": {
+          "item" : "pixelmon:pixelmon_sprite",
+          "count": 1,
+          "components": {
+            "minecraft:custom_data": {
+              "ndex": 201,
+              "palette": "none",
+              "form": ""
+            }
+          }
+    },
+    "title":{
+      "translate":"advancements.unown_capture_all.title"
+    },
+    "description":{
+      "translate":"advancements.unown_capture_all.description"
+    },
+    "hidden": true
+  },
+  "parent" : "pixelmon:specs/spec_trigger",
+  "criteria":{
+    "a":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:a"
+      }
+    },
+    "b":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:b"
+      }
+    },
+    "c":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:c"
+      }
+    },
+    "d":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:d"
+      }
+    },
+    "e":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:e"
+      }
+    },
+    "f":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:f"
+      }
+    },
+    "g":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:g"
+      }
+    },
+    "h":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:h"
+      }
+    },
+    "i":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:i"
+      }
+    },
+    "j":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:j"
+      }
+    },
+    "k":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:k"
+      }
+    },
+    "l":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:l"
+      }
+    },
+    "m":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:m"
+      }
+    },
+    "n":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:n"
+      }
+    },
+    "o":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:o"
+      }
+    },
+    "p":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:p"
+      }
+    },
+    "q":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:q"
+      }
+    },
+    "r":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:r"
+      }
+    },
+    "s":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:s"
+      }
+    },
+    "t":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:t"
+      }
+    },
+    "u":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:u"
+      }
+    },
+    "v":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:v"
+      }
+    },
+    "w":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:w"
+      }
+    },
+    "x":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:x"
+      }
+    },
+    "y":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:y"
+      }
+    },
+    "z":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:z"
+      }
+    },
+    "exclamation":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:exclamation"
+      }
+    },
+    "question":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Unown form:question"
+      }
+    }
+  },
+  "requirements":[
+    [
+      "a"
+    ],
+    [
+      "b"
+    ],
+    [
+      "c"
+    ],
+    [
+      "d"
+    ],
+    [
+      "e"
+    ],
+    [
+      "f"
+    ],
+    [
+      "g"
+    ],
+    [
+      "h"
+    ],
+    [
+      "i"
+    ],
+    [
+      "j"
+    ],
+    [
+      "k"
+    ],
+    [
+      "l"
+    ],
+    [
+      "m"
+    ],
+    [
+      "n"
+    ],
+    [
+      "o"
+    ],
+    [
+      "p"
+    ],
+    [
+      "q"
+    ],
+    [
+      "r"
+    ],
+    [
+      "s"
+    ],
+    [
+      "t"
+    ],
+    [
+      "u"
+    ],
+    [
+      "v"
+    ],
+    [
+      "w"
+    ],
+    [
+      "x"
+    ],
+    [
+      "y"
+    ],
+    [
+      "z"
+    ],
+    [
+      "exclamation"
+    ],
+    [
+      "question"
+    ]
+  ]
+}

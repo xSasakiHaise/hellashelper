@@ -1,0 +1,20 @@
+{
+  "id": "Duraludon Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Duraludon",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 55,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

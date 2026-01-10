@@ -1,0 +1,86 @@
+{
+    "data": {
+        "trainerType": "Gentleman",
+        "minLevel": 7,
+        "maxLevel": 12,
+        "minPartyPokemon": 1,
+        "maxPartyPokemon": 2,
+        "winnings": 200,
+        "rarity": 6,
+        "spawnBiomes": "Plains"
+    },
+    "pokemon": [
+        {
+            "name": "Growlithe"
+        },
+        {
+            "name": "Pikachu"
+        },
+        {
+            "name": "Grimer"
+        }
+    ],
+    "names": [
+        {
+            "name": "�Ŵ��y"
+        },
+        {
+            "name": "ù�B�S"
+        },        
+        {
+            "name": "�|�įS"
+        },        
+        {
+            "name": "���]����"
+        },        
+        {
+            "name": "�B�S��"
+        },        
+        {
+            "name": "�X��j"
+        },        
+        {
+            "name": "�֥���"
+        },        
+        {
+            "name": "�صܤh"
+        },        
+        {
+            "name": "���h��"
+        },        
+        {
+            "name": "�º����p�w"
+        },
+        {
+            "name": "�·G"
+        },
+        {
+            "name": "�����Q"
+        },
+        {
+            "name": "�L��"
+        }
+    ],
+    "chat": [
+        {
+            "opening": "�ھ֦��@�ӻ��v�C",
+            "win": "�o�O�@�ӲԤh���C���C",
+            "lose": "�A���o��S§���C"
+        },        
+        {
+            "opening": "�z�n�C",
+            "win": "��ڨӻ����ѬO��n���@�ѡC",
+            "lose": "�A���p���L§���^���ڡC"
+        },        
+        {
+            "opening": "�ᦡ���Ԥh���ԡH",
+            "win": "�ݼˤl�ڤw�g�A�F�C",
+            "lose": "�A�O�h��a���Z�C"
+        },
+        {
+            "opening": "�ȿ����O�ڪ��ߤ@�M���C",
+            "win": "���٦��ܦh��L�M���C",
+            "lose": "�]��ڻݭn��h���m�ߡC"
+        }
+    ]
+}

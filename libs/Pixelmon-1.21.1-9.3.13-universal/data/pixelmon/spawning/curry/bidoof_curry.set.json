@@ -1,0 +1,22 @@
+{
+  "id": "Bidoof Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Bidoof",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

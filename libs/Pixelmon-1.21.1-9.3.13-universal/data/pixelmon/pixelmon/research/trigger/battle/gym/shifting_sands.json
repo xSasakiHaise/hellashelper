@@ -1,0 +1,69 @@
+{
+  "events": [
+    "pixelmon:find_structure"
+  ],
+  "condition": {
+    "type": "pixelmon:logical_and",
+    "conditions": [
+      {
+        "type": "pixelmon:interaction_condition",
+        "condition": {
+          "type": "pixelmon:structure_is_one_of",
+          "structures": [
+            "pixelmon:gyms/ground"
+          ]
+        }
+      },
+      {
+        "type": "pixelmon:interaction_condition",
+        "condition": {
+          "type": "pixelmon:logical_not",
+          "condition": {
+            "type": "pixelmon:interaction_condition",
+            "condition": {
+              "type": "pixelmon:on_cooldown",
+              "player": {
+                "type": "pixelmon:context_player",
+                "key": "pixelmon:player"
+              },
+              "cooldown_key": "pixelmon:cooldown_trigger_challengers_folly",
+              "cooldown": 30,
+              "unit": "DAYS"
+            }
+          }
+        }
+      },
+      {
+        "type": "pixelmon:interaction_condition",
+        "condition": {
+          "type": "pixelmon:logical_not",
+          "condition": {
+            "type": "pixelmon:interaction_condition",
+            "condition": {
+              "type": "pixelmon:on_cooldown",
+              "player": {
+                "type": "pixelmon:context_player",
+                "key": "pixelmon:player"
+              },
+              "cooldown_key": "pixelmon:cooldown_trigger_shifting_sands",
+              "cooldown": 30,
+              "unit": "DAYS"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "research": {
+    "reward_rolls_max": 1,
+    "chance_of_additional_rewards": 0.0,
+    "rewards": [],
+    "guaranteed_reward": {
+      "research": "pixelmon:battle/gym/ground_1",
+      "condition": {
+        "type": "pixelmon:true"
+      }
+    },
+    "reward_rolls_min": 1
+  }
+}

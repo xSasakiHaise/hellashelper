@@ -1,0 +1,13 @@
+{
+  "events": [
+    "pixelmon:mega_evolve"
+  ],
+  "condition": {
+    "type": "pixelmon:true"
+  },
+  "resulting_states": [
+    "SEEN"
+  ],
+  "player_context_key": "pixelmon:players",
+  "pokemon_context_key": "pixelmon:pokemon"
+}

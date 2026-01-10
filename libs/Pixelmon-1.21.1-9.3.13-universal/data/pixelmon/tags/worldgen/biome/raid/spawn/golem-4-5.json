@@ -1,0 +1,154 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:eroded_badlands",
+    {
+      "required": false,
+      "id": "terralith:ancient_sands"
+    },
+    {
+      "required": false,
+      "id": "terralith:bryce_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:painted_mountains"
+    },
+    {
+      "required": false,
+      "id": "terralith:red_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:white_mesa"
+    },
+    "minecraft:desert",
+    {
+      "required": false,
+      "id": "biomesoplenty:dryland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:lush_desert"
+    },
+    {
+      "required": false,
+      "id": "terralith:ancient_sands"
+    },
+    {
+      "required": false,
+      "id": "terralith:desert_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:desert_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:desert_spires"
+    },
+    {
+      "required": false,
+      "id": "terralith:lush_desert"
+    },
+    {
+      "required": false,
+      "id": "terralith:red_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:sandstone_valley"
+    },
+    "minecraft:jagged_peaks",
+    "minecraft:stony_peaks",
+    "minecraft:snowy_slopes",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_gravelly_hills",
+    {
+      "required": false,
+      "id": "biomesoplenty:crag"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:highland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:jade_cliffs"
+    },
+    {
+      "required": false,
+      "id": "terralith:alpine_highlands"
+    },
+    {
+      "required": false,
+      "id": "terralith:caldera"
+    },
+    {
+      "required": false,
+      "id": "terralith:granite_cliffs"
+    },
+    {
+      "required": false,
+      "id": "terralith:haze_mountain"
+    },
+    {
+      "required": false,
+      "id": "terralith:highlands"
+    },
+    {
+      "required": false,
+      "id": "terralith:rocky_mountains"
+    },
+    {
+      "required": false,
+      "id": "terralith:scarlet_mountains"
+    },
+    {
+      "required": false,
+      "id": "terralith:stony_spires"
+    },
+    {
+      "required": false,
+      "id": "terralith:windswept_spires"
+    },
+    {
+      "required": false,
+      "id": "terralith:yosemite_cliffs"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_crater"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_desert"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:volcanic_plains"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:volcano"
+    },
+    {
+      "required": false,
+      "id": "terralith:ashen_savanna"
+    },
+    {
+      "required": false,
+      "id": "terralith:basalt_cliffs"
+    },
+    {
+      "required": false,
+      "id": "terralith:volcanic_crater"
+    },
+    {
+      "required": false,
+      "id": "terralith:volcanic_peaks"
+    }
+  ]
+}

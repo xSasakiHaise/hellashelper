@@ -1,0 +1,23 @@
+{
+  "id": "Chewtle Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Chewtle",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 7,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

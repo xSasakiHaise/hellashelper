@@ -1,0 +1,15 @@
+{
+  "name": "pixelmon:npc/daycare/shopkeeper/fairy",
+  "fallback": "pixelmon:npc/daycare/shopkeeper/fairy",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/misc/fairy/daycare",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Munchlax Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Munchlax",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leftovers",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

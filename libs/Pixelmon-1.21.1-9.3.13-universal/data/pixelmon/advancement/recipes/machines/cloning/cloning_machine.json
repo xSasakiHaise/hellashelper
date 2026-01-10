@@ -1,0 +1,59 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:machines/cloning/cloning_machine"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:machines/cloning/cloning_machine"
+      }
+    },
+    "has_green_tank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:green_tank"
+            ]
+          }
+        ]
+      }
+    },
+    "has_orange_tank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:orange_tank"
+            ]
+          }
+        ]
+      }
+    },
+    "has_cord": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:cloner_cord"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_green_tank",
+      "has_orange_tank",
+      "has_cord"
+    ]
+  ]
+}

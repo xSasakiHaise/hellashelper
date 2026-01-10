@@ -1,0 +1,6 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "pixelmon:block/berry_structures/berry_blue_planks"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle",
+    {
+      "required": false,
+      "id": "biomesoplenty:rainforest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:rocky_rainforest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:floodplain"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:fungal_jungle"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:tropics"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_rainforest"
+    },
+    {
+      "required": false,
+      "id": "terralith:jungle_mountains"
+    },
+    {
+      "required": false,
+      "id": "terralith:rocky_jungle"
+    },
+    {
+      "required": false,
+      "id": "terralith:skylands_summer"
+    },
+    {
+      "required": false,
+      "id": "terralith:tropical_jungle"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:auroral_garden"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:lavender_field"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:lavender_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:mystic_grove"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:origin_valley"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:shroomy_wetland"
+    },
+    {
+      "required": false,
+      "id": "terralith:alpha_islands"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_rainforest"
+    },
+    {
+      "required": false,
+      "id": "terralith:lavender_valley"
+    },
+    {
+      "required": false,
+      "id": "terralith:mirage_isles"
+    },
+    {
+      "required": false,
+      "id": "terralith:moonlight_grove"
+    },
+    {
+      "required": false,
+      "id": "terralith:moonlight_valley"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_jungle"
+    }
+  ]
+}

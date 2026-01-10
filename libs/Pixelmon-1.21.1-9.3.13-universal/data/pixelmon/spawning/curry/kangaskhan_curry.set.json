@@ -1,0 +1,20 @@
+{
+  "id": "Kangaskhan Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Kangaskhan",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

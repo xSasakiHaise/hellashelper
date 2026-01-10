@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "pixelmon:block/ultra_space/ultra_desert_sandstone"
+  }
+}

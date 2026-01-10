@@ -1,0 +1,46 @@
+{
+  "id": "Regieleki",
+  "spawnInfos": [
+    {
+      "spec": "species:Regieleki level:40",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Regieleki palette:spirit level:40",
+      "stringLocationTypes": [
+        "Manmade",
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

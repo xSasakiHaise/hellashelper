@@ -1,0 +1,32 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 20,
+  "previous_pokemon_id": 19,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE40.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.BASE40.2.text",
+      "effects": [
+        {
+          "type": "tcg:super_fang"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

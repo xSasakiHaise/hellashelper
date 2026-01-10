@@ -1,0 +1,29 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:shrines/articuno",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:shrines/ilex",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:shrines/moltres",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:shrines/zapdos",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1100406407,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "frequency": 0.3,
+    "spacing": 20,
+    "separation": 10
+  }
+}

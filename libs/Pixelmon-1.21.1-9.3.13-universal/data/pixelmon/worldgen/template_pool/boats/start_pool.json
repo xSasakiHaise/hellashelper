@@ -1,0 +1,126 @@
+{
+  "name": "pixelmon:boats/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:boats/boat_fishing",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 6,
+        "y_hack": 0,
+        "keep_liquids": false
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:boats/boat_hauler",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 6,
+        "y_hack": 0,
+        "keep_liquids": false
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:boats/boat_magikarp",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 10,
+        "y_hack": 0,
+        "keep_liquids": false
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:boats/boat_magikarp_s",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 10,
+        "y_hack": 0,
+        "keep_liquids": false
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:boats/boat_pirate",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 4,
+        "y_hack": 0,
+        "keep_liquids": false
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:boats/boat_sail",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 5,
+        "y_hack": 0,
+        "keep_liquids": false
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:boats/boat_submarine",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 7,
+        "y_hack": 0,
+        "keep_liquids": false
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:boats/boat_swanna",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 6,
+        "y_hack": 0,
+        "keep_liquids": false
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:boats/boat_swift",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 6,
+        "y_hack": 0,
+        "keep_liquids": false
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:boats/boat_yacht",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 6,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    }
+  ]
+}

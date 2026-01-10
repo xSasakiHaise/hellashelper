@@ -1,0 +1,23 @@
+{
+  "id": "Lileep",
+  "spawnInfos": [
+    {
+      "spec": "species:Lileep",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

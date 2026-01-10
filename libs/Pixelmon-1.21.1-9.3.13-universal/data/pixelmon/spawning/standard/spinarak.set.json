@@ -1,0 +1,42 @@
+{
+  "id": "Spinarak",
+  "spawnInfos": [
+    {
+      "spec": "species:Spinarak",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 2,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/evil",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Spinarak",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "biomesoplenty:spider_nest",
+          "terralith:cave/infested_caves"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

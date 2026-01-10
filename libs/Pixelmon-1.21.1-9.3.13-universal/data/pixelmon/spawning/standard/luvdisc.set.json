@@ -1,0 +1,45 @@
+{
+  "id": "Luvdisc",
+  "spawnInfos": [
+    {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+		  "biomeswevegone:lush_stacks"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Luvdisc",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 130.0
+    }
+  ]
+}

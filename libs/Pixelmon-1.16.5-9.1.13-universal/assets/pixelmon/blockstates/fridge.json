@@ -1,0 +1,35 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "variants": {
+    "facing=east,open=false": {
+      "model": "pixelmon:block/deco/fridge",
+      "y": 90
+    },
+    "facing=east,open=true": {
+      "model": "pixelmon:block/deco/fridge_open",
+      "y": 90
+    },
+    "facing=north,open=false": {
+      "model": "pixelmon:block/deco/fridge"
+    },
+    "facing=north,open=true": {
+      "model": "pixelmon:block/deco/fridge_open"
+    },
+    "facing=south,open=false": {
+      "model": "pixelmon:block/deco/fridge",
+      "y": 180
+    },
+    "facing=south,open=true": {
+      "model": "pixelmon:block/deco/fridge_open",
+      "y": 180
+    },
+    "facing=west,open=false": {
+      "model": "pixelmon:block/deco/fridge",
+      "y": 270
+    },
+    "facing=west,open=true": {
+      "model": "pixelmon:block/deco/fridge_open",
+      "y": 270
+    }
+  }
+}

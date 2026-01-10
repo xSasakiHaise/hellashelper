@@ -1,0 +1,47 @@
+{
+  "id": "Bronzor Line Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Bronzor",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 20,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Bronzong",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

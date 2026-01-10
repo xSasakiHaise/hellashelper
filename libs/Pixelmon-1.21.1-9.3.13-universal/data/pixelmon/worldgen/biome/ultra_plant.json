@@ -1,0 +1,70 @@
+{
+  "temperature": 0.1,
+  "downfall": 0.01,
+  "has_precipitation": true,
+  "temperature_modifier": "frozen",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 601196,
+    "fog_color": 5542904,
+    "water_color": 4159204,
+    "water_fog_color": 4159204,
+    "grass_color": 329011,
+    "foliage_color": 329011,
+    "grass_color_modifier": "none",
+    "music": {
+      "sound": "pixelmon:pixelmon.music.ultraspace",
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": true
+    },
+    "music_volume": 1
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "feature": "pixelmon:ultra_plant_monolith",
+        "placement": [
+          {
+            "type": "minecraft:biome"
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          }
+        ]
+      },
+      {
+        "feature": "pixelmon:xurkitree",
+        "placement": [
+          {
+            "type": "minecraft:biome"
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          }
+        ]
+      }
+    ]
+  ]
+}

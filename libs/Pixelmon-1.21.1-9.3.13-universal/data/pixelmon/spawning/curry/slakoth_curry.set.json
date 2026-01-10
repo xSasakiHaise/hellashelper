@@ -1,0 +1,20 @@
+{
+  "id": "Slakoth Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Slakoth",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.basep-19.description",
+  "attacks": [
+    {
+      "name": "attack.basep-19.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.basep-19.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.basep-19.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.basep-19.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "PSYCHIC",
+  "pokemon_id": 63,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:promo"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Duskull Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 25,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

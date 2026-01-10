@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.gym2-24.description",
+  "attacks": [
+    {
+      "name": "attack.gym2-24.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.gym2-24.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.gym2-24.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.gym2-24.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "GRASS",
+  "pokemon_id": 127,
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:rare"
+}

@@ -1,0 +1,39 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 148,
+  "previous_pokemon_id": 147,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "attacks": [
+    {
+      "name": "attack.GYMH4.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.GYMH4.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMH4.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.GYMH4.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

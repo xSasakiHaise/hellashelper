@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 55,
+  "previous_pokemon_id": 54,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC30.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.GYMC30.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC30.2.name",
+      "costs": [
+        "WATER",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC30.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

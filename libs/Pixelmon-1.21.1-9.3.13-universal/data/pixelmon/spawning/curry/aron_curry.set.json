@@ -1,0 +1,26 @@
+{
+  "id": "Aron Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Aron",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

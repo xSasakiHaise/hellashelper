@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pixelmon:aluminum_block"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:aluminum_ingot",
+    "count": 9
+  }
+}

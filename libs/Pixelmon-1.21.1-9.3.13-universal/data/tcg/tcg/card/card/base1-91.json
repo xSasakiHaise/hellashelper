@@ -1,0 +1,15 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.base1-91.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/bill.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+    "effect": {
+    "type": "tcg:bill"
+  },
+  "rarity": "tcg:common"
+}

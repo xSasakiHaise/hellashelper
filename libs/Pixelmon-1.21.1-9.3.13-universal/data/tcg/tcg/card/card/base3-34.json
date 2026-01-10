@@ -1,0 +1,55 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base3-34.description",
+  "attacks": [
+    {
+      "name": "attack.base3-34.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base3-34.0.description",
+      "effects": [
+        {
+          "type": "tcg:leech_seed",
+          "heal_type": "FullDamage",
+          "heal_amount": 0
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-34.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base3-34.1.description",
+      "effects": [
+        {
+          "type": "tcg:leech_seed",
+          "heal_type": "FullDamage",
+          "heal_amount": 0
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "GRASS",
+  "pokemon_id": 42,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:uncommon"
+}

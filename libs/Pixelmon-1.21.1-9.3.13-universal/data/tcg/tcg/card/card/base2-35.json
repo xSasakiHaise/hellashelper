@@ -1,0 +1,50 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "card.base2-35.description",
+  "attacks": [
+    {
+      "name": "attack.base2-35.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base2-35.0.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 1,
+          "flip_type": "PerEnergy"
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-35.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base2-35.1.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 1,
+          "flip_type": "PerEnergy"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 3,
+  "energies": "GRASS",
+  "pokemon_id": 103,
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

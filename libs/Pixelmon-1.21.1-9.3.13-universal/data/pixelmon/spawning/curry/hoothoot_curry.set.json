@@ -1,0 +1,23 @@
+{
+  "id": "Hoothoot Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Hoothoot",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/magical",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

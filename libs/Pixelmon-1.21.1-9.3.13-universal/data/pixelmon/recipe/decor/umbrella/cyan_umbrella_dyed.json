@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "umbrella_dyed",
+  "ingredients": [
+    {
+      "tag": "c:dyes/cyan"
+    },
+    {
+      "tag": "pixelmon:umbrellas"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:cyan_umbrella",
+    "count": 1
+  }
+}

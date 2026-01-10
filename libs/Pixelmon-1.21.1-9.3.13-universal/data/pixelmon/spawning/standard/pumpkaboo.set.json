@@ -1,0 +1,296 @@
+{
+  "id": "Pumpkaboo",
+  "spawnInfos": [
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:pumpkin_patch",
+          "biomeswevegone:cika_woods"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:pumpkin_patch",
+          "biomeswevegone:cika_woods"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:pumpkin_patch",
+          "biomeswevegone:cika_woods"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:pumpkin_patch",
+          "biomeswevegone:cika_woods"
+        ]
+      },
+      "rarity": 110.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:pumpkin_patch",
+          "biomeswevegone:cika_woods"
+        ]
+      },
+      "rarity": 110.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:pumpkin_patch",
+          "biomeswevegone:cika_woods"
+        ]
+      },
+      "rarity": 110.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:pumpkin_patch",
+          "biomeswevegone:cika_woods"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:pumpkin_patch",
+          "biomeswevegone:cika_woods"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:pumpkin_patch",
+          "biomeswevegone:cika_woods"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:misc/graveyard"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

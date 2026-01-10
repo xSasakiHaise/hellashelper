@@ -1,0 +1,23 @@
+{
+  "id": "Rookidee Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Rookidee",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 7,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

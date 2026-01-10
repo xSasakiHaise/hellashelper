@@ -1,0 +1,342 @@
+{
+   "display":{
+      "icon": {
+            "item" : "pixelmon:pixelmon_sprite",
+            "count": 1,
+            "components": {
+              "minecraft:custom_data": {
+                "ndex": 129,
+                "palette": "shiny",
+                "form": ""
+              }
+            }
+      },
+      "title":{
+         "translate":"advancements.magikarp_jump_all.title"
+      },
+      "description":{
+         "translate":"advancements.magikarp_jump_all.description"
+      },
+      "hidden":false
+   },
+   "parent":"pixelmon:specs/magikarp_jump_capture",
+   "criteria":{
+      "0":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:none"
+         }
+      },
+      "1":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:skelly"
+         }
+      },
+      "2":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:calico_orange_white"
+         }
+      },
+      "3":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:calico_orange_white_black"
+         }
+      },
+      "4":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:calico_white_orange"
+         }
+      },
+      "5":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:calico_orange_gold"
+         }
+      },
+      "6":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:orange_twotone"
+         }
+      },
+      "7":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:orange_orca"
+         }
+      },
+      "8":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:orange_dapples"
+         }
+      },
+      "9":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:pink_twotone"
+         }
+      },
+      "10":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:pink_orca"
+         }
+      },
+      "11":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:pink_dapples"
+         }
+      },
+      "12":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:gray_bubbles"
+         }
+      },
+      "13":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:gray_diamonds"
+         }
+      },
+      "14":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:gray_patches"
+         }
+      },
+      "15":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:purple_bubbles"
+         }
+      },
+      "16":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:purple_diamonds"
+         }
+      },
+      "17":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:purple_patches"
+         }
+      },
+      "18":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:apricot_tiger"
+         }
+      },
+      "19":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:apricot_zebra"
+         }
+      },
+      "20":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:apricot_stripes"
+         }
+      },
+      "21":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:brown_tiger"
+         }
+      },
+      "22":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:brown_zebra"
+         }
+      },
+      "23":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:brown_stripes"
+         }
+      },
+      "24":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:orange_forehead"
+         }
+      },
+      "25":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:orange_mask"
+         }
+      },
+      "26":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:black_forehead"
+         }
+      },
+      "27":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:black_mask"
+         }
+      },
+      "28":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:blue_saucy"
+         }
+      },
+      "29":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:blue_raindrops"
+         }
+      },
+      "30":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:violet_saucy"
+         }
+      },
+      "31":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:violet_raindrops"
+         }
+      },
+      "32":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:roasted"
+         }
+      },
+      "valencian":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:valencian"
+         }
+      },
+      "s":{
+         "trigger":"pixelmon:spec_trigger",
+         "conditions":{
+            "spec":"Magikarp palette:shiny"
+         }
+      }
+   },
+   "requirements":[
+      [
+         "0"
+      ],
+      [
+         "1"
+      ],
+      [
+         "2"
+      ],
+      [
+         "3"
+      ],
+      [
+         "4"
+      ],
+      [
+         "5"
+      ],
+      [
+         "6"
+      ],
+      [
+         "7"
+      ],
+      [
+         "8"
+      ],
+      [
+         "9"
+      ],
+      [
+         "10"
+      ],
+      [
+         "11"
+      ],
+      [
+         "12"
+      ],
+      [
+         "13"
+      ],
+      [
+         "14"
+      ],
+      [
+         "15"
+      ],
+      [
+         "16"
+      ],
+      [
+         "17"
+      ],
+      [
+         "18"
+      ],
+      [
+         "19"
+      ],
+      [
+         "20"
+      ],
+      [
+         "21"
+      ],
+      [
+         "22"
+      ],
+      [
+         "23"
+      ],
+      [
+         "24"
+      ],
+      [
+         "25"
+      ],
+      [
+         "26"
+      ],
+      [
+         "27"
+      ],
+      [
+         "28"
+      ],
+      [
+         "29"
+      ],
+      [
+         "30"
+      ],
+      [
+         "31"
+      ],
+      [
+         "32"
+      ],
+      [
+         "valencian"
+      ],
+      [
+         "s"
+      ]
+   ]
+}

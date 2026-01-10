@@ -1,0 +1,47 @@
+{
+  "id": 389,
+  "setId": 6,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 70,
+  "energy1": "FIGHTING",
+  "energy2": null,
+  "pokemonId": 75,
+  "code": "GYMH40",
+  "name": "card.GYMH40.name",
+  "description": "",
+  "previousPokemonId": 74,
+  "cardAttacks": [
+    {
+      "card": "GYMH40",
+      "index": 1,
+      "name": "attack.GYMH40.1.name",
+      "costs": [
+        "FIGHTING",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMH40.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "GRASS",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 2,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

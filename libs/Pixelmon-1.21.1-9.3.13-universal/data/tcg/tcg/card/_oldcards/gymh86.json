@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 116,
+  "previous_pokemon_id": null,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH86.1.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 10,
+      "text": "attack.GYMH86.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMH86.2.name",
+      "costs": [
+        "WATER",
+        "WATER"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH86.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

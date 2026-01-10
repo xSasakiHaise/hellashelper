@@ -1,0 +1,15 @@
+{
+  "type": "pixelmon:infuser",
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "pixelmon:fresh_water"
+    }
+  ],
+  "results": {
+    "id": "pixelmon:komala_coffee"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "pixelmon:block/ultra_space/jungle_door_top",
+    "bottom": "pixelmon:block/ultra_space/jungle_door_bottom"
+  }
+}

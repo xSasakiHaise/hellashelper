@@ -1,0 +1,8 @@
+{
+  "__comment__": "this file was automatically created by mcresources",
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "pixelmon:block/sandy_grass",
+    "all": "pixelmon:block/sandy_grass"
+  }
+}

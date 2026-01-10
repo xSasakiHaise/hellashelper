@@ -1,0 +1,59 @@
+{
+  "id": 284,
+  "setId": 4,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 60,
+  "energy1": "WATER",
+  "energy2": null,
+  "pokemonId": 8,
+  "code": "TERO46",
+  "name": "card.TERO46.name",
+  "description": "",
+  "previousPokemonId": 7,
+  "cardAttacks": [
+    {
+      "card": "TERO46",
+      "index": 1,
+      "name": "attack.TERO46.1.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 10,
+      "modifier": "Multiply",
+      "text": "attack.TERO46.1.text",
+      "effects": [
+        "FLIPS_MULTIPLY:2"
+      ]
+    },
+    {
+      "card": "TERO46",
+      "index": 2,
+      "name": "attack.TERO46.2.name",
+      "costs": [
+        "WATER",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.TERO46.2.text",
+      "effects": [
+        "BLADEMAIL"
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "LIGHTNING",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_desert_sandstone",
+    "pixelmon:ultra_desert_sandstone_slab",
+    "pixelmon:ultra_desert_sandstone_stairs",
+    "pixelmon:ultra_desert_sandstone_wall",
+    "pixelmon:ultra_desert_cut_sandstone",
+    "pixelmon:ultra_desert_cut_sandstone_slab",
+    "pixelmon:ultra_desert_chiseled_sandstone",
+    "pixelmon:ultra_desert_smooth_sandstone",
+    "pixelmon:ultra_desert_smooth_sandstone_slab",
+    "pixelmon:ultra_desert_smooth_sandstone_stairs"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 79,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS55.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.FOSS55.1.text",
+      "effects": [
+        {
+          "type": "tcg:heal",
+          "required_coin_side": "HEAD",
+          "self": true,
+          "heal_type": "DAMAGE",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "attack.FOSS55.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.FOSS55.2.text",
+      "effects": [
+        {
+          "type": "tcg:search_discard_with_energy_cost_effect",
+          "search_type": "tcg:trainer",
+          "search_count": 1,
+          "discard_energy": "PSYCHIC",
+          "discard_count": 1
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

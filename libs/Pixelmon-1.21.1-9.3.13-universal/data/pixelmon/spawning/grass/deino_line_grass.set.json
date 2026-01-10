@@ -1,0 +1,62 @@
+{
+  "id": "Deino Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Deino",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 40,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Zweilous",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 51,
+      "maxLevel": 63,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Hydreigon",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 65,
+      "maxLevel": 71,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

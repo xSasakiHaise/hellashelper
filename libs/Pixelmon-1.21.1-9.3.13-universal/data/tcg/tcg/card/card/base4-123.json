@@ -1,0 +1,15 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.base4-123.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/switch.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+    "effect": {
+    "type": "tcg:switch"
+  },
+  "rarity": "tcg:common"
+}

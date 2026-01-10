@@ -1,0 +1,27 @@
+{
+  "id": "Yungoos Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Yungoos",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:pecha_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

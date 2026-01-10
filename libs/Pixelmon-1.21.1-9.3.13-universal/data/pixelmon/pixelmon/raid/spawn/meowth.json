@@ -1,0 +1,37 @@
+{
+  "spawns": [
+    {
+      "spec": "Meowth form:galarian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "biomes": "#pixelmon:raid/spawn/meowth-galarian-1-2",
+      "weight": 1.0
+    },
+    {
+      "spec": "Meowth",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "biomes": "#pixelmon:raid/spawn/meowth-1-2",
+      "weight": 1.0
+    },
+    {
+      "spec": "Meowth form:alolan",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "biomes": "#pixelmon:raid/spawn/meowth-alolan-1-2",
+      "weight": 1.0
+    }
+  ]
+}

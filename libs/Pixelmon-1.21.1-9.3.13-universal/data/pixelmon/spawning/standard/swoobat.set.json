@@ -1,0 +1,38 @@
+{
+  "id": "Swoobat",
+  "spawnInfos": [
+    {
+      "spec": "species:Swoobat",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 27,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Swoobat",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 27,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "condition": {
+        "maxLightLevel": 0
+      },
+      "rarity": 0.5
+    }
+  ]
+}

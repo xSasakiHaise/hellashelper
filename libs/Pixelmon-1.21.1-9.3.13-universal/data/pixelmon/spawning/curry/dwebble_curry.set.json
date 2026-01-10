@@ -1,0 +1,26 @@
+{
+  "id": "Dwebble Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Dwebble",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:stony_shore"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

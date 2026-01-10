@@ -1,0 +1,44 @@
+{
+  "id": "Altaria",
+  "spawnInfos": [
+    {
+      "spec": "species:Altaria",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt"
+      ],
+      "minLevel": 35,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/magical",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Altaria",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 35,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 25.0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "layer0": "pixelmon:item/black_tumblestone",
+    "particle": "pixelmon:item/black_tumblestone"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "Larvesta Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Larvesta",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Volcarona",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 59,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:desert"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_space_stone",
+    "pixelmon:ultra_space_stone_button",
+    "pixelmon:ultra_space_stone_pressure_plate",
+    "pixelmon:ultra_space_stone_slab",
+    "pixelmon:ultra_space_stone_stairs",
+    "pixelmon:ultra_space_stone_wall",
+    "pixelmon:chiseled_ultra_space_stone",
+    "pixelmon:polished_ultra_space_stone",
+    "pixelmon:polished_ultra_space_stone_slab",
+    "pixelmon:polished_ultra_space_stone_stairs",
+    "pixelmon:polished_ultra_space_stone_wall"
+  ]
+}

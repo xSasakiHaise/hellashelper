@@ -1,0 +1,127 @@
+{
+  "id": "Bisharp",
+  "spawnInfos": [
+    {
+      "spec": "species:Bisharp",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 52,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leaders_crest",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:stone"
+            ]
+          }
+        }
+      ],
+      "groupSpawnSettings": [
+        {
+          "spec": "Pawniard",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Bisharp",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 52,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leaders_crest",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Bisharp",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 52,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leaders_crest",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:nether_wastes",
+          "minecraft:basalt_deltas",
+          "biomesoplenty:crystalline_chasm"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Pawniard",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 5.0
+    }
+  ]
+}

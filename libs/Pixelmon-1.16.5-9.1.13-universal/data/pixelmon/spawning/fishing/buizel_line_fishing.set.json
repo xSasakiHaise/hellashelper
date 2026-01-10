@@ -1,0 +1,65 @@
+{
+    "id": "Buizel Line Fishing",
+    "spawnInfos": [
+      {
+        "spec": "species:Buizel",
+        "stringLocationTypes": [
+          "Good Rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 25,
+        "typeID": "pokemon",
+        "condition": {
+          "stringBiomes": [
+            "minecraft:river",
+            "lakes",
+            "minecraft:stone_shore",
+            "biomesoplenty:gravel_beach",
+            "byg:rocky_beach"
+
+          ]
+        },
+        "rarity": 40.0
+      },
+      {
+        "spec": "species:Floatzel",
+        "stringLocationTypes": [
+          "Good Rod"
+        ],
+        "minLevel": 30,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "stringBiomes": [
+            "minecraft:river",
+            "lakes",
+            "minecraft:stone_shore",
+            "biomesoplenty:gravel_beach",
+            "byg:rocky_beach",
+            "pixelmon:ultra_crater"
+          ]
+        },
+        "rarity": 30.0
+      },
+      {
+        "spec": "species:Floatzel",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 30,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "stringBiomes": [
+            "minecraft:river",
+            "lakes",
+            "minecraft:stone_shore",
+            "biomesoplenty:gravel_beach",
+            "byg:rocky_beach",
+            "pixelmon:ultra_crater"
+          ]
+        },
+        "rarity": 10.0
+      }
+    ]
+  }

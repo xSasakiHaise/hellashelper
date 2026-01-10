@@ -1,0 +1,21 @@
+{
+  "id": "Deino Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Deino",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 40,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

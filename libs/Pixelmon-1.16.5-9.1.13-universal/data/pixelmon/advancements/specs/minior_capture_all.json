@@ -1,0 +1,83 @@
+{
+  "display":{
+    "icon":{
+      "item":"pixelmon:pixelmon_sprite",
+      "nbt":"{ndex:774, palette:\"red\", form:\"meteor\"}"
+    },
+    "title":{
+      "translate":"advancements.minior_capture_all.title"
+    },
+    "description":{
+      "translate":"advancements.minior_capture_all.description"
+    },
+    "hidden": true
+  },
+  "parent" : "pixelmon:specs/spec_trigger",
+  "criteria":{
+    "red":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Minior palette:red"
+      }
+    },
+    "orange":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Minior palette:orange"
+      }
+    },
+    "yellow":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Minior palette:yellow"
+      }
+    },
+    "green":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Minior palette:green"
+      }
+    },
+    "blue":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Minior palette:blue"
+      }
+    },
+    "indigo":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Minior palette:indigo"
+      }
+    },
+    "violet":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Minior palette:violet"
+      }
+    }
+  },
+  "requirements":[
+    [
+      "red"
+    ],
+    [
+      "orange"
+    ],
+    [
+      "yellow"
+    ],
+    [
+      "green"
+    ],
+    [
+      "blue"
+    ],
+    [
+      "indigo"
+    ],
+    [
+      "violet"
+    ]
+  ]
+}

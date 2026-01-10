@@ -1,0 +1,22 @@
+{
+  "id": "Gible Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Gible",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 14,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

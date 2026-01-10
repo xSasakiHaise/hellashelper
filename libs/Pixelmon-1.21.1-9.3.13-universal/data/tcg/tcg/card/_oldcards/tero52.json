@@ -1,0 +1,37 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 50,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO52.1.name",
+      "costs": [
+        "FIGHTING"
+      ],
+      "damage": 0,
+      "text": "attack.TERO52.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": false,
+          "location": "*",
+          "count": 6,
+          "amount": 10
+        },
+        {
+          "type": "tcg:ignore_stats"
+        }
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

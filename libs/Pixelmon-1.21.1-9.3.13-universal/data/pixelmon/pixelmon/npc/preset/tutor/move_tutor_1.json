@@ -1,0 +1,275 @@
+{
+  "interactions": {
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "learnable_moves": [
+                  {
+                    "attack": "Rock Smash",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 4
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Giga Drain",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 2
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "False Swipe",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 7
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Uproar",
+                    "costs": [
+                      {
+                        "id": "pixelmon:crystal",
+                        "count": 9
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Sky Attack",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Snarl",
+                    "costs": [
+                      {
+                        "id": "pixelmon:crystal",
+                        "count": 2
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Stomping Tantrum",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 3
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Triple Axel",
+                    "costs": [
+                      {
+                        "id": "minecraft:gold_ingot",
+                        "count": 9
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Outrage",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 2
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Foul Play",
+                    "costs": [
+                      {
+                        "id": "minecraft:iron_ingot",
+                        "count": 14
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Seed Bomb",
+                    "costs": [
+                      {
+                        "id": "minecraft:emerald",
+                        "count": 4
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Psychic",
+                    "costs": [
+                      {
+                        "id": "pixelmon:aluminum_ingot",
+                        "count": 12
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Scorching Sands",
+                    "costs": [
+                      {
+                        "id": "minecraft:gold_ingot",
+                        "count": 15
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Baby-Doll Eyes",
+                    "costs": [
+                      {
+                        "id": "minecraft:iron_ingot",
+                        "count": 4
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Swift",
+                    "costs": [
+                      {
+                        "id": "minecraft:amethyst_shard",
+                        "count": 6
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Aqua Tail",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 7
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Pain Split",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 12
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Superpower",
+                    "costs": [
+                      {
+                        "id": "minecraft:gold_ingot",
+                        "count": 6
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Hyper Voice",
+                    "costs": [
+                      {
+                        "id": "pixelmon:crystal",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Gravity",
+                    "costs": [
+                      {
+                        "id": "pixelmon:aluminum_ingot",
+                        "count": 14
+                      }
+                    ],
+                    "learnable": true
+                  }
+                ],
+                "type": "pixelmon:tutor_move"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        }
+      ]
+    },
+    "type": "pixelmon:constant"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Move Tutor"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "value": {
+      "slim": false,
+      "texture": {
+        "resource": {
+          "resource": "pixelmon:textures/steve/npcchat1.png",
+          "fallback": "pixelmon:textures/steve/npcchat1.png"
+        },
+        "type": "pixelmon:fallback"
+      },
+      "type": "pixelmon:player"
+    },
+    "type": "pixelmon:constant"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5.0,
+      "swim": false
+    }
+  }
+}

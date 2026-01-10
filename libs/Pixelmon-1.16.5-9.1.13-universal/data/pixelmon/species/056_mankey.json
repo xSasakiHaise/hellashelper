@@ -1,0 +1,575 @@
+{
+  "name": "Mankey",
+  "dex": 56,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Covet",
+              "Focus Energy",
+              "Leer",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Low Kick"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Seismic Toss"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Cross Chop"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Stomping Tantrum"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Final Gambit"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Dual Chop",
+          "Endeavor",
+          "Fire Punch",
+          "Focus Punch",
+          "Gunk Shot",
+          "Helping Hand",
+          "Ice Punch",
+          "Iron Tail",
+          "Low Kick",
+          "Outrage",
+          "Role Play",
+          "Seed Bomb",
+          "Snore",
+          "Spite",
+          "Stomping Tantrum",
+          "Thunder Punch",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Beat Up",
+          "Counter",
+          "Curse",
+          "Encore",
+          "Night Slash",
+          "Spite"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Low Kick",
+          "Acrobatics",
+          "Thief",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Rock Tomb",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Brick Break",
+          "U-turn",
+          "Shadow Claw",
+          "Bulk Up",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Drain Punch",
+          "Metronome",
+          "Poison Jab",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Gunk Shot",
+          "Substitute",
+          "Encore",
+          "Thunderbolt",
+          "Helping Hand",
+          "Reversal",
+          "Earthquake",
+          "Stone Edge",
+          "Outrage",
+          "Overheat",
+          "Focus Blast",
+          "Close Combat",
+          "Tera Blast",
+          "Spite",
+          "Uproar",
+          "Focus Punch",
+          "Lash Out",
+          "Double-Edge",
+          "Endeavor",
+          "Throat Chop",
+          "Curse"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Body Slam",
+          "Captivate",
+          "Curse",
+          "Defense Curl",
+          "Detect",
+          "Double-Edge",
+          "Dynamic Punch",
+          "Endure",
+          "Hone Claws",
+          "Mega Kick",
+          "Mega Punch",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Psych Up",
+          "Rage",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Skull Bash",
+          "Strength",
+          "Submission",
+          "Swift",
+          "Take Down",
+          "Vacuum Wave"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Acrobatics",
+          "Payback",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Acrobatics",
+          "Payback",
+          "Retaliate",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Acrobatics",
+          "Payback",
+          "Retaliate",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Poison Jab",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Payback",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Overheat"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Psych Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Defense Curl",
+          "Thunder Punch",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fire Punch"
+        ],
+        "tmMoves1": [
+          "Mega Punch",
+          "Mega Kick",
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Pay Day",
+          "Submission",
+          "Counter",
+          "Seismic Toss",
+          "Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Dig",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Metronome",
+          "Swift",
+          "Skull Bash",
+          "Rest",
+          "Rock Slide",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "VitalSpirit",
+          "AngerPoint"
+        ],
+        "hiddenAbilities": [
+          "Defiant"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 35,
+        "specialAttack": 35,
+        "specialDefense": 45,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 50,
+        "spawnLevel": 10,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/056_mankey/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/056_mankey/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/056_mankey/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.mankey",
+                "pixelmon.mob.mankey"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/056_mankey/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/056_mankey/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/056_mankey/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/056_mankey/all/base/pink/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 28.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 28,
+          "to": "Primeape",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 1
+}

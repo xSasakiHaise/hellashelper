@@ -1,0 +1,24 @@
+{
+  "id": "Hitmonchan Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Hitmonchan",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

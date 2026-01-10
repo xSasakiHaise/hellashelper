@@ -1,0 +1,21 @@
+{
+  "id": "Natu Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Natu",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

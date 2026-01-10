@@ -1,0 +1,20 @@
+{
+  "id": "Grookey Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Grookey",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Skitty Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Skitty",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

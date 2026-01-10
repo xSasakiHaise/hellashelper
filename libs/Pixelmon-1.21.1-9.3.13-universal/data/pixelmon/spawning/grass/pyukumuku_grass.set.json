@@ -1,0 +1,20 @@
+{
+  "id": "Pyukumuku Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Pyukumuku",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 20,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

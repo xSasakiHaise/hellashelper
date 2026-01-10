@@ -1,0 +1,16 @@
+{
+    "id": "Glimmet",
+    "spawnInfos": [
+      {
+        "spec": "species:Glimmet",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 15,
+        "maxLevel": 34,
+        "typeID": "pokemon",
+        "rarity": 100.0
+      }
+    ]
+  }
+  

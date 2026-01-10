@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "particle": "pixelmon:item/block/gymsign",
+    "all": "pixelmon:item/block/gymsign"
+  }
+}

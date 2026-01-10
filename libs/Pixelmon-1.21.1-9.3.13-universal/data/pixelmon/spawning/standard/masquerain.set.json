@@ -1,0 +1,33 @@
+{
+  "id": "Masquerain",
+  "spawnInfos": [
+    {
+      "spec": "species:Masquerain",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:frozen_peaks",
+    {
+      "id": "terralith:emerald_peaks",
+      "required": false
+    },
+    {
+      "id": "terralith:glacial_chasm",
+      "required": false
+    }
+  ]
+}

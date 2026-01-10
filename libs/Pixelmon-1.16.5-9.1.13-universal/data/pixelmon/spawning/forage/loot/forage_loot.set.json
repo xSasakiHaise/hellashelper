@@ -1,0 +1,3687 @@
+{
+  "id": "Forage Loot",
+  "spawnInfos": [
+    {
+      "stringLocationTypes": [
+        "Forage"
+      ],
+      "typeID": "collection",
+      "collectionLabel": "spawning.collections.items",
+      "collection": [
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:water_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "beaches",
+              "minecraft:river",
+              "lakes",
+              "oceanic",
+              "swamps",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_jungle"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:leaf_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "all forests",
+              "freezing forests",
+              "mountainous forests",
+              "jungles",
+              "pixelmon:ultra_forest",
+              "pixelmon:ultra_jungle"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:fire_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "hellish",
+              "mesas",
+              "arid",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:thunder_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "mountainous forests",
+              "savannas",
+              "freezing mountains",
+              "pixelmon:ultra_plant"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:moon_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "hills",
+              "freezing mountains",
+              "pixelmon:ultra_forest",
+              "pixelmon:ultra_crater"
+            ],
+            "times": [
+              "NIGHT"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:moon_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "end"
+            ]
+          },
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:sun_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "hills",
+              "freezing mountains",
+              "pixelmon:ultra_jungle",
+              "pixelmon:ultra_crater"
+            ],
+            "times": [
+              "DAY"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:sun_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "end"
+            ]
+          },
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:dawn_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "mushroom",
+              "evil",
+              "pixelmon:ultra_desert"
+            ],
+            "times": [
+              "DAWN"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:dusk_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "mushroom",
+              "evil",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_plant"
+            ],
+            "times": [
+              "DUSK"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:shiny_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "mushroom",
+              "magical",
+              "flowery",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_forest"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:ice_stone_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "freezing",
+              "freezing forests",
+              "freezing mountains",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:red_apricorn",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "arid",
+              "savannas",
+              "mesas",
+              "oceanic",
+              "beaches",
+              "freezing",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:blue_apricorn",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "arid",
+              "savannas",
+              "mesas",
+              "oceanic",
+              "beaches",
+              "freezing",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:green_apricorn",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "arid",
+              "savannas",
+              "mesas",
+              "oceanic",
+              "beaches",
+              "freezing",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:white_apricorn",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "arid",
+              "savannas",
+              "mesas",
+              "oceanic",
+              "beaches",
+              "freezing",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:pink_apricorn",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "arid",
+              "savannas",
+              "mesas",
+              "oceanic",
+              "beaches",
+              "freezing",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:yellow_apricorn",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "arid",
+              "savannas",
+              "mesas",
+              "oceanic",
+              "beaches",
+              "freezing",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:black_apricorn",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "arid",
+              "savannas",
+              "mesas",
+              "oceanic",
+              "beaches",
+              "freezing",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:mint_seeds",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "seesSky": true
+          },
+          "anticondition": {
+            "stringBiomes": [
+              "arid",
+              "oceanic",
+              "end",
+              "hellish"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:grassy_seed",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "forests",
+              "pixelmon:ultra_jungle"
+            ]
+          },
+          "rarity": 25
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:psychic_seed",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "taigas",
+              "pixelmon:ultra_forest"
+            ]
+          },
+          "rarity": 25
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:electric_seed",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "redwoods",
+              "pixelmon:ultra_plant"
+            ]
+          },
+          "rarity": 25
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:misty_seed",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "birches",
+              "pixelmon:ultra_forest"
+            ]
+          },
+          "rarity": 25
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:pomeg_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "mesas",
+              "mountainous forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:nanab_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "beaches",
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:pinap_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "swamps",
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:razz_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:kelpsy_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "beaches"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:qualot_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:hondew_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "lakes",
+              "savannas"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:grepa_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "lakes",
+              "all forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:tamato_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "taigas",
+              "mountainous forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:oran_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles",
+              "all forests",
+              "flowery",
+              "freezing forests",
+              "magical",
+              "evil",
+              "mushroom"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:rawst_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:leppa_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "all forests",
+              "magical",
+              "evil",
+              "freezing forests",
+              "mushroom"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:cheri_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "forests",
+              "savannas"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:chesto_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "taigas",
+              "redwoods"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:pecha_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:aspear_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:persim_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "lakes"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:lum_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "plains",
+              "forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:sitrus_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles",
+              "all forests",
+              "flowery",
+              "freezing forests",
+              "magical",
+              "evil",
+              "mushroom"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:pumkin_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "mesas",
+              "savannas"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:drash_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "all forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:eggant_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "all forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:yago_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "savannas"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:touga_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "all forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:apicot_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:liechi_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:ganlon_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "taigas",
+              "mountainous forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:salac_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "beaches",
+              "flowery"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:petaya_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:lansat_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:starf_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "beaches"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:aguav_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "savannas",
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:figy_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:iapapa_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "swamps",
+              "lakes"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:mago_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "beaches",
+              "lakes",
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:wiki_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "taigas",
+              "redwoods",
+              "mountainous forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:occa_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:passho_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles",
+              "swamps"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:wacan_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:rindo_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "swamps"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:yache_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mesas"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:chople_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "savannas",
+              "mesas",
+              "all forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:kebia_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "birches",
+              "mountainous forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:shuca_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:coba_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles",
+              "mountainous forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:payapa_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:tanga_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:charti_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "savannas",
+              "flowery"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:kasib_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:haban_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery",
+              "swamps"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:colbur_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "lakes",
+              "plains",
+              "swamps"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:babiri_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:chilan_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "redwoods",
+              "taigas"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:ginema_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "all forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:jaboca_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "beaches"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:rowap_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "lakes",
+              "swamps"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:enigma_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery",
+              "magical",
+              "evil",
+              "mushroom",
+              "ultra space"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:kee_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "lakes",
+              "swamps"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:maranga_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles",
+              "flowery"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:roseli_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "savannas",
+              "magical",
+              "evil"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:micle_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery",
+              "magical",
+              "evil",
+              "mushroom"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:cornn_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "savannas",
+              "plains"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:magost_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:rabuta_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:nomel_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "birches",
+              "jungles"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:spelon_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "savannas"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:pamtre_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "swamps",
+              "beaches"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:watmel_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "savannas"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:durin_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:belue_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "taigas",
+              "freezing forests"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:wepear_berry",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "birches",
+              "forests",
+              "roofed"
+            ],
+            "seesSky": true
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:curry_leek",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:curry_apple",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:curry_herb",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:pearl",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "oceanic",
+              "beaches",
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 25
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:big_pearl",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "oceanic",
+              "beaches",
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:pearl_string",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "oceanic",
+              "beaches",
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 5
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:wheat_seeds",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "oceanic",
+              "beaches",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_forest",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:melon_seeds",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles",
+              "pixelmon:ultra_jungle"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:beetroot_seeds",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "swamps",
+              "plains"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:pumpkin_seeds",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "all forests",
+              "pixelmon:ultra_jungle"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:cocoa_beans",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles",
+              "pixelmon:ultra_jungle"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:nether_wart",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "hellish",
+              "evil"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:chorus_fruit",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "end",
+              "magical"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:carrot",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "hills",
+              "all forests",
+              "pixelmon:ultra_forest"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:potato",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "mountainous",
+              "all forests",
+              "pixelmon:ultra_forest"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:beetroot",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "plains",
+              "swamps"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:melon",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:dead_bush",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "arid",
+              "mesas",
+              "savannas",
+              "evil"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:grass",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "arid",
+              "mesas",
+              "oceanic",
+              "beaches",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_forest",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:fern",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "taigas",
+              "jungles",
+              "redwoods"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:sugar_cane",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "lakes",
+              "beaches"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:bamboo",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "jungles"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:brown_mushroom",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "roofed",
+              "mushroom",
+              "swamps"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:red_mushroom",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "roofed",
+              "mushroom",
+              "swamps"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:glowstone_dust",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "savannas",
+              "hellish",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_plant"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:redstone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "savannas",
+              "hellish",
+              "pixelmon:ultra_plant"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:coal",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "arid",
+              "mesas",
+              "hellish",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:flint",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "arid",
+              "mesas",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:grass_block",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "oceanic",
+              "arid",
+              "mesas",
+              "beaches",
+              "evil",
+              "end",
+              "hellish",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:dirt",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "anticondition": {
+            "stringBiomes": [
+              "oceanic",
+              "beaches",
+              "end",
+              "hellish",
+              "pixelmon:ultra_deep_sea",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_plant",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:stone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "freezing mountains",
+              "hills"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:sand",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "oceanic",
+              "beaches",
+              "minecraft:river",
+              "lakes",
+              "arid"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:red_sand",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mesas"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:clay",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "lakes",
+              "swamps",
+              "beaches"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:sponge",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:snow_block",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "freezing"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:ice",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "freezing"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:snowball",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "freezing"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:slime_ball",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "swamps",
+              "evil"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:prismarine_crystals",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "oceanic",
+              "beaches"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:prismarine_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "oceanic",
+              "beaches"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:quartz",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "hellish",
+              "mountainous",
+              "pixelmon:ultra_plant"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:blaze_powder",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "hellish",
+              "savannas",
+              "mountainous"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:netherrack",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "hellish"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:end_stone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "end"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:ender_pearl",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "end"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:ender_eye",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "end"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:bone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "evil",
+              "arid",
+              "mesas",
+              "pixelmon:ultra_desert",
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:rotten_flesh",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "evil",
+              "arid",
+              "mesas"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:iron_nugget",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "freezing mountains",
+              "mesas",
+              "arid"
+            ],
+            "seesSky": false
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:gold_nugget",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mountainous",
+              "freezing mountains",
+              "mesas",
+              "arid"
+            ],
+            "seesSky": false
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:dandelion",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "magical",
+              "all forests",
+              "jungles",
+              "plains",
+              "flowery"
+            ]
+          },
+          "rarityMultipliers": [
+          {
+             "multiplier": 1.5,
+             "condition": {
+             "stringBiomes": [
+              "flowery"
+            ]
+          }
+        }
+        ],
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:poppy",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "magical",
+              "all forests",
+              "jungles",
+              "plains",
+              "flowery"
+            ]
+          },
+          "rarityMultipliers": [
+          {
+             "multiplier": 1.5,
+             "condition": {
+             "stringBiomes": [
+              "flowery"
+            ]
+          }
+        }
+        ],
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:blue_orchid",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "magical",
+              "all forests",
+              "flowery"
+            ]
+          },
+          "rarityMultipliers": [
+          {
+             "multiplier": 1.5,
+             "condition": {
+             "stringBiomes": [
+              "flowery"
+            ]
+          }
+        }
+        ],
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:allium",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "magical",
+              "all forests",
+              "flowery"
+            ]
+          },
+          "rarityMultipliers": [
+          {
+             "multiplier": 1.5,
+             "condition": {
+             "stringBiomes": [
+              "flowery"
+            ]
+          }
+        }
+        ],
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:azure_bluet",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "magical",
+              "all forests",
+              "flowery"
+            ]
+          },
+          "rarityMultipliers": [
+          {
+             "multiplier": 1.5,
+             "condition": {
+             "stringBiomes": [
+              "flowery"
+            ]
+          }
+        }
+        ],
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:red_tulip",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "magical",
+              "all forests",
+              "flowery"
+            ]
+          },
+          "rarityMultipliers": [
+          {
+             "multiplier": 1.5,
+             "condition": {
+             "stringBiomes": [
+              "flowery"
+            ]
+          }
+        }
+        ],
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:orange_tulip",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "magical",
+              "all forests",
+              "flowery"
+            ]
+          },
+          "rarityMultipliers": [
+          {
+             "multiplier": 1.5,
+             "condition": {
+             "stringBiomes": [
+              "flowery"
+            ]
+          }
+        }
+        ],
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:white_tulip",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "magical",
+              "all forests",
+              "flowery"
+            ]
+          },
+          "rarityMultipliers": [
+          {
+             "multiplier": 1.5,
+             "condition": {
+             "stringBiomes": [
+              "flowery"
+            ]
+          }
+        }
+        ],
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:pink_tulip",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "magical",
+              "all forests",
+              "flowery"
+            ]
+          },
+          "rarityMultipliers": [
+          {
+             "multiplier": 1.5,
+             "condition": {
+             "stringBiomes": [
+              "flowery"
+            ]
+          }
+        }
+        ],
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:oxeye_daisy",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "magical",
+              "all forests",
+              "flowery"
+            ]
+          },
+          "rarityMultipliers": [
+          {
+             "multiplier": 1.5,
+             "condition": {
+             "stringBiomes": [
+              "flowery"
+            ]
+          }
+        }
+        ],
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:sunflower",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery",
+              "magical"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:lilac",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery",
+              "magical",
+              "birches"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:rose_bush",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery",
+              "magical",
+              "forests"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:peony",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "flowery",
+              "magical",
+              "forests",
+              "roofed"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:cactus",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mesas",
+              "arid"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:soft_sand",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mesas",
+              "arid",
+              "pixelmon:ultra_desert"
+            ]
+          },
+          "rarity": 25
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:light_clay",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "minecraft:river",
+              "lakes",
+              "swamps"
+            ]
+          },
+          "rarity": 25
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:ghast_tear",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "hellish",
+              "evil"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:skeleton_skull",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "hellish",
+              "evil"
+            ]
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:wither_skeleton_skull",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "hellish",
+              "evil"
+            ]
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:cracked_pot",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "roofed",
+              "evil"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:chipped_pot",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "roofed",
+              "evil"
+            ]
+          },
+          "rarity": 25
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:galarica_twig",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "taigas",
+              "redwoods",
+              "mountainous forests",
+              "freezing forests",
+              "pixelmon:ultra_forest"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:max_mushroom",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "mushroom"
+            ]
+          },
+          "rarity": 15
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:peat_block",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "swamps"
+            ]
+          },
+          "rarity": 15
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:nautilus_shell",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "beaches",
+              "oceanic",
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 30
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:scute",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "beaches",
+              "oceanic",
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 30
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:ultra_forest_flower",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_forest",
+              "pixelmon:ultra_jungle"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:ultra_deep_stone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:ultra_deep_clay",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:ultra_desert_sand",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_desert"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:ultra_desert_cactus",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_desert"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:ultra_space_stone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_plant"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:sea_lantern",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_plant"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:yellow_concrete_powder",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:yellow_concrete",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:orange_concrete",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:sapphire",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:amethyst",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:crystal",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_desert"
+            ]
+          },
+          "rarity": 75
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:silicon",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_plant"
+            ]
+          },
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:gunpowder",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 40
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:iron_ingot",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:aluminium_ingot",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:silver_ingot",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 5
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:platinum_ingot",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_crater"
+            ]
+          },
+          "rarity": 5
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:black_sludge",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+          "rarity": 25
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:bright_powder",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_desert"
+            ]
+          },
+          "rarity": 25
+        },
+        {
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "pixelmon:dubious_disc",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "pixelmon:ultra_plant"
+            ]
+          },
+          "rarity": 5
+        },
+		{
+			"stringLocationTypes": [
+				"Forage"
+			],
+			"item": {
+				"itemID": "pixelmon:mirror_herb",
+				"quantity": 1
+			},
+			"typeID": "item",
+			"condition": {
+				"stringBiomes": [
+					"magical",
+					"all forests",
+					"flowery"
+				]
+			},
+			"rarity": 30
+		}
+      ],
+      "requiredSpace": 2,
+      "rarity": 30
+    }
+  ]
+}

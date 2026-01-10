@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 124,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH59.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.GYMH59.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMH59.2.name",
+      "costs": [
+        "PSYCHIC",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH59.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

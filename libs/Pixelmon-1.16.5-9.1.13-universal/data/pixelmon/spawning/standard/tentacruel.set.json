@@ -1,0 +1,52 @@
+{
+  "id": "Tentacruel",
+  "spawnInfos": [
+    {
+      "spec": "species:Tentacruel",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "oceanic",
+          "terraforged:warm_beach"
+        ],
+        "minY": 50
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Tentacruel palette:drowned",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "drowned"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "Quaquaval",
+  "spawnInfos": [
+    {
+      "spec": "species:Quaquaval",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 36,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

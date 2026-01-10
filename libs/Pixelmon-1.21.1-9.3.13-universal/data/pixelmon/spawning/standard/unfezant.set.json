@@ -1,0 +1,32 @@
+{
+  "id": "Unfezant",
+  "spawnInfos": [
+    {
+      "spec": "species:Unfezant",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 33,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra",
+		  "biomeswevegone:crimson_tundra"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

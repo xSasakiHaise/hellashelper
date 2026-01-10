@@ -1,0 +1,21 @@
+{
+  "id": "Morpeko Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Morpeko",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

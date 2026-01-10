@@ -1,0 +1,50 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base3-48.description",
+  "attacks": [
+    {
+      "name": "attack.base3-48.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base3-48.0.description",
+      "effects": [
+        {
+          "type": "tcg:reduce_damage",
+          "amount": 20,
+          "benching_removes": false
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-48.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base3-48.1.description",
+      "effects": [
+        {
+          "type": "tcg:reduce_damage",
+          "amount": 20,
+          "benching_removes": false
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "GRASS",
+  "pokemon_id": 88,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

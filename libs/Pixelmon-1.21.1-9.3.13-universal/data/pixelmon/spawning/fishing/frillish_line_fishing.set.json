@@ -1,0 +1,62 @@
+{
+  "id": "Frillish Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Frillish",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 24,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Frillish",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 24,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Jellicent",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 7.0
+    }
+  ]
+}

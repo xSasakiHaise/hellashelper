@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tcg:base1-1",
+    "tcg:base1-11",
+    "tcg:base1-13",
+    "tcg:base1-15",
+    "tcg:base1-17",
+    "tcg:base1-2",
+    "tcg:base1-4",
+    "tcg:base1-8"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 1,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE44.1.name",
+      "costs": [
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 20,
+      "text": "attack.BASE44.1.text",
+      "effects": [
+        {
+          "type": "tcg:leech_seed",
+          "heal_type": "Exact",
+          "heal_amount": 10
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

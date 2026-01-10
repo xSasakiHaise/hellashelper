@@ -1,0 +1,18 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 77,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+
+  ],
+  "energies": "FIRE"
+}

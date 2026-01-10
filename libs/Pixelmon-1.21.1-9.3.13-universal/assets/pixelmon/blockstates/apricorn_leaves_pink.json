@@ -1,0 +1,35 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "age": "0"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/apricorn_tree/pink/leaves"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "1"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/apricorn_tree/pink/bloom"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "2"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/apricorn_tree/pink/berry"
+        }
+      ]
+    }
+  ]
+}
+

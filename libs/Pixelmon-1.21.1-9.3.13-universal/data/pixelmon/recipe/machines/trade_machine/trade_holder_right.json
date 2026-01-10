@@ -1,0 +1,21 @@
+{
+  "type": "pixelmon:crafting_shaped",
+  "mirrored": false,
+  "group": "trade_holder",
+  "pattern": [
+    "BAA",
+    "AA "
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/aluminum"
+    },
+    "B": {
+      "item": "pixelmon:poke_ball"
+    }
+  },
+  "result": {
+    "id": "pixelmon:trade_holder_right",
+    "count": 1
+  }
+}

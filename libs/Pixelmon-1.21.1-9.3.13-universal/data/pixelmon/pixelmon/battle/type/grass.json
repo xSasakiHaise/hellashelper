@@ -1,0 +1,34 @@
+{
+  "name": {
+    "translate": "type.grass"
+  },
+  "color": {
+    "red": 0,
+    "green": 255,
+    "blue": 0,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/grass.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:water",
+        "pixelmon:ground",
+        "pixelmon:rock"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:fire",
+        "pixelmon:grass",
+        "pixelmon:poison",
+        "pixelmon:flying",
+        "pixelmon:bug",
+        "pixelmon:dragon",
+        "pixelmon:steel"
+      ],
+      "effectiveness": "NOT"
+    }
+  ]
+}

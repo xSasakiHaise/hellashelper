@@ -1,0 +1,17 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:squid"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "tentacool",
+      "tentacruel",
+      "frillish",
+      "jellicent"
+    ]
+  }
+}

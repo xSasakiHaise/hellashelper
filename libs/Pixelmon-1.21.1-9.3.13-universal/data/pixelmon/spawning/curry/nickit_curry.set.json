@@ -1,0 +1,22 @@
+{
+  "id": "Nickit Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Nickit",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

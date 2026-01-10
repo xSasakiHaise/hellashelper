@@ -1,0 +1,47 @@
+{
+  "id": "Nickit Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Nickit",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Thievul",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 18,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

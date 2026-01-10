@@ -1,0 +1,20 @@
+{
+  "id": "Mankey Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Mankey",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

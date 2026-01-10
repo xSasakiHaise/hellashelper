@@ -1,0 +1,534 @@
+{
+  "name": {
+    "translate": "pixelmon.research.pokemon.bloodmoon_ursaluna"
+  },
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "require_healer_block": {
+            "type": "pixelmon:constant_boolean",
+            "value": true
+          },
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.0.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.0.page.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:knockout_pokemon",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:spec_matches",
+                "pokemon": {
+                  "type": "pixelmon:context_pokemon",
+                  "key": "pixelmon:pokemon"
+                },
+                "spec": "type:ground"
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:in_range_inclusive",
+                "min": {
+                  "value": 13000,
+                  "type": "pixelmon:constant_number"
+                },
+                "max": {
+                  "value": 23000,
+                  "type": "pixelmon:constant_number"
+                },
+                "value": {
+                  "type": "pixelmon:world_time",
+                  "entity_key": "pixelmon:player"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 16
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:knockout_pokemon",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:spec_matches",
+                "pokemon": {
+                  "type": "pixelmon:context_pokemon",
+                  "key": "pixelmon:pokemon"
+                },
+                "spec": "type:normal"
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:in_range_inclusive",
+                "min": {
+                  "value": 13000,
+                  "type": "pixelmon:constant_number"
+                },
+                "max": {
+                  "value": 23000,
+                  "type": "pixelmon:constant_number"
+                },
+                "value": {
+                  "type": "pixelmon:world_time",
+                  "entity_key": "pixelmon:player"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 16
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.objective.3"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:spec_matches",
+                "pokemon": {
+                  "type": "pixelmon:context_pokemon",
+                  "key": "pixelmon:pokemon"
+                },
+                "spec": "type:ground"
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:in_range_inclusive",
+                "min": {
+                  "value": 13000,
+                  "type": "pixelmon:constant_number"
+                },
+                "max": {
+                  "value": 23000,
+                  "type": "pixelmon:constant_number"
+                },
+                "value": {
+                  "type": "pixelmon:world_time",
+                  "entity_key": "pixelmon:player"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 8
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.objective.4"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:spec_matches",
+                "pokemon": {
+                  "type": "pixelmon:context_pokemon",
+                  "key": "pixelmon:pokemon"
+                },
+                "spec": "type:normal"
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:in_range_inclusive",
+                "min": {
+                  "value": 13000,
+                  "type": "pixelmon:constant_number"
+                },
+                "max": {
+                  "value": 23000,
+                  "type": "pixelmon:constant_number"
+                },
+                "value": {
+                  "type": "pixelmon:world_time",
+                  "entity_key": "pixelmon:player"
+                }
+              }
+            }
+          ],
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ],
+          "required_amount": 8
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.1.page.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.2.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:break_block",
+          "condition": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:block_is_one_of",
+                "blocks": "pixelmon:moon_stone_ore",
+                "block": {
+                  "type": "pixelmon:context_block_state"
+                }
+              }
+            }
+          ],
+          "required_amount": 32,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.2.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:craft_item",
+          "condition": {
+            "recipe": "pixelmon:evo_item/moon_stone",
+            "type": "pixelmon:recipe_matches"
+          },
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.2.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.2.page.2"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.2.page.3"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:photograph_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "Noctowl"
+          },
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.objective.2"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:photograph_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "Leafeon"
+          },
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.objective.3"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:photograph_pokemon",
+          "condition": {
+            "type": "pixelmon:spec_matches",
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "spec": "Growlithe form:hisuian"
+          },
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        },
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.objective.4"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:photograph_pokemon",
+          "condition": [],
+          "required_amount": 150,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.page.1"
+                }
+              },
+              {
+                "title": {
+                  "translate": "pixelmon.prof.wisteria"
+                },
+                "text": {
+                  "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.3.page.2"
+                }
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/wisteria.png"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/speech_bubble.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "name": {
+            "translate": "pixelmon.research.objective.pokemon.bloodmoon_ursaluna.stage.4.objective.1"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:use_move",
+          "condition": {
+            "type": "pixelmon:string_compare_case_insensitive",
+            "first": {
+              "type": "pixelmon:string_context",
+              "key": "pixelmon:attack"
+            },
+            "second": {
+              "type": "pixelmon:constant_string",
+              "value": "Misty Terrain"
+            }
+          },
+          "required_amount": 1,
+          "result": [
+            {
+              "type": "pixelmon:give_experience",
+              "exp": 50
+            }
+          ]
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:spawn_and_enter_battle",
+          "spec": "ursaluna form:bloodmoon"
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/pokemon/901_ursaluna/all/bloodmoon/none/sprite.png"
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": true,
+  "unique": true
+}

@@ -1,0 +1,16 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.gym2-119.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/rockets_minefield_gym.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+
+  "effect": {
+    "type": "tcg:unimplemented"
+  },
+  "rarity": "tcg:uncommon"
+}

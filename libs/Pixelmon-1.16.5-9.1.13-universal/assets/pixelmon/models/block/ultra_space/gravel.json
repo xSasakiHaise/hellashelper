@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pixelmon:block/ultra_space/ultra_deep_sea_gravel"
+  }
+}

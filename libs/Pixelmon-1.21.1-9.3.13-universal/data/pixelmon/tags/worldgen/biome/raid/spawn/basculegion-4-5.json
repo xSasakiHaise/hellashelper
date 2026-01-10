@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:river",
+    {
+      "required": false,
+      "id": "terralith:desert_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:red_oasis"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_jungle"
+    }
+  ]
+}

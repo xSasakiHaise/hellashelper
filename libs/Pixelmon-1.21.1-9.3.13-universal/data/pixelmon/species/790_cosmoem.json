@@ -1,0 +1,260 @@
+{
+  "name": "Cosmoem",
+  "dex": 790,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Cosmic Power",
+              "Teleport"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [],
+        "tmMoves8": [],
+        "trMoves": [
+          "Cosmic Power"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Sturdy"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 43,
+        "attack": 29,
+        "defense": 131,
+        "specialAttack": 29,
+        "specialDefense": 131,
+        "speed": 37
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 140,
+        "baseFriendship": 0,
+        "spawnLevel": 45,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/790_cosmoem/all/base/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/790_cosmoem/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/790_cosmoem/all/base/none/cosmoem.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/790_cosmoem/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/790_cosmoem/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.5
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/790_cosmoem/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/790_cosmoem/all/base/none/cosmoemorb.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/790_cosmoem/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/790_cosmoem/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.5
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/790_cosmoem/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/790_cosmoem/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/790_cosmoem/all/base/none/cosmoem.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/790_cosmoem/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/790_cosmoem/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.5
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/790_cosmoem/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/790_cosmoem/all/base/none/cosmoemorb.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/790_cosmoem/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/790_cosmoem/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.5
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Cosmog"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 999.9,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "level": 53,
+          "to": "Solgaleo",
+          "conditions": [
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Sunsteel Strike"
+          ]
+        },
+        {
+          "level": 53,
+          "to": "Lunala",
+          "conditions": [
+            {
+              "time": "NIGHT",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Moongeist Beam"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1,
+        "specialDefense": 1
+      },
+      "growth_data": {
+        "mean": 200.0,
+        "standard_deviation": 10.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 7
+}

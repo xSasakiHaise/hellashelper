@@ -1,0 +1,264 @@
+{
+  "name": "Sinistcha",
+  "dex": 1013,
+  "defaultForms": [
+    "unremarkable",
+    "masterpiece"
+  ],
+  "forms": [
+    {
+      "name": "unremarkable",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.2,
+        "width": 0.2,
+        "length": 1.0,
+        "eyeHeight": 0.2,
+        "hoverHeight": 0.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Stun Spore",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Life Dew"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rage Powder"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Strength Sap"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Protect",
+          "Hex",
+          "Magical Leaf",
+          "Night Shade",
+          "Endure",
+          "Foul Play",
+          "Sleep Talk",
+          "Reflect",
+          "Rest",
+          "Imprison",
+          "Substitute",
+          "Iron Defense",
+          "Giga Drain",
+          "Shadow Ball",
+          "Energy Ball",
+          "Calm Mind",
+          "Grassy Terrain",
+          "Nasty Plot",
+          "Phantom Force",
+          "Leaf Storm",
+          "Trick Room",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast",
+          "Spite",
+          "Scald",
+          "Uproar",
+          "Poltergeist"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Hospitality"
+        ],
+        "hiddenAbilities": [
+          "Heatproof"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 71,
+        "attack": 60,
+        "defense": 106,
+        "specialAttack": 121,
+        "specialDefense": 80,
+        "speed": 70
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 178,
+        "baseFriendship": 50,
+        "spawnLevel": 40,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1013_sinistcha/all/unremarkable/none/texture.png",
+              "sprite": "pixelmon:pokemon/1013_sinistcha/all/unremarkable/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1013_sinistcha/all/unremarkable/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1013_sinistcha/all/unremarkable/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GRASS",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Poltchageist"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 2.2,
+      "catchRate": 60,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "masterpiece",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1013_sinistcha/all/masterpiece/none/texture.png",
+              "sprite": "pixelmon:pokemon/1013_sinistcha/all/masterpiece/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1013_sinistcha/all/masterpiece/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1013_sinistcha/all/masterpiece/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

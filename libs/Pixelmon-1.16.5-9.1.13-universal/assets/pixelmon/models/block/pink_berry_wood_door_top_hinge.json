@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "top": "pixelmon:block/berry_structures/berry_pink_door_top",
+    "bottom": "pixelmon:block/berry_structures/berry_pink_door_bottom"
+  }
+}

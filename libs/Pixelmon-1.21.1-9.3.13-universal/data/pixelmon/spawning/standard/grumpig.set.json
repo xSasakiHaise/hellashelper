@@ -1,0 +1,23 @@
+{
+  "id": "Grumpig",
+  "spawnInfos": [
+    {
+      "spec": "species:Grumpig",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "",
+  "pokemon_id": 56,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.jung55.name",
+    "description": "ability.jung55.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:peek"
+    }
+  },
+  "attacks": [
+
+  ],
+  "energies": "FIGHTING"
+}

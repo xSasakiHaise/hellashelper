@@ -1,0 +1,53 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 131,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS25.1.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 10,
+      "text": "attack.FOSS25.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "energy": "WATER",
+          "damage_type": "PerDamage",
+          "value": 10,
+          "max_damage": 20,
+          "ignore_base_damage": false
+        }
+      ]
+    },
+    {
+      "name": "attack.FOSS25.2.name",
+      "costs": [
+        "WATER",
+        "WATER"
+      ],
+      "damage": 10,
+      "text": "attack.FOSS25.2.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "CONFUSED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

@@ -1,0 +1,39 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 49,
+  "previous_pokemon_id": 48,
+  "retreat_cost": 0,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH34.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.GYMH34.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMH34.2.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.GYMH34.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

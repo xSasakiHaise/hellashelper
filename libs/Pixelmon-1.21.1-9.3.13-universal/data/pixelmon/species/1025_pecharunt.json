@@ -1,0 +1,266 @@
+{
+  "name": "Pecharunt",
+  "dex": 1025,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.2,
+        "width": 0.2,
+        "length": 1.0,
+        "eyeHeight": 0.2,
+        "hoverHeight": 0.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Memento",
+              "Poison Gas",
+              "Smog"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Fake Tears"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Parting Shot"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Malignant Chain"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Recover"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Defense Curl",
+          "Mean Look",
+          "Rollout"
+        ],
+        "tmMoves9": [
+          "Fake Tears",
+          "Protect",
+          "Acid Spray",
+          "Hex",
+          "Night Shade",
+          "Venoshock",
+          "Endure",
+          "Foul Play",
+          "Sleep Talk",
+          "Rest",
+          "Imprison",
+          "Gunk Shot",
+          "Substitute",
+          "Shadow Ball",
+          "Nasty Plot",
+          "Sludge Bomb",
+          "Phantom Force",
+          "Tera Blast",
+          "Toxic",
+          "Spite",
+          "Poltergeist",
+          "Sludge Wave",
+          "Curse"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Defense Curl",
+          "Mean Look",
+          "Rollout"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PoisonPuppeteer"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 88,
+        "attack": 88,
+        "defense": 160,
+        "specialAttack": 88,
+        "specialDefense": 88,
+        "speed": 88
+      },
+      "tags": [
+        "undexable",
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 300,
+        "baseFriendship": 0,
+        "spawnLevel": 88,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/1025_pecharunt/all/base/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/1025_pecharunt/all/base/none/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/1025_pecharunt/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/1025_pecharunt/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "POISON",
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 0.3,
+      "catchRate": 3,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "defense": 3
+      },
+      "growth_data": {
+        "mean": 20.0,
+        "standard_deviation": 1.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 9
+}

@@ -1,0 +1,46 @@
+{
+  "attackName": "Syrup Bomb",
+  "attackType": "GRASS",
+  "attackCategory": "SPECIAL",
+  "basePower": 60,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": 85,
+  "makesContact": false,
+  "effects": [
+    {
+      "modifiers": [
+        {
+          "type": "Chance",
+          "value": 100.0
+        }
+      ],
+      "persists": false,
+      "effectTypeID": "SyrupBomb"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": false
+  },
+  "flags": {
+    "bullet": true
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:grassium_z",
+      "attackName": "Bloom Doom",
+      "basePower": 120,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

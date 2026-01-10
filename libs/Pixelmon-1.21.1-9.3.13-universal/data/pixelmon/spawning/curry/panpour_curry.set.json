@@ -1,0 +1,20 @@
+{
+  "id": "Panpour Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Panpour",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 11,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

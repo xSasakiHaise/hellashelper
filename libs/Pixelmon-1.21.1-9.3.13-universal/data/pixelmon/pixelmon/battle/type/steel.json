@@ -1,0 +1,31 @@
+{
+  "name": {
+    "translate": "type.steel"
+  },
+  "color": {
+    "red": 188,
+    "green": 188,
+    "blue": 194,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/steel.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:ice",
+        "pixelmon:rock",
+        "pixelmon:fairy"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:fire",
+        "pixelmon:water",
+        "pixelmon:electric",
+        "pixelmon:steel"
+      ],
+      "effectiveness": "NOT"
+    }
+  ]
+}

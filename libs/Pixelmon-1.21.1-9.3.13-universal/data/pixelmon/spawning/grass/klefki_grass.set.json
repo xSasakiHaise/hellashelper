@@ -1,0 +1,24 @@
+{
+  "id": "Klefki Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Klefki",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 42,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

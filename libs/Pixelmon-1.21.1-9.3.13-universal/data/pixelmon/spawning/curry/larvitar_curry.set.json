@@ -1,0 +1,21 @@
+{
+  "id": "Larvitar Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Larvitar",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

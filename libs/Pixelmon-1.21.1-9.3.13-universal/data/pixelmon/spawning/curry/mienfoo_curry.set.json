@@ -1,0 +1,20 @@
+{
+  "id": "Mienfoo Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Mienfoo",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 38,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

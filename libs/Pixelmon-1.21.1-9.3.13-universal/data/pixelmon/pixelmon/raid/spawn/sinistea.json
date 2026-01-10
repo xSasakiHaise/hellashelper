@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Sinistea form:phony",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/sinistea-phony-2-3",
+      "weight": 1.0
+    },
+    {
+      "spec": "Sinistea form:antique",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/sinistea-antique-2-3",
+      "weight": 1.0
+    }
+  ]
+}

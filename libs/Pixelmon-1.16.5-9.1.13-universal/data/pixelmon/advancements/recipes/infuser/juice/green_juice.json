@@ -1,0 +1,54 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:infuser/juice/green_juice_1_1",
+      "pixelmon:infuser/juice/green_juice_1_2",
+      "pixelmon:infuser/juice/green_juice_1_3",
+      "pixelmon:infuser/juice/green_juice_2_1",
+      "pixelmon:infuser/juice/green_juice_2_2",
+      "pixelmon:infuser/juice/green_juice_2_3",
+      "pixelmon:infuser/juice/green_juice_3_1",
+      "pixelmon:infuser/juice/green_juice_3_2",
+      "pixelmon:infuser/juice/green_juice_3_3"
+    ]
+  },
+  "criteria": {
+    "has_green_juice_berry_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:berries/juice/green/1"
+          }
+        ]
+      }
+    },
+    "has_green_juice_berry_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:berries/juice/green/2"
+          }
+        ]
+      }
+    },
+    "has_green_juice_berry_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pixelmon:berries/juice/green/3"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_juice_berry_1",
+      "has_green_juice_berry_2",
+      "has_green_juice_berry_3"
+    ]
+  ]
+}

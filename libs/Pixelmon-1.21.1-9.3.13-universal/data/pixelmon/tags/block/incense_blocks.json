@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:incense_burner",
+    "pixelmon:incense_full",
+    "pixelmon:incense_lax",
+    "pixelmon:incense_luck",
+    "pixelmon:incense_odd",
+    "pixelmon:incense_pure",
+    "pixelmon:incense_rock",
+    "pixelmon:incense_rose",
+    "pixelmon:incense_sea",
+    "pixelmon:incense_wave"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base3-53.description",
+  "attacks": [
+    {
+      "name": "attack.base3-53.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base3-53.0.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 3,
+          "flip_type": "Exact"
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-53.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base3-53.1.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 3,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "WATER",
+  "pokemon_id": 54,
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

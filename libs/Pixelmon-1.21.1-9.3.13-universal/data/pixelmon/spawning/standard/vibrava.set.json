@@ -1,0 +1,41 @@
+{
+  "id": "Vibrava",
+  "spawnInfos": [
+    {
+      "spec": "species:Vibrava",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Vibrava",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 35,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

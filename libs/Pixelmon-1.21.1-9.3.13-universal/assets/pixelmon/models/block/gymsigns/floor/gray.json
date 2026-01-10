@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/floor_gym_sign",
+  "textures": {
+    "particle": "pixelmon:block/gymsigns/floor/gray",
+    "all": "pixelmon:block/gymsigns/floor/gray"
+  }
+}

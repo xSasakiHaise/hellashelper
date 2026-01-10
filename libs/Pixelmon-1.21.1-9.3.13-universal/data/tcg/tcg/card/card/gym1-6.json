@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.gym1-6.description",
+  "attacks": [
+    {
+      "name": "attack.gym1-6.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.gym1-6.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.gym1-6.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.gym1-6.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "LIGHTNING",
+  "pokemon_id": 125,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

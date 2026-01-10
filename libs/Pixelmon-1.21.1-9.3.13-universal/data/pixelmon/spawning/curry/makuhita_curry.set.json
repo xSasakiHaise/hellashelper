@@ -1,0 +1,26 @@
+{
+  "id": "Makuhita Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Makuhita",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_belt",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

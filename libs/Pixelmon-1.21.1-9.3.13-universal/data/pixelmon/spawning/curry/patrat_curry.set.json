@@ -1,0 +1,21 @@
+{
+  "id": "Patrat Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Patrat",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 6,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

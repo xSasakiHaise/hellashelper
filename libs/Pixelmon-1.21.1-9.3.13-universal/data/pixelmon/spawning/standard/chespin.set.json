@@ -1,0 +1,24 @@
+{
+  "id": "Chespin",
+  "spawnInfos": [
+    {
+      "spec": "species:Chespin",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

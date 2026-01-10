@@ -1,0 +1,44 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "card.base4-84.description",
+  "attacks": [
+    {
+      "name": "attack.base4-84.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base4-84.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.base4-84.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base4-84.1.description",
+      "effects": [
+        {
+          "type": "tcg:harden",
+          "self": false,
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 3,
+  "energies": "FIGHTING",
+  "pokemon_id": 95,
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

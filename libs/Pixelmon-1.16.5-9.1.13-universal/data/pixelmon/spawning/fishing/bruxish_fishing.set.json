@@ -1,0 +1,36 @@
+{
+  "id": "Bruxish Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Bruxish",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 18,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:razor_fang",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "byg:coral_mangroves",
+          "beaches",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 9.0
+    }
+  ]
+}

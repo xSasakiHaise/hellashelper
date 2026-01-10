@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "pixelmon:water_stone_ore"
+    },
+    "result": {
+      "id": "pixelmon:water_stone_shard"
+    },
+    "experience": 0.7,
+    "cookingtime": 100
+}

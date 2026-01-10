@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "card.base4-75.description",
+  "attacks": [
+    {
+      "name": "attack.base4-75.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base4-75.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.base4-75.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base4-75.1.description",
+      "effects": [
+        {
+          "type": "tcg:destiny_bond",
+          "self": false
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "PSYCHIC",
+  "pokemon_id": 92,
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:common"
+}

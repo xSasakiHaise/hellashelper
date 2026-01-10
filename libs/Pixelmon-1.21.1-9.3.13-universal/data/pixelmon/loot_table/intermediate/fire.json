@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:2s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:15s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:36s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:41s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:43s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:55s}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:tr_gen8",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tm:88s}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+

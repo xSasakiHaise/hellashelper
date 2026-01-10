@@ -1,0 +1,6 @@
+{
+    "parent": "pixelmon:item/pixelmon_item",
+    "textures": {
+        "layer0": "pixelmon:item/quest/z_power_ring"
+    }
+}

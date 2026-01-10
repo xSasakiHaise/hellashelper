@@ -1,0 +1,53 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 135,
+  "previous_pokemon_id": 133,
+  "retreat_cost": 1,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG20.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.JUNG20.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG20.2.name",
+      "costs": [
+        "LIGHTNING",
+        "LIGHTNING",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.JUNG20.2.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 4,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "energies": "LIGHTNING"
+}

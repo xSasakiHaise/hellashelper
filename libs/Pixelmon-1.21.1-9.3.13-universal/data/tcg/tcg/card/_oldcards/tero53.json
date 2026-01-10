@@ -1,0 +1,29 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 147,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "attacks": [
+    {
+      "name": "attack.TERO53.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.TERO53.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "PARALYZED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

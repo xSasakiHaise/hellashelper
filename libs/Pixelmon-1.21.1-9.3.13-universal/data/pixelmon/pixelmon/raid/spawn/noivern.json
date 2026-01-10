@@ -1,0 +1,15 @@
+{
+  "spawns": [
+    {
+      "spec": "Noivern",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/noivern-4-5",
+      "weight": 1.0
+    }
+  ]
+}

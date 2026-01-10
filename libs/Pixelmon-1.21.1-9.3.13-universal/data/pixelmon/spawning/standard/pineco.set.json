@@ -1,0 +1,23 @@
+{
+  "id": "Pineco",
+  "spawnInfos": [
+    {
+      "spec": "species:Pineco",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 2,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

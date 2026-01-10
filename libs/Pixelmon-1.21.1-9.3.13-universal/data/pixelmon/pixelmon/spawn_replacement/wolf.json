@@ -1,0 +1,19 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:wolf"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "poochyena lvl:5",
+      "yamper lvl:5",
+      "growlithe lvl:5",
+      "furfrou lvl:5",
+      "houndour lvl:5",
+      "lillipup lvl:5"
+    ]
+  }
+}

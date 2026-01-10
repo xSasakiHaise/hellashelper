@@ -1,0 +1,55 @@
+{
+  "id": "Machop Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Machop",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:focus_band",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ],
+        "maxY": 80
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Machoke",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 28,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:focus_band",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ],
+        "maxY": 80
+      },
+      "rarity": 40.0
+    }
+  ]
+}

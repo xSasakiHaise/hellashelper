@@ -1,0 +1,43 @@
+{
+  "attackName": "Psychic Noise",
+  "attackType": "PSYCHIC",
+  "attackCategory": "SPECIAL",
+  "basePower": 75,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": 100,
+  "makesContact": false,
+  "effects": [
+    {
+      "type": "PsychicNoise",
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "PsychicNoise"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": false
+  },
+  "flags": {
+    "authentic": true,
+    "sound": true
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:psychium_z",
+      "attackName": "Shattered Psyche",
+      "basePower": 140,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

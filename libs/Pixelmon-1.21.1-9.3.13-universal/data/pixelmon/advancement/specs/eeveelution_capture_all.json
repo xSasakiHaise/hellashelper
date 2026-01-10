@@ -1,0 +1,108 @@
+{
+  "display":{
+    "icon": {
+          "item" : "pixelmon:pixelmon_sprite",
+          "count": 1,
+          "components": {
+            "minecraft:custom_data": {
+              "ndex": 133,
+              "palette": "none",
+              "form": ""
+            }
+          }
+    },
+    "title":{
+      "translate":"advancements.eeveelution_capture_all.title"
+    },
+    "description":{
+      "translate":"advancements.eeveelution_capture_all.description"
+    },
+    "hidden": true
+  },
+  "parent" : "pixelmon:specs/spec_trigger",
+  "criteria":{
+    "0":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Eevee"
+      }
+    },
+    "1":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Vaporeon"
+      }
+    },
+    "2":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Jolteon"
+      }
+    },
+    "3":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Flareon"
+      }
+    },
+    "4":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Espeon"
+      }
+    },
+    "5":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Umbreon"
+      }
+    },
+    "6":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Leafeon"
+      }
+    },
+    "7":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Glaceon"
+      }
+    },
+    "8":{
+      "trigger":"pixelmon:spec_trigger",
+      "conditions":{
+        "spec":"Sylveon"
+      }
+    }
+  },
+  "requirements":[
+    [
+      "0"
+    ],
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "3"
+    ],
+    [
+      "4"
+    ],
+    [
+      "5"
+    ],
+    [
+      "6"
+    ],
+    [
+      "7"
+    ],
+    [
+      "8"
+    ]
+  ]
+}

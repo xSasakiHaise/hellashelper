@@ -1,0 +1,50 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 7,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE63.1.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 10,
+      "text": "attack.BASE63.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "PARALYZED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "attack.BASE63.2.name",
+      "costs": [
+        "WATER",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.BASE63.2.text",
+      "effects": [
+        {
+          "type": "tcg:immune",
+          "self": true,
+          "immune_type": "Damage",
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

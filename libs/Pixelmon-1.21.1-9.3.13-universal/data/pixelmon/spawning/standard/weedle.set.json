@@ -1,0 +1,60 @@
+{
+  "id": "Weedle",
+  "spawnInfos": [
+    {
+      "spec": "species:Weedle",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent",
+        "Forage"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Weedle palette:pink",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

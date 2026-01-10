@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beach",
+    {
+      "required": false,
+      "id": "biomesoplenty:dune_beach"
+    },
+    "minecraft:cold_ocean",
+    "minecraft:deep_cold_ocean",
+    "minecraft:lukewarm_ocean",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:ocean",
+    "minecraft:deep_ocean",
+    "minecraft:stony_shore",
+    {
+      "required": false,
+      "id": "terralith:basalt_cliffs"
+    },
+    {
+      "required": false,
+      "id": "terralith:gravel_beach"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_deep_sea"
+    },
+    "minecraft:warm_ocean"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:misc/boats",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 412811267,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "spacing": 53,
+    "separation": 31
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "Pincurchin Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pincurchin",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

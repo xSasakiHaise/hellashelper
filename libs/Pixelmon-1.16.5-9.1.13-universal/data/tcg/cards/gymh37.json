@@ -1,0 +1,62 @@
+{
+  "id": 385,
+  "setId": 6,
+  "cardType": "BASIC",
+  "isSpecial": false,
+  "hp": 60,
+  "energy1": "FIRE",
+  "energy2": null,
+  "pokemonId": 126,
+  "code": "GYMH37",
+  "name": "card.GYMH37.name",
+  "description": "",
+  "previousPokemonId": null,
+  "cardAttacks": [
+    {
+      "card": "GYMH37",
+      "index": 1,
+      "name": "attack.GYMH37.1.name",
+      "costs": [
+        "FIRE"
+      ],
+      "damage": 10,
+      "modifier": null,
+      "text": "attack.GYMH37.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMH37",
+      "index": 2,
+      "name": "attack.GYMH37.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMH37.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "WATER",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 2,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

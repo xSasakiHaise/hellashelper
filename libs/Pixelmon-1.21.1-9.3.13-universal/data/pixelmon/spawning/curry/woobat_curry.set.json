@@ -1,0 +1,22 @@
+{
+  "id": "Woobat Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Woobat",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

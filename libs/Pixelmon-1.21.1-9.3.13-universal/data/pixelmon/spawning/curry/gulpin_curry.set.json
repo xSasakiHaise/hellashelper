@@ -1,0 +1,31 @@
+{
+  "id": "Gulpin Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Gulpin",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sitrus_berry",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:oran_berry",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

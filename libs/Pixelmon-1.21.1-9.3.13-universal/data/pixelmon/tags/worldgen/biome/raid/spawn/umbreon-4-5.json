@@ -1,0 +1,100 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "biomesoplenty:bog"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:dead_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:ominous_woods"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:old_growth_dead_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wasteland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wasteland_steppe"
+    },
+    {
+      "required": false,
+      "id": "terralith:rocky_shrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:warped_mesa"
+    },
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:meadow",
+    {
+      "required": false,
+      "id": "biomesoplenty:clover_patch"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:grassland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:meadow"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:moor"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:prairie"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:pumpkin_patch"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:rocky_shrubland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:scrubland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:shrubland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wooded_scrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:brushland"
+    },
+    {
+      "required": false,
+      "id": "terralith:hot_shrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:shrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:steppe"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_desert"
+    }
+  ]
+}

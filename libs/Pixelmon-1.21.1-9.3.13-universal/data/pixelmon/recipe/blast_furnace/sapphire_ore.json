@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "pixelmon:sapphire_ore"
+  },
+  "result": {
+    "id": "pixelmon:sapphire"
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

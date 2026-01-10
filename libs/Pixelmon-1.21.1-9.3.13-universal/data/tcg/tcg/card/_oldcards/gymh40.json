@@ -1,0 +1,30 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 75,
+  "previous_pokemon_id": 74,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH40.1.name",
+      "costs": [
+        "FIGHTING",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH40.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

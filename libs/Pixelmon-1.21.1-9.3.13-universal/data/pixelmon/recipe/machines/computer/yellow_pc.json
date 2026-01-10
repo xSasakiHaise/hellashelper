@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pc",
+  "ingredients": [
+    {
+      "tag": "c:dyes/yellow"
+    },
+    {
+      "tag": "pixelmon:pcs"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:yellow_pc",
+    "count": 1
+  }
+}

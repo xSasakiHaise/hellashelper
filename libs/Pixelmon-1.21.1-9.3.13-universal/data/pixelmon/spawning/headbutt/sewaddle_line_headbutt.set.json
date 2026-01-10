@@ -1,0 +1,37 @@
+{
+  "id": "Sewaddle Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Sewaddle",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 7,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 150.0
+    },
+    {
+      "spec": "species:Swadloon",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 20,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

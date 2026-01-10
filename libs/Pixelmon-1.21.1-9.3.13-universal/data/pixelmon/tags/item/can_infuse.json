@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#pixelmon:berries",
+    "pixelmon:sweet_apple",
+    "minecraft:cocoa_beans"
+  ]
+}

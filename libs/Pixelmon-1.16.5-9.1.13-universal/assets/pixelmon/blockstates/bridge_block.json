@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "pixelmon:block/bridge_block" }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": 370,
+  "setId": 6,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 60,
+  "energy1": "FIGHTING",
+  "energy2": null,
+  "pokemonId": 28,
+  "code": "GYMH23",
+  "name": "card.GYMH23.name",
+  "description": "",
+  "previousPokemonId": 27,
+  "cardAttacks": [
+    {
+      "card": "GYMH23",
+      "index": 1,
+      "name": "attack.GYMH23.1.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 10,
+      "modifier": null,
+      "text": "attack.GYMH23.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMH23",
+      "index": 2,
+      "name": "attack.GYMH23.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMH23.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": "LIGHTNING",
+  "resistanceValue": "30",
+  "resistanceCardModifier": "Minus",
+  "energyWeakness": "GRASS",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "RARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

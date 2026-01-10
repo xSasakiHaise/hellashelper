@@ -1,0 +1,1103 @@
+{
+  "name": "Lycanroc",
+  "dex": 745,
+  "defaultForms": [
+    "midday",
+    "midnight"
+  ],
+  "forms": [
+    {
+      "name": "midday",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Accelerock",
+              "Double Team",
+              "Leer",
+              "Quick Attack",
+              "Quick Guard",
+              "Sand Attack",
+              "Sucker Punch",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Last Resort",
+          "Sucker Punch",
+          "Thrash"
+        ],
+        "tmMoves9": [
+            "Take Down",
+            "Charm",
+            "Agility",
+            "Mud-Slap",
+            "Scary Face",
+            "Protect",
+            "Fire Fang",
+            "Thunder Fang",
+            "Trailblaze",
+            "Facade",
+            "Bulldoze",
+            "Snarl",
+            "Swift",
+            "Rock Tomb",
+            "Endure",
+            "Sunny Day",
+            "Sandstorm",
+            "Dig",
+            "Brick Break",
+            "Zen Headbutt",
+            "Psychic Fangs",
+            "Bulk Up",
+            "Body Slam",
+            "Sleep Talk",
+            "Stomping Tantrum",
+            "Rest",
+            "Rock Slide",
+            "Taunt",
+            "Swords Dance",
+            "Iron Head",
+            "Substitute",
+            "Iron Defense",
+            "Drill Run",
+            "Crunch",
+            "Stealth Rock",
+            "Hyper Voice",
+            "Play Rough",
+            "Helping Hand",
+            "Earth Power",
+            "Stone Edge",
+            "Giga Impact",
+            "Close Combat",
+            "Tera Blast",
+            "Roar",
+            "Double-Edge",
+            "Endeavor"
+        ],
+        "tmMoves8": [
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Rock Tomb",
+          "Rock Blast",
+          "Assurance",
+          "Thunder Fang",
+          "Fire Fang",
+          "Round",
+          "Tail Slap",
+          "Snarl",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Taunt",
+          "Hyper Voice",
+          "Iron Defense",
+          "Bulk Up",
+          "Close Combat",
+          "Earth Power",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Drill Run",
+          "Play Rough",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Covet"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "SandRush"
+        ],
+        "hiddenAbilities": [
+          "Steadfast"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 115,
+        "defense": 65,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 112
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 170,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 25,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/midday/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/745_lycanroc/all/midday/none/texture.png",
+                      "model": "pixelmon:pokemon/745_lycanroc/all/midday/none/lycanroc-midday.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midday/none/walk.bmd"
+                        },
+                        {
+                          "type": "special",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midday/none/howl.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midday/none/idlebasic.bmd"
+                        }
+                      ],
+                      "scale": 0.2
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/midday/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/745_lycanroc/all/midday/shiny/texture.png",
+                      "model": "pixelmon:pokemon/745_lycanroc/all/midday/none/lycanroc-midday.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midday/none/walk.bmd"
+                        },
+                        {
+                          "type": "special",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midday/none/howl.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midday/none/idlebasic.bmd"
+                        }
+                      ],
+                      "scale": 0.2
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ROCK"
+      ],
+      "preEvolutions": [
+        "Rockruff"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 25.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      },
+      "growth_data": {
+        "mean": 100.0,
+        "standard_deviation": 5.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "midnight",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.0,
+        "length": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Counter",
+              "Double Team",
+              "Endure",
+              "Leer",
+              "Reversal",
+              "Sand Attack",
+              "Tackle",
+              "Taunt"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Last Resort",
+          "Sucker Punch",
+          "Thrash"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Trailblaze",
+          "Facade",
+          "Bulldoze",
+          "Snarl",
+          "Rock Tomb",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Sandstorm",
+          "Dig",
+          "Brick Break",
+          "Zen Headbutt",
+          "Shadow Claw",
+          "Foul Play",
+          "Psychic Fangs",
+          "Bulk Up",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Swords Dance",
+          "Iron Head",
+          "Substitute",
+          "Iron Defense",
+          "Crunch",
+          "Stealth Rock",
+          "Hyper Voice",
+          "Play Rough",
+          "Helping Hand",
+          "Earth Power",
+          "Reversal",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Close Combat",
+          "Tera Blast",
+          "Roar",
+          "Knock Off",
+          "Focus Punch",
+          "Lash Out",
+          "Double-Edge",
+          "Endeavor",
+          "Throat Chop",
+          "Upper Hand"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Thunder Punch",
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Rock Blast",
+          "Payback",
+          "Thunder Fang",
+          "Fire Fang",
+          "Low Sweep",
+          "Round",
+          "Snarl",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Hyper Voice",
+          "Iron Defense",
+          "Bulk Up",
+          "Close Combat",
+          "Earth Power",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Foul Play",
+          "Play Rough",
+          "Throat Chop",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Covet",
+          "Dual Chop",
+          "Laser Focus"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "VitalSpirit"
+        ],
+        "hiddenAbilities": [
+          "NoGuard"
+        ]
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 115,
+        "defense": 75,
+        "specialAttack": 55,
+        "specialDefense": 75,
+        "speed": 82
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/midnight/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.lycanroc.midnight",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/745_lycanroc/all/midnight/none/texture.png",
+                      "model": "pixelmon:pokemon/745_lycanroc/all/midnight/none/lycanroc-midnight.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midnight/none/walk.bmd"
+                        },
+                        {
+                          "type": "special",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midnight/none/cackle.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midnight/none/idlebasic.bmd"
+                        }
+                      ],
+                      "scale": 0.25
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/midnight/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/745_lycanroc/all/midnight/shiny/texture.png",
+                      "model": "pixelmon:pokemon/745_lycanroc/all/midnight/none/lycanroc-midnight.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midnight/none/walk.bmd"
+                        },
+                        {
+                          "type": "special",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midnight/none/cackle.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/midnight/none/idlebasic.bmd"
+                        }
+                      ],
+                      "scale": 0.25
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 2
+      },
+      "growth_data": {
+        "mean": 160.0,
+        "standard_deviation": 8.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "dusk",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Accelerock",
+              "Counter",
+              "Crush Claw",
+              "Double Team",
+              "Endure",
+              "Leer",
+              "Quick Attack",
+              "Quick Guard",
+              "Reversal",
+              "Sand Attack",
+              "Sucker Punch",
+              "Tackle",
+              "Taunt"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Last Resort",
+          "Sucker Punch",
+          "Thrash"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Trailblaze",
+          "Facade",
+          "Bulldoze",
+          "Snarl",
+          "Rock Tomb",
+          "Endure",
+          "Sandstorm",
+          "Dig",
+          "Brick Break",
+          "Zen Headbutt",
+          "Psychic Fangs",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Swords Dance",
+          "Iron Head",
+          "Substitute",
+          "Iron Defense",
+          "Drill Run",
+          "Crunch",
+          "Stealth Rock",
+          "Hyper Voice",
+          "Play Rough",
+          "Helping Hand",
+          "Earth Power",
+          "Reversal",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Close Combat",
+          "Tera Blast",
+          "Roar",
+          "Double-Edge",
+          "Endeavor",
+          "Throat Chop"
+        ],
+        "tmMoves8": [
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "Rock Blast",
+          "Thunder Fang",
+          "Fire Fang",
+          "Round",
+          "Tail Slap",
+          "Snarl",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Taunt",
+          "Hyper Voice",
+          "Iron Defense",
+          "Bulk Up",
+          "Close Combat",
+          "Earth Power",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Work Up",
+          "Drill Run",
+          "Play Rough",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Covet"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ToughClaws"
+        ]
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 117,
+        "defense": 65,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 110
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/dusk/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/745_lycanroc/all/dusk/none/texture.png",
+                      "model": "pixelmon:pokemon/745_lycanroc/all/dusk/none/lycanroc-dusk.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/dusk/none/walk.bmd"
+                        },
+                        {
+                          "type": "special",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/dusk/none/howl.bmd"
+                        },
+                        {
+                          "type": "special2",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/dusk/none/headshake.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/dusk/none/idlebasic.bmd"
+                        }
+                      ],
+                      "scale": 0.2
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/dusk/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/745_lycanroc/all/dusk/shiny/texture.png",
+                      "model": "pixelmon:pokemon/745_lycanroc/all/dusk/none/lycanroc-dusk.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/dusk/none/walk.bmd"
+                        },
+                        {
+                          "type": "special",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/dusk/none/howl.bmd"
+                        },
+                        {
+                          "type": "special2",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/dusk/none/headshake.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/745_lycanroc/all/dusk/none/idlebasic.bmd"
+                        }
+                      ],
+                      "scale": 0.2
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 7
+}

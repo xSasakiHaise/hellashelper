@@ -1,0 +1,30 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 145,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "attacks": [
+    {
+      "name": "attack.FOSS15.1.name",
+      "costs": [
+        "LIGHTNING",
+        "LIGHTNING",
+        "LIGHTNING",
+        "LIGHTNING"
+      ],
+      "damage": 40,
+      "text": "attack.FOSS15.1.text",
+      "effects": [
+        {
+          "type": "tcg:thunderstorm",
+          "bench_damage": 20,
+          "self_damage": 10
+        }
+      ]
+    }
+  ],
+  "energies": "LIGHTNING"
+}

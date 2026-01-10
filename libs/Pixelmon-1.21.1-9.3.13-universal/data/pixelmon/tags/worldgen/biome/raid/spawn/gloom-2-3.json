@@ -1,0 +1,117 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:flower_forest",
+    "minecraft:sunflower_plains",
+    "minecraft:cherry_grove",
+    {
+      "required": false,
+      "id": "biomesoplenty:lavender_field"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:lavender_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:origin_valley"
+    },
+    {
+      "required": false,
+      "id": "terralith:lavender_valley"
+    },
+    {
+      "required": false,
+      "id": "terralith:blooming_plateau"
+    },
+    {
+      "required": false,
+      "id": "terralith:blooming_valley"
+    },
+    {
+      "required": false,
+      "id": "terralith:sakura_grove"
+    },
+    {
+      "required": false,
+      "id": "terralith:sakura_valley"
+    },
+    {
+      "required": false,
+      "id": "terralith:skylands_spring"
+    },
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle",
+    {
+      "required": false,
+      "id": "biomesoplenty:rainforest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:rocky_rainforest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:floodplain"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:fungal_jungle"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:tropics"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_rainforest"
+    },
+    {
+      "required": false,
+      "id": "terralith:jungle_mountains"
+    },
+    {
+      "required": false,
+      "id": "terralith:rocky_jungle"
+    },
+    {
+      "required": false,
+      "id": "terralith:skylands_summer"
+    },
+    {
+      "required": false,
+      "id": "terralith:tropical_jungle"
+    },
+    "minecraft:dark_forest",
+    {
+      "required": false,
+      "id": "biomesoplenty:dense_woodland"
+    },
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    {
+      "required": false,
+      "id": "biomesoplenty:bayou"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:bog"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:marsh"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wetland"
+    },
+    {
+      "required": false,
+      "id": "terralith:orchid_swamp"
+    }
+  ]
+}

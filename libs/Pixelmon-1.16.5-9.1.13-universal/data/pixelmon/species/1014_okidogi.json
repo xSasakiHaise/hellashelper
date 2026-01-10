@@ -1,0 +1,254 @@
+{
+  "name": "Okidogi",
+  "dex": 1014,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Bulk Up",
+              "Low Kick"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Poison Fang"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Force Palm"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Brutal Swing"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Superpower"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Ice Fang",
+          "Low Kick",
+          "Thief",
+          "Facade",
+          "Poison Tail",
+          "Snarl",
+          "Metal Claw",
+          "Rock Tomb",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Dig",
+          "Brick Break",
+          "Shadow Claw",
+          "Psychic Fangs",
+          "Bulk Up",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Sleep Talk",
+          "Drain Punch",
+          "Poison Jab",
+          "Stomping Tantrum",
+          "Rest",
+          "Taunt",
+          "Body Press",
+          "Iron Head",
+          "Gunk Shot",
+          "Substitute",
+          "Crunch",
+          "Reversal",
+          "Sludge Bomb",
+          "Giga Impact",
+          "Outrage",
+          "Focus Blast",
+          "Hyper Beam",
+          "Close Combat",
+          "Tera Blast",
+          "Roar",
+          "Toxic",
+          "Spite",
+          "Knock Off",
+          "High Horsepower",
+          "Uproar",
+          "Focus Punch",
+          "Lash Out",
+          "Double-Edge",
+          "Sludge Wave",
+          "Throat Chop",
+          "Curse"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ToxicChain"
+        ],
+        "hiddenAbilities": [
+          "GuardDog"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 20,
+        "passive": 0,
+        "aggressive": 80
+      },
+      "battleStats": {
+        "hp": 88,
+        "attack": 128,
+        "defense": 115,
+        "specialAttack": 58,
+        "specialDefense": 86,
+        "speed": 80
+      },
+      "tags": [
+        "undexable",
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 278,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1014_okidogi/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/1014_okidogi/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.okidogi"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1014_okidogi/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1014_okidogi/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "POISON",
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 92.0,
+      "catchRate": 3,
+      "malePercentage": 100,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

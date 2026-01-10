@@ -1,0 +1,23 @@
+{
+  "id": "Absol Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Absol",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

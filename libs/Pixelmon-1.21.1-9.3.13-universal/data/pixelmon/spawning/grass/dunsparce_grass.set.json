@@ -1,0 +1,23 @@
+{
+  "id": "Dunsparce Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Dunsparce",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

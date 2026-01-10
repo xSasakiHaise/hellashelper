@@ -1,0 +1,32 @@
+{
+  "name": {
+    "translate": "type.ice"
+  },
+  "color": {
+    "red": 173,
+    "green": 216,
+    "blue": 230,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/ice.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:grass",
+        "pixelmon:ground",
+        "pixelmon:flying",
+        "pixelmon:dragon"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:fire",
+        "pixelmon:water",
+        "pixelmon:ice",
+        "pixelmon:steel"
+      ],
+      "effectiveness": "NOT"
+    }
+  ]
+}

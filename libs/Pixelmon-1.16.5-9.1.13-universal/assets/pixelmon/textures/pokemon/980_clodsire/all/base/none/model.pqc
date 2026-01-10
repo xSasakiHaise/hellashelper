@@ -1,0 +1,6 @@
+$body clodsire.bmd
+$anim idle idle.bmd
+$anim special special.bmd
+$anim walk walk.bmd
+$anim swim swim.bmd
+$scale 3.9

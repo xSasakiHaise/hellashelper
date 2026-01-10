@@ -1,0 +1,6 @@
+{
+  "name": {
+    "translate": "pixelmon.camera.filter.monochrome"
+  },
+  "post_process_shader": "pixelmon:shaders/post/black_and_white.json"
+}

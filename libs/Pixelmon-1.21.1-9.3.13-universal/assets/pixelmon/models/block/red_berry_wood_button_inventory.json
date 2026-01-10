@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "pixelmon:block/berry_structures/berry_red_planks"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:ocelot"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "luxio lvl:5",
+      "shinx lvl:5",
+      "meowth lvl:5",
+      "purrloin lvl:5"
+    ]
+  }
+}

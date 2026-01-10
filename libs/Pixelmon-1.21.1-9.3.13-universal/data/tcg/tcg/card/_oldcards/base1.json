@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 80,
+  "energies": "PSYCHIC",
+  "description": "",
+  "pokemon_id": 65,
+  "previous_pokemon_id": 64,
+  "ability": {
+    "name": "ability.base1.name",
+    "description": "ability.base1.text",
+    "type": "BODY",
+    "effect": {
+      "type": "tcg:damage_swap"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE1.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.BASE1.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "self": false,
+          "required_coin_side": "HEAD",
+          "condition": "CONFUSE"
+        }
+      ]
+    }
+  ],
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "retreat_cost": 3,
+  "rarity": "tcg:holo_rare"
+}

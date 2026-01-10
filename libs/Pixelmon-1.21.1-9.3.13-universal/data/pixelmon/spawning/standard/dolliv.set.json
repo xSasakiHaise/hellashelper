@@ -1,0 +1,27 @@
+{
+  "id": "Dolliv",
+  "spawnInfos": [
+    {
+      "spec": "species:Dolliv",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/plains",
+          "biomesoplenty:mediterranean_forest"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "TapuFini",
+  "spawnInfos": [
+    {
+      "spec": "species:TapuFini level:60",
+      "stringLocationTypes": [
+        "Surface Water"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "minecraft:jungle",
+          "biomesoplenty:rainforest",
+          "byg:tropical_islands",
+          "byg:tropical_rainforest"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

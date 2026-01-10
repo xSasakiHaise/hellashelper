@@ -1,0 +1,6 @@
+{
+    "parent": "pixelmon:item/pixelmon_item",
+    "textures": {
+        "layer0": "pixelmon:items/valuables/ultra_deep_sea_key"
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Duraludon Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Duraludon",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 55,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "special": false,
+  "hp": 120,
+  "description": "",
+  "pokemon_id": 6,
+  "previous_pokemon_id": 5,
+  "retreat_cost": 3,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.base4.name",
+    "description": "ability.base4.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:energy_burn"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE4.1.name",
+      "costs": [
+        "FIRE",
+        "FIRE",
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 100,
+      "text": "attack.BASE4.1.text",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "FIRE",
+          "self": true,
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

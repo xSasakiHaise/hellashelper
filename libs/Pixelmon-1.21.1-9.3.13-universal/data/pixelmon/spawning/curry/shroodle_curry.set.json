@@ -1,0 +1,22 @@
+{
+    "id": "Shroodle",
+    "spawnInfos": [
+      {
+        "spec": "species:Shroodle",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 10,
+        "maxLevel": 25,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/jungles",
+            "#pixelmon:spawning/forests"
+          ]
+        },
+        "rarity": 60.0
+      }
+    ]
+  }
+  

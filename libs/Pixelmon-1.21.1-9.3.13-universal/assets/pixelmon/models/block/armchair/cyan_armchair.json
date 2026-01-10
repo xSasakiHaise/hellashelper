@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/armchair/armchair",
+  "textures": {
+    "particle": "pixelmon:block/armchair/armchair_cyan",
+    "all": "pixelmon:block/armchair/armchair_cyan"
+  }
+}

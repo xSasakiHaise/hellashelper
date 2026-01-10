@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "pixelmon:unown_block",
+  "ingredients": [
+    {
+      "item": "pixelmon:unown_block_blank"
+    },{
+      "type": "neoforge:components",
+      "items": "pixelmon:pixelmon_sprite",
+      "strict": true,
+      "components": {
+        "minecraft:custom_data": {
+          "ndex": 201,
+          "palette": "none",
+          "form": "o",
+          "gender": 2
+        }
+      }
+    }
+  ],
+  "result": {
+    "id": "pixelmon:unown_block_o",
+    "count": 1
+  }
+}

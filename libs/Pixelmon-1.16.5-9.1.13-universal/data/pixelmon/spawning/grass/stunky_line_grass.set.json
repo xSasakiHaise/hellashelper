@@ -1,0 +1,49 @@
+{
+  "id": "Stunky Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Stunky",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 23,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "forests",
+          "roofed",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Skuntank",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "forests",
+          "roofed",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

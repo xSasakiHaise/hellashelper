@@ -1,0 +1,20 @@
+{
+  "id": "Pyukumuku Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pyukumuku",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

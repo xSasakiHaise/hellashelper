@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_poke_bag",
+    "pixelmon:orange_poke_bag",
+    "pixelmon:magenta_poke_bag",
+    "pixelmon:light_blue_poke_bag",
+    "pixelmon:yellow_poke_bag",
+    "pixelmon:lime_poke_bag",
+    "pixelmon:pink_poke_bag",
+    "pixelmon:gray_poke_bag",
+    "pixelmon:light_gray_poke_bag",
+    "pixelmon:cyan_poke_bag",
+    "pixelmon:purple_poke_bag",
+    "pixelmon:blue_poke_bag",
+    "pixelmon:brown_poke_bag",
+    "pixelmon:green_poke_bag",
+    "pixelmon:red_poke_bag",
+    "pixelmon:black_poke_bag"
+  ]
+}

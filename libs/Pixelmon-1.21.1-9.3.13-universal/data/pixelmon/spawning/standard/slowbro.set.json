@@ -1,0 +1,61 @@
+{
+  "id": "Slowbro",
+  "spawnInfos": [
+    {
+      "spec": "species:Slowbro",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 37,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kings_rock",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Slowbro form:galarian",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 37,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kings_rock",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

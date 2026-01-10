@@ -1,0 +1,5 @@
+$body megapinsir.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$anim fly fly.bmd
+$scale 2.3

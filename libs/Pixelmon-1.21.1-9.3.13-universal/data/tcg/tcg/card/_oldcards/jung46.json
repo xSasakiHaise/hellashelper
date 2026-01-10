@@ -1,0 +1,18 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 119,
+  "previous_pokemon_id": 118,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+
+  ],
+  "energies": "WATER"
+}

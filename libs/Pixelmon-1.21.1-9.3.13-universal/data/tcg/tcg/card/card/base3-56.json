@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "card.base3-56.description",
+  "attacks": [
+    {
+      "name": "attack.base3-56.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base3-56.0.description",
+      "effects": [
+        {
+          "type": "tcg:acid",
+          "self": false
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "WATER",
+  "pokemon_id": 72,
+  "ability": {
+    "name": "ability.base3-56.name",
+    "description": "ability.base3-56.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:unimplemented"
+    }
+  },
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

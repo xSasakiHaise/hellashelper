@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pixelmon:block/purple_berry_wood_slab"
+    },
+    "type=double": {
+      "model": "pixelmon:block/purple_berry_wood_planks"
+    },
+    "type=top": {
+      "model": "pixelmon:block/purple_berry_wood_slab_top"
+    }
+  }
+}

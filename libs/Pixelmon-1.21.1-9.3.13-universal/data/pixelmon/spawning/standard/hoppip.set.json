@@ -1,0 +1,24 @@
+{
+  "id": "Hoppip",
+  "spawnInfos": [
+    {
+      "spec": "species:Hoppip",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 2,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

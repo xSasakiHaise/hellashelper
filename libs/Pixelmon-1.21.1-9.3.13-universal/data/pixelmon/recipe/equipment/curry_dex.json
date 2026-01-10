@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "tag": "pixelmon:curry_ingredient"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:curry_dex"
+  }
+}

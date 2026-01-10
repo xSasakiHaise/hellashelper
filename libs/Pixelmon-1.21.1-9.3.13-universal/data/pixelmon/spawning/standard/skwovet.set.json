@@ -1,0 +1,32 @@
+{
+  "id": "Skwovet",
+  "spawnInfos": [
+    {
+      "spec": "species:Skwovet",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:oran_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

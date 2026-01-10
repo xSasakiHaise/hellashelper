@@ -1,0 +1,27 @@
+{
+  "id": "Abra",
+  "spawnInfos": [
+    {
+      "spec": "species:Abra",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:twisted_spoon",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/end"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

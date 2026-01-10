@@ -1,0 +1,16 @@
+{
+    "id": "Drilbur",
+    "spawnInfos": [
+      {
+        "spec": "species:Drilbur",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 23,
+        "maxLevel": 30,
+        "typeID": "pokemon",
+        "rarity": 80.0
+      }
+    ]
+  }
+  

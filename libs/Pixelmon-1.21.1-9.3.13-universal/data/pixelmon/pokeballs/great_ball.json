@@ -1,0 +1,19 @@
+{
+  "name": "great_ball",
+  "model": "pixelmon:models/pokeballs/greatball.pqc",
+  "texture": "pixelmon:textures/pokeballs/great_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/great_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/great_ball",
+  "lidSprite": "pixelmon:item/pokeballs/great_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/great_ball.png",
+  "logic": "",
+  "bases": [
+    "silver"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 1.5,
+  "breakChance": 0.15,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

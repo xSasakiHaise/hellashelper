@@ -1,0 +1,125 @@
+{
+  "id": "Spinarak Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Spinarak status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 1,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "oak",
+          "sacred_oak",
+          "pine",
+          "redwood",
+          "spruce",
+          "birch"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/evil",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Spinarak",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 1,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "oak",
+          "sacred_oak",
+          "pine",
+          "redwood",
+          "spruce",
+          "birch"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/evil",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Ariados status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 26,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "oak",
+          "sacred_oak",
+          "pine",
+          "redwood",
+          "spruce",
+          "birch"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/evil",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Ariados",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 26,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "oak",
+          "sacred_oak",
+          "pine",
+          "redwood",
+          "spruce",
+          "birch"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/evil",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

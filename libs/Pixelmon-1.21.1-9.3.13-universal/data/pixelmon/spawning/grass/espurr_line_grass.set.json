@@ -1,0 +1,43 @@
+{
+  "id": "Espurr Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Espurr",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Meowstic",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 26,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

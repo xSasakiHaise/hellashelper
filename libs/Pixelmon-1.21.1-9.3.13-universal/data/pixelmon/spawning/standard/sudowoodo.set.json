@@ -1,0 +1,35 @@
+{
+  "id": "Sudowoodo",
+  "spawnInfos": [
+    {
+      "spec": "species:Sudowoodo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Sudowoodo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 75.0
+    }
+  ]
+}

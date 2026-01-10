@@ -1,0 +1,27 @@
+{
+  "id": "Turtonator Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Turtonator",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

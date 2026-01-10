@@ -1,0 +1,13 @@
+{
+  "events": [
+    "pixelmon:curry_pokemon_join_player"
+  ],
+  "condition": {
+    "type": "pixelmon:true"
+  },
+  "resulting_states": [
+    "SEEN"
+  ],
+  "player_context_key": "pixelmon:player",
+  "pokemon_context_key": "pixelmon:pokemon"
+}

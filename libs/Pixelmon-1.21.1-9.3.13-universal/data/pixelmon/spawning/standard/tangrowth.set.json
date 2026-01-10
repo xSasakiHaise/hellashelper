@@ -1,0 +1,43 @@
+{
+  "id": "Tangrowth",
+  "spawnInfos": [
+    {
+      "spec": "species:Tangrowth",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 57,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Tangrowth",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 57,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 25.0
+    }
+  ]
+}

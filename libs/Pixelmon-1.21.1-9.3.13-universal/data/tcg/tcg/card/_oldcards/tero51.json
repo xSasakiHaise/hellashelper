@@ -1,0 +1,33 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 20,
+  "previous_pokemon_id": 19,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO51.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 50,
+      "text": "attack.TERO51.2.text",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

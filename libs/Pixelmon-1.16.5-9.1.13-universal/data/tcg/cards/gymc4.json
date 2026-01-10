@@ -1,0 +1,63 @@
+{
+  "id": 520,
+  "setId": 7,
+  "cardType": "STAGE2",
+  "isSpecial": false,
+  "hp": 90,
+  "energy1": "GRASS",
+  "energy2": null,
+  "pokemonId": 3,
+  "code": "GYMC4",
+  "name": "card.GYMC4.name",
+  "description": "",
+  "previousPokemonId": 2,
+  "cardAttacks": [
+    {
+      "card": "GYMC4",
+      "index": 1,
+      "name": "attack.GYMC4.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.GYMC4.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC4",
+      "index": 2,
+      "name": "attack.GYMC4.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMC4.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "FIRE",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 2,
+  "cardRarity": "HOLORARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

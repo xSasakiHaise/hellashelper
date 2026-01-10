@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/vending_machine/purple",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "pixelmon:block/vending_machine/purple",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "pixelmon:block/vending_machine/purple",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "pixelmon:block/vending_machine/purple",
+      "y": 90
+    }
+  }
+}

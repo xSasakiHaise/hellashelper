@@ -1,0 +1,24 @@
+{
+  "name": "pixelmon:npc/nurse/electric",
+  "fallback": "pixelmon:npc/nurse/electric",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:npc/pokecenter/electric/nurse",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/pokecenter/electric/doctor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

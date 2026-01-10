@@ -1,0 +1,33 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 74,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS47.1.name",
+      "costs": [
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.FOSS47.1.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 1,
+          "flip_type": "UntilFail"
+        }
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base5-43.description",
+  "attacks": [
+    {
+      "name": "attack.base5-43.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base5-43.0.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "CONFUSED",
+          "self": true,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIGHTING",
+  "pokemon_id": 57,
+  "ability": {
+    "name": "ability.base5-43.name",
+    "description": "ability.base5-43.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:frenzy"
+    }
+  },
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

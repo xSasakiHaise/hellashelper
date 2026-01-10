@@ -1,0 +1,5 @@
+$body excadrill.bmd
+$anim special nose.bmd
+$anim idle idle.bmd idle.bmd idle.bmd idle.bmd idle.bmd nose.bmd
+$anim walk walk.bmd
+$scale 1.25

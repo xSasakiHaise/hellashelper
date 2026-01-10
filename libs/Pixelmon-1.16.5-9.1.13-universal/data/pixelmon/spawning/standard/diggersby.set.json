@@ -1,0 +1,42 @@
+{
+  "id": "Diggersby",
+  "spawnInfos": [
+    {
+      "spec": "species:Diggersby",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "hills"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Diggersby",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 21,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 70
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ultra space"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

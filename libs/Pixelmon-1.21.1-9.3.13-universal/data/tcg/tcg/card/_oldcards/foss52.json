@@ -1,0 +1,44 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 138,
+  "previous_pokemon_id": 10000,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.foss52.name",
+    "description": "ability.foss52.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:reveal_hand"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS52.1.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 10,
+      "text": "attack.FOSS52.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "energy": "WATER",
+          "damage_type": "PerEnergy",
+          "value": 10,
+          "max_damage": 20,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

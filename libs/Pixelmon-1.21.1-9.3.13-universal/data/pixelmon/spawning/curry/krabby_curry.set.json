@@ -1,0 +1,22 @@
+{
+  "id": "Krabby Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Krabby",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 22,
+  "previous_pokemon_id": 21,
+  "retreat_cost": 0,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH7.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.GYMH7.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMH7.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.GYMH7.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

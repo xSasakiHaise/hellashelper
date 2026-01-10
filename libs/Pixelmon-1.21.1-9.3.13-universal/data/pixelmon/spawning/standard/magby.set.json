@@ -1,0 +1,38 @@
+{
+  "id": "Magby",
+  "spawnInfos": [
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:nether_wastes",
+          "minecraft:basalt_deltas",
+          "incendium:infernal_dunes",
+          "incendium:volcanic_deltas"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Lava Floor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/hellish"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

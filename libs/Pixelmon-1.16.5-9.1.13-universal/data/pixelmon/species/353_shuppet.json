@@ -1,0 +1,490 @@
+{
+  "name": "Shuppet",
+  "dex": 353,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Spite"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Shadow Sneak"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Role Play"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Trick"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Phantom Force"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Foul Play",
+          "Gunk Shot",
+          "Icy Wind",
+          "Knock Off",
+          "Magic Coat",
+          "Magic Room",
+          "Pain Split",
+          "Role Play",
+          "Shock Wave",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Spite",
+          "Telekinesis",
+          "Trick"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Destiny Bond",
+          "Disable",
+          "Gunk Shot",
+          "Imprison"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Astonish",
+          "Body Slam",
+          "Captivate",
+          "Confuse Ray",
+          "Destiny Bond",
+          "Disable",
+          "Double-Edge",
+          "Embargo",
+          "Endure",
+          "Feint Attack",
+          "Flash",
+          "Foresight",
+          "Grudge",
+          "Gunk Shot",
+          "Headbutt",
+          "Imprison",
+          "Knock Off",
+          "Mimic",
+          "Natural Gift",
+          "Nightmare",
+          "Ominous Wind",
+          "Phantom Force",
+          "Pursuit",
+          "Secret Power",
+          "Shadow Sneak",
+          "Snatch"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch",
+          "Charge Beam",
+          "Endure",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Scary Face",
+          "Protect",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Pounce",
+          "Charge Beam",
+          "Facade",
+          "Hex",
+          "Icy Wind",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Foul Play",
+          "Sleep Talk",
+          "Dazzling Gleam",
+          "Metronome",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Imprison",
+          "Dark Pulse",
+          "Skill Swap",
+          "Gunk Shot",
+          "Substitute",
+          "Will-O-Wisp",
+          "Trick",
+          "Shadow Ball",
+          "Psychic",
+          "Encore",
+          "Thunderbolt",
+          "Calm Mind",
+          "Helping Hand",
+          "Nasty Plot",
+          "Phantom Force",
+          "Trick Room",
+          "Thunder",
+          "Tera Blast",
+          "Spite",
+          "Poltergeist",
+          "Lash Out",
+          "Pain Split",
+          "Psych Up",
+          "Skitter Smack",
+          "Curse"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Insomnia",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "CursedBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 44,
+        "attack": 75,
+        "defense": 35,
+        "specialAttack": 63,
+        "specialDefense": 33,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 97,
+        "baseFriendship": 35,
+        "spawnLevel": 15,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/353_shuppet/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/353_shuppet/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/353_shuppet/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.03
+              },
+              "sounds": [
+                "pixelmon.mob.shuppet"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/353_shuppet/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/353_shuppet/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "witch",
+              "texture": "pixelmon:pokemon/353_shuppet/all/base/witch/texture.png",
+              "sprite": "pixelmon:pokemon/353_shuppet/all/base/witch/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 2.3,
+      "catchRate": 225,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 37,
+          "to": "Banette",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 3
+}

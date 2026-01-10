@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pixelmon:silicon_block"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:silicon",
+    "count": 9
+  }
+}

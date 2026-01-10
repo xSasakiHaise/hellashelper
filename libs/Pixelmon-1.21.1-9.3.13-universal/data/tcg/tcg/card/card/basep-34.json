@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "card.basep-34.description",
+  "attacks": [
+    {
+      "name": "attack.basep-34.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 50,
+      "text": "attack.basep-34.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIRE",
+  "pokemon_id": 244,
+  "ability": {
+    "name": "ability.basep-34.name",
+    "description": "ability.basep-34.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:unimplemented"
+    }
+  },
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:promo"
+}

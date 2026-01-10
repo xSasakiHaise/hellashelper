@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/ultra_space/gravel",
+  "textures": {
+    "particle": "pixelmon:block/ultra_space/ultra_deep_sea_gravel",
+    "layer0": "pixelmon:block/ultra_space/ultra_deep_sea_gravel"
+  }
+}

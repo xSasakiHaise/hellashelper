@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " D ",
+    "IGI",
+    " D "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "D": {
+      "tag": "c:dyes/purple"
+    }
+  },
+  "result": {
+    "id": "pixelmon:window2",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "pixelmon:raw_silicon"
+  },
+  "result": {
+    "id": "pixelmon:silicon"
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

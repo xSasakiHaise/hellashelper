@@ -1,0 +1,113 @@
+{
+  "id": "Gible Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Gible",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 14,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ],
+        "maxY": 80
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Gible",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 14,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Gabite",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 42,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ],
+        "maxY": 80
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Gabite",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 42,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Garchomp",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 49,
+      "maxLevel": 61,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ],
+        "maxY": 80
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Garchomp",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 49,
+      "maxLevel": 61,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/plasma/plasma_boots",
+      "pixelmon:equipment/plasma/plasma_plate",
+      "pixelmon:equipment/plasma/plasma_helm",
+      "pixelmon:equipment/plasma/plasma_leggs"
+    ]
+  },
+  "criteria": {
+    "has_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:gems/crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crystal"
+    ]
+  ]
+}

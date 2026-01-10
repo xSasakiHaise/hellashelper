@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "particle": "pixelmon:item/block/acacia_bench",
+    "layer0": "pixelmon:item/block/acacia_bench"
+  }
+}

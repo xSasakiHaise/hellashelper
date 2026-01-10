@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dyes/purple"
+    },
+    {
+      "tag": "pixelmon:rugs"
+    }
+  ],
+  "result": {
+    "item": "pixelmon:purple_rug",
+    "count": 1
+  }
+}

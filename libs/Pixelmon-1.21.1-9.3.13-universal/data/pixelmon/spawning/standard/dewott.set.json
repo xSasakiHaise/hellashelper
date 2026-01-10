@@ -1,0 +1,55 @@
+{
+  "id": "Dewott",
+  "spawnInfos": [
+    {
+      "spec": "species:Dewott",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 17,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "minecraft:stony_shore",
+          "biomesoplenty:gravel_beach",
+		  "biomeswevegone:basalt_barrera",
+          "biomeswevegone:dacite_shore",
+          "terralith:gravel_beach"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Dewott",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 17,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

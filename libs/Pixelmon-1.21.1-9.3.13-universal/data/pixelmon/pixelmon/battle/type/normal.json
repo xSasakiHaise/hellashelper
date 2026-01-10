@@ -1,0 +1,27 @@
+{
+  "name": {
+    "translate": "type.normal"
+  },
+  "color": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/normal.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:rock",
+        "pixelmon:steel"
+      ],
+      "effectiveness": "NOT"
+    },
+    {
+      "types": [
+        "pixelmon:ghost"
+      ],
+      "effectiveness": "NONE"
+    }
+  ]
+}

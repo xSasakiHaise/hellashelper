@@ -1,0 +1,8 @@
+{
+  "__comment__": "this file was automatically created by mcresources",
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "pixelmon:block/ruins_wall",
+    "all": "pixelmon:block/ruins_wall"
+  }
+}

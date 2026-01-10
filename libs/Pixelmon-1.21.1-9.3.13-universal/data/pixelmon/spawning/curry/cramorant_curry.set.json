@@ -1,0 +1,25 @@
+{
+  "id": "Cramorant Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Cramorant",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes",
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

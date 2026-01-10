@@ -1,0 +1,27 @@
+{
+  "id": "Shuckle Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Shuckle",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:berry_juice",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:stony_shore",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

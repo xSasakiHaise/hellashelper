@@ -1,0 +1,20 @@
+{
+  "id": "Scatterbug Forage",
+  "spawnInfos": [
+    {
+      "spec": "species:Scatterbug",
+      "stringLocationTypes": [
+        "Forage"
+      ],
+      "minLevel": 4,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

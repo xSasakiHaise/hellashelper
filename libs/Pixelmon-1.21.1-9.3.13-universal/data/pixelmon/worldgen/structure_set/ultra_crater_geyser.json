@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:misc/crater_geyser",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1993590186,
+    "spacing": 15,
+    "separation": 10
+  }
+}

@@ -1,0 +1,4 @@
+$body yveltal.bmd
+$anim fly fly.bmd
+$anim idle idle.bmd
+$scale 3.2

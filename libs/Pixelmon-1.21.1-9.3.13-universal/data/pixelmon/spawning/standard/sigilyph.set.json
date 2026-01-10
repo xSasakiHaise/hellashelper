@@ -1,0 +1,82 @@
+{
+  "id": "Sigilyph",
+  "spawnInfos": [
+    {
+      "spec": "species:Sigilyph",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "pixelmon:ultra_desert"
+        ],
+        "minY": 85
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Sigilyph",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Sigilyph",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:end_highlands"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Sigilyph",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:temples/spear_pillar"
+        ],
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

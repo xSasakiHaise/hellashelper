@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "umbrella_dyed",
+  "ingredients": [
+    {
+      "tag": "c:dyes/pink"
+    },
+    {
+      "tag": "pixelmon:umbrellas"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:pink_umbrella",
+    "count": 1
+  }
+}

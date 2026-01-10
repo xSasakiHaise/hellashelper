@@ -1,0 +1,33 @@
+{
+  "name": "pixelmon:village/snowy/buildings",
+  "fallback": "minecraft:village/snowy/streets",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/snowy/snowy_pokecenter",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/snowy/snowy_mart",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pixelmon:village/snowy/snowy_daycare",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

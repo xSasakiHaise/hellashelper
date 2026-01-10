@@ -1,0 +1,63 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 34,
+  "previous_pokemon_id": 33,
+  "retreat_cost": 3,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE11.1.name",
+      "costs": [
+        "GRASS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.BASE11.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 10
+        },
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "TAIL",
+          "self": true,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "attack.BASE11.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 20,
+      "text": "attack.BASE11.2.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "POISONED",
+          "self": false,
+          "modifier": 2
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

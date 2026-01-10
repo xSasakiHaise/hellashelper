@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base5-36.description",
+  "attacks": [
+    {
+      "name": "attack.base5-36.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base5-36.0.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "POISONED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "GRASS",
+  "pokemon_id": 44,
+  "ability": {
+    "name": "ability.base5-36.name",
+    "description": "ability.base5-36.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:pollen_stench"
+    }
+  },
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

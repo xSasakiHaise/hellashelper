@@ -1,0 +1,21 @@
+{
+  "id": "Rowlet Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Rowlet",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

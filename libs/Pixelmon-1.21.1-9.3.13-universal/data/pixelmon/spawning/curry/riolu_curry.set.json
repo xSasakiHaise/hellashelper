@@ -1,0 +1,20 @@
+{
+  "id": "Riolu Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Riolu",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

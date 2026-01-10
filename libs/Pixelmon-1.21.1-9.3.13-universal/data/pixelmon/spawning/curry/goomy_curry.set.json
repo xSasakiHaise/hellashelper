@@ -1,0 +1,26 @@
+{
+  "id": "Goomy Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Goomy",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 22,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 38,
+  "previous_pokemon_id": 37,
+  "retreat_cost": 1,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE12.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.BASE12.1.text",
+      "effects": [
+        {
+          "type": "tcg:switch_pokemon",
+          "self_action": true,
+          "self_target": false,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "attack.BASE12.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE",
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 80,
+      "text": "attack.BASE12.2.text",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "FIRE",
+          "self": true,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

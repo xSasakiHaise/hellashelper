@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "pixelmon:block/ultra_space/elm_planks"
+  }
+}

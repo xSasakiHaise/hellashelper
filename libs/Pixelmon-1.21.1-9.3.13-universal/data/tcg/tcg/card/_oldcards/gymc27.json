@@ -1,0 +1,44 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 17,
+  "previous_pokemon_id": 16,
+  "retreat_cost": 0,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC27.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.GYMC27.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC27.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.GYMC27.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

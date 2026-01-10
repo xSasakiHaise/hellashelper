@@ -1,0 +1,47 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 45,
+  "previous_pokemon_id": 44,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.jung15.name",
+    "description": "ability.jung15.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:heal"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG15.1.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 40,
+      "text": "attack.JUNG15.1.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 3,
+          "flip_type": "Exact"
+        },
+        {
+          "type": "tcg:condition",
+          "condition": "CONFUSED",
+          "self": true
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

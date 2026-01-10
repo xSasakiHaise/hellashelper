@@ -1,0 +1,28 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "",
+  "pokemon_id": 118,
+  "previous_pokemon_id": null,
+  "retreat_cost": 0,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH30.1.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 30,
+      "text": "attack.GYMH30.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

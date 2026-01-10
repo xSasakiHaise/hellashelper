@@ -1,0 +1,15 @@
+{
+    "spawns": [
+      {
+        "spec": "GougingFire",
+        "loot_table": "pixelmon:raid_den/raids",
+        "stars": {
+          "type": "minecraft:uniform",
+          "min_inclusive": 5,
+          "max_inclusive": 5
+        },
+        "biomes": "#pixelmon:raid/spawn/1020_gougingfire",
+        "weight": 1.0
+      }
+    ]
+  }

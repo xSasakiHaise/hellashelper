@@ -1,0 +1,4 @@
+$body palafin.bmd
+$anim idle idle.bmd
+$anim swim swim.bmd
+$scale 3

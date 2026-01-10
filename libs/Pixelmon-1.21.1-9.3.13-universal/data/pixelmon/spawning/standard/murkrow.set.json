@@ -1,0 +1,64 @@
+{
+  "id": "Murkrow",
+  "spawnInfos": [
+    {
+      "spec": "species:Murkrow",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 2,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Murkrow",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 2,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Murkrow",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:misc/graveyard"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

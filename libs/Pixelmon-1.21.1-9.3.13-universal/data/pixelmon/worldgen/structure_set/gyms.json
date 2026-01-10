@@ -1,0 +1,53 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:gyms/fire",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:gyms/ghost",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:gyms/grass",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:gyms/ground",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:gyms/fairy",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:gyms/ice",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:gyms/steel",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:gyms/water",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:gyms/dragon",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:gyms/electric",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 106963368,
+    "frequency_reduction_method": "legacy_type_3",
+    "frequency": 0.1,
+    "spread_type": "triangular",
+    "spacing": 75,
+    "separation": 52
+  }
+}

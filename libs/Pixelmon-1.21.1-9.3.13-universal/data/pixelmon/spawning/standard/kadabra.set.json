@@ -1,0 +1,27 @@
+{
+  "id": "Kadabra",
+  "spawnInfos": [
+    {
+      "spec": "species:Kadabra",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:twisted_spoon",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/end"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

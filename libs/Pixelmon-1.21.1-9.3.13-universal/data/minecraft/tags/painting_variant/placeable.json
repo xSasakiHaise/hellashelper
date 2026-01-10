@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:quag",
+    "pixelmon:sabrinas_gaze",
+    "pixelmon:evil_oak",
+    "pixelmon:goop_gas",
+    "pixelmon:kogas_ninja_trick",
+    "pixelmon:master_ball",
+    "pixelmon:muk",
+    "pixelmon:pikachu",
+    "pixelmon:rockets_mine_field",
+    "pixelmon:rockets_secret_experiment",
+    "pixelmon:rockets_trap",
+    "pixelmon:sabrinas_psychic_control",
+    "pixelmon:saffron_city_gym",
+    "pixelmon:sleep",
+    "pixelmon:team_rocket_sneak_attack",
+    "pixelmon:poke_ball"
+  ]
+}

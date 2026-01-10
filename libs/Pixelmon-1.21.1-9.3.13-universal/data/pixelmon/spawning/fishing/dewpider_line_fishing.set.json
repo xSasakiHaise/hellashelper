@@ -1,0 +1,103 @@
+{
+  "id": "Dewpider Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Dewpider",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Dewpider",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Araquanid",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 7.0
+    },
+    {
+      "spec": "species:Araquanid",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 35,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 9.0
+    }
+  ]
+}

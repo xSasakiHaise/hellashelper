@@ -1,0 +1,33 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 47,
+  "previous_pokemon_id": 46,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG41.1.name",
+      "costs": [
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG41.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "ASLEEP",
+          "self": false
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

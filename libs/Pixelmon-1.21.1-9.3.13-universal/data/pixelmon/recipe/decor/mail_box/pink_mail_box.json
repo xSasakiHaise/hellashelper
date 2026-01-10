@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "mail_box",
+    "pattern": [
+        "cws",
+        "w w",
+        "www"
+    ],
+    "key": {
+        "c": {
+          "item": "minecraft:pink_dye"
+        },
+        "s": {
+          "item": "minecraft:stick"
+        },
+        "w": {
+          "tag": "minecraft:wooden_slabs"
+        }
+    },
+    "result": {
+        "id": "pixelmon:pink_mail_box",
+        "count": 1
+    }
+}

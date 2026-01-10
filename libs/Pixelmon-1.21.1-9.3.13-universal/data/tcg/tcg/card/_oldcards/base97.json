@@ -1,0 +1,10 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "",
+  "pokemon_id": 0,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "energies": "FIGHTING"
+}

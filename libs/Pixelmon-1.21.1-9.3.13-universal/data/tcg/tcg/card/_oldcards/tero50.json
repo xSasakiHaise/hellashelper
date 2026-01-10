@@ -1,0 +1,26 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 4,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.tero50.name",
+    "description": "ability.tero50.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:gather_fire"
+    }
+  },
+  "attacks": [
+
+  ],
+  "energies": "FIRE"
+}

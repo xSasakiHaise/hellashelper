@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:aluminum_axe",
+    "pixelmon:silver_axe",
+    "pixelmon:platinum_axe",
+    "pixelmon:ruby_axe",
+    "pixelmon:sapphire_axe",
+    "pixelmon:crystal_axe",
+    "pixelmon:fire_stone_axe",
+    "pixelmon:water_stone_axe",
+    "pixelmon:leaf_stone_axe",
+    "pixelmon:thunder_stone_axe",
+    "pixelmon:sun_stone_axe",
+    "pixelmon:moon_stone_axe",
+    "pixelmon:dawn_stone_axe",
+    "pixelmon:dusk_stone_axe",
+    "pixelmon:ice_stone_axe",
+    "pixelmon:shiny_stone_axe"
+  ]
+}

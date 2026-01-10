@@ -1,0 +1,46 @@
+{
+  "special": false,
+  "hp": 100,
+  "description": "",
+  "pokemon_id": 9,
+  "previous_pokemon_id": 8,
+  "retreat_cost": 3,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.base2.name",
+    "description": "ability.base2.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:rain_dance"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE2.1.name",
+      "costs": [
+        "WATER",
+        "WATER",
+        "WATER"
+      ],
+      "damage": 40,
+      "text": "attack.BASE2.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "energy": "WATER",
+          "damage_type": "PerEnergy",
+          "value": 10,
+          "maximum_bonus": 20,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

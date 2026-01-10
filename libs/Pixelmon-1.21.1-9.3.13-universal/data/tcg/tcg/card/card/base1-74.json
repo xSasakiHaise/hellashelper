@@ -1,0 +1,15 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.base1-74.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/item_finder.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+    "effect": {
+    "type": "tcg:item_finder"
+  },
+  "rarity": "tcg:rare"
+}

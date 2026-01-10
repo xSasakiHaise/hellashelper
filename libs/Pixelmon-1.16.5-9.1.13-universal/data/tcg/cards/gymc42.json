@@ -1,0 +1,62 @@
+{
+  "id": 523,
+  "setId": 7,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 80,
+  "energy1": "FIGHTING",
+  "energy2": null,
+  "pokemonId": 67,
+  "code": "GYMC42",
+  "name": "card.GYMC42.name",
+  "description": "",
+  "previousPokemonId": 66,
+  "cardAttacks": [
+    {
+      "card": "GYMC42",
+      "index": 1,
+      "name": "attack.GYMC42.1.name",
+      "costs": [
+        "FIGHTING"
+      ],
+      "damage": 60,
+      "modifier": null,
+      "text": "attack.GYMC42.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC42",
+      "index": 2,
+      "name": "attack.GYMC42.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMC42.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "PSYCHIC",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 2,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

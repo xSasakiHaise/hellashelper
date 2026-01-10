@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:aluminum_pickaxe",
+    "pixelmon:silver_pickaxe",
+    "pixelmon:platinum_pickaxe",
+    "pixelmon:ruby_pickaxe",
+    "pixelmon:sapphire_pickaxe",
+    "pixelmon:crystal_pickaxe",
+    "pixelmon:fire_stone_pickaxe",
+    "pixelmon:water_stone_pickaxe",
+    "pixelmon:leaf_stone_pickaxe",
+    "pixelmon:thunder_stone_pickaxe",
+    "pixelmon:sun_stone_pickaxe",
+    "pixelmon:moon_stone_pickaxe",
+    "pixelmon:dawn_stone_pickaxe",
+    "pixelmon:dusk_stone_pickaxe",
+    "pixelmon:ice_stone_pickaxe",
+    "pixelmon:shiny_stone_pickaxe"
+  ]
+}

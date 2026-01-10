@@ -1,0 +1,39 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 64,
+  "previous_pokemon_id": 63,
+  "retreat_cost": 3,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE32.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.BASE32.1.text",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "PSYCHIC",
+          "self": true,
+          "count": 1
+        },
+        {
+          "type": "tcg:heal",
+          "self": true,
+          "heal_type": "DAMAGE"
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

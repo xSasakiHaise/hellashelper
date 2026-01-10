@@ -1,0 +1,72 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:grotto/badlands",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/desert",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/end",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/forest",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/hills",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/icy",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/jungle",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/nether",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/ocean",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/plains",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/savanna",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/swamp",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/taiga",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 122813148,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "spacing": 53,
+    "separation": 31
+  }
+}

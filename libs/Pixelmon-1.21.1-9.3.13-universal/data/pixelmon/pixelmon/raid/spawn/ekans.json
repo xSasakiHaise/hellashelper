@@ -1,0 +1,15 @@
+{
+  "spawns": [
+    {
+      "spec": "Ekans",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "biomes": "#pixelmon:raid/spawn/ekans-1-2",
+      "weight": 1.0
+    }
+  ]
+}

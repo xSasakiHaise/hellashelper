@@ -1,0 +1,45 @@
+{
+  "id": "Noctowl",
+  "spawnInfos": [
+    {
+      "spec": "species:Noctowl",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 20,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/magical",
+          "biomesoplenty:tundra",
+		  "biomeswevegone:crimson_tundra"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Noctowl",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 20,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

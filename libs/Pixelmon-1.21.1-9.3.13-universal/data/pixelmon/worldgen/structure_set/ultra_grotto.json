@@ -1,0 +1,32 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:grotto/ultra_deep_sea",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/ultra_desert",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/ultra_forest",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/ultra_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:grotto/ultra_plant",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 242002739,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "spacing": 5,
+    "separation": 2
+  }
+}

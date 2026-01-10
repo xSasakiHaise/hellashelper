@@ -1,0 +1,27 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.gym2-60.description",
+  "attacks": [
+    {
+      "name": "attack.gym2-60.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.gym2-60.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIRE",
+  "pokemon_id": 4,
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

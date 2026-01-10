@@ -1,0 +1,43 @@
+{
+  "id": "Binacle Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Binacle",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 22,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Barbaracle",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 40,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+	"display": {
+		"icon": {
+			"id": "pixelmon:rainbow_wing",
+      "count": 1
+		},
+		"title": {
+			"translate": "advancements.spec.title"
+		},
+		"description": {
+			"translate": "advancements.spec.description"
+		},
+		"background": "pixelmon:textures/gui/advancements/backgrounds/ruinswall.png",
+		"hidden": false
+	},
+	"criteria": {
+		"summer_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:summer"
+			}
+		},
+		"zombie_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:zombie"
+			}
+		},
+		"alter_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:alter"
+			}
+		},
+		"drowned_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:drowned"
+			}
+		},
+		"feebas_karp_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Feebas palette:karp"
+			}
+		},
+		"pink_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:pink"
+			}
+		},
+		"rainbow_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:rainbow"
+			}
+		},
+		"shiny_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "s"
+			}
+		},
+		"strike_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:strike"
+			}
+		},
+		"valencian_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:valencian"
+			}
+		},
+		"valentine_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:valentine"
+			}
+		},
+		"magikarp_jump_spec_trigger_1": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:skelly"
+			}
+		},
+		"magikarp_jump_spec_trigger_2": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:calico_orange_white"
+			}
+		},
+		"magikarp_jump_spec_trigger_3": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:calico_orange_white_black"
+			}
+		},
+		"magikarp_jump_spec_trigger_4": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:calico_white_orange"
+			}
+		},
+		"magikarp_jump_spec_trigger_5": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:calico_orange_gold"
+			}
+		},
+		"magikarp_jump_spec_trigger_6": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:orange_twotone"
+			}
+		},
+		"magikarp_jump_spec_trigger_7": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:orange_orca"
+			}
+		},
+		"magikarp_jump_spec_trigger_8": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:orange_dapples"
+			}
+		},
+		"magikarp_jump_spec_trigger_9": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:pink_twotone"
+			}
+		},
+		"magikarp_jump_spec_trigger_10": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:pink_orca"
+			}
+		},
+		"magikarp_jump_spec_trigger_11": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:pink_dapples"
+			}
+		},
+		"magikarp_jump_spec_trigger_12": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:gray_bubbles"
+			}
+		},
+		"magikarp_jump_spec_trigger_13": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:gray_diamonds"
+			}
+		},
+		"magikarp_jump_spec_trigger_14": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:gray_patches"
+			}
+		},
+		"magikarp_jump_spec_trigger_15": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:purple_bubbles"
+			}
+		},
+		"magikarp_jump_spec_trigger_16": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:purple_diamonds"
+			}
+		},
+		"magikarp_jump_spec_trigger_17": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:purple_patches"
+			}
+		},
+		"magikarp_jump_spec_trigger_18": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:apricot_tiger"
+			}
+		},
+		"magikarp_jump_spec_trigger_19": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:apricot_zebra"
+			}
+		},
+		"magikarp_jump_spec_trigger_20": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:apricot_stripes"
+			}
+		},
+		"magikarp_jump_spec_trigger_21": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:brown_tiger"
+			}
+		},
+		"magikarp_jump_spec_trigger_22": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:brown_zebra"
+			}
+		},
+		"magikarp_jump_spec_trigger_23": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:brown_stripes"
+			}
+		},
+		"magikarp_jump_spec_trigger_24": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:orange_forehead"
+			}
+		},
+		"magikarp_jump_spec_trigger_25": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:orange_mask"
+			}
+		},
+		"magikarp_jump_spec_trigger_26": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:black_forehead"
+			}
+		},
+		"magikarp_jump_spec_trigger_27": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:black_mask"
+			}
+		},
+		"magikarp_jump_spec_trigger_28": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:blue_saucy"
+			}
+		},
+		"magikarp_jump_spec_trigger_29": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:blue_raindrops"
+			}
+		},
+		"magikarp_jump_spec_trigger_30": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:violet_saucy"
+			}
+		},
+		"magikarp_jump_spec_trigger_31": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:violet_raindrops"
+			}
+		},
+		"magikarp_jump_spec_trigger_32": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:roasted"
+			}
+		},
+		"magikarp_jump_spec_trigger_33": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Magikarp palette:valencian"
+			}
+		},
+		"shellos_jump_spec_trigger_1": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:east palette:gray_bubbles"
+			}
+		},
+		"shellos_jump_spec_trigger_2": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:east palette:purple_bubbles"
+			}
+		},
+		"shellos_jump_spec_trigger_3": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:east palette:violet_saucy"
+			}
+		},
+		"shellos_jump_spec_trigger_4": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:east palette:apricot_saucy"
+			}
+		},
+		"shellos_jump_spec_trigger_5": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:east palette:moons"
+			}
+		},
+		"shellos_jump_spec_trigger_6": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:east palette:golde"
+			}
+		},
+		"shellos_jump_spec_trigger_7": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:west palette:gray_diamonds"
+			}
+		},
+		"shellos_jump_spec_trigger_8": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:west palette:purple_diamonds"
+			}
+		},
+		"shellos_jump_spec_trigger_9": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:west palette:brown_stripes"
+			}
+		},
+		"shellos_jump_spec_trigger_10": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:west palette:blue_stripes"
+			}
+		},
+		"shellos_jump_spec_trigger_11": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:west palette:sun"
+			}
+		},
+		"shellos_jump_spec_trigger_12": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Shellos form:west palette:goldw"
+			}
+		},
+		"clobbopus_jump_spec_trigger_1": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Clobbopus palette:irish"
+			}
+		},
+		"clobbopus_jump_spec_trigger_2": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Clobbopus palette:diamonds"
+			}
+		},
+		"clobbopus_jump_spec_trigger_3": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Clobbopus palette:clubs"
+			}
+		},
+		"clobbopus_jump_spec_trigger_4": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Clobbopus palette:martian"
+			}
+		},
+		"clobbopus_jump_spec_trigger_5": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Clobbopus palette:starry"
+			}
+		},
+		"clobbopus_jump_spec_trigger_6": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Clobbopus palette:yellow_ringed"
+			}
+		},
+		"clobbopus_jump_spec_trigger_7": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Clobbopus palette:red_ringed"
+			}
+		},
+		"clobbopus_jump_spec_trigger_8": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Clobbopus palette:alien"
+			}
+		},
+		"spiky_pichu_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Pichu form:spiky"
+			}
+		},
+		"crystal_onix_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Onix palette:crystal"
+			}
+		},
+		"sir_doofus_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Bidoof form:sirdoofusiii"
+			}
+		},
+		"spheal_jump_spec_trigger_1": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Spheal palette:pokeball"
+			}
+		},
+		"spheal_jump_spec_trigger_2": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Spheal palette:duskball"
+			}
+		},
+		"spheal_jump_spec_trigger_3": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Spheal palette:loveball"
+			}
+		},
+		"spheal_jump_spec_trigger_4": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Spheal palette:friendball"
+			}
+		},
+		"spheal_jump_spec_trigger_5": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Spheal palette:heavyball"
+			}
+		},
+		"spheal_jump_spec_trigger_6": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Spheal palette:moonball"
+			}
+		},
+		"spheal_jump_spec_trigger_7": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Spheal palette:premierball"
+			}
+		},
+		"spheal_jump_spec_trigger_8": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Spheal palette:masterball"
+			}
+		},
+		"spheal_jump_spec_trigger_9": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Spheal palette:gsball"
+			}
+		},
+    "eeveelution_capture_all": {
+      "trigger": "pixelmon:spec_trigger",
+      "conditions" : {
+        "spec" : "Eevee"
+      }
+    },
+    "unown_capture_all": {
+      "trigger": "pixelmon:spec_trigger",
+      "conditions" : {
+        "spec" : "unown"
+      }
+    },
+    "minior_capture_all": {
+      "trigger": "pixelmon:spec_trigger",
+      "conditions" : {
+        "spec" : "minior"
+      }
+    }
+	},
+   "requirements":[
+      [
+         "summer_spec_trigger",
+         "zombie_spec_trigger",
+         "alter_spec_trigger",
+         "drowned_spec_trigger",
+         "feebas_karp_spec_trigger",
+         "pink_spec_trigger",
+         "rainbow_spec_trigger",
+         "shiny_spec_trigger",
+         "strike_spec_trigger",
+         "valencian_spec_trigger",
+         "valentine_spec_trigger",
+		     "magikarp_jump_spec_trigger_1",
+		     "magikarp_jump_spec_trigger_2",
+		     "magikarp_jump_spec_trigger_3",
+		     "magikarp_jump_spec_trigger_4",
+		     "magikarp_jump_spec_trigger_5",
+		     "magikarp_jump_spec_trigger_6",
+		     "magikarp_jump_spec_trigger_7",
+		     "magikarp_jump_spec_trigger_8",
+		     "magikarp_jump_spec_trigger_9",
+		     "magikarp_jump_spec_trigger_10",
+		     "magikarp_jump_spec_trigger_11",
+		     "magikarp_jump_spec_trigger_12",
+		     "magikarp_jump_spec_trigger_13",
+		     "magikarp_jump_spec_trigger_14",
+		     "magikarp_jump_spec_trigger_15",
+		     "magikarp_jump_spec_trigger_16",
+		     "magikarp_jump_spec_trigger_17",
+		     "magikarp_jump_spec_trigger_18",
+		     "magikarp_jump_spec_trigger_19",
+		     "magikarp_jump_spec_trigger_20",
+		     "magikarp_jump_spec_trigger_21",
+		     "magikarp_jump_spec_trigger_22",
+		     "magikarp_jump_spec_trigger_23",
+		     "magikarp_jump_spec_trigger_24",
+		     "magikarp_jump_spec_trigger_25",
+		     "magikarp_jump_spec_trigger_26",
+		     "magikarp_jump_spec_trigger_27",
+		     "magikarp_jump_spec_trigger_28",
+		     "magikarp_jump_spec_trigger_29",
+		     "magikarp_jump_spec_trigger_30",
+		     "magikarp_jump_spec_trigger_31",
+		     "magikarp_jump_spec_trigger_32",
+		     "magikarp_jump_spec_trigger_33",
+		     "shellos_jump_spec_trigger_1",
+		     "shellos_jump_spec_trigger_2",
+		     "shellos_jump_spec_trigger_3",
+		     "shellos_jump_spec_trigger_4",
+		     "shellos_jump_spec_trigger_5",
+		     "shellos_jump_spec_trigger_6",
+		     "shellos_jump_spec_trigger_7",
+		     "shellos_jump_spec_trigger_8",
+		     "shellos_jump_spec_trigger_9",
+		     "shellos_jump_spec_trigger_10",
+		     "shellos_jump_spec_trigger_11",
+		     "shellos_jump_spec_trigger_12",
+		     "clobbopus_jump_spec_trigger_1",
+		     "clobbopus_jump_spec_trigger_2",
+		     "clobbopus_jump_spec_trigger_3",
+		     "clobbopus_jump_spec_trigger_4",
+		     "clobbopus_jump_spec_trigger_5",
+		     "clobbopus_jump_spec_trigger_6",
+		     "clobbopus_jump_spec_trigger_7",
+		     "clobbopus_jump_spec_trigger_8",
+			 "spheal_jump_spec_trigger_1",
+			 "spheal_jump_spec_trigger_2",
+			 "spheal_jump_spec_trigger_3",
+			 "spheal_jump_spec_trigger_4",
+			 "spheal_jump_spec_trigger_5",
+			 "spheal_jump_spec_trigger_6",
+			 "spheal_jump_spec_trigger_7",
+			 "spheal_jump_spec_trigger_8",
+			 "spheal_jump_spec_trigger_9",
+		     "spiky_pichu_spec_trigger",
+		     "crystal_onix_spec_trigger",
+		     "sir_doofus_spec_trigger",
+        "eeveelution_capture_all",
+        "unown_capture_all",
+        "minior_capture_all"
+      ]
+   ]
+}

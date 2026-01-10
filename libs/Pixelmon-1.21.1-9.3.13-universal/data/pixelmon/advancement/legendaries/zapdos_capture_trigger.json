@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "pixelmon:pixelmon_sprite",
+      "amount": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "ndex": 145,
+          "palette": "none",
+          "form": ""
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.zapdos_capture.title"
+    },
+    "description": {
+      "translate": "advancements.zapdos_capture.description"
+    },
+    "hidden": true
+  },
+  "parent": "pixelmon:legendaries/legendary_capture_trigger",
+  "criteria": {
+    "zapdos_capture": {
+      "trigger": "pixelmon:legendary_capture_trigger",
+      "conditions": {
+        "pokemon": "zapdos"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "zapdos_capture"
+    ]
+  ]
+}

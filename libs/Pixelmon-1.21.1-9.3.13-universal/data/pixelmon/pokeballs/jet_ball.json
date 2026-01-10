@@ -1,0 +1,19 @@
+{
+  "name": "jet_ball",
+  "model": "pixelmon:models/pokeballs/hisuiball.pqc",
+  "texture": "pixelmon:textures/pokeballs/jet_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/jet_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/jet_ball",
+  "lidSprite": "pixelmon:item/pokeballs/jet_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/jet_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.HisuiBall",
+  "bases": [
+    "wooden"
+  ],
+  "captureMethod": "gen4",
+  "catchBonus": 1.5,
+  "breakChance": 0.50,
+  "velocityModifier": 3,
+  "gravityModifier": 1,
+  "particles": false
+}

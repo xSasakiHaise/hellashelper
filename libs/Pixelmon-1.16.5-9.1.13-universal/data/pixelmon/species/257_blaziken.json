@@ -1,0 +1,680 @@
+{
+  "name": "Blaziken",
+  "dex": 257,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.9,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.9,
+        "hoverHeight": 1.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Blaze Kick",
+              "Double Kick",
+              "Growl",
+              "Quick Attack",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Brave Bird"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Blast Burn",
+          "Coaching",
+          "Fire Pledge",
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Crush Claw",
+          "Ember",
+          "Feather Dance",
+          "Feint",
+          "Fire Punch",
+          "Flamethrower",
+          "Last Resort",
+          "Night Slash",
+          "Peck"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Fire Spin",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Bounce",
+          "U-turn",
+          "Assurance",
+          "Fling",
+          "Shadow Claw",
+          "Low Sweep",
+          "Round",
+          "Acrobatics",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Flamethrower",
+          "Low Kick",
+          "Earthquake",
+          "Agility",
+          "Focus Energy",
+          "Fire Blast",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Heat Wave",
+          "Superpower",
+          "Blaze Kick",
+          "Overheat",
+          "Bulk Up",
+          "Close Combat",
+          "Flare Blitz",
+          "Aura Sphere",
+          "Poison Jab",
+          "Focus Blast",
+          "Brave Bird",
+          "Stone Edge",
+          "Work Up",
+          "Heat Crash"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Agility",
+          "Baton Pass",
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Crush Claw",
+          "Curse",
+          "Cut",
+          "Defog",
+          "Double Team",
+          "Double-Edge",
+          "Dual Chop",
+          "Dynamic Punch",
+          "Echoed Voice",
+          "Ember",
+          "Endure",
+          "Feather Dance",
+          "Feint",
+          "Fire Punch",
+          "Flame Burst",
+          "Flamethrower",
+          "Focus Punch",
+          "Frustration",
+          "Fury Cutter",
+          "Headbutt",
+          "Hidden Power",
+          "High Jump Kick",
+          "Hone Claws",
+          "Incinerate",
+          "Knock Off",
+          "Laser Focus",
+          "Last Resort",
+          "Low Kick",
+          "Mimic",
+          "Mirror Move",
+          "Mud-Slap",
+          "Natural Gift",
+          "Night Slash",
+          "Peck",
+          "Power-Up Punch",
+          "Return",
+          "Reversal",
+          "Roar",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Seismic Toss",
+          "Sky Uppercut",
+          "Smelling Salts",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Vacuum Wave"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Overheat"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Low Kick",
+          "Acrobatics",
+          "Thief",
+          "Fire Spin",
+          "Facade",
+          "Aerial Ace",
+          "Bulldoze",
+          "Swift",
+          "Rock Tomb",
+          "Flame Charge",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Dig",
+          "Brick Break",
+          "U-turn",
+          "Shadow Claw",
+          "Bulk Up",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Sleep Talk",
+          "Poison Jab",
+          "Rest",
+          "Rock Slide",
+          "Swords Dance",
+          "Substitute",
+          "Will-O-Wisp",
+          "Aura Sphere",
+          "Heat Wave",
+          "Flamethrower",
+          "Helping Hand",
+          "Baton Pass",
+          "Reversal",
+          "Fire Blast",
+          "Fire Pledge",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Blast Burn",
+          "Overheat",
+          "Focus Blast",
+          "Hyper Beam",
+          "Brave Bird",
+          "Flare Blitz",
+          "Close Combat",
+          "Solar Beam",
+          "Tera Blast",
+          "Roar",
+          "Knock Off",
+          "Vacuum Wave",
+          "Heat Crash",
+          "Uproar",
+          "Focus Punch",
+          "Double-Edge",
+          "Coaching",
+          "Scorching Sands",
+          "Feather Dance",
+          "Curse"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "SpeedBoost"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.55,
+            "z": -0.27
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.55,
+            "z": 0.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 70,
+        "specialAttack": 110,
+        "specialDefense": 70,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 209,
+        "baseFriendship": 70,
+        "spawnLevel": 36,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/257_blaziken/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/257_blaziken/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/257_blaziken/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "sounds": [
+                "pixelmon.mob.blaziken"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/257_blaziken/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/257_blaziken/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "zombie",
+              "texture": "pixelmon:pokemon/257_blaziken/all/base/zombie/texture.png",
+              "sprite": "pixelmon:pokemon/257_blaziken/all/base/zombie/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE",
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Combusken",
+        "Torchic"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:blazikenite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 52.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 1.9,
+        "width": 1.2,
+        "length": 1.2
+      },
+      "abilities": {
+        "abilities": [
+          "SpeedBoost"
+        ]
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 160,
+        "defense": 80,
+        "specialAttack": 130,
+        "specialDefense": 80,
+        "speed": 100
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/257_blaziken/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/257_blaziken/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/257_blaziken/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/257_blaziken/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/257_blaziken/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "zombie",
+              "texture": "pixelmon:pokemon/257_blaziken/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/257_blaziken/all/mega/none/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 3
+}

@@ -1,0 +1,42 @@
+{
+  "name": "pixelmon:detail/candles/candle_unlit",
+  "fallback": "pixelmon:detail/candles/candle_unlit",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:detail/candles/unlit/candle_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:detail/candles/unlit/candle_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:detail/candles/unlit/candle_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:detail/candles/unlit/candle_4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

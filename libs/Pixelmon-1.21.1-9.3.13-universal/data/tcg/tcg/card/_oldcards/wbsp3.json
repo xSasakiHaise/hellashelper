@@ -1,0 +1,32 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 150,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 2,
+  "rarity": "tcg:ultra_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.WBSP3.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.WBSP3.1.text",
+      "effects": [
+        {
+          "type": "tcg:attach_discard",
+          "card_type": "tcg:energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

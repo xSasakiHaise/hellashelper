@@ -1,0 +1,31 @@
+{
+  "id": "Seaking",
+  "spawnInfos": [
+    {
+      "spec": "species:Seaking",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 33,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/magical",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

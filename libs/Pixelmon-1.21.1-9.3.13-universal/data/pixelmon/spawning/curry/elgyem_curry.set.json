@@ -1,0 +1,20 @@
+{
+  "id": "Elgyem Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Elgyem",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 30,
+      "maxLevel": 41,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

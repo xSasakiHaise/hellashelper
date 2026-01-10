@@ -1,0 +1,15 @@
+{
+  "name": "pixelmon:npc/daycare/shopkeeper/steel",
+  "fallback": "pixelmon:npc/daycare/shopkeeper/steel",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/misc/steel/daycare",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

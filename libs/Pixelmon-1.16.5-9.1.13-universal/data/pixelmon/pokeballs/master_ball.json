@@ -1,0 +1,17 @@
+{
+  "name": "master_ball",
+  "model": "pixelmon:models/pokeballs/masterball.pqc",
+  "texture": "pixelmon:textures/pokeballs/master_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/master_ball_flashing.png",
+  "ballSprite": "pixelmon:items/pokeballs/master_ball",
+  "guiSprite": "pixelmon:textures/gui/overlay/master_ball.png",
+  "logic": "",
+  "bases": [],
+  "captureMethod": "gen8",
+  "catchBonus": 255,
+  "breakChance": 0,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false,
+  "hasLid": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Taillow Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Taillow",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 120.0
+    }
+  ]
+}

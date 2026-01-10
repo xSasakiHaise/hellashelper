@@ -1,0 +1,36 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 149,
+  "previous_pokemon_id": 148,
+  "retreat_cost": 2,
+  "rarity": "tcg:ultra_rare",
+  "ability": {
+    "name": "ability.wbsp5.name",
+    "description": "ability.wbsp5.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:special_delivery"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.WBSP5.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 60,
+      "text": "attack.WBSP5.1.text",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

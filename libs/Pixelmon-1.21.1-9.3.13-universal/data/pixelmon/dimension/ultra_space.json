@@ -1,0 +1,84 @@
+{
+  "type": "pixelmon:ultra_space",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "pixelmon:ultra_space",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "pixelmon:ultra_desert",
+          "parameters": {
+            "temperature": 0.25,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "pixelmon:ultra_deep_sea",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.01,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.6
+          }
+        },
+        {
+          "biome": "pixelmon:ultra_forest",
+          "parameters": {
+            "temperature": 0.16,
+            "humidity": 0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "pixelmon:ultra_jungle",
+          "parameters": {
+            "temperature": 0.25,
+            "humidity": 0.5,
+            "continentalness": 0,
+            "erosion": 0.2,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "pixelmon:ultra_crater",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": -0.4,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "pixelmon:ultra_plant",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.25
+          }
+        }
+      ]
+    }
+  }
+}

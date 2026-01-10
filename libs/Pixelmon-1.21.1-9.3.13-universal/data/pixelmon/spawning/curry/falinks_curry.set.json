@@ -1,0 +1,21 @@
+{
+  "id": "Falinks Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Falinks",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

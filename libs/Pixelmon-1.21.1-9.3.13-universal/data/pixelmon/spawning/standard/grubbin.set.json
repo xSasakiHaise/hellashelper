@@ -1,0 +1,29 @@
+{
+  "id": "Grubbin",
+  "spawnInfos": [
+    {
+      "spec": "species:Grubbin",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Forage"
+      ],
+      "minLevel": 2,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 300.0
+    }
+  ]
+}

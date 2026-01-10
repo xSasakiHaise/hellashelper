@@ -1,0 +1,28 @@
+{
+  "id": "Maushold",
+  "spawnInfos": [
+    {
+      "spec": "species:Maushold form:family_four",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/all_forests"
+        ],
+        "baseBlock": [
+          "#minecraft:planks"
+        ],
+        "times": [
+          "NIGHT"
+        ],
+        "maxLightLevel": 3
+      },
+      "rarity": 10.0
+    }
+  ]
+}

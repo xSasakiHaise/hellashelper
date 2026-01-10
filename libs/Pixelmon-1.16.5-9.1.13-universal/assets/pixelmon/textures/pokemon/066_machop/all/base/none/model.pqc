@@ -1,0 +1,4 @@
+$body machop.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$scale 2.4

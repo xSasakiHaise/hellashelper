@@ -1,0 +1,21 @@
+{
+  "id": "MimeJr Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:MimeJr",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 16,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE57.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.BASE57.1.text",
+      "effects": [
+        {
+          "type": "tcg:switch_pokemon",
+          "self_action": false,
+          "self_target": false,
+          "optional": false
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

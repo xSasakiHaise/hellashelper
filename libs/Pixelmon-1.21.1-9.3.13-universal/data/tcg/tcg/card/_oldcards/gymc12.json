@@ -1,0 +1,41 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 55,
+  "previous_pokemon_id": 54,
+  "retreat_cost": 1,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC12.1.name",
+      "costs": [
+        "WATER",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "text": "attack.GYMC12.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC12.2.name",
+      "costs": [
+        "PSYCHIC",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.GYMC12.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

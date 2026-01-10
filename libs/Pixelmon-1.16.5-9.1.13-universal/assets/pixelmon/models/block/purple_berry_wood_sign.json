@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "particle": "pixelmon:block/berry_structures/berry_purple_planks",
+    "layer0":  "pixelmon:"
+  }
+}

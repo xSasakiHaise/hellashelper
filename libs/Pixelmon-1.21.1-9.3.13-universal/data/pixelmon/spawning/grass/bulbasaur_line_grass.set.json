@@ -1,0 +1,65 @@
+{
+  "id": "Bulbasaur Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Bulbasaur",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 10,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Ivysaur",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 16,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Venusaur",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 32,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

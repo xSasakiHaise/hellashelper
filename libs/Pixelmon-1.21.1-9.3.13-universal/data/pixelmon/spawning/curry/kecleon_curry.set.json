@@ -1,0 +1,20 @@
+{
+  "id": "Kecleon Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Kecleon",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+$body pyukumuku.bmd
+$anim walk walk.bmd
+$anim idle idlebasic.bmd idlebasic.bmd idlebasic.bmd idlebasic.bmd idlebasic.bmd special.bmd 
+$anim special special.bmd
+$scale 0.7

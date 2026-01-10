@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pixelmon:block/ultra_space/elm_sapling"
+  }
+}

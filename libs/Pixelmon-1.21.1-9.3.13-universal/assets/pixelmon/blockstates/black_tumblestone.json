@@ -1,0 +1,98 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "age": "0"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_base"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "1"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_black_stage1"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "2"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_black_stage2"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "3"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_black_stage3"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "4"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_black_stage4"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "5",
+        "destroyed": "0"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_black_stage5"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "5",
+        "destroyed": "1"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_black_break1"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "5",
+        "destroyed": "2"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_black_break2"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "5",
+        "destroyed": "3"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/tumblestone/tumblestone_black_break3"
+        }
+      ]
+    }
+  ]
+}

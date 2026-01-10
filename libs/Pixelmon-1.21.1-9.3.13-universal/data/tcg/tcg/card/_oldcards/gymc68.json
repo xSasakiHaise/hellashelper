@@ -1,0 +1,28 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 74,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC68.1.name",
+      "costs": [
+        "FIGHTING"
+      ],
+      "damage": 10,
+      "text": "attack.GYMC68.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

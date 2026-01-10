@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixelmon:ultra_jungle_planks"
+    }
+  },
+  "result": {
+    "id": "pixelmon:ultra_jungle_boat"
+  }
+}

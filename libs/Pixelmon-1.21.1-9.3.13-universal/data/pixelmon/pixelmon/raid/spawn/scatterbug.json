@@ -1,0 +1,15 @@
+{
+  "spawns": [
+    {
+      "spec": "Scatterbug",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      },
+      "biomes": "#pixelmon:raid/spawn/scatterbug-1-1",
+      "weight": 1.0
+    }
+  ]
+}

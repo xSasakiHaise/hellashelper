@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_folding_chair",
+    "pixelmon:orange_folding_chair",
+    "pixelmon:magenta_folding_chair",
+    "pixelmon:light_blue_folding_chair",
+    "pixelmon:yellow_folding_chair",
+    "pixelmon:lime_folding_chair",
+    "pixelmon:pink_folding_chair",
+    "pixelmon:gray_folding_chair",
+    "pixelmon:light_gray_folding_chair",
+    "pixelmon:cyan_folding_chair",
+    "pixelmon:purple_folding_chair",
+    "pixelmon:blue_folding_chair",
+    "pixelmon:brown_folding_chair",
+    "pixelmon:green_folding_chair",
+    "pixelmon:red_folding_chair",
+    "pixelmon:black_folding_chair"
+  ]
+}

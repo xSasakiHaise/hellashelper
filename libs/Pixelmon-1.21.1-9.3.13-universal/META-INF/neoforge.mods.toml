@@ -1,0 +1,54 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Copyright 2014-2025 Ikara Software, All rights reserved."
+issueTrackerURL="https://pixelmonmod.com/tracker.php?p=2"
+
+[[mods]]
+modId="pixelmon"
+version="9.3.13"
+displayName="Pixelmon"
+displayURL="https://pixelmonmod.com/"
+logoFile="reforged.png"
+credits="Pixelmon Development Team for all their hard work over the years."
+authors="https://pixelmonmod.com/team.php"
+updateJSONURL="https://ogn.pixelmonmod.com/v/update.json"
+description='''Pixelmon adds many aspects of Pokémon into Minecraft, including Pokémon themselves, battling, trading, and breeding.
+Pixelmon also includes an assortment of new items, including prominent items like Poké Balls and TMs, new resources like Aluminum and Apricorns, and new decorative blocks like chairs and clocks.'''
+features={javaVersion="[21,)"}
+
+[[mods]]
+modId="tcg"
+version="9.3.13"
+displayName="Pixelmon TCG"
+displayURL="https://pixelmonmod.com/"
+logoFile="reforged.png"
+credits="Pixelmon Development Team for all their hard work over the years."
+authors="https://pixelmonmod.com/team.php"
+updateJSONURL="https://ogn.pixelmonmod.com/v/update.json"
+description='''
+TCG is fun!
+'''
+
+[[dependencies.pixelmon]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.pixelmon]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tcg]]
+modId = "pixelmon"
+mandatory = true
+versionRange = "[1.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config="mixins.pixelmon.json"

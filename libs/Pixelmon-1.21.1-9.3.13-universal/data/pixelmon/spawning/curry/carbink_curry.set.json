@@ -1,0 +1,21 @@
+{
+  "id": "Carbink Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Carbink",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 12,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

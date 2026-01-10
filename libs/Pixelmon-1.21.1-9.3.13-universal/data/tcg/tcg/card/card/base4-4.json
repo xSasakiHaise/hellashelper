@@ -1,0 +1,48 @@
+{
+  "special": false,
+  "hp": 120,
+  "description": "card.base4-4.description",
+  "attacks": [
+    {
+      "name": "attack.base4-4.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 100,
+      "text": "attack.base4-4.0.description",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "FIRE",
+          "required_coin_side": "HEAD",
+          "self": true,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 3,
+  "energies": "FIRE",
+  "pokemon_id": 6,
+  "ability": {
+    "name": "ability.base4-4.name",
+    "description": "ability.base4-4.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:energy_burn"
+    }
+  },
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:holo_rare"
+}

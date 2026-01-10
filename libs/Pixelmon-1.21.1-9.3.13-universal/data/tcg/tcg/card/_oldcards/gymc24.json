@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 127,
+  "previous_pokemon_id": null,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC24.1.name",
+      "costs": [
+        "GRASS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.GYMC24.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC24.2.name",
+      "costs": [
+        "GRASS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "text": "attack.GYMC24.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

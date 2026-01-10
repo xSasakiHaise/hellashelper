@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:misc/pumpkin_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 988203913,
+    "frequency_reduction_method": "legacy_type_3",
+    "frequency": 0.05,
+    "spacing": 20,
+    "separation": 15
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/fridge",
+  "textures": {
+    "main": "pixelmon:block/fridge",
+    "particle": "pixelmon:block/fridge"
+  }
+}

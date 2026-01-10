@@ -1,0 +1,25 @@
+{
+  "id": "Tauros Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Tauros",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

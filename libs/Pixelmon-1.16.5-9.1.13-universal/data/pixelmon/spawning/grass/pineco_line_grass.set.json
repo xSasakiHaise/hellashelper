@@ -1,0 +1,39 @@
+{
+  "id": "Pineco Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Pineco",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "taigas",
+          "redwoods",
+          "mountainous forests"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Forretress",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "taigas",
+          "redwoods",
+          "mountainous forests"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Pansage Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Pansage",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "variant": [
+          "jungle",
+          "eucalyptus"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Simisage",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "variant": [
+          "jungle",
+          "eucalyptus",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/water_stone/water_stone_axe",
+      "pixelmon:equipment/water_stone/water_stone_boots",
+      "pixelmon:equipment/water_stone/water_stone_hammer",
+      "pixelmon:equipment/water_stone/water_stone_helm",
+      "pixelmon:equipment/water_stone/water_stone_hoe",
+      "pixelmon:equipment/water_stone/water_stone_legs",
+      "pixelmon:equipment/water_stone/water_stone_pickaxe",
+      "pixelmon:equipment/water_stone/water_stone_plate",
+      "pixelmon:equipment/water_stone/water_stone_shovel",
+      "pixelmon:equipment/water_stone/water_stone_sword"
+    ]
+  },
+  "criteria": {
+    "has_water_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:water_stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_water_stone"
+    ]
+  ]
+}

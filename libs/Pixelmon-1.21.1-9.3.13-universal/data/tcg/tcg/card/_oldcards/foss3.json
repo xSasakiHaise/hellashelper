@@ -1,0 +1,23 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 132,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.foss3.name",
+    "description": "ability.foss3.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:transform"
+    }
+  },
+  "energies": "COLORLESS"
+}

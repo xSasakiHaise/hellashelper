@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#tcg:types/special/base1",
+    "#tcg:types/special/base4",
+    "#tcg:types/special/base5"
+  ],
+  "tag": "tcg:special"
+}

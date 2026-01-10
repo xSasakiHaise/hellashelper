@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_forest",
+  "step": "local_modifications",
+  "features": [
+    "pixelmon:trees/apricorn/all_apricorn_trees"
+  ]
+}

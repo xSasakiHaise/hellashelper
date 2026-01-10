@@ -1,0 +1,5 @@
+$body dottler.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$anim special special.bmd
+$scale 1.0

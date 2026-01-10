@@ -1,0 +1,901 @@
+{
+  "name": "Zorua",
+  "dex": 570,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Fake Tears"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Imprison"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Night Daze"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Foul Play"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Lash Out",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Copycat",
+          "Counter",
+          "Detect",
+          "Extrasensory",
+          "Memento",
+          "Sucker Punch"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Fake Tears",
+          "Agility",
+          "Scary Face",
+          "Protect",
+          "Confuse Ray",
+          "Thief",
+          "Facade",
+          "Hex",
+          "Snarl",
+          "Swift",
+          "Night Shade",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "U-turn",
+          "Shadow Claw",
+          "Foul Play",
+          "Sleep Talk",
+          "Grass Knot",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Imprison",
+          "Dark Pulse",
+          "Substitute",
+          "Trick",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Encore",
+          "Calm Mind",
+          "Helping Hand",
+          "Nasty Plot",
+          "Sludge Bomb",
+          "Tera Blast",
+          "Roar",
+          "Spite",
+          "Knock Off",
+          "Burning Jealousy",
+          "Lash Out",
+          "Pain Split",
+          "Psych Up",
+          "Skitter Smack"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Revenge",
+          "Imprison",
+          "Fake Tears",
+          "Bounce",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Round",
+          "Hex",
+          "Retaliate",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Agility",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Uproar",
+          "Taunt",
+          "Trick",
+          "Hyper Voice",
+          "Calm Mind",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Grass Knot",
+          "Foul Play"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Captivate",
+          "Confide",
+          "Covet",
+          "Cut",
+          "Double Team",
+          "Embargo",
+          "Feint Attack",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Psych Up",
+          "Punishment",
+          "Pursuit",
+          "Return",
+          "Roar",
+          "Secret Power",
+          "Snatch",
+          "Spite",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Snarl"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Illusion"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 65,
+        "defense": 40,
+        "specialAttack": 80,
+        "specialDefense": 40,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 66,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/570_zorua/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.zorua",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/570_zorua/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/570_zorua/all/base/none/zorua.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/570_zorua/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/570_zorua/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/570_zorua/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/570_zorua/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/570_zorua/all/base/none/zorua.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/570_zorua/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/570_zorua/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "alter",
+              "sprite": "pixelmon:pokemon/570_zorua/all/base/alter/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/570_zorua/all/base/alter/texture.png",
+                      "emissive": "pixelmon:pokemon/570_zorua/all/base/alter/emissive.png",
+                      "model": "pixelmon:pokemon/570_zorua/all/base/none/zorua.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/570_zorua/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/570_zorua/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "DARK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 12.5,
+      "catchRate": 75,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Zoroark form:base",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Night Slash"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      },
+      "growth_data": {
+        "mean": 50.0,
+        "standard_deviation": 2.5,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "hisuian",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Shadow Sneak"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Spite"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Bitter Malice"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Foul Play"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aerial Ace",
+          "Calm Mind",
+          "Dark Pulse",
+          "Rest",
+          "Shadow Ball",
+          "Shadow Claw",
+          "Sludge Bomb",
+          "Snarl",
+          "Swift"
+        ],
+        "eggMoves": [
+          "Comeuppance",
+          "Detect",
+          "Extrasensory",
+          "Memento"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Fake Tears",
+          "Agility",
+          "Protect",
+          "Confuse Ray",
+          "Thief",
+          "Facade",
+          "Hex",
+          "Snarl",
+          "Swift",
+          "Icy Wind",
+          "Night Shade",
+          "Fling",
+          "Endure",
+          "Rain Dance",
+          "Snowscape",
+          "Dig",
+          "U-turn",
+          "Shadow Claw",
+          "Foul Play",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Imprison",
+          "Dark Pulse",
+          "Substitute",
+          "Will-O-Wisp",
+          "Trick",
+          "Shadow Ball",
+          "Calm Mind",
+          "Nasty Plot",
+          "Sludge Bomb",
+          "Phantom Force",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast",
+          "Roar",
+          "Spite",
+          "Knock Off",
+          "Focus Punch",
+          "Burning Jealousy",
+          "Lash Out",
+          "Pain Split",
+          "Psych Up",
+          "Skitter Smack",
+          "Curse"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Comeuppance",
+          "Detect",
+          "Extrasensory",
+          "Memento",
+          "Shadow Claw",
+          "Slash",
+          "Snarl",
+          "Swift"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Illusion"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 35,
+        "attack": 60,
+        "defense": 40,
+        "specialAttack": 85,
+        "specialDefense": 40,
+        "speed": 70
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 66,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/570_zorua/all/hisuian/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/570_zorua/all/hisuian/none/texture.png",
+                      "model": "pixelmon:pokemon/570_zorua/all/hisuian/none/zorua.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/570_zorua/all/hisuian/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/570_zorua/all/hisuian/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 10.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/570_zorua/all/hisuian/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/570_zorua/all/hisuian/shiny/texture.png",
+                      "model": "pixelmon:pokemon/570_zorua/all/hisuian/none/zorua.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/570_zorua/all/hisuian/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/570_zorua/all/hisuian/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 10.0
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "witch",
+              "sprite": "pixelmon:pokemon/570_zorua/all/hisuian/witch/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/570_zorua/all/hisuian/witch/texture.png",
+                      "model": "pixelmon:pokemon/570_zorua/all/hisuian/none/zorua.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/570_zorua/all/hisuian/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/570_zorua/all/hisuian/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 10.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL",
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 13.0,
+      "catchRate": 60,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Zoroark form:hisuian",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "growth_data": {
+        "mean": 50.0,
+        "standard_deviation": 2.5,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 5
+}

@@ -1,0 +1,5 @@
+$body klawf.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$anim special special.bmd
+$scale 2.4

@@ -1,0 +1,42 @@
+{
+  "id": "Bramblin",
+  "spawnInfos": [
+    {
+      "spec": "species:Bramblin",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "arid",
+          "savannas",
+          "mesas"
+        ]
+      },
+      "rarity": 150.0
+    },
+    {
+      "spec": "species:Bramblin palette:tangela",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "arid",
+          "savannas",
+          "mesas"
+        ],
+        "partyHeadSpecies": [
+          "Tangrowth"
+        ]
+      },
+      "rarity": 25.0
+    }
+  ]
+}

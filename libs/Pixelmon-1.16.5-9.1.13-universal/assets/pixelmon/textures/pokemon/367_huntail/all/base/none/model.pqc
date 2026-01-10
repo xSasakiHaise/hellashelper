@@ -1,0 +1,4 @@
+$body huntail.bmd
+$anim swim swim.bmd
+$anim idle idle.bmd
+$scale 2.8

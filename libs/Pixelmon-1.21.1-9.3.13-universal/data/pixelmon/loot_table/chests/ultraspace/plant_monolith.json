@@ -1,0 +1,1033 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "name": "toolsandarmor",
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:thunder_stone_hammer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:thunder_stone_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:thunder_stone_hoe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:thunder_stone_pickaxe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:thunder_stone_shovel"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:thunder_stone_sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:thunder_stone_helmet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:thunder_stone_chestplate"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:thunder_stone_leggings"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:thunder_stone_boots"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:thunder_stone_hammer",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:thunder_stone_axe",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:thunder_stone_hoe",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:thunder_stone_pickaxe",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:thunder_stone_shovel",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:thunder_stone_sword",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:thunder_stone_helmet",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:thunder_stone_chestplate",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:thunder_stone_leggings",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:thunder_stone_boots",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "balls",
+            "rolls" : {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 15,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "pixelmon:poke_ball": "beast_ball"
+                          },
+                          "conditions": []
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "pixelmon:poke_ball": "quick_ball"
+                          },
+                          "conditions": []
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "pixelmon:poke_ball": "timer_ball"
+                          },
+                          "conditions": []
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "pixelmon:poke_ball": "fast_ball"
+                          },
+                          "conditions": []
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "pixelmon:poke_ball": "dusk_ball"
+                          },
+                          "conditions": []
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "pixelmon:poke_ball": "heavy_ball"
+                          },
+                          "conditions": []
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "pixelmon:poke_ball": "ancient_poke_ball"
+                          },
+                          "conditions": []
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "pixelmon:poke_ball": "ancient_great_ball"
+                          },
+                          "conditions": []
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "pixelmon:poke_ball": "ancient_ultra_ball"
+                          },
+                          "conditions": []
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "pixelmon:poke_ball": "ultra_ball"
+                          },
+                          "conditions": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "gems",
+            "rolls" : 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "pixelmon:electric_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "pixelmon:ice_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "pixelmon:steel_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ores",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:silicon",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:aluminum_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:coal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "medicine",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 8,
+                    "name": "pixelmon:max_revive",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 12,
+                    "name": "pixelmon:paralyze_heal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "generalevolutionitems",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:thunder_stone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:ice_stone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "pixelmon:linking_cord"
+                },
+                {
+                    "type": "empty",
+                    "weight": 10
+                }
+            ]
+        },
+        {
+            "name": "candies",
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 9,
+                    "name": "pixelmon:xs_exp_candy",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:s_exp_candy",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "pixelmon:m_exp_candy",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "pixelmon:l_exp_candy",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:xl_exp_candy"
+                }
+            ]
+        },
+        {
+            "name": "tms",
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 57}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 24}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 73}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 93}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 72}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 25}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 7}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 13}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 79}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 70}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 14}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 51}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 91}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 67}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:tm_gen7",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{\"tm\": 74}"
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 10
+                }
+            ]
+        },
+        {
+            "name": "musicdiscs",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:tag",
+                    "weight": 1,
+                    "name": "minecraft:music_discs",
+                    "expand": true
+                },
+                {
+                    "type": "empty",
+                    "weight": 30
+                }
+            ]
+        },
+        {
+            "name": "machines",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:poke_display"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:fridge"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:fan"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:mower"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:oven"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:washing_machine"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:item_finder"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:camera"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:compass"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:lodestone"
+                },
+                {
+                    "type": "empty",
+                    "weight": 90
+                }
+            ]
+        },
+        {
+            "name": "pokemonitems",
+            "rolls" : 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:light_ball"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:cell_battery"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:icy_rock"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:eject_button"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:magnet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:black_belt"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:dubious_disc"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:up_grade"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:electirizer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:porygon_head"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:porygon_body"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:porygon_leg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:porygon_tail"
+                },
+                {
+                    "type": "empty",
+                    "weight": 7
+                }
+            ]
+        },
+        {
+            "name": "other",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "pixelmon:film",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:tnt",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 4
+                }
+            ]
+        }
+    ]
+}

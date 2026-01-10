@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 130,
+  "previous_pokemon_id": 129,
+  "retreat_cost": 3,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC5.1.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 0,
+      "text": "attack.GYMC5.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC5.2.name",
+      "costs": [
+        "WATER",
+        "WATER",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "text": "attack.GYMC5.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

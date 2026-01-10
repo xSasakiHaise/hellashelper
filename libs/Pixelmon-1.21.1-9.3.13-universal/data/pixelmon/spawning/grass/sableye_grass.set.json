@@ -1,0 +1,26 @@
+{
+  "id": "Sableye Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Sableye",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

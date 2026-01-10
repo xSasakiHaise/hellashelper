@@ -1,0 +1,24 @@
+{
+  "id": "Sentret",
+  "spawnInfos": [
+    {
+      "spec": "species:Sentret",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/freezing_forests",
+          "minecraft:snowy_plains",
+          "biomesoplenty:tundra",
+		  "biomeswevegone:crimson_tundra"
+        ]
+      },
+      "rarity": 300.0
+    }
+  ]
+}

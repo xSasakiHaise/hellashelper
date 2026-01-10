@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "I I",
+    "CIC"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/silver"
+    },
+    "C": {
+      "tag": "c:gems/crystal"
+    }
+  },
+  "result": {
+    "id": "pixelmon:lure_casing_weak",
+    "count": 1
+  }
+}

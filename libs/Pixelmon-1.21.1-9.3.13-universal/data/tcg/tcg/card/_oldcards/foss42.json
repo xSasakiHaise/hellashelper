@@ -1,0 +1,55 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 117,
+  "previous_pokemon_id": 116,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS42.1.name",
+      "costs": [
+        "WATER",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.FOSS42.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "energy": "WATER",
+          "damage_type": "PerEnergy",
+          "value": 10,
+          "max_damage": 20,
+          "ignore_base_damage": false
+        }
+      ]
+    },
+    {
+      "name": "attack.FOSS42.2.name",
+      "costs": [
+        "WATER",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.FOSS42.2.text",
+      "effects": [
+        {
+          "type": "tcg:immune",
+          "self": true,
+          "immune_type": "*",
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

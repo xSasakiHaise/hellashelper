@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:unown_block_a",
+    "pixelmon:unown_block_b",
+    "pixelmon:unown_block_c",
+    "pixelmon:unown_block_d",
+    "pixelmon:unown_block_e",
+    "pixelmon:unown_block_f",
+    "pixelmon:unown_block_g",
+    "pixelmon:unown_block_h",
+    "pixelmon:unown_block_i",
+    "pixelmon:unown_block_j",
+    "pixelmon:unown_block_k",
+    "pixelmon:unown_block_l",
+    "pixelmon:unown_block_m",
+    "pixelmon:unown_block_n",
+    "pixelmon:unown_block_o",
+    "pixelmon:unown_block_p",
+    "pixelmon:unown_block_q",
+    "pixelmon:unown_block_r",
+    "pixelmon:unown_block_s",
+    "pixelmon:unown_block_t",
+    "pixelmon:unown_block_u",
+    "pixelmon:unown_block_v",
+    "pixelmon:unown_block_w",
+    "pixelmon:unown_block_x",
+    "pixelmon:unown_block_y",
+    "pixelmon:unown_block_z",
+    "pixelmon:unown_block_exclaim",
+    "pixelmon:unown_block_question"
+  ]
+}

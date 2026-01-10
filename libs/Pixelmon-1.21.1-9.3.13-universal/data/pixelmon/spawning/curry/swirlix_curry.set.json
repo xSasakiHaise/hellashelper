@@ -1,0 +1,22 @@
+{
+  "id": "Swirlix Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Swirlix",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

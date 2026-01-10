@@ -1,0 +1,18 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:blaze"
+    ]
+  },
+  "replacement": {
+    "type" : "pixelmon:simple",
+    "replacements": [
+      "magcargo",
+      "sizzlipede",
+      "larvesta",
+      "litwick",
+      "lampent"
+    ]
+  }
+}

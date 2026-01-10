@@ -1,0 +1,203 @@
+{
+  "id": "Weedle Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Weedle status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT",
+          "DAWN"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "byg:crag_gardens"
+        ],
+        "variant": [
+          "oak",
+          "ebony",
+          "ethereal",
+          "willow",
+          "spruce",
+          "redwood"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Weedle",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "byg:crag_gardens"
+        ],
+        "variant": [
+          "oak",
+          "ebony",
+          "ethereal",
+          "willow",
+          "spruce",
+          "redwood"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Kakuna status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT",
+          "DAWN"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "byg:crag_gardens"
+        ],
+        "variant": [
+          "oak",
+          "ebony",
+          "ethereal",
+          "willow",
+          "spruce",
+          "redwood"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Kakuna",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "byg:crag_gardens"
+        ],
+        "variant": [
+          "oak",
+          "ebony",
+          "ethereal",
+          "willow",
+          "spruce",
+          "redwood"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Beedrill status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT",
+          "DAWN"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "byg:crag_gardens"
+        ],
+        "variant": [
+          "oak",
+          "ebony",
+          "ethereal",
+          "willow",
+          "spruce",
+          "redwood"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Beedrill",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "byg:crag_gardens"
+        ],
+        "variant": [
+          "oak",
+          "ebony",
+          "ethereal",
+          "willow",
+          "spruce",
+          "redwood"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "Eevee Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Eevee",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

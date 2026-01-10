@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "contents=false": {
+      "model": "tcg:block/essence_jar"
+    },
+    "contents=true": {
+      "model": "tcg:block/essence_jar_contents"
+    }
+  }
+}

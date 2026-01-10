@@ -1,0 +1,10 @@
+{
+  "special": false,
+  "hp": 10,
+  "description": "card.BASE70.text",
+  "pokemon_id": 35,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 0,
+  "rarity": "tcg:rare",
+  "energy": null
+}

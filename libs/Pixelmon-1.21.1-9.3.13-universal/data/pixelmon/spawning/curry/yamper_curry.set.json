@@ -1,0 +1,20 @@
+{
+  "id": "Yamper Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Yamper",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 7,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 110.0
+    }
+  ]
+}

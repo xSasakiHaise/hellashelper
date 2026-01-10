@@ -1,0 +1,27 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base4-83.description",
+  "attacks": [
+    {
+      "name": "attack.base4-83.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base4-83.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "GRASS",
+  "pokemon_id": 32,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

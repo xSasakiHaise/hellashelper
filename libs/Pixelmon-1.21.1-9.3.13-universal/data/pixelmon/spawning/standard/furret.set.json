@@ -1,0 +1,24 @@
+{
+  "id": "Furret",
+  "spawnInfos": [
+    {
+      "spec": "species:Furret",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/freezing_forests",
+          "minecraft:snowy_plains",
+          "biomesoplenty:tundra",
+		  "biomeswevegone:crimson_tundra"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

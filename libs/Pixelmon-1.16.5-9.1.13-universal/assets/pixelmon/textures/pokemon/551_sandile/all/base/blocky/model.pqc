@@ -1,0 +1,5 @@
+$body blocky.bmd
+$anim idle blockyidle.bmd
+$anim walk blockywalk.bmd
+
+$scale 12.0

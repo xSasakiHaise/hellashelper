@@ -1,0 +1,5 @@
+$body dragapult.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$anim fly walk.bmd
+$scale 1.2

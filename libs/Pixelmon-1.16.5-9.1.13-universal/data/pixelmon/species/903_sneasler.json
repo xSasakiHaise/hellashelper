@@ -1,0 +1,298 @@
+{
+  "name": "Sneasler",
+  "dex": 903,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.3,
+        "width": 1,
+        "length": 1,
+        "eyeHeight": 1.15,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Dire Claw",
+              "Fling",
+              "Leer",
+              "Rock Smash",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Brick Break"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aerial Ace",
+          "Bulk Up",
+          "Calm Mind",
+          "Drain Punch",
+          "False Swipe",
+          "Focus Energy",
+          "Giga Impact",
+          "Hyper Beam",
+          "Iron Tail",
+          "Poison Jab",
+          "Power Shift",
+          "Rest",
+          "Rock Smash",
+          "Shadow Ball",
+          "Shadow Claw",
+          "Snarl",
+          "Swift",
+          "X-Scissor"
+        ],
+        "eggMoves": [
+          "Bite",
+          "Counter",
+          "Double Hit",
+          "Fake Out",
+          "Feint",
+          "Ice Shard",
+          "Icicle Crash",
+          "Spite"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bite",
+          "Counter",
+          "Double Hit",
+          "Fake Out",
+          "Feint",
+          "Ice Shard",
+          "Icicle Crash",
+          "Spite",
+          "Swift",
+          "Swords Dance"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Low Kick",
+          "Acid Spray",
+          "Acrobatics",
+          "Thief",
+          "Trailblaze",
+          "Facade",
+          "Poison Tail",
+          "Aerial Ace",
+          "Metal Claw",
+          "Swift",
+          "Rock Tomb",
+          "Low Sweep",
+          "Fling",
+          "Venoshock",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "False Swipe",
+          "Brick Break",
+          "U-turn",
+          "Shadow Claw",
+          "Bulk Up",
+          "Fire Punch",
+          "Sleep Talk",
+          "Grass Knot",
+          "Poison Jab",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Swords Dance",
+          "Toxic Spikes",
+          "Gunk Shot",
+          "Substitute",
+          "X-Scissor",
+          "Shadow Ball",
+          "Calm Mind",
+          "Reversal",
+          "Nasty Plot",
+          "Sludge Bomb",
+          "Giga Impact",
+          "Focus Blast",
+          "Hyper Beam",
+          "Close Combat",
+          "Tera Blast",
+          "Toxic",
+          "Spite",
+          "Vacuum Wave",
+          "Focus Punch",
+          "Lash Out",
+          "Coaching",
+          "Sludge Wave",
+          "Throat Chop"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Pressure",
+          "Unburden"
+        ],
+        "hiddenAbilities": [
+          "PoisonTouch"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "aggressive": 34,
+        "passive": 33,
+        "timid": 33
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 130,
+        "defense": 60,
+        "specialAttack": 40,
+        "specialDefense": 80,
+        "speed": 120
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 132,
+        "baseFriendship": 35,
+        "spawnLevel": 15,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/903_sneasler/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/903_sneasler/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/903_sneasler/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.sneasler"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/903_sneasler/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/903_sneasler/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIGHTING",
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Sneasel"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "eggCycles": 21,
+      "weight": 43.0,
+      "catchRate": 135,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

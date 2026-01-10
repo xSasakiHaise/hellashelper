@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "card.basep-5.description",
+  "attacks": [
+    {
+      "name": "attack.basep-5.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 60,
+      "text": "attack.basep-5.0.description",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "COLORLESS",
+  "pokemon_id": 149,
+  "ability": {
+    "name": "ability.basep-5.name",
+    "description": "ability.basep-5.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:special_delivery"
+    }
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:promo"
+}

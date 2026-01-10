@@ -1,0 +1,21 @@
+{
+  "id": "Klink Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Klink",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains",
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

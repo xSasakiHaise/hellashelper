@@ -1,0 +1,94 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "axis": "x"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "y"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar"
+      }
+    },
+    {
+      "when": {
+        "axis": "z"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar",
+        "x": 90
+      }
+    },
+
+    {
+      "when": {
+        "axis": "x",
+        "east": "solid|air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_top",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "west": "solid|air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_bottom",
+        "x": 90,
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "axis": "y",
+        "up": "solid|air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_top"
+      }
+    },
+    {
+      "when": {
+        "axis": "y",
+        "down": "solid|air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_bottom"
+      }
+    },
+
+    {
+      "when": {
+        "axis": "z",
+        "north": "solid|air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_top",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "south": "solid|air"
+      },
+      "apply": {
+        "model": "pixelmon:block/temple_pillar_cap_bottom",
+        "x": 90
+      }
+    }
+  ]
+}

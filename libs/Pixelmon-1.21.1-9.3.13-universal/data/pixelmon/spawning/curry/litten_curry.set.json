@@ -1,0 +1,21 @@
+{
+  "id": "Litten Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Litten",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:jungle",
+          "minecraft:bamboo_jungle"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

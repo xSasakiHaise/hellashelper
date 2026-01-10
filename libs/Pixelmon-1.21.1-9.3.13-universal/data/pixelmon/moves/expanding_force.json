@@ -1,0 +1,38 @@
+{
+  "attackIndex": 716,
+  "attackName": "Expanding Force",
+  "attackType": "PSYCHIC",
+  "attackCategory": "SPECIAL",
+  "basePower": 80,
+  "ppBase": 20,
+  "ppMax": 32,
+  "accuracy": 100,
+  "makesContact": false,
+  "effects": [
+    {
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "ExpandingForce"
+    }
+  ],
+  "animations": [
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": false
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:psychium_z",
+      "attackName": "Shattered Psyche",
+      "basePower": 160,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

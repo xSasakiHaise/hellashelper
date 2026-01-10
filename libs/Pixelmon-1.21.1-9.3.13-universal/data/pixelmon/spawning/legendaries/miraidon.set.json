@@ -1,0 +1,25 @@
+{
+  "id": "Miraidon",
+  "spawnInfos": [
+    {
+      "spec": "species:Miraidon level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:small_end_islands"
+        ]
+      },
+      "rarity": 2.0
+    }
+  ]
+}

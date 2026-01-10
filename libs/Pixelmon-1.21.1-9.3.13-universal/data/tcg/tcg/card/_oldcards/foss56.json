@@ -1,0 +1,26 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "",
+  "pokemon_id": 72,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.foss56.name",
+    "description": "ability.foss56.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:bounce"
+    }
+  },
+  "attacks": [
+
+  ],
+  "energies": "WATER"
+}

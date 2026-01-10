@@ -1,0 +1,19 @@
+{
+  "name": "quick_ball",
+  "model": "pixelmon:models/pokeballs/base.pqc",
+  "texture": "pixelmon:textures/pokeballs/quick_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/quick_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/quick_ball",
+  "lidSprite": "pixelmon:item/pokeballs/quick_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/quick_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.QuickBall",
+  "bases": [
+    "platinum"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0.15,
+  "velocityModifier": 1.2,
+  "gravityModifier": 1,
+  "particles": false
+}

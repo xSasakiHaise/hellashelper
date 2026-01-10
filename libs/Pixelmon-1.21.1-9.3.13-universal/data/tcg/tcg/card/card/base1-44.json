@@ -1,0 +1,34 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base1-44.description",
+  "attacks": [
+    {
+      "name": "attack.base1-44.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base1-44.0.description",
+      "effects": [
+        {
+          "type": "tcg:leech_seed",
+          "self": false,
+          "heal_amount": 0,
+          "heal_type": "HalfDamage"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "GRASS",
+  "pokemon_id": 1,
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

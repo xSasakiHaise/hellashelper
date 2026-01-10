@@ -1,0 +1,6 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "layer0": "pixelmon:item/purple_berry_wood_chest_boat"
+  }
+}

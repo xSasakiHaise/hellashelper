@@ -1,0 +1,204 @@
+{
+  "name": "pixelmon:village/xmas/streets",
+  "fallback": "minecraft:village/snowy/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:village/winter/streets/corner_01",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:village/winter/streets/corner_02",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:village/winter/streets/corner_03",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:village/winter/streets/square_01",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "pixelmon:village/winter/streets/straight_01",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "pixelmon:village/winter/streets/straight_02",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "pixelmon:village/winter/streets/straight_03",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "pixelmon:village/winter/streets/straight_04",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "pixelmon:village/winter/streets/straight_06",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "pixelmon:village/winter/streets/straight_08",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/winter/streets/crossroad_01",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:village/winter/streets/crossroad_02",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:village/winter/streets/crossroad_03",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:village/winter/streets/crossroad_04",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:village/winter/streets/crossroad_05",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:village/winter/streets/crossroad_06",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:village/winter/streets/turn_01",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pixelmon:village/snowy/snowy_battle_arena_a",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pixelmon:village/snowy/snowy_battle_arena_b",
+        "processors": "minecraft:street_snowy_or_taiga",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "pixelmon:village/winter/elf_workshop",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "pixelmon:village/winter/gingerbread_house",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "pixelmon:village/winter/xmas_tree",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

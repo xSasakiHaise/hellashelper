@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+		      "item" : "pixelmon:pixelmon_sprite",
+		      "count": 1,
+		      "components": {
+		        "minecraft:custom_data": {
+		          "ndex": 95,
+		          "palette": "crystal",
+		          "form": ""
+		        }
+		      }
+		},
+		"title": {
+			"translate": "advancements.crystal_onix.title"
+		},
+		"description": {
+			"translate": "advancements.crystal_onix.description"
+		},
+		"hidden": true
+	},
+    "parent" : "pixelmon:specs/spec_trigger",
+	"criteria": {
+		"crystal_onix_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Onix palette:crystal"
+			}
+		}
+	}
+}

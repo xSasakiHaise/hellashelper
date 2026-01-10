@@ -1,0 +1,23 @@
+{
+  "id": "Comfey Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Comfey",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

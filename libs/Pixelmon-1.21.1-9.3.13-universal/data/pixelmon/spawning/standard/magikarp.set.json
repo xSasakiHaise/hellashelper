@@ -1,0 +1,103 @@
+{
+  "id": "Magikarp",
+  "spawnInfos": [
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/freezing",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/magical",
+          "#pixelmon:spawning/lakes",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Magikarp",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/drowned",
+          "#pixelmon:spawning/ultra_space"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Magikarp palette:valencian",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Magikarp",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 5.0
+    }
+  ]
+}

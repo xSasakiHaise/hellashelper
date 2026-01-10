@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/decorative/letterbox/letterbox",
+  "textures": {
+    "colour": "pixelmon:block/letterbox/purple",
+    "particle": "pixelmon:block/letterbox/purple"
+  }
+}

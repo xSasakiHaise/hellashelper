@@ -1,0 +1,17 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:tropical_fish"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "bruxish",
+      "finneon",
+      "goldeen",
+      "luvdisc"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "pixelmon:ultra_space/root",
+  "display": {
+    "icon": {
+      "item": "pixelmon:ultra_desert_cactus"
+    },
+    "title": {
+      "translate": "advancements.ultra_space.ultra_desert_poison.title"
+    },
+    "description": {
+      "translate": "advancements.ultra_space.ultra_desert_poison.description"
+    },
+    "background": "pixelmon:textures/gui/advancements/backgrounds/ruinswall.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ultra_desert_poison": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "pixelmon:ultra_desert_cactus"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ultra_desert_poison"
+    ]
+  ]
+}

@@ -1,0 +1,43 @@
+{
+    "id": "Grafaiai Headbutt",
+    "spawnInfos": [
+      {
+        "spec": "species:Grafaiai status:Sleep",
+        "stringLocationTypes": [
+          "Headbutt"
+        ],
+        "minLevel": 10,
+        "maxLevel": 25,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAWN",
+            "DAY"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/jungles"
+          ]
+        },
+        "rarity": 50.0
+      },
+      {
+        "spec": "species:Grafaiai",
+        "stringLocationTypes": [
+          "Headbutt"
+        ],
+        "minLevel": 10,
+        "maxLevel": 25,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DUSK",
+            "NIGHT"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/jungles"
+          ]
+        },
+        "rarity": 50.0
+      }
+    ]
+  }

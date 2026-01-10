@@ -1,0 +1,5 @@
+$body decidueye.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$anim fly fly.bmd
+$scale 4.4

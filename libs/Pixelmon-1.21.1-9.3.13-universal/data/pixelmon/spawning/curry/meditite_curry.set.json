@@ -1,0 +1,20 @@
+{
+  "id": "Meditite Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Meditite",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 13,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

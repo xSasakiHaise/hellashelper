@@ -1,0 +1,48 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 49,
+  "previous_pokemon_id": 48,
+  "retreat_cost": 0,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.jung13.name",
+    "description": "ability.jung13.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:shift"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG13.1.name",
+      "costs": [
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 10,
+      "text": "attack.JUNG13.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "CONFUSED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        },
+        {
+          "type": "tcg:condition",
+          "condition": "POISONED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

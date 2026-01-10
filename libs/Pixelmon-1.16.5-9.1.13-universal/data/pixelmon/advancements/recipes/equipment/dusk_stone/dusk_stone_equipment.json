@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/dusk_stone/dusk_stone_axe",
+      "pixelmon:equipment/dusk_stone/dusk_stone_boots",
+      "pixelmon:equipment/dusk_stone/dusk_stone_hammer",
+      "pixelmon:equipment/dusk_stone/dusk_stone_helm",
+      "pixelmon:equipment/dusk_stone/dusk_stone_hoe",
+      "pixelmon:equipment/dusk_stone/dusk_stone_legs",
+      "pixelmon:equipment/dusk_stone/dusk_stone_pickaxe",
+      "pixelmon:equipment/dusk_stone/dusk_stone_plate",
+      "pixelmon:equipment/dusk_stone/dusk_stone_shovel",
+      "pixelmon:equipment/dusk_stone/dusk_stone_sword"
+    ]
+  },
+  "criteria": {
+    "has_dusk_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:dusk_stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dusk_stone"
+    ]
+  ]
+}

@@ -1,0 +1,69 @@
+{
+    "id": "Stunfisk Fishing",
+    "spawnInfos": [
+      {
+        "spec": "species:Stunfisk",
+        "stringLocationTypes": [
+          "Good Rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/swamps",
+            "pixelmon:ultra_plant"
+          ]
+        },
+        "rarity": 15.0
+      },
+      {
+        "spec": "species:Stunfisk",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/swamps",
+            "pixelmon:ultra_plant"
+          ]
+        },
+        "rarity": 20.0
+      },
+      {
+        "spec": "species:Stunfisk form:galarian",
+        "stringLocationTypes": [
+          "Good Rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/swamps",
+            "pixelmon:ultra_plant"
+          ]
+        },
+        "rarity": 15.0
+      },
+      {
+        "spec": "species:Stunfisk form:galarian",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/swamps",
+            "pixelmon:ultra_plant"
+          ]
+        },
+        "rarity": 20.0
+      }
+    ]
+  }

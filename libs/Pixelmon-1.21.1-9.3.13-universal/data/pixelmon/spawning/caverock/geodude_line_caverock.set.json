@@ -1,0 +1,73 @@
+{
+  "id": "Geodude Line Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Geodude",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Geodude form:alolan",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/freezing_mountains",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Graveler",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 18,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Graveler form:alolan",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 18,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/freezing_mountains",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

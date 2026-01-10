@@ -1,0 +1,13 @@
+{
+  "modifiers": [],
+  "requirements":  [
+    {
+      "requirement": {
+        "type": "pixelmon:no_duplicate_species"
+      },
+      "reason": {
+        "translate": "gui.battlerules.description.species"
+      }
+    }
+  ]
+}

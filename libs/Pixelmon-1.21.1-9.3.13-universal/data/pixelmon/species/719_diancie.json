@@ -1,0 +1,620 @@
+{
+  "name": "Diancie",
+  "dex": 719,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Diamond Storm",
+              "Harden",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Guard Split"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Skill Swap"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam",
+          "Misty Explosion",
+          "Terrain Pulse"
+        ],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Fake Tears",
+          "Protect",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Rock Tomb",
+          "Draining Kiss",
+          "Stored Power",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Snowscape",
+          "Psyshock",
+          "Body Slam",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Metronome",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Spikes",
+          "Flash Cannon",
+          "Skill Swap",
+          "Power Gem",
+          "Substitute",
+          "Iron Defense",
+          "Stealth Rock",
+          "Psychic",
+          "Encore",
+          "Play Rough",
+          "Amnesia",
+          "Calm Mind",
+          "Helping Hand",
+          "Baton Pass",
+          "Earth Power",
+          "Stone Edge",
+          "Giga Impact",
+          "Trick Room",
+          "Hyper Beam",
+          "Tera Blast",
+          "Sand Tomb",
+          "Gravity",
+          "Smack Down",
+          "Gyro Ball",
+          "Misty Explosion",
+          "Psych Up",
+          "Endeavor",
+          "Scorching Sands",
+          "Meteor Beam"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Sandstorm",
+          "Sunny Day",
+          "Hail",
+          "Facade",
+          "Helping Hand",
+          "Fake Tears",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Guard Swap",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Draining Kiss",
+          "Mystical Fire"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Metronome",
+          "Amnesia",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Gyro Ball",
+          "Power Gem",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Stored Power",
+          "Ally Switch",
+          "Play Rough",
+          "Dazzling Gleam",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Endeavor",
+          "Explosion",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Heal Bell",
+          "Hidden Power",
+          "Last Resort",
+          "Magnet Rise",
+          "Nature Power",
+          "Psych Up",
+          "Return",
+          "Rock Throw",
+          "Secret Power",
+          "Sharpen",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ClearBody"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 100,
+        "defense": 150,
+        "specialAttack": 100,
+        "specialDefense": 150,
+        "speed": 50
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/719_diancie/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.diancie",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/719_diancie/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/719_diancie/all/base/none/diancie.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/719_diancie/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/719_diancie/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.3
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/719_diancie/all/base/none/texture.png",
+                      "texture_transparency": 0.5,
+                      "model": "pixelmon:pokemon/719_diancie/all/base/none/dianciecrystals.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/719_diancie/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/719_diancie/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.3
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/719_diancie/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/719_diancie/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/719_diancie/all/base/none/diancie.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/719_diancie/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/719_diancie/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.3
+                    },
+                    {
+                      "texture_transparency": 0.5,
+                      "texture": "pixelmon:pokemon/719_diancie/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/719_diancie/all/base/none/dianciecrystals.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/719_diancie/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/719_diancie/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.3
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ROCK",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [
+        "pixelmon:diancite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 8.8,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "defense": 1,
+        "specialDefense": 2
+      },
+      "growth_data": {
+        "mean": 90.0,
+        "standard_deviation": 4.5,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp",
+        "mega"
+      ],
+      "abilities": {
+        "abilities": [
+          "MagicBounce"
+        ]
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 160,
+        "defense": 110,
+        "specialAttack": 160,
+        "specialDefense": 110,
+        "speed": 110
+      },
+      "weight": 27.8,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/719_diancie/all/mega/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/719_diancie/all/mega/none/texture.png",
+                      "model": "pixelmon:pokemon/719_diancie/all/mega/none/megadiancie.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/719_diancie/all/mega/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/719_diancie/all/mega/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.75
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/719_diancie/all/mega/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/719_diancie/all/mega/shiny/texture.png",
+                      "model": "pixelmon:pokemon/719_diancie/all/mega/none/megadiancie.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/719_diancie/all/mega/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/719_diancie/all/mega/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.75
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 6
+}

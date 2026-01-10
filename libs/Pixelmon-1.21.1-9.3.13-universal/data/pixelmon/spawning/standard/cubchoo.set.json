@@ -1,0 +1,28 @@
+{
+  "id": "Cubchoo",
+  "spawnInfos": [
+    {
+      "spec": "species:Cubchoo",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 22,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:frozen_river",
+          "minecraft:frozen_ocean",
+          "minecraft:snowy_beach",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra",
+          "biomeswevegone:crimson_tundra",
+          "biomeswevegone:shattered_glacier"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

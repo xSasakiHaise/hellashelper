@@ -1,0 +1,16 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:salmon"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "magikarp",
+      "arrokuda",
+      "barboach"
+    ]
+  }
+}

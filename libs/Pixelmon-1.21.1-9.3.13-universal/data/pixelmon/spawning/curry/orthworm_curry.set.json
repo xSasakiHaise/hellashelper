@@ -1,0 +1,21 @@
+{
+    "id": "Orthworm",
+    "spawnInfos": [
+      {
+        "spec": "species:Orthworm",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 25,
+        "maxLevel": 55,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/arid"
+          ]
+        },
+        "rarity": 20.0
+      }
+    ]
+  }
+  

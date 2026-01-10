@@ -1,0 +1,29 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 85,
+  "previous_pokemon_id": 84,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC32.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 50,
+      "text": "attack.GYMC32.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

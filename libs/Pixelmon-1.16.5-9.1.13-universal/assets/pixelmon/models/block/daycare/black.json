@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/daycare/day_care",
+  "textures": {
+    "1": "pixelmon:block/daycare/black",
+    "particle": "pixelmon:block/daycare/black"
+  }
+}

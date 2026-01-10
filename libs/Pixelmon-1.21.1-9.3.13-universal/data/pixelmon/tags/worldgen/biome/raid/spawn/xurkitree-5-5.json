@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    {
+      "required": false,
+      "id": "terralith:birch_taiga"
+    },
+    {
+      "required": false,
+      "id": "terralith:white_cliffs"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_plant"
+    }
+  ]
+}

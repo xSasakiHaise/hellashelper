@@ -1,0 +1,49 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base3-37.description",
+  "attacks": [
+    {
+      "name": "attack.base3-37.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base3-37.0.description",
+      "effects": [
+        {
+          "type": "tcg:harden",
+          "self": false,
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "name": "attack.base3-37.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base3-37.1.description",
+      "effects": [
+        {
+          "type": "tcg:harden",
+          "amount": 30
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "FIGHTING",
+  "pokemon_id": 75,
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "pixelmon:npc/nurse/fairy",
+  "fallback": "pixelmon:npc/nurse/fairy",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:npc/pokecenter/fairy/nurse",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/pokecenter/fairy/doctor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

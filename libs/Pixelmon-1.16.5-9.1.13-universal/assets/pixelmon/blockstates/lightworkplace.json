@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/lightworkplace"
+    },
+    "facing=east": {
+      "model": "pixelmon:block/lightworkplace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pixelmon:block/lightworkplace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixelmon:block/lightworkplace",
+      "y": 270
+    }
+  }
+}

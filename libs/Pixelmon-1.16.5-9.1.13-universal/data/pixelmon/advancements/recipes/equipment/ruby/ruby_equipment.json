@@ -1,0 +1,35 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/ruby/ruby_axe",
+      "pixelmon:equipment/ruby/ruby_block",
+      "pixelmon:equipment/ruby/ruby_boots",
+      "pixelmon:equipment/ruby/ruby_from_block",
+      "pixelmon:equipment/ruby/ruby_hammer",
+      "pixelmon:equipment/ruby/ruby_helm",
+      "pixelmon:equipment/ruby/ruby_hoe",
+      "pixelmon:equipment/ruby/ruby_leggs",
+      "pixelmon:equipment/ruby/ruby_pickaxe",
+      "pixelmon:equipment/ruby/ruby_plate",
+      "pixelmon:equipment/ruby/ruby_shovel",
+      "pixelmon:equipment/ruby/ruby_sword"
+    ]
+  },
+  "criteria": {
+    "has_ruby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:gems/ruby"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ruby"
+    ]
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.gym2-37.description",
+  "attacks": [
+    {
+      "name": "attack.gym2-37.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.gym2-37.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "BENCH",
+          "count": 1,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "attack.gym2-37.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.gym2-37.1.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "BENCH",
+          "count": 1,
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIRE",
+  "pokemon_id": 37,
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

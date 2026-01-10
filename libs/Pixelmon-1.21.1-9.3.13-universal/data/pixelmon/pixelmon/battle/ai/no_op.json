@@ -1,0 +1,8 @@
+{
+  "name":  {
+    "translate": "pixelmon.battle.ai.no_op"
+  },
+  "ai": {
+    "type" : "pixelmon:no_op"
+  }
+}

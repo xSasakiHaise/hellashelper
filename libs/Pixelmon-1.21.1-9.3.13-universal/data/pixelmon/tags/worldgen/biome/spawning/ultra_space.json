@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_forest",
+    "pixelmon:ultra_deep_sea",
+    "pixelmon:ultra_jungle",
+    "pixelmon:ultra_plant",
+    "pixelmon:ultra_crater",
+    "pixelmon:ultra_desert"
+  ]
+}

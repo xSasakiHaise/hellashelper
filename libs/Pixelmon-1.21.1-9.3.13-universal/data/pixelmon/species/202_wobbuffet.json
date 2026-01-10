@@ -1,0 +1,360 @@
+{
+  "name": "Wobbuffet",
+  "dex": 202,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.45,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 1.45,
+        "hoverHeight": 1.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Amnesia",
+              "Charm",
+              "Counter",
+              "Destiny Bond",
+              "Encore",
+              "Mirror Coat",
+              "Safeguard",
+              "Splash"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [],
+        "tmMoves8": [
+          "Safeguard",
+          "Charm"
+        ],
+        "trMoves": [
+          "Amnesia",
+          "Encore"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Tickle"
+        ],
+        "tmMoves7": [
+          "Safeguard"
+        ],
+        "tmMoves6": [
+          "Safeguard"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShadowTag"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 190,
+        "attack": 33,
+        "defense": 58,
+        "specialAttack": 33,
+        "specialDefense": 58,
+        "speed": 33
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 177,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "MALE",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/male/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.wobbuffet",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/202_wobbuffet/male/base/none/texture.png",
+                      "model": "pixelmon:pokemon/202_wobbuffet/male/base/none/wobbuffet.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/male/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/male/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.62
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/male/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/202_wobbuffet/male/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/202_wobbuffet/male/base/none/wobbuffet.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/male/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/male/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.62
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "online",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/male/base/online/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/202_wobbuffet/male/base/online/texture.png",
+                      "model": "pixelmon:pokemon/202_wobbuffet/male/base/online/wobbeeffet.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/male/base/online/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/male/base/online/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.62
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "gender": "FEMALE",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/female/base/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/202_wobbuffet/female/base/none/texture.png",
+                      "model": "pixelmon:pokemon/202_wobbuffet/female/base/none/wobbuffet.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/female/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/female/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.62
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/female/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/202_wobbuffet/female/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/202_wobbuffet/female/base/none/wobbuffet.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/female/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/female/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.62
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "online",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/female/base/online/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/202_wobbuffet/female/base/online/texture.png",
+                      "model": "pixelmon:pokemon/202_wobbuffet/female/base/online/wobbeeffet.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/female/base/online/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/202_wobbuffet/female/base/online/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.62
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Wynaut"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.5,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      },
+      "growth_data": {
+        "mean": 145.0,
+        "standard_deviation": 7.25,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 2
+}

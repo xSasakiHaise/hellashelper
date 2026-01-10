@@ -1,0 +1,131 @@
+{
+  "id": "Froakie Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Froakie",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Froakie",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Frogadier",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 20,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.3
+    },
+    {
+      "spec": "species:Frogadier",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Greninja",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 7.0
+    },
+    {
+      "spec": "species:Greninja form:battle_bond ivhp:20 ivspdef:20 ivdef:20 ivatk:31 ivspatk:31 ivspd:31 gender:male",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Greninja form:battle_bond ivhp:20 ivspdef:20 ivdef:20 ivatk:31 ivspatk:31 ivspd:31 gender:male",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Greninja palette:alter form:battle_bond ivhp:20 ivspdef:20 ivdef:20 ivatk:31 ivspatk:31 ivspd:31 gender:male",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

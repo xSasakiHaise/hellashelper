@@ -1,0 +1,46 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "",
+  "pokemon_id": 137,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE39.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.BASE39.1.text",
+      "effects": [
+        {
+          "type": "tcg:change_weakness",
+          "self": false
+        }
+      ]
+    },
+    {
+      "name": "attack.BASE39.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.BASE39.2.text",
+      "effects": [
+        {
+          "type": "tcg:change_resistance",
+          "self": true
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

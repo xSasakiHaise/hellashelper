@@ -1,0 +1,61 @@
+{
+  "id": 538,
+  "setId": 7,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 70,
+  "energy1": "PSYCHIC",
+  "energy2": null,
+  "pokemonId": 97,
+  "code": "GYMC56",
+  "name": "card.GYMC56.name",
+  "description": "",
+  "previousPokemonId": 96,
+  "cardAttacks": [
+    {
+      "card": "GYMC56",
+      "index": 1,
+      "name": "attack.GYMC56.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.GYMC56.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMC56",
+      "index": 2,
+      "name": "attack.GYMC56.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "modifier": null,
+      "text": "attack.GYMC56.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "PSYCHIC",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 2,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

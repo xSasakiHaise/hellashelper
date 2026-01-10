@@ -1,0 +1,4 @@
+$body walkingwake.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 28.0

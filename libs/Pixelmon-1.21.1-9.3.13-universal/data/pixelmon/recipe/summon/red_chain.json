@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pixelmon:ruby_azelf"
+    },
+    {
+      "item": "pixelmon:ruby_mesprit"
+    },
+    {
+      "item": "pixelmon:ruby_uxie"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:red_chain"
+  }
+}

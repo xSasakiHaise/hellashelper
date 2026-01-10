@@ -1,0 +1,4 @@
+$body exeggcute.bmd
+$anim idle idle.bmd
+$anim walk idle.bmd
+$scale 1.2

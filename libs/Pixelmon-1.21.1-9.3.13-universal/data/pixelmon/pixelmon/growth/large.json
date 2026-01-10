@@ -1,0 +1,7 @@
+{
+  "range": {
+    "type": "pixelmon:greater_than",
+    "min": 2.0
+  },
+  "sprite": "pixelmon:textures/growth/l.png"
+}

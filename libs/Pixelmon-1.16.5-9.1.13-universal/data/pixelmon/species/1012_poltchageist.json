@@ -1,0 +1,282 @@
+{
+  "name": "Poltchageist",
+  "dex": 1012,
+  "defaultForms": [
+    "counterfeit",
+    "artisan"
+  ],
+  "forms": [
+    {
+      "name": "counterfeit",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.1,
+        "width": 0.1,
+        "length": 1.0,
+        "eyeHeight": 0.1,
+        "hoverHeight": 0.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Stun Spore",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Life Dew"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rage Powder"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Protect",
+          "Hex",
+          "Magical Leaf",
+          "Night Shade",
+          "Endure",
+          "Foul Play",
+          "Sleep Talk",
+          "Reflect",
+          "Rest",
+          "Imprison",
+          "Substitute",
+          "Iron Defense",
+          "Giga Drain",
+          "Shadow Ball",
+          "Energy Ball",
+          "Calm Mind",
+          "Grassy Terrain",
+          "Nasty Plot",
+          "Phantom Force",
+          "Leaf Storm",
+          "Trick Room",
+          "Solar Beam",
+          "Tera Blast",
+          "Spite",
+          "Scald",
+          "Uproar",
+          "Poltergeist"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Hospitality"
+        ],
+        "hiddenAbilities": [
+          "Heatproof"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 45,
+        "specialAttack": 74,
+        "specialDefense": 54,
+        "speed": 50
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 62,
+        "baseFriendship": 50,
+        "spawnLevel": 34,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1012_poltchageist/all/counterfeit/none/texture.png",
+              "sprite": "pixelmon:pokemon/1012_poltchageist/all/counterfeit/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1012_poltchageist/all/counterfeit/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1012_poltchageist/all/counterfeit/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GRASS",
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 1.1,
+      "catchRate": 120,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:unremarkable_teacup"
+          },
+          "to": "Sinistcha form:unremarkable",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": []
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "artisan",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1012_poltchageist/all/artisan/none/texture.png",
+              "sprite": "pixelmon:pokemon/1012_poltchageist/all/artisan/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1012_poltchageist/all/artisan/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1012_poltchageist/all/artisan/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:masterpiece_teacup"
+          },
+          "to": "Sinistcha form:masterpiece",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": []
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 9
+}

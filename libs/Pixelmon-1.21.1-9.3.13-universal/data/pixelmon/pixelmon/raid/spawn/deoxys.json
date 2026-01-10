@@ -1,0 +1,48 @@
+{
+  "spawns": [
+    {
+      "spec": "Deoxys",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/deoxys-5-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Deoxys",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/deoxys-attack-5-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Deoxys form:speed",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/deoxys-speed-5-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Deoxys form:defense",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/deoxys-defense-5-5",
+      "weight": 1.0
+    }
+  ]
+}

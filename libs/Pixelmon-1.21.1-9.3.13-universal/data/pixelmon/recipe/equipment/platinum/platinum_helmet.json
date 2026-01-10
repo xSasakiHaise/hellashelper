@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "c:ingots/platinum"
+    }
+  },
+  "result": {
+    "id": "pixelmon:platinum_helmet",
+    "count": 1
+  }
+}

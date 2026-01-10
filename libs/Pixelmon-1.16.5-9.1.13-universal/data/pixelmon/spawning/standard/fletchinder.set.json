@@ -1,0 +1,46 @@
+{
+  "id": "Fletchinder",
+  "spawnInfos": [
+    {
+      "spec": "species:Fletchinder",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "birches",
+          "freezing forests",
+          "taigas"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Fletchling",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 90.0
+    }
+  ]
+}

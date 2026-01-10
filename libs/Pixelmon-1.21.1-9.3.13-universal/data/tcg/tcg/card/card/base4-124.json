@@ -1,0 +1,9 @@
+{
+  "special": true,
+  "hp": 0,
+  "description": "card.base4-124.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "energies": "COLORLESS",
+  "rarity": "tcg:uncommon"
+}

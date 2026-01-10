@@ -1,0 +1,50 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 65,
+  "previous_pokemon_id": 64,
+  "retreat_cost": 3,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO18.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.TERO18.1.text",
+      "effects": [
+        {
+          "type": "tcg:switch_pokemon",
+          "self_action": true,
+          "self_target": true,
+          "optional": true
+        }
+      ]
+    },
+    {
+      "name": "attack.TERO18.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.TERO18.2.text",
+      "effects": [
+        {
+          "type": "tcg:ignore_stats"
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

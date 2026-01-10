@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:moon_stone_ore",
+    "pixelmon:ice_stone_ore",
+    "pixelmon:shiny_stone_ore",
+    "pixelmon:thunder_stone_ore",
+    "pixelmon:leaf_stone_ore",
+    "pixelmon:water_stone_ore",
+    "pixelmon:fire_stone_ore",
+    "pixelmon:sun_stone_ore",
+    "pixelmon:dusk_stone_ore",
+    "pixelmon:dawn_stone_ore",
+    "pixelmon:bauxite_ore",
+    "pixelmon:silver_ore",
+    "pixelmon:platinum_ore",
+    "pixelmon:ruby_ore",
+    "pixelmon:sapphire_ore",
+    "pixelmon:amethyst_ore",
+    "pixelmon:crystal_ore",
+    "pixelmon:silicon_ore"
+  ]
+}

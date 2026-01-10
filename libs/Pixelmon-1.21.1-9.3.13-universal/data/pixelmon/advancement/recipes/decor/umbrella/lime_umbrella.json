@@ -1,0 +1,31 @@
+{
+	"rewards": {
+		"recipes": [
+			"pixelmon:decor/umbrella/lime_umbrella"
+		]
+	},
+	"criteria": {
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "pixelmon:decor/umbrella/lime_umbrella"
+			}
+		},
+		"has_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+            "items": "minecraft:lime_wool"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_wool"
+		]
+	]
+}

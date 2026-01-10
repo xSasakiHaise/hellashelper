@@ -1,0 +1,28 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 63,
+  "previous_pokemon_id": null,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH91.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH91.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

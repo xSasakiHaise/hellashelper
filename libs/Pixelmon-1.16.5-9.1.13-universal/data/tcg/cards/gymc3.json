@@ -1,0 +1,46 @@
+{
+  "id": 509,
+  "setId": 7,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 70,
+  "energy1": "FIRE",
+  "energy2": null,
+  "pokemonId": 38,
+  "code": "GYMC3",
+  "name": "card.GYMC3.name",
+  "description": "",
+  "previousPokemonId": 37,
+  "cardAttacks": [
+    {
+      "card": "GYMC3",
+      "index": 1,
+      "name": "attack.GYMC3.1.name",
+      "costs": [
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 30,
+      "modifier": null,
+      "text": "attack.GYMC3.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "WATER",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "HOLORARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

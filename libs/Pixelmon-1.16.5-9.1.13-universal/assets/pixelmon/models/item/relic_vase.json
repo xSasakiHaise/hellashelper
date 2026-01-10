@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "particle": "pixelmon:items/valuables/relic_vase",
+    "layer0": "pixelmon:items/valuables/relic_vase"
+  }
+}

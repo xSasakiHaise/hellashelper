@@ -1,0 +1,6 @@
+{
+  "name": {
+    "translate": "pixelmon.camera.filter.creeper"
+  },
+  "post_process_shader": "minecraft:shaders/post/creeper.json"
+}

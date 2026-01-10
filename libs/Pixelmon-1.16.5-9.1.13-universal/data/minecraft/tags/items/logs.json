@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:berry_log",
+    "pixelmon:apricorn_log",
+    "pixelmon:ultra_jungle_log",
+    "pixelmon:ultra_jungle_wood",
+    "pixelmon:stripped_ultra_jungle_log",
+    "pixelmon:stripped_ultra_jungle_wood",
+    "pixelmon:ultra_gingko_log",
+    "pixelmon:ultra_gingko_wood",
+    "pixelmon:stripped_ultra_gingko_log",
+    "pixelmon:stripped_ultra_gingko_wood",
+    "pixelmon:ultra_elm_log",
+    "pixelmon:ultra_elm_wood",
+    "pixelmon:stripped_ultra_elm_log",
+    "pixelmon:stripped_ultra_elm_wood"
+  ]
+}

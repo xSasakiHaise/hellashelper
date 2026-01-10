@@ -1,0 +1,6 @@
+$body magikarp.bmd
+$anim swim swim.bmd
+$anim idle idle.bmd
+$anim idleswim idleswim.bmd
+$anim walk walk.bmd
+$scale 2

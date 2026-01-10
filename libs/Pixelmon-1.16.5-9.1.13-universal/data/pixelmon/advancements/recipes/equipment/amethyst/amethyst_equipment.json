@@ -1,0 +1,31 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/amethyst/amethyst_axe",
+      "pixelmon:equipment/amethyst/amethyst_block",
+      "pixelmon:equipment/amethyst/amethyst_from_block",
+      "pixelmon:equipment/amethyst/amethyst_hammer",
+      "pixelmon:equipment/amethyst/amethyst_hoe",
+      "pixelmon:equipment/amethyst/amethyst_pickaxe",
+      "pixelmon:equipment/amethyst/amethyst_shovel",
+      "pixelmon:equipment/amethyst/amethyst_sword"
+    ]
+  },
+  "criteria": {
+    "has_amethyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:gems/amethyst"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_amethyst"
+    ]
+  ]
+}

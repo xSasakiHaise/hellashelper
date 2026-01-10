@@ -1,0 +1,74 @@
+{
+  "id": "Exeggcute Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Exeggcute",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:psychic_seed",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "jungles",
+          "biomesoplenty:tropic_beach"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Exeggutor",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "jungles",
+          "biomesoplenty:tropic_beach"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Exeggutor form:alolan",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:jungle_edge",
+          "biomesoplenty:tropic_beach"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

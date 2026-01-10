@@ -1,0 +1,140 @@
+{
+  "id": "Basculin Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Basculin form:red",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_tooth",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "pixelmon:ultra_jungle",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Basculin form:red",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_tooth",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "pixelmon:ultra_jungle",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Basculin form:blue",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "pixelmon:ultra_jungle",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Basculin form:blue",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "pixelmon:ultra_jungle",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Basculin form:white",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/lakes",
+          "pixelmon:ultra_jungle",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Basculegion",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/lakes",
+          "byg:dead_sea",
+          "pixelmon:ultra_jungle",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

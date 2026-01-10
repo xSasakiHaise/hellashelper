@@ -1,0 +1,33 @@
+{
+  "name": "pixelmon:npc/shopkeeper/ghost/mart_main",
+  "fallback": "pixelmon:npc/shopkeeper/ghost/mart_main",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/ghost/main_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/ghost/main_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/ghost/main_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

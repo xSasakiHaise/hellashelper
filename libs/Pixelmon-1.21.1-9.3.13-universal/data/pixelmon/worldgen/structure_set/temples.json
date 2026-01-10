@@ -1,0 +1,25 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:temples/land_chalice",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:temples/water_chalice",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:temples/spear_pillar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 620787361,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "frequency": 0.5,
+    "spacing": 50,
+    "separation": 40
+  }
+}

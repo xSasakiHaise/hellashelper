@@ -1,0 +1,26 @@
+{
+  "id": "Scraggy Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Scraggy",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

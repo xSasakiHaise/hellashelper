@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    {
+      "required": false,
+      "id": "terralith:birch_taiga"
+    },
+    {
+      "required": false,
+      "id": "terralith:white_cliffs"
+    },
+    "minecraft:river",
+    {
+      "required": false,
+      "id": "terralith:desert_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:red_oasis"
+    }
+  ]
+}

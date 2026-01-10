@@ -1,0 +1,95 @@
+{
+  "id": "Arrokuda Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Arrokuda",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Arrokuda",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Barraskewda",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 26,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/rivers",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Barraskewda",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/rivers",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

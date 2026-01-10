@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "pixelmon:poke_ball",
+      "count": 1,
+      "components": {
+        "pixelmon:poke_ball": "lure_ball"
+      }
+    },
+    "title": {
+      "translate": "advancements.lure_ball_capture.title"
+    },
+    "description": {
+      "translate": "advancements.lure_ball_capture.description"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "lure_ball_capture"
+    ]
+  ],
+  "parent": "pixelmon:balls/ball_capture_trigger",
+  "criteria": {
+    "lure_ball_capture": {
+      "trigger": "pixelmon:ball_capture_trigger",
+      "conditions": {
+        "pokeball": "lure_ball"
+      }
+    }
+  }
+}

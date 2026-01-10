@@ -1,0 +1,4 @@
+$body eternatus.bmd
+$anim idle idle.bmd
+$anim special special.bmd
+$scale 5.0

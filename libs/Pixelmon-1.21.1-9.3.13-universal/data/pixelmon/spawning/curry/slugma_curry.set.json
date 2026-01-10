@@ -1,0 +1,22 @@
+{
+  "id": "Slugma Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Slugma",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

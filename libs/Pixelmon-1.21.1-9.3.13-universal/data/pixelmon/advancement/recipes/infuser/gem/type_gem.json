@@ -1,0 +1,43 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:infuser/gem/bug_gem",
+      "pixelmon:infuser/gem/dark_gem",
+      "pixelmon:infuser/gem/dragon_gem",
+      "pixelmon:infuser/gem/electric_gem",
+      "pixelmon:infuser/gem/fairy_gem",
+      "pixelmon:infuser/gem/fighting_gem",
+      "pixelmon:infuser/gem/fire_gem",
+      "pixelmon:infuser/gem/flying_gem",
+      "pixelmon:infuser/gem/ghost_gem",
+      "pixelmon:infuser/gem/grass_gem",
+      "pixelmon:infuser/gem/ground_gem",
+      "pixelmon:infuser/gem/ice_gem",
+      "pixelmon:infuser/gem/normal_gem",
+      "pixelmon:infuser/gem/poison_gem",
+      "pixelmon:infuser/gem/psychic_gem",
+      "pixelmon:infuser/gem/rock_gem",
+      "pixelmon:infuser/gem/steel_gem",
+      "pixelmon:infuser/gem/water_gem"
+    ]
+  },
+  "criteria": {
+    "has_crystal_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:crystal_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crystal_block"
+    ]
+  ]
+}

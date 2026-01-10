@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "card.base2-24.description",
+  "attacks": [
+    {
+      "name": "attack.base2-24.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base2-24.0.description",
+      "effects": [
+        {
+          "type": "tcg:hurricane"
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-24.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base2-24.1.description",
+      "effects": [
+        {
+          "type": "tcg:hurricane",
+          "self": false
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "COLORLESS",
+  "pokemon_id": 18,
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:rare"
+}

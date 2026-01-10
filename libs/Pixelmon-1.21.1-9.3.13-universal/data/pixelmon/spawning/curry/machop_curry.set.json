@@ -1,0 +1,26 @@
+{
+  "id": "Machop Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Machop",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:focus_band",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

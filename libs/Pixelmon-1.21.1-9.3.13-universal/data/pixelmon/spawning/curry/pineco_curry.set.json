@@ -1,0 +1,22 @@
+{
+  "id": "Pineco Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pineco",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

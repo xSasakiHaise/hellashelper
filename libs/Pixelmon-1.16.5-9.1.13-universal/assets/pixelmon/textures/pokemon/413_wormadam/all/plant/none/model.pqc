@@ -1,0 +1,5 @@
+$body wormadamPlant.bmd
+$anim idle plantIdle.bmd
+$anim fly plantWalk.bmd
+$anim walk plantWalk.bmd
+$scale 2.2

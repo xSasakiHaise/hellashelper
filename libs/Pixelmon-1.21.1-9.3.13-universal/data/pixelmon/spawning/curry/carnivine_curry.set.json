@@ -1,0 +1,20 @@
+{
+  "id": "Carnivine Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Carnivine",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 21,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

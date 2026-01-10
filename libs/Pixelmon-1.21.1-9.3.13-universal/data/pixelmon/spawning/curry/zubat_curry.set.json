@@ -1,0 +1,23 @@
+{
+  "id": "Zubat Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Zubat",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

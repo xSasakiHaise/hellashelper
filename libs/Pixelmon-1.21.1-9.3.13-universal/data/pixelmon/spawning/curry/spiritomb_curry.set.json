@@ -1,0 +1,20 @@
+{
+  "id": "Spiritomb Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Spiritomb",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

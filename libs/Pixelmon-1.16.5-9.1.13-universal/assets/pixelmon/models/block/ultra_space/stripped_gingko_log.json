@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pixelmon:block/ultra_space/gingko_log_top",
+    "side": "pixelmon:block/ultra_space/stripped_gingko_log"
+  }
+}

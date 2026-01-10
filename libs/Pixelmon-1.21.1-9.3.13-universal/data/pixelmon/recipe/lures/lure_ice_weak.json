@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "weak_lure",
+  "ingredients": [
+    {
+      "item": "pixelmon:lure_casing_weak"
+    },
+    {
+      "item": "pixelmon:yache_berry"
+    },
+    {
+      "item": "pixelmon:oran_berry"
+    },
+    {
+      "item": "pixelmon:leppa_berry"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:lure_ice_weak",
+    "count": 1
+  }
+}

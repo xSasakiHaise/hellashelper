@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#pixelmon:spawning/oceanic",
+  "step": "raw_generation",
+  "features": [
+    "pixelmon:ores/water_stone"
+  ]
+}

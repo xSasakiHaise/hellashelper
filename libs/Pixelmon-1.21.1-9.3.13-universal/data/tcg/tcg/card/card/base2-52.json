@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base2-52.description",
+  "attacks": [
+    {
+      "name": "attack.base2-52.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base2-52.0.description",
+      "effects": [
+        {
+          "type": "tcg:leech_seed",
+          "heal_type": "Exact",
+          "heal_amount": 10
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-52.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base2-52.1.description",
+      "effects": [
+        {
+          "type": "tcg:leech_seed",
+          "self": false,
+          "heal_amount": 0,
+          "heal_type": "HalfDamage"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "GRASS",
+  "pokemon_id": 102,
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

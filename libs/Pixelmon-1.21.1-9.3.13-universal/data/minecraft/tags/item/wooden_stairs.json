@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:blue_berry_wood_stairs",
+    "pixelmon:green_berry_wood_stairs",
+    "pixelmon:pink_berry_wood_stairs",
+    "pixelmon:purple_berry_wood_stairs",
+    "pixelmon:red_berry_wood_stairs",
+    "pixelmon:yellow_berry_wood_stairs",
+    "pixelmon:ultra_ginkgo_stairs",
+    "pixelmon:ultra_elm_stairs",
+    "pixelmon:ultra_jungle_stairs"
+  ]
+}

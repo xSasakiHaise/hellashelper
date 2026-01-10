@@ -1,0 +1,26 @@
+{
+    "id": "Mega Dragonite",
+    "spawnInfos": [
+      {
+        "spec": "species:Dragonite",
+        "stringLocationTypes": [
+          "Air"
+        ],
+        "condition": {
+          "times": [
+            "DAWN",
+            "DUSK"
+          ],
+          "biomes": [
+            "minecraft:deep_ocean",
+            "minecraft:deep_warm_ocean",
+            "minecraft:deep_lukewarm_ocean"
+          ]
+        },
+        "interval": "megaBoss",
+        "typeID": "pokemon",
+        "rarity": 0.3
+      }
+    ]
+  }
+  

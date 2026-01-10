@@ -1,0 +1,339 @@
+{
+  "name": "Sinistcha",
+  "dex": 1013,
+  "defaultForms": [
+    "unremarkable",
+    "masterpiece"
+  ],
+  "forms": [
+    {
+      "name": "unremarkable",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.2,
+        "width": 0.2,
+        "length": 1.0,
+        "eyeHeight": 0.2,
+        "hoverHeight": 0.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Matcha Gotcha",
+              "Stun Spore",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Life Dew"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rage Powder"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Strength Sap"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Protect",
+          "Hex",
+          "Magical Leaf",
+          "Night Shade",
+          "Endure",
+          "Foul Play",
+          "Sleep Talk",
+          "Reflect",
+          "Rest",
+          "Imprison",
+          "Substitute",
+          "Iron Defense",
+          "Giga Drain",
+          "Shadow Ball",
+          "Energy Ball",
+          "Calm Mind",
+          "Grassy Terrain",
+          "Nasty Plot",
+          "Phantom Force",
+          "Leaf Storm",
+          "Trick Room",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast",
+          "Spite",
+          "Scald",
+          "Uproar",
+          "Poltergeist"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Hospitality"
+        ],
+        "hiddenAbilities": [
+          "Heatproof"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 71,
+        "attack": 60,
+        "defense": 106,
+        "specialAttack": 121,
+        "specialDefense": 80,
+        "speed": 70
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 178,
+        "baseFriendship": 50,
+        "spawnLevel": 40,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/1013_sinistcha/all/unremarkable/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/1013_sinistcha/all/unremarkable/none/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/1013_sinistcha/all/unremarkable/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/1013_sinistcha/all/unremarkable/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GRASS",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Poltchageist"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 2.2,
+      "catchRate": 60,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      },
+      "growth_data": {
+        "mean": 20.0,
+        "standard_deviation": 1.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "masterpiece",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/1013_sinistcha/all/masterpiece/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/1013_sinistcha/all/masterpiece/none/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/1013_sinistcha/all/masterpiece/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/1013_sinistcha/all/masterpiece/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

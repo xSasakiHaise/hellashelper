@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Specification-Title: pixelmon
+Specification-Vendor: https://pixelmonmod.com/team.php
+Specification-Version: 1
+Implementation-Title: Pixelmon
+Implementation-Version: 9.3.13-PIPE29500
+Implementation-Vendor: https://pixelmonmod.com/team.php
+Implementation-Timestamp: 2025-12-19T09:23:06+0000
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+TweakOrder: 0
+MixinConfigs: mixins.pixelmon.json
+

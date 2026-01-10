@@ -1,0 +1,47 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "card.base2-2.description",
+  "attacks": [
+    {
+      "name": "attack.base2-2.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base2-2.0.description",
+      "effects": [
+        {
+          "type": "tcg:chain_lightning"
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-2.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base2-2.1.description",
+      "effects": [
+        {
+          "type": "tcg:chain_lightning",
+          "self": false
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "LIGHTNING",
+  "pokemon_id": 101,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

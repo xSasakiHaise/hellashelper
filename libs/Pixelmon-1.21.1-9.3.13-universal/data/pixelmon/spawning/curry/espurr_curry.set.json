@@ -1,0 +1,21 @@
+{
+  "id": "Espurr Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Espurr",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

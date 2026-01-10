@@ -1,0 +1,16 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.gym1-19.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/the_rockets_trap.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+
+  "effect": {
+    "type": "tcg:unimplemented"
+  },
+  "rarity": "tcg:holo_rare"
+}

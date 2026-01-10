@@ -1,0 +1,20 @@
+{
+  "id": "Durant Forage",
+  "spawnInfos": [
+    {
+      "spec": "species:Durant",
+      "stringLocationTypes": [
+        "Forage"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

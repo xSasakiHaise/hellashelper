@@ -1,0 +1,142 @@
+{
+  "id": "Tynamo Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Tynamo",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 40
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Tynamo",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
+        ]
+      },
+      "rarity": 7.0
+    },
+    {
+      "spec": "species:Tynamo",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 40
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Tynamo",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 25.0
+    },
+    {
+      "spec": "species:Eelektrik",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 39,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean",
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 9.0
+    },
+    {
+      "spec": "species:Eelektrik",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 58,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Eelektross",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 45,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

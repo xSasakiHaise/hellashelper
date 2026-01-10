@@ -1,0 +1,305 @@
+{
+  "name": "Archaludon",
+  "dex": 1018,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Electro Shot",
+              "Leer",
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Breaking Swipe"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dragon Tail"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Metal Burst"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Mirror Coat",
+          "Night Slash",
+          "Slash"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Facade",
+          "Snarl",
+          "Metal Claw",
+          "Rock Tomb",
+          "Dragon Tail",
+          "Endure",
+          "Brick Break",
+          "Foul Play",
+          "Body Slam",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Dragon Claw",
+          "Thunder Wave",
+          "Rest",
+          "Rock Slide",
+          "Swords Dance",
+          "Body Press",
+          "Flash Cannon",
+          "Dark Pulse",
+          "Iron Head",
+          "Substitute",
+          "Iron Defense",
+          "Aura Sphere",
+          "Dragon Pulse",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Thunderbolt",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Hyper Beam",
+          "Thunder",
+          "Solar Beam",
+          "Draco Meteor",
+          "Steel Beam",
+          "Tera Blast",
+          "Roar",
+          "Smack Down",
+          "Gyro Ball",
+          "Double-Edge",
+          "Meteor Beam",
+          "Breaking Swipe",
+          "Metal Sound",
+          "Hard Press",
+          "Dragon Cheer"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Stamina",
+          "Sturdy"
+        ],
+        "hiddenAbilities": [
+          "Stalwart"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 105,
+        "defense": 130,
+        "specialAttack": 125,
+        "specialDefense": 65,
+        "speed": 85
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 300,
+        "baseFriendship": 50,
+        "spawnLevel": 48,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/1018_archaludon/all/base/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/1018_archaludon/all/base/none/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/1018_archaludon/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/1018_archaludon/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "DRAGON"
+      ],
+      "types": [
+        "STEEL",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Duraludon"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 31,
+      "weight": 60.0,
+      "catchRate": 10,
+      "malePercentage": 50.0,
+      "evolutions": [],
+      "evYields": {
+        "defense": 3
+      },
+      "growth_data": {
+        "mean": 60.0,
+        "standard_deviation": 3.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 9
+}

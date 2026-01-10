@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+    "inner": "pixelmon:block/berry_structures/berry_yellow_log_top",
+    "particle": "pixelmon:block/apricorn_tree/log",
+    "bark": "pixelmon:block/apricorn_tree/log"
+	},
+	"elements": [
+		{
+			"name": "side",
+      "from": [ 5, 5, 0 ],
+      "to": [ 11, 11, 8 ],
+			"faces": {
+				"north": {"uv": [3, 3, 13, 13], "rotation": 0, "texture": "#inner"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 0, "texture": "#bark"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 0, "texture": "#bark"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bark"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 0, "texture": "#bark"}
+			}
+		}
+	]
+}
+

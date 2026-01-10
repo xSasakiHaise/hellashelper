@@ -1,0 +1,25 @@
+{
+  "id": "Heatmor Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Heatmor",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ],
+        "maxY": 75
+      },
+      "rarity": 30.0
+    }
+  ]
+}

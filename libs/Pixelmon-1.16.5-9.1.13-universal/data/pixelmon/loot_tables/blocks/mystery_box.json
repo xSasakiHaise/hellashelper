@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
+            },
+			{
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "LastOpenTime",
+                  "target": "BlockEntityTag.LastOpenTime",
+                  "op": "replace"
+                },
+                {
+                  "source": "NextOpenTime",
+                  "target": "BlockEntityTag.NextOpenTime",
+                  "op": "replace"
+                },
+                {
+                  "source": "IngotsTotal",
+                  "target": "BlockEntityTag.IngotsTotal",
+                  "op": "replace"
+                },
+                {
+                  "source": "IngotsLeft",
+                  "target": "BlockEntityTag.IngotsLeft",
+                  "op": "replace"
+                }
+              ]
+            }
+          ],
+          "name": "pixelmon:mystery_box"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

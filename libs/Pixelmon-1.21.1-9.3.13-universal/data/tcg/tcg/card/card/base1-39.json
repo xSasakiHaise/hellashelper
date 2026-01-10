@@ -1,0 +1,53 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "card.base1-39.description",
+  "attacks": [
+    {
+      "name": "attack.base1-39.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base1-39.0.description",
+      "effects": [
+        {
+          "type": "tcg:change_resistance",
+          "self": true
+        }
+      ]
+    },
+    {
+      "name": "attack.base1-39.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base1-39.1.description",
+      "effects": [
+        {
+          "type": "tcg:change_resistance",
+          "self": true
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "COLORLESS",
+  "pokemon_id": 137,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "PSYCHIC",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:uncommon"
+}

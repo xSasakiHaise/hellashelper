@@ -1,0 +1,35 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/aluminium/aluminium_axe",
+      "pixelmon:equipment/aluminium/aluminium_block",
+      "pixelmon:equipment/aluminium/aluminium_boots",
+      "pixelmon:equipment/aluminium/aluminium_chestplate",
+      "pixelmon:equipment/aluminium/aluminium_from_block",
+      "pixelmon:equipment/aluminium/aluminium_hammer",
+      "pixelmon:equipment/aluminium/aluminium_helmet",
+      "pixelmon:equipment/aluminium/aluminium_hoe",
+      "pixelmon:equipment/aluminium/aluminium_leggings",
+      "pixelmon:equipment/aluminium/aluminium_pickaxe",
+      "pixelmon:equipment/aluminium/aluminium_shovel",
+      "pixelmon:equipment/aluminium/aluminium_sword"
+    ]
+  },
+  "criteria": {
+    "has_aluminium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/aluminum"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_aluminium"
+    ]
+  ]
+}

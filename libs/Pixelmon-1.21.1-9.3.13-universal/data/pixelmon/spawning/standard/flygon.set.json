@@ -1,0 +1,49 @@
+{
+  "id": "Flygon",
+  "spawnInfos": [
+    {
+      "spec": "species:Flygon",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 45,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "DAWN"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ],
+        "minY": 90
+      },
+      "anticondition": {
+        "biomes": [
+          "terralith:desert_oasis",
+          "terralith:red_oasis"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Flygon",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 45,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ancient_ultra_ball",
+  "model": "pixelmon:models/pokeballs/hisuiball.pqc",
+  "texture": "pixelmon:textures/pokeballs/ancient_ultra_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/ancient_ultra_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/ancient_ultra_ball",
+  "lidSprite": "pixelmon:item/pokeballs/ancient_ultra_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/ancient_ultra_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.HisuiBall",
+  "bases": [
+    "wooden"
+  ],
+  "captureMethod": "gen4",
+  "catchBonus": 2,
+  "breakChance": 0.4,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

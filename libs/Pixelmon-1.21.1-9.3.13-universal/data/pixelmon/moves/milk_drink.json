@@ -1,0 +1,40 @@
+{
+  "attackIndex": 300,
+  "attackName": "Milk Drink",
+  "attackType": "NORMAL",
+  "attackCategory": "STATUS",
+  "basePower": 0,
+  "ppBase": 5,
+  "ppMax": 8,
+  "accuracy": -1,
+  "makesContact": false,
+  "effects": [
+    {
+      "increment": 50,
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "Recover"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": false,
+    "hitsAdjacentFoe": false,
+    "hitsExtendedFoe": false,
+    "hitsSelf": true,
+    "hitsAdjacentAlly": false,
+    "hitsExtendedAlly": false
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:normalium_z",
+      "attackName": "Z-Milk Drink",
+      "basePower": 0,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

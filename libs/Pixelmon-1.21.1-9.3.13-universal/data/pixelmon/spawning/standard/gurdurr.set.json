@@ -1,0 +1,43 @@
+{
+  "id": "Gurdurr",
+  "spawnInfos": [
+    {
+      "spec": "species:Gurdurr",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ],
+        "minY": 85
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Gurdurr",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

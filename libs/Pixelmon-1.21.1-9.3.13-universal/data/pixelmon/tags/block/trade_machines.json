@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_trade_machine",
+    "pixelmon:orange_trade_machine",
+    "pixelmon:magenta_trade_machine",
+    "pixelmon:light_blue_trade_machine",
+    "pixelmon:yellow_trade_machine",
+    "pixelmon:lime_trade_machine",
+    "pixelmon:pink_trade_machine",
+    "pixelmon:gray_trade_machine",
+    "pixelmon:light_gray_trade_machine",
+    "pixelmon:cyan_trade_machine",
+    "pixelmon:purple_trade_machine",
+    "pixelmon:blue_trade_machine",
+    "pixelmon:brown_trade_machine",
+    "pixelmon:green_trade_machine",
+    "pixelmon:red_trade_machine",
+    "pixelmon:black_trade_machine"
+  ]
+}

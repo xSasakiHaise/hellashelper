@@ -1,0 +1,46 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/movement/handles"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:equipment/movement/handles"
+      }
+    },
+    "has_acro_bike_frame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:acro_bike_frame"
+            ]
+          }
+        ]
+      }
+    },
+    "has_mach_bike_frame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:mach_bike_frame"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_acro_bike_frame",
+      "has_mach_bike_frame"
+    ]
+  ]
+}

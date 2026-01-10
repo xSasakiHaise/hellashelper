@@ -1,0 +1,161 @@
+{
+  "id": "Grubbin Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Grubbin status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ],
+        "variant": [
+          "spruce",
+          "redwood",
+          "jungle"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Grubbin",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ],
+        "variant": [
+          "spruce",
+          "redwood",
+          "jungle"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Charjabug status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ],
+        "variant": [
+          "spruce",
+          "redwood",
+          "jungle"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Charjabug",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ],
+        "variant": [
+          "spruce",
+          "redwood",
+          "jungle"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Vikavolt status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 35,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ],
+        "variant": [
+          "spruce",
+          "redwood",
+          "jungle"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Vikavolt",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 35,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
+        ],
+        "variant": [
+          "spruce",
+          "redwood",
+          "jungle"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

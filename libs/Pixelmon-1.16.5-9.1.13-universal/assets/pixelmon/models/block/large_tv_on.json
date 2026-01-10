@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/large_tv",
+  "textures": {
+	  "main": "pixelmon:block/large_tv_on",
+    "particle": "pixelmon:block/large_tv_on"
+  }
+}

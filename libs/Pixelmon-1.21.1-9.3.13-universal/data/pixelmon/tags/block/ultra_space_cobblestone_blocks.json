@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_space_cobblestone",
+    "pixelmon:ultra_space_cobblestone_button",
+    "pixelmon:ultra_space_cobblestone_pressure_plate",
+    "pixelmon:ultra_space_cobblestone_slab",
+    "pixelmon:ultra_space_cobblestone_stairs",
+    "pixelmon:ultra_space_cobblestone_wall"
+  ]
+}

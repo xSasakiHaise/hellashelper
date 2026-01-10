@@ -1,0 +1,30 @@
+{
+  "name": "pixelmon:savanna_way_point/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:way_point/waypoint_savanna_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 3,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:way_point/waypoint_savanna_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 3,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    }
+  ]
+}

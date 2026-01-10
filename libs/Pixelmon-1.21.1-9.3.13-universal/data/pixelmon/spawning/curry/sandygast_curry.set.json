@@ -1,0 +1,26 @@
+{
+  "id": "Sandygast Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Sandygast",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 120.0
+    }
+  ]
+}

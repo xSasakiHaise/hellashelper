@@ -1,0 +1,61 @@
+{
+  "id": "Crabrawler Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Crabrawler",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "beaches"
+        ],
+        "variant": [
+          "jungle",
+          "palm"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Crabrawler status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "beaches"
+        ],
+        "variant": [
+          "jungle",
+          "palm"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

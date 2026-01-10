@@ -1,0 +1,382 @@
+{
+  "properties": {
+    "type": "pixelmon:constant",
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "title": {
+        "translate": "pixelmon.npc.dialogue.battle.trainer.arena.generic.3.plate",
+        "color": "#B8F2E6",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    }
+  },
+  "names": {
+    "values": [
+      "Bridget"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "party": {
+    "value": {
+      "options": [
+        "Arcanine lvl:32 ability:intimidate helditem:rocky_helmet nature:bold move1:will-o-wisp move2:flamethrower move3:teleport move4:morning_sun",
+        "Torracat lvl:34 ability:intimidate helditem:eviolite nature:timid move1:parting_shot move2:taunt move3:will-o-wisp move4:overheat",
+        "Monferno lvl:33 ability:blaze helditem:eviolite nature:jolly move1:u-turn move2:temper_flare move3:drain_punch move4:knock_off",
+        "Rotom lvl:32 form:heat ability:levitate helditem:leftovers nature:bold ability:levitate move1:volt_switch move2:pain_split move3:will-o-wisp move4:defog",
+        "Oricorio lvl:34 form:baile ability:dancer helditem:heavy_duty_boots nature:timid move1:quiver_dance move2:baton_pass move3:revelation_dance move4:roost",
+        "Larvesta lvl:33 ability:flamebody helditem:eviolite nature:impish move1:u-turn move2:morning_sun move3:flare_blitz move4:will-o-wisp",
+        "Raboot lvl:34 ability:libero helditem:heavy_duty_boots nature:jolly move1:u-turn move2:sucker_punch move3:temper_flare move4:taunt",
+        "Ninetales lvl:32 ability:drought helditem:heat_rock nature:timid move1:nasty_plot move2:baton_pass move3:mystical_fire move4:scorching_sands"
+      ],
+      "min_selections": 2,
+      "max_selections": 4,
+      "type": "pixelmon:random_combination"
+    },
+    "type": "pixelmon:constant"
+  },
+  "models": {
+    "value": {
+      "slim": true,
+      "texture": "pixelmon:textures/steve/punkgirl.png",
+      "type": "pixelmon:player"
+    },
+    "type": "pixelmon:constant"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 10,
+      "swim": false
+    }
+  },
+  "interactions": {
+    "type": "pixelmon:constant",
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:logical_not",
+                "condition": {
+                  "type": "pixelmon:interaction_condition",
+                  "condition": {
+                    "type": "pixelmon:logical_and",
+                    "conditions": [
+                      {
+                        "type": "pixelmon:interaction_condition",
+                        "condition": {
+                          "type": "pixelmon:less_than_or_equal",
+                          "min": {
+                            "value": 35,
+                            "type": "pixelmon:constant_number"
+                          },
+                          "value": {
+                            "type": "pixelmon:pokemon_level",
+                            "pokemon": {
+                              "type": "pixelmon:party_slot",
+                              "slot": 0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "type": "pixelmon:interaction_condition",
+                        "condition": {
+                          "type": "pixelmon:less_than_or_equal",
+                          "min": {
+                            "value": 35,
+                            "type": "pixelmon:constant_number"
+                          },
+                          "value": {
+                            "type": "pixelmon:pokemon_level",
+                            "pokemon": {
+                              "type": "pixelmon:party_slot",
+                              "slot": 1
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "type": "pixelmon:interaction_condition",
+                        "condition": {
+                          "type": "pixelmon:less_than_or_equal",
+                          "min": {
+                            "value": 35,
+                            "type": "pixelmon:constant_number"
+                          },
+                          "value": {
+                            "type": "pixelmon:pokemon_level",
+                            "pokemon": {
+                              "type": "pixelmon:party_slot",
+                              "slot": 2
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "type": "pixelmon:interaction_condition",
+                        "condition": {
+                          "type": "pixelmon:less_than_or_equal",
+                          "min": {
+                            "value": 35,
+                            "type": "pixelmon:constant_number"
+                          },
+                          "value": {
+                            "type": "pixelmon:pokemon_level",
+                            "pokemon": {
+                              "type": "pixelmon:party_slot",
+                              "slot": 3
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "type": "pixelmon:interaction_condition",
+                        "condition": {
+                          "type": "pixelmon:less_than_or_equal",
+                          "min": {
+                            "value": 35,
+                            "type": "pixelmon:constant_number"
+                          },
+                          "value": {
+                            "type": "pixelmon:pokemon_level",
+                            "pokemon": {
+                              "type": "pixelmon:party_slot",
+                              "slot": 4
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "type": "pixelmon:interaction_condition",
+                        "condition": {
+                          "type": "pixelmon:less_than_or_equal",
+                          "min": {
+                            "value": 35,
+                            "type": "pixelmon:constant_number"
+                          },
+                          "value": {
+                            "type": "pixelmon:pokemon_level",
+                            "pokemon": {
+                              "type": "pixelmon:party_slot",
+                              "slot": 5
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelmon.npc.dialogue.battle.trainer.arena.generic.3.high"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:on_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "cooldown_key": "pixelmon:trainer_arena_fire_4",
+                "cooldown": 59,
+                "unit": "MINUTES"
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelmon.npc.dialogue.battle.trainer.arena.fire.4.cooldown"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:can_battle",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                }
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelmon.npc.dialogue.battle.trainer.arena.fire.4.title",
+                "message": "pixelmon.npc.dialogue.battle.trainer.arena.fire.4.initiate"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:close_dialogue",
+          "conditions": [
+            {
+              "type": "pixelmon:constant_boolean",
+              "value": true
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:player_start_npc_battle"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:lose_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelmon.npc.dialogue.battle.trainer.arena.fire.4.title",
+                "message": "pixelmon.npc.dialogue.battle.trainer.arena.fire.4.lose",
+                "fire_close_event": false
+              },
+              {
+                "type": "pixelmon:set_string_context",
+                "key": "pixelmon:trainer",
+                "value": "trainer_arena_fire_4"
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:lose_to_trainer"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:win_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelmon.npc.dialogue.battle.trainer.arena.fire.4.title",
+                "message": "pixelmon.npc.dialogue.battle.trainer.arena.fire.4.win",
+                "fire_close_event": false
+              },
+              {
+                "type": "pixelmon:give_money",
+                "money": 140.0
+              },
+              {
+                "type": "pixelmon:set_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "key": "pixelmon:trainer_arena_fire_4"
+              },
+              {
+                "type": "pixelmon:set_string_context",
+                "key": "pixelmon:trainer",
+                "value": "trainer_arena_fire_4"
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:defeat_trainer"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

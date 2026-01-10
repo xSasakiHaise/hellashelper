@@ -1,0 +1,55 @@
+{
+  "id": "Noivern",
+  "spawnInfos": [
+    {
+      "spec": "species:Noivern",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 48,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Noivern",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 48,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 25.0
+    },
+    {
+      "spec": "species:Noivern",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 48,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "maxLightLevel": 0
+      },
+      "rarity": 0.1
+    }
+  ]
+}

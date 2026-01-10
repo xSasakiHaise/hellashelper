@@ -1,0 +1,4 @@
+$body celebi.bmd
+$anim idle idle.bmd
+$anim fly fly.bmd
+$scale 1.4

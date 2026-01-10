@@ -1,0 +1,60 @@
+{
+  "id": 382,
+  "setId": 6,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 60,
+  "energy1": "GRASS",
+  "energy2": null,
+  "pokemonId": 49,
+  "code": "GYMH34",
+  "name": "card.GYMH34.name",
+  "description": "",
+  "previousPokemonId": 48,
+  "cardAttacks": [
+    {
+      "card": "GYMH34",
+      "index": 1,
+      "name": "attack.GYMH34.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.GYMH34.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    },
+    {
+      "card": "GYMH34",
+      "index": 2,
+      "name": "attack.GYMH34.2.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "modifier": null,
+      "text": "attack.GYMH34.2.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": "FIGHTING",
+  "resistanceValue": "30",
+  "resistanceCardModifier": "Minus",
+  "energyWeakness": "FIRE",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 0,
+  "cardRarity": "RARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

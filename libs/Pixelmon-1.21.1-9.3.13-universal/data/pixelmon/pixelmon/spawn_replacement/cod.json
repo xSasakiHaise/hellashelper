@@ -1,0 +1,16 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:cod"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "magikarp",
+      "wishiwashi",
+      "remoraid"
+    ]
+  }
+}

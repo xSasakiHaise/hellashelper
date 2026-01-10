@@ -1,0 +1,16 @@
+{
+  "modifiers": [],
+  "requirements":  [
+    {
+      "requirement": {
+        "type": "pixelmon:spec_based_ban_list",
+        "banned_pokemon": [
+          "move:baton_pass"
+        ]
+      },
+      "reason": {
+        "translate": "gui.battlerules.description.batonpass"
+      }
+    }
+  ]
+}

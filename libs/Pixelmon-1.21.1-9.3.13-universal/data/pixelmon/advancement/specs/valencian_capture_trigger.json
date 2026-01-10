@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+		      "item" : "pixelmon:pixelmon_sprite",
+		      "count": 1,
+		      "components": {
+		        "minecraft:custom_data": {
+		          "ndex": 71,
+		          "palette": "valencian",
+		          "form": ""
+		        }
+		      }
+		},
+		"title": {
+			"translate": "advancements.valencian.title"
+		},
+		"description": {
+			"translate": "advancements.valencian.description"
+		},
+		"hidden": true
+	},
+    "parent" : "pixelmon:specs/spec_trigger",
+	"criteria": {
+		"valencian_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:valencian"
+			}
+		}
+	}
+}

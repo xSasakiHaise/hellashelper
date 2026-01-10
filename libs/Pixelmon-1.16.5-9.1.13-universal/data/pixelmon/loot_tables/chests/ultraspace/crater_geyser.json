@@ -1,0 +1,1104 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "name": "toolsandarmor",
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:sun_stone_hammer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:sun_stone_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:sun_stone_hoe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:sun_stone_pickaxe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:sun_stone_shovel"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:sun_stone_sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:sun_stone_helm"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:sun_stone_plate"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:sun_stone_legs"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:sun_stone_boots"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:moon_stone_hammer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:moon_stone_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:moon_stone_hoe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:moon_stone_pickaxe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:moon_stone_shovel"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:moon_stone_sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:moon_stone_helm"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:moon_stone_plate"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:moon_stone_legs"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "pixelmon:moon_stone_boots"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sun_stone_hammer",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sun_stone_axe",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sun_stone_hoe",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sun_stone_pickaxe",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sun_stone_shovel",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sun_stone_sword",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sun_stone_helm",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sun_stone_plate",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sun_stone_legs",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sun_stone_boots",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:moon_stone_hammer",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:moon_stone_axe",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:moon_stone_hoe",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:moon_stone_pickaxe",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:moon_stone_shovel",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:moon_stone_sword",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:moon_stone_helm",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:moon_stone_plate",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:moon_stone_legs",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:moon_stone_boots",
+                    "functions": [
+                        {
+                          "function": "minecraft:enchant_with_levels",
+                          "levels": {
+                            "min": 10.0,
+                            "max": 30.0,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "balls",
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 15,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"PokeBallID\": \"beast_ball\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"PokeBallID\": \"feather_ball\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"PokeBallID\": \"wing_ball\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"PokeBallID\": \"jet_ball\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"PokeBallID\": \"ancient_heavy_ball\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"PokeBallID\": \"leaden_ball\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"PokeBallID\": \"gigaton_ball\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"PokeBallID\": \"heavy_ball\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"PokeBallID\": \"level_ball\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:poke_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"PokeBallID\": \"moon_ball\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "stones",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:sun_stone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:moon_stone"
+                },
+                {
+                    "type": "empty",
+                    "weight": 16
+                }
+            ]
+        },
+        {
+            "name": "ores",
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "pixelmon:aluminium_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "pixelmon:silver_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "pixelmon:platinum_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "gems",
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "pixelmon:fighting_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "pixelmon:dragon_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "pixelmon:steel_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "pixelmon:rock_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "pixelmon:flying_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "pixelmon:fire_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "treasure",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 9,
+                    "name": "pixelmon:stardust",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 9,
+                    "name": "pixelmon:star_piece",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 9,
+                    "name": "pixelmon:comet_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "pixelmon:nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:big_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "pixelmon:relic_copper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "pixelmon:relic_silver",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "pixelmon:relic_gold",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:relic_vase"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:relic_band"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "pixelmon:relic_statue"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:relic_crown"
+                }
+            ]
+        },
+        {
+            "name": "fossils",
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:helix_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:dome_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:root_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:old_amber"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:claw_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:skull_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:armor_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:plume_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:jaw_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sail_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:bird_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:dino_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:drake_fossil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:fish_fossil"
+                },
+                {
+                    "type": "empty",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "name": "helditems",
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "pixelmon:focus_sash"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:heat_rock"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:smooth_rock"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:metal_coat"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:rocky_helmet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:light_clay"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:metronome"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:assault_vest"
+                }
+            ]
+        },
+        {
+            "name": "other",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "pixelmon:ever_stone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pixelmon:sacredash"
+                },
+                {
+                    "type": "empty",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

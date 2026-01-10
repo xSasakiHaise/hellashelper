@@ -1,0 +1,21 @@
+{
+  "id": "Rhyhorn Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Rhyhorn",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:badlands",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

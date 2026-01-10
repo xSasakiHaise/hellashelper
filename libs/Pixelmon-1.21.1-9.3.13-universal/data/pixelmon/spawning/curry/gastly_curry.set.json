@@ -1,0 +1,22 @@
+{
+  "id": "Gastly Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Gastly",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 8,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "pixelmon:infuser",
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "pixelmon:razz_berry"
+    },
+    {
+      "item": "pixelmon:fresh_water"
+    }
+  ],
+  "results": {
+    "id": "pixelmon:roserade_tea"
+  }
+}

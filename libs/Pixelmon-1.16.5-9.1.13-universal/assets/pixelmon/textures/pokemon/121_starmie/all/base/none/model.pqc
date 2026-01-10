@@ -1,0 +1,5 @@
+$body starmie.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$anim swim walk.bmd
+$scale 0.22

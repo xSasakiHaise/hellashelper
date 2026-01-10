@@ -1,0 +1,109 @@
+{
+  "id": "Polteageist",
+  "spawnInfos": [
+    {
+      "spec": "species:Polteageist palette:phony",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "evil"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Polteageist palette:phony",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Polteageist palette:authentic",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "evil"
+        ]
+      },
+      "rarity": 4.0
+    },
+    {
+      "spec": "species:Polteageist palette:authentic",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 4.0
+    },
+    {
+      "spec": "species:Polteageist boss:haunted",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

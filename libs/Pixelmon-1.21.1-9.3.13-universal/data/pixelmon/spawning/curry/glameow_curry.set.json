@@ -1,0 +1,26 @@
+{
+  "id": "Glameow Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Glameow",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soothe_bell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

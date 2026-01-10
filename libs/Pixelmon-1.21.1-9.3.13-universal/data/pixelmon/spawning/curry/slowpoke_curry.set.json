@@ -1,0 +1,51 @@
+{
+  "id": "Slowpoke Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Slowpoke",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lagging_tail",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Slowpoke form:galarian",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lagging_tail",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

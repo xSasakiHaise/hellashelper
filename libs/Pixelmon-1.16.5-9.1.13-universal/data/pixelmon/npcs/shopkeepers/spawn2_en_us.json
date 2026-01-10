@@ -1,0 +1,95 @@
+{
+  "data": {
+    "type": "Spawn",
+    "biomes": [
+      "Plains",
+      "Savannas"
+    ]
+  },
+  "textures": [
+    {
+      "name": "gardenermale1.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Breeden"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Welcome! I have a variety of portable day cares for you to choose from, for a price.",
+      "goodbye": "If you feel like you need to complete your set, come back and see me."
+    },
+    {
+      "hello": "Ever felt like you are always travelling long distances to allow your Pokemon a chance to breed? Then look no further!",
+      "goodbye": "It's been a pleasure doing business with you. See you soon."
+    }
+  ],
+  "items": [
+    {
+      "name": "pixelmon:white_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:light_gray_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:gray_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:black_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:brown_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:red_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:orange_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:yellow_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:lime_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:green_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:cyan_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:light_blue_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:blue_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:purple_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:magenta_day_care",
+      "rarity": 1.0
+    },
+    {
+      "name": "pixelmon:pink_day_care",
+      "rarity": 1.0
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "name": {
+    "translate": "pixelmon.pokedex.mega"
+  },
+  "priority": 3,
+  "primary_color": {
+    "red": 244,
+    "green": 229,
+    "blue": 234,
+    "alpha": 255
+  },
+  "secondary_color": {
+    "red": 160,
+    "green": 57,
+    "blue": 136,
+    "alpha": 255
+  },
+  "text_color": {
+    "red": 177,
+    "green": 94,
+    "blue": 122,
+    "alpha": 255
+  },
+  "pokemon": {
+    "type": "pixelmon:dex",
+    "dex_numbers": [
+      {
+        "dex": 3,
+        "form": "mega"
+      },
+      {
+        "dex": 6,
+        "form": "megax"
+      },
+      {
+        "dex": 6,
+        "form": "megay"
+      },
+      {
+        "dex": 9,
+        "form": "mega"
+      },
+      {
+        "dex": 15,
+        "form": "mega"
+      },
+      {
+        "dex": 18,
+        "form": "mega"
+      },
+      {
+        "dex": 65,
+        "form": "mega"
+      },
+      {
+        "dex": 80,
+        "form": "mega"
+      },
+      {
+        "dex": 94,
+        "form": "mega"
+      },
+      {
+        "dex": 115,
+        "form": "mega"
+      },
+      {
+        "dex": 127,
+        "form": "mega"
+      },
+      {
+        "dex": 130,
+        "form": "mega"
+      },
+      {
+        "dex": 142,
+        "form": "mega"
+      },
+      {
+        "dex": 150,
+        "form": "megax"
+      },
+      {
+        "dex": 150,
+        "form": "megay"
+      },
+      {
+        "dex": 181,
+        "form": "mega"
+      },
+      {
+        "dex": 208,
+        "form": "mega"
+      },
+      {
+        "dex": 212,
+        "form": "mega"
+      },
+      {
+        "dex": 214,
+        "form": "mega"
+      },
+      {
+        "dex": 229,
+        "form": "mega"
+      },
+      {
+        "dex": 248,
+        "form": "mega"
+      },
+      {
+        "dex": 254,
+        "form": "mega"
+      },
+      {
+        "dex": 257,
+        "form": "mega"
+      },
+      {
+        "dex": 260,
+        "form": "mega"
+      },
+      {
+        "dex": 282,
+        "form": "mega"
+      },
+      {
+        "dex": 302,
+        "form": "mega"
+      },
+      {
+        "dex": 303,
+        "form": "mega"
+      },
+      {
+        "dex": 306,
+        "form": "mega"
+      },
+      {
+        "dex": 308,
+        "form": "mega"
+      },
+      {
+        "dex": 310,
+        "form": "mega"
+      },
+      {
+        "dex": 319,
+        "form": "mega"
+      },
+      {
+        "dex": 323,
+        "form": "mega"
+      },
+      {
+        "dex": 334,
+        "form": "mega"
+      },
+      {
+        "dex": 354,
+        "form": "mega"
+      },
+      {
+        "dex": 359,
+        "form": "mega"
+      },
+      {
+        "dex": 362,
+        "form": "mega"
+      },
+      {
+        "dex": 373,
+        "form": "mega"
+      },
+      {
+        "dex": 376,
+        "form": "mega"
+      },
+      {
+        "dex": 380,
+        "form": "mega"
+      },
+      {
+        "dex": 381,
+        "form": "mega"
+      },
+      {
+        "dex": 382,
+        "form": "primal"
+      },
+      {
+        "dex": 383,
+        "form": "primal"
+      },
+      {
+        "dex": 384,
+        "form": "mega"
+      },
+      {
+        "dex": 428,
+        "form": "mega"
+      },
+      {
+        "dex": 445,
+        "form": "mega"
+      },
+      {
+        "dex": 448,
+        "form": "mega"
+      },
+      {
+        "dex": 460,
+        "form": "mega"
+      },
+      {
+        "dex": 475,
+        "form": "mega"
+      },
+      {
+        "dex": 531,
+        "form": "mega"
+      },
+      {
+        "dex": 719,
+        "form": "mega"
+      }
+    ]
+  },
+  "acceptance_test": {
+    "type": "pixelmon:spec",
+    "spec": "ismega"
+  }
+}

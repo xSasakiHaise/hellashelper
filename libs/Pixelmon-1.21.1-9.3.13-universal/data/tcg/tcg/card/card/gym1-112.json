@@ -1,0 +1,16 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.gym1-112.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/lt_surges_treaty.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+
+  "effect": {
+    "type": "tcg:unimplemented"
+  },
+  "rarity": "tcg:uncommon"
+}

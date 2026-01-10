@@ -1,0 +1,20 @@
+{
+    "id": "Slugma Forage",
+    "spawnInfos": [
+      {
+        "spec": "species:Slugma",
+        "stringLocationTypes": [
+          "Forage"
+        ],
+        "minLevel": 10,
+        "maxLevel": 20,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/volcanic"
+          ]
+        },
+        "rarity": 10.0
+      }
+    ]
+  }

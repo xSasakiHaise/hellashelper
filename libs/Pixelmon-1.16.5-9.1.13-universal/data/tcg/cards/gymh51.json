@@ -1,0 +1,45 @@
+{
+  "id": 401,
+  "setId": 6,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 70,
+  "energy1": "COLORLESS",
+  "energy2": null,
+  "pokemonId": 20,
+  "code": "GYMH51",
+  "name": "card.GYMH51.name",
+  "description": "",
+  "previousPokemonId": 19,
+  "cardAttacks": [
+    {
+      "card": "GYMH51",
+      "index": 1,
+      "name": "attack.GYMH51.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "modifier": null,
+      "text": "attack.GYMH51.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": "PSYCHIC",
+  "resistanceValue": "30",
+  "resistanceCardModifier": "Minus",
+  "energyWeakness": "FIGHTING",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 1,
+  "cardRarity": "UNCOMMON",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

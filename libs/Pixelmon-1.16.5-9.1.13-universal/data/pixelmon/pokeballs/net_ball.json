@@ -1,0 +1,19 @@
+{
+  "name": "net_ball",
+  "model": "pixelmon:models/pokeballs/netball.pqc",
+  "texture": "pixelmon:textures/pokeballs/net_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/net_ball_flashing.png",
+  "ballSprite": "pixelmon:items/pokeballs/net_ball",
+  "lidSprite": "pixelmon:items/pokeballs/net_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/net_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.NetBall",
+  "bases": [
+    "silver"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0.15,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

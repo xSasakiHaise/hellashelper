@@ -1,0 +1,277 @@
+{
+  "interactions": {
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:hit_with_poke_ball",
+          "conditions": {
+            "player": {
+              "key": "pixelmon:player",
+              "type": "pixelmon:context_player"
+            },
+            "type": "pixelmon:can_battle"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "I\u0027d love to see what kind of Pokémon you have",
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "player": {
+              "key": "pixelmon:player",
+              "type": "pixelmon:context_player"
+            },
+            "type": "pixelmon:can_battle"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "I\u0027d love to see what kind of Pokémon you have",
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "type": "pixelmon:logical_not",
+             "condition": {
+                "condition": {
+                  "player": {
+                    "key": "pixelmon:player",
+                    "type": "pixelmon:context_player"
+                  },
+                  "type": "pixelmon:can_battle"
+                },
+                "type": "pixelmon:interaction_condition"
+               }
+          },
+          "results": {
+            "value": [
+              {
+                "messages": [
+                  {
+                    "text": "You don\u0027t have any Pokémon that can battle!"
+                  }
+                ],
+                "type": "pixelmon:message_player"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:close_dialogue",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "type": "pixelmon:player_start_npc_battle"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:lose_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Flying Pokémon are really strong. It\u0027s no wonder you lost.",
+                "fire_close_event": false,
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:win_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "I guess other kinds of Pokémon are pretty cool too.",
+                "fire_close_event": false,
+                "type": "pixelmon:open_dialogue"
+              },
+              {
+                "money": 32.0,
+                "type": "pixelmon:give_money"
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:defeat_trainer"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        }
+      ]
+    },
+    "type": "pixelmon:constant"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "options": [
+        "Pidgey",
+        "Pidgey",
+        "Pidgeotto",
+        "Pidgeot",
+        "Spearow",
+        "Spearow",
+        "Fearow",
+        "Doduo",
+        "Doduo",
+        "Dodrio",
+        "Farfetchd",
+        "Hoothoot",
+        "Noctowl",
+        "Natu",
+        "Xatu",
+        "Skarmory",
+        "Murkrow",
+        "Murkrow",
+        "Wingull",
+        "Pelipper",
+        "Taillow",
+        "Taillow",
+        "Swellow",
+        "Swablu",
+        "Altaria",
+        "Starly",
+        "Starly",
+        "Staravia",
+        "Staraptor",
+        "Chatot",
+        "Pidove",
+        "Pidove",
+        "Tranquill",
+        "Unfezant",
+        "Archen",
+        "Archeops",
+        "Ducklett",
+        "Swanna",
+        "Rufflet",
+        "Rufflet",
+        "Braviary",
+        "Vullaby",
+        "Vullaby",
+        "Mandibuzz",
+        "Fletchling",
+        "Fletchling",
+        "Fletchinder",
+        "Talonflame",
+        "Hawlucha",
+        "Pikipek",
+        "Trumbeak",
+        "Toucannon",
+        "Oricorio",
+        "Cubone",
+        "Rookidee",
+        "Rookidee",
+        "Corvisquire",
+        "Corviknight",
+        "Cramorant",
+        "Tornadus"
+      ],
+      "min_selections": 3,
+      "max_selections": 6,
+      "type": "pixelmon:random_combination"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Watson",
+      "Walter",
+      "Montgomery",
+      "Diego",
+      "Arthur",
+      "Callum",
+      "Gastby"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/pokemaniac1.png",
+            "fallback": "pixelmon:textures/steve/pokemaniac1.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/pokemaniac2.png",
+            "fallback": "pixelmon:textures/steve/pokemaniac2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": true,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/pokemaniac3.png",
+            "fallback": "pixelmon:textures/steve/pokemaniac3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:standard_npc",
+      "profession": "minecraft:farmer"
+    }
+  }
+}

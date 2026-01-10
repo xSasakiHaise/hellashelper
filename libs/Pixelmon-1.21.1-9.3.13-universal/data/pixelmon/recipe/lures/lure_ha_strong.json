@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "strong_lure",
+  "ingredients": [
+    {
+      "item": "pixelmon:lure_casing_strong"
+    },
+    {
+      "item": "pixelmon:starf_berry"
+    },
+    {
+      "item": "pixelmon:petaya_berry"
+    },
+    {
+      "item": "pixelmon:lum_berry"
+    },
+    {
+      "item": "pixelmon:apicot_berry"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:lure_ha_strong",
+    "count": 1
+  }
+}

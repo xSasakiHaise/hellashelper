@@ -1,0 +1,62 @@
+{
+  "id": "Slugma",
+  "spawnInfos": [
+    {
+      "spec": "species:Slugma",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 2,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "lava"
+        ],
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Slugma",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "lava"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hellish"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "incendium:quartz_flats"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Slugma",
+      "stringLocationTypes": [
+        "Lava Floor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "rarity": 130.0
+    }
+  ]
+}

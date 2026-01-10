@@ -1,0 +1,32 @@
+{
+  "id": "Lunatone Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Lunatone form:gibbous",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "maxLightLevel": 0
+      },
+      "rarity": 0.5
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_desert_sandstone_wall",
+    "pixelmon:ultra_space_stone_wall",
+    "pixelmon:ultra_space_cobblestone_wall",
+    "pixelmon:polished_ultra_space_stone_wall"
+  ]
+}

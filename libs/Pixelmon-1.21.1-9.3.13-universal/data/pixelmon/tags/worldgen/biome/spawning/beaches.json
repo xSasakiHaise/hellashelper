@@ -1,0 +1,44 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beach",
+    "minecraft:snowy_beach",
+    "minecraft:stony_shore",
+    {
+      "id": "biomesoplenty:dune_beach",
+      "required": false
+    },
+	{
+      "id": "biomesoplenty:gravel_beach",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:basalt_barrera",
+      "required": false
+    },
+	{
+      "id": "biomeswevegone:dacite_shore",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rainbow_beach",
+      "required": false
+    },
+    {
+      "id": "terralith:basalt_cliffs",
+      "required": false
+    },
+    {
+      "id": "terralith:gravel_beach",
+      "required": false
+    },
+    {
+      "id": "biox:himalayan_shore",
+      "required": false
+    },
+    {
+      "id": "mysticsbiomes:lagoon",
+      "required": false
+    }
+  ]
+}

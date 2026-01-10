@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base5-12.description",
+  "attacks": [
+    {
+      "name": "attack.base5-12.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base5-12.0.description",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "PSYCHIC",
+  "pokemon_id": 80,
+  "ability": {
+    "name": "ability.base5-12.name",
+    "description": "ability.base5-12.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:reel_in"
+    }
+  },
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

@@ -1,0 +1,36 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base1-62.description",
+  "attacks": [
+    {
+      "name": "attack.base1-62.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base1-62.0.description",
+      "effects": [
+        {
+          "type": "tcg:sand_attack"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIGHTING",
+  "pokemon_id": 27,
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "LIGHTNING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:common"
+}

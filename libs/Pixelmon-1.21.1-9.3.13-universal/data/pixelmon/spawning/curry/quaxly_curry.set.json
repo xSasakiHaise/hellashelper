@@ -1,0 +1,21 @@
+{
+    "id": "Quaxly",
+    "spawnInfos": [
+      {
+        "spec": "species:Quaxly",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 5,
+        "maxLevel": 16,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/rivers",
+            "#pixelmon:spawning/lakes"
+          ]
+        },
+        "rarity": 5.0
+      }
+    ]
+  }

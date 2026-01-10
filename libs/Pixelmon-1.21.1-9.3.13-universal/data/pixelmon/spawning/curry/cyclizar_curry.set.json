@@ -1,0 +1,21 @@
+{
+    "id": "Cyclizar",
+    "spawnInfos": [
+      {
+        "spec": "species:Cyclizar",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 25,
+        "maxLevel": 55,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/savannas",
+            "#pixelmon:spawning/arid"
+          ]
+        },
+        "rarity": 0.5
+      }
+    ]
+  }

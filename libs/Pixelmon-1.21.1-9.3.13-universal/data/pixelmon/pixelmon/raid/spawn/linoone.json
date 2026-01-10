@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Linoone",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/linoone-2-3",
+      "weight": 1.0
+    },
+    {
+      "spec": "Linoone form:galarian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/linoone-galarian-2-3",
+      "weight": 1.0
+    }
+  ]
+}

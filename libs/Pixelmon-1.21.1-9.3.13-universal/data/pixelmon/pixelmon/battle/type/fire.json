@@ -1,0 +1,32 @@
+{
+  "name": {
+    "translate": "type.fire"
+  },
+  "color": {
+    "red": 255,
+    "green": 0,
+    "blue": 0,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/fire.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:grass",
+        "pixelmon:steel",
+        "pixelmon:ice",
+        "pixelmon:bug"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:fire",
+        "pixelmon:water",
+        "pixelmon:rock",
+        "pixelmon:dragon"
+      ],
+      "effectiveness": "NOT"
+    }
+  ]
+}

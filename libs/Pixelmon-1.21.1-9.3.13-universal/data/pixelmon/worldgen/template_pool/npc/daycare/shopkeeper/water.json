@@ -1,0 +1,15 @@
+{
+  "name": "pixelmon:npc/daycare/shopkeeper/water",
+  "fallback": "pixelmon:npc/daycare/shopkeeper/water",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/misc/water/daycare",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Fuecoco",
+  "spawnInfos": [
+    {
+      "spec": "species:Fuecoco",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}
+

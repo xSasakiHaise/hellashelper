@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pixelmon:block/ultra_space/cut_sandstone_slab"
+    },
+    "type=double": {
+      "model": "pixelmon:block/ultra_space/cut_sandstone"
+    },
+    "type=top": {
+      "model": "pixelmon:block/ultra_space/cut_sandstone_slab_top"
+    }
+  }
+}

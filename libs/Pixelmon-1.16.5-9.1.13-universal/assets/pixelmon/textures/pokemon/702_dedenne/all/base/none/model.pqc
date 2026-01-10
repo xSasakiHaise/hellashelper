@@ -1,0 +1,4 @@
+$body dedenne.bmd	
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 0.32

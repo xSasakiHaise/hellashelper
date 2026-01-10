@@ -1,0 +1,20 @@
+{
+  "id": "Honedge Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Honedge",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 21,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

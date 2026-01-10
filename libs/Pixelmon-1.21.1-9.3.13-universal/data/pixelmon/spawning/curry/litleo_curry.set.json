@@ -1,0 +1,20 @@
+{
+  "id": "Litleo Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Litleo",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 21,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.base4-27.description",
+  "attacks": [
+    {
+      "name": "attack.base4-27.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base4-27.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "PSYCHIC",
+  "pokemon_id": 122,
+  "ability": {
+    "name": "ability.base4-27.name",
+    "description": "ability.base4-27.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:invisible_wall",
+      "amount": 1
+    }
+  },
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:rare"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Vanillite Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Vanillite",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 20,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 120.0
+    }
+  ]
+}

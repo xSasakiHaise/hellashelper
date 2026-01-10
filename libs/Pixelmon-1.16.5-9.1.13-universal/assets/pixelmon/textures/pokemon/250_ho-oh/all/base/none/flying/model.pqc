@@ -1,0 +1,4 @@
+$body ho-oh.bmd
+$anim fly flying.bmd
+$anim idle flying.bmd
+$scale 1.0

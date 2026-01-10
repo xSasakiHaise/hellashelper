@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "pixelmon:block/berry_structures/berry_green_planks",
+    "top": "pixelmon:block/berry_structures/berry_green_planks",
+    "side": "pixelmon:block/berry_structures/berry_green_planks"
+  }
+}

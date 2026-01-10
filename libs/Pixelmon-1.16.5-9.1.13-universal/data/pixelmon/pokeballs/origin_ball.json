@@ -1,0 +1,17 @@
+{
+  "name": "origin_ball",
+  "model": "pixelmon:models/pokeballs/originball.pqc",
+  "texture": "pixelmon:textures/pokeballs/origin_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/origin_ball_flashing.png",
+  "ballSprite": "pixelmon:items/pokeballs/origin_ball",
+  "guiSprite": "pixelmon:textures/gui/overlay/origin_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.HisuiBall",
+  "bases": [],
+  "captureMethod": "gen4",
+  "catchBonus": 255,
+  "breakChance": 0,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false,
+  "hasLid": false
+}

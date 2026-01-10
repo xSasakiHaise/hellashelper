@@ -1,0 +1,36 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 93,
+  "previous_pokemon_id": 92,
+  "retreat_cost": 0,
+  "rarity": "tcg:holo_rare",
+  "ability": {
+    "name": "ability.foss6.name",
+    "description": "ability.foss6.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:flip_to_evade"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS6.1.name",
+      "costs": [
+        "PSYCHIC",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.FOSS6.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "ASLEEP",
+          "self": false
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

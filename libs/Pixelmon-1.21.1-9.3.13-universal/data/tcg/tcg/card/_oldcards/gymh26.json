@@ -1,0 +1,30 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 71,
+  "previous_pokemon_id": 70,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH26.1.name",
+      "costs": [
+        "GRASS",
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 50,
+      "text": "attack.GYMH26.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

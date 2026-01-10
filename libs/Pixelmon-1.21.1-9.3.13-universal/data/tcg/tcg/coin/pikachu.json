@@ -1,0 +1,6 @@
+{
+  "name": "Pikachu",
+  "owner_name": "PokeNerd",
+  "heads": "tcg:gui/coins/heads/pikachu.png",
+  "tails": "tcg:gui/coins/tails/default.png"
+}

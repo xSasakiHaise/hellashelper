@@ -1,0 +1,27 @@
+{
+  "id": "Keldeo",
+  "spawnInfos": [
+    {
+      "spec": "species:Keldeo level:50",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 0.4
+    }
+  ]
+}

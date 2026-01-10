@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/rug",
+  "textures": {
+    "particle": "pixelmon:block/rug/magenta",
+    "main": "pixelmon:block/rug/magenta"
+  }
+}

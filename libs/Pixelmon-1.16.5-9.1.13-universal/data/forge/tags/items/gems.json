@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:silicon",
+    "pixelmon:crystal",
+    "pixelmon:ruby",
+    "pixelmon:amethyst",
+    "pixelmon:sapphire"
+  ]
+}

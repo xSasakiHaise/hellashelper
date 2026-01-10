@@ -1,0 +1,35 @@
+{
+  "name": {
+    "translate": "type.electric"
+  },
+  "color": {
+    "red": 255,
+    "green": 255,
+    "blue": 0,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/electric.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:water",
+        "pixelmon:flying"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:electric",
+        "pixelmon:grass",
+        "pixelmon:dragon"
+      ],
+      "effectiveness": "NOT"
+    },
+    {
+      "types": [
+        "pixelmon:ground"
+      ],
+      "effectiveness": "NONE"
+    }
+  ]
+}

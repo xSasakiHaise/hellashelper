@@ -1,0 +1,4 @@
+$body moltres.bmd	
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 6.0

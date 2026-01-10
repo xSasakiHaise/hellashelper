@@ -1,0 +1,20 @@
+{
+  "id": "Fennekin Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Fennekin",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

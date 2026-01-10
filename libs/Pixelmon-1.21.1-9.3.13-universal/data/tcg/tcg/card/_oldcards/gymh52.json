@@ -1,0 +1,28 @@
+{
+  "special": false,
+  "hp": 30,
+  "description": "",
+  "pokemon_id": 21,
+  "previous_pokemon_id": null,
+  "retreat_cost": 0,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH52.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH52.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

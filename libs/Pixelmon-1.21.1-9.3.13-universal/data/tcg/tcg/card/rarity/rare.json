@@ -1,0 +1,10 @@
+{
+  "color": {
+    "red": 28,
+    "green": 129,
+    "blue": 237,
+    "alpha": 255
+  },
+  "texture": "tcg:gui/rarities/rare.png",
+  "rare_or_higher": true
+}

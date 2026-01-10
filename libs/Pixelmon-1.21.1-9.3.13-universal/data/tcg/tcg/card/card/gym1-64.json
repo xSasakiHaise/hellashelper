@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.gym1-64.description",
+  "attacks": [
+    {
+      "name": "attack.gym1-64.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.gym1-64.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.gym1-64.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.gym1-64.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "COLORLESS",
+  "pokemon_id": 128,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "PSYCHIC",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:common"
+}

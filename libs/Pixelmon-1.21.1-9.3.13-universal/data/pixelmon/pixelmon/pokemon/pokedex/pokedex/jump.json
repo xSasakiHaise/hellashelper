@@ -1,0 +1,560 @@
+{
+  "name": {
+    "translate": "pixelmon.pokedex.jump"
+  },
+  "priority": 4,
+  "primary_color": {
+    "red": 255,
+    "green": 243,
+    "blue": 221,
+    "alpha": 255
+  },
+  "secondary_color": {
+    "red": 246,
+    "green": 135,
+    "blue": 53,
+    "alpha": 255
+  },
+  "text_color": {
+    "red": 203,
+    "green": 78,
+    "blue": 34,
+    "alpha": 255
+  },
+  "pokemon": {
+    "type": "pixelmon:dex",
+    "dex_numbers": [
+      {
+        "dex": 126,
+        "palette": "none"
+      },
+      {
+        "dex": 126,
+        "palette": "copper_sulfate"
+      },
+      {
+        "dex": 126,
+        "palette": "cupric_chloride"
+      },
+      {
+        "dex": 126,
+        "palette": "lithium_chloride"
+      },
+      {
+        "dex": 126,
+        "palette": "magnesium_sulfide"
+      },
+      {
+        "dex": 126,
+        "palette": "manganese_chloride"
+      },
+      {
+        "dex": 126,
+        "palette": "potassium_chloride"
+      },
+      {
+        "dex": 126,
+        "palette": "sodium_carbonate"
+      },
+      {
+        "dex": 126,
+        "palette": "calcium_carbonate"
+      },
+      {
+        "dex": 126,
+        "palette": "shiny"
+      },
+      {
+        "dex": 129,
+        "palette": "none"
+      },
+      {
+        "dex": 129,
+        "palette": "skelly"
+      },
+      {
+        "dex": 129,
+        "palette": "calico_orange_white"
+      },
+      {
+        "dex": 129,
+        "palette": "calico_orange_white_black"
+      },
+      {
+        "dex": 129,
+        "palette": "calico_white_orange"
+      },
+      {
+        "dex": 129,
+        "palette": "calico_orange_gold"
+      },
+      {
+        "dex": 129,
+        "palette": "orange_twotone"
+      },
+      {
+        "dex": 129,
+        "palette": "orange_orca"
+      },
+      {
+        "dex": 129,
+        "palette": "orange_dapples"
+      },
+      {
+        "dex": 129,
+        "palette": "pink_twotone"
+      },
+      {
+        "dex": 129,
+        "palette": "pink_orca"
+      },
+      {
+        "dex": 129,
+        "palette": "pink_dapples"
+      },
+      {
+        "dex": 129,
+        "palette": "gray_bubbles"
+      },
+      {
+        "dex": 129,
+        "palette": "gray_diamonds"
+      },
+      {
+        "dex": 129,
+        "palette": "gray_patches"
+      },
+      {
+        "dex": 129,
+        "palette": "purple_bubbles"
+      },
+      {
+        "dex": 129,
+        "palette": "purple_diamonds"
+      },
+      {
+        "dex": 129,
+        "palette": "purple_patches"
+      },
+      {
+        "dex": 129,
+        "palette": "apricot_tiger"
+      },
+      {
+        "dex": 129,
+        "palette": "apricot_zebra"
+      },
+      {
+        "dex": 129,
+        "palette": "apricot_stripes"
+      },
+      {
+        "dex": 129,
+        "palette": "brown_tiger"
+      },
+      {
+        "dex": 129,
+        "palette": "brown_zebra"
+      },
+      {
+        "dex": 129,
+        "palette": "brown_stripes"
+      },
+      {
+        "dex": 129,
+        "palette": "orange_forehead"
+      },
+      {
+        "dex": 129,
+        "palette": "orange_mask"
+      },
+      {
+        "dex": 129,
+        "palette": "black_forehead"
+      },
+      {
+        "dex": 129,
+        "palette": "black_mask"
+      },
+      {
+        "dex": 129,
+        "palette": "blue_saucy"
+      },
+      {
+        "dex": 129,
+        "palette": "blue_raindrops"
+      },
+      {
+        "dex": 129,
+        "palette": "violet_saucy"
+      },
+      {
+        "dex": 129,
+        "palette": "violet_raindrops"
+      },
+      {
+        "dex": 129,
+        "palette": "shiny"
+      },
+      {
+        "dex": 129,
+        "palette": "roasted"
+      },
+      {
+        "dex": 129,
+        "palette": "valencian"
+      },
+      {
+        "dex": 130,
+        "palette": "none"
+      },
+      {
+        "dex": 130,
+        "palette": "skelly"
+      },
+      {
+        "dex": 130,
+        "palette": "calico_orange_white"
+      },
+      {
+        "dex": 130,
+        "palette": "calico_orange_white_black"
+      },
+      {
+        "dex": 130,
+        "palette": "calico_white_orange"
+      },
+      {
+        "dex": 130,
+        "palette": "calico_orange_gold"
+      },
+      {
+        "dex": 130,
+        "palette": "orange_twotone"
+      },
+      {
+        "dex": 130,
+        "palette": "orange_orca"
+      },
+      {
+        "dex": 130,
+        "palette": "orange_dapples"
+      },
+      {
+        "dex": 130,
+        "palette": "pink_twotone"
+      },
+      {
+        "dex": 130,
+        "palette": "pink_orca"
+      },
+      {
+        "dex": 130,
+        "palette": "pink_dapples"
+      },
+      {
+        "dex": 130,
+        "palette": "gray_bubbles"
+      },
+      {
+        "dex": 130,
+        "palette": "gray_diamonds"
+      },
+      {
+        "dex": 130,
+        "palette": "gray_patches"
+      },
+      {
+        "dex": 130,
+        "palette": "purple_bubbles"
+      },
+      {
+        "dex": 130,
+        "palette": "purple_diamonds"
+      },
+      {
+        "dex": 130,
+        "palette": "purple_patches"
+      },
+      {
+        "dex": 130,
+        "palette": "apricot_tiger"
+      },
+      {
+        "dex": 130,
+        "palette": "apricot_zebra"
+      },
+      {
+        "dex": 130,
+        "palette": "apricot_stripes"
+      },
+      {
+        "dex": 130,
+        "palette": "brown_tiger"
+      },
+      {
+        "dex": 130,
+        "palette": "brown_zebra"
+      },
+      {
+        "dex": 130,
+        "palette": "brown_stripes"
+      },
+      {
+        "dex": 130,
+        "palette": "orange_forehead"
+      },
+      {
+        "dex": 130,
+        "palette": "orange_mask"
+      },
+      {
+        "dex": 130,
+        "palette": "black_forehead"
+      },
+      {
+        "dex": 130,
+        "palette": "black_mask"
+      },
+      {
+        "dex": 130,
+        "palette": "blue_saucy"
+      },
+      {
+        "dex": 130,
+        "palette": "blue_raindrops"
+      },
+      {
+        "dex": 130,
+        "palette": "violet_saucy"
+      },
+      {
+        "dex": 130,
+        "palette": "violet_raindrops"
+      },
+      {
+        "dex": 130,
+        "palette": "shiny"
+      },
+      {
+        "dex": 130,
+        "palette": "roasted"
+      },
+      {
+        "dex": 130,
+        "palette": "valencian"
+      },
+      {
+        "dex": 218,
+        "palette": "none"
+      },
+      {
+        "dex": 218,
+        "palette": "copper_sulfate"
+      },
+      {
+        "dex": 218,
+        "palette": "cupric_chloride"
+      },
+      {
+        "dex": 218,
+        "palette": "lithium_chloride"
+      },
+      {
+        "dex": 218,
+        "palette": "magnesium_sulfide"
+      },
+      {
+        "dex": 218,
+        "palette": "manganese_chloride"
+      },
+      {
+        "dex": 218,
+        "palette": "potassium_chloride"
+      },
+      {
+        "dex": 218,
+        "palette": "sodium_carbonate"
+      },
+      {
+        "dex": 218,
+        "palette": "calcium_carbonate"
+      },
+      {
+        "dex": 218,
+        "palette": "shiny"
+      },
+      {
+        "dex": 349,
+        "palette": "karp"
+      },
+      {
+        "dex": 363,
+        "palette": "none"
+      },
+      {
+        "dex": 363,
+        "palette": "pokeball"
+      },
+      {
+        "dex": 363,
+        "palette": "duskball"
+      },
+      {
+        "dex": 363,
+        "palette": "loveball"
+      },
+      {
+        "dex": 363,
+        "palette": "friendball"
+      },
+      {
+        "dex": 363,
+        "palette": "heavyball"
+      },
+      {
+        "dex": 363,
+        "palette": "moonball"
+      },
+      {
+        "dex": 363,
+        "palette": "premierball"
+      },
+      {
+        "dex": 363,
+        "palette": "masterball"
+      },
+      {
+        "dex": 363,
+        "palette": "gsball"
+      },
+      {
+        "dex": 363,
+        "palette": "shiny"
+      },
+      {
+        "dex": 422,
+        "form": "east",
+        "palette": "none"
+      },
+      {
+        "dex": 422,
+        "form": "east",
+        "palette": "shiny"
+      },
+      {
+        "dex": 422,
+        "form": "east",
+        "palette": "gray_bubbles"
+      },
+      {
+        "dex": 422,
+        "form": "east",
+        "palette": "purple_bubbles"
+      },
+      {
+        "dex": 422,
+        "form": "east",
+        "palette": "violet_saucy"
+      },
+      {
+        "dex": 422,
+        "form": "east",
+        "palette": "apricot_saucy"
+      },
+      {
+        "dex": 422,
+        "form": "east",
+        "palette": "moons"
+      },
+      {
+        "dex": 422,
+        "form": "east",
+        "palette": "golde"
+      },
+      {
+        "dex": 422,
+        "form": "west",
+        "palette": "none"
+      },
+      {
+        "dex": 422,
+        "form": "west",
+        "palette": "shiny"
+      },
+      {
+        "dex": 422,
+        "form": "west",
+        "palette": "gray_diamonds"
+      },
+      {
+        "dex": 422,
+        "form": "west",
+        "palette": "purple_diamonds"
+      },
+      {
+        "dex": 422,
+        "form": "west",
+        "palette": "brown_stripes"
+      },
+      {
+        "dex": 422,
+        "form": "west",
+        "palette": "blue_stripes"
+      },
+      {
+        "dex": 422,
+        "form": "west",
+        "palette": "sun"
+      },
+      {
+        "dex": 422,
+        "form": "west",
+        "palette": "goldw"
+      },
+      {
+        "dex": 852,
+        "palette": "none"
+      },
+      {
+        "dex": 852,
+        "palette": "irish"
+      },
+      {
+        "dex": 852,
+        "palette": "diamonds"
+      },
+      {
+        "dex": 852,
+        "palette": "clubs"
+      },
+      {
+        "dex": 852,
+        "palette": "martian"
+      },
+      {
+        "dex": 852,
+        "palette": "starry"
+      },
+      {
+        "dex": 852,
+        "palette": "yellow_ringed"
+      },
+      {
+        "dex": 852,
+        "palette": "red_ringed"
+      },
+      {
+        "dex": 852,
+        "palette": "alien"
+      },
+      {
+        "dex": 852,
+        "palette": "shiny"
+      }
+    ]
+  },
+  "acceptance_test": {
+    "type": "pixelmon:any"
+  }
+}

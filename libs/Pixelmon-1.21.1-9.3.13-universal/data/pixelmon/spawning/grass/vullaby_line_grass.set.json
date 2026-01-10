@@ -1,0 +1,51 @@
+{
+  "id": "Vullaby Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Vullaby",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 42,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Mandibuzz",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 55,
+      "maxLevel": 63,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

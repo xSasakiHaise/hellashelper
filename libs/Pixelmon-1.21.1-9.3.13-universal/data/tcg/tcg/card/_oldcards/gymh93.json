@@ -1,0 +1,24 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 92,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "attacks": [
+    {
+      "name": "attack.GYMH93.1.name",
+      "costs": [
+        "PSYCHIC",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH93.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

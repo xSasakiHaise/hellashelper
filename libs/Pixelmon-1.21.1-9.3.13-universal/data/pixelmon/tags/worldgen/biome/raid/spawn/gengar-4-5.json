@@ -1,0 +1,146 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "biomesoplenty:bog"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:dead_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:ominous_woods"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:old_growth_dead_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wasteland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wasteland_steppe"
+    },
+    {
+      "required": false,
+      "id": "terralith:rocky_shrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:warped_mesa"
+    },
+    "minecraft:nether_wastes",
+    "minecraft:basalt_deltas",
+    "minecraft:crimson_forest",
+    "minecraft:soul_sand_valley",
+    "minecraft:warped_forest",
+    {
+      "required": false,
+      "id": "biomesoplenty:crystalline_chasm"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:erupting_inferno"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:undergrowth"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:visceral_heap"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:withered_abyss"
+    },
+    {
+      "required": false,
+      "id": "incendium:ash_barrens"
+    },
+    {
+      "required": false,
+      "id": "incendium:infernal_dunes"
+    },
+    {
+      "required": false,
+      "id": "incendium:inverted_forest"
+    },
+    {
+      "required": false,
+      "id": "incendium:toxic_heap"
+    },
+    {
+      "required": false,
+      "id": "incendium:volcanic_deltas"
+    },
+    {
+      "required": false,
+      "id": "incendium:weeping_valley"
+    },
+    {
+      "required": false,
+      "id": "incendium:withered_forest"
+    },
+    "minecraft:dark_forest",
+    {
+      "required": false,
+      "id": "biomesoplenty:dense_woodland"
+    },
+    {
+      "required": false,
+      "id": "terralith:quartz_flats"
+    },
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+      "required": false,
+      "id": "biomesoplenty:coniferous_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:fir_clearing"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:forested_field"
+    },
+    {
+      "required": false,
+      "id": "terralith:cloud_forest"
+    },
+    {
+      "required": false,
+      "id": "terralith:forested_highlands"
+    },
+    {
+      "required": false,
+      "id": "terralith:shield"
+    },
+    {
+      "required": false,
+      "id": "terralith:shield_clearing"
+    },
+    {
+      "required": false,
+      "id": "terralith:siberian_taiga"
+    },
+    {
+      "required": false,
+      "id": "terralith:skylands_summer"
+    },
+    {
+      "required": false,
+      "id": "terralith:yellowstone"
+    },
+    {
+      "required": false,
+      "id": "terralith:yosemite_lowlands"
+    }
+  ]
+}

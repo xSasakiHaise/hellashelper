@@ -1,0 +1,47 @@
+{
+  "id": "Stantler Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Stantler",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/freezing_forests"
+        ],
+        "minY": 70
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Wyrdeer",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/freezing_forests"
+        ],
+        "minY": 70
+      },
+      "rarity": 1.0
+    }
+  ]
+}

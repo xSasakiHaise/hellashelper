@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "water_float",
+  "pattern": [
+    "sd"
+  ],
+  "key": {
+    "d": {
+      "tag": "c:dyes/white"
+    },
+    "s": {
+      "tag": "c:slimeballs"
+    }
+  },
+  "result": {
+    "id": "pixelmon:white_water_float",
+    "count": 1
+  }
+}

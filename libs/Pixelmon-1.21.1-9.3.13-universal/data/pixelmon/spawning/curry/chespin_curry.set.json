@@ -1,0 +1,21 @@
+{
+  "id": "Chespin Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Chespin",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

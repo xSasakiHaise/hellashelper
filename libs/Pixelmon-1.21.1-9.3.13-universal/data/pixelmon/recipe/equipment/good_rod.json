@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  B",
+    " BT",
+    "B P"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "T": {
+      "item": "minecraft:string"
+    },
+    "P": {
+      "type": "neoforge:components",
+      "items": "pixelmon:poke_ball",
+      "components": {
+        "pixelmon:poke_ball": "ultra_ball"
+      },
+      "strict": true
+    }
+  },
+  "result": {
+    "id": "pixelmon:good_rod",
+    "count": 1
+  }
+}

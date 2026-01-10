@@ -1,0 +1,8 @@
+{
+  "__comment__": "this file was automatically created by mcresources",
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "particle": "pixelmon:block/max_mushroom",
+    "cross": "pixelmon:block/max_mushroom"
+  }
+}

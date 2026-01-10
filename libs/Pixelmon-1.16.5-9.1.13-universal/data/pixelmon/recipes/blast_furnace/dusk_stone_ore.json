@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "pixelmon:dusk_stone_ore"
+    },
+    "result": "pixelmon:dusk_stone_shard",
+    "experience": 0.7,
+    "cookingtime": 100
+}

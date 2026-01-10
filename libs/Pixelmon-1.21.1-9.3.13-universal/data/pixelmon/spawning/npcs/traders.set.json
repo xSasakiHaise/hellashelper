@@ -1,0 +1,30 @@
+{
+  "id": "Traders",
+  "spawnInfos": [
+    {
+      "preset": "pixelmon:trader",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "biomes": [
+              "minecraft:snowy_plains"
+            ]
+          }
+        }
+      ],
+      "typeID": "npc",
+      "rarity": 0.5
+    }
+  ]
+}

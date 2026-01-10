@@ -1,0 +1,23 @@
+{
+  "id": "Swablu Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Swablu",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/magical",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

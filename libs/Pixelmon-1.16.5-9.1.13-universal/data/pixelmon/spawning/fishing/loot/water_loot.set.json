@@ -1,0 +1,1084 @@
+{
+  "id": "Water Loot",
+  "spawnInfos": [
+    {
+      "stringLocationTypes": [
+        "Old Rod",
+        "Good Rod",
+        "Super Rod"
+      ],
+      "typeID": "collection",
+      "collectionLabel": "spawning.collections.items",
+      "collection": [
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "jungles"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:bug_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "NIGHT"
+            ],
+            "stringBiomes": [
+              "mountainous"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:dragon_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "mountainous"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:electric_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "flowery"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:fairy_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "anticondition": {
+            "stringBiomes": [
+              "ultra space"
+            ]
+          },
+          "item": {
+            "itemID": "minecraft:cod",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "anticondition": {
+            "stringBiomes": [
+              "ultra space"
+            ]
+          },
+          "item": {
+            "itemID": "minecraft:salmon",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "minecraft:warm_ocean",
+              "minecraft:lukewarm_ocean"
+            ]
+          },
+          "item": {
+            "itemID": "minecraft:tropical_fish",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "minecraft:pufferfish",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 50
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "NIGHT"
+            ],
+            "stringBiomes": [
+              "hills"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:flying_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "NIGHT"
+            ],
+            "stringBiomes": [
+              "forests",
+              "birches"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:ghost_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "plains"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:grass_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "NIGHT"
+            ],
+            "stringBiomes": [
+              "freezing"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:ice_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "NIGHT"
+            ],
+            "stringBiomes": [
+              "swamps"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:poison_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "birches"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:psychic_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod",
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:water_gem",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:amethyst",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "swamps"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:black_sludge",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 15
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:crystal",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAWN"
+            ],
+            "stringBiomes": [
+              "taigas"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:dawn_stone_shard"
+          },
+          "minQuantity": 1,
+          "maxQuantity": 2,
+          "typeID": "item",
+          "rarity": 30
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "minecraft:diamond",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "minecraft:emerald",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "forests",
+              "birches"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:leaf_stone_shard"
+          },
+          "minQuantity": 1,
+          "maxQuantity": 2,
+          "typeID": "item",
+          "rarity": 30
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:ruby",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:sapphire",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "birches"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:sun_stone_shard"
+          },
+          "minQuantity": 1,
+          "maxQuantity": 2,
+          "typeID": "item",
+          "rarity": 30
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "NIGHT"
+            ],
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:water_stone_shard"
+          },
+          "minQuantity": 1,
+          "maxQuantity": 2,
+          "typeID": "item",
+          "rarity": 30
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "NIGHT"
+            ],
+            "stringBiomes": [
+              "jungles"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:damp_rock",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAWN"
+            ],
+            "stringBiomes": [
+              "taigas"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:dawn_stone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "minecraft:deep_ocean"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:deep_sea_scale",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "NIGHT"
+            ],
+            "stringBiomes": [
+              "minecraft:deep_ocean"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:deep_sea_tooth",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "freezing"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:icy_rock",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "forests",
+              "birches"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:leaf_stone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "minecraft:deep_ocean",
+              "minecraft:deep_warm_ocean",
+              "minecraft:deep_lukewarm_ocean"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:prism_scale",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "birches"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:sun_stone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "NIGHT"
+            ],
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:water_stone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Old Rod"
+          ],
+          "item": {
+            "itemID": "pixelmon:good_rod",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "percentage": 5
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod"
+          ],
+          "item": {
+            "itemID": "pixelmon:super_rod",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "percentage": 5
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "item": {
+            "itemID": "minecraft:enchanted_book",
+            "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1}]}",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 2
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "item": {
+            "itemID": "minecraft:enchanted_book",
+            "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5}]}",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "item": {
+            "itemID": "minecraft:enchanted_book",
+            "nbt": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3}]}",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 10
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "item": {
+            "itemID": "minecraft:enchanted_book",
+            "nbt": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:3}]}",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 5
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "item": {
+            "itemID": "minecraft:enchanted_book",
+            "nbt": "{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1}]}",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 5
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "freezing"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:ice_stone_shard"
+          },
+          "minQuantity": 1,
+          "maxQuantity": 2,
+          "typeID": "item",
+          "rarity": 30
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "times": [
+              "DAY"
+            ],
+            "stringBiomes": [
+              "freezing"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:ice_stone",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 20
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:pearl",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 15
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:big_pearl",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 5
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:pearl_string",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 1
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:silver_bottle_cap",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "percentage": 4
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:gold_bottle_cap",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "percentage": 0.1
+        },
+        {
+          "stringLocationTypes": [
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:alpha_shard",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "percentage": 30
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod",
+            "Super Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "oceanic",
+              "beaches"
+            ]
+          },
+          "item": {
+            "itemID": "minecraft:nautilus_shell",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 30
+        },
+        {
+          "stringLocationTypes": [
+            "Good Rod"
+          ],
+          "condition": {
+            "stringBiomes": [
+              "ultra space"
+            ]
+          },
+          "item": {
+            "itemID": "pixelmon:silver_bottle_cap",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "rarity": 5
+        },
+        {
+            "stringLocationTypes": [
+              "Super Rod"
+            ],
+            "condition": {
+              "stringBiomes": [
+                "ultra space"
+              ]
+            },
+            "item": {
+              "itemID": "pixelmon:silver_bottle_cap",
+              "quantity": 1
+            },
+            "typeID": "item",
+            "rarity": 10
+          },
+          {
+            "stringLocationTypes": [
+              "Super Rod"
+            ],
+            "condition": {
+              "stringBiomes": [
+                "pixelmon:ultra_deep_sea"
+              ]
+            },
+            "item": {
+              "itemID": "pixelmon:water_stone",
+              "quantity": 1
+            },
+            "typeID": "item",
+            "rarity": 20
+          },
+          {
+            "stringLocationTypes": [
+              "Super Rod"
+            ],
+            "condition": {
+              "stringBiomes": [
+                "pixelmon:ultra_desert"
+              ]
+            },
+            "item": {
+              "itemID": "pixelmon:fire_stone",
+              "quantity": 1
+            },
+            "typeID": "item",
+            "rarity": 20
+          },
+          {
+            "stringLocationTypes": [
+              "Super Rod"
+            ],
+            "condition": {
+              "stringBiomes": [
+                "pixelmon:ultra_forest"
+              ]
+            },
+            "item": {
+              "itemID": "pixelmon:shiny_stone",
+              "quantity": 1
+            },
+            "typeID": "item",
+            "rarity": 20
+          },
+          {
+            "stringLocationTypes": [
+              "Super Rod"
+            ],
+            "condition": {
+              "stringBiomes": [
+                "pixelmon:ultra_jungle"
+              ]
+            },
+            "item": {
+              "itemID": "pixelmon:leaf_stone",
+              "quantity": 1
+            },
+            "typeID": "item",
+            "rarity": 20
+          },
+          {
+            "stringLocationTypes": [
+              "Super Rod"
+            ],
+            "condition": {
+              "stringBiomes": [
+                "pixelmon:ultra_plant"
+              ]
+            },
+            "item": {
+              "itemID": "pixelmon:thunder_stone",
+              "quantity": 1
+            },
+            "typeID": "item",
+            "rarity": 20
+          },
+          {
+            "stringLocationTypes": [
+              "Super Rod"
+            ],
+            "condition": {
+              "stringBiomes": [
+                "pixelmon:ultra_crater"
+              ]
+            },
+            "item": {
+              "itemID": "pixelmon:sun_stone",
+              "quantity": 1
+            },
+            "typeID": "item",
+            "rarity": 20
+          },
+          {
+            "stringLocationTypes": [
+              "Old Rod",
+              "Good Rod",
+              "Super Rod"
+            ],
+            "condition": {
+              "stringBiomes": [
+                "ultra space"
+              ]
+            },
+            "item": {
+              "itemID": "minecraft:salmon",
+              "quantity": 1
+            },
+            "typeID": "item",
+            "rarity": 70
+          }
+      ],
+      "requiredSpace": 2,
+      "percentage": 15
+    }
+  ]
+}

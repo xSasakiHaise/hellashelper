@@ -1,0 +1,4 @@
+$body vibrava.bmd
+$anim idle idle.bmd
+$anim fly fly.bmd
+$scale 3.5

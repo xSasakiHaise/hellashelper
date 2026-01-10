@@ -1,0 +1,15 @@
+{
+  "spawns": [
+    {
+      "spec": "Bayleef",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/bayleef-2-3",
+      "weight": 1.0
+    }
+  ]
+}

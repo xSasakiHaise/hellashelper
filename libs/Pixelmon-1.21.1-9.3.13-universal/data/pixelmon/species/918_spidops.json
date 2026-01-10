@@ -1,0 +1,336 @@
+{
+  "name": "Spidops",
+  "dex": 918,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 0.8,
+        "width": 1.0,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Silk Trap",
+              "String Shot",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Block"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Sticky Web"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Circle Throw"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Skitter Smack"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "First Impression",
+          "Lunge",
+          "Memento",
+          "Sucker Punch"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Low Kick",
+          "Struggle Bug",
+          "Thief",
+          "Trailblaze",
+          "Pounce",
+          "Facade",
+          "Aerial Ace",
+          "Rock Tomb",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Bullet Seed",
+          "False Swipe",
+          "Brick Break",
+          "U-turn",
+          "Shadow Claw",
+          "Body Slam",
+          "Sleep Talk",
+          "Grass Knot",
+          "Poison Jab",
+          "Rest",
+          "Taunt",
+          "Spikes",
+          "Toxic Spikes",
+          "Leech Life",
+          "Substitute",
+          "X-Scissor",
+          "Giga Drain",
+          "Reversal",
+          "Giga Impact",
+          "Bug Buzz",
+          "Tera Blast",
+          "Knock Off",
+          "Bug Bite",
+          "Lunge",
+          "Pain Split",
+          "Electroweb",
+          "Skitter Smack",
+          "Throat Chop",
+          "Upper Hand"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Insomnia"
+        ],
+        "hiddenAbilities": [
+          "Stakeout"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 79,
+        "defense": 92,
+        "specialAttack": 52,
+        "specialDefense": 86,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 141,
+        "baseFriendship": 50,
+        "spawnLevel": 15,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/918_spidops/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.spidops",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/918_spidops/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/918_spidops/all/base/none/spidops.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/918_spidops/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/918_spidops/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "special",
+                          "animation": "pixelmon:pokemon/918_spidops/all/base/none/dance.bmd"
+                        }
+                      ],
+                      "scale": 0.11
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/918_spidops/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/918_spidops/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/918_spidops/all/base/none/spidops.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/918_spidops/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/918_spidops/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "special",
+                          "animation": "pixelmon:pokemon/918_spidops/all/base/none/dance.bmd"
+                        }
+                      ],
+                      "scale": 0.11
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [
+        "Tarountula"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 16.5,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      },
+      "growth_data": {
+        "mean": 80.0,
+        "standard_deviation": 4.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 9
+}

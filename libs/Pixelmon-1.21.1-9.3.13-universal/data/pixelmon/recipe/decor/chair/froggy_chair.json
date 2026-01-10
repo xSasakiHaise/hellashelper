@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "froggy_chair",
+  "ingredients": [
+    {
+      "type": "neoforge:components",
+      "items": "pixelmon:pixelmon_sprite",
+      "strict": true,
+      "components": {
+        "minecraft:custom_data": {
+          "ndex": 186,
+          "palette": "none",
+          "form": "base",
+          "gender": 0
+        }
+      }
+    },
+    {
+      "item": "pixelmon:green_chair"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:froggy_chair",
+    "count": 1
+  }
+}

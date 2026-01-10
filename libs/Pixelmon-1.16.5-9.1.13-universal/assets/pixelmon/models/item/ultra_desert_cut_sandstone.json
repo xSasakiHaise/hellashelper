@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/ultra_space/cut_sandstone",
+  "textures": {
+    "particle": "pixelmon:block/ultra_space/ultra_desert_cut_sandstone",
+    "layer0": "pixelmon:block/ultra_space/ultra_desert_cut_sandstone"
+  }
+}

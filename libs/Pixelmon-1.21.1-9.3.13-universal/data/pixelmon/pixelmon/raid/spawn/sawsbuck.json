@@ -1,0 +1,48 @@
+{
+  "spawns": [
+    {
+      "spec": "Sawsbuck form:spring",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/sawsbuck-spring-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Sawsbuck form:summer",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/sawsbuck-summer-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Sawsbuck form:winter",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/sawsbuck-winter-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Sawsbuck form:autumn",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/sawsbuck-autumn-4-5",
+      "weight": 1.0
+    }
+  ]
+}

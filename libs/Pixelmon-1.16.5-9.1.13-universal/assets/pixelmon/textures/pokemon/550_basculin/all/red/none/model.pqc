@@ -1,0 +1,5 @@
+$body basculin.bmd
+$anim walk walk.bmd
+$anim swim swim.bmd
+$anim idle idle.bmd
+$scale 1.0

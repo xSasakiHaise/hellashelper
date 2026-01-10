@@ -1,0 +1,26 @@
+{
+  "id": "Drampa Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Drampa",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:persim_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mushroom"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

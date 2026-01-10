@@ -1,0 +1,48 @@
+{
+  "id": "Zeraora",
+  "spawnInfos": [
+    {
+      "spec": "species:Zeraora level:50",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ],
+        "minY": 90
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Zeraora level:50 palette:strike",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

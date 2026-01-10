@@ -1,0 +1,38 @@
+{
+  "id": "Durant",
+  "spawnInfos": [
+    {
+      "spec": "species:Durant",
+      "stringLocationTypes": [
+        "Underground",
+        "Forage"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "mountainous",
+          "mesas"
+        ],
+        "maxLightLevel": 5
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Durant",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

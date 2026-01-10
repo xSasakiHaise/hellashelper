@@ -1,0 +1,48 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base5-24.description",
+  "attacks": [
+    {
+      "name": "attack.base5-24.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base5-24.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": false,
+          "location": "*",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "GRASS",
+  "pokemon_id": 42,
+  "ability": {
+    "name": "ability.base5-24.name",
+    "description": "ability.base5-24.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:sneak_attack"
+    }
+  },
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:rare"
+}

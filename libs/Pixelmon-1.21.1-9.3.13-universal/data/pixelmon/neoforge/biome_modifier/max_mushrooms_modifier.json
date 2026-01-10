@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:mushroom_fields",
+  "step": "vegetal_decoration",
+  "features": [
+    "pixelmon:max_mushrooms"
+  ]
+}

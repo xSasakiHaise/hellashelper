@@ -1,0 +1,28 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 69,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH76.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH76.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

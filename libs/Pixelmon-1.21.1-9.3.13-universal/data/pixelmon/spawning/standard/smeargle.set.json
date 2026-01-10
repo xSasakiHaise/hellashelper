@@ -1,0 +1,23 @@
+{
+  "id": "Smeargle",
+  "spawnInfos": [
+    {
+      "spec": "species:Smeargle",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

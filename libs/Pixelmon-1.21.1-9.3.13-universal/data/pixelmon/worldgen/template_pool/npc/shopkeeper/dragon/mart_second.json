@@ -1,0 +1,33 @@
+{
+  "name": "pixelmon:npc/shopkeeper/dragon/mart_second",
+  "fallback": "pixelmon:npc/shopkeeper/dragon/mart_second",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/dragon/tm_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/dragon/mail_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/dragon/curry_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

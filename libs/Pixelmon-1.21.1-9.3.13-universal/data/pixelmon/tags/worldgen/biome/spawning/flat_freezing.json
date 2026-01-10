@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:snowy_plains",
+      {
+        "id": "biomesoplenty:cold_desert",
+        "required": false
+      },
+      {
+        "id": "terralith:cold_shrubland",
+        "required": false
+      },
+      {
+        "id": "terralith:gravel_desert",
+        "required": false
+      },
+      {
+        "id": "terralith:snowy_badlands",
+        "required": false
+      }
+    ]
+  }
+  

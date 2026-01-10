@@ -1,0 +1,22 @@
+{
+  "id": "Psyduck Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Psyduck",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

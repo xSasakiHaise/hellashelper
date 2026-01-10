@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#pixelmon:spawning/all_forests",
+  "step": "raw_generation",
+  "features": [
+    "pixelmon:ores/leaf_stone"
+  ]
+}

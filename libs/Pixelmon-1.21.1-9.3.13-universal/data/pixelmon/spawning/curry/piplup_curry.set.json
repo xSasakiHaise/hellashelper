@@ -1,0 +1,23 @@
+{
+  "id": "Piplup Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Piplup",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_beach"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

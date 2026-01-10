@@ -1,0 +1,20 @@
+{
+  "id": "Mudkip Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Mudkip",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

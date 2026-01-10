@@ -1,0 +1,101 @@
+{
+  "id": "Taillow Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Taillow status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
+        ],
+        "variant": [
+          "birch"
+        ]
+      },
+      "rarity": 160.0
+    },
+    {
+      "spec": "species:Taillow",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
+        ],
+        "variant": [
+          "birch"
+        ]
+      },
+      "rarity": 160.0
+    },
+    {
+      "spec": "species:Swellow status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
+        ],
+        "variant": [
+          "birch"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Swellow",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
+        ],
+        "variant": [
+          "birch"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

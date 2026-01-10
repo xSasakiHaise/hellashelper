@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "c:ingots/aluminum"
+    }
+  },
+  "result": {
+    "id": "pixelmon:aluminum_helmet",
+    "count": 1
+  }
+}

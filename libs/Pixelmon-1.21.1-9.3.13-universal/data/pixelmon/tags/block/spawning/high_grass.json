@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:tall_grass",
+    "pixelmon:pixelmon_grass",
+    "pixelmon:poke_grass",
+    {
+      "id": "biomesoplenty:high_grass",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:tall_prairie_grass",
+      "required":false
+    },
+    {
+      "id": "biomeswevegone:tall_beach_grass",
+      "required": false
+    }
+  ]
+}

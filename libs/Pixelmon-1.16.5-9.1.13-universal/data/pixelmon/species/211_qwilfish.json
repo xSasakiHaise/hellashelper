@@ -1,0 +1,859 @@
+{
+  "name": "Qwilfish",
+  "dex": 211,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Poison Sting",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Minimize"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Spikes"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Spit Up",
+              "Stockpile"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Acupressure"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scale Shot",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Acid Spray",
+          "Aqua Jet",
+          "Astonish",
+          "Barb Barrage",
+          "Bubble Beam",
+          "Flail",
+          "Haze",
+          "Self-Destruct",
+          "Supersonic",
+          "Water Pulse"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Thunder Wave",
+          "Self-Destruct",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Revenge",
+          "Dive",
+          "Bounce",
+          "Brine",
+          "Payback",
+          "Assurance",
+          "Venoshock",
+          "Round",
+          "Hex"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Waterfall",
+          "Substitute",
+          "Reversal",
+          "Sludge Bomb",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Taunt",
+          "Gyro Ball",
+          "Toxic Spikes",
+          "Poison Jab",
+          "Sludge Wave",
+          "Scald",
+          "Venom Drench",
+          "Throat Chop",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Acid Spray",
+          "Aqua Jet",
+          "Astonish",
+          "Barb Barrage",
+          "Bubble",
+          "Bubble Beam",
+          "Captivate",
+          "Confide",
+          "Curse",
+          "Defense Curl",
+          "Double Team",
+          "Double-Edge",
+          "Explosion",
+          "Flail",
+          "Frustration",
+          "Haze",
+          "Headbutt",
+          "Hidden Power",
+          "Mimic",
+          "Natural Gift",
+          "Pain Split",
+          "Return",
+          "Revenge",
+          "Rollout",
+          "Secret Power",
+          "Self-Destruct",
+          "Shock Wave",
+          "Signal Beam",
+          "Supersonic",
+          "Swagger",
+          "Take Down",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Venoshock",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Explosion",
+          "Payback",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Venoshock",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Explosion",
+          "Payback",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Venoshock",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Explosion",
+          "Payback",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Explosion",
+          "Payback",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Swift",
+          "Defense Curl",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Scary Face",
+          "Protect",
+          "Water Pulse",
+          "Acid Spray",
+          "Chilling Water",
+          "Facade",
+          "Poison Tail",
+          "Hex",
+          "Swift",
+          "Icy Wind",
+          "Mud Shot",
+          "Venoshock",
+          "Endure",
+          "Rain Dance",
+          "Sleep Talk",
+          "Waterfall",
+          "Thunder Wave",
+          "Poison Jab",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Spikes",
+          "Toxic Spikes",
+          "Gunk Shot",
+          "Substitute",
+          "Crunch",
+          "Liquidation",
+          "Shadow Ball",
+          "Surf",
+          "Reversal",
+          "Ice Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Sludge Bomb",
+          "Giga Impact",
+          "Tera Blast",
+          "Haze",
+          "Toxic",
+          "Spite",
+          "Gyro Ball",
+          "Flip Turn",
+          "Scale Shot",
+          "Pain Split",
+          "Double-Edge",
+          "Whirlpool",
+          "Sludge Wave",
+          "Throat Chop",
+          "Curse"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "PoisonPoint",
+          "SwiftSwim"
+        ],
+        "hiddenAbilities": [
+          "Intimidate"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 25,
+          "swimSpeed": 14,
+          "decayRate": 0.99,
+          "refreshRate": 200,
+          "blocksToStopOn": [
+            "minecraft:SEA_PICKLE"
+          ],
+          "minStopTime": 5,
+          "maxStopTime": 10,
+          "minStopCooldownTime": 20,
+          "maxStopCooldownTime": 60,
+          "canRotateWhileStopped": true
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 85,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 100,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 40,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/211_qwilfish/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/211_qwilfish/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/211_qwilfish/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/211_qwilfish/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/211_qwilfish/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "drowned",
+              "texture": "pixelmon:pokemon/211_qwilfish/all/base/drowned/texture.png",
+              "sprite": "pixelmon:pokemon/211_qwilfish/all/base/drowned/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER",
+        "POISON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 3.9,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1
+      }
+    },
+    {
+      "name": "hisuian",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Poison Sting",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Minimize"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Spikes"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Barb Barrage"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Spit Up",
+              "Stockpile"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Acupressure"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Dark Pulse",
+          "Ice Ball",
+          "Ice Beam",
+          "Icy Wind",
+          "Poison Jab",
+          "Rest",
+          "Shadow Ball",
+          "Sludge Bomb",
+          "Spikes",
+          "Swift",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Acid Spray",
+          "Aqua Jet",
+          "Aqua Tail",
+          "Astonish",
+          "Bubble Beam",
+          "Flail",
+          "Haze",
+          "Self-Destruct",
+          "Supersonic",
+          "Water Pulse"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Acid Spray",
+          "Aqua Jet",
+          "Aqua Tail",
+          "Astonish",
+          "Bubble Beam",
+          "Dark Pulse",
+          "Double-Edge",
+          "Flail",
+          "Haze",
+          "Poison Jab",
+          "Self-Destruct",
+          "Supersonic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Scary Face",
+          "Protect",
+          "Water Pulse",
+          "Acid Spray",
+          "Chilling Water",
+          "Facade",
+          "Poison Tail",
+          "Hex",
+          "Swift",
+          "Icy Wind",
+          "Mud Shot",
+          "Venoshock",
+          "Endure",
+          "Rain Dance",
+          "Sleep Talk",
+          "Waterfall",
+          "Poison Jab",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Spikes",
+          "Toxic Spikes",
+          "Dark Pulse",
+          "Gunk Shot",
+          "Substitute",
+          "Crunch",
+          "Liquidation",
+          "Shadow Ball",
+          "Surf",
+          "Reversal",
+          "Ice Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Sludge Bomb",
+          "Giga Impact",
+          "Tera Blast",
+          "Haze",
+          "Toxic",
+          "Spite",
+          "Gyro Ball",
+          "Lash Out",
+          "Scale Shot",
+          "Pain Split",
+          "Double-Edge",
+          "Throat Chop",
+          "Curse"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "PoisonPoint",
+          "SwiftSwim"
+        ],
+        "hiddenAbilities": [
+          "Intimidate"
+        ]
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 85,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 85
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 100,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 40,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/211_qwilfish/all/hisuian/none/texture.png",
+              "sprite": "pixelmon:pokemon/211_qwilfish/all/hisuian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/211_qwilfish/all/hisuian/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.qwilfish.hisui"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/211_qwilfish/all/hisuian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/211_qwilfish/all/hisuian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "DARK",
+        "POISON"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 13.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Overqwil",
+          "conditions": [
+            {
+              "move": "Barb Barrage",
+              "uses": 20,
+              "evoConditionType": "moveUses"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ]
+    }
+  ],
+  "generation": 2
+}

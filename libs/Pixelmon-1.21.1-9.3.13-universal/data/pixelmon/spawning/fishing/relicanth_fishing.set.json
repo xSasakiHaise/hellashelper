@@ -1,0 +1,30 @@
+{
+  "id": "Relicanth Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Relicanth",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.gym1-130.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "energies": "LIGHTNING"
+}

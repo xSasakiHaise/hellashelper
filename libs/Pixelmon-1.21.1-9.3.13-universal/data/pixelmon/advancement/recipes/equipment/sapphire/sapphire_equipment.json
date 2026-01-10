@@ -1,0 +1,35 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/sapphire/sapphire_axe",
+      "pixelmon:equipment/sapphire/sapphire_block",
+      "pixelmon:equipment/sapphire/sapphire_boots",
+      "pixelmon:equipment/sapphire/sapphire_from_block",
+      "pixelmon:equipment/sapphire/sapphire_hammer",
+      "pixelmon:equipment/sapphire/sapphire_helmet",
+      "pixelmon:equipment/sapphire/sapphire_hoe",
+      "pixelmon:equipment/sapphire/sapphire_leggings",
+      "pixelmon:equipment/sapphire/sapphire_pickaxe",
+      "pixelmon:equipment/sapphire/sapphire_chestplate",
+      "pixelmon:equipment/sapphire/sapphire_shovel",
+      "pixelmon:equipment/sapphire/sapphire_sword"
+    ]
+  },
+  "criteria": {
+    "has_sapphire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:gems/sapphire"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sapphire"
+    ]
+  ]
+}

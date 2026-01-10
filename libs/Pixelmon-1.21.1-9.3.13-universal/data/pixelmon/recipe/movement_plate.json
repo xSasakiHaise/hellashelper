@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "RLR",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/aluminum"
+    },
+    "D": {
+      "tag": "c:dyes/lime"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "L": {
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "result": {
+    "id": "pixelmon:movement_plate",
+    "count": 1
+  }
+}

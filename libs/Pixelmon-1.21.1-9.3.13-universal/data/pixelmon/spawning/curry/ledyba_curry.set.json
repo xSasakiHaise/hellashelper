@@ -1,0 +1,23 @@
+{
+  "id": "Ledyba Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Ledyba",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

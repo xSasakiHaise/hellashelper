@@ -1,0 +1,27 @@
+{
+  "id": "Magby Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magmarizer",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

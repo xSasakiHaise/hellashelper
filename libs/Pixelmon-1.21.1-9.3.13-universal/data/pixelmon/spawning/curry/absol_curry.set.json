@@ -1,0 +1,20 @@
+{
+  "id": "Absol Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Absol",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

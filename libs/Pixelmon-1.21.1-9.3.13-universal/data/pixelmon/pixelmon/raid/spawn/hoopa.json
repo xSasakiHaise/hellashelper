@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Hoopa",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/hoopa-5-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Hoopa form:unbound",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/hoopa-unbound-5-5",
+      "weight": 1.0
+    }
+  ]
+}

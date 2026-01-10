@@ -1,0 +1,32 @@
+{
+  "id": "Bruxish",
+  "spawnInfos": [
+    {
+      "spec": "species:Bruxish",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:razor_fang",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "biomeswevegone:lush_stacks"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

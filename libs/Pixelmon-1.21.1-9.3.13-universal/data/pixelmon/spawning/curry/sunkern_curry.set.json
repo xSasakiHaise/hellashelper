@@ -1,0 +1,20 @@
+{
+  "id": "Sunkern Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Sunkern",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

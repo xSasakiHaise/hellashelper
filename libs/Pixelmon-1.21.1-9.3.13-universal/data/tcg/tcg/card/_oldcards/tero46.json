@@ -1,0 +1,44 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 8,
+  "previous_pokemon_id": 7,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO46.1.name",
+      "costs": [
+        "WATER"
+      ],
+      "damage": 10,
+      "text": "attack.TERO46.1.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 2,
+          "flip_type": "Exact"
+        }
+      ]
+    },
+    {
+      "name": "attack.TERO46.2.name",
+      "costs": [
+        "WATER",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.TERO46.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

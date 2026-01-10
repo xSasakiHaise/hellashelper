@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:kanto",
+    "pixelmon:johto",
+    "pixelmon:hoenn",
+    "pixelmon:sinnoh",
+    "pixelmon:unova",
+    "pixelmon:kalos",
+    "pixelmon:alola",
+    "pixelmon:galar",
+    "pixelmon:paldea"
+  ]
+}

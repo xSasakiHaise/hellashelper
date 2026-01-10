@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:blackbadgecase",
+    "pixelmon:bluebadgecase",
+    "pixelmon:greenbadgecase",
+    "pixelmon:pinkbadgecase",
+    "pixelmon:redbadgecase",
+    "pixelmon:whitebadgecase",
+    "pixelmon:yellowbadgecase"
+  ]
+}

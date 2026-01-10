@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/water_float",
+  "textures": {
+    "particle": "pixelmon:block/water_float/blue",
+    "main": "pixelmon:block/water_float/blue"
+  }
+}

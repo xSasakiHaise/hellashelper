@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/umbrella",
+  "textures": {
+    "particle": "pixelmon:block/umbrella/light_blue",
+    "main": "pixelmon:block/umbrella/light_blue"
+  }
+}

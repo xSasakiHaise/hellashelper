@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/hanging_gym_sign",
+  "textures": {
+    "particle": "pixelmon:block/gymsigns/hanging/blue",
+    "all": "pixelmon:block/gymsigns/hanging/blue"
+  }
+}

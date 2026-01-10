@@ -1,0 +1,6 @@
+$body rockruff.bmd
+$anim special pawshake.bmd
+$anim special2 headshake.bmd
+$anim walk walk.bmd
+$anim idle idlebasic.bmd pawshake.bmd idlebasic.bmd idlebasic.bmd idlebasic.bmd headshake.bmd 
+$scale 0.2

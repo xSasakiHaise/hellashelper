@@ -1,0 +1,47 @@
+{
+  "attackName": "Dragon Cheer",
+  "attackType": "DRAGON",
+  "attackCategory": "STATUS",
+  "basePower": 0,
+  "ppBase": 15,
+  "ppMax": 24,
+  "accuracy": -1,
+  "makesContact": false,
+  "effects": [
+    {
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "DragonCheer"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": true,
+    "hitsOppositeFoe": false,
+    "hitsAdjacentFoe": false,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": true
+  },
+  "flags": {
+    "authentic": true
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:dragonium_z",
+      "attackName": "Z-Dragon Cheer",
+      "basePower": 0,
+      "effects": [
+        {
+          "modifiers": [],
+          "persists": false,
+          "effectTypeID": "FocusEnergy"
+        }
+      ],
+      "allowedPokemon": []
+    }
+  ]
+}

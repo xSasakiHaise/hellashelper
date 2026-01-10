@@ -1,0 +1,48 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:way_point/badlands",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:way_point/desert",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:way_point/jungle",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:way_point/mountain",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:way_point/mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:way_point/plains",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:way_point/savanna",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:way_point/swamp",
+      "weight": 1
+    },
+    {
+      "structure": "pixelmon:way_point/ice",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 881421047,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "spacing": 53,
+    "separation": 31
+  }
+}

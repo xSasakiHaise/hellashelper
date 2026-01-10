@@ -1,0 +1,39 @@
+{
+  "special": false,
+  "hp": 100,
+  "description": "card.base4-2.description",
+  "attacks": [
+    {
+      "name": "attack.base4-2.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base4-2.0.description",
+      "effects": [
+        {
+          "type": "tcg:mirror_move"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 3,
+  "energies": "WATER",
+  "pokemon_id": 9,
+  "ability": {
+    "name": "ability.base4-2.name",
+    "description": "ability.base4-2.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:rain_dance"
+    }
+  },
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

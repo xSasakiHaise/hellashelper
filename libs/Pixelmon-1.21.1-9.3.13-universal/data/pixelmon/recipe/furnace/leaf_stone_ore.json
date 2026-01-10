@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "pixelmon:leaf_stone_ore"
+    },
+    "result": {
+       "id": "pixelmon:leaf_stone_shard"
+    },
+    "experience": 0.7,
+    "cookingtime": 200
+}

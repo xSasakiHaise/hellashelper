@@ -1,0 +1,19 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:drowned"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "dhelmise",
+      "basculin",
+      "binacle",
+      "barbaracle",
+      "mareanie",
+      "toxapex"
+    ]
+  }
+}

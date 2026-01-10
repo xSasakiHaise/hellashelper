@@ -1,0 +1,27 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/galactic/galactic_boots",
+      "pixelmon:equipment/galactic/galactic_plate",
+      "pixelmon:equipment/galactic/galactic_helm",
+      "pixelmon:equipment/galactic/galactic_leggs"
+    ]
+  },
+  "criteria": {
+    "has_silicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:gems/silicon"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silicon"
+    ]
+  ]
+}

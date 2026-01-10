@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Dugtrio",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/dugtrio-3-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Dugtrio form:alolan",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/dugtrio-alolan-3-4",
+      "weight": 1.0
+    }
+  ]
+}

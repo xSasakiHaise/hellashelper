@@ -1,0 +1,33 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/fire_stone/fire_stone_axe",
+      "pixelmon:equipment/fire_stone/fire_stone_boots",
+      "pixelmon:equipment/fire_stone/fire_stone_hammer",
+      "pixelmon:equipment/fire_stone/fire_stone_helm",
+      "pixelmon:equipment/fire_stone/fire_stone_hoe",
+      "pixelmon:equipment/fire_stone/fire_stone_legs",
+      "pixelmon:equipment/fire_stone/fire_stone_pickaxe",
+      "pixelmon:equipment/fire_stone/fire_stone_plate",
+      "pixelmon:equipment/fire_stone/fire_stone_shovel",
+      "pixelmon:equipment/fire_stone/fire_stone_sword"
+    ]
+  },
+  "criteria": {
+    "has_fire_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:fire_stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_fire_stone"
+    ]
+  ]
+}

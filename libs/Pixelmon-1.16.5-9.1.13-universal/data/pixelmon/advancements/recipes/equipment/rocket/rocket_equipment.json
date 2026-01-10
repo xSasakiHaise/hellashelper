@@ -1,0 +1,27 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/rocket/rocket_boots",
+      "pixelmon:equipment/rocket/rocket_plate",
+      "pixelmon:equipment/rocket/rocket_helm",
+      "pixelmon:equipment/rocket/rocket_leggs"
+    ]
+  },
+  "criteria": {
+    "has_amethyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:gems/amethyst"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_amethyst"
+    ]
+  ]
+}

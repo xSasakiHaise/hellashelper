@@ -1,0 +1,4 @@
+$body cyclizar_idle.bmd
+$anim idle idle.bmd
+$anim walk idle.bmd
+$scale 1.9

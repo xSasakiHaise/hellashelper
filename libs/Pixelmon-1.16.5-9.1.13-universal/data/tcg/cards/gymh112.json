@@ -1,0 +1,31 @@
+{
+  "id": 337,
+  "setId": 6,
+  "cardType": "TRAINER",
+  "isSpecial": false,
+  "hp": 0,
+  "energy1": "",
+  "energy2": null,
+  "pokemonId": null,
+  "code": "GYMH112",
+  "name": "card.GYMH112.name",
+  "description": "card.gymh112.text",
+  "previousPokemonId": null,
+  "cardAttacks": [
+
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 0,
+  "cardRarity": "UNCOMMON",
+  "customTexture": "tcg:gui/cards/foreground/ltsurgestreaty-bg.png",
+  "customTextureX": 32,
+  "customTextureY": 32,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

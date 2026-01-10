@@ -1,0 +1,23 @@
+{
+  "id": "Crocalor",
+  "spawnInfos": [
+    {
+      "spec": "species:Crocalor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mesas"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

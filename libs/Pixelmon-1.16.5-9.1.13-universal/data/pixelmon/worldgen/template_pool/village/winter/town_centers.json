@@ -1,0 +1,33 @@
+{
+  "name": "pixelmon:village/winter/town_centers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "pixelmon:village/winter/town_centers/winter_meeting_point_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 100
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "pixelmon:village/winter/town_centers/winter_meeting_point_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "pixelmon:village/winter/town_centers/winter_meeting_point_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 150
+    }
+  ]
+}

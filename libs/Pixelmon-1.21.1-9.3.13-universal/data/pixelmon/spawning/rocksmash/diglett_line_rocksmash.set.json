@@ -1,0 +1,69 @@
+{
+  "id": "Diglett Line Rocksmash",
+  "spawnInfos": [
+    {
+      "spec": "species:Diglett",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 150.0
+    },
+    {
+      "spec": "species:Diglett form:alolan",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Dugtrio",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 18,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Dugtrio form:alolan",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 18,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

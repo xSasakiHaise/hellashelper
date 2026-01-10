@@ -1,0 +1,21 @@
+{
+  "id": "Binacle Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Binacle",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 22,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

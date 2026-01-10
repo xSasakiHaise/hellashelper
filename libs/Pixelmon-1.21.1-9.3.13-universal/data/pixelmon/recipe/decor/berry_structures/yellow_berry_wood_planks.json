@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "pixelmon:apricorn_log"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:yellow_berry_wood_planks",
+    "count": 4
+  }
+}

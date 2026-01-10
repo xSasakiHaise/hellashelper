@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Zoroark form:hisuian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/zoroark-hisuian-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Zoroark",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/zoroark-4-5",
+      "weight": 1.0
+    }
+  ]
+}

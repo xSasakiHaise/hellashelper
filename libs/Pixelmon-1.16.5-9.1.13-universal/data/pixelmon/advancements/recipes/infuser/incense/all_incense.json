@@ -1,0 +1,39 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:infuser/incense/full_incense",
+      "pixelmon:infuser/incense/lax_incense",
+      "pixelmon:infuser/incense/luck_incense",
+      "pixelmon:infuser/incense/odd_incense",
+      "pixelmon:infuser/incense/pure_incense",
+      "pixelmon:infuser/incense/rock_incense",
+      "pixelmon:infuser/incense/rose_incense",
+      "pixelmon:infuser/incense/sea_incense",
+      "pixelmon:infuser/incense/wave_incense"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:incense_burner"
+      }
+    },
+    "has_incense_burner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pixelmon:incense_burner"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_incense_burner"
+    ]
+  ]
+}

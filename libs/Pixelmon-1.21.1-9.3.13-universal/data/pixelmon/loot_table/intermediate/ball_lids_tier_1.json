@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "poke_ball"
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "premier_ball"
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "heal_ball"
+              },
+              "conditions": []
+            }
+          ]   
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "sport_ball"
+              },
+              "conditions": []
+            }
+          ]    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "nest_ball"
+              },
+              "conditions": []
+            }
+          ]      
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "safari_ball"
+              },
+              "conditions": []
+            }
+          ]      
+        }
+      ]
+    }
+  ]
+}
+

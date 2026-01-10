@@ -1,0 +1,21 @@
+{
+    "id": "Fidough",
+    "spawnInfos": [
+      {
+        "spec": "species:Fidough",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 5,
+        "maxLevel": 25,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/plains"
+          ]
+        },
+        "rarity": 40.0
+      }
+    ]
+  }
+  

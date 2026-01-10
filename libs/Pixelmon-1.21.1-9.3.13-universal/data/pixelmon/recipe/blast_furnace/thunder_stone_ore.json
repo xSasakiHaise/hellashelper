@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "pixelmon:thunder_stone_ore"
+  },
+  "result": {
+    "id": "pixelmon:thunder_stone_shard"
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

@@ -1,0 +1,48 @@
+{
+  "id": "Beartic",
+  "spawnInfos": [
+    {
+      "spec": "species:Beartic",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:frozen_river",
+          "minecraft:frozen_ocean",
+          "minecraft:snowy_beach",
+          "minecraft:snowy_plains",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra",
+          "biomeswevegone:crimson_tundra",
+          "biomeswevegone:shattered_glacier"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Cubchoo",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 6.0
+    }
+  ]
+}

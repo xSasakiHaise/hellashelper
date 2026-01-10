@@ -1,0 +1,44 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 85,
+  "previous_pokemon_id": 84,
+  "retreat_cost": 0,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.jung34.name",
+    "description": "ability.jung34.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:retreat_aid"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG34.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.JUNG34.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "damage_type": "PerDamage",
+          "value": 10,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

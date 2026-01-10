@@ -1,0 +1,26 @@
+{
+  "id": "Venipede Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Venipede",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

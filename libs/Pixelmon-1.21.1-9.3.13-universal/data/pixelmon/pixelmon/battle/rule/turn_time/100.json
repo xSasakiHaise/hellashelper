@@ -1,0 +1,10 @@
+{
+  "modifiers": [
+    {
+      "type": "pixelmon:context",
+      "key": "pixelmon:turn_time",
+      "value": 100
+    }
+  ],
+  "requirements":  []
+}

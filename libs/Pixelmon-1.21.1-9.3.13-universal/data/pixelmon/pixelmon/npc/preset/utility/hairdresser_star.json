@@ -1,0 +1,182 @@
+{
+  "names": {
+    "values": [
+      "Coiffure"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:player",
+      "slim": false,
+      "texture": "pixelmon:textures/npc/utility/hairdresser_star.png"
+    }
+  },
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:has_pokemon_in_party",
+              "spec": "furfrou",
+              "player": {
+                "type": "pixelmon:context_player",
+                "key": "pixelmon:player"
+              }
+            },
+            "results": {
+              "type": "pixelmon:constant",
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.utility.hairdresser.star.title",
+                  "message": "pixelmon.npc.dialogue.utility.hairdresser.star.greeting.1",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ]
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "type": "pixelmon:constant",
+              "value": [
+                {
+                  "type": "pixelmon:delay_results",
+                  "delay_ticks": 5,
+                  "results": [
+                    {
+                      "type": "pixelmon:open_pokemon_selection",
+                      "title": {
+                        "translate": "pixelmon.npc.dialogue.utility.hairdresser.star.title"
+                      },
+                      "text": {
+                        "translate": "pixelmon.npc.dialogue.utility.hairdresser.star.selection.1"
+                      },
+                      "selectable_pokemon": [
+                        "furfrou"
+                      ],
+                      "none_selected_event": "pixelmon:none_selected",
+                      "selected_pokemon_event": "pixelmon:selected"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "event": "pixelmon:selected",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "type": "pixelmon:constant",
+              "value": [
+                {
+                  "type": "pixelmon:apply_spec",
+                  "specs": [
+                    "form:star"
+                  ]
+                },
+                {
+                  "type": "pixelmon:trigger_interaction_event",
+                  "event": "pixelmon:furfrou_form_change"
+                },
+                {
+                  "type": "pixelmon:delay_results",
+                  "delay_ticks": 5,
+                  "results": [
+                    {
+                      "type": "pixelmon:open_dialogue",
+                      "title": "pixelmon.npc.dialogue.utility.hairdresser.star.title",
+                      "message": "pixelmon.npc.dialogue.utility.hairdresser.star.goodbye.1",
+                      "fire_close_event": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "event": "pixelmon:none_selected",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "type": "pixelmon:constant",
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.utility.hairdresser.star.title",
+                  "message": "pixelmon.npc.dialogue.utility.hairdresser.star.selection.2",
+                  "type": "pixelmon:open_dialogue",
+                  "fire_close_event": false
+                }
+              ]
+            }
+          },
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelmon.npc.dialogue.utility.hairdresser.star.title",
+                  "message": "pixelmon.npc.dialogue.utility.hairdresser.star.selection.3",
+                  "type": "pixelmon:open_dialogue",
+                  "fire_close_event": false
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "nameplate": true,
+      "health": 20.0,
+      "eyeHeight": 1.62,
+      "dimensions": {
+        "width": 0.9,
+        "height": 1.9
+      },
+      "title": {
+        "translate": "pixelmon.npc.dialogue.utility.hairdresser.star.plate",
+        "color": "#955D23",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5.0,
+      "swim": false
+    }
+  }
+}
+

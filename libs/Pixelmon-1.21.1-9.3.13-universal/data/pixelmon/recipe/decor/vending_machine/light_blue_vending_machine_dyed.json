@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "vending_machine_dyed",
+  "ingredients": [
+    {
+      "tag": "c:dyes/light_blue"
+    },
+    {
+      "tag": "pixelmon:vending_machines"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:light_blue_vending_machine",
+    "count": 1
+  }
+}

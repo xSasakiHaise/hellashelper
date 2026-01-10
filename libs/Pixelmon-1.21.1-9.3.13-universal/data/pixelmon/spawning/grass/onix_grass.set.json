@@ -1,0 +1,29 @@
+{
+  "id": "Onix Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Onix",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas"
+        ],
+        "maxY": 90
+      },
+      "rarity": 8.0
+    }
+  ]
+}

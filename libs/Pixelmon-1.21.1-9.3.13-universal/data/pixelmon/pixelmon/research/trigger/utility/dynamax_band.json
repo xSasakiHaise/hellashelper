@@ -1,0 +1,23 @@
+{
+  "events": [
+    "pixelmon:find_structure"
+  ],
+  "condition": {
+    "structures": [
+      "pixelmon:misc/meteorite"
+    ],
+    "type": "pixelmon:structure_is_one_of"
+  },
+  "research": {
+    "reward_rolls_max": 1,
+    "chance_of_additional_rewards": 0.0,
+    "rewards": [],
+    "guaranteed_reward": {
+      "research": "pixelmon:utility/dynamax_band",
+      "condition": {
+        "type": "pixelmon:true"
+      }
+    },
+    "reward_rolls_min": 1
+  }
+}

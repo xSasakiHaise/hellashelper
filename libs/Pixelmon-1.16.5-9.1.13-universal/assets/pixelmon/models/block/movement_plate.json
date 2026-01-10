@@ -1,0 +1,7 @@
+{
+  "parent": "block/carpet",
+  "textures": {
+    "particle": "pixelmon:block/movement_plate",
+    "wool": "pixelmon:block/movement_plate"
+  }
+}

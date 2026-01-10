@@ -1,0 +1,33 @@
+{
+  "name": "pixelmon:npc/shopkeeper/steel/mart_second",
+  "fallback": "pixelmon:npc/shopkeeper/steel/mart_second",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/steel/tm_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/steel/mail_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/steel/curry_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

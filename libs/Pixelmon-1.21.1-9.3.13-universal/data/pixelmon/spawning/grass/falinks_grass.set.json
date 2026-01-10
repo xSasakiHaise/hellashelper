@@ -1,0 +1,25 @@
+{
+  "id": "Falinks Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Falinks",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

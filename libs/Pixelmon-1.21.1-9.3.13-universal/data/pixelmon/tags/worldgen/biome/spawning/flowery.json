@@ -1,0 +1,84 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sunflower_plains",
+    "minecraft:flower_forest",
+    "minecraft:cherry_grove",
+    {
+      "id": "biomesoplenty:lavender_field",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:origin_valley",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:allium_shrubland",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:amaranth_grassland",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rose_fields",
+      "required": false
+    },
+	{
+      "id": "biomeswevegone:sakura_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:lavender_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "terralith:blooming_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:sakura_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:sakura_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:skylands_spring",
+      "required": false
+    },
+    {
+      "id": "biox:flower_plains",
+      "required": false
+    },
+    {
+      "id": "biox:highlands",
+      "required": false
+    },
+    {
+      "id": "biox:honeyed_caves",
+      "required": false
+    },
+    {
+      "id": "biox:sunflower_hills",
+      "required": false
+    },
+    {
+      "id": "mysticsbiomes:strawberry_fields",
+      "required": false
+    },
+    {
+      "id": "mysticsbiomes:lavender_meadow",
+      "required": false
+    },
+    {
+      "id": "mysticsbiomes:bamboo_blossom_forest",
+      "required": false
+    }
+  ]
+}

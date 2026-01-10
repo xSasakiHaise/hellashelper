@@ -1,0 +1,22 @@
+{
+  "id": "Turtwig Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Turtwig",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

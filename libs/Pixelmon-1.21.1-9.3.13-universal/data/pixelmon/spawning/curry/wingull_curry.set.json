@@ -1,0 +1,26 @@
+{
+  "id": "Wingull Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Wingull",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:pretty_feather",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

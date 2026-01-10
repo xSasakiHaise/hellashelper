@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 105,
+  "previous_pokemon_id": 104,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG39.1.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 30,
+      "text": "attack.JUNG39.1.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 2,
+          "flip_type": "Exact"
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG39.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG39.2.text",
+      "effects": [
+        {
+          "type": "tcg:find_pokemon",
+          "count": 1,
+          "find_type": "ByType",
+          "energy": "FIGHTING"
+        }
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/cashregister/light_blue"
+    },
+    "facing=east": {
+      "model": "pixelmon:block/cashregister/light_blue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pixelmon:block/cashregister/light_blue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixelmon:block/cashregister/light_blue",
+      "y": 270
+    }
+  }
+}

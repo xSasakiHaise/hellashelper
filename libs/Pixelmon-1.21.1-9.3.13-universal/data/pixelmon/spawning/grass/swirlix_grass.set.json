@@ -1,0 +1,26 @@
+{
+  "id": "Swirlix Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Swirlix",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

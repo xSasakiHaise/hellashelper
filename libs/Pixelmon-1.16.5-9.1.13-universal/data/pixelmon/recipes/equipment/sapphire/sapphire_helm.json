@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:gems/sapphire"
+    }
+  },
+  "result": {
+    "item": "pixelmon:sapphire_helm",
+    "count": 1
+  }
+}

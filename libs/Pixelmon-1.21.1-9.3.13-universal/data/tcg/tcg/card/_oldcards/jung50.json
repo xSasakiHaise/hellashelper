@@ -1,0 +1,50 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 104,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG50.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG50.1.text",
+      "effects": [
+        {
+          "type": "tcg:reduce_damage",
+          "amount": 20,
+          "benching_removes": false
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG50.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 10,
+      "text": "attack.JUNG50.2.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "damage_type": "PerDamage",
+          "value": 10,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

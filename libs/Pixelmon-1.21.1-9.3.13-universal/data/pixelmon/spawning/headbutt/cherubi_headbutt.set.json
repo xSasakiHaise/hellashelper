@@ -1,0 +1,53 @@
+{
+  "id": "Cherubi Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Cherubi status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "birch"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Cherubi",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "birch"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

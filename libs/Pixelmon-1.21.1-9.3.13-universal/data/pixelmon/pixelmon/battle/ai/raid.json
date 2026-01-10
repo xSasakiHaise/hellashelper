@@ -1,0 +1,8 @@
+{
+  "name":  {
+    "translate": "pixelmon.battle.ai.raid"
+  },
+  "ai": {
+    "type" : "pixelmon:raid"
+  }
+}

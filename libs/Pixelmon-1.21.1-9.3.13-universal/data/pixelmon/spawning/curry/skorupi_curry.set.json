@@ -1,0 +1,28 @@
+{
+  "id": "Skorupi Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Skorupi",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 120.0
+    }
+  ]
+}

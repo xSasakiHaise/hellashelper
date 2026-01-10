@@ -1,0 +1,14 @@
+{
+  "type": "pixelmon:infuser",
+  "ingredients": [
+    {
+      "item": "pixelmon:charti_berry"
+    },
+    {
+      "item": "pixelmon:crystal_block"
+    }
+  ],
+  "results": {
+    "item": "pixelmon:rock_gem"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Girafarig Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Girafarig",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

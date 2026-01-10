@@ -1,0 +1,87 @@
+{
+  "id": "Pikipek Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Pikipek status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Pikipek",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Trumbeak status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 14,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Trumbeak",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 14,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

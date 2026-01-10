@@ -1,0 +1,48 @@
+{
+  "spawns": [
+    {
+      "spec": "Oricorio form:pompom",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/oricorio-pompom-2-3",
+      "weight": 1.0
+    },
+    {
+      "spec": "Oricorio form:baile",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/oricorio-baile-2-3",
+      "weight": 1.0
+    },
+    {
+      "spec": "Oricorio form:sensu",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/oricorio-sensu-2-3",
+      "weight": 1.0
+    },
+    {
+      "spec": "Oricorio form:pau",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/oricorio-pau-2-3",
+      "weight": 1.0
+    }
+  ]
+}

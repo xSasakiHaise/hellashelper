@@ -1,0 +1,5 @@
+$body stunfisk.bmd
+$anim special crunch.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd idle.bmd idle.bmd idle.bmd idle.bmd crunch.bmd
+$scale 2

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "translate": "pixelmon.battle.tier.uber.monotype"
+  },
+  "description": {
+    "translate": "pixelmon.battle.tier.uber.monotype.description"
+  },
+  "min_pokemon_inclusive": 1,
+  "max_pokemon_inclusive": 6,
+  "rules": [
+    "pixelmon:species_clause",
+    "pixelmon:ohko_clause",
+    "pixelmon:evasion_clause",
+    "pixelmon:sleep_clause",
+    "pixelmon:monotype"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "pixelmon:block/temple_pillar",
+	"textures": {
+		"pillar": "pixelmon:block/pillar_fractured"
+	}
+}

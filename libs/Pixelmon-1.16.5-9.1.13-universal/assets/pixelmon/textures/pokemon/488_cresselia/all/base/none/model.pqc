@@ -1,0 +1,5 @@
+$body cresselia.bmd
+$anim walk walk_fly.bmd
+$anim fly walk_fly.bmd
+$anim idle idle.bmd
+$scale 2.0

@@ -1,0 +1,22 @@
+{
+  "id": "Scatterbug Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Scatterbug",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 3,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

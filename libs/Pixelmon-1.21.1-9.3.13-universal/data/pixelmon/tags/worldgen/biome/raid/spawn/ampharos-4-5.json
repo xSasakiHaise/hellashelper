@@ -1,0 +1,70 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:meadow",
+    {
+      "required": false,
+      "id": "biomesoplenty:clover_patch"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:grassland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:meadow"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:moor"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:prairie"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:pumpkin_patch"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:rocky_shrubland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:scrubland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:shrubland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wooded_scrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:brushland"
+    },
+    {
+      "required": false,
+      "id": "terralith:hot_shrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:shrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:steppe"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_plant"
+    }
+  ]
+}

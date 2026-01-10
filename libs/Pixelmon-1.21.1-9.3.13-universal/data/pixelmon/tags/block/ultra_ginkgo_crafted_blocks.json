@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_ginkgo_button",
+    "pixelmon:ultra_ginkgo_door",
+    "pixelmon:ultra_ginkgo_fence",
+    "pixelmon:ultra_ginkgo_fence_gate",
+    "pixelmon:ultra_ginkgo_planks",
+    "pixelmon:ultra_ginkgo_pressure_plate",
+    "pixelmon:ultra_ginkgo_sign",
+    "pixelmon:ultra_ginkgo_slab",
+    "pixelmon:ultra_ginkgo_stairs",
+    "pixelmon:ultra_ginkgo_trapdoor",
+    "pixelmon:ultra_ginkgo_wall_sign"
+  ]
+}

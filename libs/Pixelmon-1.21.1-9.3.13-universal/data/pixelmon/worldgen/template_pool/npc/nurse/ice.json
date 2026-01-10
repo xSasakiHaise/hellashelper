@@ -1,0 +1,24 @@
+{
+  "name": "pixelmon:npc/nurse/ice",
+  "fallback": "pixelmon:npc/nurse/ice",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "pixelmon:npc/pokecenter/ice/nurse",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/pokecenter/ice/doctor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pixelmon:block/ultra_space/ginkgo_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "pixelmon:block/ultra_space/ginkgo_wood"
+    },
+    "axis=z": {
+      "model": "pixelmon:block/ultra_space/ginkgo_wood",
+      "x": 90
+    }
+  }
+}

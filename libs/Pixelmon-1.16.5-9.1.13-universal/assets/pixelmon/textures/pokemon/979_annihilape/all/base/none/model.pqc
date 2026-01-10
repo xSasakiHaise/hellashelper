@@ -1,0 +1,4 @@
+$body annihilape.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$scale 15.0

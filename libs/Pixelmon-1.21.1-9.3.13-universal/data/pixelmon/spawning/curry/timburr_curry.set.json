@@ -1,0 +1,20 @@
+{
+  "id": "Timburr Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Timburr",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

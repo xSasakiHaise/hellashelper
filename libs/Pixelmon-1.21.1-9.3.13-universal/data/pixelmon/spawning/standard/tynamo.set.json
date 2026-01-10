@@ -1,0 +1,43 @@
+{
+  "id": "Tynamo",
+  "spawnInfos": [
+    {
+      "spec": "species:Tynamo",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 24,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
+        ],
+        "maxY": 40
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Tynamo",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 24,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/drowned",
+          "#pixelmon:spawning/ultra_space"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

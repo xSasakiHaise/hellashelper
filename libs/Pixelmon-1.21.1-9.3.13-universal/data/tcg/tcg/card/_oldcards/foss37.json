@@ -1,0 +1,32 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 75,
+  "previous_pokemon_id": 74,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.FOSS37.1.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 0,
+      "text": "attack.FOSS37.1.text",
+      "effects": [
+        {
+          "type": "tcg:harden",
+          "amount": 30
+        }
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

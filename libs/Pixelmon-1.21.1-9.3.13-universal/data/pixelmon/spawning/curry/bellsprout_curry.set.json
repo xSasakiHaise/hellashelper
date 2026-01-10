@@ -1,0 +1,22 @@
+{
+  "id": "Bellsprout Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Bellsprout",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

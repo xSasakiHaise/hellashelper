@@ -1,0 +1,50 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 115,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 3,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG21.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG21.1.text",
+      "effects": [
+        {
+          "type": "tcg:draw_card",
+          "self": true,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG21.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.JUNG21.2.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 4,
+          "flip_type": "Exact"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

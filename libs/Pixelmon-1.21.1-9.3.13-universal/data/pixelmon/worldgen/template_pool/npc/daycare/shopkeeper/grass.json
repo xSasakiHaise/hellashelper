@@ -1,0 +1,15 @@
+{
+  "name": "pixelmon:npc/daycare/shopkeeper/grass",
+  "fallback": "pixelmon:npc/daycare/shopkeeper/grass",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/misc/grass/daycare",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Tropius Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Tropius",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

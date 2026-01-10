@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pixelmon:block/temple_slab"
+    },
+    "type=double": {
+      "model": "pixelmon:block/temple_block"
+    },
+    "type=top": {
+      "model": "pixelmon:block/temple_slab_top"
+    }
+  }
+}

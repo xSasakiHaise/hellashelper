@@ -1,0 +1,21 @@
+{
+  "id": "Noibat Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Noibat",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 31,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Nacli Rocksmash",
+  "spawnInfos": [
+    {
+      "spec": "species:Nacli",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 7,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "mountainous",
+          "mesas",
+          "beaches"
+        ]
+      },
+      "rarity": 150.0
+    },
+    {
+      "spec": "species:Naclstack",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 24,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_desert",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Garganacl",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 38,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_desert",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}
+

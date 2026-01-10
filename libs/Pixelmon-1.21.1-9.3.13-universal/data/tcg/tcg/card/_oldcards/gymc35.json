@@ -1,0 +1,30 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 57,
+  "previous_pokemon_id": 56,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC35.1.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "damage": 60,
+      "text": "attack.GYMC35.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

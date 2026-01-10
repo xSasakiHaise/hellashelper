@@ -1,0 +1,21 @@
+{
+  "id": "Flabebe Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Flabebe",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

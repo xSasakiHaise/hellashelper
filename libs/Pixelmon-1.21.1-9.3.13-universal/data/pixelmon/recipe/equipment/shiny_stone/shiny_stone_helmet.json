@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:shiny_stone"
+    }
+  },
+  "result": {
+    "id": "pixelmon:shiny_stone_helmet",
+    "count": 1
+  }
+}

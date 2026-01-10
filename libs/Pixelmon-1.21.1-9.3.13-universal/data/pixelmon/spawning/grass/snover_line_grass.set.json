@@ -1,0 +1,57 @@
+{
+  "id": "Snover Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Snover",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 35,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/freezing_mountains"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Abomasnow",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 40,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/freezing_mountains"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

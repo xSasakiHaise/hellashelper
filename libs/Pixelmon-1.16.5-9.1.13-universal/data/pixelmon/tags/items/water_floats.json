@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_water_float",
+    "pixelmon:orange_water_float",
+    "pixelmon:magenta_water_float",
+    "pixelmon:light_blue_water_float",
+    "pixelmon:yellow_water_float",
+    "pixelmon:lime_water_float",
+    "pixelmon:pink_water_float",
+    "pixelmon:gray_water_float",
+    "pixelmon:light_gray_water_float",
+    "pixelmon:cyan_water_float",
+    "pixelmon:purple_water_float",
+    "pixelmon:blue_water_float",
+    "pixelmon:brown_water_float",
+    "pixelmon:green_water_float",
+    "pixelmon:red_water_float",
+    "pixelmon:black_water_float"
+  ]
+}

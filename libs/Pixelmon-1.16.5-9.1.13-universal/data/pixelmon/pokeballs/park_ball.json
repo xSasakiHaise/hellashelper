@@ -1,0 +1,17 @@
+{
+  "name": "park_ball",
+  "model": "pixelmon:models/pokeballs/base.pqc",
+  "texture": "pixelmon:textures/pokeballs/park_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/park_ball_flashing.png",
+  "ballSprite": "pixelmon:items/pokeballs/park_ball",
+  "guiSprite": "pixelmon:textures/gui/overlay/park_ball.png",
+  "logic": "",
+  "bases": [],
+  "captureMethod": "gen8",
+  "catchBonus": 255,
+  "breakChance": 0,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false,
+  "hasLid": false
+}

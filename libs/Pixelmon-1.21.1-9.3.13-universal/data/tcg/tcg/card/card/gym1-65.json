@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "card.gym1-65.description",
+  "attacks": [
+    {
+      "name": "attack.gym1-65.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.gym1-65.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIRE",
+  "pokemon_id": 37,
+  "ability": {
+    "name": "ability.gym1-65.name",
+    "description": "ability.gym1-65.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:unimplemented"
+    }
+  },
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

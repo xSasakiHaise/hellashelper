@@ -1,0 +1,44 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 143,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 4,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.jung11.name",
+    "description": "ability.jung11.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:thick_skinned"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG11.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.JUNG11.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "PARALYZED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

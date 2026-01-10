@@ -1,0 +1,246 @@
+{
+  "id": "common",
+  "name": "enum.trainerBoss.common",
+  "canRandomlySpawn": true,
+  "weight": 50,
+  "color": {
+    "r": 192, "g": 192, "b": 192, "a": 255
+  },
+  "modelScaleFactor": 1.2,
+  "isMega": false,
+  "megaStoneObtainChance": 0,
+  "megaStoneRepeatChance": 0,
+  "alwaysPalette": "",
+  "levelMultiplier": 1,
+  "extraLevels": 5,
+  "dropSets": [
+    {
+      "chance": 1,
+      "quantity": 1,
+      "drops": [
+        {
+          "weight": 10,
+          "name": "",
+          "item": "pixelmon:xs_exp_candy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 7,
+          "name": "",
+          "item": "pixelmon:s_exp_candy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 5,
+          "name": "",
+          "item": "pixelmon:dynamax_candy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:rare_candy",
+          "commands": [],
+          "ephemeral": false
+        }
+      ]
+    },
+    {
+      "chance": 1,
+      "quantity": 1,
+      "drops": [
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:x_attack",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:x_defense",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:x_special_attack",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:x_special_defense",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:x_speed",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:x_accuracy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:guard_spec",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:film",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:air_balloon",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:light_clay",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:mental_herb",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:power_herb",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:white_herb",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:sticky_barb",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:weakness_policy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:blunder_policy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:repel",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:tm8_blank",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:tr8_blank",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:adrenaline_orb",
+          "commands": [],
+          "ephemeral": false
+        }
+      ]
+    },
+    {
+      "chance": 0.25,
+      "quantity": 1,
+      "drops": [
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:old_rod",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:leftovers",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:fire_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:water_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:leaf_stone",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:thunder_stone",
+          "commands": [],
+          "ephemeral": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:vex"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "gastly",
+      "haunter",
+      "shuppet",
+      "misdreavus",
+      "dreepy"
+    ]
+  }
+}

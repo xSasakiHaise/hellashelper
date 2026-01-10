@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Polteageist form:phony",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/polteageist-phony-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Polteageist form:antique",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/polteageist-antique-4-5",
+      "weight": 1.0
+    }
+  ]
+}

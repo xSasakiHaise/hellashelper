@@ -1,0 +1,22 @@
+{
+  "id": "Stunky Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Stunky",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 23,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

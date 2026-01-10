@@ -1,0 +1,27 @@
+{
+  "id": "Trubbish Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Trubbish",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 23,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silk_scarf",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

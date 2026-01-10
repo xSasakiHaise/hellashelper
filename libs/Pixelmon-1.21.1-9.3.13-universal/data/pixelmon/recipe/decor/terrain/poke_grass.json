@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:tall_grass"
+    }
+  },
+  "result": {
+    "id": "pixelmon:poke_grass",
+    "count": 4
+  }
+}

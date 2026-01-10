@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tcg:basep-16",
+    "tcg:basep-40",
+    "tcg:basep-41",
+    "tcg:basep-42"
+  ]
+}

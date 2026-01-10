@@ -1,0 +1,10 @@
+{
+  "modifiers": [
+    {
+      "type": "pixelmon:context",
+      "key": "pixelmon:no_crits",
+      "value": false
+    }
+  ],
+  "requirements":  []
+}

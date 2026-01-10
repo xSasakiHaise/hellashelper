@@ -1,0 +1,25 @@
+{
+  "id": "Skiddo Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Skiddo",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 19,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/mountainous_forests",
+          "minecraft:snowy_plains",
+          "#pixelmon:spawning/freezing_forests",
+          "biomesoplenty:tundra"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

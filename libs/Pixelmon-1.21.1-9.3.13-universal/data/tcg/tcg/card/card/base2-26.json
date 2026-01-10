@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.base2-26.description",
+  "attacks": [
+    {
+      "name": "attack.base2-26.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base2-26.0.description",
+      "effects": [
+        {
+          "type": "tcg:swords_dance",
+          "self": false
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-26.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base2-26.1.description",
+      "effects": [
+        {
+          "type": "tcg:swords_dance"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 0,
+  "energies": "GRASS",
+  "pokemon_id": 123,
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:rare"
+}

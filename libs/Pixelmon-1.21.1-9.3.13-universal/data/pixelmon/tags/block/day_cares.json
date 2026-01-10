@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_day_care",
+    "pixelmon:orange_day_care",
+    "pixelmon:magenta_day_care",
+    "pixelmon:light_blue_day_care",
+    "pixelmon:yellow_day_care",
+    "pixelmon:lime_day_care",
+    "pixelmon:pink_day_care",
+    "pixelmon:gray_day_care",
+    "pixelmon:light_gray_day_care",
+    "pixelmon:cyan_day_care",
+    "pixelmon:purple_day_care",
+    "pixelmon:blue_day_care",
+    "pixelmon:brown_day_care",
+    "pixelmon:green_day_care",
+    "pixelmon:red_day_care",
+    "pixelmon:black_day_care"
+  ]
+}

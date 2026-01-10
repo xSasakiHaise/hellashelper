@@ -1,0 +1,15 @@
+{
+  "type": "pixelmon:infuser",
+  "ingredients": [
+    {
+      "item": "pixelmon:kee_berry"
+    },
+    {
+      "item": "pixelmon:maranga_berry"
+    }
+  ],
+  "ticks": 400,
+  "results": {
+    "id": "pixelmon:perilous_soup"
+  }
+}

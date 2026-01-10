@@ -1,0 +1,35 @@
+{
+  "id": "Numel",
+  "spawnInfos": [
+    {
+      "spec": "species:Numel",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "minecraft:badlands",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:dead_bush"
+            ]
+          }
+        }
+      ],
+      "rarity": 170.0
+    }
+  ]
+}

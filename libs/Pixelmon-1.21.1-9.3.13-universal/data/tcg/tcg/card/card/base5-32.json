@@ -1,0 +1,62 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "card.base5-32.description",
+  "attacks": [
+    {
+      "name": "attack.base5-32.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base5-32.0.description",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "FIRE",
+          "required_coin_side": "HEAD",
+          "self": true,
+          "count": 1
+        },
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        }
+      ]
+    },
+    {
+      "name": "attack.base5-32.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 70,
+      "text": "attack.base5-32.1.description",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "FIRE",
+          "required_coin_side": "HEAD",
+          "self": true,
+          "count": 1
+        },
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "FIRE",
+  "pokemon_id": 5,
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:uncommon"
+}

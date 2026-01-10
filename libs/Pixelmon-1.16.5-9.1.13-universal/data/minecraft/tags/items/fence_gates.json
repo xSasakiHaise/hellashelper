@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:blue_berry_wood_fence_gate",
+    "pixelmon:green_berry_wood_fence_gate",
+    "pixelmon:pink_berry_wood_fence_gate",
+    "pixelmon:purple_berry_wood_fence_gate",
+    "pixelmon:red_berry_wood_fence_gate",
+    "pixelmon:yellow_berry_wood_fence_gate",
+    "pixelmon:ultra_jungle_fence_gate",
+    "pixelmon:ultra_gingko_fence_gate",
+    "pixelmon:ultra_elm_fence_gate"
+  ]
+}

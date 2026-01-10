@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.base3-13.description",
+  "attacks": [
+    {
+      "name": "attack.base3-13.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base3-13.0.description",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "POISONED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "GRASS",
+  "pokemon_id": 89,
+  "ability": {
+    "name": "ability.base3-13.name",
+    "description": "ability.base3-13.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:toxic_gas"
+    }
+  },
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

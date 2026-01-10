@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "pixelmon:ice_stone_ore"
+    },
+    "result": {
+       "id": "pixelmon:ice_stone_shard"
+    },
+    "experience": 0.7,
+    "cookingtime": 200
+}

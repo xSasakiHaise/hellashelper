@@ -1,0 +1,42 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "biomesoplenty:bog"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:dead_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:ominous_woods"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:old_growth_dead_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wasteland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wasteland_steppe"
+    },
+    {
+      "required": false,
+      "id": "terralith:rocky_shrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:warped_mesa"
+    },
+    "minecraft:dark_forest",
+    {
+      "required": false,
+      "id": "biomesoplenty:dense_woodland"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+$body necrozma-normal.bmd
+$anim idle idle.bmd
+$anim fly walk.bmd
+$anim walk walk.bmd
+$scale 0.31

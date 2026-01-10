@@ -1,0 +1,52 @@
+{
+  "attackName": "Burning Bulwark",
+  "attackType": "FIRE",
+  "attackCategory": "STATUS",
+  "basePower": 0,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": -1,
+  "makesContact": false,
+  "effects": [
+    {
+      "type": "BurningBulwark",
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "BurningBulwark"
+    },
+    {
+      "priority": 4,
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "Priority"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": false,
+    "hitsAdjacentFoe": false,
+    "hitsExtendedFoe": false,
+    "hitsSelf": true,
+    "hitsAdjacentAlly": false,
+    "hitsExtendedAlly": false
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:firium_z",
+      "attackName": "Z-Burning Bulwark",
+      "basePower": 0,
+      "effects": [
+        {
+          "modifiers": [],
+          "persists": false,
+          "effectTypeID": "Haze",
+          "onlyLowered": true
+        }
+      ],
+      "allowedPokemon": []
+    }
+  ]
+}

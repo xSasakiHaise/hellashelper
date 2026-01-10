@@ -1,0 +1,5 @@
+$body megagyarados.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$anim swim walk.bmd
+$scale 0.10

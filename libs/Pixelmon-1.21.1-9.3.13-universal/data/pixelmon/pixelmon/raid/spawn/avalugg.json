@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Avalugg",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/avalugg-4-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Avalugg form:hisuian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/avalugg-hisuian-4-5",
+      "weight": 1.0
+    }
+  ]
+}

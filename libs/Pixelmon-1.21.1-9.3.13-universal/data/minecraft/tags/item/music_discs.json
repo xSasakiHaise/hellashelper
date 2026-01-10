@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:poke_center_music_disc",
+    "pixelmon:ultra_space_music_disc",
+    "pixelmon:wild_music_disc",
+    "pixelmon:player_music_disc",
+    "pixelmon:trainer_music_disc",
+    "pixelmon:gym_music_disc",
+    "pixelmon:boss_music_disc",
+    "pixelmon:legendary_music_disc",
+    "pixelmon:raid_music_disc"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "pixelmon:infuser",
+  "ingredients": [
+    {
+      "item": "pixelmon:chesto_berry",
+      "count": 2
+    },
+    {
+      "type": "neoforge:components",
+      "items": "pixelmon:poke_ball",
+      "components": {
+        "pixelmon:poke_ball": "dusk_ball"
+      }
+    }
+  ],
+  "results": {
+    "id": "pixelmon:poke_ball",
+    "count": 1,
+    "components": {
+      "pixelmon:poke_ball": "dream_ball"
+    }
+  }
+}

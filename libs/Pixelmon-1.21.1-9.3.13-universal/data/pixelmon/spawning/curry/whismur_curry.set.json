@@ -1,0 +1,20 @@
+{
+  "id": "Whismur Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Whismur",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

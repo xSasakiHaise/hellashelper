@@ -1,0 +1,20 @@
+{
+  "id": "Solosis Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Solosis",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

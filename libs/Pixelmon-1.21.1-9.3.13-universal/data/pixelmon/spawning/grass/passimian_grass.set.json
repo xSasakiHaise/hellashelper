@@ -1,0 +1,26 @@
+{
+  "id": "Passimian Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Passimian",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:jungle",
+          "minecraft:bamboo_jungle",
+          "byg:guiana_shield",
+          "byg:tropical_rainforest_hills"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

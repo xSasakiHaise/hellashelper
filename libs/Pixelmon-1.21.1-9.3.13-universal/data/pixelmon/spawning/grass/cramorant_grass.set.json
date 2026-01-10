@@ -1,0 +1,28 @@
+{
+  "id": "Cramorant Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Cramorant",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes",
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

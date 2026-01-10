@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "pixelmon:trees/apricorn/black_apricorn",
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "pixelmon:trees/apricorn/black_apricorn"
+      },
+      {
+        "chance": 0.1,
+        "feature": "pixelmon:trees/apricorn/blue_apricorn"
+      },
+      {
+        "chance": 0.1,
+        "feature": "pixelmon:trees/apricorn/green_apricorn"
+      },
+      {
+        "chance": 0.1,
+        "feature": "pixelmon:trees/apricorn/pink_apricorn"
+      },
+      {
+        "chance": 0.1,
+        "feature": "pixelmon:trees/apricorn/red_apricorn"
+      },
+      {
+        "chance": 0.1,
+        "feature": "pixelmon:trees/apricorn/white_apricorn"
+      },
+      {
+        "chance": 0.1,
+        "feature": "pixelmon:trees/apricorn/yellow_apricorn"
+      }
+    ]
+  }
+}

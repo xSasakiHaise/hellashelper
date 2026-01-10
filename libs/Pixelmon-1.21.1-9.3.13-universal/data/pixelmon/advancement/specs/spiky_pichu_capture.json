@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+		      "item" : "pixelmon:pixelmon_sprite",
+		      "count": 1,
+		      "components": {
+		        "minecraft:custom_data": {
+		          "ndex": 172,
+		          "palette": "none",
+		          "form": ""
+		        }
+		      }
+		},
+		"title": {
+			"translate": "advancements.spiky_pichu.title"
+		},
+		"description": {
+			"translate": "advancements.spiky_pichu.description"
+		},
+		"hidden": true
+	},
+    "parent" : "pixelmon:specs/spec_trigger",
+	"criteria": {
+		"spiky_pichu_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Pichu form:spiky"
+			}
+		}
+	}
+}

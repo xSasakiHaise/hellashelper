@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "facing=south": { "model": "pixelmon:block/birch_bench" },
+    "facing=north": {
+      "model": "pixelmon:block/birch_bench",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "pixelmon:block/birch_bench",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "pixelmon:block/birch_bench",
+      "y": 90
+    }
+  }
+}

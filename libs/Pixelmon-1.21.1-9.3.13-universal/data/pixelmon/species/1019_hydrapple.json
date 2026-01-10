@@ -1,0 +1,326 @@
+{
+  "name": "Hydrapple",
+  "dex": 1019,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 1.5,
+        "width": 0.4,
+        "length": 1.0,
+        "eyeHeight": 1.5,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Fickle Beam",
+              "Recycle",
+              "Sweet Scent",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Dragon Tail"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Syrup Bomb"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Substitute"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Power Whip"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Double Hit",
+          "Infestation",
+          "Yawn"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Recycle",
+          "Rollout",
+          "Sucker Punch"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Pounce",
+          "Facade",
+          "Magical Leaf",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Bullet Seed",
+          "Body Slam",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Reflect",
+          "Grass Knot",
+          "Rest",
+          "Body Press",
+          "Substitute",
+          "Giga Drain",
+          "Dragon Pulse",
+          "Energy Ball",
+          "Heavy Slam",
+          "Pollen Puff",
+          "Earth Power",
+          "Grassy Terrain",
+          "Nasty Plot",
+          "Hydro Pump",
+          "Earthquake",
+          "Giga Impact",
+          "Outrage",
+          "Leaf Storm",
+          "Hyper Beam",
+          "Solar Beam",
+          "Draco Meteor",
+          "Tera Blast",
+          "Gyro Ball",
+          "Bug Bite",
+          "Uproar",
+          "Grassy Glide",
+          "Double-Edge",
+          "Breaking Swipe",
+          "Curse",
+          "Dragon Cheer"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SupersweetSyrup",
+          "Regenerator"
+        ],
+        "hiddenAbilities": [
+          "StickyHold"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 106,
+        "attack": 80,
+        "defense": 110,
+        "specialAttack": 120,
+        "specialDefense": 80,
+        "speed": 44
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 50,
+        "spawnLevel": 22,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/1019_hydrapple/all/base/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/1019_hydrapple/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/1019_hydrapple/all/base/none/hydrapple.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/1019_hydrapple/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/1019_hydrapple/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/1019_hydrapple/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/1019_hydrapple/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/1019_hydrapple/all/base/none/hydrapple.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/1019_hydrapple/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/1019_hydrapple/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 1.0
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Dipplin",
+        "Applin"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 93.0,
+      "catchRate": 10,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      },
+      "growth_data": {
+        "mean": 40.0,
+        "standard_deviation": 2.0,
+        "min_render_scale": 0.7,
+        "max_render_scale": 1.3
+      }
+    }
+  ],
+  "generation": 9
+}

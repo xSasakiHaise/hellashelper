@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "pixelmon:ultra_space_stone"
+  },
+  "result": {
+    "id": "pixelmon:ultra_space_stone_slab",
+    "count": 2
+  }
+}

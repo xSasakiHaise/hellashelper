@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 80,
+  "previous_pokemon_id": 79,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.tero12.name",
+    "description": "ability.tero12.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:reel_in"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO12.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.TERO12.1.text",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

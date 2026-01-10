@@ -1,0 +1,22 @@
+{
+  "id": "Teddiursa Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Teddiursa",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

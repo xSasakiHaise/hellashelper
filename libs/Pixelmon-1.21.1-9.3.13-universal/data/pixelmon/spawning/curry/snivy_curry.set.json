@@ -1,0 +1,21 @@
+{
+  "id": "Snivy Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Snivy",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

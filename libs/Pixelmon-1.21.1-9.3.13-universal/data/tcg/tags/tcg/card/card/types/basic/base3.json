@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "tcg:base3-10",
+    "tcg:base3-12",
+    "tcg:base3-15",
+    "tcg:base3-17",
+    "tcg:base3-18",
+    "tcg:base3-2",
+    "tcg:base3-22",
+    "tcg:base3-25",
+    "tcg:base3-27",
+    "tcg:base3-3",
+    "tcg:base3-30",
+    "tcg:base3-33",
+    "tcg:base3-39",
+    "tcg:base3-46",
+    "tcg:base3-47",
+    "tcg:base3-48",
+    "tcg:base3-49",
+    "tcg:base3-51",
+    "tcg:base3-53",
+    "tcg:base3-54",
+    "tcg:base3-55",
+    "tcg:base3-56",
+    "tcg:base3-57",
+    "tcg:base3-7"
+  ]
+}

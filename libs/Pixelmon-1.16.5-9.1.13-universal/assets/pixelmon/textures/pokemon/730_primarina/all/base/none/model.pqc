@@ -1,0 +1,5 @@
+$body primarina.bmd
+$anim idle idle.bmd
+$anim swim swim.bmd
+$anim walk walk.bmd
+$scale 3.0

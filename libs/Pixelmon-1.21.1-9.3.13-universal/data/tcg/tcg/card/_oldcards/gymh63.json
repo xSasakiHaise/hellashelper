@@ -1,0 +1,29 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 77,
+  "previous_pokemon_id": null,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH63.1.name",
+      "costs": [
+        "FIRE",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH63.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

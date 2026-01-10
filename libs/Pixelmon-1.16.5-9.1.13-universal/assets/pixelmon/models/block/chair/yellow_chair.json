@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/chair/chair",
+  "textures": {
+    "particle": "pixelmon:block/chair/chair_yellow",
+    "all": "pixelmon:block/chair/chair_yellow"
+  }
+}

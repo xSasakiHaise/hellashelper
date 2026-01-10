@@ -1,0 +1,33 @@
+{
+  "parent": "pixelmon:ultra_space/root",
+  "display": {
+    "icon": {
+      "id": "pixelmon:ultra_forest_flower",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.ultra_space.ultra_forest_sleep.title"
+    },
+    "description": {
+      "translate": "advancements.ultra_space.ultra_forest_sleep.description"
+    },
+    "background": "pixelmon:textures/gui/advancements/backgrounds/ruinswall.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ultra_forest_sleep": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "pixelmon:ultra_forest_flower"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ultra_forest_sleep"
+    ]
+  ]
+}

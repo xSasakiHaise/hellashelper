@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_jungle_button",
+    "pixelmon:ultra_jungle_door",
+    "pixelmon:ultra_jungle_fence",
+    "pixelmon:ultra_jungle_fence_gate",
+    "pixelmon:ultra_jungle_planks",
+    "pixelmon:ultra_jungle_pressure_plate",
+    "pixelmon:ultra_jungle_sign",
+    "pixelmon:ultra_jungle_slab",
+    "pixelmon:ultra_jungle_stairs",
+    "pixelmon:ultra_jungle_trapdoor",
+    "pixelmon:ultra_jungle_wall_sign"
+  ]
+}

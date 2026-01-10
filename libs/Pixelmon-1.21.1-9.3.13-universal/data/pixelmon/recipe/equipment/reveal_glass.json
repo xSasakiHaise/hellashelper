@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CSR",
+    "PGE",
+    "PPC"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:gems/crystal"
+    },
+    "S": {
+      "tag": "c:gems/sapphire"
+    },
+    "R": {
+      "tag": "c:gems/ruby"
+    },
+    "P": {
+      "item": "minecraft:polished_andesite"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "id": "pixelmon:reveal_glass",
+    "count": 1
+  }
+}

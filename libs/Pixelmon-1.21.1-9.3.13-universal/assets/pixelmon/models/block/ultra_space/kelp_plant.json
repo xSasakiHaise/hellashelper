@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "pixelmon:block/ultra_space/kelp_plant"
+  }
+}

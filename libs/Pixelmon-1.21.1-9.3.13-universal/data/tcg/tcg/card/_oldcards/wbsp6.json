@@ -1,0 +1,60 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 59,
+  "previous_pokemon_id": 58,
+  "retreat_cost": 1,
+  "rarity": "tcg:ultra_rare",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.WBSP6.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.WBSP6.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "attack.WBSP6.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 40,
+      "text": "attack.WBSP6.2.text",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "FIRE",
+          "self": true,
+          "count": 2
+        },
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "damage_type": "PerDamage",
+          "value": 10,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

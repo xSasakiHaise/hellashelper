@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:teams/plasma",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 916470143,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "frequency": 0.6,
+    "spacing": 70,
+    "separation": 50
+  }
+}

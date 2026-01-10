@@ -1,0 +1,25 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/silicon/silicon_block",
+      "pixelmon:equipment/silicon/silicon_from_block"
+    ]
+  },
+  "criteria": {
+    "has_silicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:gems/silicon"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silicon"
+    ]
+  ]
+}

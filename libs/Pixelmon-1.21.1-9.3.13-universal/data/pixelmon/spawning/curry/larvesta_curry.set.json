@@ -1,0 +1,21 @@
+{
+  "id": "Larvesta Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Larvesta",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

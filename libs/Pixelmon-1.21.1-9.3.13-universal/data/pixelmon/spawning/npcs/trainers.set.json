@@ -1,0 +1,807 @@
+{
+  "id": "Trainers",
+  "spawnInfos": [
+    {
+      "preset": "pixelmon:trainers/bugcatcher",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.2,
+          "anticondition": {
+            "times": [
+              "DAWN",
+              "DUSK"
+            ]
+          }
+        }
+      ],
+      "typeID": "npc",
+      "rarity": 9.0
+    },
+    {
+      "preset": "pixelmon:trainers/bugmaniac",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.2,
+          "anticondition": {
+            "times": [
+              "DAWN",
+              "DUSK"
+            ]
+          }
+        }
+      ],
+      "typeID": "npc",
+      "rarity": 9.0
+    },
+    {
+      "preset": "pixelmon:trainers/sport",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.2,
+          "anticondition": {
+            "times": [
+              "DAWN",
+              "DUSK"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 6.0
+    },
+    {
+      "preset": "pixelmon:trainers/femalerocketgrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/malerocketgrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/femaleaquagrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/maleaquagrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/femalemagmagrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/malemagmagrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/femaleflaregrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/maleflaregrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/femalegalacticgrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/malegalacticgrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/femaleplasmagrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/maleplasmagrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/femaleskullgrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/maleskullgrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/femaleteamyellgrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/maleteamyellgrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/firebreather",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 6.0
+    },
+    {
+      "preset": "pixelmon:trainers/youngster",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 7.0
+    },
+    {
+      "preset": "pixelmon:trainers/lass",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 7.0
+    },
+    {
+      "preset": "pixelmon:trainers/gentleman",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/mushroom"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "NIGHT"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 6.0
+    },
+    {
+      "preset": "pixelmon:trainers/pokemaniac",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 7.0
+    },
+    {
+      "preset": "pixelmon:trainers/pokemaniacgirl",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 7.0
+    },
+    {
+      "preset": "pixelmon:trainers/policeman",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/taigas",
+          "minecraft:snowy_plains",
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/preschoolergirl",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 7.0
+    },
+    {
+      "preset": "pixelmon:trainers/richboy",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 7.0
+    },
+    {
+      "preset": "pixelmon:trainers/malescientist",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 6.0
+    },
+    {
+      "preset": "pixelmon:trainers/femalescientist",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 6.0
+    },
+    {
+      "preset": "pixelmon:trainers/swimmer",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "NIGHT"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/swimmer",
+      "stringLocationTypes": [
+        "Surface Water"
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "NIGHT"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 0.5
+    },
+    {
+      "preset": "pixelmon:trainers/fisherman",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/pirate",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/rancher",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 7.0
+    },
+    {
+      "preset": "pixelmon:trainers/miner",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/miner",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "condition": {
+        "maxY": 60
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 3.0
+    },
+    {
+      "preset": "pixelmon:trainers/mountaineer",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/ornithologist",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 5.0
+    },
+    {
+      "preset": "pixelmon:trainers/blacksmith",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.3,
+          "anticondition": {
+            "times": [
+              "DAY"
+            ]
+          }
+        }
+      ],
+     "typeID": "npc",
+      "rarity": 5.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 100,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC86.1.name",
+      "costs": [
+        "LIGHTNING",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.GYMC86.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "LIGHTNING"
+}

@@ -1,0 +1,585 @@
+{
+  "name": "Houndour",
+  "dex": 228,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Leer"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Smog"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Beat Up"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Fire Fang"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Comeuppance"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Inferno"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Foul Play",
+          "Heat Wave",
+          "Hyper Voice",
+          "Iron Tail",
+          "Role Play",
+          "Snatch",
+          "Snore",
+          "Spite",
+          "Super Fang",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Destiny Bond",
+          "Feint",
+          "Fire Spin",
+          "Reversal",
+          "Spite",
+          "Sucker Punch",
+          "Thunder Fang"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Thief",
+          "Trailblaze",
+          "Fire Spin",
+          "Facade",
+          "Snarl",
+          "Mud Shot",
+          "Flame Charge",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Foul Play",
+          "Psychic Fangs",
+          "Body Slam",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Dark Pulse",
+          "Substitute",
+          "Will-O-Wisp",
+          "Crunch",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Heat Wave",
+          "Flamethrower",
+          "Helping Hand",
+          "Reversal",
+          "Nasty Plot",
+          "Fire Blast",
+          "Sludge Bomb",
+          "Overheat",
+          "Flare Blitz",
+          "Solar Beam",
+          "Tera Blast",
+          "Roar",
+          "Toxic",
+          "Spite",
+          "Super Fang",
+          "Burning Jealousy",
+          "Lash Out",
+          "Pain Split",
+          "Double-Edge",
+          "Temper Flare"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Beat Up",
+          "Body Slam",
+          "Captivate",
+          "Charm",
+          "Counter",
+          "Curse",
+          "Destiny Bond",
+          "Detect",
+          "Double-Edge",
+          "Embargo",
+          "Endure",
+          "Feint",
+          "Feint Attack",
+          "Fire Fang",
+          "Fire Spin",
+          "Headbutt",
+          "Incinerate",
+          "Mimic",
+          "Mud-Slap",
+          "Nasty Plot",
+          "Natural Gift",
+          "Nightmare",
+          "Odor Sleuth",
+          "Punishment",
+          "Pursuit",
+          "Rage",
+          "Retaliate",
+          "Reversal",
+          "Rock Smash",
+          "Secret Power",
+          "Spite",
+          "Sucker Punch",
+          "Swift",
+          "Thunder Fang"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Snatch",
+          "Overheat",
+          "Endure",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Snatch",
+          "Overheat"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Roar",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Return",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Swift",
+          "Dream Eater",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Nightmare"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "EarlyBird",
+          "FlashFire"
+        ],
+        "hiddenAbilities": [
+          "Unnerve"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 30,
+        "specialAttack": 80,
+        "specialDefense": 50,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 35,
+        "spawnLevel": 5,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/228_houndour/all/base/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/228_houndour/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/228_houndour/all/base/none/houndour.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/228_houndour/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/228_houndour/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.85
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/228_houndour/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/228_houndour/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/228_houndour/all/base/none/houndour.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/228_houndour/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/228_houndour/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.85
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "DARK",
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 10.8,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 24,
+          "to": "Houndoom",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      },
+      "growth_data": {
+        "mean": 60.0,
+        "standard_deviation": 3.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 2
+}

@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base2-57.description",
+  "attacks": [
+    {
+      "name": "attack.base2-57.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.base2-57.0.description",
+      "effects": [
+        {
+          "type": "tcg:find_pokemon",
+          "count": 1,
+          "find_type": "ByPokemon",
+          "pokedex_numbers": [
+            29,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-57.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base2-57.1.description",
+      "effects": [
+        {
+          "type": "tcg:find_pokemon",
+          "count": 1,
+          "find_type": "ByPokemon",
+          "pokedex_numbers": [
+            29,
+            32
+          ]
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "GRASS",
+  "pokemon_id": 29,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:common"
+}

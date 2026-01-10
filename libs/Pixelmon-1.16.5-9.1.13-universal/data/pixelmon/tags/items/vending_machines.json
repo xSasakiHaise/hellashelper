@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_vending_machine",
+    "pixelmon:orange_vending_machine",
+    "pixelmon:magenta_vending_machine",
+    "pixelmon:light_blue_vending_machine",
+    "pixelmon:yellow_vending_machine",
+    "pixelmon:lime_vending_machine",
+    "pixelmon:pink_vending_machine",
+    "pixelmon:gray_vending_machine",
+    "pixelmon:light_gray_vending_machine",
+    "pixelmon:cyan_vending_machine",
+    "pixelmon:purple_vending_machine",
+    "pixelmon:blue_vending_machine",
+    "pixelmon:brown_vending_machine",
+    "pixelmon:green_vending_machine",
+    "pixelmon:red_vending_machine",
+    "pixelmon:black_vending_machine"
+  ]
+}

@@ -1,0 +1,5 @@
+$body mandibuzz.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$anim fly fly.bmd
+$scale 0.17

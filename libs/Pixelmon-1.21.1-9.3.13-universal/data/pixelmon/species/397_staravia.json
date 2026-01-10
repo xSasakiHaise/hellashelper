@@ -1,0 +1,499 @@
+{
+  "name": "Staravia",
+  "dex": 397,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Quick Attack",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Brave Bird"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Final Gambit"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Defog",
+          "Endeavor",
+          "Heat Wave",
+          "Snore",
+          "Tailwind",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Astonish",
+          "Double-Edge",
+          "Feather Dance",
+          "Fury Attack",
+          "Sand Attack",
+          "Uproar"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Acrobatics",
+          "Thief",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Air Cutter",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "U-turn",
+          "Air Slash",
+          "Sleep Talk",
+          "Rest",
+          "Fly",
+          "Substitute",
+          "Tailwind",
+          "Heat Wave",
+          "Helping Hand",
+          "Hurricane",
+          "Brave Bird",
+          "Tera Blast",
+          "Uproar",
+          "Dual Wingbeat",
+          "Double-Edge",
+          "Endeavor",
+          "Feather Dance"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Cutter",
+          "Astonish",
+          "Captivate",
+          "Detect",
+          "Double-Edge",
+          "Endure",
+          "Feather Dance",
+          "Foresight",
+          "Fury Attack",
+          "Mirror Move",
+          "Mud-Slap",
+          "Natural Gift",
+          "Ominous Wind",
+          "Pluck",
+          "Pursuit",
+          "Retaliate",
+          "Revenge",
+          "Roost",
+          "Sand Attack",
+          "Secret Power",
+          "Steel Wing",
+          "Swift",
+          "Twister",
+          "Uproar"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Retaliate",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Retaliate",
+          "Work Up",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Roost",
+          "Endure",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate"
+        ],
+        "hiddenAbilities": [
+          "Reckless"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 8,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 75,
+        "defense": 50,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 80
+      },
+      "tags": [
+        "eligible_for_sky_battles"
+      ],
+      "spawn": {
+        "baseExp": 113,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/397_staravia/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.staravia",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/397_staravia/all/base/none/texture.png",
+                      "movement_threshold": 0.02,
+                      "model": "pixelmon:pokemon/397_staravia/all/base/none/flying/staravia.bmd",
+                      "animations": [
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/397_staravia/all/base/none/flying/fly.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/397_staravia/all/base/none/flying/fly.bmd"
+                        }
+                      ],
+                      "scale": 1.2
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/397_staravia/all/base/none/texture.png",
+                      "movement_threshold": 0.02,
+                      "model": "pixelmon:pokemon/397_staravia/all/base/none/staravia.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/397_staravia/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/397_staravia/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.2
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/397_staravia/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/397_staravia/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/397_staravia/all/base/none/flying/staravia.bmd",
+                      "animations": [
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/397_staravia/all/base/none/flying/fly.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/397_staravia/all/base/none/flying/fly.bmd"
+                        }
+                      ],
+                      "scale": 1.2
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/397_staravia/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/397_staravia/all/base/none/staravia.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/397_staravia/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/397_staravia/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.2
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Starly"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 15.5,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 34,
+          "to": "Staraptor",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Close Combat"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      },
+      "growth_data": {
+        "mean": 70.0,
+        "standard_deviation": 3.5,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 4
+}

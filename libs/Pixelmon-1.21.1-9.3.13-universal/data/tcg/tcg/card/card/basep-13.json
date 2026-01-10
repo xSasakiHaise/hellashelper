@@ -1,0 +1,35 @@
+{
+  "special": false,
+  "hp": 100,
+  "description": "card.basep-13.description",
+  "attacks": [
+    {
+      "name": "attack.basep-13.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.basep-13.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "GRASS",
+  "pokemon_id": 3,
+  "ability": {
+    "name": "ability.basep-13.name",
+    "description": "ability.basep-13.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:unimplemented"
+    }
+  },
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:promo"
+}

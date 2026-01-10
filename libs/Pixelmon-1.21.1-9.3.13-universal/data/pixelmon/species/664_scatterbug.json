@@ -1,0 +1,235 @@
+{
+  "name": "Scatterbug",
+  "dex": 664,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.35,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.35,
+        "hoverHeight": 0.35
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "String Shot",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bug Bite"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite"
+        ],
+        "eggMoves": [
+          "Poison Powder",
+          "Rage Powder"
+        ],
+        "tmMoves9": [
+          "Struggle Bug",
+          "Pounce",
+          "Tera Blast",
+          "Bug Bite"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Poison Powder",
+          "Rage Powder",
+          "Stun Spore"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShieldDust",
+          "CompoundEyes"
+        ],
+        "hiddenAbilities": [
+          "FriendGuard"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 38,
+        "attack": 35,
+        "defense": 40,
+        "specialAttack": 27,
+        "specialDefense": 25,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 40,
+        "baseFriendship": 0,
+        "spawnLevel": 3,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/664_scatterbug/all/base/none/sprite.png",
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/664_scatterbug/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/664_scatterbug/all/base/none/scatterbug.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/664_scatterbug/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/664_scatterbug/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.1
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/664_scatterbug/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/664_scatterbug/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/664_scatterbug/all/base/none/scatterbug.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/664_scatterbug/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/664_scatterbug/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 1.1
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 2.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 9,
+          "to": "Spewpa",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Protect"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      },
+      "growth_data": {
+        "mean": 35.0,
+        "standard_deviation": 1.75,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 6
+}

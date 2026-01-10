@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "rug",
+  "pattern": [
+    "vdv"
+  ],
+  "key": {
+    "d": {
+      "tag": "c:dyes/green"
+    },
+    "v": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "id": "pixelmon:green_rug",
+    "count": 1
+  }
+}

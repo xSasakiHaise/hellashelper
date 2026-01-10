@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "healer",
+  "pattern": [
+    "aia",
+    "imi",
+    "ada"
+  ],
+  "key": {
+    "d": {
+      "tag": "c:dyes/black"
+    },
+    "a": {
+      "tag": "c:ingots/aluminum"
+    }
+,    "i": {
+      "tag": "c:ingots/iron"
+    }
+,    "m": {
+      "tag": "c:gems/diamond"
+    }
+  },
+  "result": {
+    "id": "pixelmon:black_healer",
+    "count": 1
+  }
+}

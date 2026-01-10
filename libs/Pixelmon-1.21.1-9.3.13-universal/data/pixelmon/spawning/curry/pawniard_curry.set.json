@@ -1,0 +1,22 @@
+{
+  "id": "Pawniard Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pawniard",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "pixelmon:ultra_deep_sea",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

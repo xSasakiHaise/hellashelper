@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 122,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.jung22.name",
+    "description": "ability.jung22.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:invisible_wall"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG22.1.name",
+      "costs": [
+        "COLORLESS",
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.JUNG22.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": false,
+          "damage_type": "PerDamage",
+          "value": 10,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

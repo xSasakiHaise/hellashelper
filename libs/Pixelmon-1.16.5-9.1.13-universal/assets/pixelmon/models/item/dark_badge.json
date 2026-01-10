@@ -1,0 +1,7 @@
+{
+    "parent": "pixelmon:item/pixelmon_item",
+    "textures": {
+        "layer0": "pixelmon:items/badges/dark_badge"
+    }
+}
+

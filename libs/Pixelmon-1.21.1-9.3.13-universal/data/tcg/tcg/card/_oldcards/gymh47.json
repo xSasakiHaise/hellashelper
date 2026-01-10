@@ -1,0 +1,29 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 43,
+  "previous_pokemon_id": null,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH47.1.name",
+      "costs": [
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH47.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

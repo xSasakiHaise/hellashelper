@@ -1,0 +1,38 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/neo_plasma/neo_plasma_boots",
+      "pixelmon:equipment/neo_plasma/neo_plasma_chestplate",
+      "pixelmon:equipment/neo_plasma/neo_plasma_helmet",
+      "pixelmon:equipment/neo_plasma/neo_plasma_leggings"
+    ]
+  },
+  "criteria": {
+    "has_silicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:gems/silicon"
+          }
+        ]
+      }
+    },
+    "has_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:gems/crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silicon",
+      "has_crystal"
+    ]
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 124,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE31.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 10,
+      "text": "attack.BASE31.1.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 2,
+          "flip_type": "Exact"
+        }
+      ]
+    },
+    {
+      "name": "attack.BASE31.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.BASE31.2.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": false,
+          "damage_type": "PerDamage",
+          "value": 10,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

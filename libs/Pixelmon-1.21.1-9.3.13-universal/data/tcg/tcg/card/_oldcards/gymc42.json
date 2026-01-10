@@ -1,0 +1,41 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 67,
+  "previous_pokemon_id": 66,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC42.1.name",
+      "costs": [
+        "FIGHTING"
+      ],
+      "damage": 60,
+      "text": "attack.GYMC42.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC42.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC42.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

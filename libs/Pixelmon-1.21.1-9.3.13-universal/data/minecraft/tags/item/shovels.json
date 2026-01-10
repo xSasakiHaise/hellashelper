@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:aluminum_shovel",
+    "pixelmon:silver_shovel",
+    "pixelmon:platinum_shovel",
+    "pixelmon:ruby_shovel",
+    "pixelmon:sapphire_shovel",
+    "pixelmon:crystal_shovel",
+    "pixelmon:fire_stone_shovel",
+    "pixelmon:water_stone_shovel",
+    "pixelmon:leaf_stone_shovel",
+    "pixelmon:thunder_stone_shovel",
+    "pixelmon:sun_stone_shovel",
+    "pixelmon:moon_stone_shovel",
+    "pixelmon:dawn_stone_shovel",
+    "pixelmon:dusk_stone_shovel",
+    "pixelmon:ice_stone_shovel",
+    "pixelmon:shiny_stone_shovel"
+  ]
+}

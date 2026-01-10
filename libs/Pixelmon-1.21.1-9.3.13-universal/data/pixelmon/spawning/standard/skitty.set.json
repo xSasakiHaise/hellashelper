@@ -1,0 +1,25 @@
+{
+  "id": "Skitty",
+  "spawnInfos": [
+    {
+      "spec": "species:Skitty",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

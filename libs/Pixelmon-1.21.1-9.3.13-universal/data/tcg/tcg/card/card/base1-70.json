@@ -1,0 +1,15 @@
+{
+  "special": false,
+  "hp": 10,
+  "description": "card.base1-70.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/clefairy_doll.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+    "effect": {
+    "type": "tcg:clefairy_doll"
+  },
+  "rarity": "tcg:rare"
+}

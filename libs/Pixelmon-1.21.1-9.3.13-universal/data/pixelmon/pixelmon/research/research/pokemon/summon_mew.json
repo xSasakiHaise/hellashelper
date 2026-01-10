@@ -1,0 +1,1058 @@
+{
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Hello there! I have been studying some ancient texts recently and I need your help with something."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I need you to go out and complete some tasks for me. Once you have completed them, I will update you on the next steps."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/npceditor.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 5,
+          "name": {
+            "translate": "research.legendary.spin.pokestop.5",
+            "fallback": "Spin 5 PokéStops"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:spin_pokestop"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 20,
+          "name": {
+            "translate": "research.legendary.capture.20",
+            "fallback": "Capture 20 Pokémon"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 10,
+          "name": {
+            "translate": "research.legendary.release.10",
+            "fallback": "Release 10 Pokémon"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:release_pokemon"
+        }
+      ],
+      "result": [
+        {
+          "items": [
+            {
+              "id": "pixelmon:poke_ball",
+              "count": 5,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              }
+            }
+          ],
+          "type": "pixelmon:give_item"
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Great job on completing those tasks! I have some more for you to do. Keep up the good work!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/pokeballs/great_ball.png",
+          "description": "x5"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 3,
+          "name": {
+            "translate": "research.legendary.hatch.3",
+            "fallback": "Hatch 3 Eggs"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:hatch_egg"
+        },
+        {
+          "condition": {
+            "first": {
+              "value": {
+                "id": "pixelmon:lure_psychic_weak",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "type": "pixelmon:constant_itemstack"
+            },
+            "second": {
+              "type": "pixelmon:context_item"
+            },
+            "type": "pixelmon:items_equal"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lure.weak",
+            "fallback": "Use a weak Psychic Lure"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:use_lure"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 100,
+          "name": {
+            "translate": "research.legendary.pokeball.throw.100",
+            "fallback": "Throw 100 Poké Balls in battle"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:throw_pokeball_in_battle"
+        }
+      ],
+      "result": [
+        {
+          "items": [
+            {
+              "id": "pixelmon:poke_ball",
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              }
+            }
+          ],
+          "type": "pixelmon:give_item"
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Your progress is impressive! This has been a great help to my research. Keep it up!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/pokeballs/great_ball.png",
+          "description": "x10"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 10,
+          "name": {
+            "translate": "research.legendary.evolve.10",
+            "fallback": "Evolve 10 Pokémon"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:evolve_pokemon"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 10,
+          "name": {
+            "translate": "research.legendary.raid.win.10",
+            "fallback": "Win 10 Raids"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_raid"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 2,
+          "name": {
+            "translate": "research.legendary.gym.npc",
+            "fallback": "Defeat 2 Gym Leaders"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_leader"
+        }
+      ],
+      "result": [
+        {
+          "items": [
+            {
+              "id": "pixelmon:poke_ball",
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              }
+            }
+          ],
+          "type": "pixelmon:give_item"
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Great work so far. You are making excellent progress. I need you to start researching Pokémon in your Pokédex now."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/pokeballs/great_ball.png",
+          "description": "x10"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "min": {
+              "value": 100,
+              "type": "pixelmon:constant_number"
+            },
+            "value": {
+              "type": "pixelmon:pokedex"
+            },
+            "type": "pixelmon:greater_than_or_equal"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.dex.100",
+            "fallback": "Reach 100 Pokémon in the Pokédex"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:pokedex_pokemon"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 20,
+          "name": {
+            "translate": "research.legendary.evolve.20",
+            "fallback": "Evolve 20 Pokémon"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:evolve_pokemon"
+        },
+        {
+          "condition": {
+            "first": {
+              "value": {
+                "id": "pixelmon:lure_psychic_strong",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "type": "pixelmon:constant_itemstack"
+            },
+            "second": {
+              "type": "pixelmon:context_item"
+            },
+            "type": "pixelmon:items_equal"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lure.strong",
+            "fallback": "Use a strong Psychic Lure"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:use_lure"
+        }
+      ],
+      "result": [
+        {
+          "items": [
+            {
+              "id": "pixelmon:poke_ball",
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              }
+            }
+          ],
+          "type": "pixelmon:give_item"
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Next up, I need you to start capturing some specific Pokémon for me. Keep up the good work!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/pokeballs/great_ball.png",
+          "description": "x10"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "spec": {
+              "value": "ditto",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.capture.ditto",
+            "fallback": "Catch a Ditto"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "type:ghost",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 30,
+          "name": {
+            "translate": "research.legendary.capture.ghost.30",
+            "fallback": "Catch 30 Ghost type Pokémon"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:capture_pokemon"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 100,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 50,
+          "name": {
+            "translate": "research.legendary.pokeball.throw.200",
+            "fallback": "Throw 200 Poké Balls in battle"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:throw_pokeball_in_battle"
+        }
+      ],
+      "result": [
+        {
+          "items": [
+            {
+              "id": "pixelmon:poke_ball",
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              }
+            }
+          ],
+          "type": "pixelmon:give_item"
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "You are doing great so far! Now you need to investigate evolving some Pokémon for me."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/pokeballs/great_ball.png",
+          "description": "x10"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 20,
+          "name": {
+            "translate": "research.legendary.raid.20",
+            "fallback": "Win 20 Raids"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:defeat_raid"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.mega.evolve",
+            "fallback": "Mega Evolve a Pokémon"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:mega_evolve"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "lucario",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.evolve.riolu",
+            "fallback": "Evolve a Riolu"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:evolve_pokemon"
+        }
+      ],
+      "result": [
+        {
+          "items": [
+            {
+              "id": "pixelmon:poke_ball",
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              }
+            }
+          ],
+          "type": "pixelmon:give_item"
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Impressive work so far, Trainer! We are getting closer to the end of our research. Keep it up!"
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "Now, I need you to start using some healing items in battle for me."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/pokeballs/great_ball.png",
+          "description": "x10"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "items": "#pixelmon:healing_items",
+            "item": {
+              "type": "pixelmon:context_item"
+            },
+            "type": "pixelmon:item_is_one_of"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 50,
+          "name": {
+            "translate": "research.legendary.heal.items",
+            "fallback": "Use 50 healing items in battle"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:use_battle_item"
+        },
+        {
+          "condition": {
+            "min": {
+              "value": 200,
+              "type": "pixelmon:constant_number"
+            },
+            "value": {
+              "type": "pixelmon:pokedex"
+            },
+            "type": "pixelmon:greater_than_or_equal"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.dex.200",
+            "fallback": "Reach 200 Pokémon in the Pokédex"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:pokedex_pokemon"
+        },
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 100,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 300,
+          "name": {
+            "translate": "research.legendary.pokeball.throw.300",
+            "fallback": "Throw 300 Poké Balls in battle"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:throw_pokeball_in_battle"
+        }
+      ],
+      "result": [
+        {
+          "items": [
+            {
+              "id": "pixelmon:poke_ball",
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              }
+            }
+          ],
+          "type": "pixelmon:give_item"
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Trainer! We are almost there. I've found some interesting data that I need you to investigate."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I need you to Dynamax a Pokémon for me, and level one up to level 100. Can you do that?"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/pokeballs/great_ball.png",
+          "description": "x10"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "type": "pixelmon:true"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.dynamax",
+            "fallback": "Dynamax a Pokémon"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:dynamax"
+        },
+        {
+          "condition": {
+            "min": {
+              "value": 100,
+              "type": "pixelmon:constant_number"
+            },
+            "value": {
+              "type": "pixelmon:pokemon_level",
+              "pokemon": {
+                "type": "pixelmon:context_pokemon",
+                "key": "pixelmon:pokemon"
+              }
+            },
+            "type": "pixelmon:greater_than_or_equal"
+          },
+          "result": [
+            {
+              "exp": 50,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.level.100",
+            "fallback": "Level a Pokémon to level 100"
+          },
+          "sprite": "minecraft:textures/item/experience_bottle.png",
+          "event": "pixelmon:level_pokemon"
+        }
+      ],
+      "result": [
+        {
+          "items": [
+            {
+              "id": "pixelmon:poke_ball",
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              }
+            }
+          ],
+          "type": "pixelmon:give_item"
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "spec": "mew",
+          "type": "pixelmon:spawn_and_enter_battle"
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/pokeballs/great_ball.png",
+          "description": "x10"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/encounter_grass.png",
+          "description": "???"
+        }
+      ]
+    },
+    {
+      "objectives": [],
+      "result": [
+        {
+          "items": [
+            {
+              "id": "pixelmon:poke_ball",
+              "count": 10,
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              }
+            }
+          ],
+          "type": "pixelmon:give_item"
+        },
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "That was amazing! You have done a great job with this research. I am very proud of you."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I can't believe you managed to summon Mew! This is a great discovery. Thank you for all your hard work."
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/pokeballs/great_ball.png",
+          "description": "x10"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    }
+  ],
+  "repeatable": true,
+  "unique": true,
+  "name": {
+    "translate": "research.legendary.summon.mew",
+    "fallback": "A Mythical Discovery"
+  }
+}

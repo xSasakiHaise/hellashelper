@@ -1,0 +1,20 @@
+{
+  "id": "Nidoranmale Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Nidoranmale",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 3,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

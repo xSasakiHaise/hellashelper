@@ -1,0 +1,30 @@
+{
+  "id": "Shopkeepers",
+  "spawnInfos": [
+    {
+      "preset": "pixelmon:shopkeeper/wild/spawn_1",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "biomes": [
+              "minecraft:snowy_plains"
+            ]
+          }
+        }
+      ],
+      "typeID": "npc",
+      "rarity": 5.0
+    }
+  ]
+}

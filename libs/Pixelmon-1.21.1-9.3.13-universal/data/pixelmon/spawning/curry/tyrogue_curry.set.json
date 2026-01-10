@@ -1,0 +1,20 @@
+{
+  "id": "Tyrogue Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Tyrogue",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

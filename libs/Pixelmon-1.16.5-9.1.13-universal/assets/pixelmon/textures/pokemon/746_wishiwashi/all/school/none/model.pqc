@@ -1,0 +1,5 @@
+$body wishiwashi.bmd
+$anim walk idle.bmd
+$anim swim idle.bmd
+$anim idle idle.bmd
+$scale 5.0

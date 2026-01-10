@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixelmon:red_berry_wood_planks"
+    }
+  },
+  "result": {
+    "id": "pixelmon:red_berry_wood_slab",
+    "count": 6
+  }
+}

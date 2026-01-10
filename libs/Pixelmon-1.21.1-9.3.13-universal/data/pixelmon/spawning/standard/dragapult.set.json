@@ -1,0 +1,60 @@
+{
+  "id": "Dragapult",
+  "spawnInfos": [
+    {
+      "spec": "species:Dragapult",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 60,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Dragapult",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 60,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Dragapult palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 60,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "structures": [
+          "pixelmon:misc/graveyard"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

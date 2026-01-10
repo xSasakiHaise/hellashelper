@@ -1,0 +1,45 @@
+{
+  "id": "Drowzee Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Drowzee",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Hypno",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 26,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

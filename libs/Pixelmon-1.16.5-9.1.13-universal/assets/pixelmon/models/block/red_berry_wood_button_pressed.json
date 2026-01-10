@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "pixelmon:block/berry_structures/berry_red_planks"
+  }
+}

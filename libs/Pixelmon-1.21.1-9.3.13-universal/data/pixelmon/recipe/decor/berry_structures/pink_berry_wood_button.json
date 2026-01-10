@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "pixelmon:pink_berry_wood_planks"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:pink_berry_wood_button"
+  }
+}

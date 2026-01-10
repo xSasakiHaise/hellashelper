@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "c:gems/crystal"
+    }
+  },
+  "result": {
+    "id": "pixelmon:plasma_helmet",
+    "count": 1
+  }
+}

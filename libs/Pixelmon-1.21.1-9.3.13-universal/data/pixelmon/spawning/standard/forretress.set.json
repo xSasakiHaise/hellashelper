@@ -1,0 +1,23 @@
+{
+  "id": "Forretress",
+  "spawnInfos": [
+    {
+      "spec": "species:Forretress",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

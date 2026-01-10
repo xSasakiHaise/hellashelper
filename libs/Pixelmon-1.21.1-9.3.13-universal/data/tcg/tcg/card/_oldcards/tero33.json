@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 148,
+  "previous_pokemon_id": 147,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "ability": {
+    "name": "ability.tero33.name",
+    "description": "ability.tero33.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:evolutionary_light"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO33.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.TERO33.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

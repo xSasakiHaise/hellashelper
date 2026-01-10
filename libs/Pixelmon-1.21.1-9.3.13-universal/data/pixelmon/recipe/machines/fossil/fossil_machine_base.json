@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/aluminum"
+    }
+  },
+  "result": {
+    "id": "pixelmon:fossil_machine_base",
+    "count": 1
+  }
+}

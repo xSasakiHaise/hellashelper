@@ -1,0 +1,318 @@
+{
+  "name": "BruteBonnet",
+  "dex": 986,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.05,
+        "width": 1.1,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Astonish",
+              "Growth"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Spore"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Rage Powder"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Solar Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Sunny Day"
+        ],
+        "tmMoves9": [
+          "Scary Face",
+          "Protect",
+          "Confuse Ray",
+          "Thief",
+          "Trailblaze",
+          "Facade",
+          "Hex",
+          "Magical Leaf",
+          "Venoshock",
+          "Endure",
+          "Sunny Day",
+          "Bullet Seed",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Grass Knot",
+          "Stomping Tantrum",
+          "Rest",
+          "Taunt",
+          "Body Press",
+          "Dark Pulse",
+          "Substitute",
+          "Crunch",
+          "Giga Drain",
+          "Energy Ball",
+          "Pollen Puff",
+          "Earth Power",
+          "Grassy Terrain",
+          "Giga Impact",
+          "Outrage",
+          "Leaf Storm",
+          "Hyper Beam",
+          "Close Combat",
+          "Solar Beam",
+          "Tera Blast",
+          "Lash Out",
+          "Double-Edge"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Sunny Day"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Protosynthesis"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 111,
+        "attack": 127,
+        "defense": 99,
+        "specialAttack": 79,
+        "specialDefense": 99,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/986_brutebonnet/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.brutebonnet",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/986_brutebonnet/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/986_brutebonnet/all/base/none/brutebonnet.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/986_brutebonnet/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/986_brutebonnet/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.12
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/986_brutebonnet/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/986_brutebonnet/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/986_brutebonnet/all/base/none/brutebonnet.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/986_brutebonnet/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/986_brutebonnet/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.12
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "GRASS",
+        "DARK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 21.0,
+      "catchRate": 50,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 3
+      },
+      "growth_data": {
+        "mean": 105.0,
+        "standard_deviation": 5.25,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 9
+}

@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:aluminum_hammer",
+    "pixelmon:silver_hammer",
+    "pixelmon:platinum_hammer",
+    "pixelmon:ruby_hammer",
+    "pixelmon:sapphire_hammer",
+    "pixelmon:crystal_hammer",
+    "pixelmon:fire_stone_hammer",
+    "pixelmon:water_stone_hammer",
+    "pixelmon:leaf_stone_hammer",
+    "pixelmon:thunder_stone_hammer",
+    "pixelmon:sun_stone_hammer",
+    "pixelmon:moon_stone_hammer",
+    "pixelmon:dawn_stone_hammer",
+    "pixelmon:dusk_stone_hammer",
+    "pixelmon:ice_stone_hammer",
+    "pixelmon:shiny_stone_hammer",
+    "pixelmon:wood_hammer",
+    "pixelmon:stone_hammer",
+    "pixelmon:iron_hammer",
+    "pixelmon:gold_hammer",
+    "pixelmon:diamond_hammer",
+    "pixelmon:netherite_hammer"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_umbrella",
+    "pixelmon:orange_umbrella",
+    "pixelmon:magenta_umbrella",
+    "pixelmon:light_blue_umbrella",
+    "pixelmon:yellow_umbrella",
+    "pixelmon:lime_umbrella",
+    "pixelmon:pink_umbrella",
+    "pixelmon:gray_umbrella",
+    "pixelmon:light_gray_umbrella",
+    "pixelmon:cyan_umbrella",
+    "pixelmon:purple_umbrella",
+    "pixelmon:blue_umbrella",
+    "pixelmon:brown_umbrella",
+    "pixelmon:green_umbrella",
+    "pixelmon:red_umbrella",
+    "pixelmon:black_umbrella"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 111,
+  "previous_pokemon_id": null,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH22.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH22.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMH22.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "text": "attack.GYMH22.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

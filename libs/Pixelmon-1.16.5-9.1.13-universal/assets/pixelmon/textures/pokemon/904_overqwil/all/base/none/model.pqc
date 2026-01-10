@@ -1,0 +1,4 @@
+$body overqwil.bmd
+$anim idle idle.bmd
+$anim swim swim.bmd
+$scale 1

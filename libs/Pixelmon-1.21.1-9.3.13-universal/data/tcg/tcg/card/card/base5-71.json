@@ -1,0 +1,16 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.base5-71.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/here_comes_team_rocket.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+
+  "effect": {
+    "type": "tcg:unimplemented"
+  },
+  "rarity": "tcg:rare"
+}

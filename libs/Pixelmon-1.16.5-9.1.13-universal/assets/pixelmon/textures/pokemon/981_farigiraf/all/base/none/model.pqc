@@ -1,0 +1,4 @@
+$body farigiraf.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 12.5

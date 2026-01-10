@@ -1,0 +1,16 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:dolphin"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "gorebyss",
+      "finizen",
+      "palafin"
+    ]
+  }
+}

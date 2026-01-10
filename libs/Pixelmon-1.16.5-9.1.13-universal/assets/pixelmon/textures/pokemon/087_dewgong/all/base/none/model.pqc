@@ -1,0 +1,5 @@
+$body dewgong.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$anim swim swim.bmd
+$scale 12.6

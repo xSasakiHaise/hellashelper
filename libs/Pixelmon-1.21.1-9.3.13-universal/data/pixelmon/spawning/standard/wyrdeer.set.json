@@ -1,0 +1,27 @@
+{
+  "id": "Wyrdeer",
+  "spawnInfos": [
+    {
+      "spec": "species:Wyrdeer",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/freezing_forests"
+        ],
+        "minY": 85
+      },
+      "rarity": 1.0
+    }
+  ]
+}

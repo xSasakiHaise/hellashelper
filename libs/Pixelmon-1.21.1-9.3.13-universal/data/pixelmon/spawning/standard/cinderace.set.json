@@ -1,0 +1,23 @@
+{
+  "id": "Cinderace",
+  "spawnInfos": [
+    {
+      "spec": "species:Cinderace",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

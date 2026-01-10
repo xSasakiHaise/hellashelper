@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:aluminum_block",
+    "pixelmon:crystal_block",
+    "pixelmon:platinum_block",
+    "pixelmon:ruby_block",
+    "pixelmon:sapphire_block",
+    "pixelmon:silicon_block",
+    "pixelmon:silver_block"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "Clauncher Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Clauncher",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 24,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Clauncher",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 24,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Clawitzer",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 48,
+      "maxLevel": 61,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/oceanic",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 7.0
+    }
+  ]
+}

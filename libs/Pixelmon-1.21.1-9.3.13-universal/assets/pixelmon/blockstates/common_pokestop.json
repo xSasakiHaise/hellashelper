@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/pokestop"
+    },
+    "facing=east": {
+      "model": "pixelmon:block/pokestop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pixelmon:block/pokestop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pixelmon:block/pokestop",
+      "y": 270
+    }
+  }
+}

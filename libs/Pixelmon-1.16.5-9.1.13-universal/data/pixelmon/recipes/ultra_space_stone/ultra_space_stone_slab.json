@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "pixelmon:ultra_space_stone"
+      },
+      {
+        "item": "pixelmon:chiseled_ultra_space_stone"
+      }
+    ]
+  },
+  "result": {
+    "item": "pixelmon:ultra_space_stone_slab",
+    "count": 6
+  }
+}

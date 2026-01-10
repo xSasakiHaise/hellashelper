@@ -1,0 +1,60 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "biomesoplenty:bog"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:dead_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:ominous_woods"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:old_growth_dead_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wasteland"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:wasteland_steppe"
+    },
+    {
+      "required": false,
+      "id": "terralith:rocky_shrubland"
+    },
+    {
+      "required": false,
+      "id": "terralith:warped_mesa"
+    },
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+    {
+      "required": false,
+      "id": "biomesoplenty:lush_savanna"
+    },
+    {
+      "required": false,
+      "id": "terralith:arid_highlands"
+    },
+    {
+      "required": false,
+      "id": "terralith:fractured_savanna"
+    },
+    {
+      "required": false,
+      "id": "terralith:savanna_badlands"
+    },
+    {
+      "required": false,
+      "id": "terralith:savanna_slopes"
+    }
+  ]
+}

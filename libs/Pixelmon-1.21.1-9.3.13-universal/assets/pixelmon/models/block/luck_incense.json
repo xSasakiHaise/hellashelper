@@ -1,0 +1,187 @@
+{
+    "__comment": "model generated using mrcrayfish's model creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "pixelmon:block/decorative/incense_luck",
+        "incense_burner": "pixelmon:block/decorative/incense_luck"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "top_1",
+            "from": [ 5, 5, 5 ], 
+            "to": [ 11, 7, 11 ], 
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 10, 9, 16, 11 ] },
+                "east": { "texture": "#incense_burner", "uv": [ 10, 9, 16, 11 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 10, 9, 16, 11 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 10, 9, 16, 11 ] },
+                "up": { "texture": "#incense_burner", "uv": [ 2, 2, 8, 8 ] }
+            }
+        },
+        {
+            "name": "top_2",
+            "from": [ 6, 7, 6 ], 
+            "to": [ 10, 8, 10 ], 
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 11, 8, 15, 9 ] },
+                "east": { "texture": "#incense_burner", "uv": [ 11, 8, 15, 9 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 11, 8, 15, 9 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 11, 8, 15, 9 ] },
+                "up": { "texture": "#incense_burner", "uv": [ 3, 3, 7, 7 ] }
+            }
+        },
+        {
+            "name": "top_3",
+            "from": [ 7.5, 8, 7.5 ], 
+            "to": [ 8.5, 9, 8.5 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 13, 1, 14, 2 ] },
+                "east": { "texture": "#incense_burner", "uv": [ 14, 2, 15, 3 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 13, 3, 14, 4 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 12, 2, 13, 3 ] },
+                "up": { "texture": "#incense_burner", "uv": [ 13, 2, 14, 3 ] }
+            }
+        },
+        {
+            "name": "foot_1",
+            "from": [ 4.5, 0, 4.5 ], 
+            "to": [ 6.5, 1, 6.5 ], 
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 7, 15, 9, 16 ] },
+                "east": { "texture": "#incense_burner", "uv": [ 7, 15, 9, 16 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 1, 15, 3, 16 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 1, 15, 3, 16 ] },
+                "down": { "texture": "#incense_burner", "uv": [ 12, 13, 14, 15 ] }
+            }
+        },
+        {
+            "name": "foot_2",
+            "from": [ 4.5, 0, 9.5 ], 
+            "to": [ 6.5, 1, 11.5 ], 
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 7, 15, 9, 16 ] },
+                "east": { "texture": "#incense_burner", "uv": [ 1, 15, 3, 16 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 1, 15, 3, 16 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 7, 15, 9, 16 ] },
+                "down": { "texture": "#incense_burner", "uv": [ 12, 13, 14, 15 ] }
+            }
+        },
+        {
+            "name": "foot_3",
+            "from": [ 9.5, 0, 4.5 ], 
+            "to": [ 11.5, 1, 6.5 ], 
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 1, 15, 3, 16 ] },
+                "east": { "texture": "#incense_burner", "uv": [ 7, 15, 9, 16 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 7, 15, 9, 16 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 1, 15, 3, 16 ] },
+                "down": { "texture": "#incense_burner", "uv": [ 12, 13, 14, 15 ] }
+            }
+        },
+        {
+            "name": "foot_4",
+            "from": [ 9.5, 0, 9.5 ], 
+            "to": [ 11.5, 1, 11.5 ], 
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 1, 15, 3, 16 ] },
+                "east": { "texture": "#incense_burner", "uv": [ 1, 15, 3, 16 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 7, 15, 9, 16 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 7, 15, 9, 16 ] },
+                "down": { "texture": "#incense_burner", "uv": [ 12, 13, 14, 15 ] }
+            }
+        },
+        {
+            "name": "body_base",
+            "from": [ 4, 1, 4 ], 
+            "to": [ 12, 5, 12 ], 
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 1, 11, 9, 15 ] },
+                "east": { "texture": "#incense_burner", "uv": [ 1, 11, 9, 15 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 1, 11, 9, 15 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 1, 11, 9, 15 ] },
+                "up": { "texture": "#incense_burner", "uv": [ 1, 1, 9, 9 ] },
+                "down": { "texture": "#incense_burner", "uv": [ 1, 1, 9, 9 ] }
+            }
+        },
+        {
+            "name": "body_side_1",
+            "from": [ 5, 1, 3 ], 
+            "to": [ 11, 5, 4 ], 
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 2, 11, 8, 15 ] },
+                "east": { "texture": "#incense_burner", "uv": [ 9, 11, 10, 15 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 0, 11, 1, 15 ] },
+                "up": { "texture": "#incense_burner", "uv": [ 2, 0, 8, 1 ] },
+                "down": { "texture": "#incense_burner", "uv": [ 2, 0, 8, 1 ] }
+            }
+        },
+        {
+            "name": "body_side_2",
+            "from": [ 3, 1, 5 ], 
+            "to": [ 4, 5, 11 ], 
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 9, 11, 10, 15 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 0, 11, 1, 15 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 2, 11, 8, 15 ] },
+                "up": { "texture": "#incense_burner", "uv": [ 0, 2, 1, 8 ] },
+                "down": { "texture": "#incense_burner", "uv": [ 0, 2, 1, 8 ] }
+            }
+        },
+        {
+            "name": "body_side_3",
+            "from": [ 5, 1, 12 ], 
+            "to": [ 11, 5, 13 ], 
+            "faces": {
+                "east": { "texture": "#incense_burner", "uv": [ 0, 11, 1, 15 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 2, 11, 8, 15 ] },
+                "west": { "texture": "#incense_burner", "uv": [ 9, 11, 10, 15 ] },
+                "up": { "texture": "#incense_burner", "uv": [ 2, 9, 8, 10 ] },
+                "down": { "texture": "#incense_burner", "uv": [ 2, 9, 8, 10 ] }
+            }
+        },
+        {
+            "name": "body_side_4",
+            "from": [ 12, 1, 5 ], 
+            "to": [ 13, 5, 11 ], 
+            "faces": {
+                "north": { "texture": "#incense_burner", "uv": [ 0, 11, 1, 15 ] },
+                "east": { "texture": "#incense_burner", "uv": [ 2, 11, 8, 15 ] },
+                "south": { "texture": "#incense_burner", "uv": [ 9, 11, 10, 15 ] },
+                "up": { "texture": "#incense_burner", "uv": [ 9, 2, 10, 8 ] },
+                "down": { "texture": "#incense_burner", "uv": [ 9, 2, 10, 8 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "Stunfisk Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Stunfisk",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 34,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 15.0
+    },
+    {
+      "spec": "species:Stunfisk form:galarian",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 34,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

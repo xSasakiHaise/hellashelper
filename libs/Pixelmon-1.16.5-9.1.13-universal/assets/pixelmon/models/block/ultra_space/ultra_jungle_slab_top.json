@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "pixelmon:block/ultra_space/jungle_planks",
+    "top": "pixelmon:block/ultra_space/jungle_planks",
+    "side": "pixelmon:block/ultra_space/jungle_planks"
+  }
+}

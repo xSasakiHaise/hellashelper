@@ -1,0 +1,48 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base4-28.description",
+  "attacks": [
+    {
+      "name": "attack.base4-28.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base4-28.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.base4-28.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base4-28.1.description",
+      "effects": [
+        {
+          "type": "tcg:mirror_move",
+          "self": false
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "COLORLESS",
+  "pokemon_id": 17,
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:rare"
+}

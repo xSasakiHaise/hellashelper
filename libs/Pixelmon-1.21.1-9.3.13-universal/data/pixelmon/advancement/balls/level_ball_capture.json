@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "pixelmon:poke_ball",
+      "count": 1,
+      "components": {
+        "pixelmon:poke_ball": "level_ball"
+      }
+    },
+    "title": {
+      "translate": "advancements.level_ball_capture.title"
+    },
+    "description": {
+      "translate": "advancements.level_ball_capture.description"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "level_ball_capture"
+    ]
+  ],
+  "parent": "pixelmon:balls/ball_capture_trigger",
+  "criteria": {
+    "level_ball_capture": {
+      "trigger": "pixelmon:ball_capture_trigger",
+      "conditions": {
+        "pokeball": "level_ball"
+      }
+    }
+  }
+}

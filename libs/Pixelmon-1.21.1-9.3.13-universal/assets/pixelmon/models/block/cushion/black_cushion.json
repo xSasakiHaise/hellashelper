@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/cushion/cushion",
+  "textures": {
+    "particle": "pixelmon:block/cushion/cushion_black",
+    "all": "pixelmon:block/cushion/cushion_black"
+  }
+}

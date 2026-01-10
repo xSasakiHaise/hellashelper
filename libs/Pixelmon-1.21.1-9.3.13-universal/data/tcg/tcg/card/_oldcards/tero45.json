@@ -1,0 +1,34 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 134,
+  "previous_pokemon_id": 133,
+  "retreat_cost": 1,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "LIGHTNING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO45.2.name",
+      "costs": [
+        "WATER",
+        "WATER",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.TERO45.2.text",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "self": false,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "energies": "WATER"
+}

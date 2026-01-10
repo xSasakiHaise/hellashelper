@@ -1,0 +1,7 @@
+$body blacephalon.bmd
+$anim idle idlebasic.bmd headspin.bmd idlebasic.bmd headroll.bmd idlebasic.bmd idlebasic.bmd pirouette.bmd
+$anim walk walk.bmd
+$anim special pirouette.bmd
+$anim special2 headroll.bmd
+$anim special3 headspin.bmd
+$scale 0.30

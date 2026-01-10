@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/wall_gym_sign",
+  "textures": {
+    "particle": "pixelmon:block/gymsigns/wall/magenta",
+    "all": "pixelmon:block/gymsigns/wall/magenta"
+  }
+}

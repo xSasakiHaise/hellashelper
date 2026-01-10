@@ -1,0 +1,6 @@
+{
+  "name": {
+    "translate": "pixelmon.camera.filter.sepia"
+  },
+  "post_process_shader": "pixelmon:shaders/post/sepia.json"
+}

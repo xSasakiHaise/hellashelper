@@ -1,0 +1,33 @@
+{
+  "name": "pixelmon:npc/shopkeeper/fairy/mart_second",
+  "fallback": "pixelmon:npc/shopkeeper/fairy/mart_second",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/fairy/tm_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/fairy/mail_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/pokemart/fairy/curry_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

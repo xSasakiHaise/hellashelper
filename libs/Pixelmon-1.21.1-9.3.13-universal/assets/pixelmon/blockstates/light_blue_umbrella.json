@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/umbrella/light_blue",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "pixelmon:block/umbrella/light_blue",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "pixelmon:block/umbrella/light_blue",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "pixelmon:block/umbrella/light_blue",
+      "y": 90
+    }
+  }
+}

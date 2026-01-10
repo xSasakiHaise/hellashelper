@@ -1,0 +1,23 @@
+{
+  "events": [
+    "pixelmon:capture_pokemon"
+  ],
+  "condition": {
+    "type": "pixelmon:spec_matches",
+    "pokemon": {
+      "type": "pixelmon:context_pokemon",
+      "key": "pixelmon:pokemon"
+    },
+    "spec": "cobalion"
+  },
+  "research": {
+    "guaranteed_reward": {
+      "research": "pixelmon:pokemon/paradox/iron_crown",
+      "condition": []
+    },
+    "reward_rolls_min": 0,
+    "reward_rolls_max": 0,
+    "chance_of_additional_rewards": 0,
+    "rewards": []
+  }
+}

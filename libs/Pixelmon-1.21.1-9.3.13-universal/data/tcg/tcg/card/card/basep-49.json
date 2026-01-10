@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "card.basep-49.description",
+  "attacks": [
+    {
+      "name": "attack.basep-49.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.basep-49.0.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 4,
+  "energies": "COLORLESS",
+  "pokemon_id": 143,
+  "ability": {
+    "name": "ability.basep-49.name",
+    "description": "ability.basep-49.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:unimplemented"
+    }
+  },
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "PSYCHIC",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:promo"
+}

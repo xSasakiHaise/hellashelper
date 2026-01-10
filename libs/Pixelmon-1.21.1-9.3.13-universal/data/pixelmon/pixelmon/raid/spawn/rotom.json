@@ -1,0 +1,70 @@
+{
+  "spawns": [
+    {
+      "spec": "Rotom",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/rotom-3-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Rotom form:heat",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/rotom-heat-3-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Rotom form:wash",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/rotom-wash-3-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Rotom form:mow",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/rotom-mow-3-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Rotom form:fan",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/rotom-fan-3-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Rotom form:frost",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/rotom-frost-3-4",
+      "weight": 1.0
+    }
+  ]
+}

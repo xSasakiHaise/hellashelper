@@ -1,0 +1,46 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 36,
+  "previous_pokemon_id": 35,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG1.1.name",
+      "costs": [
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG1.1.text",
+      "effects": [
+        {
+          "type": "tcg:metronome"
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG1.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG1.2.text",
+      "effects": [
+        {
+          "type": "tcg:reduce_damage",
+          "amount": 20,
+          "benching_removes": false
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

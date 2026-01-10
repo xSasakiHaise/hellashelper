@@ -1,0 +1,55 @@
+{
+  "id": "Rolycoly Line Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Rolycoly",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 200.0
+    },
+    {
+      "spec": "species:Carkol",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 18,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

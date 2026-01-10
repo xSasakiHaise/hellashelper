@@ -1,0 +1,10 @@
+{
+  "color": {
+    "red": 146,
+    "green": 26,
+    "blue": 206,
+    "alpha": 255
+  },
+  "texture": "tcg:gui/rarities/holo_rare.png",
+  "rare_or_higher": true
+}

@@ -1,0 +1,348 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 3.0,
+                "max": 7.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 4.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:redstone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 4.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:bread"
+                },
+                {
+                "type": "minecraft:item",
+                "weight": 7,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 1.0,
+                            "max": 4.0,
+                            "type": "minecraft:uniform"
+                        }
+                    }
+                ],
+                "name": "minecraft:rotten_flesh"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 4.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:lapis_lazuli"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 4.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:gold_ingot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 4.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:emerald"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:full_incense"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:lax_incense"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:luck_incense"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:odd_incense"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:pure_incense"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:wave_incense"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:rock_incense"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:rose_incense"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:sea_incense"
+                },
+				{
+					"type": "minecraft:item",
+					"name": "pixelmon:blank_plate"
+				},
+                {
+                    "type": "empty",
+                    "weight": 35
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:red_flute"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:green_flute"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:yellow_flute"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:blue_flute"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:black_flute"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:white_flute"
+                },
+                {
+                    "type": "empty",
+                    "weight": 24
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:grass_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:poison_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:dark_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:psychic_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:ghost_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:fairy_gem",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:revival_herb",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:energy_root",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:energy_powder",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:heal_powder",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:sapphire",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:ruby",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

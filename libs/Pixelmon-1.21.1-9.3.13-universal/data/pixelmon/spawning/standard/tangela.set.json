@@ -1,0 +1,25 @@
+{
+  "id": "Tangela",
+  "spawnInfos": [
+    {
+      "spec": "species:Tangela",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

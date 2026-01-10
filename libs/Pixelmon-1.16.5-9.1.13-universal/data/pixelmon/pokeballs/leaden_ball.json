@@ -1,0 +1,19 @@
+{
+  "name": "leaden_ball",
+  "model": "pixelmon:models/pokeballs/hisuiheavyball.pqc",
+  "texture": "pixelmon:textures/pokeballs/leaden_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/leaden_ball_flashing.png",
+  "ballSprite": "pixelmon:items/pokeballs/leaden_ball",
+  "lidSprite": "pixelmon:items/pokeballs/leaden_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/leaden_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.HisuiBall",
+  "bases": [
+    "wooden"
+  ],
+  "captureMethod": "gen4",
+  "catchBonus": 2,
+  "breakChance": 0.40,
+  "velocityModifier": 0.6,
+  "gravityModifier": 1,
+  "particles": false
+}

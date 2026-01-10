@@ -1,0 +1,28 @@
+{
+  "id": "Landorus",
+  "spawnInfos": [
+    {
+      "spec": "species:Landorus level:70",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:modified_wooded_badlands_plateau",
+          "minecraft:wooded_badlands_plateau",
+          "minecraft:modified_badlands_plateau"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

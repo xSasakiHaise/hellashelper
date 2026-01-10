@@ -1,0 +1,20 @@
+{
+  "id": "Litwick Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Litwick",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

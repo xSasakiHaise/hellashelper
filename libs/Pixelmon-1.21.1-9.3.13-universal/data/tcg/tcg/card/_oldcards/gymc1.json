@@ -1,0 +1,44 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 59,
+  "previous_pokemon_id": 58,
+  "retreat_cost": 3,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC1.1.name",
+      "costs": [
+        "FIRE",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 40,
+      "text": "attack.GYMC1.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC1.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE",
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 120,
+      "text": "attack.GYMC1.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

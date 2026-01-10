@@ -1,0 +1,26 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 142,
+  "previous_pokemon_id": 10000,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.foss16.name",
+    "description": "ability.foss16.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:disable_evolution"
+    }
+  },
+  "attacks": [
+
+  ],
+  "energies": "FIGHTING"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "Spinda Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Spinda",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:windswept_gravelly_hills"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

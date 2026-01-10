@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "variants": {
+    "facing=south": {
+      "model": "pixelmon:block/reassembly_unit"
+    },
+    "facing=north": {
+      "model": "pixelmon:block/reassembly_unit",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "pixelmon:block/reassembly_unit",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "pixelmon:block/reassembly_unit",
+      "y": 90
+    }
+  }
+}

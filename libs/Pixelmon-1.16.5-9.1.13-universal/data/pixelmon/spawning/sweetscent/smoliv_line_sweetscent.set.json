@@ -1,0 +1,45 @@
+{
+  "id": "Smoliv Line Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Smoliv",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "savannas",
+          "plains"
+        ]
+      },
+      "rarity": 200.0
+    },
+    {
+      "spec": "species:Dolliv",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "savannas",
+          "plains"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

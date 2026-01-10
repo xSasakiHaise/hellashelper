@@ -1,0 +1,112 @@
+{
+  "id": "SlitherWing",
+  "spawnInfos": [
+    {
+      "spec": "species:SlitherWing",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 55,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+		  {
+			  "itemID": "pixelmon:booster_energy",
+			  "percentChance": 5
+		  }
+    ],
+    "condition": {
+      "biomes": [
+        "minecraft:small_end_islands"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:SlitherWing palette:christmas",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 55,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:booster_energy",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:small_end_islands"
+        ],
+        "realWorldSpawnTimes": [
+          {
+            "monthOfYear": 12
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 1
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 2
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 3
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 4
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 5
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 6
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 7
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 8
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 9
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 10
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 11
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 12
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 13
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 14
+          },
+          {
+            "monthOfYear": 1,
+            "dayOfMonth": 15
+          }
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

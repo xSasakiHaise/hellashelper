@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 97,
+  "previous_pokemon_id": 96,
+  "retreat_cost": 2,
+  "rarity": "tcg:uncommon",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC56.1.name",
+      "costs": [
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.GYMC56.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMC56.2.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.GYMC56.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "PSYCHIC"
+}

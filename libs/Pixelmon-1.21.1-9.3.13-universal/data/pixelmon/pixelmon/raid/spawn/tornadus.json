@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Tornadus",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/tornadus-5-5",
+      "weight": 1.0
+    },
+    {
+      "spec": "Tornadus form:therian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 5
+      },
+      "biomes": "#pixelmon:raid/spawn/tornadus-therian-5-5",
+      "weight": 1.0
+    }
+  ]
+}

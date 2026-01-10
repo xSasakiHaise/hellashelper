@@ -1,0 +1,275 @@
+{
+  "interactions": {
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "learnable_moves": [
+                  {
+                    "attack": "Telekinesis",
+                    "costs": [
+                      {
+                        "id": "minecraft:iron_ingot",
+                        "count": 4
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Flamethrower",
+                    "costs": [
+                      {
+                        "id": "minecraft:diamond",
+                        "count": 2
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Spore",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 5
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Tri Attack",
+                    "costs": [
+                      {
+                        "id": "pixelmon:aluminum_ingot",
+                        "count": 3
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Whirlwind",
+                    "costs": [
+                      {
+                        "id": "minecraft:amethyst_shard",
+                        "count": 2
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Psych Up",
+                    "costs": [
+                      {
+                        "id": "minecraft:emerald",
+                        "count": 8
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Steamroller",
+                    "costs": [
+                      {
+                        "id": "minecraft:emerald",
+                        "count": 9
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Sing",
+                    "costs": [
+                      {
+                        "id": "minecraft:gold_ingot",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Calm Mind",
+                    "costs": [
+                      {
+                        "id": "pixelmon:silicon",
+                        "count": 10
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Phantom Force",
+                    "costs": [
+                      {
+                        "id": "minecraft:emerald",
+                        "count": 14
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Heal Order",
+                    "costs": [
+                      {
+                        "id": "minecraft:emerald",
+                        "count": 5
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Electric Terrain",
+                    "costs": [
+                      {
+                        "id": "minecraft:emerald",
+                        "count": 1
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "High Jump Kick",
+                    "costs": [
+                      {
+                        "id": "minecraft:amethyst_shard",
+                        "count": 10
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Razor Leaf",
+                    "costs": [
+                      {
+                        "id": "pixelmon:aluminum_ingot",
+                        "count": 11
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Acid Armor",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 2
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Clamp",
+                    "costs": [
+                      {
+                        "id": "pixelmon:ruby",
+                        "count": 3
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Double Team",
+                    "costs": [
+                      {
+                        "id": "pixelmon:sapphire",
+                        "count": 11
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Spite",
+                    "costs": [
+                      {
+                        "id": "minecraft:diamond",
+                        "count": 9
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Mud Bomb",
+                    "costs": [
+                      {
+                        "id": "minecraft:emerald",
+                        "count": 5
+                      }
+                    ],
+                    "learnable": true
+                  },
+                  {
+                    "attack": "Brick Break",
+                    "costs": [
+                      {
+                        "id": "minecraft:amethyst_shard",
+                        "count": 13
+                      }
+                    ],
+                    "learnable": true
+                  }
+                ],
+                "type": "pixelmon:tutor_move"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        }
+      ]
+    },
+    "type": "pixelmon:constant"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Transfer Tutor"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "value": {
+      "slim": false,
+      "texture": {
+        "resource": {
+          "resource": "pixelmon:textures/steve/npcchat1.png",
+          "fallback": "pixelmon:textures/steve/npcchat1.png"
+        },
+        "type": "pixelmon:fallback"
+      },
+      "type": "pixelmon:player"
+    },
+    "type": "pixelmon:constant"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5.0,
+      "swim": false
+    }
+  }
+}

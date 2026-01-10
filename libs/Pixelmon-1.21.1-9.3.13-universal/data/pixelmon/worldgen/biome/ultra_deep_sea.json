@@ -1,0 +1,70 @@
+{
+  "temperature": 0.2,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 35,
+    "fog_color": 35,
+    "water_color": 35,
+    "water_fog_color": 35,
+    "grass_color": 35,
+    "foliage_color": 35,
+    "grass_color_modifier": "none",
+    "music": {
+      "sound": "pixelmon:pixelmon.music.ultraspace",
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": true
+    },
+    "music_volume": 1
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "feature": "pixelmon:deep_sea_kelp",
+        "placement": [
+          {
+            "type": "minecraft:biome"
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          }
+        ]
+      },
+      {
+        "feature": "pixelmon:deep_sea_spike",
+        "placement": [
+          {
+            "type": "minecraft:biome"
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "OCEAN_FLOOR_WG"
+          }
+        ]
+      }
+    ]
+  ]
+}

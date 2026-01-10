@@ -1,0 +1,41 @@
+{
+  "id": "Wiglett",
+  "spawnInfos": [
+    {
+      "spec": "species:Wiglett",
+      "stringLocationTypes": [
+        "Land",
+        "Seafloor"
+      ],
+      "minLevel": 10,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "minecraft:ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:warm_ocean"
+        ]
+      },
+      "rarity": 150.0
+    },
+	{
+      "spec": "species:Wiglett",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 10,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+		  "biomeswevegone:lush_stacks"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}
+
+

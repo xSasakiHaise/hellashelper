@@ -1,0 +1,67 @@
+{
+  "rewards": {
+    "recipes": [
+      "tcg:compendium_1",
+      "tcg:compendium_3"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tcg:compendium_1"
+      }
+    },
+    "has_the_recipe3": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tcg:compendium_3"
+      }
+    },
+    "has_paper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ]
+          }
+        ]
+      }
+    },
+    "has_up_grade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:up_grade"
+            ]
+          }
+        ]
+      }
+    },
+    "has_dubious_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:dubious_disc"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe1",
+      "has_the_recipe3",
+      "has_paper",
+      "has_up_grade",
+      "has_dubious_disc"
+    ]
+  ]
+}

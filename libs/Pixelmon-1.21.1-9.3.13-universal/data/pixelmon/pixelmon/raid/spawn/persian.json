@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Persian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/persian-3-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Persian form:alolan",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/persian-alolan-3-4",
+      "weight": 1.0
+    }
+  ]
+}

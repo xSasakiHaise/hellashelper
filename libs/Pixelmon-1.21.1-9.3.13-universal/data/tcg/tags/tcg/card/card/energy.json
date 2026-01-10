@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#tcg:types/energy/base1",
+    "#tcg:types/energy/base4",
+    "#tcg:types/energy/base5",
+    "#tcg:types/energy/gym1",
+    "#tcg:types/energy/gym2"
+  ],
+  "tag": "tcg:energy"
+}

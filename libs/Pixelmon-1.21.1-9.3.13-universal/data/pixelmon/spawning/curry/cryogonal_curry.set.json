@@ -1,0 +1,26 @@
+{
+  "id": "Cryogonal Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Cryogonal",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

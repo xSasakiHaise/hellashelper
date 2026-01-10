@@ -1,0 +1,151 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "heavy_ball"
+              },
+              "conditions": []
+            }
+          ]  
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "lure_ball"
+              },
+              "conditions": []
+            }
+          ]   
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "friend_ball"
+              },
+              "conditions": []
+            }
+          ]    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid" ,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "love_ball"
+              },
+              "conditions": []
+            }
+          ]     
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "level_ball"
+              },
+              "conditions": []
+            }
+          ]      
+        },
+		    {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "fast_ball"
+              },
+              "conditions": []
+            }
+          ]      
+        },
+		    {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "moon_ball"
+              },
+              "conditions": []
+            }
+          ]      
+        },
+		    {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "dive_ball"
+              },
+              "conditions": []
+            }
+          ]     
+        },
+		    {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "net_ball"
+              },
+              "conditions": []
+            }
+          ]     
+        }
+      ]
+    }
+  ]
+}
+

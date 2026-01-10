@@ -1,0 +1,37 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 149,
+  "previous_pokemon_id": 148,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "ability": {
+    "name": "ability.tero5.name",
+    "description": "ability.tero5.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:summon_minions"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO5.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 70,
+      "text": "attack.TERO5.1.text",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

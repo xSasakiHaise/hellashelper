@@ -1,0 +1,45 @@
+{
+  "id": "Spinarak Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Spinarak",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/evil",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Ariados",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/evil",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

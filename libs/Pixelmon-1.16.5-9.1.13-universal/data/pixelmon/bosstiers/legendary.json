@@ -1,0 +1,239 @@
+{
+  "id": "legendary",
+  "name": "enum.trainerBoss.legendary",
+  "canRandomlySpawn": true,
+  "weight": 10,
+  "color": {
+    "r": 255, "g": 162, "b": 0, "a": 255
+  },
+  "modelScaleFactor": 2,
+  "isMega": true,
+  "megaStoneObtainChance": 1,
+  "megaStoneRepeatChance": 0.05,
+  "alwaysPalette": "shiny",
+  "levelMultiplier": 1,
+  "extraLevels": 40,
+  "dropSets": [
+    {
+      "chance": 1,
+      "quantity": 1,
+      "drops": [
+        {
+          "weight": 10,
+          "name": "",
+          "item": "pixelmon:l_exp_candy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 7,
+          "name": "",
+          "item": "pixelmon:xl_exp_candy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 7,
+          "name": "",
+          "item": "pixelmon:dynamax_candy",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 5,
+          "name": "",
+          "item": "pixelmon:rare_candy",
+          "commands": [],
+          "ephemeral": false
+        }
+      ]
+    },
+    {
+      "chance": 1,
+      "quantity": 1,
+      "drops": [
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:draco_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:dread_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:earth_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:fist_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:flame_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:icicle_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:insect_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:iron_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:meadow_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:mind_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:pixie_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:sky_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:splash_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:spooky_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:stone_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:toxic_plate",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:zap_plate",
+          "commands": [],
+          "ephemeral": false
+		},
+		{
+			"weight": 1,
+			"name": "",
+			"item": "pixelmon:blank_plate",
+			"commands": [],
+			"ephemeral": false
+		}
+      ]
+    },
+    {
+      "chance": 0.25,
+      "quantity": 1,
+      "drops": [
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:super_rod",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "minecraft:nether_star",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:silver_bottle_cap",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:copper_hourglass",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:lens_silver",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "{id:\"pixelmon:poke_ball\",Count:1,tag:{PokeBallID:\"master_ball\"}}",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:exp_share",
+          "commands": [],
+          "ephemeral": false
+        }
+      ]
+    }
+  ]
+}

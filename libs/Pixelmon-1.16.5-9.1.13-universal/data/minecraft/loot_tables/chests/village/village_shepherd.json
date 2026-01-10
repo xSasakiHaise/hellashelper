@@ -1,0 +1,312 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 8.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:white_wool"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:black_wool"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:gray_wool"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:brown_wool"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:light_gray_wool"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shears"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 6.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:wheat"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "pixelmon:moomoo_milk"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "pixelmon:normal_gem"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:curry_cheese",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:silk_scarf",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:fluffy_tail",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:destiny_knot",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:choice_scarf",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 30
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:white_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:orange_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:magenta_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:light_blue_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:yellow_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:lime_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:pink_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:gray_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:light_gray_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:cyan_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:purple_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:blue_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:brown_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:green_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:red_poke_bag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:black_poke_bag"
+                },
+                {
+                    "type": "empty",
+                    "weight": 184
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:white_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:orange_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:magenta_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:light_blue_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:yellow_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:lime_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:pink_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:gray_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:light_gray_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:cyan_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:purple_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:blue_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:brown_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:green_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:red_rug"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pixelmon:black_rug"
+                },
+                {
+                    "type": "empty",
+                    "weight": 144
+                }
+            ]
+        }
+    ]
+}

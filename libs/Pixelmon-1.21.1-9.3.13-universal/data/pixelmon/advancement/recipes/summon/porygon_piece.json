@@ -1,0 +1,48 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:summon/porygon_piece"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:summon/porygon_piece"
+      }
+    },
+    "has_all_porygon_pieces": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:porygon_leg"
+            ]
+          },
+          {
+            "items": [
+              "pixelmon:porygon_tail"
+            ]
+          },
+          {
+            "items": [
+              "pixelmon:porygon_body"
+            ]
+          },
+          {
+            "items": [
+              "pixelmon:porygon_head"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_all_porygon_pieces"
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/vending_machine",
+  "textures": {
+    "particle": "pixelmon:block/vending_machine/light_gray",
+    "main": "pixelmon:block/vending_machine/light_gray"
+  }
+}

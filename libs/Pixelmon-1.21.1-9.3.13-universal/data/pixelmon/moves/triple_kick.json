@@ -1,0 +1,41 @@
+{
+  "attackIndex": 195,
+  "attackName": "Triple Kick",
+  "attackType": "FIGHTING",
+  "attackCategory": "PHYSICAL",
+  "basePower": 10,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": 90,
+  "makesContact": true,
+  "effects": [
+    {
+      "maxHits": 3,
+      "powerChange": 10,
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "CheckedStrikes"
+    }
+  ],
+  "animations": [
+    "leapForward"
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": false
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:fightinium_z",
+      "attackName": "All-Out Pummeling",
+      "basePower": 120,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

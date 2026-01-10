@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Sliggoo",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/sliggoo-4-4",
+      "weight": 1.0
+    },
+    {
+      "spec": "Sliggoo form:hisuian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 4
+      },
+      "biomes": "#pixelmon:raid/spawn/sliggoo-hisuian-4-4",
+      "weight": 1.0
+    }
+  ]
+}

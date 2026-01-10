@@ -1,0 +1,5 @@
+$body comfey.bmd
+$anim walk walk.bmd
+$anim idle idle.bmd
+$anim special special.bmd
+$scale 0.9

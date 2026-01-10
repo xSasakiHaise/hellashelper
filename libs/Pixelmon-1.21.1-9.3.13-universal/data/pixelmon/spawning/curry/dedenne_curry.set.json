@@ -1,0 +1,20 @@
+{
+  "id": "Dedenne Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Dedenne",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 12,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

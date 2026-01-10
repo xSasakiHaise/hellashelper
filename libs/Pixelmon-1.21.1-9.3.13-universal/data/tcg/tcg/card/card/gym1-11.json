@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.gym1-11.description",
+  "attacks": [
+    {
+      "name": "attack.gym1-11.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.gym1-11.0.description",
+      "effects": []
+    },
+    {
+      "name": "attack.gym1-11.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 50,
+      "text": "attack.gym1-11.1.description",
+      "effects": []
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "FIGHTING",
+  "pokemon_id": 107,
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

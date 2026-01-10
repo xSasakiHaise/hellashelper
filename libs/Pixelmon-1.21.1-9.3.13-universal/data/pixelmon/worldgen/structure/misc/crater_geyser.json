@@ -1,0 +1,9 @@
+{
+  "type": "pixelmon:crater_geyser",
+  "biomes": "pixelmon:ultra_crater",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "height": 50,
+  "depth": 40
+}

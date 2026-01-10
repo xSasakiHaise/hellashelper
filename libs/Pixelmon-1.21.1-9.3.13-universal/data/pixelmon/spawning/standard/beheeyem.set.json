@@ -1,0 +1,56 @@
+{
+  "id": "Beheeyem",
+  "spawnInfos": [
+    {
+      "spec": "species:Beheeyem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 43,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Beheeyem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 43,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens",
+          "nullscape:void_barrens"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Beheeyem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 43,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 25.0
+    }
+  ]
+}

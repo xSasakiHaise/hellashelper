@@ -1,0 +1,27 @@
+{
+  "id": "Lotad Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Lotad",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 3,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mental_herb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixelmon:yellow_berry_wood_planks"
+    }
+  },
+  "result": {
+    "id": "pixelmon:yellow_berry_wood_stairs",
+    "count": 4
+  }
+}

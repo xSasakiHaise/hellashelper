@@ -1,0 +1,20 @@
+{
+  "name": "safari_ball",
+  "model": "pixelmon:models/pokeballs/base.pqc",
+  "texture": "pixelmon:textures/pokeballs/safari_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/safari_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/safari_ball",
+  "lidSprite": "pixelmon:item/pokeballs/safari_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/safari_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.SafariBall",
+  "bases": [
+    "aluminum",
+    "iron"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0.20,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"face": "pixelmon:block/pillar_face",
+		"pillar": "pixelmon:block/pillar",
+		"particle": "#pillar"
+	},
+	"elements": [
+		{
+			"name": "cap_bottom",
+			"from": [0, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [12, 0, 15, 16], "rotation": 90, "texture": "#pillar", "cullface": "north"},
+				"east": {"uv": [12, 0, 15, 16], "rotation": 90, "texture": "#pillar", "cullface": "east"},
+				"south": {"uv": [12, 0, 15, 16], "rotation": 90, "texture": "#pillar", "cullface": "south"},
+				"west": {"uv": [12, 0, 15, 16], "rotation": 90, "texture": "#pillar", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#face"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#face", "cullface": "down"}
+			}
+		}
+	]
+}

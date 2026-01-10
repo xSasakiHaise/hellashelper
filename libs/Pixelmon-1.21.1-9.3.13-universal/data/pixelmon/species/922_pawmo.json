@@ -1,0 +1,478 @@
+{
+  "name": "Pawmo",
+  "dex": 922,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.65,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Arm Thrust",
+              "Growl",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Nuzzle"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Entrainment"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Wild Charge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Fake Out",
+          "Mach Punch",
+          "Sweet Kiss",
+          "Wish"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Agility",
+          "Protect",
+          "Thunder Fang",
+          "Low Kick",
+          "Thief",
+          "Charge Beam",
+          "Facade",
+          "Metal Claw",
+          "Swift",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Volt Switch",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Thunder Punch",
+          "Sleep Talk",
+          "Electro Ball",
+          "Thunder Wave",
+          "Rest",
+          "Eerie Impulse",
+          "Substitute",
+          "Crunch",
+          "Encore",
+          "Thunderbolt",
+          "Play Rough",
+          "Helping Hand",
+          "Baton Pass",
+          "Electric Terrain",
+          "Wild Charge",
+          "Thunder",
+          "Tera Blast",
+          "Charge",
+          "Knock Off",
+          "Super Fang",
+          "Focus Punch",
+          "Electroweb",
+          "Coaching",
+          "Upper Hand"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "VoltAbsorb",
+          "NaturalCure"
+        ],
+        "hiddenAbilities": [
+          "IronFist"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 40,
+        "specialAttack": 50,
+        "specialDefense": 40,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 123,
+        "baseFriendship": 50,
+        "spawnLevel": 18,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/922_pawmo/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.pawmo",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/922_pawmo/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/922_pawmo/all/base/none/pawmo.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/922_pawmo/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/922_pawmo/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 0.48
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/922_pawmo/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/922_pawmo/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/922_pawmo/all/base/none/pawmo.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/922_pawmo/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/922_pawmo/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 0.48
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "christmas",
+              "sprite": "pixelmon:pokemon/922_pawmo/all/base/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/922_pawmo/all/base/none/texture.png",
+                      "attachments": [
+                        {
+                          "attachment_point": "Hat",
+                          "model": {
+                            "model": "pixelmon:hat/hat.bmd",
+                            "texture": "pixelmon:hat/texture.png",
+                            "scale": 1.2,
+                            "offsets": [
+                              0.0,
+                              -0.8,
+                              -0.5
+                            ],
+                            "animations": [
+                              {
+                                "type": "idle",
+                                "animation": "pixelmon:hat/idle.bmd"
+                              },
+                              {
+                                "type": "walk",
+                                "animation": "pixelmon:hat/walk.bmd"
+                              },
+                              {
+                                "type": "fly",
+                                "animation": "pixelmon:hat/fly.bmd"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "model": "pixelmon:pokemon/922_pawmo/all/base/none/pawmo.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/922_pawmo/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/922_pawmo/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 0.48
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "elf",
+              "sprite": "pixelmon:pokemon/922_pawmo/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/922_pawmo/all/base/shiny/texture.png",
+                      "attachments": [
+                        {
+                          "attachment_point": "Hat",
+                          "model": {
+                            "model": "pixelmon:hat/hat.bmd",
+                            "texture": "pixelmon:hat/shiny_texture.png",
+                            "scale": 1.2,
+                            "offsets": [
+                              0.0,
+                              -0.8,
+                              -0.5
+                            ],
+                            "animations": [
+                              {
+                                "type": "idle",
+                                "animation": "pixelmon:hat/idle.bmd"
+                              },
+                              {
+                                "type": "walk",
+                                "animation": "pixelmon:hat/walk.bmd"
+                              },
+                              {
+                                "type": "fly",
+                                "animation": "pixelmon:hat/fly.bmd"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "model": "pixelmon:pokemon/922_pawmo/all/base/none/pawmo.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/922_pawmo/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/922_pawmo/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 0.48
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ELECTRIC",
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Pawmi"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 6.5,
+      "catchRate": 80,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Pawmot",
+          "conditions": [
+            {
+              "blocksToWalk": 1000,
+              "evoConditionType": "blocksWalkedOutsideBall"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Revival Blessing"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      },
+      "growth_data": {
+        "mean": 65.0,
+        "standard_deviation": 3.25,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 9
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gym_sign",
+  "pattern": [
+    " P ",
+    "PDP"
+  ],
+  "key": {
+    "P": {
+      "item": "pixelmon:aluminum_ingot"
+    },
+    "D": {
+      "tag": "c:dyes/lime"
+    }
+  },
+  "result": {
+    "id": "pixelmon:lime_gym_sign",
+    "count": 1
+  }
+}

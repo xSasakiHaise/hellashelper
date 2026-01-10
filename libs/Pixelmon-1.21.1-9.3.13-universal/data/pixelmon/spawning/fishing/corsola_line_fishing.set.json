@@ -1,0 +1,90 @@
+{
+  "id": "Corsola Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Corsola",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 18,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:luminous_moss",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "byg:coral_mangroves",
+          "#pixelmon:spawning/beaches",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 9.0
+    },
+    {
+      "spec": "species:Corsola form:galarian",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 18,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:float_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 9.0
+    },
+    {
+      "spec": "species:Cursola",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 34,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:float_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

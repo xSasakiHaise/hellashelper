@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "detection_logic": "simple",
+  "replaced_mobs": [
+    "minecraft:zombified_piglin"
+  ],
+  "replacement_logic": "simple",
+  "specs": [
+    "tepig",
+    "pignite",
+    "emboar"
+  ]
+}

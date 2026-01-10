@@ -1,0 +1,40 @@
+{
+  "id": "Frigibax",
+  "spawnInfos": [
+    {
+      "spec": "species:Frigibax",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/freezing_mountains"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Frigibax",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 15,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ],
+        "minY": 70
+      },
+      "rarity": 50.0
+    }
+  ]
+}

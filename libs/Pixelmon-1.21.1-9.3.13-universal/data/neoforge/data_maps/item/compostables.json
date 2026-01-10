@@ -1,0 +1,69 @@
+{
+  "values": {
+    "#minecraft:leaves": {
+      "replace": true,
+      "chance": 0.3,
+      "can_villager_compost": true
+    },
+    "#pixelmon:berries": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "#pixelmon:apricorns": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "pixelmon:ultra_deep_sea_pickle": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "pixelmon:ultra_ginkgo_sapling": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "pixelmon:ultra_elm_sapling": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "pixelmon:ultra_jungle_sapling": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "pixelmon:ultra_deep_seagrass": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "pixelmon:ultra_forest_fallen_leaves": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "pixelmon:ultra_forest_flower": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "pixelmon:ultra_desert_cactus": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "pixelmon:ultra_deep_kelp": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    },
+    "pixelmon:gracidea": {
+      "replace": true,
+      "chance": 0.65,
+      "can_villager_compost": true
+    }
+  }
+}

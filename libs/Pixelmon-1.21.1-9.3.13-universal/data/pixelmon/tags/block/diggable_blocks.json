@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:clay",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:grass_block",
+    "minecraft:gravel",
+    "minecraft:mycelium",
+    "minecraft:red_sand",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:stone"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "OldFishermen",
+  "spawnInfos": [
+    {
+      "preset": "pixelmon:old_fisherman",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/rivers"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "water"
+            ]
+          }
+        },
+        {
+          "multiplier": 20,
+          "condition": {
+            "biomes": [
+              "#pixelmon:spawning/rivers"
+            ]
+          }
+        }
+      ],
+      "typeID": "npc",
+      "rarity": 5.0
+    }
+  ]
+}

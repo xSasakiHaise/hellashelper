@@ -1,0 +1,5 @@
+$body spidops.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$anim special dance.bmd
+$scale 0.11

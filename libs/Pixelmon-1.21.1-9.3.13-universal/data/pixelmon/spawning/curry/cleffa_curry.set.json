@@ -1,0 +1,26 @@
+{
+  "id": "Cleffa Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Cleffa",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

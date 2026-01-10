@@ -1,0 +1,19 @@
+{
+  "name": "luxury_ball",
+  "model": "pixelmon:models/pokeballs/base.pqc",
+  "texture": "pixelmon:textures/pokeballs/luxury_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/luxury_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/luxury_ball",
+  "lidSprite": "pixelmon:item/pokeballs/luxury_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/luxury_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.LuxuryBall",
+  "bases": [
+    "platinum"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0.15,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

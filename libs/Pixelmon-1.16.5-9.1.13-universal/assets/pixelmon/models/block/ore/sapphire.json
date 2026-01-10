@@ -1,0 +1,8 @@
+{
+  "__comment__": "this file was automatically created by mcresources",
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "pixelmon:block/ore/sapphire",
+    "all": "pixelmon:block/ore/sapphire"
+  }
+}

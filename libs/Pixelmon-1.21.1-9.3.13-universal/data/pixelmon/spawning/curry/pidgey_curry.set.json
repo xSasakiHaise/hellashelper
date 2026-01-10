@@ -1,0 +1,22 @@
+{
+  "id": "Pidgey Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pidgey",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

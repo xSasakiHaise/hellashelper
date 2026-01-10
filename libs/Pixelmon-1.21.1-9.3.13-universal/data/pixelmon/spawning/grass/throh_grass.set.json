@@ -1,0 +1,29 @@
+{
+  "id": "Throh Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Throh",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 34,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_belt",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "minecraft:windswept_savanna"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

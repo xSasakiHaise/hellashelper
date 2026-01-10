@@ -1,0 +1,316 @@
+{
+  "name": "RoaringMoon",
+  "dex": 1005,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 3.0,
+        "length": 3.0,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Dragon Breath",
+              "Focus Energy",
+              "Leer"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Fly"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Breaking Swipe",
+          "Jaw Lock",
+          "Scale Shot",
+          "Sunny Day"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Acrobatics",
+          "Fire Spin",
+          "Facade",
+          "Aerial Ace",
+          "Snarl",
+          "Metal Claw",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Dig",
+          "Brick Break",
+          "Zen Headbutt",
+          "U-turn",
+          "Shadow Claw",
+          "Air Slash",
+          "Body Slam",
+          "Sleep Talk",
+          "Dragon Claw",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Body Press",
+          "Dark Pulse",
+          "Fly",
+          "Iron Head",
+          "Dragon Dance",
+          "Substitute",
+          "X-Scissor",
+          "Crunch",
+          "Tailwind",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Heat Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Hydro Pump",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Hurricane",
+          "Hyper Beam",
+          "Draco Meteor",
+          "Tera Blast",
+          "Roar",
+          "Knock Off",
+          "Lash Out",
+          "Scale Shot",
+          "Double-Edge",
+          "Throat Chop",
+          "Breaking Swipe"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Breaking Swipe",
+          "Jaw Lock",
+          "Scale Shot",
+          "Sunny Day"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Protosynthesis"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 20,
+          "flySpeedModifier": 0.8,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 4.5,
+          "deceleration_rate": 0.6,
+          "hover_deceleration_rate": 0,
+          "acceleration_rate": 0.2,
+          "strafe_acceleration_rate": 0.9,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 2,
+          "pitch_rate": 0.4,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 8,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 105,
+        "attack": 139,
+        "defense": 71,
+        "specialAttack": 55,
+        "specialDefense": 101,
+        "speed": 119
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 295,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1005_roaringmoon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/1005_roaringmoon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/1005_roaringmoon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.roaringmoon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1005_roaringmoon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1005_roaringmoon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "DRAGON",
+        "DARK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 380.0,
+      "catchRate": 10,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

@@ -1,0 +1,19 @@
+{
+  "name": "lure_ball",
+  "model": "pixelmon:models/pokeballs/base.pqc",
+  "texture": "pixelmon:textures/pokeballs/lure_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/lure_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/lure_ball",
+  "lidSprite": "pixelmon:item/pokeballs/lure_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/lure_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.LureBall",
+  "bases": [
+    "silver"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0.20,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

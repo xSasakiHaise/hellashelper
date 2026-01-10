@@ -1,0 +1,48 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "card.base2-30.description",
+  "attacks": [
+    {
+      "name": "attack.base2-30.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 0,
+      "text": "attack.base2-30.0.description",
+      "effects": [
+        {
+          "type": "tcg:acid"
+        }
+      ]
+    },
+    {
+      "name": "attack.base2-30.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 20,
+      "text": "attack.base2-30.1.description",
+      "effects": [
+        {
+          "type": "tcg:acid",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "GRASS",
+  "pokemon_id": 71,
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:rare"
+}

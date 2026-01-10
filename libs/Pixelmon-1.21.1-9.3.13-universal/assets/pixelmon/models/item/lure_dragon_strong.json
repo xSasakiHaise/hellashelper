@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer1": "pixelmon:item/lure_gold",
+    "layer0": "pixelmon:item/lure_back"
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+		      "item" : "pixelmon:pixelmon_sprite",
+		      "count": 1,
+		      "components": {
+		        "minecraft:custom_data": {
+		          "ndex": 143,
+		          "palette": "summer",
+		          "form": ""
+		        }
+		      }
+		},
+		"title": {
+			"translate": "advancements.summer.title"
+		},
+		"description": {
+			"translate": "advancements.summer.description"
+		},
+		"hidden": true
+	},
+    "parent" : "pixelmon:specs/spec_trigger",
+	"criteria": {
+		"summer_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "palette:summer"
+			}
+		}
+	}
+}

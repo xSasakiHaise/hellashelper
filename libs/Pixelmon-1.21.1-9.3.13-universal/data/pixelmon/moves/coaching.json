@@ -1,0 +1,50 @@
+{
+  "attackIndex": 721,
+  "attackName": "Coaching",
+  "attackType": "FIGHTING",
+  "attackCategory": "STATUS",
+  "basePower": 0,
+  "ppBase": 10,
+  "ppMax": 16,
+  "accuracy": -1,
+  "makesContact": false,
+  "effects": [
+    {
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "Coaching"
+    }
+  ],
+  "animations": [
+  ],
+  "flags": {
+    "authentic": true
+  },
+  "targetingInfo": {
+    "hitsAll": true,
+    "hitsOppositeFoe": false,
+    "hitsAdjacentFoe": false,
+    "hitsExtendedFoe": false,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": true
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:fightinium_z",
+      "attackName": "Z-Coaching",
+      "basePower": 0,
+      "effects": [
+        {
+          "type": "ATTACK",
+          "amount": 1,
+          "isUser": true,
+          "modifiers": [],
+          "persists": false,
+          "effectTypeID": "StatsEffect"
+        }
+      ],
+      "allowedPokemon": []
+    }
+  ]
+}

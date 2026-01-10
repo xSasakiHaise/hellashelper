@@ -1,0 +1,967 @@
+{
+  "name": "Necrozma",
+  "dex": 800,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 5.5,
+        "width": 2.4,
+        "length": 1,
+        "eyeHeight": 5.5,
+        "hoverHeight": 5.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Charge Beam",
+              "Confusion",
+              "Metal Claw",
+              "Moonlight",
+              "Morning Sun"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Psycho Cut"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Stored Power"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Photon Geyser"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Gravity"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Prismatic Laser"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Meteor Beam"
+        ],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Scary Face",
+          "Protect",
+          "Thief",
+          "Charge Beam",
+          "Facade",
+          "Aerial Ace",
+          "Bulldoze",
+          "Metal Claw",
+          "Swift",
+          "Rock Tomb",
+          "Stored Power",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Sandstorm",
+          "Smart Strike",
+          "Psyshock",
+          "Brick Break",
+          "Shadow Claw",
+          "Psychic Fangs",
+          "Body Slam",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Rock Blast",
+          "Rest",
+          "Rock Slide",
+          "Swords Dance",
+          "Imprison",
+          "Flash Cannon",
+          "Dark Pulse",
+          "Iron Head",
+          "Dragon Dance",
+          "Power Gem",
+          "Substitute",
+          "Iron Defense",
+          "X-Scissor",
+          "Dragon Pulse",
+          "Stealth Rock",
+          "Hyper Voice",
+          "Heat Wave",
+          "Psychic",
+          "Calm Mind",
+          "Earth Power",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Trick Room",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast",
+          "Gravity",
+          "Gyro Ball",
+          "Knock Off",
+          "Future Sight",
+          "Expanding Force",
+          "Meteor Beam"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Facade",
+          "Brick Break",
+          "Imprison",
+          "Rock Tomb",
+          "Rock Blast",
+          "Fling",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Trick Room",
+          "Round",
+          "Bulldoze",
+          "Smart Strike",
+          "Brutal Swing",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Outrage",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Future Sight",
+          "Heat Wave",
+          "Hyper Voice",
+          "Cosmic Power",
+          "Iron Defense",
+          "Calm Mind",
+          "Dragon Dance",
+          "Gyro Ball",
+          "Dark Pulse",
+          "X-Scissor",
+          "Dragon Pulse",
+          "Power Gem",
+          "Earth Power",
+          "Flash Cannon",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Stored Power",
+          "Ally Switch",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Double Team",
+          "Embargo",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Magnet Rise",
+          "Mirror Shot",
+          "Recycle",
+          "Return",
+          "Rock Polish",
+          "Shock Wave",
+          "Signal Beam",
+          "Swagger",
+          "Telekinesis",
+          "Toxic",
+          "Wring Out"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Embargo",
+          "Shadow Claw",
+          "Smart Strike",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PrismArmor"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.2
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 97,
+        "attack": 107,
+        "defense": 101,
+        "specialAttack": 127,
+        "specialDefense": 89,
+        "speed": 79
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 5,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.necrozma",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/800_necrozma/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/800_necrozma/all/base/none/necrozma-normal.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.31
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/800_necrozma/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/800_necrozma/all/base/none/necrozma-normal.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.31
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 230.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 2
+      },
+      "growth_data": {
+        "mean": 550.0,
+        "standard_deviation": 27.5,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "dusk",
+      "dimensions": {
+        "height": 2.6,
+        "width": 2.4,
+        "length": 2.4
+      },
+      "battleStats": {
+        "hp": 97,
+        "attack": 157,
+        "defense": 127,
+        "specialAttack": 113,
+        "specialDefense": 109,
+        "speed": 77
+      },
+      "spawn": {
+        "baseExp": 306,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 5,
+        "spawnLocations": []
+      },
+      "types": [
+        "PSYCHIC",
+        "STEEL"
+      ],
+      "weight": 460.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/dusk/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.necrozma.dusk",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dusk/none/texture.png",
+                      "model": "pixelmon:pokemon/800_necrozma/all/dusk/none/dusk.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dusk/none/idlebasic.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dusk/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.11
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dusk/none/texture.png",
+                      "texture_transparency": 0.6,
+                      "model": "pixelmon:pokemon/800_necrozma/all/dusk/none/visor.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dusk/none/idlebasic.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dusk/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.11
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/dusk/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dusk/shiny/texture.png",
+                      "model": "pixelmon:pokemon/800_necrozma/all/dusk/none/dusk.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dusk/none/idlebasic.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dusk/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.11
+                    },
+                    {
+                      "texture_transparency": 0.6,
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dusk/shiny/texture.png",
+                      "model": "pixelmon:pokemon/800_necrozma/all/dusk/none/visor.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dusk/none/idlebasic.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dusk/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.11
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 3
+      },
+      "growth_data": {
+        "mean": 260.0,
+        "standard_deviation": 13.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "dawn",
+      "dimensions": {
+        "height": 4.6,
+        "width": 2.8,
+        "length": 2.8
+      },
+      "battleStats": {
+        "hp": 97,
+        "attack": 113,
+        "defense": 109,
+        "specialAttack": 157,
+        "specialDefense": 127,
+        "speed": 77
+      },
+      "spawn": {
+        "baseExp": 306,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 5,
+        "spawnLocations": []
+      },
+      "types": [
+        "PSYCHIC",
+        "GHOST"
+      ],
+      "weight": 350.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/dawn/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.necrozma.dawn",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dawn/none/texture.png",
+                      "model": "pixelmon:pokemon/800_necrozma/all/dawn/none/necrozma-dawnwings.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/idle.bmd"
+                        },
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/walk.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dawn/none/texture.png",
+                      "texture_transparency": 0.6,
+                      "model": "pixelmon:pokemon/800_necrozma/all/dawn/none/necrozma-dawnwingsvisor.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/idle.bmd"
+                        },
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/walk.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/dawn/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dawn/shiny/texture.png",
+                      "model": "pixelmon:pokemon/800_necrozma/all/dawn/none/necrozma-dawnwings.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/idle.bmd"
+                        },
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/walk.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    },
+                    {
+                      "texture_transparency": 0.6,
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dawn/shiny/texture.png",
+                      "model": "pixelmon:pokemon/800_necrozma/all/dawn/none/necrozma-dawnwingsvisor.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/idle.bmd"
+                        },
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/walk.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/dawn/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 3
+      },
+      "growth_data": {
+        "mean": 459.99999999999994,
+        "standard_deviation": 23.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "ultra",
+      "tags": [
+        "temp",
+        "legendary"
+      ],
+      "dimensions": {
+        "height": 5.8,
+        "width": 2.8,
+        "length": 2.8
+      },
+      "abilities": {
+        "abilities": [
+          "Neuroforce"
+        ]
+      },
+      "battleStats": {
+        "hp": 97,
+        "attack": 167,
+        "defense": 97,
+        "specialAttack": 167,
+        "specialDefense": 97,
+        "speed": 129
+      },
+      "spawn": {
+        "baseExp": 339,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 5,
+        "spawnLocations": []
+      },
+      "types": [
+        "PSYCHIC",
+        "DRAGON"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/ultra/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/800_necrozma/all/ultra/none/texture.png",
+                      "model": "pixelmon:pokemon/800_necrozma/all/ultra/none/necrozma-ultra.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/ultra/none/idle.bmd"
+                        },
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/ultra/none/fly.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/ultra/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 15.0
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/ultra/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/800_necrozma/all/ultra/shiny/texture.png",
+                      "model": "pixelmon:pokemon/800_necrozma/all/ultra/none/necrozma-ultra.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/ultra/none/idle.bmd"
+                        },
+                        {
+                          "type": "fly",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/ultra/none/fly.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/800_necrozma/all/ultra/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 15.0
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1,
+        "speed": 1
+      },
+      "growth_data": {
+        "mean": 580.0,
+        "standard_deviation": 29.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 7
+}

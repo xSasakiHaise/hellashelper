@@ -1,0 +1,40 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 125,
+  "previous_pokemon_id": null,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMH27.1.name",
+      "costs": [
+        "LIGHTNING"
+      ],
+      "damage": 0,
+      "text": "attack.GYMH27.1.text",
+      "effects": [
+
+      ]
+    },
+    {
+      "name": "attack.GYMH27.2.name",
+      "costs": [
+        "LIGHTNING",
+        "LIGHTNING"
+      ],
+      "damage": 20,
+      "text": "attack.GYMH27.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "LIGHTNING"
+}

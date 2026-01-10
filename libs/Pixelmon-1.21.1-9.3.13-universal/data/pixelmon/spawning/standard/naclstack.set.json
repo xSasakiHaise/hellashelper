@@ -1,0 +1,56 @@
+{
+  "id": "Naclstack",
+  "spawnInfos": [
+    {
+      "spec": "species:Naclstack",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas",
+          "minecraft:stony_shore",
+		  "biomesoplenty:gravel_beach",
+          "biomesoplenty:wasteland",
+		  "biomesoplenty:wasteland_steppe",
+		  "biomeswevegone:dacite_shore",
+          "terralith:gravel_beach"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Naclstack",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_desert",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Naclstack",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 24,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64
+      },
+      "rarity": 50.0
+    }
+  ]
+}

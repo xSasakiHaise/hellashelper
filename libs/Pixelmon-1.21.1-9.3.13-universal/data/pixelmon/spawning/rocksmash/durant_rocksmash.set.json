@@ -1,0 +1,23 @@
+{
+  "id": "Durant Rocksmash",
+  "spawnInfos": [
+    {
+      "spec": "species:Durant",
+      "stringLocationTypes": [
+        "Rock Smash"
+      ],
+      "minLevel": 1,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

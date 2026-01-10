@@ -1,0 +1,104 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle",
+    {
+      "required": false,
+      "id": "biomesoplenty:rainforest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:rocky_rainforest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:floodplain"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:fungal_jungle"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:tropics"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_canyon"
+    },
+    {
+      "required": false,
+      "id": "terralith:amethyst_rainforest"
+    },
+    {
+      "required": false,
+      "id": "terralith:jungle_mountains"
+    },
+    {
+      "required": false,
+      "id": "terralith:rocky_jungle"
+    },
+    {
+      "required": false,
+      "id": "terralith:skylands_summer"
+    },
+    {
+      "required": false,
+      "id": "terralith:tropical_jungle"
+    },
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+      "required": false,
+      "id": "biomesoplenty:redwood_forest"
+    },
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+      "required": false,
+      "id": "biomesoplenty:coniferous_forest"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:fir_clearing"
+    },
+    {
+      "required": false,
+      "id": "biomesoplenty:forested_field"
+    },
+    {
+      "required": false,
+      "id": "terralith:cloud_forest"
+    },
+    {
+      "required": false,
+      "id": "terralith:forested_highlands"
+    },
+    {
+      "required": false,
+      "id": "terralith:shield"
+    },
+    {
+      "required": false,
+      "id": "terralith:shield_clearing"
+    },
+    {
+      "required": false,
+      "id": "terralith:siberian_taiga"
+    },
+    {
+      "required": false,
+      "id": "terralith:skylands_summer"
+    },
+    {
+      "required": false,
+      "id": "terralith:yellowstone"
+    },
+    {
+      "required": false,
+      "id": "terralith:yosemite_lowlands"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixelmon:ultra_jungle_planks"
+    }
+  },
+  "result": {
+    "id": "pixelmon:ultra_jungle_slab",
+    "count": 6
+  }
+}

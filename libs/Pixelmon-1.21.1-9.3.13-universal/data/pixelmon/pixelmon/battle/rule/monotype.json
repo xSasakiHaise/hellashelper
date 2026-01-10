@@ -1,0 +1,13 @@
+{
+  "modifiers": [],
+  "requirements":  [
+    {
+      "requirement": {
+        "type": "pixelmon:monotype"
+      },
+      "reason": {
+        "translate": "gui.battlerules.description.monotype"
+      }
+    }
+  ]
+}

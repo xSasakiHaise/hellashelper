@@ -1,0 +1,24 @@
+{
+  "id": "Shelmet Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Shelmet",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "Eelektrik",
+  "spawnInfos": [
+    {
+      "spec": "species:Eelektrik",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 40,
+      "maxLevel": 52,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
+        ],
+        "maxY": 40
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Eelektrik",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 40,
+      "maxLevel": 52,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "modifiers": [
+    {
+      "type": "pixelmon:context",
+      "key": "pixelmon:level_cap",
+      "value": 50
+    }
+  ],
+  "requirements":  []
+}

@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 125,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 2,
+  "rarity": "tcg:ultra_rare",
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.WBSP2.1.name",
+      "costs": [
+        "LIGHTNING"
+      ],
+      "damage": 0,
+      "text": "attack.WBSP2.1.text",
+      "effects": [
+        {
+          "type": "tcg:reduce_damage",
+          "amount": -1,
+          "benching_removes": false
+        }
+      ]
+    },
+    {
+      "name": "attack.WBSP2.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.WBSP2.2.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "coin_side": "HEAD",
+          "self": false,
+          "location": "ACTIVE",
+          "count": 1,
+          "amount": 20
+        }
+      ]
+    }
+  ],
+  "energies": "LIGHTNING"
+}

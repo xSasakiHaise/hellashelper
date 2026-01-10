@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "C C",
+    "S S"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:gems/crystal"
+    },
+    "S": {
+      "tag": "c:gems/silicon"
+    }
+  },
+  "result": {
+    "id": "pixelmon:neo_plasma_leggings",
+    "count": 1
+  }
+}

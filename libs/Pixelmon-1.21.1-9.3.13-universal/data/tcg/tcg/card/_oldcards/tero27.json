@@ -1,0 +1,31 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "",
+  "pokemon_id": 68,
+  "previous_pokemon_id": 67,
+  "retreat_cost": 3,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO27.2.name",
+      "costs": [
+        "FIGHTING",
+        "FIGHTING",
+        "FIGHTING",
+        "COLORLESS"
+      ],
+      "damage": 0,
+      "text": "attack.TERO27.2.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIGHTING"
+}

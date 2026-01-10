@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:white_healer",
+    "pixelmon:orange_healer",
+    "pixelmon:magenta_healer",
+    "pixelmon:light_blue_healer",
+    "pixelmon:yellow_healer",
+    "pixelmon:lime_healer",
+    "pixelmon:pink_healer",
+    "pixelmon:gray_healer",
+    "pixelmon:light_gray_healer",
+    "pixelmon:cyan_healer",
+    "pixelmon:purple_healer",
+    "pixelmon:blue_healer",
+    "pixelmon:brown_healer",
+    "pixelmon:green_healer",
+    "pixelmon:red_healer",
+    "pixelmon:black_healer"
+  ]
+}

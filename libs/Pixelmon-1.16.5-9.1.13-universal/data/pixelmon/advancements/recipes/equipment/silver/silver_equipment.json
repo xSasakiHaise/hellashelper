@@ -1,0 +1,35 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:equipment/silver/silver_axe",
+      "pixelmon:equipment/silver/silver_block",
+      "pixelmon:equipment/silver/silver_boots",
+      "pixelmon:equipment/silver/silver_chestplate",
+      "pixelmon:equipment/silver/silver_from_block",
+      "pixelmon:equipment/silver/silver_hammer",
+      "pixelmon:equipment/silver/silver_helmet",
+      "pixelmon:equipment/silver/silver_hoe",
+      "pixelmon:equipment/silver/silver_leggings",
+      "pixelmon:equipment/silver/silver_pickaxe",
+      "pixelmon:equipment/silver/silver_shovel",
+      "pixelmon:equipment/silver/silver_sword"
+    ]
+  },
+  "criteria": {
+    "has_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/silver"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silver"
+    ]
+  ]
+}

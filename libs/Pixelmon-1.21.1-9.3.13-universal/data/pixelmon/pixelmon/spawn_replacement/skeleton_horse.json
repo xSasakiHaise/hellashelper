@@ -1,0 +1,17 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:skeleton_horse"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "rapidash",
+      "ponyta",
+      "mudsdale",
+      "mudbray"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "pixelmon:item/pixelmon_item",
+    "textures": {
+        "layer0": "pixelmon:items/itemfindernohit"
+    },
+    "overrides": [
+      { "predicate": { "pixelmon:direction": 1 }, "model": "pixelmon:item/item_finder_front" },
+      { "predicate": { "pixelmon:direction": 2 }, "model": "pixelmon:item/item_finder_back" },
+      { "predicate": { "pixelmon:direction": 3 }, "model": "pixelmon:item/item_finder_right" },
+      { "predicate": { "pixelmon:direction": 4 }, "model": "pixelmon:item/item_finder_left" }
+    ]
+}

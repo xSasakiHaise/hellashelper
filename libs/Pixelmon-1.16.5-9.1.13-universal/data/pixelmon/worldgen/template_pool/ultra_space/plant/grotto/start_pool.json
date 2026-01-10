@@ -1,0 +1,30 @@
+{
+  "name": "pixelmon:ultra_space/plant/grotto",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "pixelmon:ultra_space/grotto/plant/ultra_plant_grotto_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 4,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "pixelmon:ultra_space/grotto/plant/ultra_plant_grotto_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "pixelmon:moving",
+        "ground_level_delta": 5,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    }
+  ]
+}

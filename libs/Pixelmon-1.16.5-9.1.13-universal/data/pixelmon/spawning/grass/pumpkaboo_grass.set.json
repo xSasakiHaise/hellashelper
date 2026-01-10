@@ -1,0 +1,266 @@
+{
+  "id": "Pumpkaboo Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Pumpkaboo growth:microscopic",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:sunflower_plains",
+          "evil",
+          "biomesoplenty:seasonal_pumpkin_patch",
+          "byg:pumpkin_forest",
+          "byg:cika_woods",
+          "byg:cika_mountains"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Pumpkaboo growth:pygmy",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:sunflower_plains",
+          "evil",
+          "biomesoplenty:seasonal_pumpkin_patch",
+          "byg:pumpkin_forest",
+          "byg:cika_woods",
+          "byg:cika_mountains"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Pumpkaboo growth:runt",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:sunflower_plains",
+          "evil",
+          "biomesoplenty:seasonal_pumpkin_patch",
+          "byg:pumpkin_forest",
+          "byg:cika_woods",
+          "byg:cika_mountains"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Pumpkaboo growth:small",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:sunflower_plains",
+          "evil",
+          "biomesoplenty:seasonal_pumpkin_patch",
+          "byg:pumpkin_forest",
+          "byg:cika_woods",
+          "byg:cika_mountains"
+        ]
+      },
+      "rarity": 110.0
+    },
+    {
+      "spec": "species:Pumpkaboo growth:ordinary",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:sunflower_plains",
+          "evil",
+          "biomesoplenty:seasonal_pumpkin_patch",
+          "byg:pumpkin_forest",
+          "byg:cika_woods",
+          "byg:cika_mountains"
+        ]
+      },
+      "rarity": 110.0
+    },
+    {
+      "spec": "species:Pumpkaboo growth:huge",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:sunflower_plains",
+          "evil",
+          "biomesoplenty:seasonal_pumpkin_patch",
+          "byg:pumpkin_forest",
+          "byg:cika_woods",
+          "byg:cika_mountains"
+        ]
+      },
+      "rarity": 110.0
+    },
+    {
+      "spec": "species:Pumpkaboo growth:giant",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:sunflower_plains",
+          "evil",
+          "biomesoplenty:seasonal_pumpkin_patch",
+          "byg:pumpkin_forest",
+          "byg:cika_woods",
+          "byg:cika_mountains"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Pumpkaboo growth:enormous",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:sunflower_plains",
+          "evil",
+          "biomesoplenty:seasonal_pumpkin_patch",
+          "byg:pumpkin_forest",
+          "byg:cika_woods",
+          "byg:cika_mountains"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Pumpkaboo growth:ginormous",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:sunflower_plains",
+          "evil",
+          "biomesoplenty:seasonal_pumpkin_patch",
+          "byg:pumpkin_forest",
+          "byg:cika_woods",
+          "byg:cika_mountains"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

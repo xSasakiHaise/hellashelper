@@ -1,0 +1,35 @@
+{
+  "id": "Tauros Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Tauros",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 15.0
+    },
+    {
+      "spec": "species:Tauros form:paldean_combat",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

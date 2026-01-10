@@ -1,0 +1,17 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:turtle"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "tirtouga",
+      "squirtle",
+      "chewtle",
+      "drednaw"
+    ]
+  }
+}

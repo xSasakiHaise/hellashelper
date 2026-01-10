@@ -1,0 +1,29 @@
+{
+  "special": false,
+  "hp": 40,
+  "description": "",
+  "pokemon_id": 41,
+  "previous_pokemon_id": null,
+  "retreat_cost": 0,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.GYMC83.1.name",
+      "costs": [
+        "GRASS",
+        "COLORLESS"
+      ],
+      "damage": 10,
+      "text": "attack.GYMC83.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

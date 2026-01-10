@@ -1,0 +1,694 @@
+{
+  "name": "Flabebe",
+  "dex": 669,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.25,
+        "width": 0.2,
+        "length": 1,
+        "eyeHeight": 0.25,
+        "hoverHeight": 0.25
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Fairy Wind"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Wish"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Grassy Terrain"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Petal Blizzard"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Misty Terrain"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Petal Dance"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Solar Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Ally Switch",
+          "Covet",
+          "Endeavor",
+          "Giga Drain",
+          "Heal Bell",
+          "Helping Hand",
+          "Magic Coat",
+          "Seed Bomb",
+          "Snore",
+          "Synthesis",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Copycat",
+          "Endeavor",
+          "Tearful Look"
+        ],
+        "tmMoves9": [
+          "Charm",
+          "Protect",
+          "Disarming Voice",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Swift",
+          "Magical Leaf",
+          "Draining Kiss",
+          "Stored Power",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Grass Knot",
+          "Rest",
+          "Substitute",
+          "Giga Drain",
+          "Energy Ball",
+          "Psychic",
+          "Calm Mind",
+          "Helping Hand",
+          "Pollen Puff",
+          "Baton Pass",
+          "Grassy Terrain",
+          "Misty Terrain",
+          "Solar Beam",
+          "Tera Blast",
+          "Endeavor",
+          "Petal Blizzard",
+          "Alluring Voice"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aromatherapy",
+          "Camouflage",
+          "Captivate",
+          "Copycat",
+          "Endeavor",
+          "Flash",
+          "Lucky Chant",
+          "Secret Power",
+          "Tearful Look"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Flash",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlowerVeil"
+        ],
+        "hiddenAbilities": [
+          "Symbiosis"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 44,
+        "attack": 38,
+        "defense": 39,
+        "specialAttack": 61,
+        "specialDefense": 79,
+        "speed": 42
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 0,
+        "spawnLevel": 6,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "red",
+              "sprite": "pixelmon:pokemon/669_flabebe/all/base/red/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.flabebe",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/669_flabebe/all/base/red/texture.png",
+                      "model": "pixelmon:pokemon/669_flabebe/all/base/red/flabebe.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "redshiny",
+              "sprite": "pixelmon:pokemon/669_flabebe/all/base/redshiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/669_flabebe/all/base/redshiny/texture.png",
+                      "model": "pixelmon:pokemon/669_flabebe/all/base/red/flabebe.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "blue",
+              "sprite": "pixelmon:pokemon/669_flabebe/all/base/blue/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/669_flabebe/all/base/blue/texture.png",
+                      "model": "pixelmon:pokemon/669_flabebe/all/base/red/flabebe.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "blueshiny",
+              "sprite": "pixelmon:pokemon/669_flabebe/all/base/blueshiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/669_flabebe/all/base/blueshiny/texture.png",
+                      "model": "pixelmon:pokemon/669_flabebe/all/base/red/flabebe.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "yellow",
+              "sprite": "pixelmon:pokemon/669_flabebe/all/base/yellow/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/669_flabebe/all/base/yellow/texture.png",
+                      "model": "pixelmon:pokemon/669_flabebe/all/base/red/flabebe.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "yellowshiny",
+              "sprite": "pixelmon:pokemon/669_flabebe/all/base/yellowshiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/669_flabebe/all/base/yellowshiny/texture.png",
+                      "model": "pixelmon:pokemon/669_flabebe/all/base/red/flabebe.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "orange",
+              "sprite": "pixelmon:pokemon/669_flabebe/all/base/orange/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/669_flabebe/all/base/orange/texture.png",
+                      "model": "pixelmon:pokemon/669_flabebe/all/base/red/flabebe.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "orangeshiny",
+              "sprite": "pixelmon:pokemon/669_flabebe/all/base/orangeshiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/669_flabebe/all/base/orangeshiny/texture.png",
+                      "model": "pixelmon:pokemon/669_flabebe/all/base/red/flabebe.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "white",
+              "sprite": "pixelmon:pokemon/669_flabebe/all/base/white/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/669_flabebe/all/base/white/texture.png",
+                      "model": "pixelmon:pokemon/669_flabebe/all/base/red/flabebe.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "whiteshiny",
+              "sprite": "pixelmon:pokemon/669_flabebe/all/base/whiteshiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/669_flabebe/all/base/whiteshiny/texture.png",
+                      "model": "pixelmon:pokemon/669_flabebe/all/base/red/flabebe.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/669_flabebe/all/base/red/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.1
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 0.1,
+      "catchRate": 225,
+      "malePercentage": 0,
+      "evolutions": [
+        {
+          "level": 19,
+          "to": "Floette",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      },
+      "growth_data": {
+        "mean": 25.0,
+        "standard_deviation": 1.25,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 6
+}

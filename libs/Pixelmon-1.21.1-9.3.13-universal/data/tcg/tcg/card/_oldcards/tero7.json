@@ -1,0 +1,43 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 42,
+  "previous_pokemon_id": 41,
+  "retreat_cost": 0,
+  "rarity": "tcg:holo_rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "ability": {
+    "name": "ability.tero7.name",
+    "description": "ability.tero7.text",
+    "type": "UNIMPLEMENTED",
+    "effect": {
+      "type": "tcg:sneak_attack"
+    }
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO7.1.name",
+      "costs": [
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.TERO7.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "*",
+          "count": 6,
+          "amount": 20
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

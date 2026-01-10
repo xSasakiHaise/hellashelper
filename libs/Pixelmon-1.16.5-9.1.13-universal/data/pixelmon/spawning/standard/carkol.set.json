@@ -1,0 +1,88 @@
+{
+  "id": "Carkol",
+  "spawnInfos": [
+    {
+      "spec": "species:Carkol",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 18,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:shattered_savanna",
+          "minecraft:shattered_savanna_plateau",
+          "mesas",
+          "mountainous",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Rolycoly",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Carkol",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 18,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "savannas",
+          "mesas",
+          "mountainous",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ],
+        "maxY": 70
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:coal_ore"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Pinsir Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pinsir",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "pixelmon:item/pixelmon_item",
+    "textures": {
+        "layer0": "pixelmon:items/healingitems/l_exp_candy"
+    }
+}

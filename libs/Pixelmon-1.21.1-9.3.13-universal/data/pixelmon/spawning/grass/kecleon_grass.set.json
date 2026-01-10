@@ -1,0 +1,23 @@
+{
+  "id": "Kecleon Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Kecleon",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 20,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

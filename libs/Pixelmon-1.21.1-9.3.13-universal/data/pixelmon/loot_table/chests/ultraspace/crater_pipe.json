@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 7,
+                    "value": "minecraft:chests/abandoned_mineshaft"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "pixelmon:chests/ultraspace/crater_geyser"
+                }
+            ]
+        }
+    ]
+}

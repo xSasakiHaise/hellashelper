@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "pixelmon:pixelmon_sprite",
+      "amount": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "ndex": 151,
+          "palette": "none",
+          "form": ""
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.mew_capture.title"
+    },
+    "description": {
+      "translate": "advancements.mew_capture.description"
+    },
+    "hidden": true
+  },
+  "parent": "pixelmon:legendaries/legendary_capture_trigger",
+  "criteria": {
+    "mew_capture": {
+      "trigger": "pixelmon:legendary_capture_trigger",
+      "conditions": {
+        "pokemon": "mew"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mew_capture"
+    ]
+  ]
+}

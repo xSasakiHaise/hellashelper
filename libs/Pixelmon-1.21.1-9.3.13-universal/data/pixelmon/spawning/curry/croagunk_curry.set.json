@@ -1,0 +1,29 @@
+{
+  "id": "Croagunk Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Croagunk",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 25,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}

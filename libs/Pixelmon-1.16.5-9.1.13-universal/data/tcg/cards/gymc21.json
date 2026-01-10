@@ -1,0 +1,46 @@
+{
+  "id": 500,
+  "setId": 7,
+  "cardType": "STAGE1",
+  "isSpecial": false,
+  "hp": 60,
+  "energy1": "FIRE",
+  "energy2": null,
+  "pokemonId": 38,
+  "code": "GYMC21",
+  "name": "card.GYMC21.name",
+  "description": "",
+  "previousPokemonId": 37,
+  "cardAttacks": [
+    {
+      "card": "GYMC21",
+      "index": 1,
+      "name": "attack.GYMC21.1.name",
+      "costs": [
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 50,
+      "modifier": null,
+      "text": "attack.GYMC21.1.text",
+      "effectsString": "",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energyResistance": null,
+  "resistanceValue": 0,
+  "resistanceCardModifier": null,
+  "energyWeakness": "WATER",
+  "weaknessValue": 2,
+  "weaknessCardModifier": "Multiply",
+  "retreatCost": 2,
+  "cardRarity": "RARE",
+  "customTexture": null,
+  "customTextureX": 0,
+  "customTextureY": 0,
+  "isHolo": true,
+  "effect": null,
+  "cardAbility": null
+}

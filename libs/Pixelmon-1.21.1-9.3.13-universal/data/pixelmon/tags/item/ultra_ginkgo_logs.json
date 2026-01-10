@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:ultra_ginkgo_log",
+    "pixelmon:ultra_ginkgo_wood",
+    "pixelmon:stripped_ultra_ginkgo_log",
+    "pixelmon:stripped_ultra_ginkgo_wood"
+  ]
+}

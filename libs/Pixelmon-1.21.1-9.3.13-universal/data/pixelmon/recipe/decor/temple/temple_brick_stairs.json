@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pixelmon:temple_brick"
+    }
+  },
+  "result": {
+    "id": "pixelmon:temple_brick_stairs",
+    "count": 4
+  }
+}

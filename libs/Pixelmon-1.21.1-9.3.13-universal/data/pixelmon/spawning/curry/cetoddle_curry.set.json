@@ -1,0 +1,23 @@
+{
+    "id": "Cetoddle",
+    "spawnInfos": [
+      {
+        "spec": "species:Cetoddle",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 15,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "minecraft:frozen_ocean",
+            "minecraft:snowy_beach",
+            "terralith:glacial_chasm"
+          ]
+        },
+        "rarity": 30.0
+      }
+    ]
+  }
+  

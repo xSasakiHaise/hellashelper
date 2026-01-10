@@ -1,0 +1,53 @@
+{
+  "id": "Drampa",
+  "spawnInfos": [
+    {
+      "spec": "species:Drampa",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:persim_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mushroom"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Drampa",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:persim_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:end_highlands",
+          "minecraft:small_end_islands",
+          "nullscape:crystal_peaks"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

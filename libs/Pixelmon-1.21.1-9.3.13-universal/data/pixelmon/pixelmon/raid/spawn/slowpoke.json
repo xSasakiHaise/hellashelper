@@ -1,0 +1,26 @@
+{
+  "spawns": [
+    {
+      "spec": "Slowpoke",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/slowpoke-2-3",
+      "weight": 1.0
+    },
+    {
+      "spec": "Slowpoke form:galarian",
+      "loot_table": "pixelmon:raid_den/raids",
+      "stars": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "biomes": "#pixelmon:raid/spawn/slowpoke-galarian-2-3",
+      "weight": 1.0
+    }
+  ]
+}

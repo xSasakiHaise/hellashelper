@@ -1,0 +1,52 @@
+{
+  "id": "Wingull",
+  "spawnInfos": [
+    {
+      "spec": "species:Wingull",
+      "stringLocationTypes": [
+        "Air",
+        "Tree Top"
+      ],
+      "minLevel": 2,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:pretty_feather",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Wingull",
+          "amount": {
+            "min_value": 1,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 90.0
+    }
+  ]
+}

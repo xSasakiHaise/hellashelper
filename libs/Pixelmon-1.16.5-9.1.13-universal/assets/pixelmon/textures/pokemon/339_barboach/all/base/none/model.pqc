@@ -1,0 +1,5 @@
+$body barboach.bmd
+$anim swim swim.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 7.0

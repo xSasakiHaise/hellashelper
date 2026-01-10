@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    "gdg",
+    "gcg"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:glass"
+    },
+    "c": {
+      "item": "pixelmon:crystal_block"
+    },
+    "s": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "d": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "result": {
+    "id": "tcg:essence_jar",
+    "count": 1,
+    "nbt": {
+      "BlockEntityTag": {
+        "EssenceJarCount": 0,
+        "EssenceJarPercent": 0,
+        "EssenceJarColorRed": 199,
+        "EssenceJarColorGreen": 78,
+        "EssenceJarColorBlue": 189,
+        "EssenceJarColorName": "{\"translate\":\"color.minecraft.magenta\"}"
+      }
+    }
+  }
+}

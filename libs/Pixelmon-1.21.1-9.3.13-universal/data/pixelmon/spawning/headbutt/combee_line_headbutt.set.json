@@ -1,0 +1,97 @@
+{
+  "id": "Combee Line Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Combee status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ],
+        "variant": [
+          "oak",
+          "birch"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Combee",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ],
+        "variant": [
+          "oak",
+          "birch"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Vespiquen status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ],
+        "variant": [
+          "oak",
+          "birch"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Vespiquen",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ],
+        "variant": [
+          "oak",
+          "birch"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

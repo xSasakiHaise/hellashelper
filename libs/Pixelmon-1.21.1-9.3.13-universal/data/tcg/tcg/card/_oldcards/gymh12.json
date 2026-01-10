@@ -1,0 +1,25 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 146,
+  "previous_pokemon_id": null,
+  "retreat_cost": 2,
+  "rarity": "tcg:holo_rare",
+  "attacks": [
+    {
+      "name": "attack.GYMH12.1.name",
+      "costs": [
+        "FIRE",
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 40,
+      "text": "attack.GYMH12.1.text",
+      "effects": [
+
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

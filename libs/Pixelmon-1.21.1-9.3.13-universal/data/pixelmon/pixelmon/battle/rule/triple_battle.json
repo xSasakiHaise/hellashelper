@@ -1,0 +1,10 @@
+{
+  "modifiers": [
+    {
+      "type": "pixelmon:context",
+      "key": "pixelmon:battle_type",
+      "value": "TRIPLE"
+    }
+  ],
+  "requirements":  []
+}

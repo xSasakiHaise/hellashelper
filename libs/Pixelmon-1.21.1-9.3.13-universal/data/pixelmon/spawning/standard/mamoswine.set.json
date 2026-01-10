@@ -1,0 +1,30 @@
+{
+  "id": "Mamoswine",
+  "spawnInfos": [
+    {
+      "spec": "species:Mamoswine",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "weathers": [
+          "RAIN",
+          "STORM"
+        ],
+        "biomes": [
+          "minecraft:snowy_plains",
+          "biomesoplenty:tundra",
+		  "biomeswevegone:crimson_tundra"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

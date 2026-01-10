@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:blue_berry_wood_boat",
+    "pixelmon:green_berry_wood_boat",
+    "pixelmon:pink_berry_wood_boat",
+    "pixelmon:purple_berry_wood_boat",
+    "pixelmon:red_berry_wood_boat",
+    "pixelmon:yellow_berry_wood_boat",
+    "pixelmon:ultra_jungle_boat",
+    "pixelmon:ultra_gingko_boat",
+    "pixelmon:ultra_elm_boat"
+  ]
+}

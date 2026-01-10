@@ -1,0 +1,23 @@
+{
+    "id": "Mega Starmie",
+    "spawnInfos": [
+      {
+        "spec": "species:Starmie",
+        "stringLocationTypes": [
+          "Seafloor"
+        ],
+        "condition": {
+          "times": [
+            "DUSK",
+            "NIGHT"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/oceanic"
+          ]
+        },
+        "interval": "megaBoss",
+        "typeID": "pokemon",
+        "rarity": 0.3
+      }
+    ]
+  }

@@ -1,0 +1,799 @@
+{
+  "stages": [
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Hello again Trainer! It appears you've picked up an Orb. I've been studying these for quite some time now, and I  believe they have the power to summon a Legendary Pokémon."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "If you can help me by crafting an Orb of Frozen Souls, fill it, and then find the Articuno Shrine, we can summon Articuno!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/item/npceditor.png"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "recipe": "pixelmon:summon/uno_orb",
+            "type": "pixelmon:recipe_matches"
+          },
+          "result": [
+            {
+              "spec": "random type1:ice !leg !ub lvl:20",
+              "type": "pixelmon:spawn_and_enter_battle"
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "research.legendary.lugia.craft_uno_orb",
+            "fallback": "Craft an Orb of Frozen Souls"
+          },
+          "sprite": "pixelmon:textures/gui/research/encounter_grass.png",
+          "event": "pixelmon:craft_item"
+        },
+        {
+          "condition": {
+            "items": "pixelmon:uno_orb",
+            "item": {
+              "type": "pixelmon:context_item"
+            },
+            "type": "pixelmon:item_is_one_of"
+          },
+          "result": [
+            {
+              "exp": 20,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "research.legendary.lugia.fill_shrine_orb",
+            "fallback": "Fill the Orb of Frozen Souls"
+          },
+          "sprite": {
+            "resource": "minecraft:textures/item/experience_bottle.png",
+            "description": "20 XP"
+          },
+          "event": "pixelmon:fill_shrine_orb"
+        },
+        {
+          "condition": {
+            "structures": [
+              "pixelmon:shrines/articuno"
+            ],
+            "type": "pixelmon:structure_is_one_of"
+          },
+          "result": [
+            {
+              "items": [
+                {
+                  "id": "pixelmon:poke_ball",
+                  "count": 10,
+                  "components": {
+                    "pixelmon:poke_ball": "ultra_ball"
+                  }
+                }
+              ],
+              "type": "pixelmon:give_item"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.find_structure",
+            "fallback": "Find an Articuno Shrine"
+          },
+          "sprite": "pixelmon:textures/item/pokeballs/ultra_ball.png",
+          "event": "pixelmon:find_structure"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Congratulations on finding Articuno's shrine! Now you must activate it whilst holding the Orb of Frozen Souls to summon Articuno."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I believe that capturing Articuno will be a challenge, but I have faith in you. Good luck, Trainer!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "spec": {
+              "value": "articuno",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.activate_uno_shrine",
+            "fallback": "Activate the Articuno Shrine"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:activate_shrine"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "articuno",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.battle_uno",
+            "fallback": "Battle Articuno"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:enter_wild_battle"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "articuno",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.capture_uno",
+            "fallback": "Capture Articuno"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:capture_pokemon"
+        }
+      ],
+      "result": [
+        {
+          "money": 500.0,
+          "type": "pixelmon:give_money"
+        },
+        {
+          "exp": 50,
+          "type": "pixelmon:give_experience"
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Congratulations on capturing Articuno!"
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "The next step is to craft an Orb of Static Souls, fill it, and find the Zapdos Shrine. Good luck, Trainer!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "recipe": "pixelmon:summon/dos_orb",
+            "type": "pixelmon:recipe_matches"
+          },
+          "result": [
+            {
+              "spec": "random type1:electric !leg !ub lvl:20",
+              "type": "pixelmon:spawn_and_enter_battle"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.craft_dos_orb",
+            "fallback": "Craft an Orb of Static Souls"
+          },
+          "sprite": "pixelmon:textures/gui/research/encounter_grass.png",
+          "event": "pixelmon:craft_item"
+        },
+        {
+          "condition": {
+            "items": "pixelmon:dos_orb",
+            "item": {
+              "type": "pixelmon:context_item"
+            },
+            "type": "pixelmon:item_is_one_of"
+          },
+          "result": [
+            {
+              "exp": 20,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.fill_shrine_orb",
+            "fallback": "Fill the Orb of Static Souls"
+          },
+          "sprite": {
+            "resource": "minecraft:textures/item/experience_bottle.png",
+            "description": "20 XP"
+          },
+          "event": "pixelmon:fill_shrine_orb"
+        },
+        {
+          "condition": {
+            "structures": [
+              "pixelmon:shrines/zapdos"
+            ],
+            "type": "pixelmon:structure_is_one_of"
+          },
+          "result": [
+            {
+              "items": [
+                {
+                  "id": "pixelmon:poke_ball",
+                  "count": 10,
+                  "components": {
+                    "pixelmon:poke_ball": "ultra_ball"
+                  }
+                }
+              ],
+              "type": "pixelmon:give_item"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.find_structure",
+            "fallback": "Find a Zapdos Shrine"
+          },
+          "sprite": "pixelmon:textures/item/pokeballs/ultra_ball.png",
+          "event": "pixelmon:find_structure"
+        }
+      ],
+      "result": [
+        {
+          "type": "pixelmon:give_money",
+          "money": 500.0
+        },
+        {
+          "type": "pixelmon:give_experience",
+          "exp": 50
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Congratulations on finding Zapdos' shrine! Now you must activate it whilst holding the Orb of Static Souls to summon Zapdos."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I believe that capturing Zapdos will be as much of a challenge as Articuno was, but I have faith in you. Good luck, Trainer!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "spec": {
+              "value": "zapdos",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.activate_dos_shrine",
+            "fallback": "Activate the Zapdos Shrine"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:activate_shrine"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "zapdos",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.battle_dos",
+            "fallback": "Battle Zapdos"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:enter_wild_battle"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "zapdos",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.capture_zapdos",
+            "fallback": "Capture Zapdos"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:capture_pokemon"
+        }
+      ],
+      "result": [
+        {
+          "money": 500.0,
+          "type": "pixelmon:give_money"
+        },
+        {
+          "exp": 50,
+          "type": "pixelmon:give_experience"
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Congratulations on capturing Zapdos! You're doing great, Trainer!"
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "The next step is to craft an Orb of Fiery Souls, fill it, and find the Moltres Shrine. Good luck, Trainer!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "recipe": "pixelmon:summon/tres_orb",
+            "type": "pixelmon:recipe_matches"
+          },
+          "result": [
+            {
+              "spec": "random type1:fire !leg !ub lvl:20",
+              "type": "pixelmon:spawn_and_enter_battle"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.craft_tres_orb",
+            "fallback": "Craft an Orb of Fiery Souls"
+          },
+          "sprite": "pixelmon:textures/gui/research/encounter_grass.png",
+          "event": "pixelmon:craft_item"
+        },
+        {
+          "condition": {
+            "items": "pixelmon:tres_orb",
+            "item": {
+              "type": "pixelmon:context_item"
+            },
+            "type": "pixelmon:item_is_one_of"
+          },
+          "result": [
+            {
+              "exp": 20,
+              "type": "pixelmon:give_experience"
+            }
+          ],
+          "required_amount": 1,
+          "name": {
+            "translate": "research.legendary.lugia.fill_shrine_orb",
+            "fallback": "Fill the Shrine Orb"
+          },
+          "sprite": {
+            "resource": "minecraft:textures/item/experience_bottle.png",
+            "description": "20 XP"
+          },
+          "event": "pixelmon:fill_shrine_orb"
+        },
+        {
+          "condition": {
+            "structures": [
+              "pixelmon:shrines/moltres"
+            ],
+            "type": "pixelmon:structure_is_one_of"
+          },
+          "result": [
+            {
+              "items": [
+                {
+                  "id": "pixelmon:poke_ball",
+                  "count": 10,
+                  "components": {
+                    "pixelmon:poke_ball": "ultra_ball"
+                  }
+                }
+              ],
+              "type": "pixelmon:give_item"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.find_structure",
+            "fallback": "Find a Moltres Shrine"
+          },
+          "sprite": "pixelmon:textures/item/pokeballs/ultra_ball.png",
+          "event": "pixelmon:find_structure"
+        }
+      ],
+      "result": [
+        {
+          "money": 500.0,
+          "type": "pixelmon:give_money"
+        },
+        {
+          "exp": 50,
+          "type": "pixelmon:give_experience"
+        },
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Well done, Trainer! You've found the Moltres Shrine. Now you must activate it whilst holding the Orb of Fiery Souls to summon Moltres."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "The final step is to capture Moltres. This will be your greatest challenge yet, but I believe in you."
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "No other Trainer has ever captured all three Legendary Birds. You're on the brink of making history!"
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "My research has shown that once you've collected the three Legendary Birds, a powerful Pokémon will appear. I can't wait to see what happens!"
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "Good luck, Trainer!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [
+        {
+          "condition": {
+            "spec": {
+              "value": "moltres",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.activate_tres_shrine",
+            "fallback": "Activate the Moltres Shrine"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:activate_shrine"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "moltres",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.battle_tres",
+            "fallback": "Battle Moltres"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:enter_wild_battle"
+        },
+        {
+          "condition": {
+            "spec": {
+              "value": "moltres",
+              "type": "pixelmon:constant_string"
+            },
+            "pokemon": {
+              "type": "pixelmon:context_pokemon",
+              "key": "pixelmon:pokemon"
+            },
+            "type": "pixelmon:spec_matches"
+          },
+          "result": [
+            {
+              "money": 500.0,
+              "type": "pixelmon:give_money"
+            }
+          ],
+          "name": {
+            "translate": "research.legendary.lugia.capture_moltres",
+            "fallback": "Capture Moltres"
+          },
+          "sprite": "pixelmon:textures/gui/research/money_pouch.png",
+          "event": "pixelmon:capture_pokemon"
+        }
+      ],
+      "result": [
+        {
+          "money": 2000.0,
+          "type": "pixelmon:give_money"
+        },
+        {
+          "exp": 50,
+          "type": "pixelmon:give_experience"
+        },
+        {
+          "spec": "lugia",
+          "type": "pixelmon:spawn_and_enter_battle"
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "pixelmon:textures/gui/research/encounter_grass.png",
+          "description": "???"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    },
+    {
+      "objectives": [],
+      "result": [
+        {
+          "type": "pixelmon:close_screen"
+        },
+        {
+          "type": "pixelmon:open_professor_dialogue",
+          "dialogue": {
+            "pages": [
+              {
+                "title": "Prof. Wisteria",
+                "text": "Wow Trainer, you've done it! You've captured all three Legendary Birds and summoned Lugia!"
+              },
+              {
+                "title": "Prof. Wisteria",
+                "text": "I can't believe it! You've made history! Thank you for helping me with my research. Until next time, Trainer!"
+              }
+            ],
+            "rendering_handler": {
+              "type": "pixelmon:player",
+              "slim": true,
+              "texture": "pixelmon:textures/steve/professorwisteria.png"
+            }
+          }
+        }
+      ],
+      "result_sprites": [
+        {
+          "resource": "pixelmon:textures/gui/research/money_pouch.png",
+          "description": "₽500"
+        },
+        {
+          "resource": "minecraft:textures/item/experience_bottle.png",
+          "description": "50 XP"
+        }
+      ]
+    }
+  ],
+  "abandonable": false,
+  "repeatable": true,
+  "unique": true,
+  "name": {
+    "translate": "research.legendary.lugia",
+    "fallback": "Psychic Storm"
+  }
+}

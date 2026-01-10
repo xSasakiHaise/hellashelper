@@ -1,0 +1,5 @@
+$body clamperl.bmd
+$anim walk walk.bmd
+$anim idleswim idle.bmd
+$anim idle idle.bmd
+$scale 0.7

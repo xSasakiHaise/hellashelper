@@ -1,0 +1,4 @@
+$body keldeo.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 3.0

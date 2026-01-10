@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "c:gems/amethyst"
+    }
+  },
+  "result": {
+    "id": "pixelmon:rocket_helmet",
+    "count": 1
+  }
+}

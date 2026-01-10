@@ -1,0 +1,20 @@
+{
+  "id": "Helioptile Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Helioptile",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

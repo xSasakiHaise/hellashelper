@@ -1,0 +1,34 @@
+{
+  "rewards": {
+    "recipes": [
+      "pixelmon:pokeball/ball/level_ball"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixelmon:pokeball/ball/level_ball"
+      }
+    },
+    "has_poke_ball_lid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixelmon:poke_ball_lid"
+            ],
+            "nbt": "{PokeBallID:\"level_ball\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_poke_ball_lid"
+    ]
+  ]
+}

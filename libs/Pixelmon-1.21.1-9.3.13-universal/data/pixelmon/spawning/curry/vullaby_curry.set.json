@@ -1,0 +1,23 @@
+{
+  "id": "Vullaby Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Vullaby",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 42,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

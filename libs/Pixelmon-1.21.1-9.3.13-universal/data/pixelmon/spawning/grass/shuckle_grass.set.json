@@ -1,0 +1,29 @@
+{
+  "id": "Shuckle Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Shuckle",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 5,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:berry_juice",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:stony_shore",
+          "pixelmon:ultra_deep_sea",
+          "byg:basalt_barrera",
+          "byg:rocky_beach"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

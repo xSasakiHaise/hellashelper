@@ -1,0 +1,47 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 148,
+  "previous_pokemon_id": 147,
+  "retreat_cost": 2,
+  "rarity": "tcg:rare",
+  "attacks": [
+    {
+      "name": "attack.BASE18.1.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 30,
+      "text": "attack.BASE18.1.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 2,
+          "flip_type": "Exact"
+        }
+      ]
+    },
+    {
+      "name": "attack.BASE18.2.name",
+      "costs": [
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.BASE18.2.text",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "self": false,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "energies": "COLORLESS"
+}

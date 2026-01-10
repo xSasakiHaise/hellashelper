@@ -1,0 +1,46 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "card.base4-9.description",
+  "attacks": [
+    {
+      "name": "attack.base4-9.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base4-9.0.description",
+      "effects": [
+        {
+          "type": "tcg:dream_eater"
+        }
+      ]
+    },
+    {
+      "name": "attack.base4-9.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 80,
+      "text": "attack.base4-9.1.description",
+      "effects": [
+        {
+          "type": "tcg:dream_eater"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 1,
+  "energies": "LIGHTNING",
+  "pokemon_id": 82,
+  "weakness": {
+    "energy": "FIGHTING",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

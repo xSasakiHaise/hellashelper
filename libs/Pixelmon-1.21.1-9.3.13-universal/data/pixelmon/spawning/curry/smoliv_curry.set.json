@@ -1,0 +1,23 @@
+{
+    "id": "Smoliv",
+    "spawnInfos": [
+      {
+        "spec": "species:Smoliv",
+        "stringLocationTypes": [
+          "Curry"
+        ],
+        "minLevel": 5,
+        "maxLevel": 20,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/savannas",
+            "#pixelmon:spawning/plains",
+            "biomesoplenty:mediterranean_forest"
+          ]
+        },
+        "rarity": 100.0
+      }
+    ]
+  }
+  

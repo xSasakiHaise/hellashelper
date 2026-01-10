@@ -1,0 +1,8 @@
+{
+  "description": {
+    "translate": "item.pixelmon.legendary_music_disc.desc"
+  },
+  "comparator_output": 1,
+  "length_in_seconds": 202,
+  "sound_event": "pixelmon:pixelmon.music.battle.legendary"
+}

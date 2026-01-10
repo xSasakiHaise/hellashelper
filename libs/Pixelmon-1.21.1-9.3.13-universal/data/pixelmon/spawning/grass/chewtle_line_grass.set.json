@@ -1,0 +1,41 @@
+{
+  "id": "Chewtle Line Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Chewtle",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 7,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Drednaw",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 22,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "variants": {
+    "axis=y,facing=north,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small"
+    },
+    "axis=y,facing=east,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small"
+    },
+    "axis=y,facing=south,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small"
+    },
+    "axis=y,facing=west,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small"
+    },
+    "axis=z,facing=north,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small",
+      "z": 90,
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,facing=east,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small",
+      "y": 270,
+      "z": 90
+    },
+    "axis=z,facing=south,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small",
+      "z": 270,
+      "x": 90
+    },
+    "axis=z,facing=west,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small",
+      "y": 270,
+      "z": 90
+    },
+    "axis=x,facing=north,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small",
+      "y": 90,
+      "x": 90
+    },
+    "axis=x,facing=east,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small",
+      "y": 270,
+      "x": 90
+    },
+    "axis=x,facing=south,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small",
+      "y": 270,
+      "x": 90
+    },
+    "axis=x,facing=west,tall=false": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower_small",
+      "y": 270,
+      "x": 270
+    },
+    "axis=y,facing=north,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower"
+    },
+    "axis=y,facing=east,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower"
+    },
+    "axis=y,facing=south,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower"
+    },
+    "axis=y,facing=west,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower"
+    },
+    "axis=z,facing=north,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower",
+      "y": 270,
+      "z": 90,
+      "x": 90
+    },
+    "axis=z,facing=east,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower",
+      "y": 270,
+      "z": 90
+    },
+    "axis=z,facing=south,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower",
+      "y": 270,
+      "z": 90,
+      "x": 90
+    },
+    "axis=z,facing=west,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower",
+      "y": 270,
+      "z": 90
+    },
+    "axis=x,facing=north,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower",
+      "y": 90,
+      "x": 90
+    },
+    "axis=x,facing=east,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower",
+      "y": 270,
+      "x": 90
+    },
+    "axis=x,facing=south,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower",
+      "y": 270,
+      "x": 90
+    },
+    "axis=x,facing=west,tall=true": {
+      "model": "pixelmon:block/ultra_space/ultra_forest_flower",
+      "y": 270,
+      "x": 90
+    }
+  }
+}

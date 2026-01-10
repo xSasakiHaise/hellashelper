@@ -1,0 +1,28 @@
+{
+  "id": "Spritzee Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Spritzee",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sachet",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

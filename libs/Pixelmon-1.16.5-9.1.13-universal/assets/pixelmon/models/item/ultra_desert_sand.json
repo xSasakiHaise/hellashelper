@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/ultra_space/sand",
+  "textures": {
+    "particle": "pixelmon:block/ultra_space/ultra_desert_sand",
+    "layer0": "pixelmon:block/ultra_space/ultra_desert_sand"
+  }
+}

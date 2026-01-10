@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  A",
+    "AS ",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/aluminum"
+    },
+    "S": {
+      "item": "pixelmon:thunder_stone"
+    }
+  },
+  "result": {
+    "id": "pixelmon:mach_bike_frame",
+    "count": 1
+  }
+}

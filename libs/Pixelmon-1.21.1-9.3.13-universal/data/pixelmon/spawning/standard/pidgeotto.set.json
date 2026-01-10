@@ -1,0 +1,86 @@
+{
+  "id": "Pidgeotto",
+  "spawnInfos": [
+    {
+      "spec": "species:Pidgeotto",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt"
+      ],
+      "minLevel": 16,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Pidgey",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Pidgeotto palette:pink",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 16,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Pidgey",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 1.0
+    }
+  ]
+}

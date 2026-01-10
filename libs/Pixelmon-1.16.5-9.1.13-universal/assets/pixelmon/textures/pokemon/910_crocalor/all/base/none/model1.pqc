@@ -1,0 +1,4 @@
+$body egg.bmd
+$anim idle idle.bmd
+$anim walk walk.bmd
+$scale 2

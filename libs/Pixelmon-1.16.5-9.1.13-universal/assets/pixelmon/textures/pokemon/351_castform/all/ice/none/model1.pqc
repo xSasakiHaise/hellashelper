@@ -1,0 +1,4 @@
+$body castformOrb.bmd
+$anim walk walkOrb.bmd
+$anim idle idleOrb.bmd
+$scale 3.0

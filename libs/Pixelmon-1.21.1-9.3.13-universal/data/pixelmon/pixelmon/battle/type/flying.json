@@ -1,0 +1,30 @@
+{
+  "name": {
+    "translate": "type.flying"
+  },
+  "color": {
+    "red": 204,
+    "green": 213,
+    "blue": 255,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/flying.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:grass",
+        "pixelmon:fighting",
+        "pixelmon:bug"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:electric",
+        "pixelmon:rock",
+        "pixelmon:steel"
+      ],
+      "effectiveness": "NOT"
+    }
+  ]
+}

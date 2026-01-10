@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "pixelmon:ultra_crater"
+    },
+    {
+      "required": false,
+      "id": "pixelmon:ultra_desert"
+    }
+  ]
+}

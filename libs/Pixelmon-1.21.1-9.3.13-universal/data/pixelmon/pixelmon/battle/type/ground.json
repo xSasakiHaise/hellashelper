@@ -1,0 +1,37 @@
+{
+  "name": {
+    "translate": "type.ground"
+  },
+  "color": {
+    "red": 153,
+    "green": 102,
+    "blue": 64,
+    "alpha": 255
+  },
+  "icon": "pixelmon:textures/gui/type/ground.png",
+  "relations": [
+    {
+      "types": [
+        "pixelmon:fire",
+        "pixelmon:electric",
+        "pixelmon:poison",
+        "pixelmon:rock",
+        "pixelmon:steel"
+      ],
+      "effectiveness": "SUPER"
+    },
+    {
+      "types": [
+        "pixelmon:grass",
+        "pixelmon:bug"
+      ],
+      "effectiveness": "NOT"
+    },
+    {
+      "types": [
+        "pixelmon:flying"
+      ],
+      "effectiveness": "NONE"
+    }
+  ]
+}

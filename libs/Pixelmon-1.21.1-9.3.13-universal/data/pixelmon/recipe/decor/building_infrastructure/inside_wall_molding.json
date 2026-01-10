@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "pixelmon:inside_wall"
+    }
+  },
+  "result": {
+    "id": "pixelmon:inside_wall_moulding",
+    "count": 2
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "pixelmon:block/mint/mint_crop_stage_2"
+    }
+}

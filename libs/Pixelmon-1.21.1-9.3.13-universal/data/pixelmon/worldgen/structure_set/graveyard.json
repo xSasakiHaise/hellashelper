@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "pixelmon:misc/graveyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 932746308,
+    "frequency_reduction_method": "default",
+    "spread_type": "triangular",
+    "spacing": 53,
+    "separation": 31
+  }
+}

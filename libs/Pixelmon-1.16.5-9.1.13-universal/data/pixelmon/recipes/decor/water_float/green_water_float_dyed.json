@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dyes/green"
+    },
+    {
+      "tag": "pixelmon:water_floats"
+    }
+  ],
+  "result": {
+    "item": "pixelmon:green_water_float",
+    "count": 1
+  }
+}

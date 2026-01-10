@@ -1,0 +1,21 @@
+{
+  "id": "Bounsweet Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Bounsweet",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

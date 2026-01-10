@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pixelmon:block/cushion/orange_cushion",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "pixelmon:block/cushion/orange_cushion",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "pixelmon:block/cushion/orange_cushion",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "pixelmon:block/cushion/orange_cushion",
+      "y": 90
+    }
+  }
+}

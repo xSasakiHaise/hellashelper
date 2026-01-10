@@ -1,0 +1,34 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "age": "0"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/berry_tree/occa/leaves"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "1"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/berry_tree/occa/bloom"
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "2"
+      },
+      "apply": [
+        {
+          "model": "pixelmon:block/berry_tree/occa/berry"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "Weedle Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Weedle",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

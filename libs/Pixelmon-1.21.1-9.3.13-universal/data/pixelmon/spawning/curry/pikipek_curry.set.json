@@ -1,0 +1,26 @@
+{
+  "id": "Pikipek Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Pikipek",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 3,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:oran_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

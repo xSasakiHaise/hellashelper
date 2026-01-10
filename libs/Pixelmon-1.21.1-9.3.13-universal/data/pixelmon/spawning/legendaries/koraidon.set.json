@@ -1,0 +1,25 @@
+{
+  "id": "Koraidon",
+  "spawnInfos": [
+    {
+      "spec": "species:Koraidon level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:small_end_islands"
+        ]
+      },
+      "rarity": 2.0
+    }
+  ]
+}

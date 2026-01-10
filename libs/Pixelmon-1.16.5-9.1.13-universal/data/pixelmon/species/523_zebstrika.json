@@ -1,0 +1,358 @@
+{
+  "name": "Zebstrika",
+  "dex": 523,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Charge",
+              "Quick Attack",
+              "Tail Whip",
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Shock Wave"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Bounce",
+          "Laser Focus",
+          "Low Kick",
+          "Magnet Rise",
+          "Shock Wave",
+          "Signal Beam",
+          "Snatch",
+          "Snore"
+        ],
+        "eggMoves": [
+          "Double Kick",
+          "Feint",
+          "Sand Attack",
+          "Screech"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Double Kick",
+          "Double-Edge",
+          "Endure",
+          "Feint",
+          "Flash",
+          "Ion Deluge",
+          "Me First",
+          "Pursuit",
+          "Rage",
+          "Rock Smash",
+          "Sand Attack",
+          "Screech",
+          "Secret Power",
+          "Shock Wave",
+          "Snatch",
+          "Take Down"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Charge Beam",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Substitute",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Low Kick",
+          "Trailblaze",
+          "Charge Beam",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Flame Charge",
+          "Endure",
+          "Volt Switch",
+          "Sunny Day",
+          "Rain Dance",
+          "Smart Strike",
+          "Body Slam",
+          "Sleep Talk",
+          "Electro Ball",
+          "Light Screen",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Eerie Impulse",
+          "Substitute",
+          "Thunderbolt",
+          "Helping Hand",
+          "Baton Pass",
+          "Electric Terrain",
+          "Wild Charge",
+          "Giga Impact",
+          "Overheat",
+          "Hyper Beam",
+          "Thunder",
+          "Tera Blast",
+          "Roar",
+          "Charge",
+          "High Horsepower",
+          "Uproar",
+          "Double-Edge",
+          "Endeavor",
+          "Electroweb"
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "LightningRod",
+          "MotorDrive"
+        ],
+        "hiddenAbilities": [
+          "SapSipper"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": -0.1
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 63,
+        "specialAttack": 80,
+        "specialDefense": 63,
+        "speed": 116
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 174,
+        "baseFriendship": 70,
+        "spawnLevel": 28,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/523_zebstrika/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/523_zebstrika/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/523_zebstrika/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/523_zebstrika/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/523_zebstrika/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [
+        "Blitzle"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 79.5,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 5
+}

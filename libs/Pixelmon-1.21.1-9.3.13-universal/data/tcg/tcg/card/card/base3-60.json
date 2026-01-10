@@ -1,0 +1,15 @@
+{
+  "special": false,
+  "hp": 0,
+  "description": "card.base3-60.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/gambler.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+  "effect": {
+    "type": "tcg:gambler"
+  },
+  "rarity": "tcg:common"
+}

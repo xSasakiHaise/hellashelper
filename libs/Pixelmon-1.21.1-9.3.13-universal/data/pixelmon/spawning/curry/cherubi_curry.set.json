@@ -1,0 +1,21 @@
+{
+  "id": "Cherubi Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Cherubi",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

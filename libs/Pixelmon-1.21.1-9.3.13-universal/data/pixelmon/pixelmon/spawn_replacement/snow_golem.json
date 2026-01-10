@@ -1,0 +1,16 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:snow_golem"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "darmanitan form:galarian uncatchable",
+      "mrrime uncatchable",
+      "froslass uncatchable"
+    ]
+  }
+}

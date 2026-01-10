@@ -1,0 +1,20 @@
+{
+  "id": "Munna Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Munna",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 6,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

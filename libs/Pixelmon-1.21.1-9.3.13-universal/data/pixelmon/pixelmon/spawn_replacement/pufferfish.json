@@ -1,0 +1,16 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:pufferfish"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "qwilfish",
+      "qwilfish form:hisuian",
+      "overqwil"
+    ]
+  }
+}

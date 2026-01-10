@@ -1,0 +1,118 @@
+{
+  "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+  "textures": {
+    "particle": "minecraft:block/oak_planks",
+    "cauldron_side": "minecraft:block/cauldron_side",
+    "planks_oak": "minecraft:block/oak_planks"
+  },
+  "display": {
+    "gui": {
+      "rotation": [ 30, 45, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.625, 0.625, 0.625 ]
+    },
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 3, 0 ],
+      "scale": [ 0.25, 0.25, 0.25 ]
+    },
+    "fixed": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "head": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 315, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 75, 315, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    }
+  },
+  "elements": [
+    {
+      "name": "plank_2",
+      "from": [ 0, 7, 4 ],
+      "to": [ 16, 8, 9 ],
+      "faces": {
+        "north": { "texture": "#planks_oak", "uv": [ 0, 8, 16, 9 ] },
+        "east": { "texture": "#planks_oak", "uv": [ 8, 4, 9, 9 ], "rotation": 90 },
+        "south": { "texture": "#planks_oak", "uv": [ 0, 8, 16, 9 ] },
+        "west": { "texture": "#planks_oak", "uv": [ 7, 9, 8, 4 ], "rotation": 90 },
+        "up": { "texture": "#planks_oak", "uv": [ 0, 4, 16, 9 ] },
+        "down": { "texture": "#planks_oak", "uv": [ 0, 4, 16, 9 ], "rotation": 180 }
+      }
+    },
+    {
+      "name": "plank_1",
+      "from": [ 0, 7, 10 ],
+      "to": [ 16, 8, 15 ],
+      "faces": {
+        "north": { "texture": "#planks_oak", "uv": [ 0, 8, 16, 9 ] },
+        "east": { "texture": "#planks_oak", "uv": [ 8, 10, 9, 15 ], "rotation": 90 },
+        "south": { "texture": "#planks_oak", "uv": [ 0, 8, 16, 9 ] },
+        "west": { "texture": "#planks_oak", "uv": [ 7, 15, 8, 10 ], "rotation": 90 },
+        "up": { "texture": "#planks_oak", "uv": [ 0, 10, 16, 15 ] },
+        "down": { "texture": "#planks_oak", "uv": [ 0, 10, 16, 15 ], "rotation": 180 }
+      }
+    },
+    {
+      "name": "plank_3",
+      "from": [ 0, 11, 2 ],
+      "to": [ 16, 16, 3 ],
+      "faces": {
+        "north": { "texture": "#planks_oak", "uv": [ 0, 0, 16, 5 ] },
+        "east": { "texture": "#planks_oak", "uv": [ 13, 0, 14, 5 ] },
+        "south": { "texture": "#planks_oak", "uv": [ 0, 0, 16, 5 ] },
+        "west": { "texture": "#planks_oak", "uv": [ 2, 0, 3, 5 ] },
+        "up": { "texture": "#planks_oak", "uv": [ 0, 2, 16, 3 ] },
+        "down": { "texture": "#planks_oak", "uv": [ 0, 2, 16, 3 ] }
+      }
+    },
+    {
+      "name": "frame_1",
+      "from": [ 7, 0, 7 ],
+      "to": [ 9, 6, 9 ],
+      "faces": {
+        "north": { "texture": "#cauldron_side", "uv": [ 7, 7, 9, 13 ] },
+        "east": { "texture": "#cauldron_side", "uv": [ 7, 7, 9, 13 ] },
+        "south": { "texture": "#cauldron_side", "uv": [ 7, 7, 9, 13 ] },
+        "west": { "texture": "#cauldron_side", "uv": [ 7, 7, 9, 13 ] },
+        "down": { "texture": "#cauldron_side", "uv": [ 7, 7, 9, 9 ] }
+      }
+    },
+    {
+      "name": "frame_2",
+      "from": [ 7, 6, 2 ],
+      "to": [ 9, 7, 14 ],
+      "faces": {
+        "east": { "texture": "#cauldron_side", "uv": [ 2, 9, 14, 10 ] },
+        "south": { "texture": "#cauldron_side", "uv": [ 7, 9, 9, 10 ] },
+        "west": { "texture": "#cauldron_side", "uv": [ 2, 9, 14, 10 ] },
+        "up": { "texture": "#cauldron_side", "uv": [ 7, 2, 9, 14 ] },
+        "down": { "texture": "#cauldron_side", "uv": [ 7, 2, 9, 14 ], "rotation": 180 }
+      }
+    },
+    {
+      "name": "frame_3",
+      "from": [ 7, 6, 1 ],
+      "to": [ 9, 15, 2 ],
+      "faces": {
+        "north": { "texture": "#cauldron_side", "uv": [ 7, 1, 9, 10 ] },
+        "east": { "texture": "#cauldron_side", "uv": [ 14, 1, 15, 10 ] },
+        "south": { "texture": "#cauldron_side", "uv": [ 7, 1, 9, 10 ] },
+        "west": { "texture": "#cauldron_side", "uv": [ 1, 1, 2, 10 ] },
+        "up": { "texture": "#cauldron_side", "uv": [ 7, 1, 9, 2 ] },
+        "down": { "texture": "#cauldron_side", "uv": [ 7, 1, 9, 2 ] }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "wing_ball",
+  "model": "pixelmon:models/pokeballs/hisuiball.pqc",
+  "texture": "pixelmon:textures/pokeballs/wing_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/wing_ball_flashing.png",
+  "ballSprite": "pixelmon:item/pokeballs/wing_ball",
+  "lidSprite": "pixelmon:item/pokeballs/wing_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/wing_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.HisuiBall",
+  "bases": [
+    "wooden"
+  ],
+  "captureMethod": "gen4",
+  "catchBonus": 1.25,
+  "breakChance": 0.55,
+  "velocityModifier": 2.25,
+  "gravityModifier": 1,
+  "particles": false
+}

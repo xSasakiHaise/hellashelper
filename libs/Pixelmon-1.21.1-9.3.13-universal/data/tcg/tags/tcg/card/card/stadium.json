@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#tcg:types/stadium/basep",
+    "#tcg:types/stadium/gym1",
+    "#tcg:types/stadium/gym2"
+  ],
+  "tag": "tcg:stadium"
+}

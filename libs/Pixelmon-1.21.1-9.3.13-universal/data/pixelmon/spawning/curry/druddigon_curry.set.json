@@ -1,0 +1,26 @@
+{
+  "id": "Druddigon Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Druddigon",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 50,
+      "maxLevel": 62,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_fang",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

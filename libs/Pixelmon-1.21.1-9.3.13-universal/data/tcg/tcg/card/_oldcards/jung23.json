@@ -1,0 +1,36 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "",
+  "pokemon_id": 31,
+  "previous_pokemon_id": 30,
+  "retreat_cost": 3,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG23.1.name",
+      "costs": [
+        "GRASS",
+        "COLORLESS"
+      ],
+      "damage": 20,
+      "text": "attack.JUNG23.1.text",
+      "effects": [
+        {
+          "type": "tcg:damage_bonus",
+          "self": true,
+          "damage_type": "PerPokemon",
+          "value": 20,
+          "pokedex_number": 34,
+          "ignore_base_damage": false
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

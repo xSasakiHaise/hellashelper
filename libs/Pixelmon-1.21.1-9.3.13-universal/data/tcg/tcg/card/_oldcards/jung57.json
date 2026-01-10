@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 60,
+  "description": "",
+  "pokemon_id": 29,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "PSYCHIC",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.JUNG57.1.name",
+      "costs": [
+        "GRASS"
+      ],
+      "damage": 10,
+      "text": "attack.JUNG57.1.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 3,
+          "flip_type": "Exact"
+        }
+      ]
+    },
+    {
+      "name": "attack.JUNG57.2.name",
+      "costs": [
+        "GRASS",
+        "GRASS"
+      ],
+      "damage": 0,
+      "text": "attack.JUNG57.2.text",
+      "effects": [
+        {
+          "type": "tcg:find_pokemon",
+          "count": 1,
+          "find_type": "ByPokemon",
+          "pokedex_numbers": [
+            29,
+            32
+          ]
+        }
+      ]
+    }
+  ],
+  "energies": "GRASS"
+}

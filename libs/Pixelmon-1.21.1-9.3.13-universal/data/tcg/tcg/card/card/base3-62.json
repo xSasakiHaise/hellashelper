@@ -1,0 +1,15 @@
+{
+  "special": false,
+  "hp": 10,
+  "description": "card.base3-62.description",
+  "attacks": [],
+  "retreat_cost": 0,
+  "custom_texture": {
+    "resource": "tcg:gui/cards/foreground/mysterious_fossil.png",
+    "fallback": "tcg:gui/cards/foreground/fallback.png"
+  },
+    "effect": {
+    "type": "tcg:mysterious_fossil"
+  },
+  "rarity": "tcg:common"
+}

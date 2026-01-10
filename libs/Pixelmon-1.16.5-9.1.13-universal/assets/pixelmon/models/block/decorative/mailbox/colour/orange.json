@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:block/decorative/mailbox/mailbox",
+  "textures": {
+    "colour": "pixelmon:block/mailbox/orange",
+    "particle": "pixelmon:block/mailbox/orange"
+  }
+}

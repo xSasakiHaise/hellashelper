@@ -1,0 +1,47 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "card.base2-15.description",
+  "attacks": [
+    {
+      "name": "attack.base2-15.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base2-15.0.description",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 3,
+          "flip_type": "Exact"
+        },
+        {
+          "type": "tcg:condition",
+          "condition": "CONFUSED",
+          "self": true,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "GRASS",
+  "pokemon_id": 45,
+  "ability": {
+    "name": "ability.base2-15.name",
+    "description": "ability.base2-15.description",
+    "type": "POWER",
+    "effect": {
+      "type": "tcg:heal"
+    }
+  },
+  "weakness": {
+    "energy": "FIRE",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

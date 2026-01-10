@@ -1,0 +1,2290 @@
+{
+  "name": "Furfrou",
+  "dex": 676,
+  "defaultForms": [
+    "natural"
+  ],
+  "forms": [
+    {
+      "name": "natural",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.5,
+        "width": 2.0,
+        "length": 2,
+        "eyeHeight": 2.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Odor Sleuth"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Helping Hand",
+          "Hyper Voice",
+          "Iron Tail",
+          "Last Resort",
+          "Role Play",
+          "Snore",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Captivate",
+          "Mimic",
+          "Refresh",
+          "Role Play",
+          "Work Up"
+        ],
+        "tmMoves9": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dig",
+          "Flash",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FurCoat"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 0,
+        "spawnLevel": 42,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.furfrou",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/none/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/shiny/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.0,
+      "catchRate": 160,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      },
+      "growth_data": {
+        "mean": 150.0,
+        "standard_deviation": 7.5,
+        "min_render_scale": 0.25,
+        "max_render_scale": 0.4
+      }
+    },
+    {
+      "name": "dandy",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.5,
+        "width": 2.0,
+        "length": 2,
+        "eyeHeight": 2.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Odor Sleuth"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Helping Hand",
+          "Hyper Voice",
+          "Iron Tail",
+          "Last Resort",
+          "Role Play",
+          "Snore",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Captivate",
+          "Mimic",
+          "Refresh",
+          "Role Play",
+          "Work Up"
+        ],
+        "tmMoves9": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dig",
+          "Flash",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FurCoat"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 0,
+        "spawnLevel": 42,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "base",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/dandy/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.furfrou",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/dandy/none/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/dandy/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/dandy/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/dandy/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/dandy/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/dandy/shiny/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/dandy/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.0,
+      "catchRate": 160,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      },
+      "growth_data": {
+        "mean": 150.0,
+        "standard_deviation": 7.5,
+        "min_render_scale": 0.25,
+        "max_render_scale": 0.4
+      }
+    },
+    {
+      "name": "debutante",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.5,
+        "width": 2.0,
+        "length": 2,
+        "eyeHeight": 2.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Odor Sleuth"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Helping Hand",
+          "Hyper Voice",
+          "Iron Tail",
+          "Last Resort",
+          "Role Play",
+          "Snore",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Captivate",
+          "Mimic",
+          "Refresh",
+          "Role Play",
+          "Work Up"
+        ],
+        "tmMoves9": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dig",
+          "Flash",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FurCoat"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 0,
+        "spawnLevel": 42,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/debutante/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.furfrou",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/debutante/none/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/debutante/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/debutante/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/debutante/shiny/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/debutante/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.0,
+      "catchRate": 160,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      },
+      "growth_data": {
+        "mean": 150.0,
+        "standard_deviation": 7.5,
+        "min_render_scale": 0.25,
+        "max_render_scale": 0.4
+      }
+    },
+    {
+      "name": "heart",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.5,
+        "width": 2.0,
+        "length": 2,
+        "eyeHeight": 2.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Odor Sleuth"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Helping Hand",
+          "Hyper Voice",
+          "Iron Tail",
+          "Last Resort",
+          "Role Play",
+          "Snore",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Captivate",
+          "Mimic",
+          "Refresh",
+          "Role Play",
+          "Work Up"
+        ],
+        "tmMoves9": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dig",
+          "Flash",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FurCoat"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 0,
+        "spawnLevel": 42,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/heart/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.furfrou",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/heart/none/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/heart/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/heart/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/heart/shiny/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/heart/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.0,
+      "catchRate": 160,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      },
+      "growth_data": {
+        "mean": 150.0,
+        "standard_deviation": 7.5,
+        "min_render_scale": 0.25,
+        "max_render_scale": 0.4
+      }
+    },
+    {
+      "name": "matron",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.5,
+        "width": 2.0,
+        "length": 2,
+        "eyeHeight": 2.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Odor Sleuth"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Helping Hand",
+          "Hyper Voice",
+          "Iron Tail",
+          "Last Resort",
+          "Role Play",
+          "Snore",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Captivate",
+          "Mimic",
+          "Refresh",
+          "Role Play",
+          "Work Up"
+        ],
+        "tmMoves9": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dig",
+          "Flash",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FurCoat"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 0,
+        "spawnLevel": 42,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/matron/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.furfrou",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/matron/none/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/matron/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/matron/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/matron/shiny/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/matron/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.0,
+      "catchRate": 160,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      },
+      "growth_data": {
+        "mean": 150.0,
+        "standard_deviation": 7.5,
+        "min_render_scale": 0.25,
+        "max_render_scale": 0.4
+      }
+    },
+    {
+      "name": "star",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 3.2,
+        "width": 2.2,
+        "length": 2.6,
+        "eyeHeight": 2.8,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Odor Sleuth"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Helping Hand",
+          "Hyper Voice",
+          "Iron Tail",
+          "Last Resort",
+          "Role Play",
+          "Snore",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Captivate",
+          "Mimic",
+          "Refresh",
+          "Role Play",
+          "Work Up"
+        ],
+        "tmMoves9": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dig",
+          "Flash",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FurCoat"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 0,
+        "spawnLevel": 42,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/star/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.furfrou",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/star/none/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/star/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/star/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/base/none/furfrou.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    },
+                    {
+                      "texture": "pixelmon:pokemon/676_furfrou/all/star/shiny/fur.png",
+                      "model": "pixelmon:pokemon/676_furfrou/all/star/none/fur.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/676_furfrou/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 0.4
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.0,
+      "catchRate": 160,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      },
+      "growth_data": {
+        "mean": 150.0,
+        "standard_deviation": 7.5,
+        "min_render_scale": 0.25,
+        "max_render_scale": 0.4
+      }
+    }
+  ],
+  "generation": 6
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "pixelmon:block/elevator/elevator",
+    "top": "pixelmon:block/elevator/elevator",
+    "side": "pixelmon:block/elevator/elevator_side"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "Shopkeeper",
+                  "message": "Welcome! I have a variety of portable day cares for you to choose from, for a price.",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:white_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 0.0
+                    }
+                  ],
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "Shopkeeper",
+                  "message": "If you feel like you need to complete your set, come back and see me.",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      },
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "Shopkeeper",
+                  "message": "Ever felt like you are always travelling long distances to allow your Pokemon a chance to breed? Then look no further!",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:white_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_day_care",
+                        "count": 1
+                      },
+                      "buyPrice": 25000.0,
+                      "sellPrice": 1000.0
+                    }
+                  ],
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "Shopkeeper",
+                  "message": "It\u0027s been a pleasure doing business with you. See you soon.",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.0,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Breeden"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/gardenermale1.png",
+            "fallback": "pixelmon:textures/steve/gardenermale1.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+"ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:standard_npc",
+      "profession": "minecraft:farmer"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "Tutors",
+  "spawnInfos": [
+    {
+      "preset": "pixelmon:tutor/transfer/transfer_tutor_0",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains",
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "biomes": [
+              "minecraft:snowy_plains"
+            ]
+          }
+        }
+      ],
+      "typeID": "npc",
+      "rarity": 5.0
+    }
+  ]
+}

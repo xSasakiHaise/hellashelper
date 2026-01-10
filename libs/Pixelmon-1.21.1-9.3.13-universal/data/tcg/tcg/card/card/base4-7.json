@@ -1,0 +1,63 @@
+{
+  "special": false,
+  "hp": 100,
+  "description": "card.base4-7.description",
+  "attacks": [
+    {
+      "name": "attack.base4-7.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 50,
+      "text": "attack.base4-7.0.description",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        },
+        {
+          "type": "tcg:disable_attack",
+          "turn_count": 999,
+          "self": true
+        }
+      ]
+    },
+    {
+      "name": "attack.base4-7.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base4-7.1.description",
+      "effects": [
+        {
+          "type": "tcg:missed",
+          "coin_side": "TAIL"
+        },
+        {
+          "type": "tcg:disable_attack",
+          "turn_count": 999,
+          "self": true
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 3,
+  "energies": "WATER",
+  "pokemon_id": 130,
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "FIGHTING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:holo_rare"
+}

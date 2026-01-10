@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#pixelmon:spawning/mountainous",
+  "step": "raw_generation",
+  "features": [
+    "pixelmon:ores/thunder_stone"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "Pachirisu Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Pachirisu status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/freezing_forests"
+        ]
+      },
+      "rarity": 150.0
+    },
+    {
+      "spec": "species:Pachirisu",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/freezing_forests"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

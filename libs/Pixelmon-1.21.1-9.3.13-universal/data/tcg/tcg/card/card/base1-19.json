@@ -1,0 +1,59 @@
+{
+  "special": false,
+  "hp": 70,
+  "description": "card.base1-19.description",
+  "attacks": [
+    {
+      "name": "attack.base1-19.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base1-19.0.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "attack.base1-19.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 70,
+      "text": "attack.base1-19.1.description",
+      "effects": [
+        {
+          "type": "tcg:damage_effect",
+          "self": true,
+          "location": "BENCH",
+          "count": 5,
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 2,
+  "energies": "FIGHTING",
+  "pokemon_id": 51,
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "resistance": {
+    "energy": "LIGHTNING",
+    "value": 30,
+    "modifier": "-"
+  },
+  "rarity": "tcg:rare"
+}

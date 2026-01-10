@@ -1,0 +1,14 @@
+{
+  "type": "pixelmon:infuser",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "pixelmon:moomoo_milk"
+    }
+  ],
+  "results": {
+    "item": "pixelmon:tapu_cocoa"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/tallgrass",
+    "textures": {
+        "cross": "pixelmon:block/long_grass_bottom",
+        "inventory": "pixelmon:block/long_grass_icon"
+    }
+}

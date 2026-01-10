@@ -1,0 +1,22 @@
+{
+  "id": "Rufflet Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Rufflet",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 10,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/freezing_forests"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

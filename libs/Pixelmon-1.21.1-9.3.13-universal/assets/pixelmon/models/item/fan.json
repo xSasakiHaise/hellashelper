@@ -1,0 +1,7 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "particle": "pixelmon:item/block/fan",
+    "layer0": "pixelmon:item/block/fan"
+  }
+}

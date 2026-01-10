@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:river",
+    {
+      "required": false,
+      "id": "terralith:desert_oasis"
+    },
+    {
+      "required": false,
+      "id": "terralith:red_oasis"
+    },
+    "minecraft:lukewarm_ocean",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:ocean",
+    "minecraft:deep_ocean",
+    "minecraft:warm_ocean"
+  ]
+}

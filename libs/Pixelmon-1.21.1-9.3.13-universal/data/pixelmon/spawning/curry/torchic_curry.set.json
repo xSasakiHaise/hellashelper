@@ -1,0 +1,20 @@
+{
+  "id": "Torchic Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Torchic",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

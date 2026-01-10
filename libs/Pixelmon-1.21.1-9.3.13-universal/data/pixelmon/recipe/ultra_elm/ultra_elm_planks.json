@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "pixelmon:ultra_elm_logs"
+    }
+  ],
+  "result": {
+    "id": "pixelmon:ultra_elm_planks",
+    "count": 4
+  }
+}

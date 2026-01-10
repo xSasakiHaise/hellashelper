@@ -1,0 +1,15 @@
+{
+  "name": "pixelmon:npc/shopkeeper/grass/jeweler",
+  "fallback": "pixelmon:npc/shopkeeper/grass/jeweler",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:npc/shopkeeper/misc/grass/evostones",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

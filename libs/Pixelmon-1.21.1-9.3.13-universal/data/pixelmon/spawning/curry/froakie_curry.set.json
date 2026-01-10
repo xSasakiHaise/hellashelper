@@ -1,0 +1,20 @@
+{
+  "id": "Froakie Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Froakie",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Fletchling Curry",
+  "spawnInfos": [
+    {
+      "spec": "species:Fletchling",
+      "stringLocationTypes": [
+        "Curry"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

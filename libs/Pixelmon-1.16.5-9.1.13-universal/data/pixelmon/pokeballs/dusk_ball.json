@@ -1,0 +1,19 @@
+{
+  "name": "dusk_ball",
+  "model": "pixelmon:models/pokeballs/base.pqc",
+  "texture": "pixelmon:textures/pokeballs/dusk_ball.png",
+  "flashingTexture": "pixelmon:textures/pokeballs/dusk_ball_flashing.png",
+  "ballSprite": "pixelmon:items/pokeballs/dusk_ball",
+  "lidSprite": "pixelmon:items/pokeballs/dusk_ball_lid",
+  "guiSprite": "pixelmon:textures/gui/overlay/dusk_ball.png",
+  "logic": "com.pixelmonmod.pixelmon.api.pokemon.item.pokeball.logic.DuskBall",
+  "bases": [
+    "platinum"
+  ],
+  "captureMethod": "gen8",
+  "catchBonus": 1,
+  "breakChance": 0.15,
+  "velocityModifier": 1,
+  "gravityModifier": 1,
+  "particles": false
+}

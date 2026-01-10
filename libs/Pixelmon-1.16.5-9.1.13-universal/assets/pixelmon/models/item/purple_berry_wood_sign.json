@@ -1,0 +1,6 @@
+{
+  "parent": "pixelmon:item/pixelmon_item",
+  "textures": {
+    "layer0": "pixelmon:items/block/berry_purple_sign"
+  }
+}

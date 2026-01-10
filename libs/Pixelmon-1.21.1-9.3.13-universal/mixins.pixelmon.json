@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "minVersion": "0.7.10",
+  "package": "com.pixelmonmod.mixin",
+  "refmap": "pixelmon.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinBlockItem",
+    "MixinCakeBlock",
+    "MixinComponentSerialization",
+    "MixinConsumeItemTrigger",
+    "MixinEntity",
+    "MixinGameTestRegistry",
+    "MixinLivingEntity",
+    "MixinPlayer",
+    "MixinServerCommonPacketListenerImpl",
+    "MixinServerPlayer",
+    "MixinWorldGenRegion",
+    "MutableComponentAccessor",
+    "PathFinderAccessor"
+  ],
+  "client": [
+    "MixinLocalPlayer",
+    "MixinWorldOpenFlows",
+    "RecipeBookComponentAccessor"
+  ]
+}

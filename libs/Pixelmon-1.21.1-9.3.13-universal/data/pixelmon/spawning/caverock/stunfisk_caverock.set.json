@@ -1,0 +1,26 @@
+{
+  "id": "Stunfisk Caverock",
+  "spawnInfos": [
+    {
+      "spec": "species:Stunfisk form:galarian",
+      "stringLocationTypes": [
+        "Cave Rock"
+      ],
+      "minLevel": 34,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

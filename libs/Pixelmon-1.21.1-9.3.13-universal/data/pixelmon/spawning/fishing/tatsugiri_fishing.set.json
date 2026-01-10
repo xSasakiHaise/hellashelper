@@ -1,0 +1,62 @@
+{
+    "id": "Tatsugiri Fishing",
+    "spawnInfos": [
+      {
+        "spec": "species:Tatsugiri form:curly",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/lakes",
+            "#pixelmon:spawning/rivers"
+          ]
+        },
+        "rarity": 20.0
+      },
+      {
+        "spec": "species:Tatsugiri form:droopy",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/lakes",
+            "#pixelmon:spawning/rivers"
+          ]
+        },
+        "rarity": 20.0
+      },
+      {
+        "spec": "species:Tatsugiri form:stretchy",
+        "stringLocationTypes": [
+          "Super Rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/lakes",
+            "#pixelmon:spawning/rivers"
+          ]
+        },
+        "rarity": 20.0
+      }
+    ]
+  }

@@ -1,0 +1,8 @@
+{
+  "description": {
+    "translate": "item.pixelmon.wild_music_disc.desc"
+  },
+  "comparator_output": 1,
+  "length_in_seconds": 131,
+  "sound_event": "pixelmon:pixelmon.music.battle.wild"
+}

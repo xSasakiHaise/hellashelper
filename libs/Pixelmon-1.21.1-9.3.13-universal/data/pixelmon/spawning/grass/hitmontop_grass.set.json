@@ -1,0 +1,24 @@
+{
+  "id": "Hitmontop Grass",
+  "spawnInfos": [
+    {
+      "spec": "species:Hitmontop",
+      "stringLocationTypes": [
+        "Grass"
+      ],
+      "minLevel": 20,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixelmon:pink_berry_wood_planks"
+    }
+  },
+  "result": {
+    "id": "pixelmon:pink_berry_wood_trapdoor",
+    "count": 2
+  }
+}

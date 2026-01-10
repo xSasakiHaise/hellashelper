@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "DBD",
+    "I I",
+    "F F"
+  ],
+  "key": {
+    "B": {
+      "item": "pixelmon:old_running_boots"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "id": "pixelmon:new_running_boots",
+    "count": 1
+  }
+}

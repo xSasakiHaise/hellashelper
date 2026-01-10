@@ -1,0 +1,24 @@
+{
+  "id": "Quaxwell",
+  "spawnInfos": [
+    {
+      "spec": "species:Quaxwell",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

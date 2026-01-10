@@ -1,0 +1,744 @@
+{
+  "name": "Greninja",
+  "dex": 658,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.9,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.9,
+        "hoverHeight": 1.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Haze",
+              "Night Slash",
+              "Pound",
+              "Quick Attack",
+              "Role Play",
+              "Water Gun",
+              "Water Shuriken"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Lick"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Smokescreen"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Shadow Sneak"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Spikes"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Substitute"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 68,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bounce",
+          "Gunk Shot",
+          "Hydro Cannon",
+          "Ice Punch",
+          "Icy Wind",
+          "Low Kick",
+          "Role Play",
+          "Snatch",
+          "Snore",
+          "Spite",
+          "Water Pledge",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Retaliate",
+          "Spikes",
+          "Switcheroo",
+          "Toxic Spikes"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Water Pulse",
+          "Low Kick",
+          "Acrobatics",
+          "Thief",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Icy Wind",
+          "Mud Shot",
+          "Rock Tomb",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Rain Dance",
+          "Snowscape",
+          "Dig",
+          "False Swipe",
+          "Brick Break",
+          "U-turn",
+          "Ice Punch",
+          "Sleep Talk",
+          "Waterfall",
+          "Grass Knot",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Swords Dance",
+          "Spikes",
+          "Toxic Spikes",
+          "Dark Pulse",
+          "Gunk Shot",
+          "Substitute",
+          "Liquidation",
+          "Surf",
+          "Helping Hand",
+          "Ice Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Water Pledge",
+          "Giga Impact",
+          "Hydro Cannon",
+          "Hyper Beam",
+          "Tera Blast",
+          "Haze",
+          "Smack Down",
+          "Weather Ball",
+          "Sludge Wave",
+          "Upper Hand"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bestow",
+          "Bubble",
+          "Camouflage",
+          "Counter",
+          "Cut",
+          "Dig",
+          "Dive",
+          "Feint Attack",
+          "Happy Hour",
+          "Mat Block",
+          "Mind Reader",
+          "Mud Sport",
+          "Power-Up Punch",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Spikes",
+          "Strength",
+          "Switcheroo",
+          "Toxic Spikes",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Fling",
+          "Brutal Swing",
+          "Acrobatics",
+          "Giga Impact",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Surf",
+          "Dark Pulse",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Fling",
+          "Acrobatics",
+          "Giga Impact",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Torrent"
+        ],
+        "hiddenAbilities": [
+          "Protean"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.1,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.2,
+            "z": 0.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 72,
+        "attack": 95,
+        "defense": 67,
+        "specialAttack": 103,
+        "specialDefense": 71,
+        "speed": 122
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 239,
+        "baseFriendship": 0,
+        "spawnLevel": 36,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/658_greninja/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.greninja",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/658_greninja/all/base/none/texture.png",
+                      "model": "pixelmon:pokemon/658_greninja/all/base/none/greninja.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/658_greninja/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/658_greninja/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.6
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/658_greninja/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/658_greninja/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/658_greninja/all/base/none/greninja.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/658_greninja/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/658_greninja/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.6
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "zombie",
+              "sprite": "pixelmon:pokemon/658_greninja/all/base/zombie/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/658_greninja/all/base/zombie/texture.png",
+                      "model": "pixelmon:pokemon/658_greninja/all/base/none/greninja.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/658_greninja/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/658_greninja/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.6
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "alter",
+              "sprite": "pixelmon:pokemon/658_greninja/all/base/alter/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/658_greninja/all/base/alter/texture.png",
+                      "emissive": "pixelmon:pokemon/658_greninja/all/base/alter/emissive.png",
+                      "model": "pixelmon:pokemon/658_greninja/all/base/none/greninja.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/658_greninja/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/658_greninja/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.6
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "online",
+              "sprite": "pixelmon:pokemon/658_greninja/all/base/online/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/658_greninja/all/base/online/texture.png",
+                      "model": "pixelmon:pokemon/658_greninja/all/base/none/greninja-online.bmd",
+                      "animations": [
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/658_greninja/all/base/none/idle.bmd"
+                        },
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/658_greninja/all/base/none/walk.bmd"
+                        }
+                      ],
+                      "scale": 3.6
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "preEvolutions": [
+        "Frogadier",
+        "Froakie"
+      ],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 40.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "speed": 3
+      },
+      "growth_data": {
+        "mean": 190.0,
+        "standard_deviation": 9.5,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    },
+    {
+      "name": "battle_bond",
+      "abilities": {
+        "abilities": [
+          "BattleBond"
+        ]
+      },
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "malePercentage": 100
+    },
+    {
+      "name": "ash",
+      "abilities": {
+        "abilities": [
+          "BattleBond"
+        ]
+      },
+      "battleStats": {
+        "hp": 72,
+        "attack": 145,
+        "defense": 67,
+        "specialAttack": 153,
+        "specialDefense": 71,
+        "speed": 132
+      },
+      "tags": [
+        "temp"
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/658_greninja/all/ash/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/658_greninja/all/ash/none/texture.png",
+                      "model": "pixelmon:pokemon/658_greninja/all/ash/none/ashgreninja.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/658_greninja/all/ash/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/658_greninja/all/ash/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.6
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/658_greninja/all/ash/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/658_greninja/all/ash/shiny/texture.png",
+                      "model": "pixelmon:pokemon/658_greninja/all/ash/none/ashgreninja.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/658_greninja/all/ash/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/658_greninja/all/ash/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.6
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            },
+            {
+              "name": "zombie",
+              "sprite": "pixelmon:pokemon/658_greninja/all/ash/zombie/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/658_greninja/all/ash/zombie/texture.png",
+                      "model": "pixelmon:pokemon/658_greninja/all/ash/none/ashgreninja.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/658_greninja/all/ash/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/658_greninja/all/ash/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.6
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "alter",
+              "sprite": "pixelmon:pokemon/658_greninja/all/ash/alter/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/658_greninja/all/ash/alter/texture.png",
+                      "model": "pixelmon:pokemon/658_greninja/all/ash/none/ashgreninja.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/658_greninja/all/ash/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/658_greninja/all/ash/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.6
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "online",
+              "sprite": "pixelmon:pokemon/658_greninja/all/ash/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/658_greninja/all/ash/none/texture.png",
+                      "model": "pixelmon:pokemon/658_greninja/all/ash/none/ashgreninja.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/658_greninja/all/ash/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/658_greninja/all/ash/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.6
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "malePercentage": 100
+    }
+  ],
+  "generation": 6
+}

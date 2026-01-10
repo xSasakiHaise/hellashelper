@@ -1,0 +1,52 @@
+{
+  "special": false,
+  "hp": 90,
+  "description": "card.base1-13.description",
+  "attacks": [
+    {
+      "name": "attack.base1-13.0.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 30,
+      "text": "attack.base1-13.0.description",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "FIRE",
+          "self": false,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "attack.base1-13.1.name",
+      "costs": [
+        "PSYCHIC",
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "damage": 40,
+      "text": "attack.base1-13.1.description",
+      "effects": [
+        {
+          "type": "tcg:discard_attachment",
+          "energy": "FIRE",
+          "self": false,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "retreat_cost": 3,
+  "energies": "WATER",
+  "pokemon_id": 62,
+  "weakness": {
+    "energy": "GRASS",
+    "value": 2,
+    "modifier": "*"
+  },
+  "rarity": "tcg:holo_rare"
+}

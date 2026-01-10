@@ -1,0 +1,8 @@
+{
+  "range": {
+    "type": "pixelmon:range",
+    "min": -2,
+    "max": 2
+  },
+  "sprite": "pixelmon:textures/growth/empty.png"
+}

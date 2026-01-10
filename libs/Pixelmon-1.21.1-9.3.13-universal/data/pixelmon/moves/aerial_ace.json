@@ -1,0 +1,44 @@
+{
+  "attackIndex": 203,
+  "attackName": "Aerial Ace",
+  "attackType": "FLYING",
+  "attackCategory": "PHYSICAL",
+  "basePower": 60,
+  "ppBase": 20,
+  "ppMax": 32,
+  "accuracy": -1,
+  "makesContact": true,
+  "effects": [
+    {
+      "modifiers": [],
+      "persists": false,
+      "effectTypeID": "AlwaysHit"
+    }
+  ],
+  "animations": [
+    {
+      "id": "run"
+    }
+  ],
+  "targetingInfo": {
+    "hitsAll": false,
+    "hitsOppositeFoe": true,
+    "hitsAdjacentFoe": true,
+    "hitsExtendedFoe": true,
+    "hitsSelf": false,
+    "hitsAdjacentAlly": true,
+    "hitsExtendedAlly": true
+  },
+  "flags": {
+	  "slicing": true
+  },
+  "z": [
+    {
+      "crystal": "pixelmon:flyinium_z",
+      "attackName": "Supersonic Skystrike",
+      "basePower": 120,
+      "effects": [],
+      "allowedPokemon": []
+    }
+  ]
+}

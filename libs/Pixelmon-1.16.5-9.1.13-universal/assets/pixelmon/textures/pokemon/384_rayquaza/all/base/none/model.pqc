@@ -1,0 +1,5 @@
+$body rayquaza.bmd
+$anim walk fly.bmd
+$anim fly fly.bmd
+$anim idle idle.bmd
+$scale 1.0

@@ -1,0 +1,17 @@
+{
+  "feature": "pixelmon:trees/apricorn/black_apricorn_tree",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "pixelmon:apricorn_plant_black",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+  ]
+}

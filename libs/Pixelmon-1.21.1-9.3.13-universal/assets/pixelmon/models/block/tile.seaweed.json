@@ -1,0 +1,7 @@
+{
+	"parent": "block/tallgrass",
+	"textures": {
+        "all": "pixelmon:block/seaweedicon",
+		"cross": "pixelmon:block/seaweedicon"
+	}
+}

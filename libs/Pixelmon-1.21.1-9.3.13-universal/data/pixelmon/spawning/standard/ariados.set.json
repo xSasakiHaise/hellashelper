@@ -1,0 +1,42 @@
+{
+  "id": "Ariados",
+  "spawnInfos": [
+    {
+      "spec": "species:Ariados",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/evil",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Ariados",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "biomesoplenty:spider_nest",
+          "terralith:cave/infested_caves"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

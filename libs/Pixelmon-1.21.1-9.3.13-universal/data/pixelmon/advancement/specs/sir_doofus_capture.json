@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+		      "item" : "pixelmon:pixelmon_sprite",
+		      "count": 1,
+		      "components": {
+		        "minecraft:custom_data": {
+		          "ndex": 399,
+		          "palette": "none",
+		          "form": ""
+		        }
+		      }
+		},
+		"title": {
+			"translate": "advancements.sir_doofus.title"
+		},
+		"description": {
+			"translate": "advancements.sir_doofus.description"
+		},
+		"hidden": true
+	},
+    "parent" : "pixelmon:specs/spec_trigger",
+	"criteria": {
+		"sir_doofus_spec_trigger": {
+			"trigger": "pixelmon:spec_trigger",
+			"conditions" : {
+				"spec" : "Bidoof form:sirdoofusiii"
+			}
+		}
+	}
+}

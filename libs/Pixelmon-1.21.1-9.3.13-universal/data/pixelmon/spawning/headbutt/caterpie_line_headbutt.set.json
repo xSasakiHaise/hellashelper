@@ -1,0 +1,201 @@
+{
+  "id": "Caterpie Headbutt",
+  "spawnInfos": [
+    {
+      "spec": "species:Caterpie status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "birch",
+          "ebony",
+          "ethereal",
+          "willow",
+          "palm"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Caterpie",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 3,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "birch",
+          "ebony",
+          "ethereal",
+          "willow",
+          "palm"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Metapod status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 9,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "birch",
+          "ebony",
+          "ethereal",
+          "willow",
+          "palm"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Metapod",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 9,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "birch",
+          "ebony",
+          "ethereal",
+          "willow",
+          "palm"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Butterfree status:Sleep",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "variant": [
+          "birch",
+          "ebony",
+          "ethereal",
+          "willow",
+          "palm",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical",
+          "byg:crag_gardens",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Butterfree",
+      "stringLocationTypes": [
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "variant": [
+          "birch",
+          "ebony",
+          "ethereal",
+          "willow",
+          "palm",
+          "pixelmon:ultra_jungle"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical",
+          "byg:crag_gardens",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "name": "Fennekin",
+  "dex": 653,
+  "defaultForms": [
+    "base"
+  ],
+  "forms": [
+    {
+      "name": "base",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Scratch",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Ember"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Fire Spin"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Fire Blast"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Fire Pledge",
+          "Foul Play",
+          "Heat Wave",
+          "Iron Tail",
+          "Magic Coat",
+          "Magic Room",
+          "Snore"
+        ],
+        "eggMoves": [
+          "Copycat",
+          "Heat Wave",
+          "Hypnosis",
+          "Magic Room",
+          "Wish"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Psybeam",
+          "Thief",
+          "Fire Spin",
+          "Facade",
+          "Swift",
+          "Mud Shot",
+          "Flame Charge",
+          "Stored Power",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Psyshock",
+          "Foul Play",
+          "Sleep Talk",
+          "Light Screen",
+          "Grass Knot",
+          "Rest",
+          "Imprison",
+          "Skill Swap",
+          "Substitute",
+          "Will-O-Wisp",
+          "Trick",
+          "Heat Wave",
+          "Psychic",
+          "Encore",
+          "Flamethrower",
+          "Calm Mind",
+          "Helping Hand",
+          "Psychic Terrain",
+          "Fire Blast",
+          "Fire Pledge",
+          "Overheat",
+          "Trick Room",
+          "Flare Blitz",
+          "Solar Beam",
+          "Tera Blast",
+          "Burning Jealousy"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Copycat",
+          "Cut",
+          "Heat Wave",
+          "Hypnosis",
+          "Incinerate",
+          "Lucky Chant",
+          "Magic Coat",
+          "Magic Room",
+          "Power-Up Punch",
+          "Psychic Terrain",
+          "Secret Power",
+          "Wish"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Will-O-Wisp",
+          "Embargo",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "Magician"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "specialAttack": 62,
+        "specialDefense": 60,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 0,
+        "spawnLevel": 5,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "sprite": "pixelmon:pokemon/653_fennekin/all/base/none/sprite.png",
+              "sounds": [
+                {
+                  "sound_id": "pixelmon:pixelmon.mob.fennekin",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "texture": "pixelmon:pokemon/653_fennekin/all/base/none/texture.png",
+                      "movement_threshold": 0.02,
+                      "model": "pixelmon:pokemon/653_fennekin/all/base/none/fennekin.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/653_fennekin/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/653_fennekin/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.3
+                    }
+                  ]
+                }
+              ],
+              "tags": []
+            },
+            {
+              "name": "shiny",
+              "sprite": "pixelmon:pokemon/653_fennekin/all/base/shiny/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/653_fennekin/all/base/shiny/texture.png",
+                      "model": "pixelmon:pokemon/653_fennekin/all/base/none/fennekin.bmd",
+                      "animations": [
+                        {
+                          "type": "walk",
+                          "animation": "pixelmon:pokemon/653_fennekin/all/base/none/walk.bmd"
+                        },
+                        {
+                          "type": "idle",
+                          "animation": "pixelmon:pokemon/653_fennekin/all/base/none/idle.bmd"
+                        }
+                      ],
+                      "scale": 3.3
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              },
+              "tags": [
+                "shiny"
+              ]
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "base",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 9.4,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 16,
+          "to": "Braixen",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      },
+      "growth_data": {
+        "mean": 40.0,
+        "standard_deviation": 2.0,
+        "min_render_scale": 0.1,
+        "max_render_scale": 4.0
+      }
+    }
+  ],
+  "generation": 6
+}

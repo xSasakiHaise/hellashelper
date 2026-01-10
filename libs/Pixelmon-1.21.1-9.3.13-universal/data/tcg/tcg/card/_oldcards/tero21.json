@@ -1,0 +1,38 @@
+{
+  "special": false,
+  "hp": 80,
+  "description": "",
+  "pokemon_id": 6,
+  "previous_pokemon_id": 5,
+  "retreat_cost": 3,
+  "rarity": "tcg:rare",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.TERO21.2.name",
+      "costs": [
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 50,
+      "text": "attack.TERO21.2.text",
+      "effects": [
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 1,
+          "flip_type": "PerEnergy"
+        },
+        {
+          "type": "tcg:flips_multiply",
+          "flip_count": 1,
+          "flip_type": "PerEnergy"
+        }
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

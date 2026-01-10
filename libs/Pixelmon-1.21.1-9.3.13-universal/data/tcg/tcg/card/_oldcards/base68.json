@@ -1,0 +1,34 @@
+{
+  "special": false,
+  "hp": 50,
+  "description": "",
+  "pokemon_id": 37,
+  "previous_pokemon_id": 0,
+  "retreat_cost": 1,
+  "rarity": "tcg:common",
+  "weakness": {
+    "energy": "WATER",
+    "value": 2,
+    "modifier": "*"
+  },
+  "attacks": [
+    {
+      "name": "attack.BASE68.1.name",
+      "costs": [
+        "FIRE",
+        "FIRE"
+      ],
+      "damage": 10,
+      "text": "attack.BASE68.1.text",
+      "effects": [
+        {
+          "type": "tcg:condition",
+          "condition": "CONFUSED",
+          "self": false,
+          "required_coin_side": "HEAD"
+        }
+      ]
+    }
+  ],
+  "energies": "FIRE"
+}

@@ -1,0 +1,19 @@
+{
+  "detection": {
+    "type": "pixelmon:simple",
+    "types": [
+      "minecraft:axolotl"
+    ]
+  },
+  "replacement": {
+    "type": "pixelmon:simple",
+    "replacements": [
+      "wooper",
+      "mudkip",
+      "marshtomp",
+      "swampert",
+      "quagsire",
+      "clodsire"
+    ]
+  }
+}
